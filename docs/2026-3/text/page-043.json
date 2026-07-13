@@ -13,7 +13,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "UNITEDHEALTH GROUP INC",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "03/20/2026",

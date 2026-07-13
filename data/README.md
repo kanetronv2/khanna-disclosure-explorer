@@ -21,6 +21,10 @@ Each table is available as newline-delimited JSON (`.jsonl`) and UTF-8 CSV:
 `manifest.json` lists row counts, SHA-256 checksums, source coverage, schema version, and license.
 `quality-report.json` contains the most recent structural audit. The canonical schema is
 `schema/open-data.schema.json`.
+`text-quality-audit.json` is a row-level review queue for likely OCR debris, merged option
+contracts, embedded account headers, fragments, and other suspicious transaction names. It also
+flags every transaction on pages whose own provenance notes say OCR or checkbox columns were
+uncertain. Its warnings preserve source pointers and do not silently rewrite uncertain evidence.
 
 ## Important semantics
 
@@ -51,8 +55,8 @@ make open-data
 This recompiles the website datasets, rebuilds the normalized tables and lazy `site-data/`
 chunks, checks every referenced
 PDF/page image/source JSON/Tesseract file, validates required descriptions and numeric ranges,
-and exits nonzero on a hard error. `make audit` rebuilds and audits without recompiling the
-website datasets first.
+audits every transaction name for likely OCR corruption, and exits nonzero on a hard structural
+error. `make audit` rebuilds and audits without recompiling the website datasets first.
 
 Example with Python:
 

@@ -34,6 +34,21 @@ PAGE_TYPES = {
 }
 PAGE_TYPE_ALIASES["ptr"] = "ptr_transactions"
 
+TEXT_QUALITY_PATTERNS = {
+    "embedded_account_header": re.compile(
+        r"\b(?:MURA Holdings|Declaration of Trust|Trust FBO|Grandchildren(?:'s)? Education Trust)\b",
+        re.I,
+    ),
+    "ocr_table_debris": re.compile(
+        r"={2,}|\b(?:Transact(?:ion)?|Spous(?:e|r)|Depend(?:ent|ant)|Provide full name)\b",
+        re.I,
+    ),
+    "checkbox_artifact": re.compile(r"(?:\s|_)[xX]{1,2}\s*$"),
+}
+TEXT_FRAGMENT_NAMES = {
+    "CMN", "ICMN", "PERPETUAL", "STOCK", "COMMON STOCK", "IN CMN", "CMN CLASS A",
+}
+
 
 def clean(value):
     if not isinstance(value, str):
@@ -120,6 +135,36 @@ def source_pdf(doc):
     return "disclosures.pdf" if doc == "2024-1" else f"docs/src/{doc}.pdf"
 
 
+def text_quality_rules(value):
+    """Return conservative, review-oriented flags for visibly corrupted row text."""
+    name = clean(value) or ""
+    rules = [label for label, pattern in TEXT_QUALITY_PATTERNS.items() if pattern.search(name)]
+    option_contracts = re.findall(r"\b(?:PUT|CALL)(?:\s|/|\()", name, re.I)
+    if len(option_contracts) > 1:
+        rules.append("multiple_option_contracts")
+    if len(name) > 120:
+        rules.append("implausibly_long")
+    if name.upper().strip("[]()'\" .,:;-_") in TEXT_FRAGMENT_NAMES:
+        rules.append("standalone_fragment")
+    normalized = re.sub(r"[^A-Z0-9]", "", name.upper())
+    if len(normalized) >= 24 and len(normalized) % 2 == 0:
+        half = len(normalized) // 2
+        if normalized[:half] == normalized[half:]:
+            rules.append("duplicated_text")
+    return sorted(set(rules))
+
+
+def page_text_quality_rules(page):
+    """Return page-level provenance warnings that apply to every transaction row."""
+    uncertainty_text = json.dumps(page.get("uncertainties") or [], ensure_ascii=False)
+    rules = []
+    if re.search(r"OCR-assisted extraction|local Vision OCR|OCR noise or possible merged text", uncertainty_text, re.I):
+        rules.append("ocr_assisted_page")
+    if re.search(r"(?:tx_type|checkbox).*(?:not confidently|lower confidence)", uncertainty_text, re.I):
+        rules.append("ambiguous_transaction_columns")
+    return sorted(set(rules))
+
+
 def write_jsonl(path, rows):
     with path.open("w", encoding="utf-8", newline="\n") as fh:
         for row in rows:
@@ -159,6 +204,7 @@ def build():
     raw_page_types, normalized_page_types = Counter(), Counter()
     unparsed_dates = Counter()
     page_index = {}
+    page_text_rules = {}
 
     for year in YEARS:
         data = read_data(year)
@@ -177,6 +223,7 @@ def build():
             document_page = local_page_number(image)
             page_id = f"page:{doc}:{document_page:04d}"
             page_index[(year, int(pdf_page))] = (page_id, doc)
+            page_text_rules[page_id] = page_text_quality_rules(source_page)
             if page_id not in page_ids:
                 page_ids.add(page_id)
                 raw_page_types[ptype_raw] += 1
@@ -420,6 +467,47 @@ def build():
     notes.append({"check": "page_type_normalization", "raw": dict(sorted(raw_page_types.items())),
                   "normalized": dict(sorted(normalized_page_types.items())), "severity": "info"})
 
+    text_quality_findings = []
+    for row in page_rows:
+        if row["row_kind"] != "tx":
+            continue
+        rules = sorted(set(text_quality_rules(row["asset_name"]) + page_text_rules.get(row["page_id"], [])))
+        if rules:
+            text_quality_findings.append({
+                "finding_id": f"text-quality:{row['document_id']}:{row['document_page_number']:04d}:{row['row_number']:04d}",
+                "year": row["year"],
+                "document_id": row["document_id"],
+                "document_page_number": row["document_page_number"],
+                "row_number": row["row_number"],
+                "page_id": row["page_id"],
+                "source_json_path": row["source_json_path"],
+                "asset_name": row["asset_name"],
+                "rules": rules,
+                "severity": "warning",
+            })
+    text_quality_counts = Counter(
+        rule for finding in text_quality_findings for rule in finding["rules"]
+    )
+    text_quality_year_counts = Counter(str(finding["year"]) for finding in text_quality_findings)
+    text_quality_document_counts = Counter(finding["document_id"] for finding in text_quality_findings)
+    text_quality_path = ROOT / "data" / "text-quality-audit.json"
+    text_quality_path.write_text(json.dumps({
+        "status": "review_required" if text_quality_findings else "pass",
+        "scope": "Every transcribed transaction row in every source filing",
+        "finding_count": len(text_quality_findings),
+        "rule_counts": dict(sorted(text_quality_counts.items())),
+        "year_counts": dict(sorted(text_quality_year_counts.items())),
+        "document_counts": dict(sorted(text_quality_document_counts.items())),
+        "findings": text_quality_findings,
+    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    notes.append({
+        "check": "transaction_text_quality",
+        "finding_count": len(text_quality_findings),
+        "rule_counts": dict(sorted(text_quality_counts.items())),
+        "report": "data/text-quality-audit.json",
+        "severity": "warning" if text_quality_findings else "info",
+    })
+
     report = {
         "schema_version": SCHEMA_VERSION,
         "status": "pass" if not issues else "fail",
@@ -436,6 +524,8 @@ def build():
             "page_type_distribution": dict(sorted(normalized_page_types.items())),
             "page_row_kind_distribution": dict(sorted(Counter(row["row_kind"] for row in page_rows).items())),
             "owner_code_distribution": dict(sorted(Counter((row["owner_code"] or "not_stated") for row in page_rows).items())),
+            "text_quality_findings": len(text_quality_findings),
+            "text_quality_rule_distribution": dict(sorted(text_quality_counts.items())),
             "pending_pages": pending,
             "missing_or_invalid_records": len(issues),
         },
@@ -458,6 +548,9 @@ def build():
             })
     files.append({"path": "data/quality-report.json", "format": "json", "records": 1,
                   "bytes": report_path.stat().st_size, "sha256": sha256(report_path)})
+    files.append({"path": "data/text-quality-audit.json", "format": "json",
+                  "records": len(text_quality_findings), "bytes": text_quality_path.stat().st_size,
+                  "sha256": sha256(text_quality_path)})
     manifest = {
         "title": "Ro Khanna financial disclosure open data",
         "schema_version": SCHEMA_VERSION,

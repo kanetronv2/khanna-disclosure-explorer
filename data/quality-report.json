@@ -2,9 +2,9 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 1858,
+      "high": 1861,
       "low": 299,
-      "medium": 1891,
+      "medium": 1888,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -12,22 +12,22 @@
     "normalized_records": {
       "assets": 23099,
       "documents": 127,
-      "page_rows": 106890,
+      "page_rows": 106901,
       "pages": 4057,
-      "transactions": 48281,
-      "uncertainties": 17307
+      "transactions": 48292,
+      "uncertainties": 17301
     },
     "owner_code_distribution": {
-      "DC": 29481,
+      "DC": 29491,
       "JT": 14,
-      "SP": 73006,
+      "SP": 73007,
       "not_stated": 4389
     },
     "page_images": 4057,
     "page_row_kind_distribution": {
       "asset": 28131,
       "group": 2494,
-      "tx": 76265
+      "tx": 76276
     },
     "page_source_json": 4057,
     "page_type_distribution": {
@@ -45,6 +45,18 @@
     "pending_pages": 0,
     "source_pdfs": 127,
     "tesseract_text_files": 4057,
+    "text_quality_findings": 2488,
+    "text_quality_rule_distribution": {
+      "ambiguous_transaction_columns": 1944,
+      "checkbox_artifact": 85,
+      "duplicated_text": 3,
+      "embedded_account_header": 20,
+      "implausibly_long": 7,
+      "multiple_option_contracts": 3,
+      "ocr_assisted_page": 1437,
+      "ocr_table_debris": 12,
+      "standalone_fragment": 59
+    },
     "valid_page_source_json": 4057,
     "years": [
       "2016",
@@ -96,6 +108,23 @@
         "schedule_h": 3
       },
       "severity": "info"
+    },
+    {
+      "check": "transaction_text_quality",
+      "finding_count": 2488,
+      "report": "data/text-quality-audit.json",
+      "rule_counts": {
+        "ambiguous_transaction_columns": 1944,
+        "checkbox_artifact": 85,
+        "duplicated_text": 3,
+        "embedded_account_header": 20,
+        "implausibly_long": 7,
+        "multiple_option_contracts": 3,
+        "ocr_assisted_page": 1437,
+        "ocr_table_debris": 12,
+        "standalone_fragment": 59
+      },
+      "severity": "warning"
     }
   ],
   "schema_version": "1.0.0",
