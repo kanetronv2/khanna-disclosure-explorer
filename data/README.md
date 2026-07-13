@@ -48,7 +48,8 @@ From the repository root:
 make open-data
 ```
 
-This recompiles the website datasets, rebuilds all normalized tables, checks every referenced
+This recompiles the website datasets, rebuilds the normalized tables and lazy `site-data/`
+chunks, checks every referenced
 PDF/page image/source JSON/Tesseract file, validates required descriptions and numeric ranges,
 and exits nonzero on a hard error. `make audit` rebuilds and audits without recompiling the
 website datasets first.

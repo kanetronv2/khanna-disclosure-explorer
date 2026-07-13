@@ -5,6 +5,7 @@
 /LICENSE
 /Makefile
 /data
+/data-*.js
 /scripts
 /ocr/text
 /ocr/descr

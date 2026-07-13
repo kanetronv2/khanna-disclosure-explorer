@@ -1,32 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="app-loading">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ro Khanna Finances, Net Worth &amp; Stock Trades | Financial Disclosure Explorer</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💸</text></svg>">
-<link rel="canonical" href="https://khanna-disclosure-explorer.vercel.app/">
+<link rel="canonical" href="https://rokhanna.money/">
 
-<!-- Social sharing. Absolute URLs point at the default Vercel domain for this repo
-     (project "khanna-disclosure-explorer"). If you rename the Vercel project or add a
-     custom domain, update og:url, og:image, and twitter:image below. -->
+<!-- Social sharing. Absolute URLs use the public canonical domain. -->
 <meta name="description" content="Search Ro Khanna's finances, estimated net worth range, assets, investments, and stock trades from House financial disclosures, with source PDFs and scanned pages.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="keywords" content="Ro Khanna finances, Ro Khanna net worth, Ro Khanna trades, Ro Khanna stock trades, Ro Khanna financial disclosure, congressional stock trades">
 <meta name="author" content="Khanna Disclosure Explorer">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ro Khanna Financial Disclosure Explorer">
-<meta property="og:url" content="https://khanna-disclosure-explorer.vercel.app/">
+<meta property="og:url" content="https://rokhanna.money/">
 <meta property="og:title" content="Ro Khanna Finances, Net Worth &amp; Stock Trades">
 <meta property="og:description" content="Searchable House disclosure data for Ro Khanna's finances, assets, estimated net worth range, and stock trades, linked back to the original scanned filings.">
-<meta property="og:image" content="https://khanna-disclosure-explorer.vercel.app/assets/og-image.jpg">
+<meta property="og:image" content="https://rokhanna.money/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Rep. Ro Khanna speaking at a House hearing">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ro Khanna Finances, Net Worth &amp; Stock Trades">
 <meta name="twitter:description" content="Search Ro Khanna's finances, assets, estimated net worth range, and stock trades from House financial disclosures.">
-<meta name="twitter:image" content="https://khanna-disclosure-explorer.vercel.app/assets/og-image.jpg">
+<meta name="twitter:image" content="https://rokhanna.money/assets/og-image.jpg">
 <meta name="twitter:image:alt" content="Rep. Ro Khanna speaking at a House hearing">
 <script type="application/ld+json">
 {
@@ -34,7 +32,7 @@
   "@type": "Dataset",
   "name": "Ro Khanna Financial Disclosure Explorer",
   "description": "Searchable transcription of Rep. Ro Khanna's House financial disclosures, including assets, investments, transaction ranges, stock trades, and estimated net worth ranges from official filings.",
-  "url": "https://khanna-disclosure-explorer.vercel.app/",
+  "url": "https://rokhanna.money/",
   "keywords": [
     "Ro Khanna finances",
     "Ro Khanna net worth",
@@ -68,6 +66,8 @@
   }
   *{box-sizing:border-box} html,body{height:100%}
   body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  html.app-loading main,html.app-loading footer{visibility:hidden}
+  html.app-loading main{min-height:100vh}
   a{color:var(--accent)}
   .wrap{max-width:1280px;margin:0 auto;padding:0 20px}
 
@@ -95,10 +95,12 @@
   nav.tabs button{background:none;border:none;color:#98a2b3;font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;border-radius:8px 8px 0 0}
   nav.tabs button:hover{color:#fff}
   nav.tabs button.on{background:var(--bg);color:var(--ink)}
-  nav.tabs .yearwrap{margin-left:auto;align-self:center;display:flex;align-items:center;gap:7px}
-  nav.tabs .yearwrap .yl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#f2c94c}
-  nav.tabs select{align-self:center;background:#f2c94c;color:#101828;border:1px solid #f2c94c;border-radius:8px;padding:7px 12px;font-size:13.5px;font-weight:750;cursor:pointer;box-shadow:0 1px 4px rgba(242,201,76,.35)}
-  nav.tabs select:hover{background:#f7d977;border-color:#f7d977}
+  .nav-row{display:flex;align-items:flex-end;flex-wrap:wrap}
+  .nav-row nav.tabs{flex:1}
+  .nav-shell .yearwrap{margin-left:auto;align-self:center;display:flex;align-items:center;gap:7px}
+  .nav-shell .yearwrap .yl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#f2c94c}
+  .nav-shell select{align-self:center;background:#f2c94c;color:#101828;border:1px solid #f2c94c;border-radius:8px;padding:7px 12px;font-size:13.5px;font-weight:750;cursor:pointer;box-shadow:0 1px 4px rgba(242,201,76,.35)}
+  .nav-shell select:hover{background:#f7d977;border-color:#f7d977}
   .toc .sec.doc{background:#101828;color:#f2c94c;font-weight:700;letter-spacing:.08em;position:sticky;top:0;z-index:2;padding:8px 12px}
 
   main{padding:22px 0 60px}
@@ -219,7 +221,7 @@
   .nav-shell nav.tabs{margin-top:0;min-height:48px;align-items:flex-end}
   .nav-shell nav.tabs button{border-radius:8px 8px 0 0;padding:13px 14px 12px}
   .nav-shell nav.tabs button.on{background:var(--bg);box-shadow:inset 0 3px 0 #f2c94c}
-  nav.tabs .yearwrap{padding-bottom:7px}
+  .nav-shell .yearwrap{padding-bottom:7px}
 
   .section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:12px}
   .section-heading h2{font-size:20px;margin:1px 0 0;letter-spacing:-.015em}
@@ -322,11 +324,10 @@
     .top .deck{font-size:12px;line-height:1.4}
     .top .why{margin-top:11px;font-size:11.5px;line-height:1.45;padding:8px 10px}
     .nav-shell .wrap{padding:0 10px}
-    .nav-shell nav.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;align-items:end}
+    .nav-shell nav.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;align-items:end;flex-basis:100%;order:2}
     .nav-shell nav.tabs button{padding:10px 4px;font-size:12px;min-height:44px}
-    nav.tabs .yearwrap{grid-column:1/-1;grid-row:1;justify-content:flex-end;margin:0;padding:5px 0 2px}
-    nav.tabs button{grid-row:2}
-    nav.tabs select{padding:4px 9px;font-size:12px;min-height:36px}
+    .nav-shell .yearwrap{order:1;flex-basis:100%;justify-content:flex-end;margin:0;padding:5px 0 2px}
+    .nav-shell select{padding:4px 9px;font-size:12px;min-height:36px}
     main{padding-top:14px}
     .story-primary{padding:20px}
     .story-primary h2{font-size:31px}
@@ -384,7 +385,7 @@
 <header class="top">
   <div class="wrap">
     <div class="masthead">
-      <img class="avatar" src="assets/khanna.jpg" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
+      <img class="avatar" src="assets/khanna-avatar.webp?v=64b260d6d1e0" width="144" height="144" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
       <div class="masttext">
         <div class="kicker">2024 Annual Financial Disclosure · U.S. House · California 17th</div>
         <h1>Inside Ro Khanna’s Financial Disclosures</h1>
@@ -395,13 +396,14 @@
   </div>
 </header>
 <div class="nav-shell">
-  <div class="wrap">
+  <div class="wrap nav-row">
     <nav class="tabs" role="tablist" aria-label="Disclosure sections">
       <button id="tab-overview" role="tab" aria-controls="v-overview" aria-selected="true" data-v="overview" class="on">Overview</button>
       <button id="tab-assets" role="tab" aria-controls="v-assets" aria-selected="false" tabindex="-1" data-v="assets">Assets</button>
       <button id="tab-txs" role="tab" aria-controls="v-txs" aria-selected="false" tabindex="-1" data-v="txs">Transactions</button>
       <button id="tab-doc" role="tab" aria-controls="v-doc" aria-selected="false" tabindex="-1" data-v="doc">Document</button>
     </nav>
+    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option></select></div>
   </div>
 </div>
 
@@ -540,11 +542,12 @@
   <div class="photo-credit">Header photo: Kevin Dietsch/Getty Images (editorial).</div>
 </div></footer>
 
+<script src="site-data/summaries.js"></script>
 <script>
-const FD_YEARS = {'2016':'data-2016.js','2017':'data-2017.js','2018':'data-2018.js','2019':'data-2019.js','2020':'data-2020.js','2021':'data-2021.js','2022':'data-2022.js','2023':'data-2023.js','2024':'data-2024.js','2025':'data-2025.js','2026':'data-2026.js'};
-const FD_YEAR = (()=>{const y=new URLSearchParams(location.search).get('year');return FD_YEARS[y]?y:'2024';})();
+const FD_YEARS = new Set(['2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026']);
+const FD_YEAR = (()=>{const y=new URLSearchParams(location.search).get('year');return FD_YEARS.has(y)?y:'2024';})();
 (() => {
-  const base = 'https://khanna-disclosure-explorer.vercel.app/';
+  const base = 'https://rokhanna.money/';
   const url = FD_YEAR === '2024' ? base : `${base}?year=${FD_YEAR}`;
   const title = `Ro Khanna ${FD_YEAR} Finances, Net Worth & Stock Trades`;
   const desc = `Search Ro Khanna's ${FD_YEAR} finances, estimated net worth range, assets, investments, and stock trades from House financial disclosures.`;
@@ -557,30 +560,19 @@ const FD_YEAR = (()=>{const y=new URLSearchParams(location.search).get('year');r
   document.querySelector('meta[name="twitter:title"]').content = title;
   document.querySelector('meta[name="twitter:description"]').content = desc;
 })();
-document.write('<script src="'+FD_YEARS[FD_YEAR]+'"><\/script>');
 </script>
 <script src="timeline-data.js"></script>
 <script>
 (() => {
-const D = window.FD_DATA || {pages:[],assets:[],transactions:[]};
+const D = window.FD_SUMMARIES?.[FD_YEAR] || {meta:{},counts:{assets:0,transactions:0,pages:0},top_holdings:[],owners:[],classes:[],groups:[],transaction_types:[]};
 const META = D.meta || {};
 if (META.kicker) document.querySelector('.kicker').textContent = META.kicker;
 const srcEl = document.getElementById('srclink'); if (srcEl && !srcEl.getAttribute('href').length) srcEl.href = D.source_pdf;
 if (document.getElementById('srclink')) document.getElementById('srclink').href = D.source_pdf;
 document.getElementById('srclink2').href = D.source_pdf;
-// year selector in the tab bar
-(() => {
-  const wrap = document.createElement('div');
-  wrap.className = 'yearwrap';
-  const lbl = document.createElement('label');
-  lbl.className = 'yl'; lbl.textContent = 'Filing year'; lbl.htmlFor = 'yearsel';
-  const sel = document.createElement('select');
-  sel.id = 'yearsel'; sel.title = 'Choose filing year'; sel.setAttribute('aria-label','Choose filing year');
-  sel.innerHTML = Object.keys(FD_YEARS).map(y=>`<option value="${y}"${y===FD_YEAR?' selected':''}>${y}</option>`).join('');
-  sel.onchange = () => { location.href = location.pathname + (sel.value==='2024' ? '' : '?year='+sel.value); };
-  wrap.appendChild(lbl); wrap.appendChild(sel);
-  document.querySelector('nav.tabs').appendChild(wrap);
-})();
+const yearSelect = document.getElementById('yearsel');
+yearSelect.value = FD_YEAR;
+yearSelect.onchange = () => { location.href = location.pathname + (yearSelect.value==='2024' ? '' : '?year='+yearSelect.value); };
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt$ = n => {
@@ -596,12 +588,15 @@ const rng$ = (lo,hi) => lo==null?'—':(lo===0&&hi===0?'None':(hi==null?fmt$(lo)
 const tabs = document.querySelectorAll('nav.tabs button');
 let appReady = false;
 document.querySelectorAll('.view:not(.on)').forEach(s=>s.hidden=true);
-function showView(v){
+async function showView(v){
+  if(v==='assets') await ensureAssets();
+  if(v==='txs') await ensureTransactions();
+  if(v==='doc'){await ensureDocuments();await showPage(cur);}
   tabs.forEach(b=>{const on=b.dataset.v===v;b.classList.toggle('on',on);b.setAttribute('aria-selected',on?'true':'false');b.tabIndex=on?0:-1;});
   document.querySelectorAll('.view').forEach(s=>{const on=s.id==='v-'+v;s.classList.toggle('on',on);s.hidden=!on;});
   syncHash();
 }
-tabs.forEach(b=>b.onclick=()=>showView(b.dataset.v));
+tabs.forEach(b=>b.onclick=()=>void showView(b.dataset.v));
 document.querySelector('nav.tabs').addEventListener('keydown',e=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key)||!e.target.matches('[role=tab]'))return;
   e.preventDefault(); const list=[...tabs]; const i=list.indexOf(e.target);
@@ -610,45 +605,19 @@ document.querySelector('nav.tabs').addEventListener('keydown',e=>{
 });
 
 // ================= OVERVIEW =================
-const A = D.assets, T = D.transactions;
-A.forEach((r,i)=>{r._i=i; r._inc=(r.income_types||[]).concat(r.other_income?[r.other_income.trim()==='PTN'?'Partnership':r.other_income]:[]).join(', ');}); T.forEach((r,i)=>r._i=i);
-function sumRange(rows, klo, khi){
-  // lo = sum of range minimums; hiF = sum of range maximums, using the row's
-  // minimum as the floor for buckets with no upper bound ("over $1M"/"over $50M");
-  // open = count of such unbounded rows.
-  let lo=0, hiF=0, open=0, any=false;
-  for(const r of rows){ if(r[klo]!=null){ any=true; lo+=r[klo];
-    if(r[khi]==null){ open++; hiF+=r[klo]; } else hiF+=r[khi]; } }
-  return {lo, hiF, open, any};
-}
+let A = [], T = [];
+const loadJSON = path => fetch(path).then(response=>{
+  if(!response.ok) throw new Error(`Could not load ${path}: ${response.status}`);
+  return response.json();
+});
 const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   : (s.lo===s.hiF ? fmt$(s.lo) : `${fmt$(s.lo)} – ${fmt$(s.hiF)}${s.open?'+':''}`);
-function pageProgress(list){
-  const total = (list||[]).length;
-  const done = (list||[]).filter(p=>p.page_type!=='pending').length;
-  return {done, total, pending: total-done};
-}
-function annualDocProgress(){
-  const byDoc = new Map();
-  for(const p of D.pages||[]){
-    const key = p.doc || 'unknown';
-    if(!byDoc.has(key)) byDoc.set(key, []);
-    byDoc.get(key).push(p);
-  }
-  for(const [doc, list] of byDoc){
-    const label = String((list[0]||{}).doc_label || '');
-    if(/annual financial disclosure|financial disclosure report|financial disclosure statement|form a/i.test(label)){
-      return {doc, label, ...pageProgress(list)};
-    }
-  }
-  return null;
-}
 (function overview(){
-  const tot = sumRange(A,'vlo','vhi');
-  const inc = sumRange(A,'ilo','ihi');
-  const txTot = sumRange(T,'lo','hi');
-  const allDocs = pageProgress(D.pages||[]);
-  const annualDoc = annualDocProgress();
+  const tot = D.holdings;
+  const inc = D.income;
+  const txTot = D.transaction_total;
+  const allDocs = D.all_docs;
+  const annualDoc = D.annual_doc;
   const docCard = annualDoc
     ? ['Document status',
        `${annualDoc.done} / ${annualDoc.total} annual pages`,
@@ -664,20 +633,20 @@ function annualDocProgress(){
   const ptrOnly = !!(D.meta||{}).ptr_only;
   const holdingsCard = ptrOnly
     ? ['Reported holdings', 'No annual filing', `${(D.meta||{}).year||''} is reported via transaction reports; the annual holdings statement is filed the next spring`, '']
-    : ['Reported holdings', rngS(tot), `${A.length.toLocaleString()} line-items · min ${exact$(tot.lo)} · ${tot.open} with no upper bound`, totTip];
+    : ['Reported holdings', rngS(tot), `${D.counts.assets.toLocaleString()} line-items · min ${exact$(tot.lo)} · ${tot.open} with no upper bound`, totTip];
   const incomeCard = ptrOnly
     ? [`Transactions total`, rngS(txTot), 'combined value across all transaction reports',
        `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}${txTot.open?` (+${txTot.open} open-ended)`:''}.`]
     : [`Unearned income (${(D.meta||{}).year||''})`, rngS(inc), `dividends, interest, gains, rent · min ${exact$(inc.lo)}`,
       `Exact sum of income-range minimums: ${exact$(inc.lo)}; maximums: ${exact$(inc.hiF)}${inc.open?` (+${inc.open} open-ended)`:''}.`];
   const cards = ptrOnly ? [
-    [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${T.length.toLocaleString()} reported transactions`,
+    [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${D.counts.transactions.toLocaleString()} reported transactions`,
       `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}.`],
     ['Filing type', 'Periodic reports', 'annual holdings are filed the following spring', ''],
     docCard,
   ] : [
     incomeCard,
-    [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${T.length.toLocaleString()} reported transactions`,
+    [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${D.counts.transactions.toLocaleString()} reported transactions`,
       `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}${txTot.open?` (+${txTot.open} open-ended)`:''}.`],
     docCard,
   ];
@@ -687,14 +656,14 @@ function annualDocProgress(){
   const pageSource = `<a href="${esc(D.source_pdf)}" target="_blank" rel="noopener">Official House filing ↗</a>`;
   const story = ptrOnly ? {
     eyebrow:`${(D.meta||{}).year||''} periodic transaction reports`,
-    headline:`${T.length.toLocaleString()} reported transactions`,
+    headline:`${D.counts.transactions.toLocaleString()} reported transactions`,
     detail:`This year currently contains periodic transaction reports rather than an annual holdings statement. The combined reported transaction range is ${rngS(txTot)}.`,
-    facts:[['Combined transaction range',rngS(txTot)],['Reportable transactions',T.length.toLocaleString()],['Source pages',`${allDocs.done} / ${allDocs.total} transcribed`]],
+    facts:[['Combined transaction range',rngS(txTot)],['Reportable transactions',D.counts.transactions.toLocaleString()],['Source pages',`${allDocs.done} / ${allDocs.total} transcribed`]],
   } : {
     eyebrow:`${(D.meta||{}).year||''} disclosed holdings`,
     headline:`Up to ${fmt$(tot.hiF)} reported`,
-    detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${A.length.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
-    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Open-ended holdings',tot.open.toLocaleString()],['Reported transactions',T.length.toLocaleString()]],
+    detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${D.counts.assets.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
+    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Open-ended holdings',tot.open.toLocaleString()],['Reported transactions',D.counts.transactions.toLocaleString()]],
   };
   document.getElementById('storylead').innerHTML = `
     <div class="story-primary">
@@ -705,33 +674,32 @@ function annualDocProgress(){
     </div>
     <div class="story-aside">${story.facts.map(([k,v])=>`<div class="aside-fact"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('')}</div>`;
 
-  const ownerRows = Object.entries(A.reduce((m,a)=>{const k=String(a.owner||'UNSPECIFIED').toUpperCase();(m[k]||=[]).push(a);return m;},{}))
-    .map(([owner,list])=>({owner,list,...sumRange(list,'vlo','vhi')})).sort((a,b)=>b.lo-a.lo);
+  const ownerRows = D.owners.map(row=>({owner:row.name,...row}));
   const ownerNames = {SP:'Spouse',DC:'Dependent children',JT:'Joint',UNSPECIFIED:'Not specified'};
   const leadingOwner = ownerRows[0];
-  const topHolding = [...A].sort((a,b)=>(b.vlo||0)-(a.vlo||0))[0];
+  const topHolding = D.top_holdings[0];
   const findingData = ptrOnly ? [
-    [T.length.toLocaleString(),'reported transactions',`Across all loaded ${(D.meta||{}).year||''} periodic reports.`,'#txs'],
+    [D.counts.transactions.toLocaleString(),'reported transactions',`Across all loaded ${(D.meta||{}).year||''} periodic reports.`,'#txs'],
     [rngS(txTot),'combined transaction range','A sum of the statutory transaction buckets, not exact trade values.','#txs'],
     [allDocs.total.toLocaleString(),'source pages',`${allDocs.done.toLocaleString()} pages transcribed and linked to the structured data.`,'#doc'],
   ] : [
     [`${tot.open}`,'open-ended holdings','The calculated upper total remains a floor because these buckets have no stated ceiling.','#assets?val=1000001'],
     [topHolding?rng$(topHolding.vlo,topHolding.vhi):'—','largest individual range',topHolding?topHolding.name:'No holding rows were reported.','#assets'],
-    [T.length.toLocaleString(),'reported transactions',`Combined statutory value range: ${rngS(txTot)}.`,'#txs'],
+    [D.counts.transactions.toLocaleString(),'reported transactions',`Combined statutory value range: ${rngS(txTot)}.`,'#txs'],
     [leadingOwner&&tot.lo?`${((leadingOwner.lo/tot.lo)*100).toFixed(1)}%`:'—',leadingOwner?`of the minimum assigned to ${ownerNames[leadingOwner.owner]||leadingOwner.owner.toLowerCase()}`:'ownership attribution unavailable','Based on owner codes printed in the filing, not inferred beneficial ownership.','#panel-ownership'],
   ];
   document.getElementById('keyfindings').innerHTML = findingData.map(([n,k,d,h])=>`<article class="finding"><span class="section-kicker">${esc(k)}</span><strong class="finding-num">${esc(n)}</strong><p>${esc(d)}</p><a href="${esc(h)}">Inspect evidence →</a></article>`).join('');
 
   if(ownerRows.length){
     const maxOwner=Math.max(...ownerRows.map(r=>r.lo),1);
-    document.getElementById('ownership').innerHTML=ownerRows.map(r=>`<div class="owner-card"><div class="owner-name">${esc(ownerNames[r.owner]||r.owner)}</div><div class="owner-value">${esc(rngS(r))}</div><div class="owner-meta">${r.list.length.toLocaleString()} line-items · minimum ${exact$(r.lo)}${r.open?` · ${r.open} open-ended`:''}</div><div class="owner-bar" aria-hidden="true"><span style="width:${(r.lo/maxOwner)*100}%"></span></div></div>`).join('');
+    document.getElementById('ownership').innerHTML=ownerRows.map(r=>`<div class="owner-card"><div class="owner-name">${esc(ownerNames[r.owner]||r.owner)}</div><div class="owner-value">${esc(rngS(r))}</div><div class="owner-meta">${r.n.toLocaleString()} line-items · minimum ${exact$(r.lo)}${r.open?` · ${r.open} open-ended`:''}</div><div class="owner-bar" aria-hidden="true"><span style="width:${(r.lo/maxOwner)*100}%"></span></div></div>`).join('');
   } else {
     document.getElementById('ownership').innerHTML='<p class="note">No annual holdings are included in this transaction-only year.</p>';
   }
 
   document.getElementById('position-year').textContent=(D.meta||{}).year||'';
-  document.getElementById('position-fact').textContent = T.length
-    ? `The loaded filing data contains ${T.length.toLocaleString()} reported transactions across reportable family interests, with a combined statutory range of ${rngS(txTot)}.`
+  document.getElementById('position-fact').textContent = D.counts.transactions
+    ? `The loaded filing data contains ${D.counts.transactions.toLocaleString()} reported transactions across reportable family interests, with a combined statutory range of ${rngS(txTot)}.`
     : 'The loaded annual filing contains no Schedule B transaction rows for this reporting year.';
 
   const annualTimeline=(window.FD_TIMELINE||[]).filter(r=>!r.ptrOnly&&r.holdings.hi>0);
@@ -756,11 +724,7 @@ function annualDocProgress(){
   }
 
   // class bars
-  const by = {};
-  for(const a of A){ (by[a.cls] ||= []).push(a); }
-  const rows = Object.entries(by).map(([cls,list])=>{
-    const s = sumRange(list,'vlo','vhi'); return {cls, n:list.length, ...s};
-  }).sort((a,b)=>b.lo-a.lo);
+  const rows = D.classes.map(row=>({cls:row.name,...row}));
   const maxHi = Math.max(...rows.map(r=>r.hiF||r.lo), 1);
   document.getElementById('class-note').textContent = `Every bar uses the same ${fmt$(maxHi)} scale. Dark shows the sum of range minimums; light shows the sum of maximums. An arrow marks a category with no stated upper ceiling.`;
   document.getElementById('clsbars').innerHTML = rows.map(r=>`
@@ -775,40 +739,32 @@ function annualDocProgress(){
     </div>`).join('');
   document.getElementById('clsbars').onclick = e=>{
     const el = e.target.closest('[data-cls]');
-    if(el){ afSet({cls: el.dataset.cls}); showView('assets'); }
+    if(el){void (async()=>{await afSet({cls:el.dataset.cls});await showView('assets');})();}
   };
 
   // top holdings
-  const top = [...A].sort((a,b)=>(b.vlo||0)-(a.vlo||0)).slice(0,12);
+  const top = D.top_holdings;
   const OWN = {SP:'spouse', DC:'dependent child', JT:'joint'};
   document.getElementById('tophold').innerHTML = top.map(a=>
     `<li><span>${esc(a.name)}<br><span style="color:var(--muted);font-size:11.5px">${esc(a.group||'')}${a.owner?' · '+(OWN[a.owner]||esc(a.owner)):''}</span></span>
      <span class="r">${rng$(a.vlo,a.vhi)}<br><a href="#p${a.page}" data-goto="${a.page}" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.${esc(a.label ? a.label.replace(/Page (\d+) of \d+/,'$1') : a.page)}</a></span></li>`).join('');
 
   // groups
-  const byg = {};
-  for(const a of A){ const g=a.group||'(not under a listed trust)'; (byg[g] ||= []).push(a); }
-  document.getElementById('groups').innerHTML = Object.entries(byg)
-    .map(([g,list])=>({g,n:list.length,...sumRange(list,'vlo','vhi')}))
-    .sort((a,b)=>b.lo-a.lo)
+  document.getElementById('groups').innerHTML = D.groups.map(row=>({g:row.name,...row}))
     .map(r=>`<li title="${esc(`min ${exact$(r.lo)} · max ${exact$(r.hiF)}${r.open?` (+${r.open} open-ended)`:''}`)}"><span>${esc(r.g)} <span style="color:var(--muted)">· ${r.n} assets</span></span><span class="r">${rngS(r)}</span></li>`).join('');
 
   // tx summary
-  const byt = {};
-  for(const t of T){ const k=t.tx_type||'?'; (byt[k] ||= []).push(t); }
-  document.getElementById('txsum').innerHTML = Object.entries(byt).sort((a,b)=>b[1].length-a[1].length)
-    .map(([k,list])=>{const s=sumRange(list,'lo','hi');
-      return `<li><span>${esc(k)} <span style="color:var(--muted)">· ${list.length}</span></span><span class="r">${rngS(s)}</span></li>`;}).join('');
+  document.getElementById('txsum').innerHTML = [...D.transaction_types].sort((a,b)=>b.n-a.n)
+    .map(row=>`<li><span>${esc(row.name)} <span style="color:var(--muted)">· ${row.n}</span></span><span class="r">${rngS(row)}</span></li>`).join('');
 
   // footer stats
-  const conf={high:0,medium:0,low:0,pending:0}; let unc=0, ver=0;
-  for(const p of D.pages){ if(conf[p.page_confidence]!=null)conf[p.page_confidence]++; unc+=(p.uncertainties||[]).length; if(p.verified)ver++; }
-  const done = D.pages.length - conf.pending;
+  const conf={high:0,medium:0,low:0,pending:0,...D.confidence}; const unc=D.uncertainties, ver=D.verified_pages;
+  const done = D.counts.pages - (conf.pending||0);
   const annualStatus = annualDoc
     ? ` Annual/Form A document: ${annualDoc.done} of ${annualDoc.total} pages transcribed.`
     : '';
   document.getElementById('fstats').textContent =
-    `Status across loaded filings: ${done} of ${D.pages.length} pages transcribed`+(conf.pending?` (${conf.pending} pending in separate filings)`:'')+`.`+annualStatus+
+    `Status across loaded filings: ${done} of ${D.counts.pages} pages transcribed`+(conf.pending?` (${conf.pending} pending in separate filings)`:'')+`.`+annualStatus+
     `; second-pass verification ${ver ? `completed on ${ver} pages` : 'in progress'}. Page confidence: ${conf.high} high / ${conf.medium} medium / ${conf.low} low; ${unc} individual readings flagged as uncertain.`;
 })();
 
@@ -851,9 +807,9 @@ const rngLines = v => {
 const TXW = {P:'Purchased', S:'Sold', 'S(part)':'Partial sale', E:'Exchanged'};
 const txWords = t => (t||'').split(/(?<=\))\s*[,.\s]\s*|(?<=[PSE])\s*[,.\s]\s*(?=[PSE])/).filter(Boolean).map(x=>TXW[x.trim()]||x).join(', ');
 const pgLink = kind => r => `<td class="pg"><a href="#p${r.page}" data-goto="${r.page}" aria-label="View filing page ${r.page}">View p.${r.page}</a></td>`;
-document.body.addEventListener('click', e=>{
+document.body.addEventListener('click', async e=>{
   const a=e.target.closest('a[data-goto]');
-  if(a){ e.preventDefault(); showView('doc'); showPage(+a.dataset.goto); }
+  if(a){e.preventDefault();cur=+a.dataset.goto;await showView('doc');}
 });
 function fillSel(el, label, values){
   el.innerHTML = `<option value="">${label}</option>` + values.map(v=>`<option>${esc(v)}</option>`).join('');
@@ -863,6 +819,14 @@ const uniq = (arr,k)=>[...new Set(arr.map(x=>typeof k==='function'?k(x):x[k]).fi
 // ================= ASSETS TAB =================
 const VAL_STEPS = [[0,'Any value'],[15001,'≥ $15K'],[50001,'≥ $50K'],[100001,'≥ $100K'],[250001,'≥ $250K'],[500001,'≥ $500K'],[1000001,'≥ $1M'],[5000001,'≥ $5M']];
 const afEls = Object.fromEntries(['q','cls','group','val','inc','clear','cnt','more'].map(k=>[k,document.getElementById('af-'+k)]));
+const debounce=(fn,wait=120)=>{let timer;return(...args)=>{clearTimeout(timer);timer=setTimeout(()=>fn(...args),wait);};};
+let aTable, assetsPromise;
+async function ensureAssets(){
+  if(aTable)return;
+  if(assetsPromise)return assetsPromise;
+  assetsPromise=(async()=>{
+    A=await loadJSON(D.files.assets);
+    A.forEach((r,i)=>{r._i=i;r._inc=(r.income_types||[]).concat(r.other_income?[r.other_income.trim()==='PTN'?'Partnership':r.other_income]:[]).join(', ');r._search=(r.name+' '+(r.group||'')+' '+(r.desc||'')).toLowerCase();});
 fillSel(afEls.cls,'All classes', uniq(A,'cls').sort());
 fillSel(afEls.group,'All portfolios', uniq(A,'group').sort());
 afEls.val.innerHTML = VAL_STEPS.map(([v,l])=>`<option value="${v}">${l}</option>`).join('');
@@ -870,7 +834,7 @@ afEls.val.innerHTML = VAL_STEPS.map(([v,l])=>`<option value="${v}">${l}</option>
   if (A.some(a=>a.other_income)) vals.add('Partnership');
   if (A.some(a=>!(a.income_types||[]).length && !a.other_income)) vals.add('Not marked');
   fillSel(afEls.inc,'All income types', [...vals].sort()); })();
-const aTable = makeTable({
+aTable = makeTable({
   rows:A, defaultSort:'vlo', onChange:()=>syncHash(),
   theadEl:document.querySelector('#atable thead'), tbodyEl:document.querySelector('#atable tbody'),
   cntEl:afEls.cnt, moreBtn:afEls.more,
@@ -885,7 +849,7 @@ const aTable = makeTable({
     {h:'Page', sort:'page', w:'5%', cell:pgLink('asset')},
   ],
   filters:[
-    r=>!afEls.q.value || (r.name+' '+(r.group||'')+' '+(r.desc||'')).toLowerCase().includes(afEls.q.value.toLowerCase()),
+    r=>!afEls.q.value || r._search.includes(afEls.q.value.toLowerCase()),
     r=>!afEls.cls.value || r.cls===afEls.cls.value,
     r=>!afEls.group.value || r.group===afEls.group.value,
     r=>!+afEls.val.value || (r.vlo||0) >= +afEls.val.value,
@@ -896,16 +860,27 @@ const aTable = makeTable({
   ],
 });
 function afWire(){ ['q','cls','group','val','inc'].forEach(k=>{
-  afEls[k].addEventListener(k==='q'?'input':'change', ()=>{aTable.reset(); afEls.clear.style.display='inline';});
+  const apply=()=>{aTable.reset();afEls.clear.style.display='inline';};
+  afEls[k].addEventListener(k==='q'?'input':'change', k==='q'?debounce(apply):apply);
 });
   afEls.clear.onclick=()=>{afEls.q.value='';['cls','group','inc'].forEach(k=>afEls[k].value='');afEls.val.value='0';afEls.clear.style.display='none';aTable.reset();};
 }
 afWire();
-function afSet({cls}){ afEls.clear.click(); if(cls){afEls.cls.value=cls; afEls.clear.style.display='inline';} aTable.reset(); }
 aTable.apply();
+  })();
+  return assetsPromise;
+}
+async function afSet({cls}){await ensureAssets();afEls.clear.click();if(cls){afEls.cls.value=cls;afEls.clear.style.display='inline';}aTable.reset();}
 
 // ================= TRANSACTIONS TAB =================
 const tfEls = Object.fromEntries(['q','type','cls','month','amt','clear','cnt','more'].map(k=>[k,document.getElementById('tf-'+k)]));
+let tTable, transactionsPromise;
+async function ensureTransactions(){
+  if(tTable)return;
+  if(transactionsPromise)return transactionsPromise;
+  transactionsPromise=(async()=>{
+    T=await loadJSON(D.files.transactions);
+    T.forEach((t,i)=>{t._i=i;t._search=(t.name+' '+(t.group||'')).toLowerCase();});
 fillSel(tfEls.type,'All types', uniq(T,'tx_type').sort());
 fillSel(tfEls.cls,'All classes', uniq(T,'cls').sort());
 const months = uniq(T, t=>{const m=(t.date||'').match(/^(\d{1,2})\/\d{1,2}\/(\d{4})$/); return m?`${m[2]}-${String(m[1]).padStart(2,'0')}`:null;}).sort();
@@ -914,7 +889,7 @@ tfEls.month.innerHTML = '<option value="">All months</option>'+months.map(m=>{co
 tfEls.amt.innerHTML = VAL_STEPS.map(([v,l])=>`<option value="${v}">${l==='Any value'?'Any amount':l}</option>`).join('');
 const tDateKey = t=>{const m=(t.date||'').match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/); return m?+`${m[3]}${m[1].padStart(2,'0')}${m[2].padStart(2,'0')}`:0;};
 T.forEach(t=>t._dk=tDateKey(t));
-const tTable = makeTable({
+tTable = makeTable({
   rows:T, defaultSort:'lo', onChange:()=>syncHash(),
   theadEl:document.querySelector('#ttable thead'), tbodyEl:document.querySelector('#ttable tbody'),
   cntEl:tfEls.cnt, moreBtn:tfEls.more,
@@ -927,7 +902,7 @@ const tTable = makeTable({
     {h:'Page', sort:'page', w:'8%', cell:pgLink('tx')},
   ],
   filters:[
-    r=>!tfEls.q.value || (r.name+' '+(r.group||'')).toLowerCase().includes(tfEls.q.value.toLowerCase()),
+    r=>!tfEls.q.value || r._search.includes(tfEls.q.value.toLowerCase()),
     r=>!tfEls.type.value || r.tx_type===tfEls.type.value,
     r=>!tfEls.cls.value || r.cls===tfEls.cls.value,
     r=>{if(!tfEls.month.value)return true; const m=(r.date||'').match(/^(\d{1,2})\/\d{1,2}\/(\d{4})$/); return m && `${m[2]}-${String(m[1]).padStart(2,'0')}`===tfEls.month.value;},
@@ -935,10 +910,14 @@ const tTable = makeTable({
   ],
 });
 ['q','type','cls','month','amt'].forEach(k=>{
-  tfEls[k].addEventListener(k==='q'?'input':'change', ()=>{tTable.reset(); tfEls.clear.style.display='inline';});
+  const apply=()=>{tTable.reset();tfEls.clear.style.display='inline';};
+  tfEls[k].addEventListener(k==='q'?'input':'change', k==='q'?debounce(apply):apply);
 });
 tfEls.clear.onclick=()=>{tfEls.q.value='';['type','cls','month'].forEach(k=>tfEls[k].value='');tfEls.amt.value='0';tfEls.clear.style.display='none';tTable.reset();};
 tTable.apply();
+  })();
+  return transactionsPromise;
+}
 
 // ================= CSV EXPORT =================
 function toCsv(rows){
@@ -1009,20 +988,22 @@ function highlightRow(tableEl, rid){
   tr.scrollIntoView({block:'center'});
   clearTimeout(hiliteTimer); hiliteTimer = setTimeout(()=>tr.classList.remove('hilite'), 6000);
 }
-function applyHash(){
+async function applyHash(){
   let h = location.hash || '';
   try { h = decodeURIComponent(h); } catch(e) {}
   let m;
-  if((m = h.match(/^#p(\d+)$/))){ showView('doc'); showPage(+m[1]); return; }
+  if((m = h.match(/^#p(\d+)$/))){cur=+m[1];await showView('doc');return;}
   if((m = h.match(/^#(asset|tx)-(\d+)$/))){
     const kind = m[1], rid = +m[2];
     if(kind==='asset'){
+      await ensureAssets();
       afEls.q.value=''; ['cls','group','inc'].forEach(k=>afEls[k].value=''); afEls.val.value='0';
-      aTable.reset(); showView('assets');
+      aTable.reset(); await showView('assets');
       aTable.showIndex(rid); highlightRow(document.getElementById('atable'), rid);
     } else {
+      await ensureTransactions();
       tfEls.q.value=''; ['type','cls','month'].forEach(k=>tfEls[k].value=''); tfEls.amt.value='0';
-      tTable.reset(); showView('txs');
+      tTable.reset(); await showView('txs');
       tTable.showIndex(rid); highlightRow(document.getElementById('ttable'), rid);
     }
     return;
@@ -1030,41 +1011,55 @@ function applyHash(){
   if((m = h.match(/^#(assets|txs|overview|doc)(?:\?(.*))?$/))){
     const v = m[1], p = new URLSearchParams(m[2]||'');
     if(v==='assets'){
+      await ensureAssets();
       afEls.q.value = p.get('q')||''; afEls.cls.value = p.get('cls')||'';
       afEls.group.value = p.get('group')||'';
       afEls.val.value = p.get('val')||'0'; afEls.inc.value = p.get('inc')||'';
       if(p.get('sort')) aTable.setSort(p.get('sort'), +(p.get('dir')||-1));
       aTable.reset();
     } else if(v==='txs'){
+      await ensureTransactions();
       tfEls.q.value = p.get('q')||''; tfEls.type.value = p.get('type')||'';
       tfEls.cls.value = p.get('cls')||'';
       tfEls.month.value = p.get('month')||''; tfEls.amt.value = p.get('amt')||'0';
       if(p.get('sort')) tTable.setSort(p.get('sort'), +(p.get('dir')||-1));
       tTable.reset();
     }
-    showView(v);
+    await showView(v);
   }
 }
-window.addEventListener('hashchange', applyHash);
+window.addEventListener('hashchange', ()=>void applyHash());
 
 // ================= DOCUMENT TAB =================
-const pages = D.pages||[]; const byPage = new Map(pages.map(p=>[p.pdf_page,p])); let cur = pages.length?pages[0].pdf_page:1;
+let pages=[],byPage=new Map(),cur=1,documentPromise;
+const pageDetails=new Map();
 const SL = {cover:'Cover & Preliminary',schedule_a:'Schedule A — Assets',schedule_b:'Schedule B — Transactions',
   schedule_c:'Schedule C — Earned Income',schedule_d:'Schedule D — Liabilities',schedule_e:'Schedule E — Positions',
   schedule_f:'Schedule F — Agreements',schedule_g:'Schedule G — Gifts',schedule_h:'Schedule H — Travel',
   schedule_i:'Schedule I — Charity',exclusions:'Exclusions',letter:'Letters',other:'Other',pending:'Not yet transcribed'};
-(function buildToc(){
+async function ensureDocuments(){
+  if(pages.length)return;
+  if(documentPromise)return documentPromise;
+  documentPromise=(async()=>{
+    pages=await loadJSON(D.files.pages);
+    byPage=new Map(pages.map(page=>[page.pdf_page,page]));
+    if(!byPage.has(cur))cur=pages[0]?.pdf_page||1;
+    buildToc();
+  })();
+  return documentPromise;
+}
+function buildToc(){
   let last=null, lastDoc=null, h='';
   for(const p of pages){
     if(p.doc_label && p.doc_label!==lastDoc){h+=`<div class="sec doc">${esc(p.doc_label)}</div>`;lastDoc=p.doc_label;last=null;}
     const t=p.page_type||'other';
     if(t!==last){h+=`<div class="sec">${esc(SL[t]||t)}</div>`;last=t;}
-    const nr=(p.rows||[]).filter(r=>r.kind!=='group').length;
+    const nr=p.row_count||0;
     h+=`<a href="#p${p.pdf_page}" data-p="${p.pdf_page}" id="toc-${p.pdf_page}" aria-label="PDF page ${p.pdf_page}, ${esc(p.printed_label||'')}, ${esc(p.page_confidence||'unknown')} confidence"><span style="overflow:hidden;text-overflow:ellipsis">PDF ${p.pdf_page} · ${esc(p.printed_label||'')}${nr?` · ${nr}`:''}</span><span class="dot ${esc(p.page_confidence||'')}" aria-hidden="true"></span></a>`;
   }
   const toc=document.getElementById('toc'); toc.innerHTML=h;
-  toc.onclick=e=>{const a=e.target.closest('a[data-p]'); if(a){e.preventDefault(); showPage(+a.dataset.p);document.querySelector('.docgrid').classList.remove('index-open');document.getElementById('doc-index-toggle').setAttribute('aria-expanded','false');}};
-})();
+  toc.onclick=e=>{const a=e.target.closest('a[data-p]');if(a){e.preventDefault();cur=+a.dataset.p;void showPage(cur);document.querySelector('.docgrid').classList.remove('index-open');document.getElementById('doc-index-toggle').setAttribute('aria-expanded','false');}};
+}
 function rowsTable(p){
   const rows=p.rows||[]; if(!rows.length)return '';
   const isTx = rows.some(r=>r.kind==='tx');
@@ -1083,8 +1078,11 @@ function rowsTable(p){
   });
   return h+'</tbody></table>';
 }
-function showPage(n){
-  if(!byPage.has(n))return; cur=n; const p=byPage.get(n);
+async function showPage(n){
+  if(!byPage.has(n))return;cur=n;
+  const entry=byPage.get(n);
+  let p=pageDetails.get(n);
+  if(!p){p=await loadJSON(entry.detail);pageDetails.set(n,p);}
   document.getElementById('pageimg').src=p.image;
   document.getElementById('pageimg').alt=`Scan of PDF page ${p.pdf_page}${p.printed_label?`, ${p.printed_label}`:''}`;
   document.getElementById('pageno').textContent=`Page ${p.pdf_page}/${pages.length}`;
@@ -1104,8 +1102,9 @@ function showPage(n){
   document.getElementById('next').disabled = n===pages[pages.length-1]?.pdf_page;
   if(document.getElementById('v-doc').classList.contains('on')) syncHash();
 }
-document.getElementById('prev').onclick=()=>showPage(cur-1);
-document.getElementById('next').onclick=()=>showPage(cur+1);
+function adjacentPage(offset){const index=pages.findIndex(page=>page.pdf_page===cur);return pages[index+offset]?.pdf_page;}
+document.getElementById('prev').onclick=()=>{const n=adjacentPage(-1);if(n)void showPage(n);};
+document.getElementById('next').onclick=()=>{const n=adjacentPage(1);if(n)void showPage(n);};
 document.getElementById('imgpane').onclick=()=>document.getElementById('imgpane').classList.toggle('zoomed');
 document.getElementById('doc-index-toggle').onclick=()=>{const grid=document.querySelector('.docgrid');const open=grid.classList.toggle('index-open');document.getElementById('doc-index-toggle').setAttribute('aria-expanded',open?'true':'false');};
 document.querySelectorAll('.doc-mobile-toggle button').forEach(button=>button.onclick=()=>{
@@ -1115,12 +1114,11 @@ document.querySelectorAll('.doc-mobile-toggle button').forEach(button=>button.on
 document.addEventListener('keydown',e=>{
   if(/INPUT|SELECT|TEXTAREA/.test(e.target.tagName))return;
   if(document.getElementById('v-doc').classList.contains('on')){
-    if(e.key==='ArrowLeft')showPage(cur-1); else if(e.key==='ArrowRight')showPage(cur+1);
+    if(e.key==='ArrowLeft'){const n=adjacentPage(-1);if(n)void showPage(n);}else if(e.key==='ArrowRight'){const n=adjacentPage(1);if(n)void showPage(n);}
   }
 });
-if(pages.length) showPage(cur);
 appReady = true;
-applyHash();
+Promise.resolve(applyHash()).finally(()=>document.documentElement.classList.remove('app-loading'));
 })();
 </script>
 </body>

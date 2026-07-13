@@ -40,7 +40,9 @@ python3 -m http.server 8742
 # open http://localhost:8742/
 ```
 
-The explorer is static: `index.html`, `data-YYYY.js`, `timeline-data.js`, and the page images.
+The explorer is static: `index.html`, generated lazy chunks under `site-data/`,
+`timeline-data.js`, and the page images. The overview loads only a compact summary; holdings,
+transactions, document indexes, page transcriptions, and scans load when requested.
 The Overview, Assets, Transactions, and Document views allow browsing the same source-backed
 records without writing code.
 
@@ -56,6 +58,7 @@ docs/<document>/text/  page-level structured transcriptions
 docs/<document>/tess/  raw Tesseract output
 ocr/                   equivalent 2024 source/transcription pipeline
 data-YYYY.js           generated website datasets
+site-data/             generated, content-hashed lazy website chunks
 scripts/               release and audit tooling
 ```
 
