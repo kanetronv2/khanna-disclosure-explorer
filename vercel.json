@@ -1,5 +1,23 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "khanna-disclosure-explorer.vercel.app" }],
+      "destination": "https://www.rokhanna.money/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        { "type": "query", "key": "year", "value": "(?<year>201[6-9]|202[0-35-6])" }
+      ],
+      "destination": "/:year/",
+      "permanent": true
+    },
+    { "source": "/2024", "destination": "/", "permanent": true },
+    { "source": "/2024/:path*", "destination": "/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/ocr/pages/(.*)",

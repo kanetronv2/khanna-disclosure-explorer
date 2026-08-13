@@ -40,11 +40,21 @@ python3 -m http.server 8742
 # open http://localhost:8742/
 ```
 
-The explorer is static: `index.html`, generated lazy chunks under `site-data/`,
-`timeline-data.js`, and the page images. The overview loads only a compact summary; holdings,
-transactions, document indexes, page transcriptions, and scans load when requested.
-The Overview, Assets, Transactions, and Document views allow browsing the same source-backed
-records without writing code.
+The explorer is static: generated HTML, lazy chunks under `site-data/`, `timeline-data.js`, and
+the page images. The overview loads only a compact summary; holdings, transactions, document
+indexes, page transcriptions, and scans load when requested. The Overview, Assets, Transactions,
+and Document views allow browsing the same source-backed records without writing code.
+
+The served HTML is generated, not hand-edited. `templates/index.html` is the single source; run
+
+```sh
+make pages
+```
+
+to render `index.html` (the newest annual filing) plus one directory per remaining year
+(`2019/index.html`, …) and regenerate `sitemap.xml`. Each page ships the overview figures as
+real markup rather than leaving them to client-side rendering, so the filing totals are
+readable without JavaScript and every year has its own indexable URL.
 
 ## Repository map
 
@@ -59,7 +69,9 @@ docs/<document>/tess/  raw Tesseract output
 ocr/                   equivalent 2024 source/transcription pipeline
 data-YYYY.js           generated website datasets
 site-data/             generated, content-hashed lazy website chunks
-scripts/               release and audit tooling
+templates/index.html   source template for every generated page
+index.html, YYYY/      generated per-year pages (build with: make pages)
+scripts/               release, audit, and page-rendering tooling
 ```
 
 ## Method and limitations

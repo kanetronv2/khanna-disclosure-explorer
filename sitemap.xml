@@ -1,62 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://www.rokhanna.money/</loc>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2026</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2025</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2024</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2023</loc>
+    <loc>https://www.rokhanna.money/2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2022</loc>
+    <loc>https://www.rokhanna.money/2025/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2021</loc>
+    <loc>https://www.rokhanna.money/2023/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2020</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2019</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2018</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2017</loc>
+    <loc>https://www.rokhanna.money/2022/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://khanna-disclosure-explorer.vercel.app/?year=2016</loc>
+    <loc>https://www.rokhanna.money/2021/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/2020/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/2019/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/2018/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/2017/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/2016/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
