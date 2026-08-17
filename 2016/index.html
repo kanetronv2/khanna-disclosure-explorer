@@ -675,7 +675,7 @@
         <div><span class="section-kicker">What the filing shows</span><h2>Key findings</h2></div>
         <a class="text-link" href="#doc">Inspect the source document →</a>
       </div>
-      <div class="findings" id="keyfindings"><article class="finding"><span class="section-kicker">open-ended holdings</span><strong class="finding-num">4</strong><p>The calculated upper total remains a floor because these buckets have no stated ceiling.</p><a href="#assets?val=1000001">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">largest individual range</span><strong class="finding-num">$1M+</strong><p>Condo, NY, NY</p><a href="#assets">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">reported transactions</span><strong class="finding-num">0</strong><p>Combined statutory value range: None.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">of the minimum assigned to spouse</span><strong class="finding-num">99.6%</strong><p>Based on owner codes printed in the filing, not inferred beneficial ownership.</p><a href="#panel-ownership">Inspect evidence →</a></article></div>
+      <div class="findings" id="keyfindings"><article class="finding"><span class="section-kicker">open-ended holdings</span><strong class="finding-num">4</strong><p>The calculated upper total remains a floor because these buckets have no stated ceiling.</p><a href="#assets?val=1000001">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">largest individual range</span><strong class="finding-num">$1M+</strong><p>Condo, NY, NY</p><a href="#assets">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">reported transactions</span><strong class="finding-num">0</strong><p>Combined statutory value range: None.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">dated trades per active month</span><strong class="finding-num">—</strong><p>No usable transaction dates in this filing year.</p><a href="#txs">Inspect evidence →</a></article></div>
     </div>
     <div class="panel timeline-panel" id="panel-timeline">
       <div class="section-heading">
@@ -937,8 +937,13 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
 
   const ownerRows = D.owners.map(row=>({owner:row.name,...row}));
   const ownerNames = {SP:'Spouse',DC:'Dependent children',JT:'Joint',UNSPECIFIED:'Not specified'};
-  const leadingOwner = ownerRows[0];
   const topHolding = D.top_holdings[0];
+  const datedTransactions = D.counts.dated_transactions || 0;
+  const activeMonths = D.counts.active_transaction_months || 0;
+  const tradingIntensity = activeMonths ? Math.round(datedTransactions / activeMonths).toLocaleString() : '—';
+  const intensityDetail = activeMonths
+    ? `${datedTransactions.toLocaleString()} dated transactions across ${activeMonths} active calendar month${activeMonths===1?'':'s'}. Household filings do not identify who made a trade.`
+    : 'No usable transaction dates in this filing year.';
   const findingData = ptrOnly ? [
     [D.counts.transactions.toLocaleString(),'reported transactions',`Across all loaded ${(D.meta||{}).year||''} periodic reports.`,'#txs'],
     [rngS(txTot),'combined transaction range','A sum of the statutory transaction buckets, not exact trade values.','#txs'],
@@ -947,7 +952,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     [`${tot.open}`,'open-ended holdings','The calculated upper total remains a floor because these buckets have no stated ceiling.','#assets?val=1000001'],
     [topHolding?rng$(topHolding.vlo,topHolding.vhi):'—','largest individual range',topHolding?topHolding.name:'No holding rows were reported.','#assets'],
     [D.counts.transactions.toLocaleString(),'reported transactions',`Combined statutory value range: ${rngS(txTot)}.`,'#txs'],
-    [leadingOwner&&tot.lo?`${((leadingOwner.lo/tot.lo)*100).toFixed(1)}%`:'—',leadingOwner?`of the minimum assigned to ${ownerNames[leadingOwner.owner]||leadingOwner.owner.toLowerCase()}`:'ownership attribution unavailable','Based on owner codes printed in the filing, not inferred beneficial ownership.','#panel-ownership'],
+    [tradingIntensity,'dated trades per active month',intensityDetail,'#txs'],
   ];
   document.getElementById('keyfindings').innerHTML = findingData.map(([n,k,d,h])=>`<article class="finding"><span class="section-kicker">${esc(k)}</span><strong class="finding-num">${esc(n)}</strong><p>${esc(d)}</p><a href="${esc(h)}">Inspect evidence →</a></article>`).join('');
 

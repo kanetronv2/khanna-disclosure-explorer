@@ -338,7 +338,6 @@ def stat_cards(summary, year):
 
 def key_findings(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
-    owners = summary["owners"]
     if is_ptr_only(summary):
         rows = [
             (f"{summary['counts']['transactions']:,}", "reported transactions",
@@ -350,10 +349,12 @@ def key_findings(summary, year):
         ]
     else:
         top = (summary.get("top_holdings") or [None])[0]
-        lead = owners[0] if owners else None
-        share = f"{(lead['lo'] / tot['lo']) * 100:.1f}%" if lead and tot["lo"] else "—"
-        share_label = (f"of the minimum assigned to {OWNER_NAMES.get(lead['name'], lead['name']).lower()}"
-                       if lead else "ownership attribution unavailable")
+        dated = summary["counts"].get("dated_transactions", 0)
+        months = summary["counts"].get("active_transaction_months", 0)
+        intensity = f"{dated / months:,.0f}" if months else "—"
+        intensity_detail = (f"{dated:,} dated transactions across {months} active calendar month"
+                            f"{'s' if months != 1 else ''}. Household filings do not identify who made a trade."
+                            if months else "No usable transaction dates in this filing year.")
         rows = [
             (f"{tot['open']}", "open-ended holdings",
              "The calculated upper total remains a floor because these buckets have no stated ceiling.",
@@ -362,9 +363,7 @@ def key_findings(summary, year):
              top["name"] if top else "No holding rows were reported.", "#assets"),
             (f"{summary['counts']['transactions']:,}", "reported transactions",
              f"Combined statutory value range: {rng_sum(tx)}.", "#txs"),
-            (share, share_label,
-             "Based on owner codes printed in the filing, not inferred beneficial ownership.",
-             "#panel-ownership"),
+            (intensity, "dated trades per active month", intensity_detail, "#txs"),
         ]
     return "".join(f'<article class="finding"><span class="section-kicker">{esc(k)}</span>'
                    f'<strong class="finding-num">{esc(n)}</strong><p>{esc(d)}</p>'

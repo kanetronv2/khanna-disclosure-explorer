@@ -8,6 +8,7 @@ import json
 import re
 import shutil
 from collections import Counter, defaultdict
+from datetime import date
 from pathlib import Path
 
 
@@ -63,6 +64,25 @@ def sum_range(rows, low, high):
         else:
             hi += maximum
     return {"lo": lo, "hiF": hi, "open": open_count, "any": any_value}
+
+
+def transaction_date_coverage(rows):
+    """Count transactions with a valid reported date and the calendar months they occupy."""
+    dated = 0
+    months = set()
+    for row in rows:
+        match = re.match(r"^\s*(\d{1,2})/(\d{1,2})/(\d{2}|\d{4})\s*$", str(row.get("date") or ""))
+        if not match:
+            continue
+        month, day, year = map(int, match.groups())
+        year += 2000 if year < 70 else 1900
+        try:
+            date(year, month, day)
+        except ValueError:
+            continue
+        dated += 1
+        months.add((year, month))
+    return {"dated_transactions": dated, "active_transaction_months": len(months)}
 
 
 def grouped(rows, key, low, high, label):
@@ -137,7 +157,8 @@ def build_year(year):
         "source_pdf": data.get("source_pdf"),
         "filer": data.get("filer"),
         "filing": data.get("filing"),
-        "counts": {"assets": len(assets), "transactions": len(transactions), "pages": len(pages)},
+        "counts": {"assets": len(assets), "transactions": len(transactions), "pages": len(pages),
+                   **transaction_date_coverage(transactions)},
         "holdings": sum_range(assets, "vlo", "vhi"),
         "income": sum_range(assets, "ilo", "ihi"),
         "transaction_total": sum_range(transactions, "lo", "hi"),
