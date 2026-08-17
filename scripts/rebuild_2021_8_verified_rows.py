@@ -41,8 +41,10 @@ def replace(page, rows, notification_date, note):
     path = PTR / f"page-{page:03}.json"
     data = json.loads(path.read_text())
     for row in rows:
+        if row.get("kind") != "tx":
+            continue
         row["date"] = datetime.strptime(row["date"], "%m/%d/%Y").strftime("%m/%d/%Y")
-        row["notification_date"] = notification_date
+        row["notification_date"] = row.get("notification_date") or notification_date
     data["rows"] = rows
     data["uncertainties"] = [{"field": "rows", "note": note}]
     data["page_confidence"] = "high"
@@ -74,4 +76,51 @@ replace(
     + source(228, 0, 27) + source(229, 0, 5),
     "09/02/2021",
     "All 70 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 225-229); later annual transactions are excluded because they are not printed on this PTR page.",
+)
+
+# Page 5 contains two visibly separate account blocks.  The latter changes
+# notification date partway through the block; preserve that printed boundary
+# rather than assigning a page-wide date.
+page5_first = source(190, 1, 14)
+page5_early = source(195, 21, 26) + source(196, 0, 27) + source(197, 0, 14)
+page5_late = source(197, 14, 27) + source(198, 0, 5)
+for row in page5_first + page5_early:
+    row["notification_date"] = "09/03/2021"
+for row in page5_late:
+    row["notification_date"] = "10/04/2021"
+replace(
+    5,
+    page5_first
+    + [{"kind": "group", "text": "Annual Investment Group"}]
+    + page5_early
+    + page5_late,
+    None,
+    "All 77 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 190 and 195-198). The scan's 09/03/2021 and 10/04/2021 notification-date runs are preserved; the printed account separator is retained.",
+)
+
+# Page 22 starts three rows earlier than the old transcription, ends the SP
+# sale run at JetBlue, then switches to the Ritu Ahuja trust's bond rows.
+# These bonds were filed in distinct PTRs, so their scan-printed notification
+# dates are deliberately per-row rather than inherited from the sale block.
+page22_sales = source(275, 16, 27) + source(276, 0, 27) + source(277, 0, 17)
+for row in page22_sales:
+    row["notification_date"] = "09/02/2021"
+page22_bonds = source(285, 25, 26) + source(286, 0, 11)
+bond_notifications = [
+    "02/02/2021",  # Sedgwick
+    "11/05/2021", "11/05/2021",  # New Mexico, Phoenix
+    "01/03/2022",  # Dallas
+    "02/02/2021", "02/02/2021", "02/02/2021", "02/02/2021",
+    "04/06/2021", "06/03/2021", "05/30/2021", "07/01/2021",
+]
+assert len(page22_bonds) == len(bond_notifications)
+for row, notification_date in zip(page22_bonds, bond_notifications):
+    row["notification_date"] = notification_date
+replace(
+    22,
+    page22_sales
+    + [{"kind": "group", "text": "Ritu Ahuja 2010 Trust"}]
+    + page22_bonds,
+    None,
+    "All 67 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 275-277 and 285-286). Restored the three leading sales, removed unprinted capital calls, and preserved the scan's individual bond notification dates.",
 )

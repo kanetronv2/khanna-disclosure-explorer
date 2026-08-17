@@ -8,99 +8,10 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "S&P GLOBAL INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TJX COMPANIES INC (NEW) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "KEYSIGHT TECHNOLOGIES, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NIKE CLASS-B CMN CLASS B",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AMERICAN EXPRESS CO. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "APTIV PLC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JPMORGAN CHASE & CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GENERAL ELECTRIC COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "asset_name": "WESTINGHOUSE AIR BRAKE TECHNOL CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/10/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
@@ -108,122 +19,355 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MORGAN STANLEY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/27/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARVELL TECHNOLOGY, INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "ZOOM VIDEO COMMUNICATIONS INC CMN CLASS A",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/31/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMERICAN TOWER CORPORATION CMN",
-      "tx_type": "Purchase",
+      "asset_name": "KERING ADR CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/18/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NEXTERA ENERGY, INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "PAYPAL HOLDINGS, INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/30/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DEERE & COMPANY CMN",
-      "tx_type": "Purchase",
+      "asset_name": "LVMH MOET HENNESSY LOUIS VUITTON S.A. ADR CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/18/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNION PACIFIC CORP. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/19/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/17/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/17/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WORKDAY, INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/20/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ADOBE INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/13/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CITIGROUP INC. HYBRID PERPETUAL USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/10/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/12/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NVIDIA CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "08/12/2021",
       "notification_date": "09/03/2021",
       "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "RINGCENTRAL, INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "08/05/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "Annual Investment Group"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "APPLE INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$100,001-$250,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$100,001-$250,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AMAZON.COM INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$50,001-$100,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$50,001-$100,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FACEBOOK, INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TESLA, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PEPSICO, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WALMART INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "EXXON MOBIL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/06/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SALESFORCE.COM, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LINDE PLC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CHEVRON CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/06/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "JOHNSON & JOHNSON CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -231,219 +375,49 @@
       "asset_name": "VISA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CISCO SYSTEMS, INC. CMN",
+      "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUA",
+      "asset_name": "VISA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/01/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETU",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2021",
+      "date": "08/18/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DISCOVER FINANCIAL SERVICES HYBRID PERPETUAL",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/24/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JPMORGAN CHASE & CO. HYBRID PERPETUAL USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/24/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MORGAN STANLEY HYBRID PERPETUAL USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/17/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "VODAFONE GROUP PUBLIC LIMITED HYBRID 04/04/207",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/01/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETU",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/22/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/17/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SEA LIMITED SPONSORED ADR CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "EQUITABLE HOLDINGS, INC. HYBRID PERPETUAL USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/21/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PARTNERRE FINANCE B LLC HYBRID 10/01/2050 USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/22/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/22/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "FIFTH THIRD BANCORP HYBRID PERPETUAL USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/17/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "OKTA, INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "OKTA, INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/10/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -451,164 +425,69 @@
       "asset_name": "MERCK & CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/24/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MERCK & CO., INC. CMN",
+      "asset_name": "STARBUCKS CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/14/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MERCK & CO., INC. CMN",
+      "asset_name": "NIKE CLASS-B CMN CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/17/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "asset_name": "AMGEN INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/15/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "asset_name": "ORACLE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "asset_name": "LOWES COMPANIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/02/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NASDAQ INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NASDAQ INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/27/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NASDAQ INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/10/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NASDAQ INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/30/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/20/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -616,150 +495,297 @@
       "asset_name": "COCA-COLA COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/28/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HANESBRANDS INC. CMN",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/30/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "URBAN OUTFITTERS INC CMN",
+      "asset_name": "AT&T INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/01/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "URBAN OUTFITTERS INC CMN",
+      "asset_name": "ADOBE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/09/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "URBAN OUTFITTERS INC CMN",
+      "asset_name": "ADOBE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/03/2021",
+      "date": "08/06/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTUITIVE SURGICAL, INC. CMN",
+      "asset_name": "3M COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/02/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETU",
+      "asset_name": "SAN ANTONIO TEX WTR REV REV 5% 05/15/22 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2021",
+      "date": "08/26/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "U.S. BANCORP HYBRID PERPETUAL",
+      "asset_name": "ALABAMA ST GO 5% 08/01/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/19/2021",
+      "date": "08/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL",
+      "asset_name": "CLEVELAND OHIO WTR REV REV 4% 01/01/22 JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/01/2021",
+      "date": "08/26/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CITIGROUP INC. HYBRID PERPETUAL",
+      "asset_name": "ILLINOIS FIN AUTH REV REV 5.0000% 07/01/22-CA JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/21/2021",
+      "date": "08/26/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SEA LIMITED SPONSORED ADR CMN",
+      "asset_name": "LAS VEGAS VALLEY NEV WTR DIST GO 5% 12/01/21 JE",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/15/2021",
+      "date": "08/26/2021",
       "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SALESFORCE.COM, INC CMN",
+      "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/27/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SALESFORCE.COM, INC CMN",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/05/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WILSON CNTY TENN GO 5% 04/01/22 AO",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/16/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VIRGINIA CMMNWLTH TRNSPTN BRD REV 5.0000% 05/15/22",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/07/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KING CNTY WASH GO 5% 01/01/22 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/13/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KENTUCKY INFRASTRUCTURE AUTH REV 4% 02/01/22",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/13/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "STATE OF LOUISIANA GO 5.0000% 07/15/22 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/07/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ODESSA TEX DB 5% 03/01/22 MS",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/07/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HUMBLE TEX INDPT SCH DIST GO 5% 02/15/22 FA",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "STATE OF OREGON GEN OBLGTN GO 5.0000% 05/01/22",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ALBUQUERQUE N MEX GO 5% 07/01/22 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NEW MEXICO ST SEVERANCE TAX REV 4% 07/01/22 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KNOXVILLE TENN WASTE WTR SYS REV 5% 04/01/22 AI",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MINNESOTA ST GO 5% 08/01/22 FA",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/04/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "field": "row_alignment",
-      "note": "Rows reconstructed from page-005 image strips and matching annual Schedule B sequence; black account header area is treated as non-transaction separator and visible transaction rows are preserved."
+      "field": "rows",
+      "note": "All 77 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 190 and 195-198). The scan's 09/03/2021 and 10/04/2021 notification-date runs are preserved; the printed account separator is retained."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

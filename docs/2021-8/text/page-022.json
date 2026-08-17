@@ -8,6 +8,36 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "LENNAR CORPORATION CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "08/17/2021",
+      "notification_date": "09/02/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PERKINELMER, INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "08/17/2021",
+      "notification_date": "09/02/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "YUM CHINA HOLDINGS, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "08/17/2021",
+      "notification_date": "09/02/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "METTLER-TOLEDO INTL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
@@ -527,95 +557,135 @@
     },
     {
       "kind": "group",
-      "text": "M&R Trust Partnership - 2020 Trust FBO Khanna Children"
+      "text": "Ritu Ahuja 2010 Trust"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for 8VC Opportunities Access",
+      "owner": "SP",
+      "asset_name": "SEDGWICK CNTY KANS UNI SCH GO 4% 10/01/21 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "09/27/2021",
-      "notification_date": "09/02/2021",
+      "date": "01/14/2021",
+      "notification_date": "02/02/2021",
       "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for 8VC Opportunities Access",
+      "owner": "SP",
+      "asset_name": "NEW MEXICO FIN AUTH ST TRANSN REV 5.0000% 06/18",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "09/21/2021",
-      "notification_date": "09/02/2021",
+      "date": "10/26/2021",
+      "notification_date": "11/05/2021",
       "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for 8VC Opportunities Access",
+      "owner": "SP",
+      "asset_name": "PHOENIX AZ CIVIC IMPRVMNT CO REV 5.0000% 0701/4",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/24/2021",
-      "notification_date": "09/02/2021",
+      "date": "10/26/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$100,001-$250,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DALLAS TEX AREA RAPID TRAN REV 5% 1201/22 JD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "12/03/2021",
+      "notification_date": "01/03/2022",
+      "amount": "$100,001-$250,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GREATER ALBANY SCH DIST NO 8J GO 5% 06/15/21 JD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/25/2021",
+      "notification_date": "02/02/2021",
       "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for 8VC Opportunities Access",
+      "owner": "SP",
+      "asset_name": "CLARK CNTY WASH PUB UTIL DIST REV 5% 01/01/22",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/02/2021",
-      "notification_date": "09/02/2021",
+      "date": "01/14/2021",
+      "notification_date": "02/02/2021",
       "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for 8VC Opportunities Access",
+      "owner": "SP",
+      "asset_name": "HOUSTON TEX UTIL SYS REV REV 4% 11/15/21 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/08/2021",
-      "notification_date": "09/02/2021",
-      "amount": "$15,001-$50,000"
+      "date": "01/14/2021",
+      "notification_date": "02/02/2021",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for Carlyle Opportunities Access",
+      "owner": "SP",
+      "asset_name": "AUSTIN TEX GO 5% 05/01/21 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/20/2021",
-      "notification_date": "09/02/2021",
-      "amount": "$250,001-$500,000"
+      "date": "01/26/2021",
+      "notification_date": "02/02/2021",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for RedBird 2019 Access",
+      "owner": "SP",
+      "asset_name": "HUNTSVILLE ALA GO 5% 05/01/22-CA MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "03/29/2021",
-      "notification_date": "09/02/2021",
-      "amount": "$500,001-$1,000,000"
+      "date": "03/01/2021",
+      "notification_date": "04/06/2021",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Capital call for RedBird 2019 Access",
+      "owner": "SP",
+      "asset_name": "FAIRFAX CNTY VA GO 5.0000% 10/01/21 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "09/14/2021",
-      "notification_date": "09/02/2021",
+      "date": "05/04/2021",
+      "notification_date": "06/03/2021",
+      "amount": "$50,001-$100,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PORTLAND ORE SWR SYS REV REV 5% 10/01/21 AO",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/11/2021",
+      "notification_date": "05/30/2021",
+      "amount": "$50,001-$100,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HORRY CNTY S C SCH DIST GO 5% 03/01/22 MS",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "06/22/2021",
+      "notification_date": "07/01/2021",
       "amount": "$50,001-$100,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "field": "row_boundary",
-      "note": "Bottom capital-call block transcribed from visible M&R Trust Partnership rows; continuation may proceed on other non-owned pages."
+      "field": "rows",
+      "note": "All 67 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 275-277 and 285-286). Restored the three leading sales, removed unprinted capital calls, and preserved the scan's individual bond notification dates."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

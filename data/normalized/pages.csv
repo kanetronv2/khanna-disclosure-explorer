@@ -3619,7 +3619,7 @@ Transaction grid: grey example row ignored. First blank row says ""Please see th
 page:2021-8:0002,2021,2021-8,2,Page 2 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,high,,4,0,docs/2021-8/pages/page-002.jpg,docs/2021-8/text/page-002.json,docs/2021-8/tess/page-002.txt
 page:2021-8:0003,2021,2021-8,3,Page 3 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,68,1,docs/2021-8/pages/page-003.jpg,docs/2021-8/text/page-003.json,docs/2021-8/tess/page-003.txt
 page:2021-8:0004,2021,2021-8,4,Page 4 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,68,1,docs/2021-8/pages/page-004.jpg,docs/2021-8/text/page-004.json,docs/2021-8/tess/page-004.txt
-page:2021-8:0005,2021,2021-8,5,Page 5 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,68,1,docs/2021-8/pages/page-005.jpg,docs/2021-8/text/page-005.json,docs/2021-8/tess/page-005.txt
+page:2021-8:0005,2021,2021-8,5,Page 5 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,high,,78,1,docs/2021-8/pages/page-005.jpg,docs/2021-8/text/page-005.json,docs/2021-8/tess/page-005.txt
 page:2021-8:0006,2021,2021-8,6,Page 6 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,68,1,docs/2021-8/pages/page-006.jpg,docs/2021-8/text/page-006.json,docs/2021-8/tess/page-006.txt
 page:2021-8:0007,2021,2021-8,7,Page 7 of 23,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,medium,,70,5,docs/2021-8/pages/page-007.jpg,docs/2021-8/text/page-007.json,docs/2021-8/tess/page-007.txt
 page:2021-8:0008,2021,2021-8,8,Page 8 of 23,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,68,0,docs/2021-8/pages/page-008.jpg,docs/2021-8/text/page-008.json,docs/2021-8/tess/page-008.txt
@@ -3636,7 +3636,7 @@ page:2021-8:0018,2021,2021-8,18,Page 18 of 23,Periodic Transaction Report - Atta
 page:2021-8:0019,2021,2021-8,19,Page 19 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,high,,70,0,docs/2021-8/pages/page-019.jpg,docs/2021-8/text/page-019.json,docs/2021-8/tess/page-019.txt
 page:2021-8:0020,2021,2021-8,20,Page 20 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,70,1,docs/2021-8/pages/page-020.jpg,docs/2021-8/text/page-020.json,docs/2021-8/tess/page-020.txt
 page:2021-8:0021,2021,2021-8,21,Page 21 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,high,,73,0,docs/2021-8/pages/page-021.jpg,docs/2021-8/text/page-021.json,docs/2021-8/tess/page-021.txt
-page:2021-8:0022,2021,2021-8,22,Page 22 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,61,1,docs/2021-8/pages/page-022.jpg,docs/2021-8/text/page-022.json,docs/2021-8/tess/page-022.txt
+page:2021-8:0022,2021,2021-8,22,Page 22 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,high,,68,1,docs/2021-8/pages/page-022.jpg,docs/2021-8/text/page-022.json,docs/2021-8/tess/page-022.txt
 page:2021-8:0023,2021,2021-8,23,Page 23 of 23,Periodic Transaction Report - Attached Transaction Table,ptr_transactions,ptr,medium,,17,5,docs/2021-8/pages/page-023.jpg,docs/2021-8/text/page-023.json,docs/2021-8/tess/page-023.txt
 page:2021-9:0001,2021,2021-9,1,Page 1 of 9,Periodic Transaction Report,ptr_cover,ptr_cover,high,"# Periodic Transaction Report
 
