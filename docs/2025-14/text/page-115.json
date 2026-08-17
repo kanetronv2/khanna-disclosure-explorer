@@ -1,0 +1,40 @@
+{
+  "pdf_page": 115,
+  "printed_label": "Page 115 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "PARKER-HANNIFIN CORP CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": "S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "PARTNERRE FINANCE B LLC HYBRID 10/01/2050 USD JRSUB LIEN CPN 09/22/20", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "PFIZER INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "PHILIP MORRIS INTERNATIONAL IN 1 75% 11/01/2030 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "PNC FINANCIAL SERVICES 1 15 % 08/13/2026 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "PNC FINANCIAL SERVICES GROUP HYBRID PERPETUAL USD SER T JRSUB LIEN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "PNC FINANCIAL SERVICES GROUP HYBRID PERPETUAL USD SER V JRSUB LIEN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "PNC FINANCIAL SERVICES GROUP HYBRID PERPETUAL USD SER W JRSUB LIE", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "PRUDENTIAL FINANCIAL INC HYBRID 09/01/2052 USD JRSUB LIEN CPN 08/17/22", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "REALTY INCOME CORP 3 1% 12/15/2029 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "REGAL REXNORD CORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "ROGERS COMMUNICATIONS INC HYBRID 04/15/2055 USD SER NC5 SUB LIEN CP", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "ROYALTY PHARMA PLC 2.15 / 09/02/2031 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SALESFORCE INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SBA COMMUNICATIONS CORPORATION CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SEMPRA HYBRID 04/01/2056 JRSUB LIEN CPN 08/29/25 6 375%", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SEMPRA HYBRID 10/01/2054 USD JRSUB LIEN CPN 03/14/24 6 875 /", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SIMON PROPERTY GROUP LP 3 375% 12/01/2027 USD SER SR LIEN", "value": "$15,001-$50,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SOLVENTUM CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SOUTHERN COMPANY (THE) HYBRID 01/15/2051 SER B JRSUB LIEN CPN 09/18/2", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SOUTHERN COMPANY (THE) HYBRID 03/15/2055 USD SER 2025 JRSUB LIEN CPN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SS&C TECHNOLOGIES HOLDINGS IN CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STARBUCKS CORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE STREET CORPORATION HYBRID 02/07/2028 USD SR LIEN CPN 02/07/22 2", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 2, "field": "asset_name", "read": "PARTNERRE FINANCE B LLC HYBRID 10/01/2050 USD JRSUB LIEN CPN 09/22/20", "note": "several names truncated at the Block A column edge (rows 2, 6-9, 12, 20, 21, 24)"},
+    {"row": 4, "field": "asset_name", "read": "PHILIP MORRIS INTERNATIONAL IN 1 75% 11/01/2030 USD SR LIEN", "note": "percent/fraction glyphs degraded on bond coupons (rows 4, 5, 16, 17)"}
+  ],
+  "page_confidence": "high"
+}

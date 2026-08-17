@@ -1,0 +1,43 @@
+{
+  "pdf_page": 284,
+  "printed_label": "Page 284 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ELEVANCE HEALTH INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MARSH & MCLENNAN CO INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ARTHUR J GALLAGHER & CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITED PARCEL SERVICE  INC  CLASS B COMMON STOCK", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INTUITIVE SURGICAL  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PHILIP MORRIS INTL INC CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/30/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PHILIP MORRIS INTL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SERVICENOW INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "THE PROCTER & GAMBLE COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MARSH & MCLENNAN CO INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INTUITIVE SURGICAL  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PALO ALTO NETWORKS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FISERV  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BRISTOL MYERS SQUIBB COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITED PARCEL SERVICE  INC  CLASS B COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TESLA  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ACCENTURE PLC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SHERWIN WILLIAMS CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WORKDAY  INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CHIPOTLE MEXICAN GRILL  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AUTOMATIC DATA PROCESSING INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PUBLIC STORAGE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 6, "field": "amount", "read": "$15,001-$50,000", "note": "UNITED PARCEL SERVICE 08/04 row: a scanner speck sits in the $1,001-$15,000 cell; the printed X is in $15,001-$50,000 (verified at 300 dpi)"}
+  ],
+  "page_confidence": "high"
+}

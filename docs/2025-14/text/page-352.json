@@ -1,0 +1,22 @@
+{
+  "pdf_page": 352,
+  "printed_label": "Page 352 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "MURA Holdings"},
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MAI GP STAKING FUND   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/24/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DFJ GROWTH V  L.P   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/17/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ORANGEWOOD OSS SPV FUND   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ORANGEWOOD OSS SPV FUND   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/21/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SILVER POINT DISTRESSED OPPORTUNITY FUND II   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SILVER POINT DISTRESSED OPPORTUNITY FUND II   CC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/17/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 4, "field": "asset_name", "read": "DFJ GROWTH V  L.P   CC", "note": "punctuation between L and P reads as a small dot; could be 'L P'"}
+  ],
+  "page_confidence": "high"
+}

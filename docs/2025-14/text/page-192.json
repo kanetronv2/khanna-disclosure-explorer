@@ -1,0 +1,43 @@
+{
+  "pdf_page": 192,
+  "printed_label": "Page 192 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SHERWIN WILLIAMS CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NORFOLK SOUTHERN CORP CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMETEK INC (NEW) CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HILTON WORLDWIDE HOLDINGS INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BECTON  DICKINSON AND COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HENRY SCHEIN INC COMMON STOCK", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KEYSIGHT TECHNOLOGIES  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "J B HUNT TRANS SVCS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WEYERHAEUSER COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMAZON COM INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BLACKSTONE GROUP INC/THE CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WESTINGHOUSE AIR BRAKE TECHNOL CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GEN DIGITAL INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "METLIFE  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "W W  GRAINGER INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REGIONS FINANCIAL CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "M&T BANK CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROCKWELL AUTOMATION INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHARLES RIVER LABORATORIES INT CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FOX CORP 3 5 % 04/08/2030 USD", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REALTY INCOME CORP 2 85 /  12/15/2032 USD", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE BANK OF NOVA SCOTIA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/28/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/22/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLE INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PFIZER INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$15,001-$50,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 23, "field": "asset_name", "read": "REALTY INCOME CORP 2 85 /  12/15/2032 USD", "note": "coupon percent sign printed as a degraded slash; same bond appears elsewhere as \"REALTY INCOME CORP 2 85% 12/15/2032 USD\" (FOX CORP row on this page has the same broken-percent glyph)"}
+  ],
+  "page_confidence": "high"
+}

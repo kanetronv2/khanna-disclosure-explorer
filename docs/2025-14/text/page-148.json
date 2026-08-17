@@ -1,0 +1,315 @@
+{
+ "pdf_page": 148,
+ "printed_label": "Page 148 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "MURA Holdings"
+  },
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CHUBB LIMITED COM NPV",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ABBVIE INC COM USD0 01",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ADVANCED MICRO DEVICES INC",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ALPHABET INC CAP STK CL A",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMAZON COM INC",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "APPLE INC",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BERKSHIRE HATHAWAY INC COM USD0 0033 CLASS B",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BOOKING HOLDINGS INC COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BROADCOM INC COM",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CMS ENERGY CORP COM USD0 01",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CISCO SYSTEMS INC",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "COCA-COLA CO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "COSTCO WHOLESALE CORP COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "EXXON MOBIL CORP COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "META PLATFORMS INC CLASS A COMMON STOCK",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GE AEROSPACE COM NEW",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HOME DEPOT INC",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "INTERNATIONAL BUS MACH CORP COM USD0 20",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "INTUITIVE SURGICAL INC",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "JPMORGAN CHASE &CO COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "JOHNSON &JOHNSON COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ELI LILLY &CO COM",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MASTERCARD INCORPORATED CL A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 6,
+   "field": "income_types",
+   "read": "DIVIDENDS",
+   "note": "APPLE row has a faint stray mark in the CAPITAL GAINS column (ink 0.058), below X threshold"
+  },
+  {
+   "row": 8,
+   "field": "value",
+   "read": "$1,001-$15,000",
+   "note": "BOOKING row has a faint stray mark in the $100,001-$250,000 column (ink 0.065), below X threshold"
+  },
+  {
+   "row": 16,
+   "field": "amount_of_income",
+   "read": "$1-$200",
+   "note": "GE AEROSPACE row has a faint stray mark in the Over $5,000,000 column (ink 0.034), below X threshold"
+  }
+ ],
+ "page_confidence": "high"
+}

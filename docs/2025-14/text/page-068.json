@@ -1,0 +1,318 @@
+{
+ "pdf_page": 68,
+ "printed_label": "Page 68 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ritu Ahuja Declaration of Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERISK ANALYTICS  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERIZON COMMUNICATIONS INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VIATRIS INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VICI PROPERTIES INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VISA INC  CMN  CLASS A",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VULCAN MATERIALS CO CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "W R. BERKLEY CORPORATION CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "W W  GRAINGER INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WALGREENS BOOTS ALLIANCE  INC  CMN",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WALMART INC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WALT DISNEY COMPANY (THE) CMN",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WARNER BROS DISCOVERY INC CMN  CLASS A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WASHINGTON D C MET AREA TRAN REV 5%  07/15/29 JJ AUTH DEDICATED REV B",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WASHINGTON ST UNIV REVS REV 1 6890 /  10/01/26 AO TAXABLE GEN REF BDS",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WASTE MANAGEMENT INC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WEC ENERGY GROUP  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WELLS FARGO & COMPANY CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WELLTOWER  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WEYERHAEUSER COMPANY CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WILLIS TOWERS WATSON PLC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "XCEL ENERGY INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "XYLEM INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "YUM BRANDS  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 14,
+   "field": "asset_name",
+   "read": "... AUTH DEDICATED REV B",
+   "note": "name truncated at right cell edge; coupon glyph '5%' degraded"
+  },
+  {
+   "row": 15,
+   "field": "asset_name",
+   "read": "WASHINGTON ST UNIV REVS REV 1 6890 / ...",
+   "note": "glyph after '1 6890' printed as '/', likely degraded '%' (1.6890%)"
+  }
+ ],
+ "page_confidence": "high"
+}

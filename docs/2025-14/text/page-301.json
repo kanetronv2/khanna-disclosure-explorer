@@ -1,0 +1,43 @@
+{
+  "pdf_page": 301,
+  "printed_label": "Page 301 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/14/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ABBVIE INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ABBVIE INC CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "02/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BANK OF AMERICA CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "02/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "02/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NASDAQ INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "STARBUCKS CORP  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "VISA INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AMAZON COM INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "02/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/13/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/14/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MARTIN MARIETTA MATERIALS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/14/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "LULULEMON ATHLETICA INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FERGUSON ENTERPRISES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INTERNATIONAL PAPER CO  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SALESFORCE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ROGERS COMMUNICATIONS IN HYBRID 04/15/2055", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "METLIFE INC HYBRID 03/15/2055", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SYNCHRONY FINANCIAL PFD USD2.0625(8 25% ) SERIES B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MORGAN STANLEY PFD USD1 6250(6 50% ) SERIES P", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FERGUSON ENTERPRISES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AMAZON COM INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/28/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 24, "field": "asset_name", "read": "SYNCHRONY FINANCIAL PFD USD2.0625(8 25% ) SERIES B", "note": "decimal point after USD2 is legible here; page 299 prints the same security with \"/\" where this page prints \"%\""}
+  ],
+  "page_confidence": "high"
+}

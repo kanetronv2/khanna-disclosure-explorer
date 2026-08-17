@@ -261,6 +261,33 @@ def ptr_year_build(year, n_docs, ext_idx):
 annual_year_build("2021", 14, 13, 303)
 annual_year_build("2022", 16, 15, 367)
 annual_year_build("2023", 15, 14, 327)
+
+# ---- 2025: holdings + transactions from the Form A annual (filed Aug 2026 under extension);
+# PTRs + extension request browsable. Explicit build because annual_year_build cannot label
+# the extension request (2025-13).
+FD2025 = ("2025-14", "2025 Annual Financial Disclosure (Form A)")
+DOCS2025 = [FD2025] + \
+    [(f"2025-{i}", f"Periodic Transaction Report #{i} (2025)") for i in range(1, 13)] + \
+    [("2025-13", "Financial Disclosure Extension Request")]
+build("2025", DOCS2025, "2025-14",
+      lambda doc, t: doc == "2025-14",
+      {"year": "2025", "source_pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf",
+       "kicker": "2025 Annual Financial Disclosure (Form A) + PTRs · U.S. House · California 17th",
+       # The filer's notes page (p.353) records a reporting-methodology change that makes the
+       # 2025 totals non-comparable with earlier years. Reported holdings fall by roughly half
+       # against 2024, so this has to travel with the numbers wherever they are shown.
+       "caveat": ("The filing’s notes page states that, pursuant to the 2026 Instruction Guide, "
+                  "“the value bracket that represents the percentage interest in the asset is "
+                  "selected.” On that basis the 2025 brackets describe a percentage interest "
+                  "rather than the value of the asset itself, so 2025 totals are not directly "
+                  "comparable with earlier filing years and the year-over-year change should "
+                  "not be read as a change in wealth."),
+       "why_html": ("Rep. Ro Khanna (CA-17) disclosed his 2025 finances as 353 pages of hand-delivered, unsearchable "
+                    "paper scans rather than filing through the House's electronic system. This site is a transcription of "
+                    "<a id=\"srclink\" href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf\" target=\"_blank\" rel=\"noopener\">his filing (PDF)</a> "
+                    "that makes his finances readable, searchable, and analyzable. Dollar figures are the statutory ranges "
+                    "reported on the form. Transactions are from the annual report's Schedule B; the separately filed PTRs "
+                    "are viewable in the Document tab (their trades duplicate Schedule B).")})
+
 # ---- PTR-only years (no annual filed for the calendar year yet)
-ptr_year_build("2025", 13, 13)
 ptr_year_build("2026", 5, None)

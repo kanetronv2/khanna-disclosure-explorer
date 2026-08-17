@@ -1,0 +1,13 @@
+{
+  "pdf_page": 353,
+  "printed_label": "Page 353 of 353",
+  "section": "FILER NOTES",
+  "page_type": "other",
+  "filer": "Rohit Khanna",
+  "rows": [],
+  "free_text": "# FILER NOTES\n(Optional)\n\n| Name | Page |\n| --- | --- |\n| *(blank)* | Page__353__of _353____ |\n\n| NOTE NUMBER | NOTES |\n| --- | --- |\n|  | Pursuant to the 2026 Instruction Guide, Financial Disclosure Reports for Calendar Year 2025 and Periodic Transaction Reports, the value bracket that represents the percentage interest in the asset is selected |\n\nThe note text runs across the first four ruled lines of the NOTES column; the NOTE NUMBER column is blank for all rows, and the remaining ruled lines on the page are empty. There is no terminating period after \"selected\".",
+  "uncertainties": [
+    {"row": null, "field": "filer", "note": "the Name box on this page is left blank; \"filer\" is carried over from the rest of the filing"}
+  ],
+  "page_confidence": "high"
+}

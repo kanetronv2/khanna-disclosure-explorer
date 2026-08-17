@@ -1,0 +1,303 @@
+{
+  "pdf_page": 238,
+  "printed_label": "Page 238 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CROWN CASTLE INTL CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DEERE & COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COSTAR GROUP INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WATERS CORPORATION COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UBER TECHNOLOGIES INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "JOHNSON & JOHNSON CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COPART INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 580 EXP 03/28/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/30/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 555 EXP 03/07/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/10/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 560 EXP 03/21/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/03/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 575 EXP 03/14/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/16/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MERCK & CO INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTUIT INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CINTAS CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NASDAQ INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMETEK INC (NEW) CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ADOBE INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TEXAS INSTRUMENTS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MOODY'S CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DOVER CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ABBVIE INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "T ROWE PRICE GROUP INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "01/17/2025",
+      "notification_date": null,
+      "amount": "$1,001-$15,000"
+    }
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {
+      "row": 10,
+      "field": "asset_name",
+      "read": "PUT/XSP @ 580 EXP 03/28/2025",
+      "note": "the printed cell has a wide gap between 'PUT/XSP' and '@'; collapsed to a single space per house convention (rows 10-13)"
+    }
+  ],
+  "page_confidence": "high"
+}

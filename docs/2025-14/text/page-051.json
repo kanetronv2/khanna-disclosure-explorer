@@ -1,0 +1,40 @@
+{
+ "pdf_page": 51,
+ "printed_label": "Page 51 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ZIMMER BIOMET HOLDINGS INC",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ZOETIS INC  CMN CLASS A",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [],
+ "page_confidence": "high"
+}

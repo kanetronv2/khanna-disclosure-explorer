@@ -1,0 +1,333 @@
+{
+ "pdf_page": 18,
+ "printed_label": "Page 18 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL USD SER M JRSUB LI",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "CARLYLE OPPORTUNITIES ACCESS LLC",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CARMAX, INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "CBM INVESTORS L P",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CENTERPOINT ENERGY INC HYBRID 02/15/2055 USD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CENTERPOINT ENERGY INC HYBRID 02/15/2055 USD SER B SR LIEN CPN 08/14/",
+   "value": "$1-$1,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD SER H JRSUB",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD SER K JRSUB",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL JRSUB LIEN CPN 12/10/25 6 625%",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL SER T SUB LIEN CPN 04/25/16 6 25 %",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL USD SER AA JRSUB LIEN CPN 09/21/23 7 6",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL USD SER DD JRSUB LIEN CPN 07/30/24 7 0",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL USD SER EE JRSUB LIEN CPN 12/03/24 6 7",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL USD SER GG JRSUB LIEN CPN 07/23/25 6 8",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC HYBRID PERPETUAL USD SER Z JRSUB LIEN CPN 03/07/23 7 37",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIGROUP INC LINKED TO BASKET OF INDICES UPSIDE LEVERED CAPPED W E",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIZENS FINANCIAL GROUP INC HYBRID PERPETUAL USD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CITIZENS FINANCIAL GROUP INC HYBRID PERPETUAL USD SER G JRSUB LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CMS ENERGY CORPORATION HYBRID 06/01/2050 USD JRSUB LIEN CPN 05/28/20",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "COCA-COLA EUROPEAN PARTNERS PL CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "COLGATE PALMOLIVE CO CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "COMERICA INCORPORATED PFD USD1 7188(6 88%) SERIES B",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": null,
+   "field": "asset_name",
+   "read": null,
+   "note": "several bond/hybrid names truncated at printed cell edge (rows 2, 8, 9, 10, 13-18, 19, 21, 22: e.g. 'JRSUB LI', 'CPN 08/14/', 'SER H JRSUB', '7 6', '7 0', '6 7', '6 8', '7 37', 'W E', 'LIEN', '05/28/20'); transcribed as far as printed"
+  },
+  {
+   "row": 3,
+   "field": "value",
+   "read": "$100,001-$250,000",
+   "note": "CARLYLE OPPORTUNITIES ACCESS LLC row also has X in EIF column"
+  },
+  {
+   "row": 6,
+   "field": "value",
+   "read": "$100,001-$250,000",
+   "note": "CBM INVESTORS L P row also has X in EIF column"
+  },
+  {
+   "row": 13,
+   "field": "asset_name",
+   "read": "CITIGROUP INC HYBRID PERPETUAL SER T SUB LIEN CPN 04/25/16 6 25 %",
+   "note": "trailing character after '6 25' unclear (looks like '/4' or '%')"
+  }
+ ],
+ "page_confidence": "high"
+}

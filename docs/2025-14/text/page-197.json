@@ -1,0 +1,43 @@
+{
+  "pdf_page": 197,
+  "printed_label": "Page 197 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JOHNSON & JOHNSON CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DUPONT DE NEMOURS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MODERNA INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LYONDELLBASELL INDUSTRIES N V CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/30/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PEPSICO INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TJX COMPANIES INC (NEW) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MERCK & CO INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MOODY'S CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LINDE PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NIKE CLASS-B CMN CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ACCENTURE PLC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ILLINOIS TOOL WORKS CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BLACKROCK FUNDING INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COINBASE GLOBAL INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMERICAN EXPRESS CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHARTER COMMUNICATIONS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NORFOLK SOUTHERN CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALPHABET INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NORTHERN TRUST CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "YUM BRANDS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ANALOG DEVICES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "T MOBILE US INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/23/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 15, "field": "date", "read": "06/23/2025", "note": "NIKE row: tesseract read 8/23/2025, but the BR quadrant clearly shows 6/23/2025 like every neighbouring row"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,43 @@
+{
+  "pdf_page": 161,
+  "printed_label": "Page 161 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SBA COMMUNICATIONS CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EQUITABLE HOLDINGS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EQUITABLE HOLDINGS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/AAPL FLEX EURO  PM 220 EXP 09/05/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": null, "asset_name": "AMERICAN EXPRESS CO  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ACCENTURE PLC CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GE VERNOVA LLC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PFIZER INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MARVELL TECHNOLOGY  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LULULEMON ATHLETICA INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NVIDIA CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMAZON COM INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF AMERICA CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NASDAQ INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CARMAX, INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NASDAQ INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AIR LEASE CORPORATION HYBRID PERPETUAL USD", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/19/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 14, "field": "owner", "read": null, "note": "AMERICAN EXPRESS CO  CMN row: the SP/DC/JT owner cell is blank on the form (every other row on the page reads DC)"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,365 @@
+{
+ "pdf_page": 21,
+ "printed_label": "Page 21 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "LULULEMON ATHLETICA INC  CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL USD  JRSUB  LIEN CPN 07/30/19",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 08/17/21 3",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "M&T BANK CORPORATION PFD USD1 5875(6 35 /) SERIES K",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MARTIN MARIETTA MATERIALS INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MARVELL TECHNOLOGY  INC  CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MC DONALDS CORP CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "METLIFE INC HYBRID 03/15/2055",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "METLIFE  INC  CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "METLIFE  INC  HYBRID 03/15/2055 USD SER G JRSUB LIEN CPN 03/13/25 6 35%",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MICROSOFT CORPORATION CMN",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES UPSIDE LEVE",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX CNTNGNT CPN W E",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX CNTNGNT CPN W E",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY PFD USD1 6250(6 50 %) SERIES P",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY PFD USD1 7188(6 88 /) SERIES F PERPETUAL PREFERRED",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY PFD USD1 7813(7 13 %) SERIES E HYBRID FIX TO FLOAT PER",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "N V R INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NASDAQ INC  CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NATIONAL BANK OF CANADA LINKED TO S&P 500 INDEX UPSIDE LEVERED CAP",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NETFLIX, INC  CMN",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "P,S"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 4,
+   "field": "asset_name",
+   "read": "M&T BANK CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 08/17/21 3",
+   "note": "name truncated at cell border after '3'"
+  },
+  {
+   "row": 5,
+   "field": "asset_name",
+   "read": "M&T BANK CORPORATION PFD USD1 5875(6 35 /) SERIES K",
+   "note": "glyph after '6 35' is a degraded percent sign, printed like '/'"
+  },
+  {
+   "row": 16,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES UPSIDE LEVE",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 17,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX CNTNGNT CPN W E",
+   "note": "name truncated at cell border; final character partially clipped, could be 'B'"
+  },
+  {
+   "row": 18,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX CNTNGNT CPN W E",
+   "note": "name truncated at cell border; final character partially clipped, could be 'B'"
+  },
+  {
+   "row": 19,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY PFD USD1 6250(6 50 %) SERIES P",
+   "note": "percent sign degraded in scan (tesseract read '4')"
+  },
+  {
+   "row": 20,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY PFD USD1 7188(6 88 /) SERIES F PERPETUAL PREFERRED",
+   "note": "degraded percent glyph printed like '/'; name truncated at cell border"
+  },
+  {
+   "row": 21,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY PFD USD1 7813(7 13 %) SERIES E HYBRID FIX TO FLOAT PER",
+   "note": "percent sign degraded (tesseract read '4'); name truncated at cell border"
+  },
+  {
+   "row": 24,
+   "field": "asset_name",
+   "read": "NATIONAL BANK OF CANADA LINKED TO S&P 500 INDEX UPSIDE LEVERED CAP",
+   "note": "name truncated at cell border"
+  }
+ ],
+ "page_confidence": "high"
+}

@@ -1,0 +1,43 @@
+{
+  "pdf_page": 264,
+  "printed_label": "Page 264 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ZIMMER BIOMET HOLDINGS INC", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "XYLEM INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "EMERSON ELECTRIC CO  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DUN & BRADSTREET HOLDINGS  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "THE PROGRESSIVE CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SS&C TECHNOLOGIES HOLDINGS  IN CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PRUDENTIAL FINANCIAL INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ROYAL CARIBBEAN GROUP ISIN  LR0008862868", "tx_type": "Sale", "cap_gain_over_200": true, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SENSATA TECHNOLOGIES HOLDING P CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "OLD DOMINION FREIGHT LINE  INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HUBBELL INCORPORATED CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DUN & BRADSTREET HOLDINGS  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "D R  HORTON  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "S&P GLOBAL INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INGERSOLL RAND INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CROWDSTRIKE HOLDINGS  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CHARLES RIVER LABORATORIES INT CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "RESMED INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ARISTA NETWORKS  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PALO ALTO NETWORKS INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BAXTER INTERNATIONAL INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PTC INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "EQUIFAX INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NIKE CLASS-B CMN CLASS B", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ACCENTURE PLC CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DUN & BRADSTREET HOLDINGS  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BAXTER INTERNATIONAL INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/08/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 9, "field": "asset_name", "read": "ROYAL CARIBBEAN GROUP ISIN  LR0008862868", "note": "tesseract read the ISIN as LR0G08862868; the 300-dpi crop shows LR0008862868"}
+  ],
+  "page_confidence": "high"
+}

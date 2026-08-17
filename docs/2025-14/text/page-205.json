@@ -1,0 +1,43 @@
+{
+  "pdf_page": 205,
+  "printed_label": "Page 205 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WORKDAY INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BLACKSTONE GROUP INC/THE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BLOCK INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FAIR ISAAC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AVALONBAY COMMUNITIES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LOWES COMPANIES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHARTER COMMUNICATIONS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FISERV INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REGENERON PHARMACEUTICAL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INTL BUSINESS MACHINES CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SERVICENOW INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PHILIP MORRIS INTL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNION PACIFIC CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CLARK CNTY NEV HWY IMPT REV REV 5% 07/01/31 JJ", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/04/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/21/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INGERSOLL RAND INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MODERNA INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MID-AMERICA APT CMNTYS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ELI LILLY & CO CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INTL.FLAVORS & FRAGRANCE CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UDR INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OLD DOMINION FREIGHT LINE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE KRAFT HEINZ CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/26/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 16, "field": "date", "read": "08/26/2025", "note": "UNION PACIFIC row: tesseract read 9/26/2025; the BR quadrant shows 8/26/2025 like its neighbours"}
+  ],
+  "page_confidence": "high"
+}

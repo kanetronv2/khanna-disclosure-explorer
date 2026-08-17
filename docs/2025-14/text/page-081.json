@@ -1,0 +1,304 @@
+{
+ "pdf_page": 81,
+ "printed_label": "Page 81 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ritu Ahuja 1994 Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 79 EXP 01/09/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 82 EXP 02/13/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 62 EXP 08/08/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 64 EXP 03/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 64 EXP 09/12/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 66 EXP 06/13/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 66 EXP 10/10/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 67 EXP 04/11/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 67 EXP 07/11/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 68 EXP 02/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 68 EXP 11/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 69 EXP 01/10/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 70 EXP 05/09/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 76 EXP 12/12/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 79 EXP 01/09/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/RIO FLEX EURO PM @ 82 EXP 02/13/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 78 EXP 02/13/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 81 EXP 01/09/2026",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 68 EXP 02/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 71 EXP 01/10/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 71 EXP 03/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 71 EXP 06/13/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 71 EXP 07/11/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALL/SHEL FLEX EURO PM 72 EXP 04/11/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [],
+ "page_confidence": "high"
+}

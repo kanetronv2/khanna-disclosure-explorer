@@ -1,0 +1,43 @@
+{
+  "pdf_page": 190,
+  "printed_label": "Page 190 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NORDSON CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OREGON ST GO 5 % 05/01/31 MN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHIPOTLE MEXICAN GRILL, INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KLA CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DELTA AIR LINES  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SYNOPSYS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PAYPAL HOLDINGS  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PACCAR INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DELL TECHNOLOGIES INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PRUDENTIAL FINANCIAL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITED RENTALS  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PPG INDUSTRIES  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SEAGATE TECHNOLOGY HOLDIN PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FREEPORT-MCMORAN INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOW INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLE INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ANALOG DEVICES  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LAM RESEARCH CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNION PACIFIC CORP  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PFIZER INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MOODY'S CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ILLINOIS TOOL WORKS CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/15/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 2, "field": "asset_name", "read": "OREGON ST GO 5 % 05/01/31 MN", "note": "percent glyph after \"5\" is partly broken in the scan; printed elsewhere in this filing as \"OREGON ST GO 5%  05/01/31 MN\""}
+  ],
+  "page_confidence": "high"
+}

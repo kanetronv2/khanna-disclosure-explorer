@@ -156,11 +156,34 @@ def build_year(year):
     return summary
 
 
+def write_timeline(summaries):
+    """Regenerate timeline-data.js from the summaries.
+
+    This file used to be maintained by hand, which let it drift silently out of step with
+    the compiled data (2026 sat 11 transactions light until it was regenerated). It is pure
+    derived data, so it is now written here.
+    """
+    def block(rng):
+        return f"{{lo:{rng['lo']},hi:{rng['hiF']},open:{rng['open']}}}"
+
+    rows = []
+    for year in YEARS:
+        s = summaries[year]
+        rows.append(
+            f'  {{year:"{year}",ptrOnly:{"true" if (s.get("meta") or {}).get("ptr_only") else "false"},'
+            f'assets:{s["counts"]["assets"]},transactions:{s["counts"]["transactions"]},'
+            f'holdings:{block(s["holdings"])},income:{block(s["income"])},'
+            f'transactionValue:{block(s["transaction_total"])}}}')
+    (ROOT / "timeline-data.js").write_text(
+        "window.FD_TIMELINE = [\n" + ",\n".join(rows) + "\n];\n", encoding="utf-8")
+
+
 def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
     summaries = {year: build_year(year) for year in YEARS}
+    write_timeline(summaries)
     payload = "window.FD_SUMMARIES = " + json.dumps(
         summaries, ensure_ascii=False, sort_keys=True, separators=(",", ":")
     ) + ";\n"

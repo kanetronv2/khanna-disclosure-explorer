@@ -1,0 +1,43 @@
+{
+  "pdf_page": 215,
+  "printed_label": "Page 215 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HILTON WORLDWIDE HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOORDASH INC CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BECTON DICKINSON AND COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ANALOG DEVICES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "YUM BRANDS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KENVUE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PAYPAL HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PAYCHEX INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ARCH CAPITAL GROUP LTD CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMCOR PLC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CADENCE DESIGN SYSTEMS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EXTRA SPACE STORAGE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "VERISK ANALYTICS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NXP SEMICONDUCTORS N V CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOW INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CORTEVA INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GLOBAL PAYMENTS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KIMCO REALTY OP LLC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LINDE PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLUMBUS OHIO (CITY OF) GO 5 / 04/01/28 AO", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/09/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BLACKSTONE GROUP INC/THE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STARBUCKS CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PHILIP MORRIS INTL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FISERV INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLOVIN CORPORATION CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 22, "field": "asset_name", "read": "COLUMBUS OHIO (CITY OF) GO 5 / 04/01/28 AO", "note": "coupon percent sign degraded in the scan and prints as a slash"}
+  ],
+  "page_confidence": "high"
+}

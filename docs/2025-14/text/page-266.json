@@ -1,0 +1,43 @@
+{
+  "pdf_page": 266,
+  "printed_label": "Page 266 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BLACKSTONE GROUP INC/THE CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BROADCOM INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ASSURANT  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ARISTA NETWORKS  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ADVANCED MICRO DEVICES  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CLOROX CO (THE) (DELAWARE) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "JABIL INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NXP SEMICONDUCTORS N V  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TE CONNECTIVITY CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MONOLITHIC POWER SYSTEMS  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "LENNAR CORPORATION CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DISCOVER FINANCIAL SERVICES CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ADVANCED MICRO DEVICES  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GODADDY INC  CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HASBRO  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SOLVENTUM CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MGM RESORTS INTERNATIONAL CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GRAPHIC PACKAGING HLDGCO CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BORGWARNER INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GRAPHIC PACKAGING HLDGCO CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GRAPHIC PACKAGING HLDGCO CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "04/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PAYPAL HOLDINGS  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "M&T BANK CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FRANKLIN RESOURCES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INSULET CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 22, "field": "date", "read": "04/02/2025", "note": "tesseract read 4/21/2025 for the first GRAPHIC PACKAGING HLDGCO row; the 300-dpi crop clearly shows 4/2/2025"}
+  ],
+  "page_confidence": "high"
+}

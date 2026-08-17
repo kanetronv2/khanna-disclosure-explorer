@@ -1,0 +1,40 @@
+{
+  "pdf_page": 113,
+  "printed_label": "Page 113 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "INTERCONTINENTAL EXCHANGE INC 3 75% 09/21/2028 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "INTERNATIONAL PAPER CO CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "IOWA FIN AUTH REV REV 5% 08/01/32 FA ST REVOLVING FD BDS 2022A GREEN", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO HYBRID PERPETUAL USD SER KK JRSUB LIEN CPN 05", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO HYBRID PERPETUAL USD SER NN JRSUB LIEN CPN 03", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO HYBRID PERPETUAL USD SER OO JRSUB LIEN CPN 02", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "KEYCORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "KEYCORP HYBRID PERPETUAL USD SER D JRSUB LIEN CPN 09/09/16 5 0 /", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "KKR & CO INC PFD USD1 7188(6 88%)", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "LABCORP HOLDINGS INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "LAS VEGAS VY NEV WTR DIST DB 5% 06/01/32 JD GO LTD TAX REF BDS 2024A L", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "LINCOLN NATIONAL CORPORATION HYBRID PERPETUAL USD SER C SR LIEN C", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "LOWE S COMPANIES INC 1 7 / 10/15/2030 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "LULULEMON ATHLETICA INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 07/30/19", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 08/17/21 3", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "M&T BANK CORPORATION PFD USD1 5875(6 35 /) SERIES K", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "MARTIN MARIETTA MATERIALS INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "METLIFE INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "METLIFE INC HYBRID 03/15/2055 USD SER G JRSUB LIEN CPN 03/13/25 6 35%", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "MITSUBISHI UFJ FINANCIAL GROUP 4 05% 09/11/2028 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "MORGAN STANLEY PFD USD1 5938(6 38 %) SERIES I", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "MORGAN STANLEY PFD USD1 6250(6 50%) SERIES P", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 3, "field": "asset_name", "read": "IOWA FIN AUTH REV REV 5% 08/01/32 FA ST REVOLVING FD BDS 2022A GREEN", "note": "several names truncated at the Block A column edge (rows 3-6, 11, 12, 15, 16)"},
+    {"row": 1, "field": "asset_name", "read": "INTERCONTINENTAL EXCHANGE INC 3 75% 09/21/2028 USD SR LIEN", "note": "percent glyphs degraded ('3 75%', LAS VEGAS '5%', MITSUBISHI '4 05%', MS PFD '6 38 %')"}
+  ],
+  "page_confidence": "high"
+}

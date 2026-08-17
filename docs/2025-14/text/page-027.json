@@ -1,0 +1,321 @@
+{
+ "pdf_page": 27,
+ "printed_label": "Page 27 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ahuja Grandchildren s Education Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ABBOTT LABORATORIES CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ABBVIE INC CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ACCENTURE PLC CMN CLASS A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ADOBE INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ALLSTATE CORPORATION COMMON STOCK",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ALPHABET INC  CMN  CLASS C",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMAZON COM INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMERICAN INTL GROUP  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMRIZE AG CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMRIZE LTD (US) CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AMRIZE LTD CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AON PUBLIC LIMITED COMPANY CMN CLASS A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "AXALTA COATING SYSTEMS LTD  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BANK OF AMERICA CORP CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED W B",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BARCLAYS BANK PLC LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED W B",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BAXTER INTERNATIONAL INC CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BAXTER INTERNATIONAL INC  CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BECTON  DICKINSON AND COMPANY CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BERKSHIRE HATHAWAY INC  CLASS B",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BUILDERS FIRSTSOURCE  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CALLAWAY GOLF COMPANY CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 17,
+   "field": "asset_name",
+   "read": "BANK OF MONTREAL LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED W B",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 18,
+   "field": "asset_name",
+   "read": "BARCLAYS BANK PLC LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED W B",
+   "note": "name truncated at cell border"
+  }
+ ],
+ "page_confidence": "high"
+}

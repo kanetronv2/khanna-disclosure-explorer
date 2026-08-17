@@ -1,0 +1,43 @@
+{
+  "pdf_page": 158,
+  "printed_label": "Page 158 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMERICAN INTL GROUP  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "06/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FERGUSON ENTERPRISES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "06/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KEYCORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "06/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "06/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO  HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/01/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INTERNATIONAL PAPER CO  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/31/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/21/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LINCOLN NATIONAL CORPORATION HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ELI LILLY & CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GENERAL MILLS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC  CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WASTE MANAGEMENT INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE PROCTER & GAMBLE COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COCA COLA EUROPEAN PARTNERS PL CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NVIDIA CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROCKWELL AUTOMATION INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/31/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO  LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/24/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHIPOTLE MEXICAN GRILL  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO  LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/17/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE BANK OF NOVA SCOTIA LINKED TO BASKET OF INDICES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/29/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STRATEGIC INVESTORS XI", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/17/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WEST STREET STRATEGIC SOLUTIONS", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/09/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TPG TECH ADJACENCIES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/16/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 19, "field": "amount", "read": "$1,001-$15,000", "note": "NVIDIA and ROCKWELL rows carry faint stray marks in the C column; the only real X in each is in column A"}
+  ],
+  "page_confidence": "high"
+}

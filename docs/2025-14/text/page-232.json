@@ -1,0 +1,27 @@
+{
+  "pdf_page": 232,
+  "printed_label": "Page 232 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja Declaration of Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ELANCO ANIMAL HEALTH INCORPORA CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "11/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ULTRA CLEAN HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ALPHABET INC CMN CLASS C", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "11/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ULTRA CLEAN HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/21/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ULTRA CLEAN HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AXALTA COATING SYSTEMS LTD CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "11/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ALPHABET INC CMN CLASS C", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HURON VALLEY MICH SCH DIST GO 5% 05/01/33 MN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/15/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GRAPHIC PACKAGING HLDGCO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TENABLE HOLDINGS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NCR VOYIX CORP CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/18/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 8, "field": "asset_name", "read": "HURON VALLEY MICH SCH DIST GO 5% 05/01/33 MN", "note": "percent glyph after 'GO 5' degraded; tesseract reads '5Y'"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,331 @@
+{
+ "pdf_page": 92,
+ "printed_label": "Page 92 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ritu Ahuja 1994 Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GARTNER INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GCI LIBERTY INC CMN ESCROW",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GE VERNOVA LLC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GEN DIGITAL INC CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GENERAL MILLS INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GENUINE PARTS CO CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GLOBAL PAYMENTS INC CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GLOBE LIFE INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GODADDY INC CMN CLASS A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GOLDMAN SACHS BANK USA DEPOSIT (BDA)",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GS FS TRSY SOLUTIONS MM FUND MUTUAL FUND",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HASBRO INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HCA HEALTHCARE INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HEALTHPEAK OP LLC CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HENRY SCHEIN INC COMMON STOCK",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HILTON WORLDWIDE HOLDINGS INC CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HOLOGIC INCORPORATED CMN",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HORMEL FOODS CORPORATION CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HOST HOTELS & RESORTS INC CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HP INC CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S,S(part)"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 2,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (GCI LIBERTY ESCROW)"
+  },
+  {
+   "row": 4,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (GE VERNOVA)"
+  },
+  {
+   "row": 9,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (GLOBE LIFE)"
+  },
+  {
+   "row": 11,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (GOLDMAN SACHS BANK USA DEPOSIT)"
+  }
+ ],
+ "page_confidence": "high"
+}

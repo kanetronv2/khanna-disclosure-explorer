@@ -1,0 +1,43 @@
+{
+  "pdf_page": 160,
+  "printed_label": "Page 160 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FEDEX CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CANADIAN IMPERIAL BANK OF COMM LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/07/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BNP PARIBAS LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/21/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/NVDA FLEX EURO  PM 162 5 EXP 08/01/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/01/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/GEV FLEX EURO  PM  @ 585 EXP 08/01/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/01/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SYSCO CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BUILDERS FIRSTSOURCE  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/13/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MARTIN MARIETTA MATERIALS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NASDAQ INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GENERAL MOTORS COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ABBOTT LABORATORIES CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SS&C TECHNOLOGIES HOLDINGS  IN CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "08/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE PROCTER & GAMBLE COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/01/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "08/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TPG TECH ADJACENCIES II", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$100,001-$250,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALPHABET INC  CMN  CLASS C", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/30/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CARLYLE OPPORTUNITIES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/03/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STRATEGIC INVESTORS XI", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/11/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WEST STREET PRIVATE MARKETS 2022", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "T MOBILE US  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BROADCOM INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COCA COLA EUROPEAN PARTNERS PL CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/05/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 18, "field": "amount", "read": "$100,001-$250,000", "note": "TPG TECH ADJACENCIES II row also has a faint stray mark in the E column; the solid X is in column D"}
+  ],
+  "page_confidence": "high"
+}

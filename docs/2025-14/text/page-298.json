@@ -1,0 +1,31 @@
+{
+  "pdf_page": 298,
+  "printed_label": "Page 298 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FORTINET  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "VERISK ANALYTICS  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "QNITY ELECTRONICS  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "OTIS WORLDWIDE CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "INSULET CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NETFLIX  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BROWN & BROWN  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "KIMCO REALTY OP  LLC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "VICI PROPERTIES INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CLOROX CO (THE) (DELAWARE) CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "VERALTO CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AMERIPRISE FINANCIAL, INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TYLER TECHNOLOGIES  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MASTERCARD INCORPORATED CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "THE MAGNUM ICE CREAM COMPANY B CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES  INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNILEVER PLC SPONSORED ADR CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ASML HOLDING N V  ADR CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "12/12/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [],
+  "page_confidence": "high"
+}

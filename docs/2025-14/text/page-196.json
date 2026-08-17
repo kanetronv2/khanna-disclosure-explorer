@@ -1,0 +1,43 @@
+{
+  "pdf_page": 196,
+  "printed_label": "Page 196 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HEALTHPEAK OP LLC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FOX CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CORNING INCORPORATED CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NUCOR CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MARSH & MCLENNAN CO INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BIOGEN INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CSX CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "YUM BRANDS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OTIS WORLDWIDE CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE KRAFT HEINZ CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SYSCO CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROPER TECHNOLOGIES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FORTIVE CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PACKAGING CORP OF AMERICA COMMON STOCK", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COOPER COS INC/THE CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZIMMER BIOMET HOLDINGS INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WARNER BROS DISCOVERY INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CVS HEALTH CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALIGN TECHNOLOGY INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EPAM SYSTEMS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AIRBNB INC CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SUPER MICRO COMPUTER INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "VERALTO CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FISERV INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TERADYNE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ENPHASE ENERGY INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 8, "field": "tx_type", "read": "Sale", "note": "YUM BRANDS row shows a faint stray tick in the Partial Sale cell; pixel measure (0.027) is far below the X threshold, so recorded as Sale only"}
+  ],
+  "page_confidence": "high"
+}

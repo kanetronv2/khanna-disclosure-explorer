@@ -10,13 +10,13 @@
     {
       "source": "/",
       "has": [
-        { "type": "query", "key": "year", "value": "(?<year>201[6-9]|202[0-35-6])" }
+        { "type": "query", "key": "year", "value": "(?<year>201[6-9]|202[0-46])" }
       ],
       "destination": "/:year/",
       "permanent": true
     },
-    { "source": "/2024", "destination": "/", "permanent": true },
-    { "source": "/2024/(.*)", "destination": "/", "permanent": true }
+    { "source": "/2025", "destination": "/", "permanent": true },
+    { "source": "/2025/(.*)", "destination": "/", "permanent": true }
   ],
   "headers": [
     {

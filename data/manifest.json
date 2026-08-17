@@ -1,95 +1,95 @@
 {
   "files": [
     {
-      "bytes": 6660190,
+      "bytes": 7666466,
       "format": "csv",
       "path": "data/normalized/assets.csv",
-      "records": 23099,
-      "sha256": "8f6014037505ba2ce94f2ed89b5526106fd9af7a5abc5b1d5a68ac55629057da"
+      "records": 26389,
+      "sha256": "0e78361c9d2f4d832e9601c10113acb83a6d6deb0816b1dde484c4c7005a9667"
     },
     {
-      "bytes": 17210004,
+      "bytes": 19696856,
       "format": "jsonl",
       "path": "data/normalized/assets.jsonl",
-      "records": 23099,
-      "sha256": "42f274f3682c796dc43468d50e37e9022ed2fb15ac951c267bf28f7cb0ae3e68"
+      "records": 26389,
+      "sha256": "4d3a1234991ea205fb399165a58d94230bac58bf49c73d760fcf1b22d40ec602"
     },
     {
-      "bytes": 16537,
+      "bytes": 16658,
       "format": "csv",
       "path": "data/normalized/documents.csv",
-      "records": 127,
-      "sha256": "44c274bdfcfc5fcfea472836a604fc75cd7d6d4ff38d6517dc03edabb0ef71c4"
+      "records": 128,
+      "sha256": "bca77e90f451e58bdb845b320fd9f96393cb1e55208e6eef483c9acc3804f774"
     },
     {
-      "bytes": 28657,
+      "bytes": 28874,
       "format": "jsonl",
       "path": "data/normalized/documents.jsonl",
-      "records": 127,
-      "sha256": "f263700a3d1a74a582861a656cf792b231700079ae0e2ca594b98037c2e395a9"
+      "records": 128,
+      "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 24081908,
+      "bytes": 26193200,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 106901,
-      "sha256": "20d8117899da5f77db48e25de860bdefef03cd358ffeb6d55eb63adaf0b876c0"
+      "records": 116023,
+      "sha256": "0d2be7e9237b5286d1a4b9ed87b35154f84deca153110a249b5815d9445cd562"
     },
     {
-      "bytes": 88766677,
+      "bytes": 96382255,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 106901,
-      "sha256": "994e56ea235d129618d7dde4b912d1cc630563ec0d63f58388783ab5f7398925"
+      "records": 116023,
+      "sha256": "054f4fff23ddeb4d0c8e7cc8f7257655d68ffe9c3a3eb5209dccbd517c7a09b2"
     },
     {
-      "bytes": 1116211,
+      "bytes": 1195127,
       "format": "csv",
       "path": "data/normalized/pages.csv",
-      "records": 4057,
-      "sha256": "d6e94cca1c6069b85b5233d288d3b683d0db59348af2fbfa9012c89c4a7aa0ce"
+      "records": 4410,
+      "sha256": "b5e3066ecb9b92edd6a3dfb391d6d607d8de354c28a677ede6037e562d07b6bb"
     },
     {
-      "bytes": 2129751,
+      "bytes": 2296660,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
-      "records": 4057,
-      "sha256": "b5bc947c502cdb55d55cd399e005f63cc66cdf0f839035541f8c27dfbb96f59f"
+      "records": 4410,
+      "sha256": "ba4bcb217569c35aca3e49203986b0b8496d4e434c5d37ee0ba36f476e312438"
     },
     {
-      "bytes": 14561721,
+      "bytes": 14590885,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
-      "records": 48292,
-      "sha256": "efdfed62b5e157527a0f8cc11a6d288cf2e3fe1bdac91b2c2894afdbaff64360"
+      "records": 48892,
+      "sha256": "430cbd777f6cd70aa04bb590c31d5a94b1e98473f52ea07ebcd9c1937a480812"
     },
     {
-      "bytes": 38158432,
+      "bytes": 38505072,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
-      "records": 48292,
-      "sha256": "d137701d8543606378d7e1efa28c1f798322f1582d1eb3488ea9e22fe266f392"
+      "records": 48892,
+      "sha256": "70422c41e27db7c11d56df51131bd55593eec0d881d5858c5141c39450157533"
     },
     {
-      "bytes": 4873362,
+      "bytes": 5002542,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 17301,
-      "sha256": "5efea8dc24a7512f9c657924acc43d1f52f0815e861a9ed0cc985875a15cc9fb"
+      "records": 17761,
+      "sha256": "739d49cceea38c6ed14649302f0c56758c86315969bffd0ba9a774ca57db1d7e"
     },
     {
-      "bytes": 6458473,
+      "bytes": 6629631,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 17301,
-      "sha256": "28bb08937cd2fe06cd937256e5c725adaef0a912b8ee4a9d099d03d3625b20ba"
+      "records": 17761,
+      "sha256": "9cf65599c24e9e60639a5d0b7aeb3dde5b2e96cb7550e7b2c10d4637e30c60be"
     },
     {
       "bytes": 3019,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "5ab4a8a0d87aaf86c8f5ce8b709d66191e0ad3317d4e1e74e1d06ea565852dbb"
+      "sha256": "150d9dd8306dc5aa09e5a31812212dfd65af4a8e41346a78f2daf58942fdb0dd"
     },
     {
       "bytes": 1091406,
@@ -104,7 +104,7 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 1861,
+      "high": 2214,
       "low": 299,
       "medium": 1888,
       "medium-high": 1,
@@ -112,41 +112,41 @@
     },
     "missing_or_invalid_records": 0,
     "normalized_records": {
-      "assets": 23099,
-      "documents": 127,
-      "page_rows": 106901,
-      "pages": 4057,
-      "transactions": 48292,
-      "uncertainties": 17301
+      "assets": 26389,
+      "documents": 128,
+      "page_rows": 116023,
+      "pages": 4410,
+      "transactions": 48892,
+      "uncertainties": 17761
     },
     "owner_code_distribution": {
-      "DC": 29491,
+      "DC": 35390,
       "JT": 14,
-      "SP": 73007,
-      "not_stated": 4389
+      "SP": 75799,
+      "not_stated": 4820
     },
-    "page_images": 4057,
+    "page_images": 4410,
     "page_row_kind_distribution": {
-      "asset": 28131,
-      "group": 2494,
-      "tx": 76276
+      "asset": 31421,
+      "group": 2924,
+      "tx": 81678
     },
-    "page_source_json": 4057,
+    "page_source_json": 4410,
     "page_type_distribution": {
-      "cover": 15,
+      "cover": 16,
       "letter": 10,
-      "other": 29,
+      "other": 30,
       "ptr_cover": 104,
       "ptr_transactions": 1469,
-      "schedule_a": 1097,
-      "schedule_b": 1320,
+      "schedule_a": 1246,
+      "schedule_b": 1522,
       "schedule_c": 3,
       "schedule_d": 7,
       "schedule_h": 3
     },
     "pending_pages": 0,
-    "source_pdfs": 127,
-    "tesseract_text_files": 4057,
+    "source_pdfs": 128,
+    "tesseract_text_files": 4410,
     "text_quality_findings": 2488,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 1944,
@@ -159,7 +159,7 @@
       "ocr_table_debris": 12,
       "standalone_fragment": 59
     },
-    "valid_page_source_json": 4057,
+    "valid_page_source_json": 4410,
     "years": [
       "2016",
       "2017",

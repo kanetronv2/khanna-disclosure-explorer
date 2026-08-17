@@ -1,0 +1,202 @@
+{
+ "pdf_page": 132,
+ "printed_label": "Page 132 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "M & R Trust Partnership"
+  },
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "KAYNE ANDERSON REAL ESTATE PARTNERS IV  L P",
+   "value": "$50,001-$100,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "KAYNE ANDERSON COMMERCIAL REAL ESTATE DEBT  LP",
+   "value": "$250,001-$500,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "KAYNE CREDIT OPPORTUNITIES FUND (QP)  L P",
+   "value": "$1,001-$15,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "DRAPER FISHER JURVETSON GROWTH FUND 2006  LP",
+   "value": "$15,001-$50,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "RESILIENCE FUND II LP",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "RESILIENCE FUND IV LP",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "STRATEGIC VALUE FNBA INVESTORS LP  FIRST NAT'L BANCSHARES",
+   "value": "$50,001-$100,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MSBNA PREFERRED SAVINGS- QC(99YA78EB0)",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MSPBNA PREFERRED SAVINGS- QC(99YA78GU6)",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "RIVERVIEW SOF ILP (BAQ57)",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "BANK DEPOSIT PROGRAM(BDPS)",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "CPI ASIA ONSHORE   CLASS B (AII51)",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "TRG II ONSHORE (AII14)",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "PE PREMIER BLKSTONE LSCI V (BBZ62)",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S(part)"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 11,
+   "field": "asset_name",
+   "read": "CPI ASIA ONSHORE   CLASS B (AII51)",
+   "note": "the account suffix could read (All51)/(AIl51) at scan resolution; tesseract reads AII51 (also TRG II ONSHORE (AII14))"
+  },
+  {
+   "row": 7,
+   "field": "asset_name",
+   "read": "MSBNA PREFERRED SAVINGS- QC(99YA78EB0)",
+   "note": "final character of the account code read as zero; tesseract renders it ambiguously"
+  }
+ ],
+ "page_confidence": "high"
+}

@@ -1,0 +1,18 @@
+{
+  "pdf_page": 108,
+  "printed_label": "Page 108 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "ZIMMER BIOMET HOLDINGS INC", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "ZOETIS INC CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P,S(part)"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 2, "field": "value", "read": null, "note": "ZIMMER BIOMET row has no visible X anywhere in Block B on both the full page and the high-res quadrants; recorded as null"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,314 @@
+{
+ "pdf_page": 129,
+ "printed_label": "Page 129 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "M & R Trust Partnership"
+  },
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNITED RENTALS  INC  CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNIVERSITY CINCINNATI OHIO GEN REV 5% 06/01/26 JD RCPTS BDS 2019 A BEO",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNIVERSITY MICH UNIV REVS REV 5% 04/01/26 AO GENERAL REVENUE BONDS",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "VANGUARD SPECIALIZED PORTFOLIO VANGUARD DIVIDEND APPRECIATION MU",
+   "value": "$1,000,001-$5,000,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VARONIS SYSTEMS  INC  CMN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERIZON COMMUNICATIONS  INC  4 016% 12/03/2029 USD SER WI SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERTIV HOLDINGS LLC CMN CLASS A",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "VINTAGE IV LP",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "VINTAGE VIII/WEST STREET CAPITAL PARTNERS VIII ACCESS LP",
+   "value": "$500,001-$1,000,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "VINTAGE X (FLAGSHIP) LP",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WASHINGTON ST GO 5% 08/01/31 FA VAR PURP GO REF BDS R 2023 A UT BEO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WASTE CONNECTIONS INC 3 2% 06/01/2032 USD SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WAYNE OHIO LOC SCH DIST WARREN GO 5 % 12/01/25 JD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET CAPITAL PARTNERS CO-INVEST A  SLP",
+   "value": "$250,001-$500,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET CAPITAL PARTNERS VII L P",
+   "value": "$250,001-$500,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET CAPITAL PARTNERS VIII  L P",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET ENERGY PARTNERS  L P",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET GLOBAL GROWTH PARTNERS L P",
+   "value": "$500,001-$1,000,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET PRIVATE MARKETS 2022  L.P",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET SENIOR CREDIT PARTNERS III  L.P",
+   "value": "$250,001-$500,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$50,001-$100,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "WEST STREET STRATEGIC SOLUTIONS FUND I  L P",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WILLOUGHBY EASTLAKE OHIO CITY GO 5% 12/01/46-CA JD SCH DIST",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "WYNFORD OHIO LOC SCH DIST GO 4% 11/01/26 MN GO SCH FACS CONSTR IMPT",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 3,
+   "field": "asset_name",
+   "read": "VANGUARD SPECIALIZED PORTFOLIO VANGUARD DIVIDEND APPRECIATION MU",
+   "note": "name truncated at the Block A column edge (also WYNFORD OHIO LOC SCH DIST)"
+  },
+  {
+   "row": 3,
+   "field": "value",
+   "read": "$1,000,001-$5,000,000",
+   "note": "a faint stray mark also sits in the $500,001-$1,000,000 cell (ink 0.06, well below an X); the solid X is one column to the right"
+  }
+ ],
+ "page_confidence": "high"
+}

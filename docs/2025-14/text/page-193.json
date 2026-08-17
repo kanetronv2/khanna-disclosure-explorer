@@ -1,0 +1,43 @@
+{
+  "pdf_page": 193,
+  "printed_label": "Page 193 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REGENERON PHARMACEUTICAL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITED PARCEL SERVICE  INC  CLASS B COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNION PACIFIC CORP  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALTRIA GROUP  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE PROCTER & GAMBLE COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HUMANA INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMAZON COM INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BECTON  DICKINSON AND COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PROLOGIS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ZOETIS INC  CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DANAHER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "D R. HORTON  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AVALONBAY COMMUNITIES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROSS STORES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "QUALCOMM INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BXP INC COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "METTLER TOLEDO INTL CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ESSEX PROPERTY TRUST INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "IQVIA HOLDINGS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMERICAN EXPRESS CO  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HILTON WORLDWIDE HOLDINGS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "05/19/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 8, "field": "tx_type", "read": "Purchase", "note": "ALTRIA GROUP and HILTON WORLDWIDE rows carry a faint tick in the Partial Sale cell (ink well below X level); read as Purchase only"}
+  ],
+  "page_confidence": "high"
+}

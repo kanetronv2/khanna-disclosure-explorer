@@ -1,0 +1,27 @@
+{
+  "pdf_page": 319,
+  "printed_label": "Page 319 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "M & R Trust Partnership"},
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMEREN CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OHIO ST GO 5 0000 / 10/01/26 AO", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MINNESOTA ST GO 5 / 08/01/26 FA", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CMS ENERGY CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STATE OF OHIO REV 5 / 04/01/26 AO", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNIVERSITY MICH UNIV REVS REV 5% 04/01/26 AO", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KENT ST UNIV OHIO UNIV REVS REV 5 % 05/01/26 MN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NEW MEXICO FIN AUTH REV REV 5 / 06/01/26 JD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/26 JD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OHIO ST GO 5 / 05/01/26 MN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EMERSON ELECTRIC CO CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "12/17/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EXPAND ENERGY CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/17/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [],
+  "page_confidence": "high"
+}

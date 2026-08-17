@@ -1,0 +1,365 @@
+{
+ "pdf_page": 100,
+ "printed_label": "Page 100 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ritu Ahuja 1994 Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 555 EXP 01/17/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 555 EXP 03/07/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 555 EXP 04/17/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 555 EXP 07/11/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 560 EXP 03/21/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 560 EXP 08/15/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$5,001-$15,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 565 EXP 01/17/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 565 EXP 02/21/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 570 EXP 06/30/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 575 EXP 03/14/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 575 EXP 07/25/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 575 EXP 08/29/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 580 EXP 01/03/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 580 EXP 03/28/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 581 EXP 04/04/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 582 EXP 01/10/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 584 EXP 02/07/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 585 EXP 01/31/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 585 EXP 10/17/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 587 EXP 02/28/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 587 EXP 04/11/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 589 EXP 09/19/2025",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 590 EXP 02/21/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "PUT/XSP @ 590 EXP 04/17/2025",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 15,
+   "field": "asset_name",
+   "read": "PUT/XSP @ 581 EXP 04/04/2025",
+   "note": "this row is printed slanted/italicized in the scan (a print artifact, not a strikeout); tesseract garbled it as '@ 581 EXP DADA 2005'. Strike 581 and date 04/04/2025 are legible in the quadrant crop. Marks are None / NONE / None with Block E 'P S'."
+  },
+  {
+   "row": 1,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 555 EXP 01/17/2025)"
+  },
+  {
+   "row": 7,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 565 EXP 01/17/2025)"
+  },
+  {
+   "row": 8,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 565 EXP 02/21/2025)"
+  },
+  {
+   "row": 13,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 580 EXP 01/03/2025)"
+  },
+  {
+   "row": 16,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 582 EXP 01/10/2025)"
+  },
+  {
+   "row": 17,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 584 EXP 02/07/2025)"
+  },
+  {
+   "row": 18,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 585 EXP 01/31/2025)"
+  },
+  {
+   "row": 20,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 587 EXP 02/28/2025)"
+  },
+  {
+   "row": 23,
+   "field": "transaction",
+   "read": null,
+   "note": "Block E blank (PUT/XSP @ 590 EXP 02/21/2025)"
+  }
+ ],
+ "page_confidence": "high"
+}

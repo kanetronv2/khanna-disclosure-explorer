@@ -1,0 +1,43 @@
+{
+  "pdf_page": 257,
+  "printed_label": "Page 257 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "3M COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "THE HOME DEPOT  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "KIMBERLY CLARK CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "QUANTA SERVICES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SALESFORCE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FREEPORT MCMORAN INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TERADYNE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TRUIST FINANCIAL CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "KLA CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITED PARCEL SERVICE  INC  CLASS B COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TRUIST FINANCIAL CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/16/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CHARLES SCHWAB CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MARRIOTT INTERNATIONAL  INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BANK OF AMERICA CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CITIZENS FINANCIAL GROUP  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BOSTON SCIENTIFIC CORP  COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "KLA CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MC DONALDS CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FEDEX CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MKS INSTRUMENTS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HOLOGIC INCORPORATED CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "TENABLE HOLDINGS  INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "U S  BANCORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "WASTE MANAGEMENT INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NORDSON CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 17, "field": "date", "read": "04/09/2025", "note": "tesseract read 4/8/2025 for CITIZENS FINANCIAL GROUP; 300-dpi crop clearly shows 4/9/2025"}
+  ],
+  "page_confidence": "high"
+}

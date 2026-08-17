@@ -1,0 +1,43 @@
+{
+  "pdf_page": 178,
+  "printed_label": "Page 178 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "QUANTA SERVICES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KEYCORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "M&T BANK CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "D R HORTON  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CONAGRA BRANDS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FRANKLIN RESOURCES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BORGWARNER INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ARCH CAPITAL GROUP LTD  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOLLAR GENERAL CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "T  ROWE PRICE GROUP  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MICROSOFT CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE BANK OF NOVA SCOTIA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/13/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/06/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC  CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF AMERICA CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TEXAS INSTRUMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LINDE PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UBER TECHNOLOGIES  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALPHABET INC  CMN  CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LOWES COMPANIES INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PULTEGROUP INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LENNAR CORPORATION CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NIKE CLASS-B CMN CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMPHENOL CORP CL A (NEW) CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLIED MATERIALS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 0, "field": "tx_type", "read": "Partial Sale", "note": "small stray tilde/dash marks appear in several cells on this page (group-header row, BORGWARNER and ARCH CAPITAL Partial Sale cells, next to the X on ALPHABET/LOWES); all measure far below X ink level and were not read as marks"}
+  ],
+  "page_confidence": "high"
+}

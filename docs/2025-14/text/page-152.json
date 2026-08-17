@@ -1,0 +1,43 @@
+{
+  "pdf_page": 152,
+  "printed_label": "Page 152 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMAZON COM INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EDISON INTERNATIONAL HYBRID PERPETUAL USD", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DEERE & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PARKER HANNIFIN CORP  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/15/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/14/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/13/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DEERE & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/14/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALLSTATE CORPORATION COMMON STOCK", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALLSTATE CORPORATION COMMON STOCK", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PARKER HANNIFIN CORP  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "01/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PARKER HANNIFIN CORP  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "01/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALLSTATE CORPORATION COMMON STOCK", "tx_type": "Sale", "cap_gain_over_200": true, "date": "01/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "01/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PARKER HANNIFIN CORP  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "01/02/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NATIONAL BANK OF CANADA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/28/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NETFLIX  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/07/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE BANK OF NOVA SCOTIA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/13/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROYAL BANK OF CANADA LINKED TO BASKET OF INDICES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/06/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STRATEGIC INVESTORS XI", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/13/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TPG TECH ADJACENCIES II", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/10/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLE INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/07/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TPG TECH ADJACENCIES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MORGAN STANLEY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SBA COMMUNICATIONS CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "02/07/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 10, "field": "amount", "read": "$1,001-$15,000", "note": "WELLS FARGO 01/14/2025 row carries faint stray pen marks in the C and G amount columns; the only real X is in column A"}
+  ],
+  "page_confidence": "high"
+}

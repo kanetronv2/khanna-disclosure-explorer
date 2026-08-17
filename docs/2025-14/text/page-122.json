@@ -1,0 +1,309 @@
+{
+ "pdf_page": 122,
+ "printed_label": "Page 122 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "M & R Trust Partnership"
+  },
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "FIRSTENERGY CORP CMN",
+   "value": "None",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "FLORIDA ST DEPT ENVIRONMENTAL REV 5 / 07/01/26 JJ PROTN PRESERVATION",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "FLORIDA ST DEPT ENVIRONMENTAL REV 5% 07/01/27 JJ PROTN PRESERVATION",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "FLORIDA ST DEPT TRANSN FING REV 5% 07/01/26 JJ CORP REV BDS 2018 BEO",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "FLORIDA ST MUN LN COUNCIL REV REV 5 / 12/01/26 JD BDS 2019B BEO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GE VERNOVA LLC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GENERAL MOTORS FINL CO 5 85 % 04/06/2030 USD SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "GLOBAL LONG SHORT PARTNERS 100% OF FUNDS ASSETS IN ILLIQUID INVEST",
+   "value": "$1,001-$15,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "GLOBAL LONG SHORT PARTNERS SPV LTD 100 % OF FUNDS ASSETS IN ILLIQUID",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GLOBAL PAYMENTS INC 3 2% 08/15/2029 USD SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "GLOBAL PRIVATE OPPORTUNITIES PARTNERS II LP",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GRANDVIEW HEIGHTS OHIO CITY SC GO 4% 12/01/25 JD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GREATER CLEVELAND REGL TRAN REV 5% 12/01/25 JD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "GROWTH AND EMERGING MARKETS PRIVATE EQUITY MANAGERS LP",
+   "value": "$100,001-$250,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "GS CAPITAL PARTNERS VI  L.P",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "GS FS TRSY SOLUTIONS MM FUND MUTUAL FUND",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HAMILTON CNTY OHIO SALES TAX REV 5 / 12/01/30 JD REF BDS 2021 A BEO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HAMILTON OHIO DB 4 % 12/15/26 JD VAR PURP GEN OBLIG LTD TAX BD ANTIC N",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HCA INC  5 5 % 06/01/2033 USD SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "HEDGE FUND SELECT  ELT ASSOCIATES LLC COMMITMENT CLASS A SERIES 1",
+   "value": "$1,000,001-$5,000,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "HEDGE FUND SELECT  MILLENNIUM LLC CLASS A SERIES 1",
+   "value": "$500,001-$1,000,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$15,001-$50,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P,S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "HONEYWELL INTL INC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 1,
+   "field": "asset_name",
+   "read": "FLORIDA ST DEPT ENVIRONMENTAL REV 5 / 07/01/26 JJ PROTN PRESERVATION",
+   "note": "several names truncated at the Block A column edge (also FLORIDA 07/01/27, GLOBAL LONG SHORT x2, HAMILTON OHIO DB)"
+  },
+  {
+   "row": 6,
+   "field": "asset_name",
+   "read": "GENERAL MOTORS FINL CO 5 85 % 04/06/2030 USD SR LIEN",
+   "note": "coupon percent glyphs degraded on bond rows; rendered % where the scan shows a percent sign and / where it shows a bare slash"
+  }
+ ],
+ "page_confidence": "high"
+}

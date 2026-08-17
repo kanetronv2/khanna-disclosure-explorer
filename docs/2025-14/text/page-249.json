@@ -1,0 +1,43 @@
+{
+  "pdf_page": 249,
+  "printed_label": "Page 249 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ELECTRONIC ARTS CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DANAHER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/21/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PACCAR INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HOLOGIC INCORPORATED CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HOLOGIC INCORPORATED CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DOVER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AMERIPRISE FINANCIAL  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PINTEREST INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "KEYCORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CSX CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "OTIS WORLDWIDE CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CHARLES RIVER LABORATORIES INT CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PTC INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MARTIN MARIETTA MATERIALS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "LAM RESEARCH CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "RESMED INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/31/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NCR VOYIX CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ULTRA CLEAN HOLDINGS  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "STRYKER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ORACLE CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CROWDSTRIKE HOLDINGS  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ELECTRONIC ARTS CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ELECTRONIC ARTS CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/10/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SERVICENOW INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 13, "field": "date", "read": "03/06/2025", "note": "tesseract read 3/8/2025 for CSX CORPORATION CMN; 300-dpi crop clearly shows 3/6/2025"}
+  ],
+  "page_confidence": "high"
+}

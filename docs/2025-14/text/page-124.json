@@ -1,0 +1,311 @@
+{
+ "pdf_page": 124,
+ "printed_label": "Page 124 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "M & R Trust Partnership"
+  },
+  {
+   "kind": "group",
+   "text": "2020 Trust FBO Khanna Children"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MICROSOFT CORPORATION CMN",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MINNESOTA ST GO 5 / 08/01/26 FA GEN OBLIG VAR PURP BDS 2025 A UT BEO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MIRION TECHNOLOGIES INC CMN CLASS A",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MISSISSIPPI ST GO 5 % 11/01/36 MN GO BDS 2018A PRERE 11/01/26 UT BEO",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MO ST HWYS & TRANS COMMN ST RD REV 5 / 05/01/26 MN APPROPRIATIONS M",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MONGODB  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY HYBRID 04/20/2028 USD SR LIEN CPN 04/20/22 4 21 /",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY HYBRID MTN 01/24/2029 USD SER GMTN SR LIEN CPN 01/23/",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "MORGAN STANLEY HYBRID MTN 07/22/2028 USD SR LIEN CPN TBA",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "MOUNT KELLETT CAPITAL PARTNERS II ACCESS LP",
+   "value": "$15,001-$50,000",
+   "income_types": [],
+   "other_income_spec": "PTN",
+   "amount_of_income": "$2,501-$5,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NEW ALBANY PLAIN LOC SCH DIST GO 5 % 12/01/25 JD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NEW MEXICO FIN AUTH REV REV 5% 06/01/26 JD SR LIEN PUB PROJ REVOLVING",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NEXTERA ENERGY  INC  CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NORTH DAKOTA PUB FIN AUTH REV 5 / 10/01/31 AO ST REVOLVING FD PROGRA",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "eif": true,
+   "asset_name": "NORTHVOLT INVESTMENTS  SLP",
+   "value": "$1-$1,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NVENT ELECTRIC PUBLIC LIMITED COMPANY",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NVIDIA CORPORATION CMN",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NXP B V  2 5% 05/11/2031 USD",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "S"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "NXP BV/NXP FDG/NXP USA 4 3 % 06/18/2029 USD SR LIEN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "OHIO ST DB 5 / 05/01/25 MN",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "OHIO ST DEPT ADMINISTRATIVE COPS 5 0000% 09/01/26-CA MS SVCS CTFS PAR",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "OHIO ST GO 4 / 03/01/26 MS GO BDS 2022 B UT BEO",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "OHIO ST GO 5 / 02/01/38 FA HIGHER ED GO BDS 2018 A PRERE 02/01/26 UT BEO",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 4,
+   "field": "asset_name",
+   "read": "MO ST HWYS & TRANS COMMN ST RD REV 5 / 05/01/26 MN APPROPRIATIONS M",
+   "note": "name truncated at the Block A column edge (also MORGAN STANLEY MTN 01/24/2029, NEW MEXICO FIN AUTH, NORTH DAKOTA PUB FIN AUTH, OHIO ST DEPT ADMINISTRATIVE COPS)"
+  },
+  {
+   "row": 6,
+   "field": "asset_name",
+   "read": "MORGAN STANLEY HYBRID 04/20/2028 USD SR LIEN CPN 04/20/22 4 21 /",
+   "note": "trailing coupon glyph degraded; percent/slash glyphs on bond rows rendered as printed"
+  }
+ ],
+ "page_confidence": "high"
+}

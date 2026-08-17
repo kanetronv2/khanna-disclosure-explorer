@@ -1,0 +1,43 @@
+{
+  "pdf_page": 167,
+  "printed_label": "Page 167 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ahuja Grandchildren s Education Trust"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "03/13/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OKTA  INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CORNING INCORPORATED CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "03/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OKTA  INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMERICAN INTL GROUP  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ABBOTT LABORATORIES CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "OKTA  INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DUN & BRADSTREET HOLDINGS  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/17/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TARGET CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HOLOGIC INCORPORATED CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/09/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MKS INSTRUMENTS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/16/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/16/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AON PUBLIC LIMITED COMPANY CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MKS INSTRUMENTS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TENABLE HOLDINGS  INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MKS INSTRUMENTS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/04/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GLOBAL PAYMENTS INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PENN ENTERTAINMENT INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/16/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/16/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PINTEREST INC CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "04/03/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 13, "field": "date", "read": "04/09/2025", "note": "HOLOGIC date reads 4/9/2025 in the high-res crop (low-res page render suggested 4/8)"}
+  ],
+  "page_confidence": "high"
+}

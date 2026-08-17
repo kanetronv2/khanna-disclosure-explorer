@@ -1,0 +1,43 @@
+{
+  "pdf_page": 209,
+  "printed_label": "Page 209 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AMCOR PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WARNER BROS DISCOVERY INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KEURIG DR PEPPER INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CHURCH & DWIGHT CO INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CONAGRA BRANDS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FORTIVE CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KENVUE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COOPER COS INC/THE CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BEST BUY CO INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REVVITY INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AVERY DENNISON CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BAXTER INTERNATIONAL INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WATERS CORPORATION COMMON STOCK", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INTL BUSINESS MACHINES CORP CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DANAHER CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "S&P GLOBAL INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AUTOMATIC DATA PROCESSING INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COSTCO WHOLESALE CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COLGATE PALMOLIVE CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KIMBERLY CLARK CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BRISTOL MYERS SQUIBB COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MCKESSON CORPORATION CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ADOBE INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AIRBNB INC CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CIGNA GROUP/THE CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "REGENERON PHARMACEUTICAL INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "09/29/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 3, "field": "amount", "read": "$1,001-$15,000", "note": "WARNER BROS row also carries a light speck in the $250,001-$500,000 cell (ink 0.058 vs 0.089 for the real X); read as a stray mark, not a second bucket"}
+  ],
+  "page_confidence": "high"
+}

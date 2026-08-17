@@ -1,0 +1,18 @@
+{
+  "pdf_page": 219,
+  "printed_label": "Page 219 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ARTHUR J GALLAGHER & CO CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GARTNER, INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SUPER MICRO COMPUTER INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": null, "field": "page", "read": "3 data rows", "note": "short page - the grid ends after three transaction rows; the remainder of the sheet is blank"}
+  ],
+  "page_confidence": "high"
+}

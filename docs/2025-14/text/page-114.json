@@ -1,0 +1,40 @@
+{
+  "pdf_page": 114,
+  "printed_label": "Page 114 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "MORGAN STANLEY PFD USD1 7188(6 88%) SERIES F PERPETUAL PREFERRED C", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "MORGAN STANLEY PFD USD1 7813(7 13%) SERIES E HYBRID FIX TO FLOAT PER", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "N V R INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "NASDAQ INC CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": "S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "NASDAQ INC 5 35% 06/28/2028 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NETFLIX, INC 5 875 % 11/15/2028 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NEXTERA ENERGY CAPITAL HOLDING 2.75 % 11/01/2029 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NEXTERA ENERGY CAPITAL HOLDING HYBRID 05/01/2079 USD JRSUB LIEN CPN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NEXTERA ENERGY CAPITAL HOLDING HYBRID 08/15/2055 USD JRSUB LIEN CPN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "NEXTERA ENERGY CAPITAL HOLDING HYBRID 09/01/2054 USD JRSUB LIEN CPN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NISOURCE INC HYBRID 03/31/2055 USD JRSUB LIEN CPN 09/09/24 6 375%", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "NISOURCE INC HYBRID 11/30/2054 USD JRSUB LIEN CPN 05/16/24 6 95%", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NORTHERN TRUST CORP 3 15 % 05/03/2029 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NXP BV/NXP FDG/NXP USA 4 3 / 06/18/2029 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "NXP BV/NXP FUNDING LLC 5 55 % 12/01/2028 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST GO 5 / 02/01/30 FA GO BDS 2021 B UT BEO", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST GO 5 / 05/01/39 MN HIGHER ED GO BDS 2019 A PRERE 05/01/27 UT BEO", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST SPL OBLIG REV 5 0000% 02/01/30 FA CAP FAC LEASE APP BDS MENTAL", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 06/01/32 JD POLLUTN CTL REV LN FD RE", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5 / 12/01/30 JD POLLUTN CTL REV LN FD RE", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/31 JD POLLUTN CTL REV LN FD BD", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/33 JD POLLUTN CTL REV LN FD BD", "value": "$50,001-$100,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "OLENTANGY LOC SCH DIST OHIO GO 4 % 12/01/26 JD GO ULTD TAX SCH FACS C", "value": "$50,001-$100,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "ORACLE CORPORATION 4 9% 02/06/2033 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 1, "field": "asset_name", "read": "MORGAN STANLEY PFD USD1 7188(6 88%) SERIES F PERPETUAL PREFERRED C", "note": "several names truncated at the Block A column edge (rows 1, 2, 8-10, 18-23)"},
+    {"row": 6, "field": "asset_name", "read": "NETFLIX, INC 5 875 % 11/15/2028 USD SR LIEN", "note": "percent/fraction glyphs degraded on bond coupons across this page (rows 6, 7, 13, 15, 19, 21-23)"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,40 @@
+{
+  "pdf_page": 128,
+  "printed_label": "Page 128 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "M & R Trust Partnership"},
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE OF OHIO REV 5 / 02/01/26 FA FACILITIES LEASE APPROPRIATION BONDS", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE OF OHIO REV 5% 04/01/26 AO FACILITIES LEASE APPROPRIATION BONDS", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE STREET SPDR S&P 500 ETF CMN", "value": "$500,001-$1,000,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "STEEL DYNAMICS  INC  CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SYNOPSYS INC  CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SYNOPSYS  INC  CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TAIWAN SEMICONDUCTOR MFG ADS LTD ADS 1ADS EQUALS 5ORDS", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TEMPLE TEX UTIL SYS REV REV 5 % 08/01/26 FA BDS 2025 BEO", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TEXAS ST DB 5 % 10/01/33 AO GEN OBLIG MOBILITY FD REF BDS 2025 UT BEO", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TEXAS TRANSN COMMN GO 5 / 04/01/31 AO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "TIGER GLOBAL CROSSOVER ACCESS LLC CLASS A1 SERIES 1", "value": "$250,001-$500,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$15,001-$50,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "TIGER GLOBAL CROSSOVER ACCESS LLC CLASS A1 SERIES 11", "value": "$100,001-$250,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "TIGER GLOBAL CROSSOVER ACCESS LLC CLASS A1 SERIES 2", "value": "$100,001-$250,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "T MOBILE USA  INC  2 7% 03/15/2032 USD SER WI SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 1 25% 09/10/2026 USD SER MTN SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 4 108% 06/08/2027 USD SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "TPG TECH ADJACENCIES  ACCESS LLC", "value": "$250,001-$500,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "TPG TECH ADJACENCIES II ACCESS LLC", "value": "$500,001-$1,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRINITY RIVER AUTH TEX REGL REV 5% 08/01/25 FA", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 06/06/2028 USD SER MTN SR LI", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S DOLLAR", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S  BANCORP MTN 3 0 % 07/30/2029 USD SER DMTN SUB LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 0, "field": "asset_name", "read": "STATE OF OHIO REV 5 / 02/01/26 FA FACILITIES LEASE APPROPRIATION BONDS", "note": "name truncated at the Block A column edge (also STATE OF OHIO 04/01/26 and TRUIST FINANCIAL)"},
+    {"row": 3, "field": "asset_name", "read": "SYNOPSYS INC  CMN", "note": "rows 3 and 4 are two separate SYNOPSYS INC CMN entries with different Block C/D marks; both transcribed as printed"}
+  ],
+  "page_confidence": "high"
+}

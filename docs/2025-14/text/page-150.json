@@ -1,0 +1,18 @@
+{
+  "pdf_page": 150,
+  "printed_label": "Page 150 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "KAYNE ANDERSON ENERGY FUND 6 LP", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "RESILIENCE FUND II LP", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "RESILIENCE FUND III LP", "value": "$100,001-$250,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "RESILIENCE FUND IV LP", "value": "$100,001-$250,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "eif": true, "asset_name": "RESILIENCE ONESKY FUND", "value": "$250,001-$500,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$1,001-$2,500", "transaction": null}
+  ],
+  "free_text": null,
+  "uncertainties": [],
+  "page_confidence": "high"
+}

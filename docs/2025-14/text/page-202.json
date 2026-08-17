@@ -1,0 +1,43 @@
+{
+  "pdf_page": 202,
+  "printed_label": "Page 202 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "2020 Trust FBO Khanna Children"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JOHNSON & JOHNSON CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/17/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/24/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BNP PARIBAS LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/16/2025", "notification_date": null, "amount": "$50,001-$100,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE BANK OF NOVA SCOTIA LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/09/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JPMORGAN CHASE & CO LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/07/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BARCLAYS BANK PLC LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/02/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/14/2025", "notification_date": null, "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PALO ALTO NETWORKS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MOLINA HEALTHCARE INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EXTRA SPACE STORAGE INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNIVERSAL HEALTH SVC CL B CMN CLASS B", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WALMART INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "AVERY DENNISON CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE HOME DEPOT INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "3M COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WEYERHAEUSER COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PRUDENTIAL FINANCIAL INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "QUALCOMM INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CF INDUSTRIES HOLDINGS INC CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PROLOGIS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SERVICENOW INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROSS STORES INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FISERV INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "KEURIG DR PEPPER INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PUBLIC STORAGE CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ARCH CAPITAL GROUP LTD CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "07/25/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 6, "field": "date", "read": "07/16/2025", "note": "BNP PARIBAS row: tesseract read 7/6/2025; the TR quadrant at 300 dpi shows 7/16/2025"}
+  ],
+  "page_confidence": "high"
+}

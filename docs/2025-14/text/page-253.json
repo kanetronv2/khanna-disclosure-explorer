@@ -1,0 +1,43 @@
+{
+  "pdf_page": 253,
+  "printed_label": "Page 253 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PUT/XSP @ 544 EXP 04/17/2025", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "ADOBE INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "IQVIA HOLDINGS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "FISERV  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "AMPHENOL CORP CL A (NEW) CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CORNING INCORPORATED CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "SYNOPSYS INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "STATE STREET CORPORATION (NEW) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "DUN & BRADSTREET HOLDINGS  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/25/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "MICRON TECHNOLOGY  INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BAXTER INTERNATIONAL INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "VULCAN MATERIALS CO CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "OKTA  INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "UNITED RENTALS  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CADENCE DESIGN SYSTEMS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "PNC FINANCIAL SERVICES GROUP  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "COPART  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "OKTA  INC  CMN CLASS A", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "03/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "BXP INC COMMON STOCK", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NASDAQ INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "NORTHERN TRUST CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "CAPITAL ONE FINANCIAL CORP CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "T  ROWE PRICE GROUP  INC  CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "HUNTINGTON BANCSHARES INCORPOR CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "03/06/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 21, "field": "tx_type", "read": "Sale", "note": "COPART INC CMN has a faint speck in the Partial Sale cell (pixel ink 0.022, well under the 0.05 mark threshold); the definite x is in Sale"}
+  ],
+  "page_confidence": "high"
+}

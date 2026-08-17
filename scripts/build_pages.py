@@ -97,6 +97,11 @@ def is_ptr_only(summary):
     return bool((summary.get("meta") or {}).get("ptr_only"))
 
 
+def caveat(summary):
+    """A filing-specific note that must travel with that year's figures, or ''."""
+    return (summary.get("meta") or {}).get("caveat") or ""
+
+
 def annual_years(summaries):
     """Years with an annual holdings statement, matching the timeline chart filter."""
     return [y for y in sorted(summaries) if not is_ptr_only(summaries[y]) and summaries[y]["holdings"]["hiF"] > 0]
@@ -266,7 +271,23 @@ def year_table(summaries, current, url_for):
             '<thead><tr><th>Filing year</th><th>Reported minimum</th><th>Reported maximum</th>'
             '<th>Open-ended holdings</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>'
+            + caveat_years_note(summaries, current, url_for)
             + ptr_year_note(summaries, current, url_for))
+
+
+def caveat_years_note(summaries, current, url_for):
+    """Warn, under the cross-year table, about years that are not comparable."""
+    years = [y for y in annual_years(summaries) if caveat(summaries[y])]
+    if not years:
+        return ""
+    # On an affected year the explanation sits directly above the table; elsewhere, link to it.
+    listed = ", ".join(
+        f"<b>{y}</b>" if y == current else f'<a href="{url_for(y)}">{y}</a>' for y in years)
+    where = ("see the note above on how that filing reports value brackets"
+             if current in years else
+             "that filing reports value brackets differently, so the change against other "
+             "years is not a change in wealth")
+    return f'<p class="note"><b>Not directly comparable:</b> {listed} — {where}.</p>'
 
 
 def ptr_year_note(summaries, current, url_for):
@@ -295,7 +316,11 @@ def faq_items(summary, year, summaries):
             answer += (f"{tot['open']} holdings are reported as open-ended, so the upper figure is a floor. ")
         answer += ("The disclosure covers the member, spouse and dependent children, and reports ranges rather "
                    "than exact values, so it is not a certified personal net worth.")
+        if caveat(summary):
+            answer += " " + caveat(summary)
         items.append((f"What is Ro Khanna's net worth in {year}?", answer))
+    if caveat(summary):
+        items.append((f"Why do the {year} totals differ so much from earlier years?", caveat(summary)))
     items.append((f"How much stock trading did Ro Khanna report in {year}?",
                   f"The {year} filings record {summary['counts']['transactions']:,} reported transactions with a "
                   f"combined statutory value of {rng_sum(tx)}. Reported transactions cover the member, spouse and "
@@ -323,7 +348,9 @@ def answer_panel(summary, year, summaries, url_for):
             '<div class="section-heading"><div><span class="section-kicker">In brief</span>'
             f'<h2>Ro Khanna’s reported net worth, {year}</h2></div></div>'
             f'<p class="answer-lede">{answer_lede(summary, year)}</p>'
-            '<h3>Reported holdings by filing year</h3>'
+            + (f'<p class="answer-caveat"><b>How this filing reports value:</b> '
+               f'{esc(caveat(summary))}</p>' if caveat(summary) else '')
+            + '<h3>Reported holdings by filing year</h3>'
             f'{year_table(summaries, year, url_for)}'
             '<h3>Frequently asked questions</h3>'
             f'<dl class="faq">{faqs}</dl></section>')
@@ -483,6 +510,16 @@ def main():
         directory.mkdir(exist_ok=True)
         (directory / "index.html").write_text(render(template, summaries, year, root_year), encoding="utf-8")
         pages += 1
+
+    # The root year moves whenever a newer annual filing lands, which strands the page
+    # previously written at /<root_year>/. Left behind it serves that year's superseded
+    # content under a self-referencing canonical, so remove it.
+    stale = ROOT / root_year / "index.html"
+    if stale.exists():
+        stale.unlink()
+        if not any(stale.parent.iterdir()):
+            stale.parent.rmdir()
+        print(f"removed stale page for /{root_year}/ (that year is now served at /)")
 
     urls = write_sitemap(summaries, root_year)
     print(f"pages: {pages} rendered (root = {root_year}); sitemap: {urls} urls")

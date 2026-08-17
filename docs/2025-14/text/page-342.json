@@ -1,0 +1,43 @@
+{
+  "pdf_page": 342,
+  "printed_label": "Page 342 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "MURA Holdings"},
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HOME DEPOT INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JOHNSON &JOHNSON COM", "tx_type": "Sale", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LOWES COMPANIES INC COM USD0 50", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "MERCK &CO  INC COM", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NVR INC COM USD0 01", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PEPSICO INC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PFIZER INC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "PROCTER AND GAMBLE CO COM", "tx_type": "Sale", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE CIGNA GROUP COM", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "VERIZON COMMUNICATIONS INC", "tx_type": "Sale", "cap_gain_over_200": false, "date": "06/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "07/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "07/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/12/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "08/28/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC COM USD0 0033 CLASS B", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/11/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "09/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIDELITY GOVERNMENT CASH RESERVES", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "09/18/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 16, "field": "amount", "read": "$1,001-$15,000", "note": "the pixel detector also flagged column E ($250,001-$500,000) at 0.051; a 300-dpi zoom shows that cell holds only a scanner speck, not an X"}
+  ],
+  "page_confidence": "high"
+}

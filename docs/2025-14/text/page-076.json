@@ -1,0 +1,39 @@
+{
+  "pdf_page": 76,
+  "printed_label": "Page 76 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 27 5 EXP 01/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 27 5 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 27 5 EXP 08/08/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 27 5 EXP 09/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 28 EXP 10/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 28 5 EXP 12/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWA FLEX EURO  PM  @ 29 EXP 11/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 70 EXP 03/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 72 EXP 02/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 74 EXP 01/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 74 EXP 04/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 74 EXP 06/13/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 76 EXP 05/09/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 76 EXP 07/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 77 EXP 08/08/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 77 EXP 09/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 82 EXP 10/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 84 84 EXP 01/09/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 85 EXP 01/09/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 85 EXP 12/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 86 EXP 11/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 86 84 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/EWJ FLEX EURO  PM  @ 87 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM  78 EXP 01/09/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 18, "field": "asset_name", "read": "@ 84 84 EXP 01/09/2026", "note": "strike printed as '84 84' (likely 84.84); row 22 similarly '86 84'"}
+  ],
+  "page_confidence": "high"
+}

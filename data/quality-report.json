@@ -2,7 +2,7 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 1861,
+      "high": 2214,
       "low": 299,
       "medium": 1888,
       "medium-high": 1,
@@ -10,41 +10,41 @@
     },
     "missing_or_invalid_records": 0,
     "normalized_records": {
-      "assets": 23099,
-      "documents": 127,
-      "page_rows": 106901,
-      "pages": 4057,
-      "transactions": 48292,
-      "uncertainties": 17301
+      "assets": 26389,
+      "documents": 128,
+      "page_rows": 116023,
+      "pages": 4410,
+      "transactions": 48892,
+      "uncertainties": 17761
     },
     "owner_code_distribution": {
-      "DC": 29491,
+      "DC": 35390,
       "JT": 14,
-      "SP": 73007,
-      "not_stated": 4389
+      "SP": 75799,
+      "not_stated": 4820
     },
-    "page_images": 4057,
+    "page_images": 4410,
     "page_row_kind_distribution": {
-      "asset": 28131,
-      "group": 2494,
-      "tx": 76276
+      "asset": 31421,
+      "group": 2924,
+      "tx": 81678
     },
-    "page_source_json": 4057,
+    "page_source_json": 4410,
     "page_type_distribution": {
-      "cover": 15,
+      "cover": 16,
       "letter": 10,
-      "other": 29,
+      "other": 30,
       "ptr_cover": 104,
       "ptr_transactions": 1469,
-      "schedule_a": 1097,
-      "schedule_b": 1320,
+      "schedule_a": 1246,
+      "schedule_b": 1522,
       "schedule_c": 3,
       "schedule_d": 7,
       "schedule_h": 3
     },
     "pending_pages": 0,
-    "source_pdfs": 127,
-    "tesseract_text_files": 4057,
+    "source_pdfs": 128,
+    "tesseract_text_files": 4410,
     "text_quality_findings": 2488,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 1944,
@@ -57,7 +57,7 @@
       "ocr_table_debris": 12,
       "standalone_fragment": 59
     },
-    "valid_page_source_json": 4057,
+    "valid_page_source_json": 4410,
     "years": [
       "2016",
       "2017",
@@ -77,32 +77,32 @@
     {
       "check": "unparsed_dates_preserved",
       "counts": {
-        "transaction_date": 1672
+        "transaction_date": 1670
       },
       "severity": "info"
     },
     {
       "check": "page_type_normalization",
       "normalized": {
-        "cover": 15,
+        "cover": 16,
         "letter": 10,
-        "other": 29,
+        "other": 30,
         "ptr_cover": 104,
         "ptr_transactions": 1469,
-        "schedule_a": 1097,
-        "schedule_b": 1320,
+        "schedule_a": 1246,
+        "schedule_b": 1522,
         "schedule_c": 3,
         "schedule_d": 7,
         "schedule_h": 3
       },
       "raw": {
-        "cover": 15,
+        "cover": 16,
         "letter": 10,
-        "other": 29,
+        "other": 30,
         "ptr": 1469,
         "ptr_cover": 104,
-        "schedule_a": 1097,
-        "schedule_b": 1320,
+        "schedule_a": 1246,
+        "schedule_b": 1522,
         "schedule_c": 3,
         "schedule_d": 7,
         "schedule_h": 3

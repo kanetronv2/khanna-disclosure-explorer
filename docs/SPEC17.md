@@ -66,3 +66,30 @@ Same conventions/schema, `docs/<doc>/...`. The set:
 Same conventions/schema, `docs/<doc>/...`.
 - 2021: annual = `2021-13` (303p, Form A); `2021-12` (1p) = Extension Request (letter); rest = PTRs (`2021-8` is 23p).
 - 2022: annual = `2022-15` (367p, Form A); `2022-14` (1p) = Extension Request (letter); rest = PTRs (several long: 2022-6 67p, 2022-7 34p, 2022-10 32p — heavy trading year). Check each PTR cover for the "Amendment" box.
+
+## 2025 documents — annual (added Aug 2026)
+The twelve 2025 PTRs (`2025-1..2025-12`) and the Extension Request (`2025-13`) were transcribed
+earlier under the generic PTR rules above. The annual arrived later:
+- `2025-14` — 2025 Annual Financial Disclosure REPORT (Form A), 353 pages, Clerk ID 9116272,
+  hand-delivered, received 2026-08-10 (filed under the 90-day extension granted 02/21/2026).
+  Printed labels run "Page N of 353" and match the PDF 1:1. Scans are ALREADY UPRIGHT —
+  prep2025b.sh applies no rotation (do not run prep2025.sh on this doc).
+
+Layout is the same OmniPage checkbox-grid scan as the 2024 annual; follow `ocr/SPEC.md`
+verbatim, with 2024 conventions:
+- `schedule_a` rows: `owner, asset_name, value, income_types, other_income_spec,
+  amount_of_income, transaction` — exact printed bucket text for whichever column holds the X.
+  Add optional `"eif": true` when the EIF (excepted investment fund) column is marked
+  (2024 convention); omit the key otherwise.
+  Block E `transaction` uses the COMMA form when several codes are printed together —
+  `"P,S"`, `"P,S,S(part)"` — matching the rest of the corpus (5,134 comma vs 3 space).
+  The form prints them space-separated; normalize to commas.
+- `schedule_b` rows: `tx_type` ("Purchase" / "Sale" / "Partial Sale" / "Exchange"),
+  `cap_gain_over_200`, `date`, `notification_date` (usually blank on the annual's Schedule B),
+  `amount` — dates normalized to MM/DD/YYYY.
+- Page 1 cover → `page_type: "cover"`, everything into `free_text`.
+- FILER NOTES (p. 353) → `page_type: "other"`, transcribe verbatim into `free_text`.
+  NOTE: the filer states that "Pursuant to the 2026 Instruction Guide … the value bracket that
+  represents the percentage interest in the asset is selected" — i.e. value brackets may encode
+  a percentage interest rather than the full asset value. Transcribe the brackets exactly as
+  printed; this caveat lives in the free_text, not in the row data.

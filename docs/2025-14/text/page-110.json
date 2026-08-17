@@ -1,0 +1,40 @@
+{
+  "pdf_page": 110,
+  "printed_label": "Page 110 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID 12/20/2028 USD SER WI SR LIEN CPN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 0", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 0", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD SER DD JRSUB LIE", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD SER RR JRSUB LIE", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD SER TT JRSUB LIE", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID 04/26/2027 USD SR LIEN CPN 04", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL USD SER H JRSUB", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL USD SR LIEN CPN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BANK OF NOVA SCOTIA (THE) 1 3% 09/15/2026 SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BAXTER INTERNATIONAL INC 2.272 % 12/01/2028 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BECTON DICKINSON AND COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BELL CANADA 5 1 % 05/11/2033 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BERKSHIRE HATHAWAY INC CLASS B", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BERRY GLOBAL INC 1 57 / 01/15/2026 SR LIEN", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "BUILDERS FIRSTSOURCE INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORP CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL USD JRSUB LIEN CP", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL USD SER M JRSUB L", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CARMAX, INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": "P,S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CENTERPOINT ENERGY INC HYBRID 02/15/2055 USD SER B SR LIEN CPN 08/14/", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD SER H JRSUB", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD SER K JRSUB", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 1, "field": "asset_name", "read": "BANK OF AMERICA CORPORATION HYBRID 12/20/2028 USD SER WI SR LIEN CPN", "note": "several bond names on this page are truncated at the Block A column edge (rows 1-9, 18, 19, 22, 23, 24)"},
+    {"row": 10, "field": "asset_name", "read": "BANK OF NOVA SCOTIA (THE) 1 3% 09/15/2026 SR LIEN", "note": "coupon glyph after '1 3' is a degraded percent mark; also applies to BAXTER '2.272 %' and BELL CANADA '5 1 %'"}
+  ],
+  "page_confidence": "high"
+}

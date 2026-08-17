@@ -1,0 +1,40 @@
+{
+  "pdf_page": 77,
+  "printed_label": "Page 77 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM  82 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 49 EXP 01/10/2025", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 52 EXP 03/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 53 EXP 02/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 58 EXP 06/13/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 60 EXP 04/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 63 EXP 07/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 64 EXP 05/09/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 65 EXP 08/08/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 67 EXP 09/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 68 EXP 10/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 74 EXP 11/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 74 EXP 12/12/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 78 EXP 01/09/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/HSBC FLEX EURO  PM 82 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @  28 EXP 01/09/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @  29 EXP 02/13/2026", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 16 75 EXP 02/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 17 EXP 03/14/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 17 25 EXP 01/10/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 18 5 EXP 04/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 20 25 EXP 06/13/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 22 EXP 05/09/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "CALL/ING FLEX EURO  PM  @ 22 EXP 07/11/2025", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 2, "field": "value", "read": "null", "note": "CALL/HSBC PM 49 row has no visible X in any Block B column (verified on full page and BL quad); all other option rows on this page mark column A (None)"},
+    {"row": 18, "field": "asset_name", "read": "@ 16 75 EXP 02/14/2025", "note": "strike printed as '16 75' (likely 16.75); rows 20, 21, 22 similarly '17 25', '18 5', '20 25'"}
+  ],
+  "page_confidence": "high"
+}

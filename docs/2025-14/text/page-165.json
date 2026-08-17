@@ -1,0 +1,29 @@
+{
+  "pdf_page": 165,
+  "printed_label": "Page 165 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "INTERNATIONAL PAPER CO  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GENERAL MILLS INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOVER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "T MOBILE US  INC  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SOLVENTUM CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/08/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SALESFORCE INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/30/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SOLVENTUM CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CITIGROUP INC  HYBRID PERPETUAL USD", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CITIGROUP INC  HYBRID PERPETUAL", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/22/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/GOOG FLEX EURO  PM 275 EXP 12/05/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THE PROCTER & GAMBLE COMPANY CMN", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DATADOG  INC  CMN CLASS A", "tx_type": "Sale", "cap_gain_over_200": false, "date": "12/05/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "APPLE INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "12/05/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HCA HEALTHCARE  INC CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "12/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "GENERAL MOTORS COMPANY CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "12/19/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [],
+  "page_confidence": "high"
+}

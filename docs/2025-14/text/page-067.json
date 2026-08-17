@@ -1,0 +1,333 @@
+{
+ "pdf_page": 67,
+ "printed_label": "Page 67 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Ritu Ahuja Declaration of Trust"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TOLL BROTHERS  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TOPBUILD CORP  CMN",
+   "value": null,
+   "income_types": [],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFE",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFE",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFE",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPE",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPE",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TRACTOR SUPPLY COMPANY CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TRIBOROUGH BRDG & TUNL AUTH N REV 5 % 05/15/28 MN Y PAYROLL MOBILITY",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TRIBOROUGH BRDG & TUNL AUTH NY REV 5 0000% 11/15/27 MN MTA BRIDGES A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TYLER TECHNOLOGIES  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TYSON FOODS INC CL A CMN CLASS A",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "U S DOLLAR",
+   "value": "$1-$1,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UBER TECHNOLOGIES  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UBS AG LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFER STRUCTURED NO",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UBS AG LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED W BUFFER STRU",
+   "value": "$50,001-$100,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ULTRA CLEAN HOLDINGS  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNION PACIFIC CORP  JSE UNPI INT EQTY DN CASH BASE",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNITED PARCEL SERVICE, INC  CLASS B COMMON STOCK",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNITED RENTALS  INC  CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "UTIL DEBT SECURTZTION AUTH NY REV 5 0000 /  06/15/28-CA JD RESTRUCTURI",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "VERALTO CORPORATION CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 2,
+   "field": "value",
+   "read": "null",
+   "note": "TOPBUILD row has no visible X in any Block B column and none in Block C; only Block D 'None' is checked (verified on full page and quads)"
+  },
+  {
+   "row": 3,
+   "field": "asset_name",
+   "read": "... CPN W BUFFE",
+   "note": "rows 3-5 truncated at right cell edge and print identically up to the cut; rows 6-7 likewise end at 'CAPPE'"
+  },
+  {
+   "row": 9,
+   "field": "asset_name",
+   "read": "TRIBOROUGH BRDG & TUNL AUTH N REV 5 % 05/15/28 MN Y PAYROLL MOBILITY",
+   "note": "coupon glyph after '5' degraded; name truncated at right cell edge"
+  },
+  {
+   "row": 10,
+   "field": "asset_name",
+   "read": "... MN MTA BRIDGES A",
+   "note": "name truncated at right cell edge"
+  },
+  {
+   "row": 23,
+   "field": "asset_name",
+   "read": "UTIL DEBT SECURTZTION AUTH NY REV 5 0000 / ...",
+   "note": "glyph after '5 0000' printed as '/', likely degraded '%'; name truncated after RESTRUCTURI"
+  }
+ ],
+ "page_confidence": "high"
+}

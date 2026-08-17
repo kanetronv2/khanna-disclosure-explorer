@@ -1,0 +1,43 @@
+{
+  "pdf_page": 163,
+  "printed_label": "Page 163 of 353",
+  "section": "SCHEDULE B - TRANSACTIONS",
+  "page_type": "schedule_b",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NASDAQ INC  CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "10/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HCA HEALTHCARE  INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "10/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FERGUSON ENTERPRISES INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "10/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "10/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "LABCORP HOLDINGS INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": true, "date": "10/27/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "10/24/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NASDAQ INC  CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "10/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "10/23/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ROCKWELL AUTOMATION INC CMN", "tx_type": "Partial Sale", "cap_gain_over_200": false, "date": "10/03/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "JOHNSON & JOHNSON CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DRAGONEER OPPORTUNITIES VI", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/14/2025", "notification_date": null, "amount": "$15,001-$50,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "EATON CORP PLC CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "NVIDIA CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "ALPHABET INC  CMN  CLASS C", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "STARBUCKS CORP  CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WIX.COM LTD CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "FIRST CITIZENS BANCSHARES INC HYBRID PERPETUAL", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/13/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOVER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/19/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "DOVER CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WIX.COM LTD CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/18/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "SOLVENTUM CORPORATION CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/20/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "WIX COM LTD CMN", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/17/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CARLYLE OPPORTUNITIES", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/ISRG FLEX EURO  PM 525 EXP 11/07/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "CALL/AAPL FLEX EURO  PM 260 EXP 11/07/2025", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "11/07/2025", "notification_date": null, "amount": "$1,001-$15,000"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 25, "field": "asset_name", "read": "WIX COM LTD CMN", "note": "printed without the period, unlike the WIX.COM LTD CMN rows above; transcribed verbatim"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,369 @@
+{
+ "pdf_page": 23,
+ "printed_label": "Page 23 of 353",
+ "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+ "page_type": "schedule_a",
+ "filer": "Rohit Khanna",
+ "rows": [
+  {
+   "kind": "group",
+   "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ROYAL BANK OF CANADA LINKED TO BASKET OF INDICES UPSIDE LEVERED CA",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ROYAL BANK OF CANADA LINKED TO BASKET OF INDICES UPSIDE LEVERED CA",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFER",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX UPSIDE LEVERED CAPPED",
+   "value": "$100,001-$250,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SALESFORCE INC CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SEMPRA HYBRID 04/01/2056 JRSUB LIEN CPN 08/29/25 6 375 %",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SEMPRA HYBRID 10/01/2054 USD JRSUB LIEN CPN 03/14/24 6 875 %",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SMS INVESTORS LP",
+   "eif": true,
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SOLVENTUM CORPORATION CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SOUTHERN COMPANY (THE) HYBRID 01/15/2051 SER B JRSUB LIEN CPN 09/18/2",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SOUTHERN COMPANY (THE) HYBRID 03/15/2055",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SOUTHERN COMPANY (THE) HYBRID 03/15/2055 USD SER 2025 JRSUB LIEN CPN",
+   "value": "$1-$1,000",
+   "income_types": [
+    "INTEREST"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SPOTIFY TECHNOLOGY S.A. CMN",
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SS&C TECHNOLOGIES HOLDINGS  IN CMN",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1,001-$2,500",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STARBUCKS CORP  CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS",
+    "CAPITAL GAINS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STATE STREET CORP HYBRID PERPETUAL",
+   "value": "None",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 02/0",
+   "value": "$1-$1,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER I JRSUB LIEN CPI",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER J JRSUB LIEN CP",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "STRATEGIC INVESTORS XI ACCESS LLC",
+   "eif": true,
+   "value": "$250,001-$500,000",
+   "income_types": [
+    "NONE"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "None",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SYNCHRONY FINANCIAL PFD USD2 0625(8 25%) SERIES B",
+   "value": "$1,001-$15,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$1-$200",
+   "transaction": null
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "SYSCO CORPORATION CMN",
+   "value": "$15,001-$50,000",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "S(part)"
+  },
+  {
+   "kind": "asset",
+   "owner": "DC",
+   "asset_name": "TARGET CORPORATION CMN",
+   "value": "None",
+   "income_types": [
+    "DIVIDENDS"
+   ],
+   "other_income_spec": null,
+   "amount_of_income": "$201-$1,000",
+   "transaction": "P,S,S(part)"
+  }
+ ],
+ "free_text": null,
+ "uncertainties": [
+  {
+   "row": 2,
+   "field": "asset_name",
+   "read": "ROYAL BANK OF CANADA LINKED TO BASKET OF INDICES UPSIDE LEVERED CA",
+   "note": "name truncated at cell border (rows 2 and 3 are identically truncated)"
+  },
+  {
+   "row": 4,
+   "field": "asset_name",
+   "read": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX CNTNGNT CPN W BUFFER",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 8,
+   "field": "asset_name",
+   "read": "SEMPRA HYBRID 04/01/2056 JRSUB LIEN CPN 08/29/25 6 375 %",
+   "note": "percent sign degraded in scan (tesseract read '4')"
+  },
+  {
+   "row": 9,
+   "field": "asset_name",
+   "read": "SEMPRA HYBRID 10/01/2054 USD JRSUB LIEN CPN 03/14/24 6 875 %",
+   "note": "percent sign degraded in scan (tesseract read '4')"
+  },
+  {
+   "row": 12,
+   "field": "asset_name",
+   "read": "SOUTHERN COMPANY (THE) HYBRID 01/15/2051 SER B JRSUB LIEN CPN 09/18/2",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 14,
+   "field": "asset_name",
+   "read": "SOUTHERN COMPANY (THE) HYBRID 03/15/2055 USD SER 2025 JRSUB LIEN CPN",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 19,
+   "field": "asset_name",
+   "read": "STATE STREET CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 02/0",
+   "note": "name truncated at cell border after '02/0'"
+  },
+  {
+   "row": 20,
+   "field": "asset_name",
+   "read": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER I JRSUB LIEN CPI",
+   "note": "name truncated at cell border; final letters read 'CPI', likely 'CPN' clipped"
+  },
+  {
+   "row": 21,
+   "field": "asset_name",
+   "read": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER J JRSUB LIEN CP",
+   "note": "name truncated at cell border"
+  },
+  {
+   "row": 23,
+   "field": "asset_name",
+   "read": "SYNCHRONY FINANCIAL PFD USD2 0625(8 25%) SERIES B",
+   "note": "percent sign degraded in scan (tesseract read '8 257')"
+  }
+ ],
+ "page_confidence": "high"
+}

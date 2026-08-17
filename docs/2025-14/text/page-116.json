@@ -1,0 +1,40 @@
+{
+  "pdf_page": 116,
+  "printed_label": "Page 116 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 02/0", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER I JRSUB LIEN CP", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "STATE STREET CORPORATION HYBRID PERPETUAL USD SER J JRSUB LIEN CP", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SYNCHRONY FINANCIAL PFD USD1 4063(5 63 /) SERIES A", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "SYNCHRONY FINANCIAL PFD USD2 0625(8 25 /) SERIES B", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "SYSCO CORPORATION CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TARGET CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P,S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TEXAS INSTRUMENTS INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "P,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "THE HOME DEPOT INC CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": "S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "THERMO FISHER SCIENTIFIC INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "T MOBILE USA INC 2 4 % 03/15/2029 USD SER WI SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 1 25% 09/10/2026 USD SER MTN SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID PERPETUAL USD SER N JRSUB LIEN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID PERPETUAL USD SER Q JRSUB LIEN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S DOLLAR", "value": "$1-$1,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S BANCORP HYBRID PERPETUAL USD JRSUB LIEN CPN 10/26/21 3 7 %", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S BANCORP HYBRID PERPETUAL USD SER J JRSUB LIEN CPN 02/13/17 5 3 %", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S BANCORP MTN 1 375 % 07/22/2030 USD SER MTN SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S TREASURY NOTE 4 000000% 02/29/2028 FA ON THE RUN", "value": "$100,001-$250,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S TREASURY NOTE 4 875000 % 11/30/2025 MN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "UNION PACIFIC CORP JSE UNPI INT EQTY DN CASH BASE", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "VERIZON COMMUNICATIONS INC 4 016% 12/03/2029 USD SER WI SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "VISA INC CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "VISA INC CMN CLASS A", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S(part)"}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 1, "field": "asset_name", "read": "STATE STREET CORPORATION HYBRID PERPETUAL USD JRSUB LIEN CPN 02/0", "note": "names truncated at the Block A column edge (rows 1-3, 13, 14)"},
+    {"row": 11, "field": "asset_name", "read": "T MOBILE USA INC 2 4 % 03/15/2029 USD SER WI SR LIEN", "note": "percent/fraction glyphs degraded on bond coupons (rows 11, 12, 16-20)"}
+  ],
+  "page_confidence": "high"
+}

@@ -1,0 +1,28 @@
+{
+  "pdf_page": 131,
+  "printed_label": "Page 131 of 353",
+  "section": "SCHEDULE A - ASSETS & \"UNEARNED INCOME\"",
+  "page_type": "schedule_a",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {"kind": "group", "text": "Zara Ahuja Khanna UTMA"},
+    {"kind": "asset", "owner": "DC", "asset_name": "GOLDMAN SACHS BANK USA DEPOSIT (BDA)", "value": "$250,001-$500,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "group", "text": "Soren Ahuja Khanna UTMA"},
+    {"kind": "asset", "owner": "DC", "asset_name": "GOLDMAN SACHS BANK USA DEPOSIT (BDA)", "value": "$250,001-$500,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "group", "text": "Khanna Family Bank Accounts"},
+    {"kind": "asset", "owner": "SP", "asset_name": "CITIBANK SAVINGS", "value": "$500,001-$1,000,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CITIBANK CHECKING", "value": "$1-$1,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "CITIBANK CHECKING", "value": "$250,001-$500,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "CITIBANK SAVINGS", "value": "$250,001-$500,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "group", "text": "Ritu Ahuja Khanna Life Insurance"},
+    {"kind": "asset", "owner": "SP", "asset_name": "PACIFIC LIFE INSURANCE CO-UNIVERSAL CSV", "value": "$500,001-$1,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "group", "text": "ASK Partners"},
+    {"kind": "group", "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"},
+    {"kind": "asset", "owner": "DC", "asset_name": "BPCP SPEEDSTAR (AUTO PARTS DISTRIBUTION  WALTON HILLS  OH)", "value": "$500,001-$1,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null}
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {"row": 12, "field": "asset_name", "read": "BPCP SPEEDSTAR (AUTO PARTS DISTRIBUTION  WALTON HILLS  OH)", "note": "the commas after DISTRIBUTION and WALTON HILLS did not survive the scan; rendered as the double spaces actually visible"}
+  ],
+  "page_confidence": "high"
+}
