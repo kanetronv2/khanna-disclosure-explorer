@@ -183,7 +183,9 @@ other row's date.
 
 **Still pending dedicated re-transcription** (do not blindly correct dates here — the row
 content itself needs re-verification against the scans first):
-- `docs/2021-8` — 6 pages, 176 rows (pages 005, 012, 013, 016, 018, 022)
+- `docs/2021-8` — pages 005 and 022 still need the same treatment. Pages 012,
+  013, 016, and 018 were re-verified against their scans and rebuilt from their matching
+  annual Schedule B row runs.
 - `docs/2021-10` — 4 pages, 77 rows (pages 003, 004, 005, 008)
 - `docs/2022-9` — pages 010, 013, 018, and 019 still need the same treatment. Pages 005
   and 014 were re-verified against their scans and rebuilt from matching annual Schedule B

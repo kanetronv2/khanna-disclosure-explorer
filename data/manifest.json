@@ -29,32 +29,32 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26196436,
+      "bytes": 26190062,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 116036,
-      "sha256": "304cd8ed600274882c706c4f1102c398da387fa3e455330e133bb616c918f054"
+      "records": 116010,
+      "sha256": "9e41865e645d14cbe329dcf1938be31ece950c1c19ce78385e5bcbf7009402c0"
     },
     {
-      "bytes": 96393311,
+      "bytes": 96371267,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 116036,
-      "sha256": "c269b6be5129e710bf9168a6022aa1fd58df0e0a6f20361215b5ec078d7c1552"
+      "records": 116010,
+      "sha256": "1c12f50c387c5ffe5382b9656e36bd790e29239cdcbd972d6e1e8015afdc0dcb"
     },
     {
-      "bytes": 1195135,
+      "bytes": 1195130,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "b5bcae00ce3c8256f2b5c4b790b3fd120eea7e7f2cceea10f0a641689660c32a"
+      "sha256": "aeffbd54f0d7aafbef64008d17d4bc1330bba8dee752be01f6dd8cd45f002b2e"
     },
     {
-      "bytes": 2296668,
+      "bytes": 2296663,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "2b07f212171ebdc0ab8a4af7fc8d9babb5e63d3fcde42869757eed32ceeb81f7"
+      "sha256": "0e23ffed9f0adb2019902a26449c6891303c9c38d3dbc847f6eaad41077f1e92"
     },
     {
       "bytes": 14594468,
@@ -71,25 +71,25 @@
       "sha256": "186c2a9494613117aa722ac3cb483367b145dd3bb65318ecc93ad310c89f31d3"
     },
     {
-      "bytes": 5109106,
+      "bytes": 5109695,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18091,
-      "sha256": "33224a5715f28668319c7e193f14f9206d981a9f7111d382ca23d806d568c268"
+      "records": 18093,
+      "sha256": "e637d88f653519fe08058f2fddfbb449216993a34e0cfeb238ccc87c7a9ff418"
     },
     {
-      "bytes": 6766227,
+      "bytes": 6767022,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18091,
-      "sha256": "d5cb9f2ba26c8b767f68e72fe98d9f08f8bdf4f7cdec50cae617d5a1e7d6fe8e"
+      "records": 18093,
+      "sha256": "27bb9d7cbf82d7ef2e9d29ddcfff9f193184986b417a5c32c67da9eff140f76a"
     },
     {
       "bytes": 3019,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "1b1988798ba73240a952769c453932065bd8c24737a4744fdcacea895bbef1eb"
+      "sha256": "8868a894417311a0253406073945590b16e8d12649cec13a4df0211914e85605"
     },
     {
       "bytes": 1094080,
@@ -104,9 +104,9 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2216,
+      "high": 2218,
       "low": 299,
-      "medium": 1886,
+      "medium": 1884,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -114,22 +114,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116036,
+      "page_rows": 116010,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18091
+      "uncertainties": 18093
     },
     "owner_code_distribution": {
-      "DC": 35400,
+      "DC": 35407,
       "JT": 14,
-      "SP": 75802,
-      "not_stated": 4820
+      "SP": 75770,
+      "not_stated": 4819
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2924,
-      "tx": 81691
+      "group": 2923,
+      "tx": 81666
     },
     "page_source_json": 4410,
     "page_type_distribution": {

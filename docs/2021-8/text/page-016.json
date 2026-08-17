@@ -8,50 +8,6 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMERICAN EXPRESS CO. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "08/24/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CMS ENERGY CORPORATION CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/16/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MOLINA HEALTHCARE, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/16/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "RPM INTERNATIONAL INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/24/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
       "asset_name": "EQUITY RESIDENTIAL CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
@@ -149,8 +105,44 @@
       "amount": "$1,001-$15,000"
     },
     {
-      "kind": "group",
-      "text": "Ritu Ahuja 1994 Trust"
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NEW YORK ST TWY AUTH GEN REV REV 5% 01/01/23 J",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/23/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NEW YORK N Y CITY TRANSITIONAL REV 5% 07/15/28",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "07/16/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "N Y ST DORM AUTH REVS NON ST S REV 1.1800% 07/",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "07/14/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WALGREENS BOOTS ALLIANCE, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/03/2021",
+      "notification_date": "09/03/2021",
+      "amount": "$250,001-$500,000"
     },
     {
       "kind": "tx",
@@ -160,8 +152,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -171,8 +162,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -182,8 +172,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -193,8 +182,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -204,8 +192,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -215,8 +202,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -226,8 +212,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -237,8 +222,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -248,8 +232,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -259,19 +242,7 @@
       "cap_gain_over_200": false,
       "date": "09/03/2021",
       "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$100,001-$250,000",
-      "partial_sale": false
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -281,8 +252,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -292,8 +262,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -303,8 +272,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -314,8 +282,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -325,8 +292,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -336,8 +302,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -347,8 +312,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -358,8 +322,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -369,8 +332,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -380,8 +342,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -391,8 +352,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -402,8 +362,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -413,8 +372,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -424,8 +382,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -435,8 +392,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -446,8 +402,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -457,8 +412,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -468,8 +422,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -479,8 +432,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -490,8 +442,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -501,8 +452,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -512,8 +462,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -523,8 +472,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -534,8 +482,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -545,8 +492,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -556,8 +502,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -567,8 +512,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -578,8 +522,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -589,8 +532,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -600,8 +542,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -611,8 +552,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -622,8 +562,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -633,8 +572,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -644,8 +582,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -655,8 +592,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -666,8 +602,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -677,8 +612,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -688,8 +622,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -699,8 +632,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -710,8 +642,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -721,8 +652,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -732,8 +662,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -743,8 +672,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -754,8 +682,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -765,8 +692,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -776,8 +702,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -787,8 +712,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -798,8 +722,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -809,8 +732,7 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -820,228 +742,7 @@
       "cap_gain_over_200": false,
       "date": "09/03/2021",
       "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "AMAZON.COM INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "09/27/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SALESFORCE.COM, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ABBOTT LABORATORIES CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ALPHABET INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "WALMART INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LINDE PLC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COCA-COLA COMPANY (THE) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "10/07/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "APPLE INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ELI LILLY & CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "META PLATFORMS INC CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "AMGEN INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "VISA INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "JOHNSON & JOHNSON CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "09/03/2021",
-      "amount": "$50,001-$100,000",
-      "partial_sale": false
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -1051,8 +752,7 @@
       "cap_gain_over_200": false,
       "date": "01/04/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1062,8 +762,7 @@
       "cap_gain_over_200": false,
       "date": "01/04/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1073,8 +772,7 @@
       "cap_gain_over_200": false,
       "date": "02/16/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1084,8 +782,7 @@
       "cap_gain_over_200": false,
       "date": "03/02/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1095,8 +792,7 @@
       "cap_gain_over_200": false,
       "date": "04/05/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1106,8 +802,7 @@
       "cap_gain_over_200": false,
       "date": "04/01/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1117,8 +812,7 @@
       "cap_gain_over_200": false,
       "date": "04/28/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1128,8 +822,7 @@
       "cap_gain_over_200": false,
       "date": "04/05/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1139,8 +832,7 @@
       "cap_gain_over_200": false,
       "date": "05/11/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1150,8 +842,7 @@
       "cap_gain_over_200": false,
       "date": "06/07/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1161,8 +852,7 @@
       "cap_gain_over_200": false,
       "date": "06/24/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1172,8 +862,7 @@
       "cap_gain_over_200": false,
       "date": "07/29/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1183,8 +872,7 @@
       "cap_gain_over_200": false,
       "date": "07/08/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1194,8 +882,7 @@
       "cap_gain_over_200": false,
       "date": "07/19/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1205,8 +892,7 @@
       "cap_gain_over_200": false,
       "date": "08/17/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -1216,18 +902,15 @@
       "cap_gain_over_200": false,
       "date": "08/31/2021",
       "notification_date": "09/03/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
-      "field": "asset_name",
-      "read": "Several municipal bond and ADR names copied from annual Schedule B retain clipped/truncated endings where the scan cuts off at the transaction grid.",
-      "note": "Matched to annual Schedule B duplicate rows and PTR page image."
+      "field": "rows",
+      "note": "All 89 printed tx rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 234-244); later annual transactions are excluded because they are not printed on this PTR page."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }
