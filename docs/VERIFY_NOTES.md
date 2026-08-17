@@ -181,12 +181,14 @@ symptom: whichever OCR/transcription failure produced the wrong content also pro
 internally-inconsistent date pair, since the "date" attached to the wrong row is really some
 other row's date.
 
-**Left entirely unfixed pending dedicated re-transcription** (do not blindly correct dates
-here — the row content itself needs re-verification against the scans first):
+**Still pending dedicated re-transcription** (do not blindly correct dates here — the row
+content itself needs re-verification against the scans first):
 - `docs/2021-8` — 6 pages, 176 rows (pages 005, 012, 013, 016, 018, 022)
 - `docs/2021-10` — 4 pages, 77 rows (pages 003, 004, 005, 008)
-- `docs/2022-9` — 5 of 6 non-trivial flagged pages, 21 rows (pages 005, 010, 013, 014, 018,
-  019; only page-004 row 17 and page-002's single row were resolvable)
+- `docs/2022-9` — pages 010, 013, 018, and 019 still need the same treatment. Pages 005
+  and 014 were re-verified against their scans and rebuilt from matching annual Schedule B
+  runs after independently confirming their printed dates; page 004 row 17 and page 002's
+  single row were already resolved.
 
 **Left unfixed, but for a different reason (verbatim, not a bug):** on `docs/2022-5` pages
 017–018, most rows genuinely show a printed "Date of Transaction" one day *after* "Date
@@ -200,3 +202,7 @@ background tasks):** `docs/2025-4` still has several pages with missing/merged/d
 (006/010/011/012/014/017/024/043/045/046/048) not yet addressed — the equivalent issues on
 `docs/2026-2/page-031` and `docs/2026-3/page-025/033/034` were fixed in this same round (see
 above); `docs/2025-4`'s remain open for a future pass.
+
+The stray Toronto Dominion Bank linked-note row formerly in `docs/2023-3/page-011` has been
+removed: it is not printed in that document and belongs to `docs/2023-4/page-003`, whose filed
+notification date is 05/03/2023 rather than 04/03/2023.

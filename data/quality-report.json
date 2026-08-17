@@ -2,9 +2,9 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2214,
+      "high": 2216,
       "low": 299,
-      "medium": 1888,
+      "medium": 1886,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -12,13 +12,13 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116034,
+      "page_rows": 116036,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18090
+      "uncertainties": 18091
     },
     "owner_code_distribution": {
-      "DC": 35398,
+      "DC": 35400,
       "JT": 14,
       "SP": 75802,
       "not_stated": 4820
@@ -27,7 +27,7 @@
     "page_row_kind_distribution": {
       "asset": 31421,
       "group": 2924,
-      "tx": 81689
+      "tx": 81691
     },
     "page_source_json": 4410,
     "page_type_distribution": {

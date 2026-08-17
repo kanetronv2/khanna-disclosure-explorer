@@ -219,17 +219,6 @@
       "amount": "$1,001-$15,000"
     },
     {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 IND",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/17/2023",
-      "notification_date": "04/03/2023",
-      "amount": "$50,001-$100,000"
-    },
-    {
       "kind": "group",
       "text": "Ritu Ahuja 1994 Trust"
     }
@@ -241,6 +230,11 @@
       "field": "asset_name",
       "read": "RE: $900,065,000 GO 5.0000% 08/01/23 FA",
       "note": "The leading issuer text is truncated/odd in both PTR and annual Schedule B; preserved as annual transcribed row."
+    },
+    {
+      "row": null,
+      "field": "rows",
+      "note": "Removed the Toronto Dominion Bank linked-note row: it is not printed on this scan and belongs to 2023-4 page 003 (with its own 05/03/2023 notification date)."
     }
   ],
   "page_confidence": "medium"
