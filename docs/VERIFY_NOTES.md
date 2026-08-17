@@ -191,10 +191,10 @@ content itself needs re-verification against the scans first):
   The 77 formerly misattributed rows are resolved and their date/notification
   anomalies are gone. The few scan-printed 11/08/2021 and 11/02/2021
   notification dates on page 004 remain verbatim.
-- `docs/2022-9` — pages 010, 013, 018, and 019 still need the same treatment. Pages 005
-  and 014 were re-verified against their scans and rebuilt from matching annual Schedule B
-  runs after independently confirming their printed dates; page 004 row 17 and page 002's
-  single row were already resolved.
+- `docs/2022-9` — pages 005, 010, 013, 014, 018, and 019 were re-verified
+  against their scans and rebuilt from matching annual Schedule B runs after independently
+  confirming their printed dates; page 004 row 17 and page 002's single row were already
+  resolved.
 
 **Left unfixed, but for a different reason (verbatim, not a bug):** on `docs/2022-5` pages
 017–018, most rows genuinely show a printed "Date of Transaction" one day *after* "Date

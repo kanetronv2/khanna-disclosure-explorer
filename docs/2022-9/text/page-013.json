@@ -11,10 +11,10 @@
       "asset_name": "JUNIPER NETWORKS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,10 +22,10 @@
       "asset_name": "DATADOG, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,21 +33,21 @@
       "asset_name": "AMERISOURCEBERGEN CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PAYPAL HOLDINGS, INC. CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -55,32 +55,32 @@
       "asset_name": "EVEREST RE GROUP LTD CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -88,10 +88,10 @@
       "asset_name": "ROKU, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +99,10 @@
       "asset_name": "EXPEDITORS INTERNATIONAL OF WA CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,109 +110,105 @@
       "asset_name": "AVANTOR FUNDING, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja Declaration of Trust"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NIKE CLASS-B CMN CLASS B",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "TRIBOROUGH BRDG & TUNL AUTH N REV 5% 05/15/28 MN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/06/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/29/2022",
-      "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/06/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MERCK & CO., INC. CMN",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "PEPSICO, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/06/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/29/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/06/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TESLA, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/06/2022",
-      "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SALESFORCE INC CMN",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "CHUBB LIMITED CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/06/2022",
+      "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/23/2022",
+      "notification_date": "09/06/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
       "field": "rows",
-      "note": "Transaction fields aligned to annual Schedule B sequence beginning page-230.json row 11; PTR scan/tesseract used for page row inventory."
+      "note": "All 17 printed transactions re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 230, 238, 240, and 250)."
     }
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-9/pages/page-013.jpg",
   "doc": "2022-9",
   "doc_label": "2022 PTR filed 2022-09-08"

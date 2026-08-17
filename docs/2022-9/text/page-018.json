@@ -8,24 +8,13 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INFINERA CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/01/2022",
-      "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
       "asset_name": "CBRE GROUP, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +22,10 @@
       "asset_name": "ZOOMINFO TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +33,10 @@
       "asset_name": "CLOUDFLARE, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +44,10 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,10 +55,10 @@
       "asset_name": "LIBERTY GLOBAL, PLC. CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,10 +66,10 @@
       "asset_name": "AMCOR PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,10 +77,10 @@
       "asset_name": "PINTEREST INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +88,10 @@
       "asset_name": "MOSAIC COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,10 +99,10 @@
       "asset_name": "SOUTHWEST AIRLINES CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,10 +110,10 @@
       "asset_name": "EPAM SYSTEMS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,10 +121,10 @@
       "asset_name": "SNAP INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,10 +132,10 @@
       "asset_name": "KIMCO REALTY CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,10 +143,10 @@
       "asset_name": "BOSTON PROPERTIES, INC. COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -165,10 +154,10 @@
       "asset_name": "MICROCHIP TECHNOLOGY INCORPORA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +165,10 @@
       "asset_name": "ULTA BEAUTY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,32 +176,53 @@
       "asset_name": "PUT/XSP @ 335 EXP 10/21/2022",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/05/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SENSATA TECHNOLOGIES HOLDING P CMN",
-      "tx_type": "Purchase",
+      "asset_name": "PUT/XSP @ 375 EXP 10/21/2022",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
+      "date": "08/05/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 403 EXP 09/30/2022",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "08/16/2022",
+      "notification_date": "09/06/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 399 EXP 09/23/2022",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "08/12/2022",
+      "notification_date": "09/06/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
       "field": "rows",
-      "note": "Transaction fields aligned to annual Schedule B sequence beginning page-284.json row 27; PTR scan/tesseract used for page row inventory."
+      "note": "All 19 printed transactions re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 284-285 and 335), including the four printed PUT/XSP option rows."
     }
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-9/pages/page-018.jpg",
   "doc": "2022-9",
   "doc_label": "2022 PTR filed 2022-09-08"
