@@ -514,24 +514,22 @@ def owner_share_sentence(summary):
     if not owners:
         return ""
     parts = [f"{(o['lo'] / tot['lo']) * 100:.1f}% to {OWNER_PHRASE.get(o['name'], o['name'])}" for o in owners[:3]]
-    return (" Measured against the reported minimum, the filing's owner codes assign "
+    return (" At the reported minimum, owner codes assign "
             + ", ".join(parts[:-1]) + (" and " if len(parts) > 1 else "") + parts[-1] + ".")
 
 
 def answer_lede(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
     if is_ptr_only(summary):
-        return (f"Rep. Ro Khanna's {year} filings currently consist of periodic transaction reports rather than "
-                f"an annual holdings statement, so no {year} net worth range is reported yet. Those reports cover "
-                f"<b>{summary['counts']['transactions']:,} transactions</b> with a combined statutory value of "
-                f"<b>{rng_sum(tx)}</b>. The annual statement covering {year} is filed the following spring.")
-    lede = (f"Rep. Ro Khanna's {year} U.S. House financial disclosure reports assets totalling "
-            f"<b>{fmt(tot['lo'])} to {fmt(tot['hiF'])}</b> across {summary['counts']['assets']:,} line-items. ")
+        return (f"No annual holdings statement for {year} is on file yet, so there is no {year} net-worth range. "
+                f"The available transaction reports list <b>{summary['counts']['transactions']:,} trades</b> in "
+                f"reported value bands totalling <b>{rng_sum(tx)}</b>.")
+    lede = (f"The {year} House filing lists <b>{fmt(tot['lo'])} to {fmt(tot['hiF'])}</b> in household assets "
+            f"across {summary['counts']['assets']:,} entries. ")
     if tot["open"]:
-        lede += (f"Because {tot['open']} holdings are disclosed only as open-ended buckets with no stated ceiling, "
-                 "the upper number is a floor rather than a true maximum. ")
-    lede += ("House filings report statutory value ranges, not exact amounts, and they cover the member, spouse "
-             "and dependent children together — so this is a disclosure range, not a certified personal net worth.")
+        lede += f"{tot['open']} open-ended holdings make the upper figure a floor, not a ceiling. "
+    lede += ("The form covers Khanna, his spouse and dependent children, using value bands rather than exact "
+             "personal net worth.")
     return lede + owner_share_sentence(summary)
 
 
@@ -584,39 +582,33 @@ def faq_items(summary, year, summaries):
     items = []
     if is_ptr_only(summary):
         items.append((f"What is Ro Khanna's net worth in {year}?",
-                      f"No annual holdings statement covering {year} has been filed yet, so no {year} range exists. "
-                      f"The most recent annual filing, for {annual_years(summaries)[-1]}, reports "
+                      f"No annual holdings statement for {year} is on file, so there is no {year} range yet. "
+                      f"The latest annual filing ({annual_years(summaries)[-1]}) lists "
                       f"{rng_sum(summaries[annual_years(summaries)[-1]]['holdings'])} in assets."))
     else:
-        answer = (f"Khanna's {year} House financial disclosure reports assets in a combined range of "
-                  f"{fmt(tot['lo'])} to {fmt(tot['hiF'])}, summed from the statutory value bands on the form. ")
+        answer = (f"The {year} filing lists {fmt(tot['lo'])} to {fmt(tot['hiF'])} in household assets. ")
         if tot["open"]:
-            answer += (f"{tot['open']} holdings are reported as open-ended, so the upper figure is a floor. ")
-        answer += ("The disclosure covers the member, spouse and dependent children, and reports ranges rather "
-                   "than exact values, so it is not a certified personal net worth.")
+            answer += f"Its {tot['open']} open-ended holdings mean the upper figure is a floor. "
+        answer += "It is a household disclosure using value bands, not a certified personal net-worth figure."
         if caveat(summary):
             answer += " " + caveat(summary)
         items.append((f"What is Ro Khanna's net worth in {year}?", answer))
     if caveat(summary):
         items.append((f"Why do the {year} totals differ so much from earlier years?", caveat(summary)))
     items.append((f"How much stock trading did Ro Khanna report in {year}?",
-                  f"The {year} filings record {summary['counts']['transactions']:,} reported transactions with a "
-                  f"combined statutory value of {rng_sum(tx)}. Reported transactions cover the member, spouse and "
-                  "dependent children, and do not establish who directed any individual trade."))
+                  f"The {year} filings list {summary['counts']['transactions']:,} transactions in reported value "
+                  f"bands totalling {rng_sum(tx)}. They cover the household and do not identify who made each trade."))
     owners = material_owners(summary)
     if owners:
         breakdown = "; ".join(
             f"{OWNER_NAMES.get(o['name'], o['name'])}: {rng_sum(o)} ({(o['lo'] / tot['lo']) * 100:.1f}% of the "
             f"reported minimum)" for o in owners)
         items.append(("Whose assets are counted in Ro Khanna's disclosure?",
-                      f"House rules require members to report reportable interests of the filer, spouse and "
-                      f"dependent children. In the {year} filing the owner codes break down as — {breakdown}. "
-                      "Owner codes are what the form prints; they are not a finding about beneficial ownership."))
+                      f"The filing covers Khanna, his spouse and dependent children. In {year}, owner codes show: "
+                      f"{breakdown}. They reflect the form's labels, not a finding on beneficial ownership."))
     items.append(("Where does this data come from?",
-                  "Every figure is transcribed from the official filings published by the Clerk of the U.S. House "
-                  "of Representatives. The filings are paper scans with no machine-readable text, so each page is "
-                  "transcribed and cross-checked against OCR, with uncertain readings flagged against the source "
-                  "scan. This is an independent, unofficial transcription."))
+                  "We transcribe the official House Clerk scans, check them against OCR, and flag unclear readings. "
+                  "This is an independent, unofficial transcription."))
     return items
 
 
@@ -987,28 +979,22 @@ def hub_faq(ctx):
     share = (top_owner[1] / max(len(ctx.all_tx), 1)) * 100
     return [
         ("Does Ro Khanna trade stocks?",
-         f"Khanna's U.S. House financial disclosures report {ctx.tx_total:,} transactions between {first} and "
-         f"{last}. House rules require members to report reportable transactions of the member, spouse and "
-         "dependent children together, so a reported trade does not establish who directed it. Most rows on "
-         "these filings are reported under family trusts and dependent-children owner codes."),
+         f"The disclosures list {ctx.tx_total:,} transactions from {first} to {last}. They cover Khanna, his "
+         "spouse and dependent children, so a listed trade does not show who directed it."),
         ("How many stock trades has Ro Khanna reported?",
-         f"{ctx.tx_total:,} reported transactions across filing years {first} through {last}. The most recent "
-         f"year on file, {ctx.years[-1]}, reports {latest['counts']['transactions']:,} transactions with a "
-         f"combined statutory value of {rng_sum(latest['transaction_total'])}."),
+         f"{ctx.tx_total:,} across {first}–{last}. The latest year ({ctx.years[-1]}) has "
+         f"{latest['counts']['transactions']:,}, in reported value bands totalling "
+         f"{rng_sum(latest['transaction_total'])}."),
         ("Whose trades appear in Ro Khanna's disclosures?",
-         f"Owner codes are printed on the form itself. Across all loaded filings, "
-         f"{OWNER_NAMES.get(top_owner[0], top_owner[0]).lower()} account for {share:.1f}% of reported "
-         "transaction rows. Owner codes describe how the filing attributes an interest; they are not a finding "
-         "about beneficial ownership or about who placed an order."),
+         f"The forms label interests by owner code. Across loaded filings, "
+         f"{OWNER_NAMES.get(top_owner[0], top_owner[0]).lower()} account for {share:.1f}% of rows. "
+         "Those labels do not establish beneficial ownership or who placed an order."),
         ("Has Ro Khanna supported a congressional stock trading ban?",
-         "Yes. In December 2023 Khanna's political-reform proposal called for members of Congress to be barred "
-         "from holding and trading individual stocks. This site presents that public position alongside the "
-         "reported financial record without alleging illegality or any disclosure violation."),
+         "Yes. A December 2023 Khanna proposal would bar members of Congress from holding or trading individual "
+         "stocks. This site presents that position with the filings; it does not allege wrongdoing."),
         ("Where does this trade data come from?",
-         "Every row is transcribed from the filings published by the Clerk of the U.S. House of "
-         "Representatives. The filings are paper scans with no machine-readable text, so each page was "
-         "transcribed, cross-checked against OCR, and linked back to its source scan. Amounts are the "
-         "statutory ranges printed on the form, not exact trade values."),
+         "We transcribe official House Clerk scans, cross-check them with OCR, and link each row to its source. "
+         "Amounts are the form's value bands, not exact trade values."),
     ]
 
 
@@ -1087,11 +1073,9 @@ def hub_lede(ctx):
     total = max(len(ctx.all_tx), 1)
     parts = sorted(owners.items(), key=lambda kv: kv[1], reverse=True)[:3]
     split = ", ".join(f"{(n / total) * 100:.1f}% to {OWNER_PHRASE[k]}" for k, n in parts)
-    return (f"Rep. Ro Khanna's U.S. House financial disclosures report <b>{ctx.tx_total:,} transactions</b> "
-            f"between {first} and {last}. House rules require members to report the reportable transactions of "
-            "the member, spouse and dependent children together, so these rows describe a household's reported "
-            f"activity rather than personal trading decisions. By owner code the rows split {split}. Amounts are "
-            "the statutory value bands printed on the form, not exact trade values.")
+    return (f"The House filings list <b>{ctx.tx_total:,} transactions</b> from {first} to {last}. They cover "
+            "Khanna, his spouse and dependent children—reported activity, not a record of individual decisions. "
+            f"By owner code: {split}. Amounts are value bands, not exact trade values.")
 
 
 # ---------------------------------------------------------------- site files
