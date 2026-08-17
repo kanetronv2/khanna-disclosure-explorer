@@ -6,16 +6,12 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "group",
-      "text": "Ritu Ahuja 1995 Trust"
-    },
-    {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "asset_name": "NORFOLK SOUTHERN CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/08/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -23,10 +19,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CORNING INCORPORATED CMN",
+      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/15/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -34,10 +30,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LABORATORY CORPORATION OF AMER CMN",
+      "asset_name": "ILLINOIS TOOL WORKS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/08/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -45,362 +41,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
+      "asset_name": "CSX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SAN ANTONIO TEX WTR REV REV 5% 05/15/22 MN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/02/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "URBAN OUTFITTERS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/23/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "3M COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PAYCHEX, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "WELLS FARGO & CO (NEW) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ARCHER-DANIELS-MIDLAND COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COCA-COLA COMPANY (THE) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MERCK & CO., INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/15/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MERCK & CO., INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/17/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BIOGEN INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "IHS MARKIT LTD CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ACTIVISION BLIZZARD, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CENTENE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/09/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "AT&T INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/30/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ORACLE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "INTUIT INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CITIGROUP INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "DANAHER CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PHILIP MORRIS INTL INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ELECTRONIC ARTS CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "OMNICOM GROUP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "REALTY INCOME CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CVS HEALTH CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MODERNA, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MAINE MUN BD BK TRANSN REV 5% 09/01/22 MS",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/01/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CLACKAMAS CNTY ORE SCH DIST NO GO 5.2500% 06/[UNCLEAR]",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/03/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CENTRAL OHIO SOLID WASTE AUTH GO 5% 12/01/27 J[UNCLEAR]",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/06/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -411,7 +55,18 @@
       "asset_name": "MATCH GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/14/2021",
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BEDFORD MASS GO 5% 10/15/22 AO",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/21/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -422,7 +77,7 @@
       "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/14/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -430,10 +85,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BLACKROCK, INC. CMN",
+      "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/14/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -441,10 +96,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PFIZER INC. CMN",
+      "asset_name": "EQUINIX, INC. REIT",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/14/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$15,001-$50,000",
       "partial_sale": false
@@ -452,32 +107,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMAZON.COM INC CMN",
+      "asset_name": "WALGREENS BOOTS ALLIANCE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "12/14/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SPRING GROVE PA GO 1% 11/15/22 MN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "12/03/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$15,001-$50,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SAN ANTONIO TEX GO 5% 08/01/21 FA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "02/18/2021",
+      "date": "10/22/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -485,10 +118,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OHIO ST WTR DEV AUTH REV REV 5% 12/01/21 JD",
+      "asset_name": "STANLEY BLACK & DECKER, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "03/01/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -496,10 +129,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HOUSTON TEX GO 5.0000% 03/01/22 MS",
+      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "03/02/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -507,10 +140,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HAYS CNTY TEX GO 5% 02/15/22 FA",
+      "asset_name": "LENNAR CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "03/01/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -518,10 +151,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FLORIDA ST BRD ED PUB ED DB 4.1250% 06/01/30 JD",
+      "asset_name": "METTLER-TOLEDO INTL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "04/05/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -529,10 +162,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
+      "asset_name": "INTERPUBLIC GROUP COS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -540,10 +173,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IHS MARKIT LTD CMN",
+      "asset_name": "HUMANA INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -551,10 +184,186 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STRYKER CORPORATION CMN",
+      "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NEWMONT CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LIVE NATION ENTERTAINMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "QUALCOMM INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NETAPP, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ILLUMINA, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZIMMER BIOMET HOLDINGS INC",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CATALENT, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMERIPRISE FINANCIAL, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CHARLES SCHWAB CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VISA INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DOW INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UNITED RENTALS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SIMON PROPERTY GROUP INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -565,7 +374,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -573,10 +382,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KLA CORP CMN",
+      "asset_name": "TESLA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -584,10 +393,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROSS STORES,INC CMN",
+      "asset_name": "MERCK & CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/18/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -595,10 +404,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+      "asset_name": "LINCOLN NATL CORP INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -606,10 +415,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ELECTRONIC ARTS CMN",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -617,10 +426,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BROWN FORMAN CORP CL B CMN CLASS B",
+      "asset_name": "PAYCHEX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -628,10 +437,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BIOGEN INC. CMN",
+      "asset_name": "WESTERN DIGITAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -639,10 +448,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A",
+      "asset_name": "SEAGATE TECHNOLOGY HOLDIN PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -650,10 +459,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CINTAS CORPORATION CMN",
+      "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -661,10 +470,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APTIV PLC CMN",
+      "asset_name": "CHARLES RIV LABS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -672,10 +481,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE BANK OF NY MELLON CORP CMN",
+      "asset_name": "MODERNA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -683,10 +492,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PRUDENTIAL FINANCIAL INC CMN",
+      "asset_name": "MSCI INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -694,10 +503,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FREEPORT-MCMORAN INC CMN",
+      "asset_name": "HCA HEALTHCARE, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -705,10 +514,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "YUM BRANDS, INC. CMN",
+      "asset_name": "VENTAS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -716,10 +525,10 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STATE STREET CORPORATION (NEW) CMN",
+      "asset_name": "T. ROWE PRICE GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -727,10 +536,241 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
+      "asset_name": "FRANKLIN RESOURCES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "08/17/2021",
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMETEK INC (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PULTEGROUP INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HANESBRANDS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/08/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "JOHNSON & JOHNSON CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PURE STORAGE INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GENERAC HOLDINGS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LPL FINANCIAL HOLDINGS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CAESARS ENTERTAINMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PAYPAL HOLDINGS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DARDEN RESTAURANTS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CARLYLE GROUP INC/THE CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INCYTE CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MGM RESORTS INTERNATIONAL CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VTRS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/08/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HUBSPOT INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SNAP INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NORTHERN TRUST CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BATH & BODY WORKS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DISCOVERY INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
+      "notification_date": "11/05/2021",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RAYMOND JAMES FINANCIAL, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/07/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
       "partial_sale": false
@@ -739,11 +779,9 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
-      "field": "notification_date",
-      "read": "11/05/2021",
-      "note": "Dense page 5 scan: notification-date column is very small; 11/05/2021 is clear for many rows but individual row exceptions may be present."
+      "field": "rows",
+      "note": "All 70 printed rows re-verified against the PTR scan and matching annual Schedule B rows (annual pp. 249 and 258-261); the page runs from Norfolk Southern through Raymond James. Later annual transactions are not printed on this PTR page."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

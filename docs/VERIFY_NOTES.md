@@ -186,7 +186,11 @@ content itself needs re-verification against the scans first):
 - `docs/2021-8` — pages 005 and 022 still need the same treatment. Pages 012,
   013, 016, and 018 were re-verified against their scans and rebuilt from their matching
   annual Schedule B row runs.
-- `docs/2021-10` — 4 pages, 77 rows (pages 003, 004, 005, 008)
+- `docs/2021-10` — pages 003, 004, 005, and 008 have now been re-verified
+  against their scans and rebuilt from matching annual Schedule B row runs.
+  The 77 formerly misattributed rows are resolved and their date/notification
+  anomalies are gone. The few scan-printed 11/08/2021 and 11/02/2021
+  notification dates on page 004 remain verbatim.
 - `docs/2022-9` — pages 010, 013, 018, and 019 still need the same treatment. Pages 005
   and 014 were re-verified against their scans and rebuilt from matching annual Schedule B
   runs after independently confirming their printed dates; page 004 row 17 and page 002's

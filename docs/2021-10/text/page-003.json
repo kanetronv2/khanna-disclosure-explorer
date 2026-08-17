@@ -287,24 +287,13 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "date": "11/08/2021",
-      "notification_date": "11/05/2021",
-      "amount": "$1,001-$15,000",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
       "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "10/13/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -315,7 +304,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -326,7 +315,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -337,7 +326,7 @@
       "date": "10/13/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -348,7 +337,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -359,7 +348,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -370,7 +359,7 @@
       "date": "10/13/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -381,7 +370,7 @@
       "date": "10/15/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -392,7 +381,7 @@
       "date": "10/26/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -403,7 +392,7 @@
       "date": "10/28/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -414,7 +403,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -425,7 +414,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -436,7 +425,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -447,7 +436,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -458,7 +447,7 @@
       "date": "10/05/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -469,7 +458,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -480,7 +469,7 @@
       "date": "10/06/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -491,7 +480,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -502,7 +491,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -513,7 +502,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -524,7 +513,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -535,7 +524,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -546,7 +535,7 @@
       "date": "10/26/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -557,7 +546,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -568,7 +557,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -579,7 +568,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -590,7 +579,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -601,7 +590,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -612,7 +601,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -623,7 +612,7 @@
       "date": "10/05/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -634,7 +623,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -645,7 +634,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -656,7 +645,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -667,7 +656,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -678,7 +667,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -689,7 +678,7 @@
       "date": "10/04/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -700,7 +689,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -711,7 +700,7 @@
       "date": "10/13/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -722,7 +711,7 @@
       "date": "10/29/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -733,7 +722,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -744,7 +733,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -755,7 +744,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -766,7 +755,7 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -777,17 +766,15 @@
       "date": "10/27/2021",
       "notification_date": "11/05/2021",
       "amount": "$1,001-$15,000",
-      "partial_sale": true
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
-      "field": "notification_date",
-      "read": "11/05/2021",
-      "note": "Dense page 3 scan: notification-date column is very small; 11/05/2021 is clear for many rows but individual row exceptions may be present."
+      "field": "rows",
+      "note": "All printed rows re-verified against the PTR scan. Removed the one unprinted Bank of New York Mellon row between Capital One and KKR; the remaining row order and fields match annual Schedule B pp. 187-193."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }
