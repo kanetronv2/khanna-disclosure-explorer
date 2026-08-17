@@ -70,6 +70,7 @@ def transaction_date_coverage(rows):
     """Count transactions with a valid reported date and the calendar months they occupy."""
     dated = 0
     months = set()
+    days = set()
     for row in rows:
         match = re.match(r"^\s*(\d{1,2})/(\d{1,2})/(\d{2}|\d{4})\s*$", str(row.get("date") or ""))
         if not match:
@@ -82,7 +83,9 @@ def transaction_date_coverage(rows):
             continue
         dated += 1
         months.add((year, month))
-    return {"dated_transactions": dated, "active_transaction_months": len(months)}
+        days.add((year, month, day))
+    return {"dated_transactions": dated, "active_transaction_months": len(months),
+            "active_trading_days": len(days)}
 
 
 def grouped(rows, key, low, high, label):

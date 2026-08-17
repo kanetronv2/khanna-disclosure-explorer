@@ -351,14 +351,15 @@ def key_findings(summary, year):
         top = (summary.get("top_holdings") or [None])[0]
         dated = summary["counts"].get("dated_transactions", 0)
         months = summary["counts"].get("active_transaction_months", 0)
+        days = summary["counts"].get("active_trading_days", 0)
         intensity = f"{dated / months:,.0f}" if months else "—"
         intensity_detail = (f"{dated:,} dated transactions across {months} active calendar month"
                             f"{'s' if months != 1 else ''}. Household filings do not identify who made a trade."
                             if months else "No usable transaction dates in this filing year.")
         rows = [
-            (f"{tot['open']}", "open-ended holdings",
-             "The calculated upper total remains a floor because these buckets have no stated ceiling.",
-             "#assets?val=1000001"),
+            (f"{days:,}" if days else "—", "active trading days",
+             "Distinct calendar dates with at least one dated reported transaction."
+             if days else "No usable transaction dates in this filing year.", "#txs"),
             (rng_pair(top.get("vlo"), top.get("vhi")) if top else "—", "largest individual range",
              top["name"] if top else "No holding rows were reported.", "#assets"),
             (f"{summary['counts']['transactions']:,}", "reported transactions",

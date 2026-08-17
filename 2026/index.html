@@ -931,6 +931,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   const topHolding = D.top_holdings[0];
   const datedTransactions = D.counts.dated_transactions || 0;
   const activeMonths = D.counts.active_transaction_months || 0;
+  const activeTradingDays = D.counts.active_trading_days || 0;
   const tradingIntensity = activeMonths ? Math.round(datedTransactions / activeMonths).toLocaleString() : '—';
   const intensityDetail = activeMonths
     ? `${datedTransactions.toLocaleString()} dated transactions across ${activeMonths} active calendar month${activeMonths===1?'':'s'}. Household filings do not identify who made a trade.`
@@ -940,7 +941,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     [rngS(txTot),'combined transaction range','A sum of the statutory transaction buckets, not exact trade values.','#txs'],
     [allDocs.total.toLocaleString(),'source pages',`${allDocs.done.toLocaleString()} pages transcribed and linked to the structured data.`,'#doc'],
   ] : [
-    [`${tot.open}`,'open-ended holdings','The calculated upper total remains a floor because these buckets have no stated ceiling.','#assets?val=1000001'],
+    [activeTradingDays?activeTradingDays.toLocaleString():'—','active trading days',activeTradingDays?'Distinct calendar dates with at least one dated reported transaction.':'No usable transaction dates in this filing year.','#txs'],
     [topHolding?rng$(topHolding.vlo,topHolding.vhi):'—','largest individual range',topHolding?topHolding.name:'No holding rows were reported.','#assets'],
     [D.counts.transactions.toLocaleString(),'reported transactions',`Combined statutory value range: ${rngS(txTot)}.`,'#txs'],
     [tradingIntensity,'dated trades per active month',intensityDetail,'#txs'],

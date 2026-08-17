@@ -675,7 +675,7 @@
         <div><span class="section-kicker">What the filing shows</span><h2>Key findings</h2></div>
         <a class="text-link" href="#doc">Inspect the source document →</a>
       </div>
-      <div class="findings" id="keyfindings"><article class="finding"><span class="section-kicker">open-ended holdings</span><strong class="finding-num">9</strong><p>The calculated upper total remains a floor because these buckets have no stated ceiling.</p><a href="#assets?val=1000001">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">largest individual range</span><strong class="finding-num">$1M+</strong><p>MAI Capital Income and Growth Fund V, LP</p><a href="#assets">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">reported transactions</span><strong class="finding-num">4,677</strong><p>Combined statutory value range: $46.2M – $169.7M.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">dated trades per active month</span><strong class="finding-num">390</strong><p>4,677 dated transactions across 12 active calendar months. Household filings do not identify who made a trade.</p><a href="#txs">Inspect evidence →</a></article></div>
+      <div class="findings" id="keyfindings"><article class="finding"><span class="section-kicker">active trading days</span><strong class="finding-num">238</strong><p>Distinct calendar dates with at least one dated reported transaction.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">largest individual range</span><strong class="finding-num">$1M+</strong><p>MAI Capital Income and Growth Fund V, LP</p><a href="#assets">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">reported transactions</span><strong class="finding-num">4,677</strong><p>Combined statutory value range: $46.2M – $169.7M.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">dated trades per active month</span><strong class="finding-num">390</strong><p>4,677 dated transactions across 12 active calendar months. Household filings do not identify who made a trade.</p><a href="#txs">Inspect evidence →</a></article></div>
     </div>
     <div class="panel timeline-panel" id="panel-timeline">
       <div class="section-heading">
@@ -939,6 +939,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   const topHolding = D.top_holdings[0];
   const datedTransactions = D.counts.dated_transactions || 0;
   const activeMonths = D.counts.active_transaction_months || 0;
+  const activeTradingDays = D.counts.active_trading_days || 0;
   const tradingIntensity = activeMonths ? Math.round(datedTransactions / activeMonths).toLocaleString() : '—';
   const intensityDetail = activeMonths
     ? `${datedTransactions.toLocaleString()} dated transactions across ${activeMonths} active calendar month${activeMonths===1?'':'s'}. Household filings do not identify who made a trade.`
@@ -948,7 +949,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     [rngS(txTot),'combined transaction range','A sum of the statutory transaction buckets, not exact trade values.','#txs'],
     [allDocs.total.toLocaleString(),'source pages',`${allDocs.done.toLocaleString()} pages transcribed and linked to the structured data.`,'#doc'],
   ] : [
-    [`${tot.open}`,'open-ended holdings','The calculated upper total remains a floor because these buckets have no stated ceiling.','#assets?val=1000001'],
+    [activeTradingDays?activeTradingDays.toLocaleString():'—','active trading days',activeTradingDays?'Distinct calendar dates with at least one dated reported transaction.':'No usable transaction dates in this filing year.','#txs'],
     [topHolding?rng$(topHolding.vlo,topHolding.vhi):'—','largest individual range',topHolding?topHolding.name:'No holding rows were reported.','#assets'],
     [D.counts.transactions.toLocaleString(),'reported transactions',`Combined statutory value range: ${rngS(txTot)}.`,'#txs'],
     [tradingIntensity,'dated trades per active month',intensityDetail,'#txs'],
