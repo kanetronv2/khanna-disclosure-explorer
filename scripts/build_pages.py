@@ -469,7 +469,10 @@ def tx_table(rows, show_year=False):
     body = []
     for r in rows:
         owner = OWNER_SHORT[owner_key(r.get("owner"))]
-        year_cell = f'<td><a href="/{esc(r["year"])}/">{esc(r["year"])}</a></td>' if show_year else ""
+        # Plain text, not a link: the recent rows skew heavily to the newest year, so
+        # linking each one buried the other years under ~100 identical hrefs. The per-year
+        # table and the footer already link every year exactly once.
+        year_cell = f'<td>{esc(r["year"])}</td>' if show_year else ""
         body.append(
             f"<tr>{year_cell}<td>{esc(r.get('date') or '—')}</td>"
             f"<td>{esc(r.get('name') or '—')}"
