@@ -288,7 +288,7 @@
   nav.tabs button.on{background:var(--bg);color:var(--ink)}
   .nav-row{display:flex;align-items:flex-end;flex-wrap:wrap}
   .nav-row nav.tabs{flex:1}
-  .nav-shell .yearwrap{margin-left:auto;align-self:center;display:flex;align-items:center;gap:7px}
+  .nav-shell .yearwrap{margin-right:14px;align-self:center;display:flex;align-items:center;gap:7px}
   .nav-shell .yearwrap .yl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#f2c94c}
   .nav-shell select{align-self:center;background:#f2c94c;color:#101828;border:1px solid #f2c94c;border-radius:8px;padding:7px 12px;font-size:13.5px;font-weight:750;cursor:pointer;box-shadow:0 1px 4px rgba(242,201,76,.35)}
   .nav-shell select:hover{background:#f7d977;border-color:#f7d977}
@@ -644,6 +644,7 @@
 </header>
 <div class="nav-shell">
   <div class="wrap nav-row">
+    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option selected>2026</option></select></div>
     <nav class="tabs" role="tablist" aria-label="Disclosure sections">
       <button id="tab-overview" role="tab" aria-controls="v-overview" aria-selected="true" data-v="overview" class="on">Overview</button>
       <button id="tab-assets" role="tab" aria-controls="v-assets" aria-selected="false" tabindex="-1" data-v="assets">Assets</button>
@@ -651,7 +652,6 @@
       <button id="tab-doc" role="tab" aria-controls="v-doc" aria-selected="false" tabindex="-1" data-v="doc">Document</button>
       <a class="tablink" href="/stock-trades/">All stock trades</a>
     </nav>
-    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option selected>2026</option></select></div>
   </div>
 </div>
 
