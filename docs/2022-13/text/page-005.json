@@ -96,7 +96,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COSTCO WHOLESALE CORPORATION CMN _® . a",
+      "asset_name": "COSTCO WHOLESALE CORPORATION CMN _\u00ae . a",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -151,7 +151,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETUALUSD —",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETUALUSD \u2014",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -195,11 +195,11 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "—DC_ |TIX_ COMPANIES INC (NEW) CMN",
+      "asset_name": "\u2014DC_ |TIX_ COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/05/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -257,6 +257,18 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 14,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 17,
+      "field": "date",
+      "read": "12/05/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "low"

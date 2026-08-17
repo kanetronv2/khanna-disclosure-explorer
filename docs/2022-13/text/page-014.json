@@ -16,7 +16,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -39,7 +39,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/06/2022",
-      "notification_date": "08/04/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -82,19 +82,19 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "10/01/2029",
-      "notification_date": "12/02/2022",
+      "date": "12/02/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ISHARES RUSSELL 2000 ETF __ — . nn ee + {|",
+      "asset_name": "ISHARES RUSSELL 2000 ETF __ \u2014 . nn ee + {|",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/06/2022",
-      "notification_date": "02/04/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -137,7 +137,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/06/2027",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -297,6 +297,36 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '08/04/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "12/02/2022",
+      "note": "date corrected from misread '10/01/2029' to '12/02/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/02/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '02/04/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 12,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '12/06/2027' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "low"

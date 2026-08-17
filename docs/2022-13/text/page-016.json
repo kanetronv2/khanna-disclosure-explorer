@@ -12,7 +12,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/08/2023",
+      "date": "12/09/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -85,7 +85,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "—SP__{SS&C TECHNOLOGIES HOLDINGS, IN CMN",
+      "asset_name": "\u2014SP__{SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -96,7 +96,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "—_SP__|SSB&C TECHNOLOGIES HOLDINGS, IN CMN",
+      "asset_name": "\u2014_SP__|SSB&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -118,7 +118,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CVSHEALTHCORPCMN — pt wev[--— |",
+      "asset_name": "CVSHEALTHCORPCMN \u2014 pt wev[--\u2014 |",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -257,6 +257,12 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 0,
+      "field": "date",
+      "read": "12/09/2022",
+      "note": "date corrected from misread '01/08/2023' to '12/09/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "low"

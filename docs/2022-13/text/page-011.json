@@ -100,7 +100,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -178,7 +178,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/06/2022",
-      "notification_date": "01/08/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -217,7 +217,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JSERVICENOWINC CMN * _ «__|",
+      "asset_name": "JSERVICENOWINC CMN * _ \u00ab__|",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -233,6 +233,18 @@
       "field": "tx_type/amount",
       "read": "OCR-assisted extraction",
       "note": "Dense scanned attachment; checkbox columns and some OCR spellings should be spot-verified against page/quads."
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '01/08/2023' to '01/04/2023' after re-checking the page scan"
     }
   ],
   "page_confidence": "medium"

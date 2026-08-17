@@ -23,7 +23,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "10/02/2028",
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -100,7 +100,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "10/02/2028",
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -233,6 +233,18 @@
       "field": "page",
       "read": "Apple Vision OCR plus grid-cell checkbox detection",
       "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "09/05/2025",
+      "note": "date corrected from misread '10/02/2028' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "09/05/2025",
+      "note": "date corrected from misread '10/02/2028' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

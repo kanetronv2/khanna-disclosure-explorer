@@ -131,7 +131,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
-      "notification_date": "04/07/2028",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -208,6 +208,12 @@
       "field": "asset_name/checkbox alignment",
       "read": "OCR-assisted transcription",
       "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
+    },
+    {
+      "row": 12,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/07/2028' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

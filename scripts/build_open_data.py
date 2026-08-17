@@ -64,7 +64,12 @@ def clean_multiline(value):
     return value or None
 
 
-def parse_date(value):
+def parse_date(value, rollback_log=None):
+    """Parse a reported MM/DD/YY(YY) date. If the literal year is implausibly far in the
+    future (e.g. a two-digit year misread, or a bond maturity date misread into the
+    transaction-date column), roll a two-digit year back a century as a best effort — but
+    record the event in `rollback_log` when given, so callers can surface it as a data
+    -quality issue instead of letting it pass silently (see docs/VERIFY_NOTES.md)."""
     value = clean(value)
     if not value or value.startswith("["):
         return None
@@ -72,6 +77,8 @@ def parse_date(value):
         try:
             parsed = dt.datetime.strptime(value, fmt).date()
             if parsed.year > dt.date.today().year + 1:
+                if rollback_log is not None:
+                    rollback_log.append((value, parsed.isoformat()))
                 parsed = parsed.replace(year=parsed.year - 100)
             return parsed.isoformat()
         except ValueError:
@@ -203,6 +210,7 @@ def build():
     source_jsons, source_tess, source_images, source_pdfs = set(), set(), set(), set()
     raw_page_types, normalized_page_types = Counter(), Counter()
     unparsed_dates = Counter()
+    date_century_rollbacks = []
     page_index = {}
     page_text_rules = {}
 
@@ -277,9 +285,9 @@ def build():
                         "income_max_usd": income_max,
                         "transaction_type": clean(row.get("tx_type") or row.get("transaction")),
                         "transaction_date_reported": reported_date,
-                        "transaction_date_iso": parse_date(reported_date),
+                        "transaction_date_iso": parse_date(reported_date, date_century_rollbacks),
                         "notification_date_reported": notification_date,
-                        "notification_date_iso": parse_date(notification_date),
+                        "notification_date_iso": parse_date(notification_date, date_century_rollbacks),
                         "reported_amount": clean(row.get("amount")),
                         "amount_min_usd": amount_min,
                         "amount_max_usd": amount_max,
@@ -358,7 +366,8 @@ def build():
             code, label, reported_owner = owner(item.get("owner"))
             reported_date = clean(item.get("date"))
             notification = clean(item.get("notification_date"))
-            date_iso, notification_iso = parse_date(reported_date), parse_date(notification)
+            date_iso = parse_date(reported_date, date_century_rollbacks)
+            notification_iso = parse_date(notification, date_century_rollbacks)
             if reported_date and not date_iso:
                 unparsed_dates["transaction_date"] += 1
             if notification and not notification_iso:
@@ -464,6 +473,16 @@ def build():
         issues.append({"check": "no_pending_pages", "count": pending, "severity": "error"})
     if unparsed_dates:
         notes.append({"check": "unparsed_dates_preserved", "counts": dict(unparsed_dates), "severity": "info"})
+    if date_century_rollbacks:
+        # A reported date parsed to a year more than a year in the future (relative to build
+        # time) is almost always a transcription error, not a real future-dated transaction —
+        # e.g. a bond's maturity date (printed in the asset name) misread into the date column,
+        # or an OCR digit swap. We roll the century back as a display fallback, but a rollback
+        # firing at all means a source page-JSON transcription needs to be re-checked against
+        # its scan and fixed at the source (see docs/VERIFY_NOTES.md), not silently accepted.
+        issues.append({"check": "no_far_future_transaction_dates",
+                       "count": len(date_century_rollbacks),
+                       "examples": date_century_rollbacks[:10], "severity": "error"})
     notes.append({"check": "page_type_normalization", "raw": dict(sorted(raw_page_types.items())),
                   "normalized": dict(sorted(normalized_page_types.items())), "severity": "info"})
 

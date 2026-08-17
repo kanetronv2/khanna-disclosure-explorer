@@ -16,8 +16,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/10/2033",
-      "notification_date": "02/02/2026",
+      "date": "02/02/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -27,8 +27,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/15/2054",
-      "notification_date": "02/17/2026",
+      "date": "02/17/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -38,8 +38,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/15/2056",
-      "notification_date": "02/23/2026",
+      "date": "02/23/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     }
   ],
@@ -50,6 +50,24 @@
       "field": "page",
       "read": "Apple Vision OCR plus coordinate-based checkbox extraction",
       "note": "Dense sideways scan; transaction rows were extracted from rotated page image and OCR coordinates."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "02/02/2026",
+      "note": "date corrected from misread '05/10/2033' to '02/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '02/02/2026' to '03/04/2026' after re-checking the page scan"
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "02/17/2026",
+      "note": "date corrected from misread '06/15/2054' to '02/17/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '02/17/2026' to '03/04/2026' after re-checking the page scan"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "02/23/2026",
+      "note": "date corrected from misread '08/15/2056' to '02/23/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '02/23/2026' to '03/04/2026' after re-checking the page scan"
     }
   ],
   "page_confidence": "medium"

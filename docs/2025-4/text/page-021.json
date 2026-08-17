@@ -27,7 +27,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -38,7 +38,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -49,7 +49,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -104,7 +104,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -115,7 +115,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -126,7 +126,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/10/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -148,8 +148,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
-      "notification_date": "04/30/2025",
+      "date": "04/30/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -192,7 +192,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2028",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
@@ -204,6 +204,54 @@
       "field": "asset_name/checkbox alignment",
       "read": "OCR-assisted transcription",
       "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "04/23/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); row name truncated to 'CMN CLASSA'; matched to LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A on the scan"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "04/09/2025",
+      "note": "date corrected from misread '04/23/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "04/23/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "04/10/2025",
+      "note": "date corrected from misread '04/23/2025' to '04/10/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "date",
+      "read": "04/17/2025",
+      "note": "date corrected from misread '04/23/2025' to '04/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "04/23/2025",
+      "note": "date corrected from misread '04/10/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "04/30/2025",
+      "note": "date corrected from misread '05/08/2025' to '04/30/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '04/30/2025' to '05/08/2025' after re-checking the page scan"
+    },
+    {
+      "row": 17,
+      "field": "date",
+      "read": "04/23/2025",
+      "note": "date corrected from misread '05/08/2028' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

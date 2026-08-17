@@ -117,3 +117,86 @@ change in wealth. That is carried as `meta.caveat` in compile17.py and rendered 
 build_pages.py in the answer panel, the FAQ, and a footnote under the cross-year table.
 Any future year that changes reporting basis should set `meta.caveat` the same way.
 Note also that `meta.why_html` is written by the compilers but rendered nowhere.
+
+## Maturity-date-in-date-column audit (Aug 2026)
+A recurring OCR failure mode on dense PTR transaction grids: the transcriber misread the
+`date`/`notification_date` column and substituted an unrelated date printed elsewhere on the
+row — most often a bond's coupon/maturity date embedded in the asset name (e.g. "CLARK CNTY
+NEV ... REV 5% 07/01/26" transcribed with date `07/01/2026`), but also plain digit slips
+(`12/06/22`→`01/04/23`, i.e. picked up the neighboring notification-date column) and one-row
+cascades where a displaced date bled into the next row. Root-caused via
+`git log`/systematic-debugging by rendering each flagged page upright (OSD-corrected, content-
+cropped, upscaled) and reading the scan directly — Tesseract's own raw text was frequently
+*also* wrong on these pages (e.g. misreading `09/24/25` as `03/24/25`), so the scan image, not
+`tess/*.txt`, was the adjudication source of truth.
+- Audited & fixed 40 pages / 179 rows across docs/2022-13, 2025-4, 2025-11, 2025-12, 2026-2 —
+  see each row's added `uncertainties` entry for the specific misread→correction.
+- Two pages (2018-16 p4, 2021-13 pp157/160/163) were investigated and left **unchanged**: the
+  dates there are genuinely printed on the form (verified against the scan), just outside the
+  filing doc's nominal year — correct per the verbatim-transcription rule, not an OCR error.
+- **Guard added:** `scripts/build_open_data.py`'s `parse_date()` now logs every time it has to
+  roll a parsed year back a century (i.e. the reported date parsed to more than a year in the
+  future), and `--check` fails the build (`no_far_future_transaction_dates`) if that ever
+  fires — so a future instance of this bug is caught by `make open-data` instead of silently
+  auto-corrected into a still-wrong record. This guard itself caught one more instance
+  (2025-4 p49 row 12, `notification_date` misread `2028`→`2025`) beyond the original manual
+  sweep.
+
+## `date` > `notification_date` audit (fixed/triaged Aug 2026)
+Follow-up to the maturity-date audit above: ~438 rows across 63 pages (post-fix) had `date`
+reported *after* `notification_date` — chronologically impossible, since a transaction can't
+be reported before it happens. Root-caused per-document by rendering each flagged page upright
+and reading the scan (same method as above). Two distinct causes turned out to be mixed
+together under one symptom:
+
+**A. Simple per-row misreads (fixed, ~76 rows across 2022-5, 2022-9, 2025-4, 2025-11, 2026-1,
+2026-2, 2026-3, and isolated 2019/2020/2022/2023 pages).** Digit slips, a date/notification
+column swap, or (again) a bond maturity date landing in the date column. Verified the row's
+`asset_name` matches the scan at that position before correcting `date`/`notification_date`;
+each fix has a matching `uncertainties` entry. A further 16 rows across `docs/2026-2/page-038`,
+`docs/2026-3/page-025`, `page-033`, `page-034`, and `docs/2026-2/page-031` were fixed jointly
+with the row-merge/omission repairs below (same page, same session, two defects layered on the
+same rows) — the date corrections were re-applied on top of the corrected row structure once
+both were done, so no row lost either fix.
+
+**B. Row-content misattribution — a distinct, more serious defect (found, NOT fixed).**
+On several pages, whole rows don't match the scan at all: the transcribed `asset_name` at a
+given row position is a *different security* than what's actually printed there (not just a
+wrong date). Confirmed directly against page scans, e.g.:
+- `docs/2021-8/text/page-013.json` row 0 says "ACTIVISION BLIZZARD, INC CMN" — the actual
+  scan's row 0 is "CHEVRON CORPORATION CMN". All 65 tx rows on that page are affected.
+- `docs/2021-10/text/page-005.json` row 0 says "CATERPILLAR INC (DELAWARE) CMN" — the scan's
+  row 0 is "NORFOLK SOUTHERN CORP CMN".
+- `docs/2022-9/text/page-014.json` rows 0–13 correctly match the scan; row 14 onward doesn't
+  (JSON "WALMART INC CMN" vs. scan "CARTER'S, INC. CMN", etc.) — a clean discontinuity
+  partway down the page, the same signature seen on `page-005.json`, `page-010.json`,
+  `page-013.json`, `page-018.json`, `page-019.json` in this same document.
+- A cross-document case: `docs/2023-3/text/page-011.json` row 20 ("TORONTO DOMINION BANK
+  LINKED TO S&P 500 IND") doesn't exist anywhere in `docs/2023-3`'s scans at all (confirmed
+  via full-text search of the raw tesseract output) — an identical-looking transaction exists
+  instead in `docs/2023-4/text/page-003.json` row 1, with a different `notification_date`.
+
+This is why the misattributed rows correlate so strongly with the date>notification
+symptom: whichever OCR/transcription failure produced the wrong content also produced an
+internally-inconsistent date pair, since the "date" attached to the wrong row is really some
+other row's date.
+
+**Left entirely unfixed pending dedicated re-transcription** (do not blindly correct dates
+here — the row content itself needs re-verification against the scans first):
+- `docs/2021-8` — 6 pages, 176 rows (pages 005, 012, 013, 016, 018, 022)
+- `docs/2021-10` — 4 pages, 77 rows (pages 003, 004, 005, 008)
+- `docs/2022-9` — 5 of 6 non-trivial flagged pages, 21 rows (pages 005, 010, 013, 014, 018,
+  019; only page-004 row 17 and page-002's single row were resolvable)
+
+**Left unfixed, but for a different reason (verbatim, not a bug):** on `docs/2022-5` pages
+017–018, most rows genuinely show a printed "Date of Transaction" one day *after* "Date
+Notified" (e.g. 6-Apr-22 date vs. 4-Apr-22 notified) — confirmed against the scan, correct
+as transcribed. This looks like a real filer/preparer error on the original government
+filing, not an OCR error, so per the verbatim-transcription rule it was left as printed
+(only the ~9 rows that were genuinely misread were corrected).
+
+**Also surfaced during this audit, and fixed separately by follow-up sessions (spawned as
+background tasks):** `docs/2025-4` still has several pages with missing/merged/duplicated rows
+(006/010/011/012/014/017/024/043/045/046/048) not yet addressed — the equivalent issues on
+`docs/2026-2/page-031` and `docs/2026-3/page-025/033/034` were fixed in this same round (see
+above); `docs/2025-4`'s remain open for a future pass.

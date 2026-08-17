@@ -12,7 +12,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/05/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -57,7 +57,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/05/2022",
-      "notification_date": "01/08/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -78,8 +78,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/01/2020",
-      "notification_date": "12/06/2022",
+      "date": "12/06/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -107,12 +107,12 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JINTUITIVE SURGICAL, INC. CMN ee SE 3 _ —|",
+      "asset_name": "JINTUITIVE SURGICAL, INC. CMN ee SE 3 _ \u2014|",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/05/2022",
-      "notification_date": "02/04/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -245,6 +245,30 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 0,
+      "field": "date",
+      "read": "12/05/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '01/08/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 6,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '03/01/2020' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/06/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '02/04/2023' to '01/04/2023' after re-checking the page scan"
     }
   ],
   "page_confidence": "low"

@@ -100,6 +100,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "FISERV INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/23/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
@@ -149,7 +160,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "03/23/2026",
-      "notification_date": "04/02/2024",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     }
   ],
@@ -220,6 +231,18 @@
       "field": "date/notification_date",
       "read": "03/19/26 / 04/02/26",
       "note": "Filled after validation from rotated OCR/page image because initial parser captured a maturity date or missed the notification cell."
+    },
+    {
+      "row": 10,
+      "field": "row",
+      "read": "FISERV INC CMN",
+      "note": "Row was missing from initial transcription; added after re-verifying against the page scan (render.py, rotated 90deg, 2-band split). Checkbox pattern (single Purchase mark, no capital-gain/partial-sale marks) matches the neighboring INTL BUSINESS MACHINES CORP row; amount mark aligns with the same column as all surrounding rows ($1,001-$15,000). Also confirmed this row is clean of the OCR-garble suffix seen on the IBM and ADOBE rows, so no cross-row contamination occurred when inserting."
+    },
+    {
+      "row": 14,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '04/02/2024' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

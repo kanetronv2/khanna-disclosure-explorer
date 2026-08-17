@@ -126,7 +126,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/17/23",
+      "date": "01/17/23",
       "notification_date": "02/02/23",
       "amount": "$1,001-$15,000"
     },
@@ -226,6 +226,12 @@
       "field": "asset_name",
       "read": "SPLUNK INC CMN",
       "note": "Row is partly crossed by the section break and OCR captured only the beginning; no date/amount mark is very clear."
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "01/17/23",
+      "note": "date corrected from misread '02/17/23' to '01/17/23' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

@@ -82,8 +82,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "10/01/2026",
-      "notification_date": "02/02/2026",
+      "date": "02/02/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -94,6 +94,17 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/19/2026",
+      "notification_date": "03/04/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MIDDLETOWN OHIO GO 5%",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "02/17/2026",
       "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
@@ -126,8 +137,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/01/2026",
-      "notification_date": "02/26/2026",
+      "date": "02/26/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -137,9 +148,20 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "10/01/2026",
-      "notification_date": "02/26/2026",
+      "date": "02/26/2026",
+      "notification_date": "03/04/2026",
       "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SALESFORCE INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "02/19/2026",
+      "notification_date": "03/04/2026",
+      "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
@@ -167,10 +189,58 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 10,
+      "row": 11,
       "field": "date",
       "read": "DC CONSTELATION ENERGY CORP CMN",
       "note": "date or notification date not fully captured by OCR; left null if not visible in extracted row"
+    },
+    {
+      "row": 9,
+      "field": "row",
+      "read": "DC MIDDLETOWN OHIO GO 5% 12/01/26 JD",
+      "note": "row was missing from initial OCR transcription; added after re-verifying against scan (missing-row correction, not date correction)"
+    },
+    {
+      "row": 14,
+      "field": "row",
+      "read": "DC SALESFORCE INC CMN",
+      "note": "row was missing from initial OCR transcription; added after re-verifying against scan (missing-row correction, not date correction)"
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "02/02/2026",
+      "note": "date corrected from misread '10/01/2026' to '02/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 7,
+      "field": "notification_date",
+      "read": "03/04/2026",
+      "note": "notification_date corrected from misread '02/02/2026' to '03/04/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 12,
+      "field": "date",
+      "read": "02/26/2026",
+      "note": "date corrected from misread '06/01/2026' to '02/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 12,
+      "field": "notification_date",
+      "read": "03/04/2026",
+      "note": "notification_date corrected from misread '02/26/2026' to '03/04/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "02/26/2026",
+      "note": "date corrected from misread '10/01/2026' to '02/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "notification_date",
+      "read": "03/04/2026",
+      "note": "notification_date corrected from misread '02/26/2026' to '03/04/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

@@ -30,7 +30,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KKR & CO. INC. CMN _ —",
+      "asset_name": "KKR & CO. INC. CMN _ \u2014",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/30/2020",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -93,7 +93,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/09/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -148,7 +148,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/01/2023",
+      "date": "12/12/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -163,8 +163,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/01/2023",
-      "notification_date": "12/02/2022",
+      "date": "12/02/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -174,8 +174,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/01/2023",
-      "notification_date": "12/06/2022",
+      "date": "12/06/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -277,6 +277,36 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 6,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '03/30/2020' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "12/09/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/09/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "12/12/2022",
+      "note": "date corrected from misread '03/01/2023' to '12/12/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "date",
+      "read": "12/02/2022",
+      "note": "date corrected from misread '06/01/2023' to '12/02/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/02/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 16,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '04/01/2023' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/06/2022' to '01/04/2023' after re-checking the page scan"
     }
   ],
   "page_confidence": "low"

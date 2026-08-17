@@ -5,16 +5,71 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind":"group","text":"Grandchildren's Trust (ASM Partners, LLC)"},
-    {"kind":"tx","owner":"DC","asset_name":"Transtar/Speedstar Holding Company PIK Note","tx_type":"Purchase","date":"10/04/2019","notification_date":"10/08/2019","amount":"$1,001-$15,000"},
-    {"kind":"tx","owner":"DC","asset_name":"Transtar/Speedstar Holding Company 1st Lien TL","tx_type":"Purchase","date":"10/04/2019","notification_date":"10/08/2019","amount":"$15,001-$50,000"},
-    {"kind":"tx","owner":"DC","asset_name":"Transtar/Speedstar Holding Company Class A Common","tx_type":"Purchase","date":"10/04/2019","notification_date":"10/08/2019","amount":"$1,001-$15,000"},
-    {"kind":"group","text":"M & R Trust Partnership"},
-    {"kind":"tx","owner":"SP","asset_name":"Strategic Value FNBA Investors LP Limited Partnership interest","tx_type":"Purchase","date":"10/30/2019","notification_date":"10/03/2019","amount":"$50,001-$100,000"}
+    {
+      "kind": "group",
+      "text": "Grandchildren's Trust (ASM Partners, LLC)"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Transtar/Speedstar Holding Company PIK Note",
+      "tx_type": "Purchase",
+      "date": "10/04/2019",
+      "notification_date": "10/08/2019",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Transtar/Speedstar Holding Company 1st Lien TL",
+      "tx_type": "Purchase",
+      "date": "10/04/2019",
+      "notification_date": "10/08/2019",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Transtar/Speedstar Holding Company Class A Common",
+      "tx_type": "Purchase",
+      "date": "10/04/2019",
+      "notification_date": "10/08/2019",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "M & R Trust Partnership"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "Strategic Value FNBA Investors LP Limited Partnership interest",
+      "tx_type": "Purchase",
+      "date": "10/10/2019",
+      "notification_date": "10/05/2019",
+      "amount": "$50,001-$100,000"
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 6, "field": "notification_date", "read": "10/03/2019", "note": "The notified date appears earlier than the transaction date; scan could read 10/30/2019, but the visible text most closely reads 10/03/19."}
+    {
+      "row": 6,
+      "field": "notification_date",
+      "read": "10/03/2019",
+      "note": "The notified date appears earlier than the transaction date; scan could read 10/30/2019, but the visible text most closely reads 10/03/19."
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "10/10/2019",
+      "note": "date corrected from misread '10/30/2019' to '10/10/2019' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 5,
+      "field": "notification_date",
+      "read": "10/05/2019",
+      "note": "date corrected from misread '10/03/2019' to '10/05/2019' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    }
   ],
   "page_confidence": "medium"
 }

@@ -31,8 +31,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -185,8 +185,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -196,8 +196,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -213,6 +213,43 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": 3,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 17,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
+    },
+    {
+      "row": 17,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
+    },
+    {
+      "row": 18,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
+    },
+    {
+      "row": 18,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
+    }
+  ],
   "page_confidence": "high"
 }

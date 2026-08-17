@@ -67,7 +67,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/15/2022",
+      "date": "11/15/2022",
       "notification_date": "12/02/2022",
       "amount": "$1,001-$15,000"
     },
@@ -227,6 +227,13 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": 5,
+      "field": "date",
+      "read": "11/15/2022",
+      "note": "date corrected from misread '12/15/2022' to '11/15/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    }
+  ],
   "page_confidence": "medium"
 }

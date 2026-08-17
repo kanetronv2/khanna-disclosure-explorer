@@ -134,7 +134,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/06/2022",
-      "notification_date": "01/08/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -155,8 +155,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/01/2040",
-      "notification_date": "12/05/2022",
+      "date": "12/05/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -245,6 +245,18 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '01/08/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "12/05/2022",
+      "note": "date corrected from misread '02/01/2040' to '12/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/05/2022' to '01/04/2023' after re-checking the page scan"
     }
   ],
   "page_confidence": "low"

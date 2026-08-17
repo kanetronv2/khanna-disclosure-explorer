@@ -192,12 +192,25 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/28/2025",
-      "notification_date": "04/23/2025",
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": 17,
+      "field": "date",
+      "read": "04/23/2025",
+      "note": "date corrected from misread '04/28/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 17,
+      "field": "notification_date",
+      "read": "05/08/2025",
+      "note": "notification_date corrected from misread '04/23/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    }
+  ],
   "page_confidence": "high"
 }

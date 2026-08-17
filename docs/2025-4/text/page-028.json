@@ -28,7 +28,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
-      "notification_date": "08/08/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -82,7 +82,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2028",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -116,7 +116,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "04/09/2025",
-      "notification_date": "08/08/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -198,6 +198,25 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": 2,
+      "field": "date",
+      "read": "05/08/2025",
+      "note": "notification_date corrected from misread '08/08/2025' to '05/08/2025' after re-checking the page scan"
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "04/09/2025",
+      "note": "date corrected from misread '04/09/2028' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "date",
+      "read": "05/08/2025",
+      "note": "notification_date corrected from misread '08/08/2025' to '05/08/2025' after re-checking the page scan"
+    }
+  ],
   "page_confidence": "high"
 }

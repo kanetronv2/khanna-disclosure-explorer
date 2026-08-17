@@ -16,7 +16,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "08/14/2025",
+      "date": "08/21/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -27,7 +27,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/04/2025",
+      "date": "08/14/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -38,7 +38,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/06/2025",
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -49,7 +49,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/07/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -60,7 +60,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/06/2025",
+      "date": "08/07/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -71,7 +71,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/05/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -93,7 +93,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/01/3210",
+      "date": "08/05/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -104,7 +104,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/04/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
       "amount": "$50,001-$100,000"
     },
@@ -115,7 +115,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "08/13/2025",
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -126,7 +126,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "08/18/2025",
+      "date": "08/13/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -137,7 +137,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "08/13/2025",
+      "date": "08/18/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -148,7 +148,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "08/05/2025",
+      "date": "08/13/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -177,6 +177,78 @@
       "field": "amount",
       "read": "$1,001-$15,000",
       "note": "Corrected 7 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "08/21/2025",
+      "note": "date corrected from misread '08/14/2025' to '08/21/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "08/14/2025",
+      "note": "date corrected from misread '08/04/2025' to '08/14/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "08/04/2025",
+      "note": "date corrected from misread '08/06/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "08/06/2025",
+      "note": "date corrected from misread '08/07/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "08/07/2025",
+      "note": "date corrected from misread '08/06/2025' to '08/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 6,
+      "field": "date",
+      "read": "08/06/2025",
+      "note": "date corrected from misread '08/05/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "08/05/2025",
+      "note": "date corrected from misread '12/01/3210' to '08/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "08/06/2025",
+      "note": "date corrected from misread '08/04/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "date",
+      "read": "08/04/2025",
+      "note": "date corrected from misread '08/13/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "08/13/2025",
+      "note": "date corrected from misread '08/18/2025' to '08/13/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 12,
+      "field": "date",
+      "read": "08/18/2025",
+      "note": "date corrected from misread '08/13/2025' to '08/18/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "08/13/2025",
+      "note": "date corrected from misread '08/05/2025' to '08/13/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

@@ -20,8 +20,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "04/08/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -31,8 +31,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -53,8 +53,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -86,8 +86,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -97,8 +97,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -108,8 +108,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/26/2025",
-      "notification_date": "04/22/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$100,001-$250,000"
     },
     {
@@ -119,8 +119,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -208,6 +208,90 @@
       "field": "asset_name/checkbox alignment",
       "read": "OCR-assisted transcription",
       "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "04/08/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 2,
+      "field": "notification_date",
+      "read": "04/09/2025",
+      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "04/08/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 3,
+      "field": "notification_date",
+      "read": "04/09/2025",
+      "note": "notification_date corrected from misread '04/07/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "04/08/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 5,
+      "field": "notification_date",
+      "read": "04/09/2025",
+      "note": "notification_date corrected from misread '04/07/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/09/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/26/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/22/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

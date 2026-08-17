@@ -12,8 +12,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/08/2022",
-      "notification_date": "02/04/2023",
+      "date": "12/06/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -34,8 +34,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/01/2023",
-      "notification_date": "12/06/2022",
+      "date": "12/06/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -45,8 +45,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/01/2023",
-      "notification_date": "12/09/2022",
+      "date": "12/09/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -56,8 +56,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/15/2023",
-      "notification_date": "12/12/2022",
+      "date": "12/12/2022",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -129,7 +129,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "—BC_DOCUSIGN, INC. CMN ea OE SO a - |",
+      "asset_name": "\u2014BC_DOCUSIGN, INC. CMN ea OE SO a - |",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -151,7 +151,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "~DC_jQUANTUMSCAPE CORPCMN -4_ a ~——|",
+      "asset_name": "~DC_jQUANTUMSCAPE CORPCMN -4_ a ~\u2014\u2014|",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -188,7 +188,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/06/2022",
+      "date": "12/06/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -245,6 +245,36 @@
       "field": "required_fields",
       "read": "[ILLEGIBLE]/[UNKNOWN]",
       "note": "Required fields were blank/null in OCR placeholder row; source row is illegible or not recoverable from page evidence."
+    },
+    {
+      "row": 0,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '12/08/2022' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '02/04/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '01/01/2023' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/06/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "12/09/2022",
+      "note": "date corrected from misread '03/01/2023' to '12/09/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/09/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "12/12/2022",
+      "note": "date corrected from misread '05/15/2023' to '12/12/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); notification_date corrected from misread '12/12/2022' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 16,
+      "field": "date",
+      "read": "12/06/2022",
+      "note": "date corrected from misread '02/06/2022' to '12/06/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "low"

@@ -24,44 +24,44 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/SMFG FLEX EURO PM 21.25 EXP [",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/RIO FLEX EURO PM @ 82 EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "[CALL/EWJ FLEX EURO PM @ 86.84 1EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/NVS FLEX EURO PM @145 EXP 1",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -72,18 +72,18 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/TAK FLEX EURO PM @ 15.5 EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -94,40 +94,40 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/EWA FLEX EURO PM @ 27.5 EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/TTE FLEX EURO PM @59 EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CALL/HSBC FLEX EURO PM 82 EXP",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -138,40 +138,62 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "02/13/2026",
-      "notification_date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CALL/CCEP FLEX EURO PM 96 EXP (PUT/XSP | @645 EXP",
-      "tx_type": "Sale",
+      "asset_name": "CALL/CCEP FLEX EURO PM 96 EXP 02/13/2026",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/15/2026",
-      "notification_date": "02/27/2026",
+      "date": "02/13/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "P\u00dcT/XSP | @647 EXP PUT/XSP | @ 640 EXP 1",
+      "asset_name": "PUT/XSP @ 645 EXP 05/15/2026",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/24/2026",
-      "notification_date": "02/13/2026",
+      "date": "02/27/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(PUT/XSP | @ 645 EXP",
+      "asset_name": "PUT/XSP @ 647 EXP 04/30/2026",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/10/2026",
-      "notification_date": "02/05/2026",
+      "date": "02/20/2026",
+      "notification_date": "03/04/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 640 EXP 04/24/2026",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "02/13/2026",
+      "notification_date": "03/04/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 645 EXP 04/10/2026",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "02/06/2026",
+      "notification_date": "03/04/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -204,6 +226,18 @@
       "field": "page",
       "read": "Apple Vision OCR plus coordinate-based checkbox extraction",
       "note": "Dense sideways scan; transaction rows were extracted from rotated page image and OCR coordinates."
+    },
+    {
+      "row": "2-13",
+      "field": "asset_name/tx_type/date/notification_date",
+      "read": "Re-transcribed directly from rendered scan (docs/2026-2/pages/page-031.jpg via render.py, --bands=3)",
+      "note": "Original extraction mis-mapped the 'Type of Transaction' checkbox column for these 12 CALL/... FLEX EURO option rows: 8 of 12 (SMFG, RIO, EWJ, NVS, TAK, EWA, TTE, HSBC) had tx_type read as 'Sale' when the scan's checkbox grid clearly shows an 'x' in the 'Purchase' column for all 12 rows in this block (verified by pixel-aligned column-boundary overlay against the header row). Corrected all 12 to tx_type='Purchase'. Also corrected notification_date from 02/13/2026 (a copy of the Date of Transaction column) to 03/04/2026, which is what the scan's 'Date Notified' column actually shows for every row in this block."
+    },
+    {
+      "row": "13-17",
+      "field": "asset_name/tx_type/date/notification_date/amount",
+      "read": "Re-transcribed directly from rendered scan (docs/2026-2/pages/page-031.jpg via render.py, --bands=3)",
+      "note": "Original rows 13-15 (0-indexed) concatenated fragments from what are actually 5 distinct scan rows: one CALL/CCEP FLEX EURO option row plus four separate PUT/XSP option rows (strikes 645 EXP 05/15/2026, 647 EXP 04/30/2026, 640 EXP 04/24/2026, and 645 EXP 04/10/2026), each with its own Date of Transaction and correct amounts. Re-split into 5 correctly separated tx rows (now array indices 13-17) in scan order, each with owner SP, tx_type: CALL/CCEP='Purchase' (matching the other 11 CALL rows in this block) and all 4 PUT/XSP rows='Sale' (checkbox grid confirms 'x' under Sale for all four), notification_date=03/04/2026 for all five, and amount='$1,001-$15,000' for all five, matching the surrounding rows. Unlike the abbreviated asset_name style used for the CALL rows at indices 2-13 (which cut off at 'EXP' without the expiration date), these 5 new rows include the full EXP date in asset_name, since two of the PUT/XSP rows share the same $645 strike and would otherwise be indistinguishable by asset_name alone."
     }
   ],
   "page_confidence": "medium"

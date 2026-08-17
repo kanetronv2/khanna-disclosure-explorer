@@ -181,7 +181,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "09/05/2025",
+      "date": "08/26/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -302,7 +302,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "09/26/2025",
+      "date": "08/26/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -357,7 +357,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "09/26/2025",
+      "date": "08/26/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -386,6 +386,24 @@
       "field": "amount",
       "read": "$1,001-$15,000",
       "note": "Corrected 16 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
+    },
+    {
+      "row": 16,
+      "field": "date",
+      "read": "08/26/2025",
+      "note": "date corrected from misread '09/05/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 27,
+      "field": "date",
+      "read": "08/26/2025",
+      "note": "date corrected from misread '09/26/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 32,
+      "field": "date",
+      "read": "08/26/2025",
+      "note": "date corrected from misread '09/26/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

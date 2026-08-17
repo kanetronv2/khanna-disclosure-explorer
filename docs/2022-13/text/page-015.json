@@ -74,7 +74,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "5P__[AMAZON.COM INC CMI —|—*",
+      "asset_name": "5P__[AMAZON.COM INC CMI \u2014|\u2014*",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -90,7 +90,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/06/2022",
-      "notification_date": "01/06/2023",
+      "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -111,7 +111,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "09/01/2023",
+      "date": "12/15/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -133,7 +133,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/01/2023",
+      "date": "12/05/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -195,7 +195,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ICME GROUP INC. CMN CLASS A es ae’ ft __ |",
+      "asset_name": "ICME GROUP INC. CMN CLASS A es ae\u2019 ft __ |",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -210,7 +210,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "01/04/2023",
+      "date": "12/12/2022",
       "notification_date": "01/04/2023",
       "amount": "$1,001-$15,000"
     },
@@ -233,6 +233,30 @@
       "field": "tx_type/amount",
       "read": "OCR-assisted extraction",
       "note": "Dense scanned attachment; checkbox columns and some OCR spellings should be spot-verified against page/quads."
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "01/04/2023",
+      "note": "notification_date corrected from misread '01/06/2023' to '01/04/2023' after re-checking the page scan"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "12/15/2022",
+      "note": "date corrected from misread '09/01/2023' to '12/15/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "12/05/2022",
+      "note": "date corrected from misread '03/01/2023' to '12/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 18,
+      "field": "date",
+      "read": "12/12/2022",
+      "note": "date corrected from misread '01/04/2023' to '12/12/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

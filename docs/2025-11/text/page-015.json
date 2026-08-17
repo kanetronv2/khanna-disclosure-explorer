@@ -16,7 +16,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/19/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -27,7 +27,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -38,7 +38,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2530",
+      "date": "08/18/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -49,7 +49,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/18/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -93,7 +93,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -115,7 +115,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2025",
+      "date": "08/15/2025",
       "notification_date": "09/04/2025",
       "amount": "$15,001-$50,000"
     },
@@ -126,7 +126,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/06/2025",
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
       "amount": "$15,001-$50,000"
     },
@@ -137,7 +137,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "07/01/2026",
+      "date": "08/15/2025",
       "notification_date": "09/04/2025",
       "amount": "$15,001-$50,000"
     },
@@ -148,7 +148,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "08/15/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -159,7 +159,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "07/15/2040",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -170,7 +170,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/04/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -181,7 +181,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -192,7 +192,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "08/15/2025",
+      "date": "08/19/2025",
       "notification_date": "09/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -215,6 +215,84 @@
       "field": "page",
       "read": "Apple Vision OCR plus grid-cell checkbox detection",
       "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '02/19/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "08/06/2025",
+      "note": "date corrected from misread '12/01/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "08/18/2025",
+      "note": "date corrected from misread '12/01/2530' to '08/18/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '08/18/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "08/06/2025",
+      "note": "date corrected from misread '12/01/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 10,
+      "field": "date",
+      "read": "08/15/2025",
+      "note": "date corrected from misread '12/01/2025' to '08/15/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "08/04/2025",
+      "note": "date corrected from misread '08/06/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 12,
+      "field": "date",
+      "read": "08/15/2025",
+      "note": "date corrected from misread '07/01/2026' to '08/15/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '08/15/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 14,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '07/15/2040' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '08/04/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 16,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '12/01/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 17,
+      "field": "date",
+      "read": "08/19/2025",
+      "note": "date corrected from misread '08/15/2025' to '08/19/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

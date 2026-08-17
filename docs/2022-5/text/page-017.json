@@ -16,8 +16,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
-      "notification_date": "04/04/2022",
+      "date": "04/05/2022",
+      "notification_date": "05/05/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -27,7 +27,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
+      "date": "04/05/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
     },
@@ -38,7 +38,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
+      "date": "04/05/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
     },
@@ -295,8 +295,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
-      "notification_date": "04/04/2022",
+      "date": "04/05/2022",
+      "notification_date": "05/05/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -306,7 +306,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
+      "date": "04/05/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
     },
@@ -317,7 +317,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/06/2022",
+      "date": "04/05/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
     },
@@ -570,6 +570,54 @@
       "field": "group/row",
       "read": "MURA Holdings / Grandchildren Trust (Khanna Portion)",
       "note": "Typed attachment rows are legible, but several cap-gain checkboxes are small; flagged as medium confidence."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 1,
+      "field": "notification_date",
+      "read": "05/05/2022",
+      "note": "date corrected from misread '04/04/2022' to '05/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 2,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 27,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 27,
+      "field": "notification_date",
+      "read": "05/05/2022",
+      "note": "date corrected from misread '04/04/2022' to '05/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 28,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 29,
+      "field": "date",
+      "read": "04/05/2022",
+      "note": "date corrected from misread '04/06/2022' to '04/05/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

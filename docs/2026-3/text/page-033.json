@@ -67,8 +67,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/15/2026",
-      "notification_date": "03/02/2026",
+      "date": "03/02/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -90,6 +90,28 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "03/02/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTUIT INC 5.2% 09/15/2033 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/02/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NEXTERA ENERGY INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/19/2026",
       "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
@@ -118,6 +140,17 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "JM SMUCKER CO 2.125% 03/15/2032 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/02/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "CONSTELLATION ENERGY CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -129,13 +162,24 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COLLEGE STATION TEX DB SY OHIO ST WTR DEV AUTH WTR REV 5% fr",
+      "asset_name": "COLLEGE STATION TEX DB 5% 02/15/27 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/01/2026",
-      "notification_date": "03/23/2026",
+      "date": "03/27/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 06/01/26 JD",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/23/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$50,001-$100,000"
     }
   ],
   "free_text": null,
@@ -147,7 +191,7 @@
       "note": "Date was not safely parsed from OCR; source row remains visible in the page image."
     },
     {
-      "row": 11,
+      "row": 14,
       "field": "notification_date",
       "read": null,
       "note": "Notification date was not safely parsed from OCR; source row remains visible in the page image."
@@ -165,10 +209,28 @@
       "note": "Filled after validation from rotated OCR/page image because initial parser captured a maturity date or missed the notification cell."
     },
     {
-      "row": 11,
+      "row": 14,
       "field": "date/notification_date",
       "read": "03/19/26 / 04/02/26",
       "note": "Filled after validation from rotated OCR/page image because initial parser captured a maturity date or missed the notification cell."
+    },
+    {
+      "row": "9-10, 13, 15-16",
+      "field": "row alignment",
+      "read": "pixel-verified against page image",
+      "note": "The original single-row OCR merge of 'COLLEGE STATION TEX DB SY OHIO ST WTR DEV AUTH WTR REV 5% fr' was split into rows 15 (COLLEGE STATION TEX DB 5% 02/15/27 FA, Purchase, $1,001-$15,000) and 16 (OHIO ST WTR DEV AUTH WTR REV 5% 06/01/26 JD, Sale, $50,001-$100,000); three rows skipped entirely by OCR were also inserted \u2014 row 9 (INTUIT INC 5.2% 09/15/2033 USD), row 10 (NEXTERA ENERGY INC CMN), and row 13 (JM SMUCKER CO 2.125% 03/15/2032 USD). All dates, tx_type checkboxes, and amount buckets for these rows were re-verified against a rendered/upscaled crop of the page image."
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "03/02/2026",
+      "note": "date corrected from misread '06/15/2026' to '03/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 5,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/02/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

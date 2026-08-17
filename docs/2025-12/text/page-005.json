@@ -12,7 +12,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "03/01/2032",
+      "date": "09/11/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -78,7 +78,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "03/29/2025",
+      "date": "09/29/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -133,7 +133,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "09/28/2025",
+      "date": "09/29/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -177,7 +177,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "09/25/2025",
+      "date": "09/29/2025",
       "notification_date": "10/02/2025",
       "amount": "$1,001-$15,000"
     },
@@ -200,6 +200,30 @@
       "field": "page",
       "read": "Apple Vision OCR plus grid-cell checkbox detection",
       "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
+    },
+    {
+      "row": 0,
+      "field": "date",
+      "read": "09/11/2025",
+      "note": "date corrected from misread '03/01/2032' to '09/11/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 6,
+      "field": "date",
+      "read": "09/29/2025",
+      "note": "date corrected from misread '03/29/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "09/29/2025",
+      "note": "date corrected from misread '09/28/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "date",
+      "read": "09/29/2025",
+      "note": "date corrected from misread '09/25/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

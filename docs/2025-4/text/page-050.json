@@ -27,7 +27,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HONEYWELL INTERNATIONAL INC COM ¥",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM \u00a5",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -75,8 +75,8 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/04/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -208,6 +208,18 @@
       "field": "asset_name/checkbox alignment",
       "read": "OCR-assisted transcription",
       "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "04/04/2025",
+      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 7,
+      "field": "notification_date",
+      "read": "04/07/2025",
+      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

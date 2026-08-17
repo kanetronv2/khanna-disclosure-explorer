@@ -89,7 +89,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "02/11/23",
+      "date": "01/11/23",
       "notification_date": "02/02/23",
       "amount": "$1,001-$15,000"
     },
@@ -233,6 +233,12 @@
       "field": "tx_type",
       "read": "Sale",
       "note": "Page 14 has sale-column marks throughout; many cap-gain/partial marks are present but faint."
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "01/11/23",
+      "note": "date corrected from misread '02/11/23' to '01/11/23' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"

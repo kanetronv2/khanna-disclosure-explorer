@@ -199,7 +199,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "09/14/2022",
+      "date": "08/29/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"
     }
@@ -210,6 +210,12 @@
       "row": null,
       "field": "rows",
       "note": "Composite page: first fourteen rows align to annual Schedule B page-141; four Education Trust rows resolved from scan/tesseract plus annual cross-check."
+    },
+    {
+      "row": 17,
+      "field": "date",
+      "read": "08/29/2022",
+      "note": "date corrected from misread '09/14/2022' to '08/29/2022' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium",

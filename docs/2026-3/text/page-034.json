@@ -16,8 +16,19 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/15/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HONEYWELL INTL INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/19/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -27,8 +38,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -38,8 +49,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "10/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -49,8 +60,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2026",
-      "notification_date": "03/23/2026",
+      "date": "03/23/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -71,8 +82,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2026",
-      "notification_date": "03/23/2026",
+      "date": "03/23/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -82,8 +93,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/15/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -93,8 +104,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -115,19 +126,30 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO STATE UNIVERSITY THE REV HONOLULU HAWAII CITY & CNTY GO 5%",
+      "asset_name": "OHIO STATE UNIVERSITY (THE) REV 5.0000% 12/01/26 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "07/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HONOLULU HAWAII CITY & CNTY GO 5% 07/01/26 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -137,8 +159,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "09/15/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -148,8 +170,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "09/01/2026",
-      "notification_date": "03/26/2026",
+      "date": "03/26/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
     {
@@ -159,8 +181,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "09/01/2026",
-      "notification_date": "03/23/2026",
+      "date": "03/23/2026",
+      "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     }
   ],
@@ -171,6 +193,174 @@
       "field": "checkbox_columns",
       "read": "OCR-assisted extraction",
       "note": "Type/capital-gain/partial and amount fields were transcribed from rotated OCR plus visible grid positions; rows with multiple adjacent X marks are lower confidence."
+    },
+    {
+      "row": null,
+      "field": "asset_name/date/notification_date",
+      "read": "split of merged row",
+      "note": "Former row 11 merged two distinct scan rows (OHIO STATE UNIVERSITY (THE) REV 5.0000% 12/01/26 JD and HONOLULU HAWAII CITY & CNTY GO 5% 07/01/26 JJ) into a single garbled asset_name/date. Split into two separate tx rows, pixel-verified against the scan (owner DC, Purchase, both Date of Transaction 03/26/26 / Date Notified 04/02/26, amount bucket A)."
+    },
+    {
+      "row": null,
+      "field": "missing_row",
+      "read": "row added",
+      "note": "HONEYWELL INTL INC CMN (owner DC, Purchase, Date of Transaction 03/19/26, Date Notified 04/02/26, amount bucket A) was missing from the extraction entirely; added between DEL VALLE TEX INDPT SCH DIST GO 5% and OHIO WATER DEVELOPMENT AUTH REV 5.0000%, matching its position on the scan."
+    },
+    {
+      "row": 1,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '06/15/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 1,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '06/01/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 3,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '10/01/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 4,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "03/23/2026",
+      "note": "date corrected from misread '12/01/2026' to '03/23/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 5,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/23/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "03/23/2026",
+      "note": "date corrected from misread '12/01/2026' to '03/23/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 7,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/23/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '06/15/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 8,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '08/01/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 9,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '12/01/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 11,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 14,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '09/15/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 14,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '09/01/2026' to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 15,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 16,
+      "field": "date",
+      "read": "03/23/2026",
+      "note": "date corrected from misread '09/01/2026' to '03/23/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 16,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/23/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 12,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '12/01/2026' (bond maturity date from asset name) to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); this row was split from a previously-merged row by a separate fix, and was re-verified directly against the scan during that same audit session"
+    },
+    {
+      "row": 12,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+    },
+    {
+      "row": 13,
+      "field": "date",
+      "read": "03/26/2026",
+      "note": "date corrected from misread '07/01/2026' (bond maturity date from asset name) to '03/26/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); this row was split from a previously-merged row by a separate fix, and was re-verified directly against the scan during that same audit session"
+    },
+    {
+      "row": 13,
+      "field": "notification_date",
+      "read": "04/02/2026",
+      "note": "notification_date corrected from misread '03/26/2026' to '04/02/2026' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
     }
   ],
   "page_confidence": "medium"
