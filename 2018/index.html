@@ -20,6 +20,7 @@
 <meta name="description" content="Ro Khanna&#x27;s 2018 House financial disclosure reports $45.9M–$125.5M in assets across 1,951 line-items, plus 6,359 stock trades. Searchable, with source scans.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="author" content="Khanna Disclosure Explorer">
+<meta name="last-modified" content="2026-08-17">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ro Khanna Financial Disclosure Explorer">
 <meta property="og:url" content="https://www.rokhanna.money/2018/">
@@ -43,18 +44,38 @@
   "url": "https://www.rokhanna.money/2018/",
   "creator": {
     "@type": "Organization",
-    "name": "Khanna Disclosure Explorer"
+    "name": "Khanna Disclosure Explorer",
+    "url": "https://www.rokhanna.money/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Khanna Disclosure Explorer",
+    "url": "https://www.rokhanna.money/"
   },
   "about": {
     "@type": "Person",
     "name": "Ro Khanna",
     "alternateName": "Rohit Khanna",
-    "jobTitle": "U.S. Representative"
+    "jobTitle": "U.S. Representative",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Ro_Khanna",
+      "https://khanna.house.gov/"
+    ]
   },
   "spatialCoverage": "California 17th congressional district",
   "temporalCoverage": "2018",
   "isBasedOn": "docs/src/2018-4.pdf",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "dateModified": "2026-08-17",
+  "keywords": [
+    "Ro Khanna",
+    "net worth",
+    "stock trades",
+    "financial disclosure",
+    "congressional trading",
+    "U.S. House"
+  ],
   "variableMeasured": [
     {
       "@type": "PropertyValue",
@@ -72,6 +93,106 @@
       "@type": "PropertyValue",
       "name": "Reported transactions",
       "value": 6359
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/assets.csv",
+      "name": "assets.csv",
+      "contentSize": "7666466"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/assets.jsonl",
+      "name": "assets.jsonl",
+      "contentSize": "19696856"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/documents.csv",
+      "name": "documents.csv",
+      "contentSize": "16658"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/documents.jsonl",
+      "name": "documents.jsonl",
+      "contentSize": "28874"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.csv",
+      "name": "page_rows.csv",
+      "contentSize": "26193200"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.jsonl",
+      "name": "page_rows.jsonl",
+      "contentSize": "96382255"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.csv",
+      "name": "pages.csv",
+      "contentSize": "1195127"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.jsonl",
+      "name": "pages.jsonl",
+      "contentSize": "2296660"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/transactions.csv",
+      "name": "transactions.csv",
+      "contentSize": "14590885"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/transactions.jsonl",
+      "name": "transactions.jsonl",
+      "contentSize": "38505072"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.csv",
+      "name": "uncertainties.csv",
+      "contentSize": "5002542"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.jsonl",
+      "name": "uncertainties.jsonl",
+      "contentSize": "6629631"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/quality-report.json",
+      "name": "quality-report.json",
+      "contentSize": "3019"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/text-quality-audit.json",
+      "name": "text-quality-audit.json",
+      "contentSize": "1091406"
     }
   ]
 }
@@ -365,6 +486,50 @@
   .mini-table th:first-child,.mini-table td:first-child{text-align:left}
   .mini-table tr.current{background:#fff8dd}
 
+  /* provenance line under the masthead */
+  .freshline{margin:14px 0 0;font-size:12.5px;color:#c3cddd;letter-spacing:.01em}
+  .freshline b{color:#f2c94c;font-weight:700}
+  .freshline a{color:#f2c94c;text-decoration:none;border-bottom:1px dotted rgba(242,201,76,.5)}
+  .freshline time{color:#e5e9f0}
+
+  /* The trades hub is a separate page, so it must not read as a tab that failed to
+     highlight: it keeps the accent colour and an arrow whether or not the row wraps. */
+  nav.tabs .tablink{display:flex;align-items:center;gap:5px;color:#f2c94c;font-size:13.5px;font-weight:650;padding:10px 14px;text-decoration:none;white-space:nowrap}
+  nav.tabs .tablink::after{content:"→";font-size:12px;opacity:.8}
+  nav.tabs .tablink:hover{color:#fff}
+  nav.tabs .tablink:hover::after{opacity:1}
+
+  /* prerendered transaction tables (shared with the trades hub) */
+  .year-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+  .year-table th,.year-table td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:right}
+  .year-table th:first-child,.year-table td:first-child{text-align:left}
+  .year-table th{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:650;white-space:nowrap}
+  .tx-table{table-layout:auto;font-variant-numeric:tabular-nums}
+  .tx-table td{text-align:left;vertical-align:top}
+  .tx-table td:nth-child(1){white-space:nowrap;color:var(--muted)}
+  .tx-table td.num{white-space:nowrap}
+  .tx-table .tx-desc{display:block;color:var(--muted);font-size:11.5px;margin-top:2px;max-width:52ch}
+  #panel-recent-tx .table-scroll{max-height:620px;overflow-y:auto}
+
+  /* method + internal linking */
+  .method-panel p{margin:0 0 10px;font-size:13.5px;line-height:1.65;max-width:78ch;color:#3c4453}
+  .method-list{margin:0 0 10px;padding-left:20px;font-size:13.5px;line-height:1.6;color:#3c4453;max-width:78ch}
+  .method-list li{margin:5px 0}
+  .method-list b{color:var(--ink)}
+  .crosslinks{display:flex;flex-direction:column;gap:12px}
+  .crosslink-row{display:flex;gap:10px;flex-wrap:wrap}
+  .crosslink{font-size:13px;font-weight:650;text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:8px 13px}
+  .crosslink:hover{border-color:var(--accent);background:var(--accent-soft)}
+  .crosslink.next{margin-left:auto}
+  .crosslink-hub{display:flex;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+  .crosslink-hub a{font-size:13px;font-weight:650;text-decoration:none}
+  .crosslink-hub a:hover{text-decoration:underline}
+  .crosslink-years{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+  .crosslink-years span{font-weight:650;margin-right:4px}
+  .crosslink-years a{text-decoration:none;padding:0 3px}
+  .crosslink-years a:hover{text-decoration:underline}
+  .crosslink-years b{color:var(--ink);padding:0 3px}
+
   .ownership-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
   .owner-card{border:1px solid var(--line);border-radius:11px;padding:14px;background:#fff}
   .owner-card .owner-name{font-size:12px;font-weight:750}
@@ -481,6 +646,7 @@
       <img class="avatar" src="/assets/khanna-avatar.webp?v=64b260d6d1e0" width="144" height="144" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
       <div class="masttext"><div class="kicker">2018 Annual Financial Disclosure (Form A) + PTRs · U.S. House · California 17th</div><h1>Ro Khanna Net Worth: $45.9M–$125.5M in Reported Holdings (2018 Disclosure)</h1><p class="deck">A source-linked view of holdings, income, and transactions reported for the member, spouse, and dependent children.</p></div>
     </div>
+    <p class="freshline">Filing year: <b>2018</b> · Records through <b>December 2018</b> · Updated <time datetime="2026-08-17">2026-08-17</time></p>
     <p class="why"><b>Why this exists:</b> House filings submitted as paper scans are difficult to search or analyze. This independent transcription makes the records usable while preserving direct links to the <a id="srclink" href="#" target="_blank" rel="noopener">official filing</a> and its statutory value ranges.</p>
   </div>
 </header>
@@ -491,8 +657,9 @@
       <button id="tab-assets" role="tab" aria-controls="v-assets" aria-selected="false" tabindex="-1" data-v="assets">Assets</button>
       <button id="tab-txs" role="tab" aria-controls="v-txs" aria-selected="false" tabindex="-1" data-v="txs">Transactions</button>
       <button id="tab-doc" role="tab" aria-controls="v-doc" aria-selected="false" tabindex="-1" data-v="doc">Document</button>
+      <a class="tablink" href="/stock-trades/">All stock trades</a>
     </nav>
-    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option></select></div>
+    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option selected>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option></select></div>
   </div>
 </div>
 
@@ -546,27 +713,37 @@
     </div>
     <div class="panel" id="panel-clsbars">
       <h2>Holdings by asset class</h2>
-      <p class="note" id="class-note">Dark bar = sum of range minimums; light bar = sum of range maximums. Click a class to browse its holdings.</p>
-      <div id="clsbars"></div>
+      <p class="note" id="class-note">Every bar uses the same $47.4M scale. Dark shows the sum of range minimums; light shows the sum of maximums. An arrow marks a category with no stated upper ceiling.</p>
+      <div id="clsbars"><div class="clsrow" title="min $15,524,400 · max $47,370,001 (+1 holdings with no upper bound)"><button class="nm" type="button" data-cls="Common stock">Common stock <span class="ct">· 1624</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:100%"></div><div class="bar" style="width:32.77264%"></div><span class="open-marker" style="left:98%">→</span></div><span class="rng">$15.5M – $47.4M+</span></div><div class="clsrow" title="min $9,690,063 · max $17,629,003 (+3 holdings with no upper bound)"><button class="nm" type="button" data-cls="Hedge funds &amp; private funds">Hedge funds &amp; private funds <span class="ct">· 68</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:37.215543%"></div><div class="bar" style="width:20.456117%"></div><span class="open-marker" style="left:37.215543%">→</span></div><span class="rng">$9.69M – $17.6M+</span></div><div class="clsrow" title="min $7,681,022 · max $33,572,000"><button class="nm" type="button" data-cls="Funds &amp; ETFs">Funds &amp; ETFs <span class="ct">· 28</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:70.871858%"></div><div class="bar" style="width:16.21495%"></div></div><span class="rng">$7.68M – $33.6M</span></div><div class="clsrow" title="min $4,905,090 · max $11,330,000"><button class="nm" type="button" data-cls="Municipal &amp; gov bonds">Municipal &amp; gov bonds <span class="ct">· 93</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:23.918091%"></div><div class="bar" style="width:10.354845%"></div></div><span class="rng">$4.91M – $11.3M</span></div><div class="clsrow" title="min $2,852,019 · max $3,956,002 (+2 holdings with no upper bound)"><button class="nm" type="button" data-cls="Other">Other <span class="ct">· 20</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:8.351281%"></div><div class="bar" style="width:6.020728%"></div><span class="open-marker" style="left:8.351281%">→</span></div><span class="rng">$2.85M – $3.96M+</span></div><div class="clsrow" title="min $2,474,034 · max $5,661,000"><button class="nm" type="button" data-cls="Preferred &amp; hybrid securities">Preferred &amp; hybrid securities <span class="ct">· 34</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:11.950601%"></div><div class="bar" style="width:5.222786%"></div></div><span class="rng">$2.47M – $5.66M</span></div><div class="clsrow" title="min $1,719,018 · max $3,761,000"><button class="nm" type="button" data-cls="Cash &amp; deposits">Cash &amp; deposits <span class="ct">· 22</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:7.939624%"></div><div class="bar" style="width:3.628917%"></div></div><span class="rng">$1.72M – $3.76M</span></div><div class="clsrow" title="min $1,100,014 · max $2,208,000"><button class="nm" type="button" data-cls="Structured notes">Structured notes <span class="ct">· 19</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:4.661178%"></div><div class="bar" style="width:2.322174%"></div></div><span class="rng">$1.1M – $2.21M</span></div><div class="clsrow" title="min $38 · max $38,000"><button class="nm" type="button" data-cls="Options">Options <span class="ct">· 43</span></button><div class="barbox" aria-hidden="true"><div class="bar max" style="width:0.4%"></div><div class="bar" style="width:0.4%"></div></div><span class="rng">$38 – $38K</span></div></div>
     </div>
     <div class="twocol" id="overview-twocol">
       <div class="panel" id="panel-tophold">
         <h2>Largest holdings</h2>
         <p class="note">Ranked by the minimum of the reported value range.</p>
-        <ul class="plain" id="tophold"></ul>
+        <ul class="plain" id="tophold"><li><span>GS FINANCIAL SQUARE TREASURY SOLUTIONS FUND<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1995 Trust · spouse</span></span><span class="r">$5M – $25M<br><a href="#p112" data-goto="112" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.112</a></span></li><li><span>Condo, NY, NY<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja Rev. Trust: · spouse</span></span><span class="r">$1M+<br><a href="#p4" data-goto="4" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.4</a></span></li><li><span>Kayne Anderson MLP Fund, L.P.<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1994 Trust &amp; Ritu Ahuja 1995 Trust: M&amp;R Trust Partnership : · spouse</span></span><span class="r">$1M+<br><a href="#p4" data-goto="4" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.4</a></span></li><li><span>MAI Capital Income and Growth Fund III, LP Location: Pewaukee, WI 53188<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1995 Trust : Grandchildren&#x27;s Trust: ARECO LP : · spouse</span></span><span class="r">$1M+<br><a href="#p5" data-goto="5" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.5</a></span></li><li><span>Location: Walton, OH 44146<br><span style="color:var(--muted);font-size:11.5px">ARECO LP Commercial Property: · spouse</span></span><span class="r">$1M+<br><a href="#p6" data-goto="6" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.6</a></span></li><li><span>MAI Capital Management, LLC<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1994 Trust: MURA Holdings, LLC : · spouse</span></span><span class="r">$1M+<br><a href="#p6" data-goto="6" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.6</a></span></li><li><span>Transtar/Speedstar Holding Co.<br><span style="color:var(--muted);font-size:11.5px">Grandchildren&#x27;s Trust: ASK Partners, LLC · dependent child</span></span><span class="r">$1M+<br><a href="#p6" data-goto="6" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.6</a></span></li><li><span>GS FINANCE CORP. STRUCTURED NOTE DUE 02/24/2020<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1994 Trust · spouse</span></span><span class="r">$1M – $5M<br><a href="#p55" data-goto="55" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.55</a></span></li><li><span>GS SHORT DURATION TAX FREE FUND CLASS P<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1994 Trust · spouse</span></span><span class="r">$1M – $5M<br><a href="#p55" data-goto="55" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.55</a></span></li><li><span>Kayne Anderson MLP Fund, L.P.<br><span style="color:var(--muted);font-size:11.5px">Grandchildren&#x27;s Trust: · dependent child</span></span><span class="r">$500K – $1M<br><a href="#p5" data-goto="5" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.5</a></span></li><li><span>Park Center Plaza Holdings LP Plaza I, II, III Locations: Independence, OH 44131<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1995 Trust : Grandchildren&#x27;s Trust: ARECO LP : · spouse</span></span><span class="r">$500K – $1M<br><a href="#p5" data-goto="5" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.5</a></span></li><li><span>GOLDMAN SACHS BANK USA DEPOSIT (BDA)<br><span style="color:var(--muted);font-size:11.5px">Ritu Ahuja 1994 Trust · spouse</span></span><span class="r">$500K – $1M<br><a href="#p55" data-goto="55" style="font-size:11.5px" title="View this line on the original disclosure page">View filing p.55</a></span></li></ul>
       </div>
       <div>
         <div class="panel" id="panel-groups">
           <h2>Portfolios &amp; trusts</h2>
           <p class="note">Family trusts and partnerships under which assets are reported. SP = spouse, DC = dependent child, JT = joint.</p>
-          <ul class="plain" id="groups"></ul>
+          <ul class="plain" id="groups"><li title="min $14,235,739 · max $50,439,000"><span>Ritu Ahuja 1995 Trust <span style="color:var(--muted)">· 869 assets</span></span><span class="r">$14.2M – $50.4M</span></li><li title="min $13,832,688 · max $41,402,000"><span>Ritu Ahuja 1994 Trust <span style="color:var(--muted)">· 785 assets</span></span><span class="r">$13.8M – $41.4M</span></li><li title="min $2,560,014 · max $4,400,001 (+1 open-ended)"><span>Ritu Ahuja 1995 Trust : Grandchildren&#x27;s Trust: ARECO LP : <span style="color:var(--muted)">· 14 assets</span></span><span class="r">$2.56M – $4.4M+</span></li><li title="min $2,432,072 · max $5,981,000"><span>Grandchildren&#x27;s Trust: <span style="color:var(--muted)">· 84 assets</span></span><span class="r">$2.43M – $5.98M</span></li><li title="min $2,365,080 · max $5,622,000"><span>Grandchildren&#x27;s Trust <span style="color:var(--muted)">· 80 assets</span></span><span class="r">$2.37M – $5.62M</span></li><li title="min $1,948,024 · max $4,297,000"><span>M&amp;R Trust Partnership <span style="color:var(--muted)">· 32 assets</span></span><span class="r">$1.95M – $4.3M</span></li><li title="min $1,631,010 · max $2,466,001 (+1 open-ended)"><span>Ritu Ahuja 1994 Trust &amp; Ritu Ahuja 1995 Trust: M&amp;R Trust Partnership : <span style="color:var(--muted)">· 10 assets</span></span><span class="r">$1.63M – $2.47M+</span></li><li title="min $1,416,006 · max $1,915,001 (+1 open-ended)"><span>ARECO LP Commercial Property: <span style="color:var(--muted)">· 6 assets</span></span><span class="r">$1.42M – $1.92M+</span></li><li title="min $1,319,020 · max $2,935,000"><span>M&amp;R <span style="color:var(--muted)">· 23 assets</span></span><span class="r">$1.32M – $2.94M</span></li><li title="min $1,115,003 · max $1,300,001 (+1 open-ended)"><span>Ritu Ahuja 1994 Trust: MURA Holdings, LLC : <span style="color:var(--muted)">· 3 assets</span></span><span class="r">$1.12M – $1.3M+</span></li><li title="min $1,000,001 · max $1,000,001 (+1 open-ended)"><span>Grandchildren&#x27;s Trust: ASK Partners, LLC <span style="color:var(--muted)">· 1 assets</span></span><span class="r">$1M</span></li><li title="min $1,000,001 · max $1,000,001 (+1 open-ended)"><span>Ritu Ahuja Rev. Trust: <span style="color:var(--muted)">· 1 assets</span></span><span class="r">$1M</span></li><li title="min $650,006 · max $1,450,000"><span>(not under a listed trust) <span style="color:var(--muted)">· 6 assets</span></span><span class="r">$650K – $1.45M</span></li><li title="min $440,033 · max $1,303,000"><span>Ritu Ahuja Declaration of Trust <span style="color:var(--muted)">· 36 assets</span></span><span class="r">$440K – $1.3M</span></li><li title="min $1,001 · max $15,000"><span>Ritu Ahuja 1994 Trust: <span style="color:var(--muted)">· 1 assets</span></span><span class="r">$1K – $15K</span></li></ul>
         </div>
         <div class="panel">
           <h2>Trading activity</h2>
-          <ul class="plain" id="txsum"></ul>
+          <ul class="plain" id="txsum"><li><span>Purchase <span style="color:var(--muted)">· 3328</span></span><span class="r">$19.5M – $80.2M+</span></li><li><span>Partial Sale <span style="color:var(--muted)">· 1762</span></span><span class="r">$5.78M – $35.1M</span></li><li><span>Sale <span style="color:var(--muted)">· 1240</span></span><span class="r">$4.7M – $26.2M</span></li><li><span>Full Sale <span style="color:var(--muted)">· 27</span></span><span class="r">$153K – $720K</span></li><li><span>[UNKNOWN] <span style="color:var(--muted)">· 2</span></span><span class="r">None</span></li></ul>
         </div>
       </div>
     </div>
+    <div class="panel" id="panel-recent-tx">
+      <div class="section-heading">
+        <div><span class="section-kicker">Transaction detail</span><h2>Most recent reported transactions</h2></div>
+        <a class="text-link" href="#txs">Search and filter every transaction →</a>
+      </div>
+      <p class="note">The 40 most recent transactions in this filing year, newest first. Amounts are the statutory value bands printed on the form. Owner codes describe how the filing attributes an interest, not who directed a trade. 5 of these rows carry no readable transaction date on the filing and cannot be ordered here; they remain in the full searchable table and the open dataset.</p>
+      <div class="table-scroll"><table class="year-table tx-table"><thead><tr><th>Date</th><th>Security</th><th>Type</th><th>Reported amount</th><th>Asset class</th><th>Owner</th></tr></thead><tbody><tr><td>12/31/18</td><td>ECOLAB INC. CMN<span class="tx-desc">Common stock of Ecolab, a water treatment and hygiene products company</span></td><td>Partial Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>dependent child</td></tr><tr><td>12/31/18</td><td>ECOLAB INC. CMN<span class="tx-desc">Common stock of Ecolab, a water treatment and hygiene products company</span></td><td>Partial Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/31/18</td><td>CAESARS ENTERTAINMENT CORP CMN<span class="tx-desc">Common stock of Caesars Entertainment Corp</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/30/2018</td><td>LIONS GATE ENTERTAINMENT CORP. CMN CLASS B<span class="tx-desc">Class B common stock of Lionsgate, a film and television studio.</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/29/2018</td><td>BWX TECHNOLOGIES, INC. CMN<span class="tx-desc">Common stock of BWX Technologies, Inc</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>dependent child</td></tr><tr><td>12/28/18</td><td>PUT/XSP @ 268 EXP 12/21/2018<span class="tx-desc">Put option on XSP — $268 strike, expires 12/21/2018</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Options</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>MULBERRY FLA SPL DST GO 4% 09/01/19 MK<span class="tx-desc">Municipal bond — Mulberry FLA, 4% coupon</span></td><td>Purchase</td><td class="num">$15,001-$50,000</td><td>Municipal &amp; gov bonds</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>MYLAN NV CMN<span class="tx-desc">Common stock of Mylan NV</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>SPDR S&amp;P Bank ETF (KBE)<span class="tx-desc">Security identified on the form as Spdr S&amp;P Bank ETF, ticker KBE</span></td><td>Sale</td><td class="num">$15,001-$50,000</td><td>Funds &amp; ETFs</td><td>dependent child</td></tr><tr><td>12/28/2018</td><td>The Financial Sel Sect SPDR Fund (XLF)<span class="tx-desc">Security identified on the form as The Financial Sel Sect Spdr Fund, ticker XLF</span></td><td>Purchase</td><td class="num">$250,001-$500,000</td><td>Funds &amp; ETFs</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>The Financial Sel Sect SPDR Fund (XLF)<span class="tx-desc">Security identified on the form as The Financial Sel Sect Spdr Fund, ticker XLF</span></td><td>Purchase</td><td class="num">$15,001-$50,000</td><td>Funds &amp; ETFs</td><td>dependent child</td></tr><tr><td>12/28/2018</td><td>SPDR S&amp;P Bank ETF (KBE)<span class="tx-desc">Security identified on the form as Spdr S&amp;P Bank ETF, ticker KBE</span></td><td>Sale</td><td class="num">$250,001-$500,000</td><td>Funds &amp; ETFs</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>Blackrock Liquidity Municash Instl (MCSXX)<span class="tx-desc">Security identified on the form as Blackrock Liquidity Municash Instl, ticker MCSXX</span></td><td>Sale</td><td class="num">$100,001-$250,000</td><td>Cash &amp; deposits</td><td>spouse</td></tr><tr><td>12/28/2018</td><td>Blackrock Liquidity Municash Instl (MCSXX)<span class="tx-desc">Security identified on the form as Blackrock Liquidity Municash Instl, ticker MCSXX</span></td><td>Sale</td><td class="num">$15,001-$50,000</td><td>Cash &amp; deposits</td><td>dependent child</td></tr><tr><td>12/27/18</td><td>Capital call for GEM PEM On<span class="tx-desc">Capital call for private fund / partnership investment — Capital Call for GEM PEM On</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Other</td><td>spouse</td></tr><tr><td>12/27/18</td><td>BARCLAYS PLC AMER DEP SHS ADR CMN<span class="tx-desc">Common stock of Barclays PLC Amer DEP SHS</span></td><td>Full Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>dependent child</td></tr><tr><td>12/27/2018</td><td>BWX TECHNOLOGIES, INC. CMN<span class="tx-desc">Common stock of BWX Technologies, Inc</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>dependent child</td></tr><tr><td>12/27/2018</td><td>HANESBRANDS INC. CMN<span class="tx-desc">Common stock of Hanesbrands Inc</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>dependent child</td></tr><tr><td>12/27/2018</td><td>Capital call for GEM PEM On 9536?5?2<span class="tx-desc">Capital call for private fund / partnership investment — Capital Call for GEM PEM On 9536?5?2</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Other</td><td>dependent child</td></tr><tr><td>12/27/18</td><td>CINTAS CORPORATION CMN<span class="tx-desc">Common stock of Cintas, a uniform rental and business services company.</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>SENIOR HOUSING PROPERTIES TR CMN<span class="tx-desc">Common stock of Senior Housing Properties TR</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>TEMPUR SEALY INTERNATIONAL INC CMN<span class="tx-desc">Common stock of Tempur Sealy International Inc</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>NVIDIA CORPORATION CMN<span class="tx-desc">Common stock of Nvidia, maker of graphics and artificial intelligence chips</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>DAVITA INC CMN<span class="tx-desc">Common stock of Davita Inc</span></td><td>Purchase</td><td class="num">$50,001-$100,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>ARISTA NETWORKS, INC. CMN<span class="tx-desc">Common stock of Arista Networks, a data-center networking equipment company.</span></td><td>Purchase</td><td class="num">$50,001-$100,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>MKS INSTRUMENTS INC CMN<span class="tx-desc">Common stock of MKS Instruments Inc</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>XEROX CORPORATION CMN<span class="tx-desc">Common stock of Xerox Corporation</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>MACERICH COMPANY CMN<span class="tx-desc">Common stock of Macerich Company</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>AMERICAN WATER WORKS CO, INC. CMN<span class="tx-desc">Common stock of American Water Works, a regulated water utility.</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>NEXTERA ENERGY, INC. CMN<span class="tx-desc">Common stock of NextEra Energy, a utility and renewable power company</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>SEMPRA ENERGY CMN<span class="tx-desc">Common stock of Sempra, a California-based energy infrastructure and utility company.</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>NOBLE ENERGY INC CMN<span class="tx-desc">Common stock of Noble Energy Inc</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>LOCKHEED MARTIN CORPORATION CMN<span class="tx-desc">Common stock of Lockheed Martin Corporation</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>FEDEX CORPORATION CMN<span class="tx-desc">Common stock of FedEx, the package delivery company</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>HESS CORPORATION CMN<span class="tx-desc">Common stock of Hess Corporation</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>NETFLIX, INC. CMN<span class="tx-desc">Common stock of Netflix, the streaming video company.</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>BARCLAYS PLC AMER DEP SHS ADR CMN<span class="tx-desc">Common stock of Barclays PLC Amer DEP SHS</span></td><td>Sale</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>JOHNSON CONTROLS INTERNATIONAL CMN<span class="tx-desc">Common stock of Johnson Controls, a building equipment and HVAC company</span></td><td>Purchase</td><td class="num">$1,001-$15,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>JPMORGAN CHASE &amp; CO CMN<span class="tx-desc">Common stock of JPMorgan Chase, the largest US bank.</span></td><td>Purchase</td><td class="num">$15,001-$50,000</td><td>Common stock</td><td>spouse</td></tr><tr><td>12/27/18</td><td>INTL BUSINESS MACHINES CORP CMN<span class="tx-desc">Common stock of IBM, the computing and technology services company</span></td><td>Purchase</td><td class="num">$15,001-$50,000</td><td>Common stock</td><td>spouse</td></tr></tbody></table></div>
+    </div>
+    <section class="panel method-panel" id="method"><div class="section-heading"><div><span class="section-kicker">Method and sourcing</span><h2>How these figures were produced</h2></div></div><p>Every number on this site is transcribed from the financial disclosure filings published by the <a href="https://disclosures-clerk.house.gov/" target="_blank" rel="noopener">Clerk of the U.S. House of Representatives</a>. Those filings are paper scans with no machine-readable text, so each page was transcribed from full-page images and high-resolution crops, cross-checked against Tesseract OCR, and annotated where a reading is uncertain. Every normalized record links back to the page and scan it came from.</p><ul class="method-list"><li><b>Ranges, not exact values.</b> House forms report statutory value bands. Totals here are sums of those bands and are not a certified net worth.</li><li><b>Open-ended holdings.</b> Buckets with no stated ceiling keep a null upper bound and an explicit flag, so an upper total is a floor, never a maximum.</li><li><b>Household scope.</b> Filings cover the member, spouse, and dependent children together. Owner codes are reproduced as printed and are not a finding about beneficial ownership.</li><li><b>Independent and unofficial.</b> This is a best-effort transcription and can contain errors. Verify consequential findings against the linked scans and the official filings.</li></ul><p class="note">Across every filing year, the dataset runs through August 2026. Transcription last updated <time datetime="2026-08-17">2026-08-17</time>. The full normalized dump — assets, transactions, pages and flagged uncertainties — is published as <a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">CSV and JSONL</a> under CC0, alongside the source PDFs and page scans.</p></section>
+    <nav class="panel crosslinks" aria-label="Related pages"><div class="crosslink-row"><a class="crosslink prev" href="/2017/">← 2017 filing</a><a class="crosslink next" href="/2019/">2019 filing →</a></div><div class="crosslink-hub"><a href="/">Ro Khanna net worth — latest filing</a><a href="/stock-trades/">All reported stock trades, 2017–2026</a><a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download the open dataset</a></div><div class="crosslink-years"><span>Every filing year:</span> <a href="/2016/">2016</a> <a href="/2017/">2017</a> <b>2018</b> <a href="/2019/">2019</a> <a href="/2020/">2020</a> <a href="/2021/">2021</a> <a href="/2022/">2022</a> <a href="/2023/">2023</a> <a href="/2024/">2024</a> <a href="/">2025</a> <a href="/2026/">2026</a></div></nav>
   </section>
 
   <!-- ============ ASSETS ============ -->

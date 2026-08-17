@@ -2,57 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.rokhanna.money/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-08-17</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rokhanna.money/stock-trades/</loc>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2026/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2024/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2023/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2022/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2021/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2020/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2019/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2018/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2017/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
   <url>
     <loc>https://www.rokhanna.money/2016/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-17</lastmod>
   </url>
 </urlset>
