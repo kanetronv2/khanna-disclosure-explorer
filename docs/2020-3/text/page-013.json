@@ -8,10 +8,13 @@
     {"kind": "group", "text": "Grandchildren's Trust (Ask Partners, LLC)"},
     {"kind": "tx", "owner": "DC", "asset_name": "Transtar/Speedstar Holding Company PIK Note", "tx_type": "Purchase", "date": "02/10/2020", "notification_date": "02/20/2020", "amount": "$50,001-$100,000"},
     {"kind": "group", "text": "Areco"},
-    {"kind": "tx", "owner": "SP", "asset_name": "Citymark Capital U.S. Apartment Fund II L.P.", "tx_type": "Purchase", "date": "02/19/2020", "notification_date": "02/13/2020", "amount": "$250,001-$500,000"},
-    {"kind": "tx", "owner": "DC", "asset_name": "Citymark Capital U.S. Apartment Fund II L.P.", "tx_type": "Purchase", "date": "02/19/2020", "notification_date": "02/13/2020", "amount": "$15,001-$50,000"}
+    {"kind": "tx", "owner": "SP", "asset_name": "Citymark Capital U.S. Apartment Fund II L.P.", "tx_type": "Purchase", "date": "02/19/2020", "notification_date": "02/19/2020", "amount": "$250,001-$500,000"},
+    {"kind": "tx", "owner": "DC", "asset_name": "Citymark Capital U.S. Apartment Fund II L.P.", "tx_type": "Purchase", "date": "02/19/2020", "notification_date": "02/19/2020", "amount": "$15,001-$50,000"}
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {"row": 3, "field": "notification_date", "read": "02/19/2020", "note": "Corrected from 02/13/2020 after direct scan review; both Citymark rows print 02/19/20 in the notification column."},
+    {"row": 4, "field": "notification_date", "read": "02/19/2020", "note": "Corrected from 02/13/2020 after direct scan review; both Citymark rows print 02/19/20 in the notification column."}
+  ],
   "page_confidence": "high"
 }

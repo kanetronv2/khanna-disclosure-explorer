@@ -159,7 +159,7 @@ with the row-merge/omission repairs below (same page, same session, two defects 
 same rows) — the date corrections were re-applied on top of the corrected row structure once
 both were done, so no row lost either fix.
 
-**B. Row-content misattribution — a distinct, more serious defect (found, NOT fixed).**
+**B. Row-content misattribution — a distinct, more serious defect (identified and fixed).**
 On several pages, whole rows don't match the scan at all: the transcribed `asset_name` at a
 given row position is a *different security* than what's actually printed there (not just a
 wrong date). Confirmed directly against page scans, e.g.:
@@ -181,8 +181,8 @@ symptom: whichever OCR/transcription failure produced the wrong content also pro
 internally-inconsistent date pair, since the "date" attached to the wrong row is really some
 other row's date.
 
-**Still pending dedicated re-transcription** (do not blindly correct dates here — the row
-content itself needs re-verification against the scans first):
+**Dedicated re-transcription completed** (the row content was re-verified against the scans
+before any date correction):
 - `docs/2021-8` — pages 005 and 022 have now been re-verified against their
   scans and rebuilt from matching annual Schedule B row runs. Their printed
   account separators and distinct notification-date runs are retained. Pages
@@ -203,6 +203,13 @@ Notified" (e.g. 6-Apr-22 date vs. 4-Apr-22 notified) — confirmed against the s
 as transcribed. This looks like a real filer/preparer error on the original government
 filing, not an OCR error, so per the verbatim-transcription rule it was left as printed
 (only the ~9 rows that were genuinely misread were corrected).
+
+The final corpus-wide chronology sweep also confirms seven other verbatim exceptions: the
+single rows on `2019-12/page-008`, `2019-13/page-008`, `2020-2/page-011`,
+`2021-11/page-008`, and `2022-9/page-002`, plus both rows on `2020-12/page-008`.
+Each was read directly from its page scan; `2022-9/page-002` was additionally cross-checked
+against the matching annual Schedule B entry. They remain as filed, rather than being
+silently normalized.
 
 **Also surfaced during this audit:** `docs/2025-4` pages
 006/010/011/012/014/017/024/043/045/046/048 had missing, merged, or duplicated rows. They

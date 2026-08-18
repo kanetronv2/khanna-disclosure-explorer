@@ -2774,7 +2774,7 @@ page:2020-3:0009,2020,2020-3,9,Page 9 of 13,Periodic Transaction Report - Amount
 page:2020-3:0010,2020,2020-3,10,Page 10 of 13,Periodic Transaction Report - Amount of Transaction grid (continuation),ptr_transactions,ptr,medium,,70,3,docs/2020-3/pages/page-010.jpg,docs/2020-3/text/page-010.json,docs/2020-3/tess/page-010.txt
 page:2020-3:0011,2020,2020-3,11,Page 11 of 13,Periodic Transaction Report - Amount of Transaction grid (continuation),ptr_transactions,ptr,high,,70,1,docs/2020-3/pages/page-011.jpg,docs/2020-3/text/page-011.json,docs/2020-3/tess/page-011.txt
 page:2020-3:0012,2020,2020-3,12,Page 12 of 13,Periodic Transaction Report - Amount of Transaction grid (continuation),ptr_transactions,ptr,high,,6,0,docs/2020-3/pages/page-012.jpg,docs/2020-3/text/page-012.json,docs/2020-3/tess/page-012.txt
-page:2020-3:0013,2020,2020-3,13,Page 13 of 13,Periodic Transaction Report - Amount of Transaction grid (continuation),ptr_transactions,ptr,high,,5,0,docs/2020-3/pages/page-013.jpg,docs/2020-3/text/page-013.json,docs/2020-3/tess/page-013.txt
+page:2020-3:0013,2020,2020-3,13,Page 13 of 13,Periodic Transaction Report - Amount of Transaction grid (continuation),ptr_transactions,ptr,high,,5,2,docs/2020-3/pages/page-013.jpg,docs/2020-3/text/page-013.json,docs/2020-3/tess/page-013.txt
 page:2020-4:0001,2020,2020-4,1,Page 1 of 18,Periodic Transaction Report,ptr_cover,ptr_cover,high,"# UNITED STATES HOUSE OF REPRESENTATIVES
 ## Periodic Transaction Report
 

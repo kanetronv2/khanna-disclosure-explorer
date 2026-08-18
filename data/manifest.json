@@ -33,28 +33,28 @@
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
       "records": 116039,
-      "sha256": "21568926712fda81b537b84c673c3bbc76dd93d74e7a786cf5925eeeaf278607"
+      "sha256": "98633cd53c2c7a004e83c1c0e42a6c9ee9aca92f90886d834f4cbf880db4ed10"
     },
     {
       "bytes": 96396651,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
       "records": 116039,
-      "sha256": "d48c0fea24321c961e49012e6c2bff8903d9ab84f1f8949118133f5c6f17cbaa"
+      "sha256": "2f0ebe9ba52b4a8ee258b7c9911b1d84b7eabbd78b3c69335016117a757e73a2"
     },
     {
       "bytes": 1195100,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "19fe45df682a0217331e0842904b9e1c5a4062d48947b0fbe7a3a62cdadbc24d"
+      "sha256": "dc2b5f26f3c147103dae8d6f7749668446fe41de49b2cb393b4b14e6a2c4e526"
     },
     {
       "bytes": 2296633,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "c8b336569eed901cbc9e479c3ee1206ad56567b73baf89d010ccd3842a4ec275"
+      "sha256": "005f0272a05ebc49e18d42e5004b5e1b20d6d689e9e2ef1046803e3dfdac56a4"
     },
     {
       "bytes": 14594468,
@@ -71,25 +71,25 @@
       "sha256": "186c2a9494613117aa722ac3cb483367b145dd3bb65318ecc93ad310c89f31d3"
     },
     {
-      "bytes": 5097058,
+      "bytes": 5097634,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18058,
-      "sha256": "7ffcd9a8156189e630cc274754e9287d076f1808952664b2643056edcb3f6892"
+      "records": 18060,
+      "sha256": "bedafc23c58114977b33dd727d28f22300fc78a098b1ca7ce6613466968951b6"
     },
     {
-      "bytes": 6751298,
+      "bytes": 6752056,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18058,
-      "sha256": "711790d34246ec132b012a66a5c597d9aef81d3a63aaeac8dfe2d345b56c953a"
+      "records": 18060,
+      "sha256": "eda647b756e769ca49cc9eba17442863206c451aed74b23848e411b5d076665b"
     },
     {
       "bytes": 3019,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "eea71d1d7da524695ba0a8b64db742365afb21b8037978f23e525d471c025032"
+      "sha256": "4fcf81be9b05537a4df9d14b67a85503440e763514a756eb828e48b75b772c78"
     },
     {
       "bytes": 1093682,
@@ -117,7 +117,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18058
+      "uncertainties": 18060
     },
     "owner_code_distribution": {
       "DC": 35409,
