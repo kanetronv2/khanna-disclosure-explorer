@@ -42,7 +42,7 @@ RAW = "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/m
 
 # How many rows of real markup each prerendered table carries. Enough to be substantive
 # content for a crawler without bloating the HTML the browser has to parse before hydrating.
-RECENT_TX_ON_YEAR_PAGE = 40
+RECENT_TX_ON_YEAR_PAGE = 6
 RECENT_TX_ON_HUB = 100
 TOP_COMPANIES_ON_HUB = 30
 
@@ -285,57 +285,42 @@ def story_lead(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
     src = summary.get("source_pdf") or SOURCE_INDEX
     if is_ptr_only(summary):
-        eyebrow = f"{year} periodic transaction reports"
+        eyebrow = "Reported transaction activity"
         headline = f"{summary['counts']['transactions']:,} reported transactions"
-        detail = ("This year currently contains periodic transaction reports rather than an annual "
-                  f"holdings statement. The combined reported transaction range is {rng_sum(tx)}.")
-        facts = [("Combined transaction range", rng_sum(tx)),
-                 ("Reportable transactions", f"{summary['counts']['transactions']:,}"),
-                 ("Source pages", f"{summary['all_docs']['done']} / {summary['all_docs']['total']} transcribed")]
+        detail = f"Periodic transaction reports for {year}; an annual holdings statement is not yet included."
+        caveat_html = ""
     else:
-        eyebrow = f"{year} disclosed holdings"
-        headline = f"Up to {fmt(tot['hiF'])} reported"
-        detail = (f"The filing’s statutory ranges sum to {fmt(tot['lo'])} at the low end and "
-                  f"{fmt(tot['hiF'])} at the calculated upper end across "
-                  f"{summary['counts']['assets']:,} line-items. ")
-        if tot["open"]:
-            detail += (f"Because {tot['open']} holdings have no stated ceiling, this dashboard figure "
-                       "is not a hard upper limit and the reported value may be higher. ")
-        detail += "These are disclosure-range sums, not an exact personal net worth."
-        annual = summary.get("annual_doc")
-        facts = [("Calculated upper floor", f"{fmt(tot['hiF'])}{'+' if tot['open'] else ''}"),
-                 ("Annual filing pages", f"{annual['total']:,}" if annual else "—"),
-                 ("Source-linked asset entries", f"{summary['counts']['assets']:,}")]
-    aside = "".join(f'<div class="aside-fact"><span>{esc(k)}</span><strong>{esc(v)}</strong></div>' for k, v in facts)
+        eyebrow = "Reported household holdings"
+        headline = rng_sum(tot)
+        detail = (f"Statutory value ranges across {summary['counts']['assets']:,} asset entries — "
+                  "not an exact personal net worth.")
+        open_note = (f" {tot['open']} open-ended holdings make the upper figure a floor."
+                     if tot["open"] else "")
+        comparison_note = (" This filing uses a different value-bracket basis and is not directly "
+                           "comparable with earlier years." if caveat(summary) else "")
+        caveat_html = (f'<p class="story-caveat"><b>Read with care:</b>{esc(open_note + comparison_note)}</p>'
+                       if open_note or comparison_note else "")
     return (f'<div class="story-primary"><span class="eyebrow">{esc(eyebrow)}</span>'
             f'<h2>{esc(headline)}</h2><p>{esc(detail)}</p>'
             f'<div class="source-line"><span>Source-linked transcription</span>'
-            f'<a href="{esc(src)}" target="_blank" rel="noopener">Official House filing ↗</a></div></div>'
-            f'<div class="story-aside">{aside}</div>')
+            f'<a href="{esc(src)}" target="_blank" rel="noopener">Official House filing ↗</a></div>'
+            f'{caveat_html}</div>')
 
 
 def stat_cards(summary, year):
-    tot, inc, tx = summary["holdings"], summary["income"], summary["transaction_total"]
+    tx = summary["transaction_total"]
     all_docs, annual = summary["all_docs"], summary.get("annual_doc")
-    if annual:
-        top_holding = (summary.get("top_holdings") or [None])[0]
-        value_band_card = (
-            "Largest disclosed value band",
-            rng_pair(top_holding.get("vlo"), top_holding.get("vhi")) if top_holding else "—",
-            "highest value range assigned to a single asset entry",
-            top_holding.get("name", "") if top_holding else "",
-        )
-    else:
-        doc_card = ("Document status", f"{all_docs['done']} / {all_docs['total']} pages",
-                    "all loaded filings transcribed from official scans", "")
-    tx_card = (f"Transaction value ({year})", rng_sum(tx),
-               f"{summary['counts']['transactions']:,} reported transactions", "")
+    pages = annual["total"] if annual else all_docs["total"]
+    tx_card = ("Transaction value", rng_sum(tx), "sum of reported statutory bands", "")
     if is_ptr_only(summary):
-        cards = [tx_card, ("Filing type", "Periodic reports",
-                           "annual holdings are filed the following spring", ""), doc_card]
+        cards = [tx_card,
+                 ("Source pages", f"{pages:,}", "transcribed from official scans", ""),
+                 ("Filing type", "Periodic reports", "annual holdings are filed later", "")]
     else:
-        cards = [(f"Unearned income ({year})", rng_sum(inc),
-                  f"dividends, interest, gains, rent · min {exact(inc['lo'])}", ""), tx_card, value_band_card]
+        cards = [("Asset entries", f"{summary['counts']['assets']:,}", "source-linked holdings", ""),
+                 tx_card,
+                 ("Reported transactions", f"{summary['counts']['transactions']:,}",
+                  f"{summary['counts'].get('active_trading_days', 0):,} active trading days", "")]
     return "".join(
         f'<div class="card"{f" title={chr(34)}{esc(tip)}{chr(34)}" if tip else ""}>'
         f'<div class="k">{esc(k)}</div><div class="v">{esc(v)}</div><div class="d">{esc(d)}</div></div>'
@@ -383,8 +368,8 @@ def ownership(summary):
 # These mirror the innerHTML the app writes on load, so a crawler sees the same tables a
 # reader does. The script replaces each container on hydration, so drift is cosmetic only.
 
-def class_bars(summary):
-    rows = summary["classes"]
+def class_bars(summary, limit=None):
+    rows = summary["classes"][:limit] if limit else summary["classes"]
     if not rows:
         return ""
     peak = max([r["hiF"] or r["lo"] for r in rows] + [1])
@@ -409,11 +394,8 @@ def class_bars(summary):
 def class_note(summary):
     rows = summary["classes"]
     if not rows:
-        return ("Dark bar = sum of range minimums; light bar = sum of range maximums. "
-                "Click a class to browse its holdings.")
-    peak = max([r["hiF"] or r["lo"] for r in rows] + [1])
-    return (f"Every bar uses the same {fmt(peak)} scale. Dark shows the sum of range minimums; light shows "
-            "the sum of maximums. An arrow marks a category with no stated upper ceiling.")
+        return "No annual holdings are included in this filing year."
+    return "Top five categories by reported minimum; select one to filter the Assets tab."
 
 
 def top_holdings(summary):
@@ -483,6 +465,23 @@ def tx_table(rows, show_year=False):
             f"<thead><tr>{year_head}<th>Date</th><th>Security</th><th>Type</th>"
             "<th>Reported amount</th><th>Asset class</th><th>Owner</th></tr></thead>"
             f'<tbody>{"".join(body)}</tbody></table></div>')
+
+
+def tx_preview(rows):
+    """A short overview list; the Transactions tab carries the full table and prose."""
+    if not rows:
+        return '<p class="note">No transactions are reported for this filing year.</p>'
+    items = []
+    for row in rows:
+        page = row.get("page")
+        source = (f'<a href="#p{esc(page)}" data-goto="{esc(page)}">View p.{esc(page)}</a>'
+                  if page is not None else "")
+        meta = " · ".join(value for value in (row.get("date"), row.get("tx_type")) if value)
+        items.append(
+            f'<li><span><span class="recent-name">{esc(row.get("name") or "—")}</span>'
+            f'<span class="recent-meta">{esc(meta)}</span></span>'
+            f'<span class="r">{esc(row.get("amount") or "—")}<br>{source}</span></li>')
+    return f'<ul class="plain recent-list">{"".join(items)}</ul>'
 
 
 def position_fact(summary):
@@ -607,17 +606,34 @@ def faq_items(summary, year, summaries):
 
 
 def answer_panel(summary, year, summaries, url_for):
-    faqs = "".join(f"<dt>{esc(q)}</dt><dd>{esc(a)}</dd>" for q, a in faq_items(summary, year, summaries))
-    return ('<section class="panel answer-panel" id="answer">'
-            '<div class="section-heading"><div><span class="section-kicker">In brief</span>'
-            f'<h2>Ro Khanna’s reported net worth, {year}</h2></div></div>'
-            f'<p class="answer-lede">{answer_lede(summary, year)}</p>'
-            + (f'<p class="answer-caveat"><b>How this filing reports value:</b> '
-               f'{esc(caveat(summary))}</p>' if caveat(summary) else '')
-            + '<h3>Reported holdings by filing year</h3>'
-            f'{year_table(summaries, year, url_for)}'
-            '<h3>Frequently asked questions</h3>'
-            f'<dl class="faq">{faqs}</dl></section>')
+    # The filing-specific comparison caveat now travels inside the primary summary,
+    # where it is seen once instead of being repeated in a separate answer section.
+    return ""
+
+
+def overview_methodology(ctx, summary, year):
+    """Keep trust-sensitive guidance and FAQs available without dominating Overview."""
+    faqs = "".join(f"<dt>{esc(q)}</dt><dd>{esc(a)}</dd>"
+                   for q, a in faq_items(summary, year, ctx.summaries))
+    return (
+        '<details class="panel reading-panel" id="method">'
+        '<summary><span><b>How to read this filing</b>'
+        '<small>Ranges, household scope, sourcing, and common questions</small></span></summary>'
+        '<div class="reading-body">'
+        '<p>House filings are published as paper scans. This independent transcription makes them searchable '
+        'while retaining links to the official filing, page scans, and flagged uncertainties.</p>'
+        '<ul class="method-list">'
+        '<li><b>Ranges, not exact values.</b> Totals sum statutory value bands and are not a certified net worth.</li>'
+        '<li><b>Open-ended holdings.</b> A displayed upper total is a floor when a holding has no stated ceiling.</li>'
+        '<li><b>Household scope.</b> The filing covers the member, spouse, and dependent children.</li>'
+        '<li><b>Independent and unofficial.</b> Verify consequential findings against the linked scans.</li>'
+        '</ul>'
+        '<h3>Common questions</h3>'
+        f'<dl class="faq">{faqs}</dl>'
+        f'<p class="note">Dataset through {esc(pretty_month(ctx.data_through) or "the latest loaded filing")}; '
+        f'updated <time datetime="{esc(ctx.modified)}">{esc(ctx.modified)}</time>. '
+        f'<a href="{DATA_HOME}" target="_blank" rel="noopener">Download CSV and JSONL</a>.</p>'
+        '</div></details>')
 
 
 # ---------------------------------------------------------------- shared sections
@@ -695,18 +711,18 @@ def titles(summary, year, is_root, ctx):
     if is_root:
         span = f"{fmt(tot['lo'])}–{fmt(tot['hiF'])}"
         title = f"Ro Khanna Net Worth {ctx.site_year}: {span} (Latest Filing)"
-        h1 = f"Ro Khanna Net Worth: {span} in Reported Holdings"
+        h1 = "Ro Khanna Financial Disclosures"
         desc = (f"Ro Khanna's latest House disclosure — the {year} annual filing — reports {span} in assets, "
                 f"plus {ctx.tx_total:,} reported stock trades, with source scans.")
     elif is_ptr_only(summary):
         title = f"Ro Khanna Stock Trades {year}: {summary['counts']['transactions']:,} Reported Trades"
-        h1 = f"Ro Khanna’s {year} Stock Trades: {summary['counts']['transactions']:,} Reported Transactions"
+        h1 = f"Ro Khanna’s {year} Stock Trades"
         desc = (f"Ro Khanna's {year} periodic transaction reports: {summary['counts']['transactions']:,} trades "
                 f"worth {rng_sum(tx)}, transcribed from official U.S. House filings with source scans.")
     else:
         span = f"{fmt(tot['lo'])}–{fmt(tot['hiF'])}"
         title = f"Ro Khanna Net Worth {year}: {span} Reported"
-        h1 = f"Ro Khanna Net Worth: {span} in Reported Holdings ({year} Disclosure)"
+        h1 = f"Ro Khanna’s {year} Financial Disclosure"
         desc = (f"Ro Khanna's {year} House financial disclosure reports {span} in assets across "
                 f"{summary['counts']['assets']:,} line-items, plus {summary['counts']['transactions']:,} stock "
                 "trades. Searchable, with source scans.")
@@ -716,8 +732,7 @@ def titles(summary, year, is_root, ctx):
 def masthead(summary, year, h1):
     kicker = (summary.get("meta") or {}).get("kicker") or f"{year} Financial Disclosure · U.S. House · California 17th"
     return (f'<div class="kicker">{esc(kicker)}</div><h1>{esc(h1)}</h1>'
-            '<p class="deck">A source-linked view of holdings, income, and transactions reported for the '
-            'member, spouse, and dependent children.</p>')
+            '<p class="deck">Source-linked House filings, holdings, and transactions.</p>')
 
 
 def freshness(ctx, lead, through=None):
@@ -849,18 +864,19 @@ def render(template, ctx, year, at_root):
             else f"Filing year: <b>{esc(year)}</b>",
             through=None if at_root else ctx.through(year)),
         "<!--SEO_ANSWER-->": answer_panel(summary, year, ctx.summaries, ctx.url_for),
-        "<!--SEO_METHOD-->": methodology(ctx),
+        "<!--SEO_METHOD-->": overview_methodology(ctx, summary, year),
         "<!--SEO_CROSSLINKS-->": crosslinks(ctx, year),
         "<!--PR_STORYLEAD-->": story_lead(summary, year),
         "<!--PR_STATCARDS-->": stat_cards(summary, year),
         "<!--PR_KEYFINDINGS-->": key_findings(summary, year),
         "<!--PR_OWNERSHIP-->": ownership(summary),
-        "<!--PR_CLSBARS-->": class_bars(summary),
+        "<!--PR_CLSBARS-->": class_bars(summary, limit=5),
         "<!--PR_CLASSNOTE-->": esc(class_note(summary)),
         "<!--PR_TOPHOLD-->": top_holdings(summary),
         "<!--PR_GROUPS-->": groups(summary),
         "<!--PR_TXSUM-->": tx_summary(summary),
-        "<!--PR_RECENT_TX-->": tx_table(recent),
+        "<!--PR_RECENT_TX-->": tx_preview(recent),
+        "<!--PR_YEAR_TABLE-->": year_table(ctx.summaries, year, ctx.url_for),
         "<!--PR_RECENT_TX_COUNT-->": esc(f"{len(recent):,}"),
         "<!--PR_UNDATED_NOTE-->": esc(undated_note(ctx.tx[year])),
         "<!--PR_YEAR_OPTIONS-->": year_options(ctx, year),
