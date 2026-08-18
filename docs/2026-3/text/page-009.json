@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ESTEE LAUDER COS INC CL ACMN i CLASSA",
+      "asset_name": "ESTEE LAUDER COS INC CL A CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MSCIINC CMN",
+      "asset_name": "MSCI INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN xh",
+      "asset_name": "GLOBAL PAYMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "To VERTEX PHARMACEUTICALS INCORPO =\u2014T = = \u2014\u2014 CMN",
+      "asset_name": "VERTEX PHARMACEUTICALS INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROYAL CARIBBEAN GROUP ISIN => = LROo08g62868",
+      "asset_name": "ROYAL CARIBBEAN GROUP ISIN: LR0008862868",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APPLOVIN CORPORATION CMN CLASS A x!",
+      "asset_name": "APPLOVIN CORPORATION CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JAIRBNB INC CMNCLASSA",
+      "asset_name": "AIRBNB INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FIRSTSOLAR INC CMN",
+      "asset_name": "FIRST SOLAR INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GODADDY INC CMN CLASSA x!",
+      "asset_name": "GODADDY INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WARNER BROS DISCOVERY INC CMN aa CLASSA",
+      "asset_name": "WARNER BROS DISCOVERY INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -210,7 +210,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MID AMERICA APT CMNTYS INC CMN",
+      "asset_name": "MID-AMERICA APT CMNTYS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -221,6 +221,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan."
+    },
     {
       "row": null,
       "field": "checkbox_columns",

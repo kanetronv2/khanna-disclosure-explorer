@@ -44,6 +44,15 @@ TEXT_QUALITY_PATTERNS = {
         re.I,
     ),
     "checkbox_artifact": re.compile(r"(?:\s|_)[xX]{1,2}\s*$"),
+    # Rotated table scans sometimes pull marks and headings from adjacent columns into
+    # the asset-name cell.  These are review signals, not automatic normalizations:
+    # every correction must still be read against the filed page image.
+    "embedded_grid_debris": re.compile(r"[=—]|(?:^|\s)[xX](?:\s|$|[!.,;])"),
+    "mixed_case_ocr_artifact": re.compile(r"(?:^[a-z]|[a-z][A-Z]|[A-Z][a-z][A-Z])"),
+    "embedded_owner_code": re.compile(r"(?:^|\s)(?:SP|DC|JT)(?=\s|[._])"),
+    "repeated_security_marker": re.compile(
+        r"\b(?:CMN|COMMON STOCK)\b.*\b(?:CMN|COMMON STOCK)\b", re.I
+    ),
 }
 TEXT_FRAGMENT_NAMES = {
     "CMN", "ICMN", "PERPETUAL", "STOCK", "COMMON STOCK", "IN CMN", "CMN CLASS A",

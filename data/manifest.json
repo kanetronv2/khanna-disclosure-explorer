@@ -29,74 +29,74 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26198053,
+      "bytes": 26197808,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
       "records": 116039,
-      "sha256": "59d9261ae4797dfa9c1db97eade76d3c3c52f30e47fa3c72d48a2f4ffd4ab29a"
+      "sha256": "f10be187e3d95fe162eeb436e05c2ecc95e8714b69bc45c62717c4302dde7ec1"
     },
     {
-      "bytes": 96396676,
+      "bytes": 96396427,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
       "records": 116039,
-      "sha256": "37a34940b863066d4ae597e9aec089cddf67ef3732ef9c575f08949502898816"
+      "sha256": "bd15fdba4db1e7e8bba5c7bd9fb1c81e6efb8e15889b5bb98e769596ed177d5c"
     },
     {
       "bytes": 1195101,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "a05aaa7752677c758080f8d7dbd79b1cd5380d78c4ba6b73bea5130d00909cca"
+      "sha256": "8d69aa7dae588ee532db92bfed03b4373da7967919fb1087566b2f8654caf6c2"
     },
     {
       "bytes": 2296634,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "20047751ec6e7175a5eaebf6b187f80bb6b3b2893dd0eed49cfc1e4632588e62"
+      "sha256": "2a4f879e3b1626784f6cf480f8155041f87667d09de5603e5026bae3957b2eb6"
     },
     {
-      "bytes": 14594638,
+      "bytes": 14594962,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
       "records": 48903,
-      "sha256": "2615a7a136ce5ff11bb5311f5e0195d8ac4e24929d2330b38cdebc4bb2ca977e"
+      "sha256": "635c7766ba58e95e4e04941d9e4059143c9d25fb0ad6ea40cc50e3e7fde36754"
     },
     {
-      "bytes": 38514152,
+      "bytes": 38514414,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
       "records": 48903,
-      "sha256": "5faee2df862e1728e313ae93f116738efadcc188e20b4202b036642a1ee9f5d1"
+      "sha256": "f0fc8f1b8b87d583ffac14843839de56f4b8655a9171426455d7847800c13645"
     },
     {
-      "bytes": 5098672,
+      "bytes": 5100578,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18064,
-      "sha256": "51df4b88479262f9ae37bfbfd05a7d33ce8917ed654ba4a55c9104f7248e0778"
+      "records": 18070,
+      "sha256": "2a8e5d11cd8dfbcb4ae38d829dc9efba7191292cc9c29d29c3f0b8bd3421ef12"
     },
     {
-      "bytes": 6753458,
+      "bytes": 6755910,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18064,
-      "sha256": "e51964973fd90dd254eb9f896b30aa21f4b28a9a8e1456abeef78660d1c33338"
+      "records": 18070,
+      "sha256": "81f722ff985dcab8b62a14494c0178ab0d64c23aa4484180371a1b038e5a8be5"
     },
     {
-      "bytes": 3019,
+      "bytes": 3317,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "4e514138016290fc5ebe7d656bfd99d5414e7f3260540497f81f772b220c0395"
+      "sha256": "e7cac0a3afb09521c51032073834a11cffe6c6875ba58da0be0520871c2cdea0"
     },
     {
-      "bytes": 1093707,
+      "bytes": 1319629,
       "format": "json",
       "path": "data/text-quality-audit.json",
-      "records": 2493,
-      "sha256": "1e0cc815a441d74621b566a26311134d47dc3df52876ae4a492f685dcfd098b6"
+      "records": 2987,
+      "sha256": "99516ee07f05b6b11f25a7f3f40c041cb47023cde9abd916a48fc6d28647ae20"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -117,7 +117,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18064
+      "uncertainties": 18070
     },
     "owner_code_distribution": {
       "DC": 35409,
@@ -147,16 +147,20 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 2493,
+    "text_quality_findings": 2987,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 1951,
-      "checkbox_artifact": 84,
+      "checkbox_artifact": 81,
       "duplicated_text": 3,
       "embedded_account_header": 20,
+      "embedded_grid_debris": 295,
+      "embedded_owner_code": 155,
       "implausibly_long": 7,
+      "mixed_case_ocr_artifact": 567,
       "multiple_option_contracts": 2,
       "ocr_assisted_page": 1444,
-      "ocr_table_debris": 12,
+      "ocr_table_debris": 11,
+      "repeated_security_marker": 71,
       "standalone_fragment": 59
     },
     "valid_page_source_json": 4410,

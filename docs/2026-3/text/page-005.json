@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JPMORGAN CHASE & CO CMN sf sx",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE PROCTER & GAMBLE COMPANY A = CMN",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AUTOMATIC DATA PROCESSING INC ; \u2014 CMN",
+      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KKR&CO INC. CMN",
+      "asset_name": "KKR & CO INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "(AUTODESK INC CMN",
+      "asset_name": "AUTODESK INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTUREPLC CMNCLASSA x \u2014",
+      "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INCYTE CORPORATION CMN x l",
+      "asset_name": "INCYTE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -199,6 +199,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from the directly verified labels on this page; rows that combine two printed assets remain separately identified structural issues."
+    },
     {
       "row": 10,
       "field": "notification_date",

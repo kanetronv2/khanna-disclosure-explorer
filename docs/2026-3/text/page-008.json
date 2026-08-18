@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "fINTL BUSINESS MACHINES CORP CMN",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "META PLATFORMS INC CLASS A CMN y \u2014 CLASSA",
+      "asset_name": "META PLATFORMS INC CLASS A CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "\u2014 TAKE TWO INTERACTIVE SOFTWARE INC",
+      "asset_name": "TAKE-TWO INTERACTIVE SOFTWARE INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "iNIKE CLASS B CMN CLASS B",
+      "asset_name": "NIKE CLASS B CMN CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SoS SS > a an = = CENCORA INC CMN \u2014",
+      "asset_name": "CENCORA INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RAYMOND JAMES FINANCIAL INC \u2014=\u2014\u2014= = CMN - lx",
+      "asset_name": "RAYMOND JAMES FINANCIAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI q \u2014 \u201c CMN",
+      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "!VULCAN MATERIALS CO CMN",
+      "asset_name": "VULCAN MATERIALS CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "/STATE STREET CORPORATION (NEW) = os jCMN",
+      "asset_name": "STATE STREET CORPORATION (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETISINC CMNCLASSA",
+      "asset_name": "ZOETIS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -210,6 +210,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan; the Medtronic/Edwards entry remains a separately identified merged-row issue."
+    },
     {
       "row": null,
       "field": "checkbox_columns",

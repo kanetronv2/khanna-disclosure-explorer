@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARSH ORD CMN x!",
+      "asset_name": "MARSH ORD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTERCONTINENTAL EXCHANGE INC 1 \u2014 \u2014 \u2014 \u2014 CMN",
+      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMERICAN TOWER CORPORATION \u2014\u2014\u2014 > = a ee a CMN eee ee 1",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMNTAS CORPORATION CMN 2",
+      "asset_name": "CINTAS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,6 +144,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan."
+    },
     {
       "row": 11,
       "field": "notification_date",
