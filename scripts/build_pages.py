@@ -628,7 +628,7 @@ def overview_methodology(ctx, summary, year):
         '<li><b>Household scope.</b> The filing covers the member, spouse, and dependent children.</li>'
         '<li><b>Independent and unofficial.</b> Verify consequential findings against the linked scans.</li>'
         '</ul>'
-        '<h3>Common questions</h3>'
+        '<div class="faq-heading"><span>FAQ</span><h3>Common questions</h3></div>'
         f'<dl class="faq">{faqs}</dl>'
         f'<p class="note">Dataset through {esc(pretty_month(ctx.data_through) or "the latest loaded filing")}; '
         f'updated <time datetime="{esc(ctx.modified)}">{esc(ctx.modified)}</time>. '

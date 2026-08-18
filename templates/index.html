@@ -227,6 +227,14 @@
   .detail-body h2,.reading-body h3{font-size:16px;margin:0 0 5px}
   .asset-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
   .reading-body p{max-width:78ch;color:#3c4453;font-size:13.5px;line-height:1.6}
+  .reading-body .faq-heading{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
+  .reading-body .faq-heading span{display:block;color:var(--accent);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+  .reading-body .faq-heading h3{font-size:17px;margin:2px 0 0;letter-spacing:-.01em}
+  .reading-body .faq{margin:11px 0 0;max-width:84ch;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(16,24,40,.03)}
+  .reading-body .faq dt{position:relative;margin:0;padding:14px 18px 4px 50px;border-top:1px solid var(--line);font-size:14px;font-weight:750;line-height:1.4;color:var(--ink)}
+  .reading-body .faq dt:first-of-type{border-top:0}
+  .reading-body .faq dt::before{content:"Q";position:absolute;left:16px;top:13px;display:grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--accent-soft);color:var(--accent);font-size:10px;font-weight:850;line-height:1}
+  .reading-body .faq dd{margin:0;padding:0 18px 15px 50px;color:#3c4453;font-size:13.5px;line-height:1.6;max-width:none}
 
   .findings{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
   .finding{position:relative;border:1px solid var(--line);border-radius:11px;padding:15px;background:#fcfcfd;min-height:145px}
@@ -387,6 +395,10 @@
     .asset-detail-grid{grid-template-columns:1fr;gap:20px}
     .detail-panel>summary,.reading-panel>summary{padding:13px 14px}
     .detail-body,.reading-body{padding:14px}
+    .reading-body .faq-heading{margin-top:20px;padding-top:17px}
+    .reading-body .faq dt{padding:13px 13px 4px 45px}
+    .reading-body .faq dt::before{left:13px;top:12px}
+    .reading-body .faq dd{padding:0 13px 14px 45px}
 
     .fbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px}
     .filter-field,.filter-field.search-field,.filter-field.portfolio-field{min-width:0;flex:none}
