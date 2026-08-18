@@ -4,16 +4,16 @@
   "finding_count": 2987,
   "rule_counts": {
     "ambiguous_transaction_columns": 1951,
-    "checkbox_artifact": 80,
+    "checkbox_artifact": 79,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 281,
+    "embedded_grid_debris": 275,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 561,
+    "mixed_case_ocr_artifact": 557,
     "multiple_option_contracts": 2,
     "ocr_assisted_page": 1444,
-    "ocr_table_debris": 10,
+    "ocr_table_debris": 8,
     "repeated_security_marker": 71,
     "standalone_fragment": 59
   },
@@ -30599,7 +30599,7 @@
       "row_number": 2,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "GENIUS SPORTS LTD CMN ft",
+      "asset_name": "GENIUS SPORTS LTD CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30614,12 +30614,10 @@
       "row_number": 3,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "ALBERTSONS COMPANIES INC CMN —— = = <== CLASSA",
+      "asset_name": "ALBERTSONS COMPANIES INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "ocr_assisted_page",
-        "ocr_table_debris"
+        "ocr_assisted_page"
       ],
       "severity": "warning"
     },
@@ -30631,10 +30629,9 @@
       "row_number": 4,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "cisco SYSTEMS INC. CMN",
+      "asset_name": "CISCO SYSTEMS INC. CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30647,7 +30644,7 @@
       "row_number": 5,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "THEHOME DEPOT INC CMN Pe eee",
+      "asset_name": "THE HOME DEPOT INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30662,10 +30659,9 @@
       "row_number": 6,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "SCIENTII x 0 04/0: JPMORGAN CHASE & CO CMN",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30678,11 +30674,9 @@
       "row_number": 7,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "GENERAL MILLS INC CMN x",
+      "asset_name": "GENERAL MILLS INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30695,10 +30689,9 @@
       "row_number": 8,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "PAYCHEX INC CMN —",
+      "asset_name": "PAYCHEX INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30711,12 +30704,10 @@
       "row_number": 9,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "CONSTELLATION BRANDS INC CMN = = === ——T— at in te CLASSA",
+      "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "ocr_assisted_page",
-        "ocr_table_debris"
+        "ocr_assisted_page"
       ],
       "severity": "warning"
     },
@@ -30743,10 +30734,9 @@
       "row_number": 11,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "MONSTER BEVERAGE CORPORATION cMN tx",
+      "asset_name": "MONSTER BEVERAGE CORPORATION CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30759,10 +30749,9 @@
       "row_number": 12,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "copART INC CMN",
+      "asset_name": "COPART INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30790,11 +30779,9 @@
       "row_number": 14,
       "page_id": "page:2026-3:0015",
       "source_json_path": "docs/2026-3/text/page-015.json",
-      "asset_name": "WATERS CORPORATION COMMON i sTOCK =",
+      "asset_name": "WATERS CORPORATION COMMON STOCK",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"

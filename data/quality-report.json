@@ -15,7 +15,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18076
+      "uncertainties": 18077
     },
     "owner_code_distribution": {
       "DC": 35409,
@@ -48,16 +48,16 @@
     "text_quality_findings": 2987,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 1951,
-      "checkbox_artifact": 80,
+      "checkbox_artifact": 79,
       "duplicated_text": 3,
       "embedded_account_header": 20,
-      "embedded_grid_debris": 281,
+      "embedded_grid_debris": 275,
       "embedded_owner_code": 155,
       "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 561,
+      "mixed_case_ocr_artifact": 557,
       "multiple_option_contracts": 2,
       "ocr_assisted_page": 1444,
-      "ocr_table_debris": 10,
+      "ocr_table_debris": 8,
       "repeated_security_marker": 71,
       "standalone_fragment": 59
     },
@@ -119,16 +119,16 @@
       "report": "data/text-quality-audit.json",
       "rule_counts": {
         "ambiguous_transaction_columns": 1951,
-        "checkbox_artifact": 80,
+        "checkbox_artifact": 79,
         "duplicated_text": 3,
         "embedded_account_header": 20,
-        "embedded_grid_debris": 281,
+        "embedded_grid_debris": 275,
         "embedded_owner_code": 155,
         "implausibly_long": 7,
-        "mixed_case_ocr_artifact": 561,
+        "mixed_case_ocr_artifact": 557,
         "multiple_option_contracts": 2,
         "ocr_assisted_page": 1444,
-        "ocr_table_debris": 10,
+        "ocr_table_debris": 8,
         "repeated_security_marker": 71,
         "standalone_fragment": 59
       },

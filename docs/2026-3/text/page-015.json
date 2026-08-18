@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GENIUS SPORTS LTD CMN ft",
+      "asset_name": "GENIUS SPORTS LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALBERTSONS COMPANIES INC CMN \u2014\u2014 = = <== CLASSA",
+      "asset_name": "ALBERTSONS COMPANIES INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "cisco SYSTEMS INC. CMN",
+      "asset_name": "CISCO SYSTEMS INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THEHOME DEPOT INC CMN Pe eee",
+      "asset_name": "THE HOME DEPOT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SCIENTII x 0 04/0: JPMORGAN CHASE & CO CMN",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GENERAL MILLS INC CMN x",
+      "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PAYCHEX INC CMN \u2014",
+      "asset_name": "PAYCHEX INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CONSTELLATION BRANDS INC CMN = = === \u2014\u2014T\u2014 at in te CLASSA",
+      "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MONSTER BEVERAGE CORPORATION cMN tx",
+      "asset_name": "MONSTER BEVERAGE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "copART INC CMN",
+      "asset_name": "COPART INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WATERS CORPORATION COMMON i sTOCK =",
+      "asset_name": "WATERS CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,6 +166,7 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {"row": null, "field": "asset_name", "read": "page-level cleanup", "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan."},
     {
       "row": null,
       "field": "checkbox_columns",
