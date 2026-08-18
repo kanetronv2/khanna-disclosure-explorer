@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ORACLE CORPORATIONCMN",
+      "asset_name": "ORACLE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "a a os i) Hy ne NIKE CLASS 8 CMN CLASS B",
+      "asset_name": "NIKE CLASS B CMN CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHARLES SCHWAB CORPORATION 7 CMN",
+      "asset_name": "CHARLES SCHWAB CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APOLLO GLOBAL MANAGEMENT INC \u2014 = = CMN CLASS A",
+      "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -82,7 +82,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "03/10/2025",
+      "date": "03/10/2026",
       "notification_date": "04/02/2026",
       "amount": "$1,001-$15,000"
     },
@@ -166,6 +166,18 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan; the Alexandria/Amcor, Boston Scientific/Uber, and ICE/Amazon entries remain separately identified merged-row issues."
+    },
+    {
+      "row": 7,
+      "field": "date",
+      "read": "03/10/2026",
+      "note": "Corrected the year from 2025 after direct review of the filed page scan."
+    },
     {
       "row": null,
       "field": "checkbox_columns",

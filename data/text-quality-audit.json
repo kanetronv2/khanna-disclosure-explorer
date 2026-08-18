@@ -7,10 +7,10 @@
     "checkbox_artifact": 81,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 285,
+    "embedded_grid_debris": 284,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 564,
+    "mixed_case_ocr_artifact": 563,
     "multiple_option_contracts": 2,
     "ocr_assisted_page": 1444,
     "ocr_table_debris": 10,
@@ -30148,7 +30148,7 @@
       "row_number": 2,
       "page_id": "page:2026-3:0013",
       "source_json_path": "docs/2026-3/text/page-013.json",
-      "asset_name": "ORACLE CORPORATIONCMN",
+      "asset_name": "ORACLE CORPORATION CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30178,10 +30178,9 @@
       "row_number": 4,
       "page_id": "page:2026-3:0013",
       "source_json_path": "docs/2026-3/text/page-013.json",
-      "asset_name": "a a os i) Hy ne NIKE CLASS 8 CMN CLASS B",
+      "asset_name": "NIKE CLASS B CMN CLASS B",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30194,7 +30193,7 @@
       "row_number": 5,
       "page_id": "page:2026-3:0013",
       "source_json_path": "docs/2026-3/text/page-013.json",
-      "asset_name": "CHARLES SCHWAB CORPORATION 7 CMN",
+      "asset_name": "CHARLES SCHWAB CORPORATION CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30224,10 +30223,9 @@
       "row_number": 7,
       "page_id": "page:2026-3:0013",
       "source_json_path": "docs/2026-3/text/page-013.json",
-      "asset_name": "APOLLO GLOBAL MANAGEMENT INC — = = CMN CLASS A",
+      "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"

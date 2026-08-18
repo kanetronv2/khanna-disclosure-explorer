@@ -29,74 +29,74 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26197686,
+      "bytes": 26197661,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
       "records": 116039,
-      "sha256": "6f369205db7d9c93c2a53911260aab8a37e4da7e91d9b12f1de0b52ca211f680"
+      "sha256": "383db0a8e524ee0c820261d7b71128551f2657cd12b4532e2b6f04e27c72a6a1"
     },
     {
-      "bytes": 96396305,
+      "bytes": 96396280,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
       "records": 116039,
-      "sha256": "db7645c1a716c7cbea906802428bf44de2010891a8bca8a27d6f15faebe698d6"
+      "sha256": "2c6924b2d73404407b08c76c7ef7a7e1da78b028f33994f69b848eefe96db121"
     },
     {
       "bytes": 1195101,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "5df1faac6ca39a41357001185d804e2d672a0a47ad8b8f5a4bd2a122f90c5e15"
+      "sha256": "e4198c2c075d8ae6ea702e34e8ae84c4ab9f9b8a9675b1d94437e7b5cdeb7237"
     },
     {
       "bytes": 2296634,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "44553990831b0d77174c2e138c9c116f2e1be65b01137cdfd6643013cc556630"
+      "sha256": "ca16981eaf60cdccc676bd50220ecf6df8e0468583728f0f84381f69ad68d96e"
     },
     {
-      "bytes": 14594932,
+      "bytes": 14594936,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
       "records": 48903,
-      "sha256": "db7da0e15cc50f2d052e6fbf96b01465fd1813b9b2a1eede5e5a5b8d1c13b5cd"
+      "sha256": "b1c36b97ff7fdf7d53fb9b2826af18b86afe6ff466489fd01fffb2df590b9bdf"
     },
     {
       "bytes": 38514364,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
       "records": 48903,
-      "sha256": "e507aa08733b6152bae080adc20d1fb0dc2e1fdb8a743e8381605ab7ce72d39a"
+      "sha256": "6af196519fe17d9aadf6449503ed73adf80ba3e02698ed22f720694da70be63e"
     },
     {
-      "bytes": 5101489,
+      "bytes": 5102117,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18073,
-      "sha256": "f911bc0ac5e45152865ae6be03440b537501f925e4708b3c0c397553e727812b"
+      "records": 18075,
+      "sha256": "a0ee8f9f229688294745b62147688e54e84f571d550b1ff0c1194a3c41f2d206"
     },
     {
-      "bytes": 6757094,
+      "bytes": 6757904,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18073,
-      "sha256": "4ca6ff2f4685ba30e250a2a8aac48169806c3a8c08e7eacbfc26d7735ef81987"
+      "records": 18075,
+      "sha256": "1642ec8ec6a61582c8c600661f72fd09e9cdd78705a639ff515fdfe3965a415c"
     },
     {
       "bytes": 3317,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "e74eb46bb71653732e1ad432ca6a77058b1a09b210ebd56de7e5ec957df8cd15"
+      "sha256": "b7ae9be27619f0b6a72de4827ff92be78c1ed9cf93a616082146f10f697cde60"
     },
     {
-      "bytes": 1319061,
+      "bytes": 1318969,
       "format": "json",
       "path": "data/text-quality-audit.json",
       "records": 2987,
-      "sha256": "d071b488b0afa6c8e0036f24ee7e00431a97287cb233a59cc4d639039657f108"
+      "sha256": "ee224edc466cd3dbf52928a0154584afea01dcae50dccf8d3db2165a96ca488f"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -117,7 +117,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18073
+      "uncertainties": 18075
     },
     "owner_code_distribution": {
       "DC": 35409,
@@ -153,10 +153,10 @@
       "checkbox_artifact": 81,
       "duplicated_text": 3,
       "embedded_account_header": 20,
-      "embedded_grid_debris": 285,
+      "embedded_grid_debris": 284,
       "embedded_owner_code": 155,
       "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 564,
+      "mixed_case_ocr_artifact": 563,
       "multiple_option_contracts": 2,
       "ocr_assisted_page": 1444,
       "ocr_table_debris": 10,
