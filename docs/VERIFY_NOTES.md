@@ -248,3 +248,14 @@ count, endpoints, dates, and account boundaries agreed. The rebuild restored omi
 removed duplicated and merged OCR fragments, corrected shifted purchase/sale and amount
 columns, and put account separators back at their printed positions. The document now
 contains 840 transactions and produces no high-signal text-quality finding for `2025-4`.
+
+**`docs/2022-4` transaction-table re-verification (Aug 2026):** pages 003–010 were read
+against the filed PTR scans after the existing transcription was found to contain dozens of
+OCR pseudo-rows, merged labels, and shifted or unknown transaction columns. The first 498
+transactions were aligned to matching March rows in the 2022 annual Schedule B only after
+the scan's page endpoints and complete row runs agreed; the scan remained authoritative for
+page breaks, row order, account separators, owners, and the printed 04/04/2022 notification
+date. Page 010's three repeated 12-row blocks were independently matched and reordered to
+their printed sequence. The rebuild replaces pages 003–010 with 534 scan-verified
+transactions, preserves the five already verified page-002 transactions, and leaves the
+document with 539 transactions and no text-quality finding for `2022-4`.

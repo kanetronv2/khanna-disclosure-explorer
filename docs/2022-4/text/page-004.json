@@ -7,4526 +7,496 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Dec Josety BUAING SU MAC UNS CORP EMM",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "WEX INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ene FOTA CORA COMPANY (OEY CN",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ToT faye DATA PRC ISN INC CMA",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ADE CAME COMPDBATIOO CaN CLAS A Uri, OT",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "faa cone cut",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "fave sea esate at net (Mag",
-      "tx_type": "[UNKNOWN]",
+      "asset_name": "T. ROWE PRICE GROUP, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "L fain Ae eemess Co en",
-      "tx_type": "[UNKNOWN]",
+      "asset_name": "INTL FLAVORS & FRAGRANCE CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Teme re naniny Sacre wee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "faaese iicmewtay merci",
-      "tx_type": "[UNKNOWN]",
+      "asset_name": "AMERIPRISE FINANCIAL, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PRAM AOS TEN ee Cae -- .1",
-      "tx_type": "[UNKNOWN]",
+      "asset_name": "EMERSON ELECTRIC CO. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "rotury aan ae ies aie ee 5 nen Ee",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "KLA CORP CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Joon, eine sx arene CRE Ee Ne ao ae LT ey co",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "LEAR CORPORATION CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "farce tena ox tary ost I EH ae",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "DUPONT DE NEMOURS INC CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "paar twa coma ion cuene O a Sa OE SA SUT - any Seen",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "COPART INC CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "moder coennea nos cn rn I ee aoe eer tiie lea \u201coannyia",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "aime eM Saieieeeeaanenetaied ter - eh Sayin! oyowast",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "LIVE NATION ENTERTAINMENT INC CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "comcast COMPRA CHAN CLARY A QT woo tte te piveut papal\u201d Te",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "RAYMOND JAMES FINANCIAL, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Tfun amprcia DoT ois Ie - ret oyeyny",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "TRIMBLE INC CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "fournayt 6 ber nscneny ine atte ooo oo TE TT ot naa? L",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "TWILIO INC, CMN CLASS A",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "toe ae 88 SS SEE ee",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "CITIGROUP INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ach a1 et LL CM us eo oo ) es ny Sc LT f ow Tis",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "VERISIGN, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Tha nieneit weunany, act a a a UN ROR -- - - en eeyn",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "BIO TECHNE CORP CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Pull Aone Ree Tremeacien Fressacten, dommert, ot YranameDar",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "a s + . \u00a5 \u2018 b a oo 1 \u20ac",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Fewmame fan w w Sputeener or",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Cupra fan s2o01 stant. senor. Sroqamt. grsmogr. sionon. srparod. sxcoaam. x74 900 c0I- Ove Denenctent Chit danet over",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ea pease ari a a an eR SA LT OO ie",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "a2 C Avil ME CM, U . CT a el aD a",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "J 1 BITE? pata",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "CARRRLL CMAP ANY (CHT) CMM . 4 : tga Bia rif 22 O ee en",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "* 7 . ag ney et Bapry zh) : ~",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "\u201c niod/t2 tairiya",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": ": Hi : pyiwn oyeyii",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "5 fl birisfaa Oayery 32, 2",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "nl of anaiyii) papery, r",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "uw s \u00bb CU) 2",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "2 * Colvin many 32 * 4",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "z Dy T 2 . ii",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ey wyT? 2",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "oc ja 11072, Oar /27 :",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "DE VIA HOLDINGS IWC Coat Syiey22) eare77, 1 y",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "on O VARREES CORP. Chis mm L2 cts fA",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Cloner Tiegh SARI EN COR, TR py? panna? < ana",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Aves ee Cae quypoytay eayoniza . a",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "De Joety BUPUNE SY MEAS runt CORP OM \u00ab",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Or tor a CORA Conan jut) CAN",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Mm ee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Sige",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "oc eee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "7 ee s Pate",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "a OE UN RAN LN te eee fee - LL)",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "OL SSA AMNTID Chae - ee eee ee as Ss wie - yy?",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ON LARAMIE FAECAL LOUD IES EY * Oureyre",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "~- RL mate Joe Jew oe atl oi",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "* Cn a ~ pe paya7",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "eT an ae a russgal",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Suga",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "OC fea coer Cet ee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "BC tide CrmPCRAT ICN CN",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ME OUI OF Der MCR ihe CBee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "me bd",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "a a ee",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "ML ite aT ENTE BTA: ef . roof",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "2 FH RATAN LAME SLAC EAL, eC 4 OD tf",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "PB Ll Ring So s",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Ci CLAS \u00ab",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "YOR OUP INC CR",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Cpt nsacae et CM",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Cet Lo",
-      "tx_type": "[UNKNOWN]",
-      "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
-      "partial_sale": false
-    },
-    {
-      "kind": "tx",
-      "owner": "[UNKNOWN]",
+      "owner": "DC",
       "asset_name": "CHARLES RIV LABS INTL INC CMN",
-      "tx_type": "[UNKNOWN]",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Fy ESA NTIAL Coan",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "EQUITY RESIDENTIAL CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "n ett",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "SOUTHWEST AIRLINES CO CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "RaRRRR",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "INTERPUBLIC GROUP COS CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Ptbla",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "ULTA BEAUTY INC CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Fi lakid Case Sealed",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "AMERICAN EXPRESS CO. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "Telia",
-      "tx_type": "[UNKNOWN]",
+      "owner": "DC",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[UNKNOWN]",
+      "date": "03/10/2022",
       "notification_date": "04/04/2022",
-      "amount": "[UNKNOWN]",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SNAP INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TE CONNECTIVITY LTD CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TAPESTRY, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "UNITED RENTALS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TARGET CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ANSYS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ahuja Khanna Children Irrevocable Trust"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LULULEMON ATHLETICA INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LIBERTY MEDIA GROUP SERIES C LIBERTY MEDIA GROUP",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SPOTIFY TECHNOLOGY S.A. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SKYWORKS SOLUTIONS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "STONECO LTD CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AVERY DENNISON CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "T-MOBILE US, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "JUNIPER NETWORKS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ALIGN TECHNOLOGY, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SYSCO CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COOPER COMPANIES INC (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "EPAM SYSTEMS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "03/10/2022",
+      "notification_date": "04/04/2022",
+      "amount": "$1,001-$15,000",
       "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "Dec Josety BUAING SU MAC UNS CORP EMM",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 1,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 1,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 2,
-      "field": "asset_name",
-      "read": "ene FOTA CORA COMPANY (OEY CN",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 2,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 2,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 3,
-      "field": "asset_name",
-      "read": "ToT faye DATA PRC ISN INC CMA",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 3,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 3,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "ADE CAME COMPDBATIOO CaN CLAS A Uri, OT",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 4,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 4,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "faa cone cut",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 5,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 5,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "fave sea esate at net (Mag",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 6,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "L fain Ae eemess Co en",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 7,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 7,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "Teme re naniny Sacre wee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 8,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 8,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "faaese iicmewtay merci",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 9,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "PRAM AOS TEN ee Cae -- .1",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 10,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 10,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "rotury aan ae ies aie ee 5 nen Ee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 11,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 11,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "Joon, eine sx arene CRE Ee Ne ao ae LT ey co",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 12,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "farce tena ox tary ost I EH ae",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 13,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 13,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 14,
-      "field": "asset_name",
-      "read": "paar twa coma ion cuene O a Sa OE SA SUT - any Seen",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 14,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 14,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 15,
-      "field": "asset_name",
-      "read": "moder coennea nos cn rn I ee aoe eer tiie lea \u201coannyia",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 15,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 15,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "aime eM Saieieeeeaanenetaied ter - eh Sayin! oyowast",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 16,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "comcast COMPRA CHAN CLARY A QT woo tte te piveut papal\u201d Te",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 17,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 17,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 18,
-      "field": "asset_name",
-      "read": "Tfun amprcia DoT ois Ie - ret oyeyny",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 18,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 18,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 19,
-      "field": "asset_name",
-      "read": "fournayt 6 ber nscneny ine atte ooo oo TE TT ot naa? L",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 19,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 19,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 19,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 20,
-      "field": "asset_name",
-      "read": "toe ae 88 SS SEE ee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 20,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 20,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 20,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 21,
-      "field": "asset_name",
-      "read": "ach a1 et LL CM us eo oo ) es ny Sc LT f ow Tis",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 21,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 21,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 21,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 22,
-      "field": "asset_name",
-      "read": "Tha nieneit weunany, act a a a UN ROR -- - - en eeyn",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 22,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 22,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 22,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 23,
-      "field": "asset_name",
-      "read": "Pull Aone Ree Tremeacien Fressacten, dommert, ot YranameDar",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 23,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 23,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 23,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 24,
-      "field": "asset_name",
-      "read": "a s + . \u00a5 \u2018 b a oo 1 \u20ac",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 24,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 24,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 24,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 25,
-      "field": "asset_name",
-      "read": "Fewmame fan w w Sputeener or",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 25,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 25,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 25,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 26,
-      "field": "asset_name",
-      "read": "Cupra fan s2o01 stant. senor. Sroqamt. grsmogr. sionon. srparod. sxcoaam. x74 900 c0I- Ove Denenctent Chit danet over",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 26,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 26,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 26,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 27,
-      "field": "asset_name",
-      "read": "ea pease ari a a an eR SA LT OO ie",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 27,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 27,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 27,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 28,
-      "field": "asset_name",
-      "read": "a2 C Avil ME CM, U . CT a el aD a",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 28,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 28,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 28,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 29,
-      "field": "asset_name",
-      "read": "J 1 BITE? pata",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 29,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 29,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 29,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 30,
-      "field": "asset_name",
-      "read": "CARRRLL CMAP ANY (CHT) CMM . 4 : tga Bia rif 22 O ee en",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 30,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 30,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 30,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 31,
-      "field": "asset_name",
-      "read": "* 7 . ag ney et Bapry zh) : ~",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 31,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 31,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 31,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 32,
-      "field": "asset_name",
-      "read": "\u201c niod/t2 tairiya",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 32,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 32,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 32,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 33,
-      "field": "asset_name",
-      "read": ": Hi : pyiwn oyeyii",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 33,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 33,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 33,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 34,
-      "field": "asset_name",
-      "read": "5 fl birisfaa Oayery 32, 2",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 34,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 34,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 34,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 35,
-      "field": "asset_name",
-      "read": "nl of anaiyii) papery, r",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 35,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 35,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 35,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 36,
-      "field": "asset_name",
-      "read": "uw s \u00bb CU) 2",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 36,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 36,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 36,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 37,
-      "field": "asset_name",
-      "read": "2 * Colvin many 32 * 4",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 37,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 37,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 37,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 38,
-      "field": "asset_name",
-      "read": "z Dy T 2 . ii",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 38,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 38,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 38,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 39,
-      "field": "asset_name",
-      "read": "ey wyT? 2",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 39,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 39,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 39,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 40,
-      "field": "asset_name",
-      "read": "oc ja 11072, Oar /27 :",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 40,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 40,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 40,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 41,
-      "field": "asset_name",
-      "read": "DE VIA HOLDINGS IWC Coat Syiey22) eare77, 1 y",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 41,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 41,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 41,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 42,
-      "field": "asset_name",
-      "read": "on O VARREES CORP. Chis mm L2 cts fA",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 42,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 42,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 42,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 43,
-      "field": "asset_name",
-      "read": "Cloner Tiegh SARI EN COR, TR py? panna? < ana",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 43,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 43,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 43,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 44,
-      "field": "asset_name",
-      "read": "Aves ee Cae quypoytay eayoniza . a",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 44,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 44,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 44,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 45,
-      "field": "asset_name",
-      "read": "De Joety BUPUNE SY MEAS runt CORP OM \u00ab",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 45,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 45,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 45,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 46,
-      "field": "asset_name",
-      "read": "Or tor a CORA Conan jut) CAN",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 46,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 46,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 46,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 47,
-      "field": "asset_name",
-      "read": "AUTOMATIC DATA PROCESSING INC CMN",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 47,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 47,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 47,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 48,
-      "field": "asset_name",
-      "read": "Mm ee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 48,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 48,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 48,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 49,
-      "field": "asset_name",
-      "read": "Sige",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 49,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 49,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 49,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 50,
-      "field": "asset_name",
-      "read": "oc eee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 50,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 50,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 50,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 51,
-      "field": "asset_name",
-      "read": "7 ee s Pate",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 51,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 51,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 51,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 52,
-      "field": "asset_name",
-      "read": "a OE UN RAN LN te eee fee - LL)",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 52,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 52,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 52,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 53,
-      "field": "asset_name",
-      "read": "OL SSA AMNTID Chae - ee eee ee as Ss wie - yy?",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 53,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 53,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 53,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 54,
-      "field": "asset_name",
-      "read": "ON LARAMIE FAECAL LOUD IES EY * Oureyre",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 54,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 54,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 54,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 55,
-      "field": "asset_name",
-      "read": "~- RL mate Joe Jew oe atl oi",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 55,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 55,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 55,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 56,
-      "field": "asset_name",
-      "read": "* Cn a ~ pe paya7",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 56,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 56,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 56,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 57,
-      "field": "asset_name",
-      "read": "eT an ae a russgal",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 57,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 57,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 57,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 58,
-      "field": "asset_name",
-      "read": "Suga",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 58,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 58,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 58,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 59,
-      "field": "asset_name",
-      "read": "OC fea coer Cet ee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 59,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 59,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 59,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 60,
-      "field": "asset_name",
-      "read": "BC tide CrmPCRAT ICN CN",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 60,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 60,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 60,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 61,
-      "field": "asset_name",
-      "read": "ME OUI OF Der MCR ihe CBee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 61,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 61,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 61,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 62,
-      "field": "asset_name",
-      "read": "me bd",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 62,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 62,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 62,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 63,
-      "field": "asset_name",
-      "read": "a a ee",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 63,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 63,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 63,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 64,
-      "field": "asset_name",
-      "read": "ML ite aT ENTE BTA: ef . roof",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 64,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 64,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 64,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 65,
-      "field": "asset_name",
-      "read": "2 FH RATAN LAME SLAC EAL, eC 4 OD tf",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 65,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 65,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 65,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 66,
-      "field": "asset_name",
-      "read": "PB Ll Ring So s",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 66,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 66,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 66,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 67,
-      "field": "asset_name",
-      "read": "Ci CLAS \u00ab",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 67,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 67,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 67,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 68,
-      "field": "asset_name",
-      "read": "YOR OUP INC CR",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 68,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 68,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 68,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 69,
-      "field": "asset_name",
-      "read": "Cpt nsacae et CM",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 69,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 69,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 69,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 70,
-      "field": "asset_name",
-      "read": "Cet Lo",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 70,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 70,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 70,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 71,
-      "field": "asset_name",
-      "read": "CHARLES RIV LABS INTL INC CMN",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 71,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 71,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 71,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 72,
-      "field": "asset_name",
-      "read": "Fy ESA NTIAL Coan",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 72,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 72,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 72,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 73,
-      "field": "asset_name",
-      "read": "n ett",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 73,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 73,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 73,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 74,
-      "field": "asset_name",
-      "read": "RaRRRR",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 74,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 74,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 74,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 75,
-      "field": "asset_name",
-      "read": "Ptbla",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 75,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 75,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 75,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 76,
-      "field": "asset_name",
-      "read": "Fi lakid Case Sealed",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 76,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 76,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 76,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 77,
-      "field": "asset_name",
-      "read": "Telia",
-      "note": "Best OCR/fuzzy recovery from noisy scan; verify against hires page."
-    },
-    {
-      "row": 77,
-      "field": "date",
-      "read": null,
-      "note": "Date cell not confidently recoverable from current OCR/crop; visible on scan but too degraded for safe transcription."
-    },
-    {
-      "row": 77,
-      "field": "tx_type",
-      "read": null,
-      "note": "Transaction type checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 77,
-      "field": "amount",
-      "read": null,
-      "note": "Amount checkbox not confidently recoverable from current OCR/crop."
-    },
-    {
-      "row": 1,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 1,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 1,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 2,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 2,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 2,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 3,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 3,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 3,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 4,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 4,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 4,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 5,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 5,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 5,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 6,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 7,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 7,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 8,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 8,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 8,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 9,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 10,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 10,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 11,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 11,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 11,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 12,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 12,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 13,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 13,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 13,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 14,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 14,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 14,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 15,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 15,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 15,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 16,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 16,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 17,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 17,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 17,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 18,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 18,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 18,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 19,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 19,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 19,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 19,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 20,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 20,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 20,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 20,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 21,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 21,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 21,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 21,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 22,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 22,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 22,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 22,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 23,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 23,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 23,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 23,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 24,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 24,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 24,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 24,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 25,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 25,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 25,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 25,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 26,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 26,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 26,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 26,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 27,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 27,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 27,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 27,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 28,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 28,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 28,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 28,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 29,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 29,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 29,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 29,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 30,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 30,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 30,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 30,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 31,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 31,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 31,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 31,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 32,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 32,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 32,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 32,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 33,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 33,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 33,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 33,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 34,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 34,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 34,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 34,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 35,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 35,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 35,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 35,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 36,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 36,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 36,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 36,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 37,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 37,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 37,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 37,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 38,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 38,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 38,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 38,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 39,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 39,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 39,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 39,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 40,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 40,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 40,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 40,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 41,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 41,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 41,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 41,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 42,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 42,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 42,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 42,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 43,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 43,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 43,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 43,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 44,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 44,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 44,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 44,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 45,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 45,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 45,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 45,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 46,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 46,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 46,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 46,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 47,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 47,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 47,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 47,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 48,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 48,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 48,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 48,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 49,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 49,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 49,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 49,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 50,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 50,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 50,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 50,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 51,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 51,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 51,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 51,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 52,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 52,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 52,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 52,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 53,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 53,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 53,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 53,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 54,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 54,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 54,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 54,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 55,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 55,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 55,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 55,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 56,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 56,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 56,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 56,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 57,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 57,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 57,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 57,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 58,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 58,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 58,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 58,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 59,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 59,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 59,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 59,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 60,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 60,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 60,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 60,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 61,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 61,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 61,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 61,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 62,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 62,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 62,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 62,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 63,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 63,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 63,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 63,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 64,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 64,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 64,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 64,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 65,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 65,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 65,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 65,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 66,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 66,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 66,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 66,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 67,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 67,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 67,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 67,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 68,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 68,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 68,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 68,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 69,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 69,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 69,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 69,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 70,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 70,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 70,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 70,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 71,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 71,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 71,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 71,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 72,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 72,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 72,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 72,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 73,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 73,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 73,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 73,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 74,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 74,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 74,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 74,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 75,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 75,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 75,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 75,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 76,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 76,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 76,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 76,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 77,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 77,
-      "field": "tx_type",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 77,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 77,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    }
+    "All 44 printed transaction rows and account separators were re-verified against the PTR scan and matched to 2022 annual Schedule B pages 173, 174. The PTR scan controls row presence, order, account boundaries, and the printed 04/04/2022 notification date."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

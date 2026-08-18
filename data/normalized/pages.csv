@@ -4342,14 +4342,14 @@ page:2022-4:0001,2022,2022-4,1,Page 1 of 10,Periodic Transaction Report cover,pt
 
 The grid contains only the printed example row (Mega Corp. Common Stock) and the note: ""Please see the attached.""",0,1,docs/2022-4/pages/page-001.jpg,docs/2022-4/text/page-001.json,docs/2022-4/tess/page-001.txt
 page:2022-4:0002,2022,2022-4,2,Page 2 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,6,0,docs/2022-4/pages/page-002.jpg,docs/2022-4/text/page-002.json,docs/2022-4/tess/page-002.txt
-page:2022-4:0003,2022,2022-4,3,Page 3 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,77,592,docs/2022-4/pages/page-003.jpg,docs/2022-4/text/page-003.json,docs/2022-4/tess/page-003.txt
-page:2022-4:0004,2022,2022-4,4,Page 4 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,77,612,docs/2022-4/pages/page-004.jpg,docs/2022-4/text/page-004.json,docs/2022-4/tess/page-004.txt
-page:2022-4:0005,2022,2022-4,5,Page 5 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,77,604,docs/2022-4/pages/page-005.jpg,docs/2022-4/text/page-005.json,docs/2022-4/tess/page-005.txt
-page:2022-4:0006,2022,2022-4,6,Page 6 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,78,620,docs/2022-4/pages/page-006.jpg,docs/2022-4/text/page-006.json,docs/2022-4/tess/page-006.txt
-page:2022-4:0007,2022,2022-4,7,Page 7 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,79,620,docs/2022-4/pages/page-007.jpg,docs/2022-4/text/page-007.json,docs/2022-4/tess/page-007.txt
-page:2022-4:0008,2022,2022-4,8,Page 8 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,79,623,docs/2022-4/pages/page-008.jpg,docs/2022-4/text/page-008.json,docs/2022-4/tess/page-008.txt
-page:2022-4:0009,2022,2022-4,9,Page 9 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,11,84,docs/2022-4/pages/page-009.jpg,docs/2022-4/text/page-009.json,docs/2022-4/tess/page-009.txt
-page:2022-4:0010,2022,2022-4,10,Page 10 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,low,,35,113,docs/2022-4/pages/page-010.jpg,docs/2022-4/text/page-010.json,docs/2022-4/tess/page-010.txt
+page:2022-4:0003,2022,2022-4,3,Page 3 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,90,1,docs/2022-4/pages/page-003.jpg,docs/2022-4/text/page-003.json,docs/2022-4/tess/page-003.txt
+page:2022-4:0004,2022,2022-4,4,Page 4 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,45,1,docs/2022-4/pages/page-004.jpg,docs/2022-4/text/page-004.json,docs/2022-4/tess/page-004.txt
+page:2022-4:0005,2022,2022-4,5,Page 5 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,87,1,docs/2022-4/pages/page-005.jpg,docs/2022-4/text/page-005.json,docs/2022-4/tess/page-005.txt
+page:2022-4:0006,2022,2022-4,6,Page 6 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,87,1,docs/2022-4/pages/page-006.jpg,docs/2022-4/text/page-006.json,docs/2022-4/tess/page-006.txt
+page:2022-4:0007,2022,2022-4,7,Page 7 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,88,1,docs/2022-4/pages/page-007.jpg,docs/2022-4/text/page-007.json,docs/2022-4/tess/page-007.txt
+page:2022-4:0008,2022,2022-4,8,Page 8 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,85,1,docs/2022-4/pages/page-008.jpg,docs/2022-4/text/page-008.json,docs/2022-4/tess/page-008.txt
+page:2022-4:0009,2022,2022-4,9,Page 9 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,21,1,docs/2022-4/pages/page-009.jpg,docs/2022-4/text/page-009.json,docs/2022-4/tess/page-009.txt
+page:2022-4:0010,2022,2022-4,10,Page 10 of 10,Periodic Transaction Report - attached transaction table,ptr_transactions,ptr,high,,42,1,docs/2022-4/pages/page-010.jpg,docs/2022-4/text/page-010.json,docs/2022-4/tess/page-010.txt
 page:2022-5:0001,2022,2022-5,1,1 of 18,Periodic Transaction Report,ptr_cover,ptr_cover,medium,"# Periodic Transaction Report
 
 NAME: Rohit Khanna

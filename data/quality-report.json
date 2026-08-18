@@ -2,8 +2,8 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2383,
-      "low": 280,
+      "high": 2391,
+      "low": 272,
       "medium": 1738,
       "medium-high": 1,
       "medium-low": 8
@@ -12,22 +12,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116166,
+      "page_rows": 116198,
       "pages": 4410,
       "transactions": 49009,
-      "uncertainties": 16754
+      "uncertainties": 12894
     },
     "owner_code_distribution": {
-      "DC": 35476,
+      "DC": 35671,
       "JT": 14,
-      "SP": 75888,
-      "not_stated": 4788
+      "SP": 76176,
+      "not_stated": 4337
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2935,
-      "tx": 81810
+      "group": 2946,
+      "tx": 81831
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -45,16 +45,16 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 1305,
+    "text_quality_findings": 809,
     "text_quality_rule_distribution": {
-      "ambiguous_transaction_columns": 936,
-      "checkbox_artifact": 32,
-      "embedded_account_header": 3,
-      "embedded_grid_debris": 153,
+      "ambiguous_transaction_columns": 458,
+      "checkbox_artifact": 28,
+      "embedded_account_header": 1,
+      "embedded_grid_debris": 144,
       "embedded_owner_code": 25,
-      "implausibly_long": 3,
-      "mixed_case_ocr_artifact": 407,
-      "ocr_table_debris": 2,
+      "implausibly_long": 2,
+      "mixed_case_ocr_artifact": 223,
+      "ocr_table_debris": 1,
       "repeated_security_marker": 6,
       "standalone_fragment": 10
     },
@@ -112,17 +112,17 @@
     },
     {
       "check": "transaction_text_quality",
-      "finding_count": 1305,
+      "finding_count": 809,
       "report": "data/text-quality-audit.json",
       "rule_counts": {
-        "ambiguous_transaction_columns": 936,
-        "checkbox_artifact": 32,
-        "embedded_account_header": 3,
-        "embedded_grid_debris": 153,
+        "ambiguous_transaction_columns": 458,
+        "checkbox_artifact": 28,
+        "embedded_account_header": 1,
+        "embedded_grid_debris": 144,
         "embedded_owner_code": 25,
-        "implausibly_long": 3,
-        "mixed_case_ocr_artifact": 407,
-        "ocr_table_debris": 2,
+        "implausibly_long": 2,
+        "mixed_case_ocr_artifact": 223,
+        "ocr_table_debris": 1,
         "repeated_security_marker": 6,
         "standalone_fragment": 10
       },
