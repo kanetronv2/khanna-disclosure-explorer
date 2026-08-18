@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 BANK OF AMERICA CORP CMN",
+      "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MASTERCARD INCORPORATED CMN CLASSA",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VISAINC CMN CLASSA",
+      "asset_name": "VISA INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COCA COLA COMPANY THE CMN x =f - \u2014",
+      "asset_name": "COCA COLA COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "jMC DONALDS CORP CMN",
+      "asset_name": "MC DONALDS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMERCK&CO INC CMN",
+      "asset_name": "MERCK & CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PHILIP MORRIS INTLINC CMN",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "7 en 7 an in NVIDIA CORPORATION CMN",
+      "asset_name": "NVIDIA CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARTHUR J GALLAGHER & CO CMN \u2014",
+      "asset_name": "ARTHUR J GALLAGHER & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,6 +177,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan."
+    },
     {
       "row": null,
       "field": "checkbox_columns",

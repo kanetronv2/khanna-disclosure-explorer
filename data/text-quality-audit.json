@@ -7,10 +7,10 @@
     "checkbox_artifact": 81,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 287,
+    "embedded_grid_debris": 285,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 565,
+    "mixed_case_ocr_artifact": 564,
     "multiple_option_contracts": 2,
     "ocr_assisted_page": 1444,
     "ocr_table_debris": 10,
@@ -29923,7 +29923,7 @@
       "row_number": 2,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 BANK OF AMERICA CORP CMN",
+      "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -29938,7 +29938,7 @@
       "row_number": 3,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "MASTERCARD INCORPORATED CMN CLASSA",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -29953,7 +29953,7 @@
       "row_number": 4,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "VISAINC CMN CLASSA",
+      "asset_name": "VISA INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -29968,10 +29968,9 @@
       "row_number": 5,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "COCA COLA COMPANY THE CMN x =f - —",
+      "asset_name": "COCA COLA COMPANY (THE) CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29984,10 +29983,9 @@
       "row_number": 6,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "jMC DONALDS CORP CMN",
+      "asset_name": "MC DONALDS CORP CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30000,7 +29998,7 @@
       "row_number": 7,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "IMERCK&CO INC CMN",
+      "asset_name": "MERCK & CO INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30015,7 +30013,7 @@
       "row_number": 8,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "PHILIP MORRIS INTLINC CMN",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30075,7 +30073,7 @@
       "row_number": 12,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATED CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30090,7 +30088,7 @@
       "row_number": 13,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "7 en 7 an in NVIDIA CORPORATION CMN",
+      "asset_name": "NVIDIA CORPORATION CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30135,10 +30133,9 @@
       "row_number": 16,
       "page_id": "page:2026-3:0012",
       "source_json_path": "docs/2026-3/text/page-012.json",
-      "asset_name": "ARTHUR J GALLAGHER & CO CMN —",
+      "asset_name": "ARTHUR J GALLAGHER & CO CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
