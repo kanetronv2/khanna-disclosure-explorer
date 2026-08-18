@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST CTFS PARTN COPS 5.0000% DC 09/01/26-CA MS x",
+      "asset_name": "OHIO ST CTFS PARTN COPS 5.0000% 09/01/26-CA MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PALANTIR TECHNOLOGIES INC. CMN x",
+      "asset_name": "PALANTIR TECHNOLOGIES INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST HSG FIN AGY REV 6% (09/01/26-CA MS DC LIMESTONE CNTY ALA WTR & SWR",
+      "asset_name": "OHIO ST HSG FIN AGY REV 6% 09/01/26-CA MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -67,88 +67,88 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "REV 5% 12/01/36JD DC x",
+      "asset_name": "LIMESTONE CNTY ALA WTR & SWR REV 5% 12/01/36 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "05/08/2026",
+      "date": "05/05/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/263D",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/26 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/18/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICROSOFT CORPORATION CMN DC x",
+      "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/21/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "x DC ANKENY IOWA GO 5% 05/01/27 JD",
+      "asset_name": "ANKENY IOWA GO 5% 05/01/27 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/19/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MIAMI UNIV OHIO GEN RCPTS REV 5% DC 09/01/33 MS",
+      "asset_name": "MIAMI UNIV OHIO GEN RCPTS REV 5% 09/01/33 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/21/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "x DE PALO ALTO NETWORKS INC. CMN",
+      "asset_name": "PALO ALTO NETWORKS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/21/2026",
       "notification_date": "06/08/2026",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/26JD x",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/26 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/15/2026",
       "notification_date": "06/08/2026",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MONOLITHIC POWER SYSTEMS, INC. DC CMN",
+      "asset_name": "MONOLITHIC POWER SYSTEMS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/22/2026",
       "notification_date": "06/08/2026",
       "amount": "$15,001-$50,000"
     },
@@ -159,7 +159,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/22/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
@@ -170,7 +170,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "05/08/2026",
+      "date": "05/22/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     },
@@ -181,7 +181,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "06/08/2026",
+      "date": "05/22/2026",
       "notification_date": "06/08/2026",
       "amount": "$1,001-$15,000"
     }
@@ -189,191 +189,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "amount",
-      "read": "OHIO ST CTFS PARTN COPS 5.0000% DC 09/01/26-CA MS x",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "OHIO ST CTFS PARTN COPS 5.0000% DC 09/01/26-CA MS x",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 2,
-      "field": "amount",
-      "read": "PALANTIR TECHNOLOGIES INC. CMN x",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 3,
-      "field": "tx_type",
-      "read": "SAMSARA INC. CMN CLASS A",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 4,
-      "field": "tx_type",
-      "read": "CLOUDFLARE, INC. CMN CLASS A",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 5,
-      "field": "tx_type",
-      "read": "OHIO ST HSG FIN AGY REV 6% (09/01/26-CA MS DC LIMESTONE CNTY ALA WTR & SWR",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 5,
-      "field": "amount",
-      "read": "OHIO ST HSG FIN AGY REV 6% (09/01/26-CA MS DC LIMESTONE CNTY ALA WTR & SWR",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "OHIO ST HSG FIN AGY REV 6% (09/01/26-CA MS DC LIMESTONE CNTY ALA WTR & SWR",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": "REV 5% 12/01/36JD DC x",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "REV 5% 12/01/36JD DC x",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 7,
-      "field": "tx_type",
-      "read": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/263D",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 7,
-      "field": "amount",
-      "read": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/263D",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/263D",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 8,
-      "field": "amount",
-      "read": "MICROSOFT CORPORATION CMN DC x",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "MICROSOFT CORPORATION CMN DC x",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": "x DC ANKENY IOWA GO 5% 05/01/27 JD",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "x DC ANKENY IOWA GO 5% 05/01/27 JD",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 10,
-      "field": "tx_type",
-      "read": "MIAMI UNIV OHIO GEN RCPTS REV 5% DC 09/01/33 MS",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 10,
-      "field": "amount",
-      "read": "MIAMI UNIV OHIO GEN RCPTS REV 5% DC 09/01/33 MS",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "MIAMI UNIV OHIO GEN RCPTS REV 5% DC 09/01/33 MS",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 11,
-      "field": "owner",
-      "read": "x DE PALO ALTO NETWORKS INC. CMN",
-      "note": "Owner mark was not confidently isolated by Vision OCR; source row image should be checked."
-    },
-    {
-      "row": 11,
-      "field": "amount",
-      "read": "x DE PALO ALTO NETWORKS INC. CMN",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/26JD x",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/26JD x",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 13,
-      "field": "tx_type",
-      "read": "MONOLITHIC POWER SYSTEMS, INC. DC CMN",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 13,
-      "field": "amount",
-      "read": "MONOLITHIC POWER SYSTEMS, INC. DC CMN",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "MONOLITHIC POWER SYSTEMS, INC. DC CMN",
-      "note": "Asset name contains OCR noise or possible merged text; transcribed conservatively from local Vision OCR."
-    },
-    {
-      "row": 14,
-      "field": "owner",
-      "read": "EQT CORPORATION CMN",
-      "note": "Owner mark was not confidently isolated by Vision OCR; source row image should be checked."
-    },
-    {
-      "row": 15,
-      "field": "tx_type",
-      "read": "COHERENT CORP CMN",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 16,
-      "field": "tx_type",
-      "read": "EXPAND ENERGY CORP CMN",
-      "note": "tx_type was not confidently captured from the checkbox/date columns and is left null."
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "EXPAND ENERGY CORP CMN",
-      "note": "amount was not confidently captured from the checkbox/date columns and is left null."
+      "row": null,
+      "field": "page_verification",
+      "read": "All 16 transaction rows",
+      "note": "Direct review of the filed page scan removed owner-code and checkbox bleed from asset labels, split two merged municipal-bond labels, and restored the printed transaction dates. Owner, transaction type, notification date, partial-transaction marks, capital-gain marks, and amount bands were also verified."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

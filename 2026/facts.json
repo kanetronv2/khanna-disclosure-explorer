@@ -18,9 +18,9 @@
     "annual_filing_pages": null,
     "latest_readable_transaction_date": "2026-06-08",
     "loaded_pages": 211,
-    "unresolved_transcription_flags": 1280
+    "unresolved_transcription_flags": 1250
   },
-  "dataset_version": "2026-08-17",
+  "dataset_version": "2026-08-18",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
   "filing_type": "periodic_transaction_reports",
   "id": "kde:financial-disclosure:2026",
@@ -39,8 +39,8 @@
       "open_ended_entries": 0
     },
     "reported_transactions": {
-      "active_trading_days": 91,
-      "average_per_active_trading_day": 33.0,
+      "active_trading_days": 92,
+      "average_per_active_trading_day": 32.7,
       "combined_value_range": {
         "calculated_upper_floor_usd": 60610000,
         "display": "$9.86M – $60.6M",
@@ -98,7 +98,7 @@
     "name": "Ro Khanna",
     "office": "U.S. Representative"
   },
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "url": "https://www.rokhanna.money/2026/",
   "year": 2026
 }

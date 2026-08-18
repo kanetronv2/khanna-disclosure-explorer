@@ -2,9 +2,9 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2232,
+      "high": 2233,
       "low": 299,
-      "medium": 1870,
+      "medium": 1869,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -15,7 +15,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18077
+      "uncertainties": 18047
     },
     "owner_code_distribution": {
       "DC": 35409,
@@ -45,18 +45,18 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 2987,
+    "text_quality_findings": 2971,
     "text_quality_rule_distribution": {
-      "ambiguous_transaction_columns": 1951,
-      "checkbox_artifact": 79,
+      "ambiguous_transaction_columns": 1935,
+      "checkbox_artifact": 74,
       "duplicated_text": 3,
       "embedded_account_header": 20,
-      "embedded_grid_debris": 275,
-      "embedded_owner_code": 155,
+      "embedded_grid_debris": 268,
+      "embedded_owner_code": 146,
       "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 557,
+      "mixed_case_ocr_artifact": 555,
       "multiple_option_contracts": 2,
-      "ocr_assisted_page": 1444,
+      "ocr_assisted_page": 1428,
       "ocr_table_debris": 8,
       "repeated_security_marker": 71,
       "standalone_fragment": 59
@@ -115,19 +115,19 @@
     },
     {
       "check": "transaction_text_quality",
-      "finding_count": 2987,
+      "finding_count": 2971,
       "report": "data/text-quality-audit.json",
       "rule_counts": {
-        "ambiguous_transaction_columns": 1951,
-        "checkbox_artifact": 79,
+        "ambiguous_transaction_columns": 1935,
+        "checkbox_artifact": 74,
         "duplicated_text": 3,
         "embedded_account_header": 20,
-        "embedded_grid_debris": 275,
-        "embedded_owner_code": 155,
+        "embedded_grid_debris": 268,
+        "embedded_owner_code": 146,
         "implausibly_long": 7,
-        "mixed_case_ocr_artifact": 557,
+        "mixed_case_ocr_artifact": 555,
         "multiple_option_contracts": 2,
-        "ocr_assisted_page": 1444,
+        "ocr_assisted_page": 1428,
         "ocr_table_debris": 8,
         "repeated_security_marker": 71,
         "standalone_fragment": 59

@@ -1,18 +1,18 @@
 {
   "status": "review_required",
   "scope": "Every transcribed transaction row in every source filing",
-  "finding_count": 2987,
+  "finding_count": 2971,
   "rule_counts": {
-    "ambiguous_transaction_columns": 1951,
-    "checkbox_artifact": 79,
+    "ambiguous_transaction_columns": 1935,
+    "checkbox_artifact": 74,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 275,
-    "embedded_owner_code": 155,
+    "embedded_grid_debris": 268,
+    "embedded_owner_code": 146,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 557,
+    "mixed_case_ocr_artifact": 555,
     "multiple_option_contracts": 2,
-    "ocr_assisted_page": 1444,
+    "ocr_assisted_page": 1428,
     "ocr_table_debris": 8,
     "repeated_security_marker": 71,
     "standalone_fragment": 59
@@ -26,7 +26,7 @@
     "2022": 1546,
     "2023": 241,
     "2025": 90,
-    "2026": 1067
+    "2026": 1051
   },
   "document_counts": {
     "2017-1": 3,
@@ -61,7 +61,7 @@
     "2026-1": 46,
     "2026-2": 6,
     "2026-3": 417,
-    "2026-5": 598
+    "2026-5": 582
   },
   "findings": [
     {
@@ -43173,269 +43173,6 @@
       "page_id": "page:2026-5:0039",
       "source_json_path": "docs/2026-5/text/page-039.json",
       "asset_name": "12/01/33JD",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0002",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 2,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "OHIO ST CTFS PARTN COPS 5.0000% DC 09/01/26-CA MS x",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0003",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 3,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "PALANTIR TECHNOLOGIES INC. CMN x",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0004",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 4,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "SAMSARA INC. CMN CLASS A",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0005",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 5,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "CLOUDFLARE, INC. CMN CLASS A",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0006",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 6,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "OHIO ST HSG FIN AGY REV 6% (09/01/26-CA MS DC LIMESTONE CNTY ALA WTR & SWR",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0007",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 7,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "REV 5% 12/01/36JD DC x",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0008",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 8,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/263D",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0009",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 9,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "MICROSOFT CORPORATION CMN DC x",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0010",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 10,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "x DC ANKENY IOWA GO 5% 05/01/27 JD",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "embedded_owner_code",
-        "mixed_case_ocr_artifact",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0011",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 11,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "MIAMI UNIV OHIO GEN RCPTS REV 5% DC 09/01/33 MS",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0012",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 12,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "x DE PALO ALTO NETWORKS INC. CMN",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "mixed_case_ocr_artifact",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0013",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 13,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% DC 12/01/26JD x",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0014",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 14,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "MONOLITHIC POWER SYSTEMS, INC. DC CMN",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "embedded_owner_code",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0015",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 15,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "EQT CORPORATION CMN",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0016",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 16,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "COHERENT CORP CMN",
-      "rules": [
-        "ambiguous_transaction_columns",
-        "ocr_assisted_page"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2026-5:0040:0017",
-      "year": 2026,
-      "document_id": "2026-5",
-      "document_page_number": 40,
-      "row_number": 17,
-      "page_id": "page:2026-5:0040",
-      "source_json_path": "docs/2026-5/text/page-040.json",
-      "asset_name": "EXPAND ENERGY CORP CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"

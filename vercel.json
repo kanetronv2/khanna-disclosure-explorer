@@ -324,11 +324,11 @@
     },
     {
       "source": "/api/v1/years/2026/transactions.json",
-      "destination": "/site-data/2026/transactions.b0ed4a58ca70.json"
+      "destination": "/site-data/2026/transactions.a7dcf227a1e3.json"
     },
     {
       "source": "/api/v1/years/2026/pages.json",
-      "destination": "/site-data/2026/pages-index.af35224ad9ce.json"
+      "destination": "/site-data/2026/pages-index.b6944b11d5c5.json"
     }
   ]
 }

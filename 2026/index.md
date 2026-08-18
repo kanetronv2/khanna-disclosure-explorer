@@ -2,7 +2,7 @@
 
 > Canonical page: https://www.rokhanna.money/2026/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2026/summary.json
-> Dataset version: 2026-08-17
+> Dataset version: 2026-08-18
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -14,8 +14,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Reported household holdings | None |
 | Open-ended holdings | 0 |
 | Reported transactions | 3,008 |
-| Active trading days | 91 |
-| Average trades per active day | 33.0 |
+| Active trading days | 92 |
+| Average trades per active day | 32.7 |
 | Combined transaction range | $9.86M – $60.6M |
 | Source-linked asset entries | 0 |
 
