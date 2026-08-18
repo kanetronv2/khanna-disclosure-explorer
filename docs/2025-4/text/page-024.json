@@ -34,6 +34,28 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "ARCHER-DANIELS-MIDLAND COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "BIOGEN INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -56,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SKYWORKS SOLUTIONS, INC. CMiN",
+      "asset_name": "SKYWORKS SOLUTIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JALTRIA GROUP, INC. CMN",
+      "asset_name": "ALTRIA GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +122,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DIGITAL REALTY TRUST, INC, CMN",
+      "asset_name": "WESTERN DIGITAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DIGITAL REALTY TRUST, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,18 +155,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC, CMN",
+      "asset_name": "GLOBAL PAYMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/14/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "kKR &.CO. INC. CMN",
+      "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -159,39 +192,6 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/14/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "jenace, INC. COAN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ene CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "AVALONBAY COMMUNITIES INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -200,16 +200,8 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 7,
-      "field": "date",
-      "read": "04/23/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/23/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
   "page_confidence": "high"

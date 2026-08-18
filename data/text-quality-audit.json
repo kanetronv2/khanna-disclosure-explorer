@@ -1,10 +1,10 @@
 {
   "status": "review_required",
   "scope": "Every transcribed transaction row in every source filing",
-  "finding_count": 2494,
+  "finding_count": 2493,
   "rule_counts": {
     "ambiguous_transaction_columns": 1951,
-    "checkbox_artifact": 85,
+    "checkbox_artifact": 84,
     "duplicated_text": 3,
     "embedded_account_header": 20,
     "implausibly_long": 7,
@@ -16,7 +16,7 @@
   "year_counts": {
     "2022": 1270,
     "2023": 177,
-    "2025": 27,
+    "2025": 26,
     "2026": 1020
   },
   "document_counts": {
@@ -32,7 +32,7 @@
     "2023-6": 3,
     "2025-11": 4,
     "2025-12": 14,
-    "2025-4": 9,
+    "2025-4": 8,
     "2026-1": 3,
     "2026-2": 2,
     "2026-3": 417,
@@ -20368,20 +20368,6 @@
       "asset_name": "COMMON STOCK",
       "rules": [
         "standalone_fragment"
-      ],
-      "severity": "warning"
-    },
-    {
-      "finding_id": "text-quality:2025-4:0046:0006",
-      "year": 2025,
-      "document_id": "2025-4",
-      "document_page_number": 46,
-      "row_number": 6,
-      "page_id": "page:2025-4:0046",
-      "source_json_path": "docs/2025-4/text/page-046.json",
-      "asset_name": "MCDONALD S CORP Xx Xx",
-      "rules": [
-        "checkbox_artifact"
       ],
       "severity": "warning"
     },

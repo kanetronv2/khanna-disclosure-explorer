@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OKTA, INC, CMN CLASS A",
+      "asset_name": "OKTA, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -23,10 +23,21 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OKTA, INC, CMN CLASS A SENSATA TECHNOLOGIES HOLDING P",
+      "asset_name": "OKTA, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING PLC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,18 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZIMMER BIOMET HOLDINGS INC OUN & BRADSTREET HOLDINGS, INC",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/04/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SEIN OF PME PEED PEPE Nee, SPE",
+      "asset_name": "DUN & BRADSTREET HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PIO FETE FEES ae, 159",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "asset_name": "DUN & BRADSTREET HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC CMN DUN & BRADSTREET HOLDINGS, INC",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "asset_name": "DUN & BRADSTREET HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLDGCO CuN",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "eee aceon HLDGCO CAIN",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "cMN 04/1",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLOGCO CMN",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -166,18 +166,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLDGCO-CMN *",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "05/08/2025",
-      "notification_date": "04/24/2025",
+      "date": "04/11/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "snare PACKAGING HLDGCO CMN",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,16 +188,21 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "lsRaPHic PACKAGING HLOGCO CMN",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "04/24/2025",
-      "notification_date": "05/05/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
+    }
+  ],
   "page_confidence": "high"
 }

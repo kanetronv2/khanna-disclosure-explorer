@@ -6,14 +6,6 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "group",
-      "text": "MURA Holdings"
-    },
-    {
-      "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
-    },
-    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PUT (AAPL) APPLE INC JUL 18 25 $155 (100 SHS)",
@@ -27,7 +19,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "on en =e0R S&P500 ETF JUL 18 25 aafos/2s 04/09/28 pe pur ee GROUP JUL oa/og/2s",
+      "asset_name": "PUT (SPY) SPDR S&P500 ETF JUL 18 25 $410 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -38,7 +30,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "pur von ee CORPORATION JUL",
+      "asset_name": "PUT (GS) GOLDMAN SACHS GROUP JUL 18 25 $380 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -49,7 +41,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "nos aoe INC COM JUL 18 25 oa/os/2s",
+      "asset_name": "PUT (NVDA) NVIDIA CORPORATION JUL 18 25 $75 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -60,7 +52,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "re em ISHARES Russet 2000 JUL oafos/25",
+      "asset_name": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $120 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -71,7 +63,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTURE PLC",
+      "asset_name": "PUT (TSLA) TESLA INC COM JUL 18 25 $195 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -82,39 +74,83 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTURE PLC",
+      "asset_name": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $145 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTURE PLC",
+      "asset_name": "PUT (V) VISA INC JUL 18 25 $255 (100 SHS)",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ABBOTT LABORATORIES",
+      "asset_name": "BANK MONTREAL MEDIUM SER K MTN ZERO CPN 0.00000% 10/21/2027",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/16/2025",
+      "notification_date": "04/22/2025",
       "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "ABBOTT LABORATORIES",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
@@ -137,51 +173,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ABBVIE INC.COM USD0.01",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ALPHABET INC CAP STK CLA",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "rs ABBOTT LABORATORIES",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "oc ABBOTT LABORATORIES",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "be ABBVIE INC COM USD0.02",
+      "asset_name": "ABBVIE INC COM USD0.01",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -192,7 +184,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALPHABET INC CAP STK CLA",
+      "asset_name": "ALPHABET INC CAP STK CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -204,95 +196,9 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 2,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/07/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/07/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); asset name is garbled/fragmented in this row but all PUT-option rows on this page scan share this date"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 9,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/26/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 10,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/22/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

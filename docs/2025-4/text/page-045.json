@@ -6,18 +6,10 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "group",
-      "text": "MURA Holdings"
-    },
-    {
-      "kind": "group",
-      "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
-    },
-    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BROADCOM INC COM",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -28,7 +20,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BROADCOM INC COM",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -49,8 +41,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CISCO SYSTEMS.INC",
-      "tx_type": "Purchase",
+      "asset_name": "CISCO SYSTEMS INC",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -61,7 +53,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CISCO SYSTEMS INC",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -72,7 +64,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CISCO SYSTEMS INC",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -83,7 +75,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CONOCOPHILLIPS COM",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -94,7 +86,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DISNEY WALT CO COM",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -115,20 +107,20 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COMMON STOCK. INC CLASS A",
-      "tx_type": "Purchase",
+      "asset_name": "META PLATFORMS INC CLASS A COMMON STOCK",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GE AEROSPACE COM NEW",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -138,40 +130,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "HOME DEPOT INC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HONEYWELL INTERNATIONAL INC COM oajoa/2s",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HONEYWELL INTERNATIONAL INC COM oa/o4/2s",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "INTERNATIONAL BUS MACH CORP oafoa/2s",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -181,7 +140,62 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTERNATIONAL BUS MACH CORP COM USD0.20",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "ISHARES TR 0-3 MNTH TREASRY",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "JPMORGAN CHASE & CO. COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -193,23 +207,9 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

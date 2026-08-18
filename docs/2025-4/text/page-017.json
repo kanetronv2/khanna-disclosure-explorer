@@ -23,6 +23,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "PRINCIPAL FINANCIAL GROUP, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "DELTA AIR LINES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -38,18 +49,18 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APPLIED (WATERIALS INC CMN REGENERON PHARMACEUTICAL INC",
+      "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -60,17 +71,6 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ALPHABET INC, CMN CLASS C",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,18 +78,29 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "jO0W INCCMN",
+      "asset_name": "ALPHABET INC. CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
-      "notification_date": "05/05/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FAIRISAAC INC CMN",
+      "asset_name": "DOW INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "FAIR ISAAC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -115,7 +126,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -126,7 +137,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -137,18 +148,18 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/08/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TARGET CORPORATION CMN o",
+      "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -181,17 +192,6 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "IARGET CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -200,16 +200,8 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "date",
-      "read": "04/09/2025",
-      "note": "date corrected from misread '06/09/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 14,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '03/08/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
   "page_confidence": "high"

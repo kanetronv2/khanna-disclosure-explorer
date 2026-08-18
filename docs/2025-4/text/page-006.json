@@ -12,13 +12,24 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "MORGAN STANLEY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -34,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LOWES COMPANIES INC CMNN",
+      "asset_name": "LOWES COMPANIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -51,7 +62,18 @@
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
@@ -60,9 +82,9 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/15/2025",
+      "date": "04/30/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -82,9 +104,9 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/30/2025",
+      "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
@@ -106,12 +128,23 @@
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THERMO FISHER SCIENTIFICINCCMN",
+      "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "emenovr INC, CiviN JOHNSON CONTROLS INTERNATIONAL",
+      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,40 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICRON TECHNOLOGY, INC, CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AUTOMATIC DATA PROCESSING INC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "UBER TECHNOLOGIES, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/25/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "con TECHNOLOGY, INC, CMN",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -200,16 +200,8 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 14,
-      "field": "date",
-      "read": "04/15/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/15/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 14,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/15/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
   "page_confidence": "high"

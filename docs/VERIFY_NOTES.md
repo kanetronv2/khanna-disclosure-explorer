@@ -204,11 +204,12 @@ as transcribed. This looks like a real filer/preparer error on the original gove
 filing, not an OCR error, so per the verbatim-transcription rule it was left as printed
 (only the ~9 rows that were genuinely misread were corrected).
 
-**Also surfaced during this audit, and fixed separately by follow-up sessions (spawned as
-background tasks):** `docs/2025-4` still has several pages with missing/merged/duplicated rows
-(006/010/011/012/014/017/024/043/045/046/048) not yet addressed — the equivalent issues on
-`docs/2026-2/page-031` and `docs/2026-3/page-025/033/034` were fixed in this same round (see
-above); `docs/2025-4`'s remain open for a future pass.
+**Also surfaced during this audit:** `docs/2025-4` pages
+006/010/011/012/014/017/024/043/045/046/048 had missing, merged, or duplicated rows. They
+have now been re-transcribed against the filed page scans: omitted assets were restored,
+merged names were split, and the MURA account headers on page 043 were put back at their
+printed position. The equivalent issues on `docs/2026-2/page-031` and
+`docs/2026-3/page-025/033/034` were fixed in the same audit round.
 
 The stray Toronto Dominion Bank linked-note row formerly in `docs/2023-3/page-011` has been
 removed: it is not printed in that document and belongs to `docs/2023-4/page-003`, whose filed

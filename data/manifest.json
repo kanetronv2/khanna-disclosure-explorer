@@ -29,32 +29,32 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26198184,
+      "bytes": 26198026,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 116042,
-      "sha256": "7d4a8b7cbeb4e5f7df0dc079e8ee56d7ecd23a6ea224d107d85e1eab766eb6de"
+      "records": 116039,
+      "sha256": "21568926712fda81b537b84c673c3bbc76dd93d74e7a786cf5925eeeaf278607"
     },
     {
-      "bytes": 96398731,
+      "bytes": 96396651,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 116042,
-      "sha256": "5abfd24dcfd83e606ed89608627e0bf112af41477083415d73cfd182e0c8c75b"
+      "records": 116039,
+      "sha256": "d48c0fea24321c961e49012e6c2bff8903d9ab84f1f8949118133f5c6f17cbaa"
     },
     {
-      "bytes": 1195110,
+      "bytes": 1195100,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "e84aec34f2693d682110cef470cc636895afd45ef1a7986c6970469003d119fd"
+      "sha256": "19fe45df682a0217331e0842904b9e1c5a4062d48947b0fbe7a3a62cdadbc24d"
     },
     {
-      "bytes": 2296643,
+      "bytes": 2296633,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "1cb02c7f64470391f83c14b637a70e227b712a21ede0e34977ea62e6f5be6e7e"
+      "sha256": "c8b336569eed901cbc9e479c3ee1206ad56567b73baf89d010ccd3842a4ec275"
     },
     {
       "bytes": 14594468,
@@ -71,32 +71,32 @@
       "sha256": "186c2a9494613117aa722ac3cb483367b145dd3bb65318ecc93ad310c89f31d3"
     },
     {
-      "bytes": 5109761,
+      "bytes": 5097058,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18092,
-      "sha256": "58470d9c1c1d1c3940db943d4100509fe77305f65b0f4f8332e331bce972bc10"
+      "records": 18058,
+      "sha256": "7ffcd9a8156189e630cc274754e9287d076f1808952664b2643056edcb3f6892"
     },
     {
-      "bytes": 6767029,
+      "bytes": 6751298,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18092,
-      "sha256": "e54c724842290357b89af671577ef61ca8a086b536a0024a2e319de82d6ac031"
+      "records": 18058,
+      "sha256": "711790d34246ec132b012a66a5c597d9aef81d3a63aaeac8dfe2d345b56c953a"
     },
     {
       "bytes": 3019,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "a45659dfdefd1745f73fda9a99532c4ba9c5903e214aac17839194dab307fc42"
+      "sha256": "eea71d1d7da524695ba0a8b64db742365afb21b8037978f23e525d471c025032"
     },
     {
-      "bytes": 1094080,
+      "bytes": 1093682,
       "format": "json",
       "path": "data/text-quality-audit.json",
-      "records": 2494,
-      "sha256": "7e3f8e5193e519cb3dccb8edd807cfae35bd0a609089ed6fa6ebd7ffaef0a5b7"
+      "records": 2493,
+      "sha256": "0969d83933816829966d5f6c273adfddead36147c44993d0b4f5947044391c81"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -104,9 +104,9 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2228,
+      "high": 2232,
       "low": 299,
-      "medium": 1874,
+      "medium": 1870,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -114,22 +114,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116042,
+      "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18092
+      "uncertainties": 18058
     },
     "owner_code_distribution": {
-      "DC": 35406,
+      "DC": 35409,
       "JT": 14,
-      "SP": 75801,
-      "not_stated": 4821
+      "SP": 75800,
+      "not_stated": 4816
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2925,
-      "tx": 81696
+      "group": 2920,
+      "tx": 81698
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -147,10 +147,10 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 2494,
+    "text_quality_findings": 2493,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 1951,
-      "checkbox_artifact": 85,
+      "checkbox_artifact": 84,
       "duplicated_text": 3,
       "embedded_account_header": 20,
       "implausibly_long": 7,

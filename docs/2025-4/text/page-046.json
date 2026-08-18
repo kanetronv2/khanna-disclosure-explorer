@@ -6,17 +6,9 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "group",
-      "text": "MURA Holdings"
-    },
-    {
-      "kind": "group",
-      "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
-    },
-    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "1OHNSON SJOHNSON COM IAAL RANET BCAINECCY INI IC",
+      "asset_name": "JOHNSON & JOHNSON COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -27,7 +19,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JEU LILLY &CO COM",
+      "asset_name": "LVMH MOET HENNESSY LOUIS VUITTON ADR",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -38,7 +30,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MASTERCARD INCORPORATED CLA",
+      "asset_name": "ELI LILLY & CO COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -49,9 +41,20 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MCDONALD S CORP Xx Xx",
+      "asset_name": "MASTERCARD INCORPORATED CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MCDONALD'S CORP",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -62,7 +65,7 @@
       "owner": "DC",
       "asset_name": "MICROSOFT CORP",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -94,7 +97,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "NETFLIX INC",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -110,23 +113,23 @@
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ORACLE CoRP",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PALANTIR TECHNOLOGIES INC CLA",
+      "asset_name": "ORACLE CORP",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PALANTIR TECHNOLOGIES INC CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -138,7 +141,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PEPSICO INC",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -148,7 +151,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PROCTER ANO. GAMBLE CO COM 04/04/28",
+      "asset_name": "PROCTER AND GAMBLE CO COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -160,17 +163,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "QUALCOMM INC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "RTX CORPORATION COM USD1.00",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -203,7 +195,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "oe RTX CORPORATION COM USD1.00",
+      "asset_name": "RTX CORPORATION COM USD1.00",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -215,40 +207,8 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 3,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit); note page-046 scan shows only 3 RTX CORPORATION rows total (all 04/04/2025 / 04/07/2025) while JSON lists 4 RTX rows (16-19), so one may be a duplicate entry"
+      "field": "rows",
+      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
     }
   ],
   "page_confidence": "high"
