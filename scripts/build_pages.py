@@ -284,6 +284,9 @@ class Context:
 def story_lead(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
     src = summary.get("source_pdf") or SOURCE_INDEX
+    dated = summary["counts"].get("dated_transactions", 0)
+    days = summary["counts"].get("active_trading_days", 0)
+    average = f"{dated / days:,.1f}" if days else "—"
     if is_ptr_only(summary):
         eyebrow = f"{year} periodic transaction reports"
         headline = f"{summary['counts']['transactions']:,} reported transactions"
@@ -303,7 +306,7 @@ def story_lead(summary, year):
                        "is not a hard upper limit and the reported value may be higher. ")
         detail += "These are disclosure-range sums, not an exact personal net worth."
         facts = [("Calculated upper floor", f"{fmt(tot['hiF'])}{'+' if tot['open'] else ''}"),
-                 ("Open-ended holdings", f"{tot['open']:,}"),
+                 ("Average trades per day", average),
                  ("Reported transactions", f"{summary['counts']['transactions']:,}")]
     aside = "".join(f'<div class="aside-fact"><span>{esc(k)}</span><strong>{esc(v)}</strong></div>' for k, v in facts)
     return (f'<div class="story-primary"><span class="eyebrow">{esc(eyebrow)}</span>'

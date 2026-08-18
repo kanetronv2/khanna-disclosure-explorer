@@ -673,6 +673,11 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     `<div class="card" ${c[3]?`title="${esc(c[3])}"`:''}><div class="k">${c[0]}</div><div class="v">${c[1]}</div><div class="d">${c[2]}</div></div>`).join('');
 
   const pageSource = `<a href="${esc(D.source_pdf)}" target="_blank" rel="noopener">Official House filing ↗</a>`;
+  const datedTransactions = D.counts.dated_transactions || 0;
+  const activeTradingDays = D.counts.active_trading_days || 0;
+  const averageTradesPerDay = activeTradingDays
+    ? (datedTransactions / activeTradingDays).toLocaleString(undefined,{minimumFractionDigits:1,maximumFractionDigits:1})
+    : '—';
   const story = ptrOnly ? {
     eyebrow:`${(D.meta||{}).year||''} periodic transaction reports`,
     headline:`${D.counts.transactions.toLocaleString()} reported transactions`,
@@ -682,7 +687,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     eyebrow:`${(D.meta||{}).year||''} disclosed holdings`,
     headline:`Up to ${fmt$(tot.hiF)} reported`,
     detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${D.counts.assets.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
-    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Open-ended holdings',tot.open.toLocaleString()],['Reported transactions',D.counts.transactions.toLocaleString()]],
+    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Average trades per day',averageTradesPerDay],['Reported transactions',D.counts.transactions.toLocaleString()]],
   };
   document.getElementById('storylead').innerHTML = `
     <div class="story-primary">
@@ -695,11 +700,6 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
 
   const ownerRows = D.owners.map(row=>({owner:row.name,...row}));
   const ownerNames = {SP:'Spouse',DC:'Dependent children',JT:'Joint',UNSPECIFIED:'Not specified'};
-  const datedTransactions = D.counts.dated_transactions || 0;
-  const activeTradingDays = D.counts.active_trading_days || 0;
-  const averageTradesPerDay = activeTradingDays
-    ? (datedTransactions / activeTradingDays).toLocaleString(undefined,{minimumFractionDigits:1,maximumFractionDigits:1})
-    : '—';
   const averageDetail = activeTradingDays
     ? `${datedTransactions.toLocaleString()} dated transactions across ${activeTradingDays.toLocaleString()} active trading days; undated rows are excluded.`
     : 'No usable transaction dates in this filing year.';
