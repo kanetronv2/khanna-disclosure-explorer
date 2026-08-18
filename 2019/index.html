@@ -471,7 +471,8 @@
   .nav-shell nav.tabs{margin-top:0;min-height:64px;align-items:flex-end;gap:8px}
   .nav-shell nav.tabs button{border-radius:8px 8px 0 0;padding:18px 20px 16px;font-size:14.5px}
   .nav-shell nav.tabs button.on{background:var(--bg);box-shadow:inset 0 3px 0 #f2c94c}
-  .nav-shell .yearwrap{order:2;margin:0 0 0 auto;padding:0;align-self:center;gap:10px}
+  .nav-actions{order:2;margin-left:auto;display:flex;align-items:center;gap:18px}
+  .nav-shell .yearwrap{margin:0;padding:0;align-self:center;gap:10px}
   .nav-shell select{min-height:42px;padding:8px 13px}
 
   .section-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:12px}
@@ -567,12 +568,10 @@
   .freshline a{color:#f2c94c;text-decoration:none;border-bottom:1px dotted rgba(242,201,76,.5)}
   .freshline time{color:#e5e9f0}
 
-  /* The trades hub is a separate page, so it must not read as a tab that failed to
-     highlight: it keeps the accent colour and an arrow whether or not the row wraps. */
-  nav.tabs .tablink{display:flex;align-items:center;gap:5px;color:#f2c94c;font-size:13.5px;font-weight:650;padding:10px 14px;text-decoration:none;white-space:nowrap}
-  nav.tabs .tablink::after{content:"→";font-size:12px;opacity:.8}
-  nav.tabs .tablink:hover{color:#fff}
-  nav.tabs .tablink:hover::after{opacity:1}
+  .trades-link{display:flex;align-items:center;gap:6px;color:#f2c94c;border:1px solid #344054;border-radius:8px;font-size:13px;font-weight:700;padding:8px 12px;text-decoration:none;white-space:nowrap}
+  .trades-link::after{content:"→";font-size:12px;opacity:.8}
+  .trades-link:hover{color:#fff;border-color:#f2c94c;background:#1d2939}
+  .trades-link:hover::after{opacity:1}
 
   /* prerendered transaction tables (shared with the trades hub) */
   .year-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
@@ -660,7 +659,9 @@
     .nav-row{min-height:0;gap:0;flex-wrap:wrap}
     .nav-shell nav.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;align-items:end;flex-basis:100%;order:2}
     .nav-shell nav.tabs button{padding:10px 4px;font-size:12px;min-height:44px}
-    .nav-shell .yearwrap{order:1;flex-basis:100%;justify-content:flex-end;margin:0;padding:9px 4px 7px}
+    .nav-actions{order:1;flex-basis:100%;display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;margin:0;padding:8px 4px 7px}
+    .nav-shell .yearwrap{justify-content:flex-end;margin:0;padding:0}
+    .trades-link{font-size:12px;padding:7px 9px}
     .nav-shell select{padding:4px 9px;font-size:12px;min-height:36px}
     main{padding-top:14px}
     .story-primary{padding:18px}
@@ -728,13 +729,16 @@
 </header>
 <div class="nav-shell">
   <div class="wrap nav-row">
-    <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option selected>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option></select></div>
     <nav class="tabs" role="tablist" aria-label="Disclosure sections">
       <button id="tab-overview" role="tab" aria-controls="v-overview" aria-selected="true" data-v="overview" class="on">Overview</button>
       <button id="tab-assets" role="tab" aria-controls="v-assets" aria-selected="false" tabindex="-1" data-v="assets">Assets</button>
       <button id="tab-txs" role="tab" aria-controls="v-txs" aria-selected="false" tabindex="-1" data-v="txs">Transactions</button>
       <button id="tab-doc" role="tab" aria-controls="v-doc" aria-selected="false" tabindex="-1" data-v="doc">Document</button>
     </nav>
+    <div class="nav-actions">
+      <a class="trades-link" href="/stock-trades/">All stock trades</a>
+      <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><option>2016</option><option>2017</option><option>2018</option><option selected>2019</option><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option><option>2026</option></select></div>
+    </div>
   </div>
 </div>
 

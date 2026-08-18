@@ -269,22 +269,36 @@
   a{color:var(--accent)}
   .wrap{max-width:1280px;margin:0 auto;padding:0 20px}
 
-  header.top{background:linear-gradient(180deg,#0c1424 0%,#101828 100%);color:#fff;padding:30px 0 26px;border-top:3px solid #f2c94c}
-  .top h1{margin:2px 0 0;font-size:27px;font-weight:750;letter-spacing:-.015em;line-height:1.15}
+  header.top{background:linear-gradient(180deg,#0c1424 0%,#101828 100%);color:#fff;padding:26px 0 0;border-top:3px solid #f2c94c}
+  .top h1{margin:3px 0 0;font-size:29px;font-weight:750;letter-spacing:-.02em;line-height:1.15}
   .kicker{font-size:11px;font-weight:650;text-transform:uppercase;letter-spacing:.14em;color:#8ea0bd}
   .masthead{display:flex;gap:18px;align-items:center}
-  .avatar{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:12% 30%;border:2px solid #f2c94c;box-shadow:0 0 0 4px rgba(242,201,76,.15);flex:none}
+  .avatar{width:68px;height:68px;border-radius:50%;object-fit:cover;object-position:12% 30%;border:2px solid #f2c94c;box-shadow:0 0 0 4px rgba(242,201,76,.15);flex:none}
   .masttext{min-width:0;flex:1}
-  .deck{margin:8px 0 0;font-size:13.5px;color:#c3cddd;max-width:70ch}
+  .deck{margin:7px 0 0;font-size:13.5px;color:#c3cddd;max-width:78ch}
   .freshline{margin:14px 0 0;font-size:12.5px;color:#c3cddd}
   .freshline b{color:#f2c94c;font-weight:700}
   .freshline a{color:#f2c94c;text-decoration:none;border-bottom:1px dotted rgba(242,201,76,.5)}
   .freshline time{color:#e5e9f0}
-  .backlinks{margin:16px 0 0;display:flex;gap:8px;flex-wrap:wrap}
-  .backlinks a{font-size:13px;font-weight:650;color:#101828;background:#f2c94c;border-radius:8px;padding:7px 13px;text-decoration:none}
+  .hub-nav{margin-top:22px;border-top:1px solid #263244;background:rgba(8,15,28,.28)}
+  .backlinks{min-height:64px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .backlinks a{font-size:13px;font-weight:700;color:#101828;background:#f2c94c;border-radius:8px;padding:9px 14px;text-decoration:none}
   .backlinks a.ghost{background:none;color:#c3cddd;border:1px solid #344054}
   .backlinks a.ghost:hover{color:#fff;border-color:#f2c94c}
-  @media(max-width:720px){.masthead{flex-wrap:wrap;gap:14px}.avatar{width:64px;height:64px}.top h1{font-size:21px}}
+  @media(max-width:720px){
+    .wrap{padding:0 14px}
+    header.top{padding-top:16px}
+    .masthead{align-items:flex-start;gap:13px}
+    .avatar{width:48px;height:48px}
+    .kicker{font-size:9px;line-height:1.35;letter-spacing:.1em}
+    .top h1{font-size:21px;line-height:1.12}
+    .deck{font-size:12px;line-height:1.4}
+    .freshline{margin-top:10px;font-size:11px;line-height:1.45}
+    .hub-nav{margin-top:15px}
+    .backlinks{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;gap:8px;padding:10px 0}
+    .backlinks a{display:flex;align-items:center;justify-content:center;min-height:40px;padding:7px 9px;text-align:center;font-size:12px}
+    .backlinks a:first-child{grid-column:1/-1}
+  }
 
   main{padding:22px 0 60px}
   .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:18px}
@@ -363,12 +377,14 @@
       </div>
     </div>
     <p class="freshline">Filing years: <b>2017–2026</b> · Records through <b>June 2026</b> · Updated <time datetime="2026-08-17">2026-08-17</time></p>
-    <div class="backlinks">
+  </div>
+  <nav class="hub-nav" aria-label="Stock trade tools">
+    <div class="wrap backlinks">
       <a href="/">Ro Khanna net worth — latest filing</a>
       <a class="ghost" href="/#txs">Search and filter transactions</a>
       <a class="ghost" href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download the open dataset</a>
     </div>
-  </div>
+  </nav>
 </header>
 
 <main><div class="wrap">
