@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "jDATADOG INC.CMNCLASSA a Xe",
+      "asset_name": "DATADOG, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NEW MEXICO FIN AUTH REV REV 5%",
+      "asset_name": "NEW MEXICO FIN AUTH REV REV 5% 06/01/26 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Se tT to MINNESOTA ST GO SY",
+      "asset_name": "MINNESOTA ST GO 5% 08/01/26 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST GO 5%",
+      "asset_name": "OHIO ST GO 5% 05/01/26 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,6 +56,30 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": 1,
+      "field": "asset_name",
+      "read": "DATADOG, INC. CMN CLASS A",
+      "note": "Corrected from OCR debris after direct review of the filed page scan."
+    },
+    {
+      "row": 2,
+      "field": "asset_name",
+      "read": "NEW MEXICO FIN AUTH REV REV 5% 06/01/26 JD",
+      "note": "Restored the maturity and coupon-payment suffix from the filed page scan."
+    },
+    {
+      "row": 3,
+      "field": "asset_name",
+      "read": "MINNESOTA ST GO 5% 08/01/26 FA",
+      "note": "Corrected from OCR debris after direct review of the filed page scan."
+    },
+    {
+      "row": 4,
+      "field": "asset_name",
+      "read": "OHIO ST GO 5% 05/01/26 MN",
+      "note": "Restored the maturity and coupon-payment suffix from the filed page scan."
+    },
     {
       "row": null,
       "field": "checkbox_columns",
