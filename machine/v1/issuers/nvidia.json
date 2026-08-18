@@ -1,0 +1,2234 @@
+{
+  "compare_api_example": "https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025",
+  "comparisons": [
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $2K – $30K in 2016 to $31K – $115K in 2017. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "higher_non_overlapping_range",
+      "directly_comparable": true,
+      "from_year": 2016,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2017,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $31K – $115K in 2017 to $47K – $180K in 2018. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "overlapping_reported_ranges",
+      "directly_comparable": true,
+      "from_year": 2017,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2018,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both decreased, from $47K – $180K in 2018 to $15K – $50K in 2019. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "overlapping_reported_ranges",
+      "directly_comparable": true,
+      "from_year": 2018,
+      "lower_bound_direction": "decreased",
+      "reported_bounds_direction": "both_decreased",
+      "to_year": 2019,
+      "upper_bound_direction": "decreased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $15K – $50K in 2019 to $50K – $100K in 2020. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "higher_non_overlapping_range",
+      "directly_comparable": true,
+      "from_year": 2019,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2020,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $50K – $100K in 2020 to $331K – $815K in 2021. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "higher_non_overlapping_range",
+      "directly_comparable": true,
+      "from_year": 2020,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2021,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both decreased, from $331K – $815K in 2021 to $117K – $330K in 2022. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "lower_non_overlapping_range",
+      "directly_comparable": true,
+      "from_year": 2021,
+      "lower_bound_direction": "decreased",
+      "reported_bounds_direction": "both_decreased",
+      "to_year": 2022,
+      "upper_bound_direction": "decreased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $117K – $330K in 2022 to $500K – $1.1M in 2023. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "higher_non_overlapping_range",
+      "directly_comparable": true,
+      "from_year": 2022,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2023,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $500K – $1.1M in 2023 to $851K – $1.77M in 2024. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "conservative_range_relation": "overlapping_reported_ranges",
+      "directly_comparable": true,
+      "from_year": 2023,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2024,
+      "upper_bound_direction": "increased",
+      "warnings": []
+    },
+    {
+      "actual_holdings_change": "cannot_be_inferred",
+      "answer": "The aggregate reported range's bounds both increased, from $851K – $1.77M in 2024 to $1.21M – $2.55M in 2025. The filing years are not directly comparable: The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.",
+      "conservative_range_relation": "overlapping_reported_ranges",
+      "directly_comparable": false,
+      "from_year": 2024,
+      "lower_bound_direction": "increased",
+      "reported_bounds_direction": "both_increased",
+      "to_year": 2025,
+      "upper_bound_direction": "increased",
+      "warnings": [
+        "The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth."
+      ]
+    }
+  ],
+  "dataset_version": "2026-08-18",
+  "entity": {
+    "aliases": [
+      "NVIDIA",
+      "NVIDIA CORP",
+      "NVIDIA CORPORATION",
+      "NVDA"
+    ],
+    "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+    "id": "issuer:nvidia",
+    "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+    "name": "NVIDIA Corporation",
+    "slug": "nvidia",
+    "ticker": "NVDA",
+    "url": "https://www.rokhanna.money/companies/nvidia/"
+  },
+  "interpretation": [
+    "Values are statutory reported ranges, not exact market values or share counts.",
+    "Owner codes describe household disclosure attribution and do not establish who directed an investment decision.",
+    "Raw security names are preserved on every evidence record; issuer identity is a separate curated normalization."
+  ],
+  "schema_version": "1.0.0",
+  "scope": "Annual Schedule A common-stock holdings aggregated across the household interests and portfolio groups printed in each filing.",
+  "years": [
+    {
+      "holding_count": 3,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2016-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2016:000046",
+          "group": "See attached GS Schedule",
+          "id": "asset:2016:000046",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "B: $1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "8/116",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "SP",
+          "page": 8,
+          "source_page_url": "https://www.rokhanna.money/2016/#p8",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000046",
+          "value": "C: $1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2016-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2016:000161",
+          "group": "See attached GS Schedule",
+          "id": "asset:2016:000161",
+          "ihi": 5000,
+          "ilo": 2501,
+          "income_amt": "$2,501-$5,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "33/116",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "SP",
+          "page": 33,
+          "source_page_url": "https://www.rokhanna.money/2016/#p33",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000161",
+          "value": "None",
+          "vhi": 0,
+          "vlo": 0
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corp",
+          "doc": "2016-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2016:000678",
+          "group": "See attached GS Schedule",
+          "id": "asset:2016:000678",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "97/116",
+          "name": "NVIDIA CORP CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 97,
+          "source_page_url": "https://www.rokhanna.money/2016/#p97",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000678",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        }
+      ],
+      "reported_names": [
+        "Nvidia Corporation",
+        "NVIDIA CORP CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 30000,
+        "display": "$2K – $30K",
+        "maximum_usd": 30000,
+        "minimum_usd": 2002,
+        "open_ended_entries": 0
+      },
+      "year": 2016
+    },
+    {
+      "holding_count": 3,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2017-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2017:000072",
+          "group": "MS MR Trust Partnership",
+          "id": "asset:2017:000072",
+          "ihi": 5000,
+          "ilo": 2501,
+          "income_amt": "E: $2,501-$5,000",
+          "income_types": [
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 10 of 149",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "SP",
+          "page": 10,
+          "source_page_url": "https://www.rokhanna.money/2017/#p10",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000072",
+          "value": "D: $15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2017-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2017:000600",
+          "group": "Ritu Ahuja 1994 Trust:",
+          "id": "asset:2017:000600",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 30 of 149",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 30,
+          "source_page_url": "https://www.rokhanna.money/2017/#p30",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000600",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2017-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2017:001334",
+          "group": "Ritu Ahuja 1995 Trust",
+          "id": "asset:2017:001334",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 45 of 149",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 45,
+          "source_page_url": "https://www.rokhanna.money/2017/#p45",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2017:001334",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        }
+      ],
+      "reported_names": [
+        "Nvidia Corporation",
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 115000,
+        "display": "$31K – $115K",
+        "maximum_usd": 115000,
+        "minimum_usd": 31003,
+        "open_ended_entries": 0
+      },
+      "year": 2017
+    },
+    {
+      "holding_count": 5,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2018-4",
+          "evidence_path": "/api/v1/evidence?id=asset:2018:000101",
+          "group": "Grandchildren's Trust:",
+          "id": "asset:2018:000101",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "B: $1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 23 of 309",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "SP",
+          "page": 23,
+          "source_page_url": "https://www.rokhanna.money/2018/#p23",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000101",
+          "value": "D: $15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2018-4",
+          "evidence_path": "/api/v1/evidence?id=asset:2018:000102",
+          "group": "Grandchildren's Trust:",
+          "id": "asset:2018:000102",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "B: $1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 23 of 309",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "DC",
+          "page": 23,
+          "source_page_url": "https://www.rokhanna.money/2018/#p23",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000102",
+          "value": "C: $1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and computing chips",
+          "doc": "2018-4",
+          "evidence_path": "/api/v1/evidence?id=asset:2018:000133",
+          "group": "M&R",
+          "id": "asset:2018:000133",
+          "ihi": 15000,
+          "ilo": 5001,
+          "income_amt": "$5,001-$15,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 32 of 309",
+          "name": "Nvidia Corporation",
+          "other_income": null,
+          "owner": "SP",
+          "page": 32,
+          "source_page_url": "https://www.rokhanna.money/2018/#p32",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000133",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2018-4",
+          "evidence_path": "/api/v1/evidence?id=asset:2018:000669",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2018:000669",
+          "ihi": 1000,
+          "ilo": 201,
+          "income_amt": "$201-$1,000",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 70 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 70,
+          "source_page_url": "https://www.rokhanna.money/2018/#p70",
+          "tx": "P,PS",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000669",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2018-4",
+          "evidence_path": "/api/v1/evidence?id=asset:2018:001473",
+          "group": "Ritu Ahuja 1995 Trust",
+          "id": "asset:2018:001473",
+          "ihi": 2500,
+          "ilo": 1001,
+          "income_amt": "$1,001-$2,500",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 127 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 127,
+          "source_page_url": "https://www.rokhanna.money/2018/#p127",
+          "tx": "P,PS",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:001473",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        }
+      ],
+      "reported_names": [
+        "Nvidia Corporation",
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 180000,
+        "display": "$47K – $180K",
+        "maximum_usd": 180000,
+        "minimum_usd": 47005,
+        "open_ended_entries": 0
+      },
+      "year": 2018
+    },
+    {
+      "holding_count": 5,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2019-2",
+          "evidence_path": "/api/v1/evidence?id=asset:2019:000652",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2019:000652",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Rohit Khanna 35 of 210",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 35,
+          "source_page_url": "https://www.rokhanna.money/2019/#p35",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000652",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2019-2",
+          "evidence_path": "/api/v1/evidence?id=asset:2019:001414",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2019:001414",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Rohit Khanna 48 of 210",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 48,
+          "source_page_url": "https://www.rokhanna.money/2019/#p48",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001414",
+          "value": null,
+          "vhi": null,
+          "vlo": null
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2019-2",
+          "evidence_path": "/api/v1/evidence?id=asset:2019:002962",
+          "group": "Ahuja family trust [header italic, illegible - '... Ahuja ... Trust'; continuation of same trust as pages 064-068]",
+          "id": "asset:2019:002962",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Rohit Khanna 69 of 210",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 69,
+          "source_page_url": "https://www.rokhanna.money/2019/#p69",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:002962",
+          "value": null,
+          "vhi": null,
+          "vlo": null
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2019-2",
+          "evidence_path": "/api/v1/evidence?id=asset:2019:003799",
+          "group": "Ritu Ahuja 1993 Trust",
+          "id": "asset:2019:003799",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Rohit Khanna 82 of 210",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 82,
+          "source_page_url": "https://www.rokhanna.money/2019/#p82",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:003799",
+          "value": null,
+          "vhi": null,
+          "vlo": null
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2019-2",
+          "evidence_path": "/api/v1/evidence?id=asset:2019:004627",
+          "group": "Mike Ahuja 1995 Trust",
+          "id": "asset:2019:004627",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Rohit Khanna 93 of 210",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": null,
+          "page": 93,
+          "source_page_url": "https://www.rokhanna.money/2019/#p93",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:004627",
+          "value": null,
+          "vhi": null,
+          "vlo": null
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 50000,
+        "display": "$15K – $50K",
+        "maximum_usd": 50000,
+        "minimum_usd": 15001,
+        "open_ended_entries": 0
+      },
+      "year": 2019
+    },
+    {
+      "holding_count": 2,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2020-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2020:000747",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2020:000747",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 39 of 326",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 39,
+          "source_page_url": "https://www.rokhanna.money/2020/#p39",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000747",
+          "value": "$50,001-$100,000",
+          "vhi": 100000,
+          "vlo": 50001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2020-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2020:001569",
+          "group": "Ritu Ahuja 1995 Trust",
+          "id": "asset:2020:001569",
+          "ihi": null,
+          "ilo": null,
+          "income_amt": null,
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 75 of 326",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 75,
+          "source_page_url": "https://www.rokhanna.money/2020/#p75",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2020:001569",
+          "value": null,
+          "vhi": null,
+          "vlo": null
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 100000,
+        "display": "$50K – $100K",
+        "maximum_usd": 100000,
+        "minimum_usd": 50001,
+        "open_ended_entries": 0
+      },
+      "year": 2020
+    },
+    {
+      "holding_count": 7,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:000059",
+          "group": "ARECO LP - 2010 Grandchildren Trust",
+          "id": "asset:2021:000059",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 6 of 303",
+          "name": "NVIDIA CORPORATION",
+          "other_income": null,
+          "owner": "DC",
+          "page": 6,
+          "source_page_url": "https://www.rokhanna.money/2021/#p6",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000059",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:000097",
+          "group": "ARECO LP - 2020 Trust FBO Khanna Children",
+          "id": "asset:2021:000097",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 9 of 303",
+          "name": "NVIDIA CORPORATION",
+          "other_income": null,
+          "owner": "DC",
+          "page": 9,
+          "source_page_url": "https://www.rokhanna.money/2021/#p9",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000097",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:000731",
+          "group": "2010 Grandchildren Trust",
+          "id": "asset:2021:000731",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "N/A"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 43 of 303",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 43,
+          "source_page_url": "https://www.rokhanna.money/2021/#p43",
+          "tx": "P,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000731",
+          "value": "$50,001-$100,000",
+          "vhi": 100000,
+          "vlo": 50001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:001044",
+          "group": "Grandchildren Education Trust",
+          "id": "asset:2021:001044",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 60 of 303",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 60,
+          "source_page_url": "https://www.rokhanna.money/2021/#p60",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001044",
+          "value": "$50,001-$100,000",
+          "vhi": 100000,
+          "vlo": 50001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:001545",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2021:001545",
+          "ihi": 5000,
+          "ilo": 2501,
+          "income_amt": "$2,501-$5,000",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 86 of 303",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 86,
+          "source_page_url": "https://www.rokhanna.money/2021/#p86",
+          "tx": "P,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001545",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:001835",
+          "group": "Ritu Ahuja Declaration Trust",
+          "id": "asset:2021:001835",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 102 of 303",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 102,
+          "source_page_url": "https://www.rokhanna.money/2021/#p102",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001835",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2021-13",
+          "evidence_path": "/api/v1/evidence?id=asset:2021:002268",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2021:002268",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 125 of 303",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 125,
+          "source_page_url": "https://www.rokhanna.money/2021/#p125",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2021:002268",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION",
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 815000,
+        "display": "$331K – $815K",
+        "maximum_usd": 815000,
+        "minimum_usd": 331007,
+        "open_ended_entries": 0
+      },
+      "year": 2021
+    },
+    {
+      "holding_count": 5,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2022-15",
+          "evidence_path": "/api/v1/evidence?id=asset:2022:000464",
+          "group": "2010 Grandchildren Trust",
+          "id": "asset:2022:000464",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 22 of 367",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 22,
+          "source_page_url": "https://www.rokhanna.money/2022/#p22",
+          "tx": "P,S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000464",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2022-15",
+          "evidence_path": "/api/v1/evidence?id=asset:2022:000690",
+          "group": "Ahuja Grandchildren's Education Trust",
+          "id": "asset:2022:000690",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "N/A"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 32 of 367",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 32,
+          "source_page_url": "https://www.rokhanna.money/2022/#p32",
+          "tx": "P,S",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000690",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2022-15",
+          "evidence_path": "/api/v1/evidence?id=asset:2022:001171",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2022:001171",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 51 of 367",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 51,
+          "source_page_url": "https://www.rokhanna.money/2022/#p51",
+          "tx": "P,S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001171",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2022-15",
+          "evidence_path": "/api/v1/evidence?id=asset:2022:001908",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2022:001908",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "N/A"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 81 of 367",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 81,
+          "source_page_url": "https://www.rokhanna.money/2022/#p81",
+          "tx": "P,S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001908",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2022-15",
+          "evidence_path": "/api/v1/evidence?id=asset:2022:002358",
+          "group": "Ritu Ahuja 1995 Trust",
+          "id": "asset:2022:002358",
+          "ihi": 0,
+          "ilo": 0,
+          "income_amt": "None",
+          "income_types": [
+            "N/A"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 99 of 367",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 99,
+          "source_page_url": "https://www.rokhanna.money/2022/#p99",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:002358",
+          "value": "None",
+          "vhi": 0,
+          "vlo": 0
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 330000,
+        "display": "$117K – $330K",
+        "maximum_usd": 330000,
+        "minimum_usd": 117004,
+        "open_ended_entries": 0
+      },
+      "year": 2022
+    },
+    {
+      "holding_count": 5,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2023-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2023:000511",
+          "group": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren",
+          "id": "asset:2023:000511",
+          "ihi": 15000,
+          "ilo": 5001,
+          "income_amt": "$5,001-$15,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 29 of 327",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 29,
+          "source_page_url": "https://www.rokhanna.money/2023/#p29",
+          "tx": "S, S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:000511",
+          "value": "$50,001-$100,000",
+          "vhi": 100000,
+          "vlo": 50001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2023-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2023:001128",
+          "group": "Ahuja Grandchildren's Education Trust",
+          "id": "asset:2023:001128",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 60 of 327",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 60,
+          "source_page_url": "https://www.rokhanna.money/2023/#p60",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:001128",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2023-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2023:001931",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2023:001931",
+          "ihi": 50000,
+          "ilo": 15001,
+          "income_amt": "$15,001-$50,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 100 of 327",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 100,
+          "source_page_url": "https://www.rokhanna.money/2023/#p100",
+          "tx": "P,S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:001931",
+          "value": "$250,001-$500,000",
+          "vhi": 500000,
+          "vlo": 250001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2023-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2023:002676",
+          "group": "Ritu Ahuja 1995 Trust",
+          "id": "asset:2023:002676",
+          "ihi": 1000,
+          "ilo": 201,
+          "income_amt": "$201-$1,000",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 138 of 327",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 138,
+          "source_page_url": "https://www.rokhanna.money/2023/#p138",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:002676",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2023-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2023:002786",
+          "group": "M&R Trust Partnership - 2020 Trust FBO Khanna Children",
+          "id": "asset:2023:002786",
+          "ihi": 15000,
+          "ilo": 5001,
+          "income_amt": "$5,001-$15,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 143 of 327",
+          "name": "NVIDIA CORPORATION",
+          "other_income": null,
+          "owner": "DC",
+          "page": 143,
+          "source_page_url": "https://www.rokhanna.money/2023/#p143",
+          "tx": "S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:002786",
+          "value": "None",
+          "vhi": 0,
+          "vlo": 0
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN",
+        "NVIDIA CORPORATION"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 1100000,
+        "display": "$500K – $1.1M",
+        "maximum_usd": 1100000,
+        "minimum_usd": 500004,
+        "open_ended_entries": 0
+      },
+      "year": 2023
+    },
+    {
+      "holding_count": 5,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2024-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2024:000231",
+          "group": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren",
+          "id": "asset:2024:000231",
+          "ihi": 100000,
+          "ilo": 50001,
+          "income_amt": "$50,001-$100,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 11 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 11,
+          "source_page_url": "https://www.rokhanna.money/2024/#p11",
+          "tx": "S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:000231",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2024-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2024:000784",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2024:000784",
+          "ihi": 5000,
+          "ilo": 2501,
+          "income_amt": "$2,501-$5,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 35 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 35,
+          "source_page_url": "https://www.rokhanna.money/2024/#p35",
+          "tx": "S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:000784",
+          "value": "$250,001-$500,000",
+          "vhi": 500000,
+          "vlo": 250001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2024-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2024:001387",
+          "group": "Ritu Ahuja Declaration of Trust",
+          "id": "asset:2024:001387",
+          "ihi": 50000,
+          "ilo": 15001,
+          "income_amt": "$15,001-$50,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 61 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 61,
+          "source_page_url": "https://www.rokhanna.money/2024/#p61",
+          "tx": "S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:001387",
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2024-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2024:001973",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2024:001973",
+          "ihi": 100000,
+          "ilo": 50001,
+          "income_amt": "$50,001-$100,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 85 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "SP",
+          "page": 86,
+          "source_page_url": "https://www.rokhanna.money/2024/#p86",
+          "tx": "S,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:001973",
+          "value": "$250,001-$500,000",
+          "vhi": 500000,
+          "vlo": 250001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2024-1",
+          "evidence_path": "/api/v1/evidence?id=asset:2024:002646",
+          "group": "M & R Trust Partnership - 2020 Trust FBO Khanna Children",
+          "id": "asset:2024:002646",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 115 of 309",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 116,
+          "source_page_url": "https://www.rokhanna.money/2024/#p116",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:002646",
+          "value": "$250,001-$500,000",
+          "vhi": 500000,
+          "vlo": 250001
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 1765000,
+        "display": "$851K – $1.77M",
+        "maximum_usd": 1765000,
+        "minimum_usd": 851005,
+        "open_ended_entries": 0
+      },
+      "year": 2024
+    },
+    {
+      "holding_count": 8,
+      "records": [
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:000490",
+          "group": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren",
+          "id": "asset:2025:000490",
+          "ihi": 5000,
+          "ilo": 2501,
+          "income_amt": "$2,501-$5,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 22 of 353",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 22,
+          "source_page_url": "https://www.rokhanna.money/2025/#p22",
+          "tx": "P,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:000490",
+          "value": "$50,001-$100,000",
+          "vhi": 100000,
+          "vlo": 50001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:000996",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2025:000996",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 44 of 353",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 44,
+          "source_page_url": "https://www.rokhanna.money/2025/#p44",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:000996",
+          "value": "$500,001-$1,000,000",
+          "vhi": 1000000,
+          "vlo": 500001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:001423",
+          "group": "Ritu Ahuja Declaration of Trust",
+          "id": "asset:2025:001423",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 63 of 353",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 63,
+          "source_page_url": "https://www.rokhanna.money/2025/#p63",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:001423",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:002222",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2025:002222",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 97 of 353",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 97,
+          "source_page_url": "https://www.rokhanna.money/2025/#p97",
+          "tx": null,
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:002222",
+          "value": "$500,001-$1,000,000",
+          "vhi": 1000000,
+          "vlo": 500001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia, maker of graphics and artificial intelligence chips",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:002829",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2025:002829",
+          "ihi": 1000,
+          "ilo": 201,
+          "income_amt": "$201-$1,000",
+          "income_types": [
+            "Dividends",
+            "Capital gains"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 124 of 353",
+          "name": "NVIDIA CORPORATION CMN",
+          "other_income": null,
+          "owner": "DC",
+          "page": 124,
+          "source_page_url": "https://www.rokhanna.money/2025/#p124",
+          "tx": "P,S(part)",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:002829",
+          "value": "$100,001-$250,000",
+          "vhi": 250000,
+          "vlo": 100001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:003099",
+          "group": "Ritu Ahuja 1994 Trust",
+          "id": "asset:2025:003099",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 140 of 353",
+          "name": "NVIDIA CORPORATION COM",
+          "other_income": null,
+          "owner": "SP",
+          "page": 140,
+          "source_page_url": "https://www.rokhanna.money/2025/#p140",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003099",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:003196",
+          "group": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren",
+          "id": "asset:2025:003196",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 145 of 353",
+          "name": "NVIDIA CORPORATION COM",
+          "other_income": null,
+          "owner": "DC",
+          "page": 145,
+          "source_page_url": "https://www.rokhanna.money/2025/#p145",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003196",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        },
+        {
+          "cls": "Common stock",
+          "desc": "Common stock of Nvidia Corporation",
+          "doc": "2025-14",
+          "evidence_path": "/api/v1/evidence?id=asset:2025:003273",
+          "group": "2020 Trust FBO Khanna Children",
+          "id": "asset:2025:003273",
+          "ihi": 200,
+          "ilo": 1,
+          "income_amt": "$1-$200",
+          "income_types": [
+            "Dividends"
+          ],
+          "issuer": {
+            "aliases": [
+              "NVIDIA",
+              "NVIDIA CORP",
+              "NVIDIA CORPORATION",
+              "NVDA"
+            ],
+            "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "id": "issuer:nvidia",
+            "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+            "name": "NVIDIA Corporation",
+            "slug": "nvidia",
+            "ticker": "NVDA",
+            "url": "https://www.rokhanna.money/companies/nvidia/"
+          },
+          "label": "Page 149 of 353",
+          "name": "NVIDIA CORPORATION COM",
+          "other_income": null,
+          "owner": "DC",
+          "page": 149,
+          "source_page_url": "https://www.rokhanna.money/2025/#p149",
+          "tx": "P",
+          "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003273",
+          "value": "$15,001-$50,000",
+          "vhi": 50000,
+          "vlo": 15001
+        }
+      ],
+      "reported_names": [
+        "NVIDIA CORPORATION CMN",
+        "NVIDIA CORPORATION COM"
+      ],
+      "reported_value": {
+        "calculated_upper_floor_usd": 2550000,
+        "display": "$1.21M – $2.55M",
+        "maximum_usd": 2550000,
+        "minimum_usd": 1210008,
+        "open_ended_entries": 0
+      },
+      "year": 2025
+    }
+  ]
+}

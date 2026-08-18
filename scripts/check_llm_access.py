@@ -29,7 +29,19 @@ def main():
     full = (ROOT / "llms-full.txt").read_text(encoding="utf-8")
     require(len(llms) < 20_000, "llms.txt should remain a concise discovery document")
     require("API documentation" in llms and "Citation and interpretation" in llms, "llms.txt is incomplete")
+    require("compare?entity=NVDA&years=2024,2025" in llms, "llms.txt lacks a cross-year question example")
     require(len(full) > len(llms), "llms-full.txt should contain expanded context")
+
+    issuer_registry = json.loads((ROOT / "data/issuer-registry.json").read_text(encoding="utf-8"))
+    require(issuer_registry and len({row["id"] for row in issuer_registry}) == len(issuer_registry),
+            "issuer registry IDs must be present and unique")
+    require(len({row["slug"] for row in issuer_registry}) == len(issuer_registry),
+            "issuer registry slugs must be unique")
+    for issuer in issuer_registry:
+        require(issuer.get("name") and issuer.get("aliases") and issuer.get("security_name_patterns"),
+                f"{issuer.get('id')}: issuer identity is incomplete")
+        for pattern in issuer["security_name_patterns"]:
+            re.compile(pattern)
 
     for year in YEARS:
         facts = json.loads((ROOT / year / "facts.json").read_text(encoding="utf-8"))
@@ -40,6 +52,8 @@ def main():
                 f"{year}: transaction count drift")
         require(facts["metrics"]["reported_holdings"]["minimum_usd"] == summary["holdings"]["lo"],
                 f"{year}: holdings minimum drift")
+        require(facts.get("comparability", {}).get("cross_year_holdings", {}).get("status"),
+                f"{year}: machine-readable holdings comparability missing")
         require(f"/api/v1/years/{year}/summary.json" in markdown, f"{year}: Markdown lacks facts URL")
 
         for kind, singular in (("assets", "asset"), ("transactions", "transaction")):
@@ -61,6 +75,10 @@ def main():
     config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
     rewrites = {item["source"]: item["destination"] for item in config.get("rewrites") or []}
     require(rewrites.get("/api/v1") == "/machine/v1/index.json", "API discovery rewrite missing")
+    require(rewrites.get("/api/v1/issuers.json") == "/machine/v1/issuers.json",
+            "issuer index rewrite missing")
+    require(rewrites.get("/api/v1/issuers/nvidia.json") == "/machine/v1/issuers/nvidia.json",
+            "NVIDIA issuer rewrite missing")
     for year in YEARS:
         for kind in ("assets", "transactions", "pages"):
             source = f"/api/v1/years/{year}/{kind}.json"
@@ -69,7 +87,29 @@ def main():
 
     openapi = json.loads((ROOT / "machine/v1/openapi.json").read_text(encoding="utf-8"))
     require(openapi.get("openapi") == "3.1.0", "OpenAPI version drift")
-    require("/search" in openapi["paths"] and "/evidence" in openapi["paths"], "API operations missing")
+    require(all(path in openapi["paths"] for path in ("/search", "/evidence", "/compare", "/issuers/{slug}.json")),
+            "API operations missing")
+
+    nvidia = json.loads((ROOT / "machine/v1/issuers/nvidia.json").read_text(encoding="utf-8"))
+    require(nvidia["entity"]["ticker"] == "NVDA", "NVIDIA issuer identity drift")
+    nvidia_years = {row["year"]: row for row in nvidia["years"]}
+    require(nvidia_years[2024]["holding_count"] == 5, "NVIDIA 2024 holding count drift")
+    require(nvidia_years[2024]["reported_value"]["minimum_usd"] == 851005 and
+            nvidia_years[2024]["reported_value"]["maximum_usd"] == 1765000,
+            "NVIDIA 2024 aggregate drift")
+    require(nvidia_years[2025]["holding_count"] == 8, "NVIDIA 2025 holding count drift")
+    require(nvidia_years[2025]["reported_value"]["minimum_usd"] == 1210008 and
+            nvidia_years[2025]["reported_value"]["maximum_usd"] == 2550000,
+            "NVIDIA 2025 aggregate drift")
+    target = next(row for row in nvidia["comparisons"]
+                  if row["from_year"] == 2024 and row["to_year"] == 2025)
+    require(target["reported_bounds_direction"] == "both_increased" and not target["directly_comparable"],
+            "NVIDIA comparison must preserve both the reported direction and the 2025 warning")
+    require(target["conservative_range_relation"] == "overlapping_reported_ranges" and
+            "not directly comparable" in target["answer"],
+            "NVIDIA comparison must be answer-ready without overstating the evidence")
+    require((ROOT / "companies/nvidia/index.html").is_file() and
+            (ROOT / "companies/nvidia/index.md").is_file(), "indexable NVIDIA pages missing")
 
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     for agent in ("OAI-SearchBot", "ChatGPT-User", "GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended"):
@@ -80,13 +120,15 @@ def main():
     tree = ET.parse(ROOT / "sitemap.xml")
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     sitemap_urls = {node.text for node in tree.findall("s:url/s:loc", namespace)}
-    for url in ("https://www.rokhanna.money/llms.txt", "https://www.rokhanna.money/api/v1/openapi.json"):
+    for url in ("https://www.rokhanna.money/llms.txt", "https://www.rokhanna.money/api/v1/openapi.json",
+                "https://www.rokhanna.money/companies/nvidia/",
+                "https://www.rokhanna.money/api/v1/issuers/nvidia.json"):
         require(url in sitemap_urls, f"sitemap lacks {url}")
 
     key = "264f47e7ac6f754571619ef2cfe0c4af"
     require((ROOT / f"{key}.txt").read_text(encoding="utf-8").strip() == key, "IndexNow key file drift")
 
-    for script in (ROOT / "api/v1/search.js", ROOT / "api/v1/evidence.js"):
+    for script in (ROOT / "api/v1/search.js", ROOT / "api/v1/evidence.js", ROOT / "api/v1/compare.js"):
         result = subprocess.run(["node", "--check", str(script)], capture_output=True, text=True)
         require(result.returncode == 0, f"{script.name}: {result.stderr.strip()}")
     handler_check = subprocess.run(
@@ -96,7 +138,7 @@ def main():
 
     # Guard against accidental unescaped control text in generated JSON and Markdown URLs.
     require(not re.search(r"https://www\.rokhanna\.money//", llms + full), "double-slash URL in LLM documents")
-    print("llm access audit: PASS (11 years, discovery, Markdown, facts, evidence, API, robots, sitemap, IndexNow)")
+    print("llm access audit: PASS (11 years, discovery, Markdown, facts, issuer comparison, evidence, API, robots, sitemap, IndexNow)")
 
 
 if __name__ == "__main__":

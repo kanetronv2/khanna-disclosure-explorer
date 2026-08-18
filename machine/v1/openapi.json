@@ -29,6 +29,13 @@
             "description": "Deterministic dataset record ID.",
             "type": "string"
           },
+          "issuer": {
+            "description": "Reviewed issuer identity when available; separate from the raw reported name.",
+            "type": [
+              "object",
+              "null"
+            ]
+          },
           "label": {
             "description": "Printed filing page label.",
             "type": [
@@ -72,6 +79,39 @@
           "doc",
           "page",
           "name"
+        ],
+        "type": "object"
+      },
+      "IssuerComparison": {
+        "properties": {
+          "comparisons": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "entity": {
+            "description": "Curated issuer identity, separate from raw filed security names.",
+            "type": "object"
+          },
+          "interpretation": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "years": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "entity",
+          "years",
+          "comparisons",
+          "interpretation"
         ],
         "type": "object"
       },
@@ -123,6 +163,10 @@
             },
             "type": "array"
           },
+          "comparability": {
+            "description": "Machine-readable warning status for cross-year holdings interpretation.",
+            "type": "object"
+          },
           "dataset_version": {
             "format": "date",
             "type": "string"
@@ -169,6 +213,61 @@
   },
   "openapi": "3.1.0",
   "paths": {
+    "/compare": {
+      "get": {
+        "description": "Resolves reviewed aliases such as NVDA, preserves raw filed names, sums statutory bands, and returns machine-readable comparability warnings. An increase in reported bounds is not necessarily an increase in actual holdings.",
+        "operationId": "compareIssuerHoldings",
+        "parameters": [
+          {
+            "example": "NVDA",
+            "in": "query",
+            "name": "entity",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "example": "2024,2025",
+            "in": "query",
+            "name": "years",
+            "required": false,
+            "schema": {
+              "default": "2024,2025",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IssuerComparison"
+                }
+              }
+            },
+            "description": "Source-linked issuer comparison"
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Invalid entity or filing years"
+          }
+        },
+        "summary": "Compare one issuer's annual reported common-stock holdings across filing years"
+      }
+    },
     "/evidence": {
       "get": {
         "operationId": "getEvidence",
@@ -211,6 +310,75 @@
           }
         },
         "summary": "Resolve a deterministic asset or transaction ID"
+      }
+    },
+    "/issuers.json": {
+      "get": {
+        "operationId": "getIssuers",
+        "responses": {
+          "200": {
+            "description": "Issuer index"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Resource not found"
+          }
+        },
+        "summary": "List reviewed issuer identities and their indexable pages"
+      }
+    },
+    "/issuers/{slug}.json": {
+      "get": {
+        "operationId": "getIssuer",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IssuerComparison"
+                }
+              }
+            },
+            "description": "Issuer holdings and comparisons"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Resource not found"
+          }
+        },
+        "summary": "Get source-linked annual holdings for one reviewed issuer"
       }
     },
     "/search": {

@@ -13,6 +13,12 @@
     "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
     "This is an independent transcription; consequential claims should be checked against the linked scans."
   ],
+  "comparability": {
+    "cross_year_holdings": {
+      "reason": "No filing-specific value-basis warning is recorded for this year; statutory ranges still do not disclose exact values.",
+      "status": "no_year_specific_basis_warning"
+    }
+  },
   "coverage": {
     "annual_filing_pages": 303,
     "latest_readable_transaction_date": "2022-11-23",

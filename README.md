@@ -12,7 +12,10 @@ the filings generally do not disclose exact values.
 Machine clients can begin at [`llms.txt`](llms.txt), use the OpenAPI description at
 `/api/v1/openapi.json`, or retrieve a compact Markdown and facts JSON document from each year
 directory. Stable API routes expose the complete per-year arrays without requiring a client to
-discover content-hashed website files.
+discover content-hashed website files. The issuer comparison API joins reviewed filing-name
+variants without rewriting the raw transcription; for example,
+`/api/v1/compare?entity=NVDA&years=2024,2025` returns the reported bounds, evidence records,
+and any cross-year comparability warning together.
 
 ## Use the data
 
@@ -81,6 +84,8 @@ data-YYYY.js           generated website datasets
 site-data/             generated, content-hashed lazy website chunks
 machine/v1/            generated API discovery and OpenAPI documents
 api/v1/                read-only evidence lookup and search handlers
+companies/             generated, indexable issuer summaries with Markdown alternates
+data/issuer-registry.json reviewed issuer aliases kept separate from raw filed names
 templates/index.html   source template for every generated page
 index.html, YYYY/      generated HTML, Markdown, and facts JSON (build with: make pages)
 scripts/               release, audit, and page-rendering tooling

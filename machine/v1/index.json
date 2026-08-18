@@ -1,7 +1,9 @@
 {
+  "compare": "https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025",
   "dataset_version": "2026-08-18",
   "documentation": "https://www.rokhanna.money/api/v1/openapi.json",
   "evidence": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2025:000001",
+  "issuers": "https://www.rokhanna.money/api/v1/issuers.json",
   "license": "CC0-1.0 for original dataset contributions; see the site license notice.",
   "name": "Khanna Disclosure Explorer read-only API",
   "search": "https://www.rokhanna.money/api/v1/search?year=2025&kind=transactions&q=apple",

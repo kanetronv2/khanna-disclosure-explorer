@@ -1,0 +1,21 @@
+{
+  "dataset_version": "2026-08-18",
+  "issuers": [
+    {
+      "aliases": [
+        "NVIDIA",
+        "NVIDIA CORP",
+        "NVIDIA CORPORATION",
+        "NVDA"
+      ],
+      "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+      "id": "issuer:nvidia",
+      "markdown_url": "https://www.rokhanna.money/companies/nvidia/index.md",
+      "name": "NVIDIA Corporation",
+      "slug": "nvidia",
+      "ticker": "NVDA",
+      "url": "https://www.rokhanna.money/companies/nvidia/"
+    }
+  ],
+  "scope": "Reviewed issuer identities used to join raw filed security-name variants without altering the transcription."
+}

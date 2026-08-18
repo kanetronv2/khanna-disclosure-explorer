@@ -155,6 +155,14 @@
       "destination": "/machine/v1/years.json"
     },
     {
+      "source": "/api/v1/issuers.json",
+      "destination": "/machine/v1/issuers.json"
+    },
+    {
+      "source": "/api/v1/issuers/nvidia.json",
+      "destination": "/machine/v1/issuers/nvidia.json"
+    },
+    {
       "source": "/api/v1/years/2016/summary.json",
       "destination": "/2016/facts.json"
     },

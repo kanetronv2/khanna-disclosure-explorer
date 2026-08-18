@@ -14,6 +14,12 @@
     "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
     "This is an independent transcription; consequential claims should be checked against the linked scans."
   ],
+  "comparability": {
+    "cross_year_holdings": {
+      "reason": "This filing year has no annual holdings statement.",
+      "status": "unavailable"
+    }
+  },
   "coverage": {
     "annual_filing_pages": null,
     "latest_readable_transaction_date": "2026-05-28",

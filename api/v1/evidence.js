@@ -1,4 +1,5 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
+const {enrichWithIssuer} = require('../../lib/issuer.js');
 
 function origin(req) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
@@ -38,7 +39,7 @@ module.exports = async function handler(req, res) {
     const doc = row.doc || '';
     const documentPath = doc === '2024-1' ? 'disclosures.pdf' : `docs/src/${doc}.pdf`;
     return res.status(200).json({
-      ...row,
+      ...enrichWithIssuer(row, base),
       url: `${base}/api/v1/evidence?id=${encodeURIComponent(row.id)}`,
       source_document_url: `${base}/${documentPath}`,
       source_page_url: `${base}/${year}/#p${row.page}`,

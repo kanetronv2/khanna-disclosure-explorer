@@ -689,6 +689,7 @@ def crosslinks(ctx, year):
         '<div class="crosslink-hub">'
         f'<a href="/">Ro Khanna net worth — latest filing</a>'
         f'<a href="{TRADES_PATH}">All reported stock trades, {ctx.tx_span()[0]}–{ctx.tx_span()[1]}</a>'
+        '<a href="/companies/nvidia/">NVIDIA holdings by filing year</a>'
         f'<a href="{DATA_HOME}" target="_blank" rel="noopener">Download the open dataset</a>'
         '</div>'
         f'<div class="crosslink-years"><span>Every filing year:</span> {year_links}</div></nav>')
@@ -1123,7 +1124,13 @@ def write_sitemap(ctx):
     """Every canonical URL with a lastmod. changefreq/priority are omitted: Google ignores
     both, and a stale priority is worse than none."""
     paths = ["/", TRADES_PATH, "/stock-trades/index.md", "/llms.txt", "/llms-full.txt",
-             "/api/v1", "/api/v1/openapi.json", "/api/v1/years.json"]
+             "/api/v1", "/api/v1/openapi.json", "/api/v1/years.json", "/api/v1/issuers.json"]
+    issuer_registry = json.loads((ROOT / "data" / "issuer-registry.json").read_text(encoding="utf-8"))
+    paths += [path for issuer in issuer_registry for path in (
+        f"/companies/{issuer['slug']}/",
+        f"/companies/{issuer['slug']}/index.md",
+        f"/api/v1/issuers/{issuer['slug']}.json",
+    )]
     paths += [f"/{y}/" for y in sorted(ctx.years, reverse=True) if y != ctx.root_year]
     paths += [path for y in sorted(ctx.years, reverse=True)
               for path in (f"/{y}/index.md", f"/{y}/facts.json")]

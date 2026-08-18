@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const search = require('../api/v1/search.js');
 const evidence = require('../api/v1/evidence.js');
+const compare = require('../api/v1/compare.js');
 
 const rows = [
   {id: 'transaction:2025:000001', name: 'APPLE INC CMN', owner: 'DC', cls: 'Common stock',
@@ -12,7 +13,25 @@ const rows = [
 const fetched = [];
 global.fetch = async endpoint => {
   fetched.push(endpoint);
-  return {ok: true, status: 200, json: async () => rows};
+  let body = rows;
+  if (endpoint.includes('/assets.json')) {
+    body = endpoint.includes('/2024/') ? [
+      {id: 'asset:2024:000001', name: 'NVIDIA CORPORATION CMN', owner: 'DC', cls: 'Common stock',
+       value: '$100,001-$250,000', vlo: 100001, vhi: 250000, doc: '2024-1', page: 11},
+      {id: 'asset:2024:000002', name: 'NVIDIA CORPORATION COM', owner: 'SP', cls: 'Common stock',
+       value: '$250,001-$500,000', vlo: 250001, vhi: 500000, doc: '2024-1', page: 86},
+    ] : [
+      {id: 'asset:2025:000001', name: 'NVIDIA CORPORATION CMN', owner: 'DC', cls: 'Common stock',
+       value: '$50,001-$100,000', vlo: 50001, vhi: 100000, doc: '2025-14', page: 22},
+      {id: 'asset:2025:000002', name: 'NVIDIA CORPORATION COM', owner: 'SP', cls: 'Common stock',
+       value: '$500,001-$1,000,000', vlo: 500001, vhi: 1000000, doc: '2025-14', page: 140},
+    ];
+  } else if (endpoint.includes('/summary.json')) {
+    body = endpoint.includes('/2025/') ? {
+      comparability: {cross_year_holdings: {status: 'not_directly_comparable', reason: '2025 basis differs.'}},
+    } : {comparability: {cross_year_holdings: {status: 'no_year_specific_basis_warning', reason: 'No warning.'}}};
+  }
+  return {ok: true, status: 200, json: async () => body};
 };
 
 function response() {
@@ -49,6 +68,15 @@ async function main() {
   res = response();
   await evidence({method: 'GET', headers: {host: 'localhost:3000'}, query: {id: 'bad'}}, res);
   if (res.code !== 400) throw new Error('invalid evidence ID should return 400');
+
+  res = response();
+  await compare({method: 'GET', headers: {host: 'localhost:3000'},
+    query: {entity: 'NVDA', years: '2024,2025'}}, res);
+  if (res.code !== 200 || res.body.entity.ticker !== 'NVDA' ||
+      res.body.years[0].holding_count !== 2 || res.body.years[1].holding_count !== 2 ||
+      res.body.comparisons[0].reported_bounds_direction !== 'both_increased' ||
+      res.body.comparisons[0].directly_comparable !== false ||
+      !res.body.years[1].records[0].issuer) throw new Error('issuer comparison handler failed');
   console.log('API handler audit: PASS');
 }
 

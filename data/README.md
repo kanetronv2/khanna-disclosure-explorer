@@ -44,6 +44,12 @@ filing-page URLs.
 and `/api/v1/evidence?id=transaction:2025:000001` resolves one deterministic record. The API is
 read-only and permits cross-origin GET requests.
 
+`/api/v1/compare?entity=NVDA&years=2024,2025` aggregates one reviewed issuer's common-stock
+holdings across filing years. Its response distinguishes movements in the reported lower and
+upper bounds from any claim about actual holdings and carries filing-specific comparability
+warnings in machine-readable fields. `/api/v1/issuers.json` lists reviewed issuer identities;
+their aliases live in `data/issuer-registry.json`. Raw filed asset names are never replaced.
+
 ## Important semantics
 
 - Dollar amounts are statutory ranges, not exact values. `*_min_usd` and `*_max_usd` are the

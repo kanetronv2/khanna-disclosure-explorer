@@ -10,6 +10,8 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 - [All reported stock trades](https://www.rokhanna.money/stock-trades/): Cross-year transaction analysis.
 - [API documentation](https://www.rokhanna.money/api/v1/openapi.json): OpenAPI 3.1 description of the read-only API.
 - [Year index](https://www.rokhanna.money/api/v1/years.json): Canonical, Markdown, and JSON URLs for every filing year.
+- [Issuer index](https://www.rokhanna.money/api/v1/issuers.json): Reviewed company identities that join raw filing-name variants.
+- [Issuer comparison API](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025): Cross-year reported bounds, evidence, and comparability warnings.
 - [Full LLM context](https://www.rokhanna.money/llms-full.txt): Expanded annual summaries and citation guidance.
 - [Data methodology](https://github.com/kanetronv2/khanna-disclosure-explorer/blob/main/data/README.md): Normalized schema, caveats, and audit process.
 
@@ -26,6 +28,11 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 - [2018 filing Markdown](https://www.rokhanna.money/2018/index.md): 6,359 reported transactions; 1,951 asset entries.
 - [2017 filing Markdown](https://www.rokhanna.money/2017/index.md): 2,667 reported transactions; 1,698 asset entries.
 - [2016 filing Markdown](https://www.rokhanna.money/2016/index.md): 0 reported transactions; 894 asset entries.
+
+## Common question pattern
+
+Question: Did Ro Khanna's reported NVIDIA holdings increase or decrease from 2024 to 2025?
+Use [https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.
 
 ## Citation and interpretation
 
