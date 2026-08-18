@@ -7,13 +7,13 @@
     "checkbox_artifact": 81,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 295,
+    "embedded_grid_debris": 292,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 567,
+    "mixed_case_ocr_artifact": 565,
     "multiple_option_contracts": 2,
     "ocr_assisted_page": 1444,
-    "ocr_table_debris": 11,
+    "ocr_table_debris": 10,
     "repeated_security_marker": 71,
     "standalone_fragment": 59
   },
@@ -29515,7 +29515,7 @@
       "row_number": 4,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "DOMINGC 5 PIZZA, INC CMN",
+      "asset_name": "DOMINO'S PIZZA, INC. CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -29530,10 +29530,9 @@
       "row_number": 5,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "PTCMNC CMN x ft",
+      "asset_name": "PTC INC. CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29546,10 +29545,9 @@
       "row_number": 6,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "OTIS WORLDWIDE CORPORATION = = ¢MN",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29607,12 +29605,10 @@
       "row_number": 10,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD == = CMN",
+      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
-        "ocr_assisted_page",
-        "ocr_table_debris"
+        "ocr_assisted_page"
       ],
       "severity": "warning"
     },
@@ -29639,10 +29635,9 @@
       "row_number": 12,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "jAGILENT TECHNOLOGIES INC CMN",
+      "asset_name": "AGILENT TECHNOLOGIES INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29703,10 +29698,9 @@
       "row_number": 16,
       "page_id": "page:2026-3:0010",
       "source_json_path": "docs/2026-3/text/page-010.json",
-      "asset_name": "jMOLINA HEALTHCARE INC CMN",
+      "asset_name": "MOLINA HEALTHCARE INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"

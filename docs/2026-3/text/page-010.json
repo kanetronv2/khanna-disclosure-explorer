@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DOMINGC 5 PIZZA, INC CMN",
+      "asset_name": "DOMINO'S PIZZA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PTCMNC CMN x ft",
+      "asset_name": "PTC INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OTIS WORLDWIDE CORPORATION = = \u00a2MN",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD == = CMN",
+      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "jAGILENT TECHNOLOGIES INC CMN",
+      "asset_name": "AGILENT TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "jMOLINA HEALTHCARE INC CMN",
+      "asset_name": "MOLINA HEALTHCARE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,6 +177,12 @@
   ],
   "free_text": null,
   "uncertainties": [
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "page-level cleanup",
+      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan; the D.R. Horton/Conagra entry remains a separately identified merged-row issue."
+    },
     {
       "row": 12,
       "field": "notification_date",

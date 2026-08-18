@@ -15,7 +15,7 @@
       "page_rows": 116039,
       "pages": 4410,
       "transactions": 48903,
-      "uncertainties": 18070
+      "uncertainties": 18071
     },
     "owner_code_distribution": {
       "DC": 35409,
@@ -51,13 +51,13 @@
       "checkbox_artifact": 81,
       "duplicated_text": 3,
       "embedded_account_header": 20,
-      "embedded_grid_debris": 295,
+      "embedded_grid_debris": 292,
       "embedded_owner_code": 155,
       "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 567,
+      "mixed_case_ocr_artifact": 565,
       "multiple_option_contracts": 2,
       "ocr_assisted_page": 1444,
-      "ocr_table_debris": 11,
+      "ocr_table_debris": 10,
       "repeated_security_marker": 71,
       "standalone_fragment": 59
     },
@@ -122,13 +122,13 @@
         "checkbox_artifact": 81,
         "duplicated_text": 3,
         "embedded_account_header": 20,
-        "embedded_grid_debris": 295,
+        "embedded_grid_debris": 292,
         "embedded_owner_code": 155,
         "implausibly_long": 7,
-        "mixed_case_ocr_artifact": 567,
+        "mixed_case_ocr_artifact": 565,
         "multiple_option_contracts": 2,
         "ocr_assisted_page": 1444,
-        "ocr_table_debris": 11,
+        "ocr_table_debris": 10,
         "repeated_security_marker": 71,
         "standalone_fragment": 59
       },
