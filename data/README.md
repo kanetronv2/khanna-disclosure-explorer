@@ -26,6 +26,10 @@ contracts, embedded account headers, fragments, and other suspicious transaction
 flags every transaction on pages whose own provenance notes say OCR or checkbox columns were
 uncertain. Its warnings preserve source pointers and do not silently rewrite uncertain evidence.
 
+`asset-comparison-2024-2025.csv` is a derived, reproducible comparison of 2024 and 2025
+Schedule A holdings. Its accompanying README explains the exact-name matching, combined range
+semantics, and deliberately conservative higher/lower classification.
+
 ## Important semantics
 
 - Dollar amounts are statutory ranges, not exact values. `*_min_usd` and `*_max_usd` are the
