@@ -337,35 +337,23 @@ def stat_cards(summary, year):
 
 
 def key_findings(summary, year):
-    tot, tx = summary["holdings"], summary["transaction_total"]
-    if is_ptr_only(summary):
-        rows = [
-            (f"{summary['counts']['transactions']:,}", "reported transactions",
-             f"Across all loaded {year} periodic reports.", "#txs"),
-            (rng_sum(tx), "combined transaction range",
-             "A sum of the statutory transaction buckets, not exact trade values.", "#txs"),
-            (f"{summary['all_docs']['total']:,}", "source pages",
-             f"{summary['all_docs']['done']:,} pages transcribed and linked to the structured data.", "#doc"),
-        ]
-    else:
-        top = (summary.get("top_holdings") or [None])[0]
-        dated = summary["counts"].get("dated_transactions", 0)
-        months = summary["counts"].get("active_transaction_months", 0)
-        days = summary["counts"].get("active_trading_days", 0)
-        intensity = f"{dated / months:,.0f}" if months else "—"
-        intensity_detail = (f"{dated:,} dated transactions across {months} active calendar month"
-                            f"{'s' if months != 1 else ''}. Household filings do not identify who made a trade."
-                            if months else "No usable transaction dates in this filing year.")
-        rows = [
-            (f"{days:,}" if days else "—", "active trading days",
-             "Distinct calendar dates with at least one dated reported transaction."
-             if days else "No usable transaction dates in this filing year.", "#txs"),
-            (rng_pair(top.get("vlo"), top.get("vhi")) if top else "—", "largest individual range",
-             top["name"] if top else "No holding rows were reported.", "#assets"),
-            (f"{summary['counts']['transactions']:,}", "reported transactions",
-             f"Combined statutory value range: {rng_sum(tx)}.", "#txs"),
-            (intensity, "dated trades per active month", intensity_detail, "#txs"),
-        ]
+    tx = summary["transaction_total"]
+    total = summary["counts"]["transactions"]
+    dated = summary["counts"].get("dated_transactions", 0)
+    days = summary["counts"].get("active_trading_days", 0)
+    average = f"{dated / days:,.1f}" if days else "—"
+    rows = [
+        (f"{days:,}" if days else "—", "active trading days",
+         "Distinct calendar dates with at least one reported transaction."
+         if days else "No usable transaction dates in this filing year.", "#txs"),
+        (average, "average trades per day",
+         f"{dated:,} dated transactions across {days:,} active trading days; undated rows are excluded."
+         if days else "No usable transaction dates in this filing year.", "#txs"),
+        (rng_sum(tx), "combined transaction range",
+         "A sum of the statutory transaction buckets, not exact trade values.", "#txs"),
+        (f"{total:,}", "reported transactions",
+         f"Across all loaded {year} filings; household-wide, not a record of personal trading.", "#txs"),
+    ]
     return "".join(f'<article class="finding"><span class="section-kicker">{esc(k)}</span>'
                    f'<strong class="finding-num">{esc(n)}</strong><p>{esc(d)}</p>'
                    f'<a href="{esc(h)}">Inspect evidence →</a></article>' for n, k, d, h in rows)
