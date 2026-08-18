@@ -29,74 +29,74 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26197521,
+      "bytes": 26200798,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 116039,
-      "sha256": "358c4e991f60fcf1e97c9aac6f89853207f03b5d835ac0d332f47980e2027174"
+      "records": 116056,
+      "sha256": "6da8085c9600fcbf2d6411a1b6d51069ba94a129a485f9b1971894c1d27ec181"
     },
     {
-      "bytes": 96396140,
+      "bytes": 96409653,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 116039,
-      "sha256": "72141dc3c999fb7ee312a0be7d9eb03e29b8990005849abdb5d52e65bfc85d87"
+      "records": 116056,
+      "sha256": "9e68e60a69d22ce6f6215e231f426eeac1b05e8cf0302db5f27d5f5eac66ad87"
     },
     {
-      "bytes": 1195098,
+      "bytes": 1194982,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "3a5e8f7578ad76b38fc9fece778d8ae4fbb9a5c099b4e436b489ed09c0963434"
+      "sha256": "aaa6e7283541cb0acde248dc09267706b375361719efe1e7ba7af107fa051c8d"
     },
     {
-      "bytes": 2296631,
+      "bytes": 2296515,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "74015c2f6b9e7b04431390c1e604bac70e66f6ed563fdf904a17e8e281de92e7"
+      "sha256": "0636c891f8693bcfca03d8abac52f6cb3fb73be8f11329e4a50389d88b9ad7ef"
     },
     {
-      "bytes": 14594990,
+      "bytes": 14605339,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
-      "records": 48903,
-      "sha256": "23f1f2a07647bdcb09bf11931569dd3397f05db0055547315e5b7cbeb842e745"
+      "records": 48920,
+      "sha256": "e8c09b58741a3ee82bba27f5003ad04593ea299a679c0b1e8bb763dd64649d6b"
     },
     {
-      "bytes": 38514402,
+      "bytes": 38532666,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
-      "records": 48903,
-      "sha256": "11ab1dc02f588fa604a2ac75121121644c15794f374663b20a587785ccd66945"
+      "records": 48920,
+      "sha256": "819c83e3f08b424f5c39d7968a92745e3b38505d64277d6e81891384b4c2cc41"
     },
     {
-      "bytes": 5094328,
+      "bytes": 4840985,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 18047,
-      "sha256": "fddd8700df2e83dfac4194d9c9faffc81cb2af193263c367c991e7c0e6e8de2d"
+      "records": 17102,
+      "sha256": "42991918bee3339ce097704a7807a36d6aac0a4b53b3b6d3fcded8ecc8723e03"
     },
     {
-      "bytes": 6747567,
+      "bytes": 6408229,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 18047,
-      "sha256": "e617e2d1b787a243030be4c418a267691c16cc4c7972d569a02d9608eb3fde8a"
+      "records": 17102,
+      "sha256": "f2b7cad1fe95b8de8c3dfff8ed2d9fe2b68ae3cb66fb22d78b55dfd3d582636e"
     },
     {
-      "bytes": 3315,
+      "bytes": 3309,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "678abb0996f1fefe78fe9e1aa18a77066ac2b1cd1464aec945d7ff3e92ed8e8e"
+      "sha256": "e64d10ce56ea2f77408296904665ae4658bc6b7fbbab08074ec2fe62e3ef4eb1"
     },
     {
-      "bytes": 1310287,
+      "bytes": 1045658,
       "format": "json",
       "path": "data/text-quality-audit.json",
-      "records": 2971,
-      "sha256": "92dc0789f0615aeafee845461e4e063df3a347e545d7d40056f377285b17a7f9"
+      "records": 2389,
+      "sha256": "7e3d65eaf1ab7d5dca98b5e53b1674c759824a3d206705c799a00139d8b2286b"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -104,9 +104,9 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2233,
+      "high": 2272,
       "low": 299,
-      "medium": 1869,
+      "medium": 1830,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -114,22 +114,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116039,
+      "page_rows": 116056,
       "pages": 4410,
-      "transactions": 48903,
-      "uncertainties": 18047
+      "transactions": 48920,
+      "uncertainties": 17102
     },
     "owner_code_distribution": {
-      "DC": 35409,
+      "DC": 35417,
       "JT": 14,
-      "SP": 75800,
+      "SP": 75809,
       "not_stated": 4816
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
       "group": 2920,
-      "tx": 81698
+      "tx": 81715
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -147,21 +147,21 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 2971,
+    "text_quality_findings": 2389,
     "text_quality_rule_distribution": {
-      "ambiguous_transaction_columns": 1935,
-      "checkbox_artifact": 74,
+      "ambiguous_transaction_columns": 1353,
+      "checkbox_artifact": 51,
       "duplicated_text": 3,
-      "embedded_account_header": 20,
-      "embedded_grid_debris": 268,
-      "embedded_owner_code": 146,
+      "embedded_account_header": 3,
+      "embedded_grid_debris": 236,
+      "embedded_owner_code": 72,
       "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 555,
+      "mixed_case_ocr_artifact": 550,
       "multiple_option_contracts": 2,
-      "ocr_assisted_page": 1428,
+      "ocr_assisted_page": 891,
       "ocr_table_debris": 8,
-      "repeated_security_marker": 71,
-      "standalone_fragment": 59
+      "repeated_security_marker": 61,
+      "standalone_fragment": 21
     },
     "valid_page_source_json": 4410,
     "years": [

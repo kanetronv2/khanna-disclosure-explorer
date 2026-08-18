@@ -221,3 +221,12 @@ printed position. The equivalent issues on `docs/2026-2/page-031` and
 The stray Toronto Dominion Bank linked-note row formerly in `docs/2023-3/page-011` has been
 removed: it is not printed in that document and belongs to `docs/2023-4/page-003`, whose filed
 notification date is 05/03/2023 rather than 04/03/2023.
+
+**`docs/2026-5` transaction-table re-verification (Aug 2026):** pages 002–041 were read
+directly from the filed scans after catalog users surfaced leading checkbox/owner marks and
+adjacent-row text in asset names. The entire transaction table was rebuilt from the printed
+row runs: OCR debris and merged labels were removed, copied notification dates were replaced
+with the printed transaction dates, and 17 omitted transactions were restored. Each rebuilt
+page records scan verification and high page confidence; the resulting document contains
+615 transactions, and the catalog text-quality audit reports no high-signal artifact finding
+for `2026-5`.

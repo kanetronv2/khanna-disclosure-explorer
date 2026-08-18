@@ -16,9 +16,9 @@
   ],
   "coverage": {
     "annual_filing_pages": null,
-    "latest_readable_transaction_date": "2026-06-08",
+    "latest_readable_transaction_date": "2026-05-28",
     "loaded_pages": 211,
-    "unresolved_transcription_flags": 1250
+    "unresolved_transcription_flags": 305
   },
   "dataset_version": "2026-08-18",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
@@ -39,16 +39,16 @@
       "open_ended_entries": 0
     },
     "reported_transactions": {
-      "active_trading_days": 92,
-      "average_per_active_trading_day": 32.7,
+      "active_trading_days": 90,
+      "average_per_active_trading_day": 33.6,
       "combined_value_range": {
-        "calculated_upper_floor_usd": 60610000,
-        "display": "$9.86M – $60.6M",
-        "minimum_usd": 9857008,
+        "calculated_upper_floor_usd": 61145000,
+        "display": "$9.99M – $61.1M",
+        "minimum_usd": 9986025,
         "open_ended_entries": 0
       },
-      "count": 3008,
-      "dated_count": 3007
+      "count": 3025,
+      "dated_count": 3024
     },
     "reported_unearned_income": {
       "calculated_upper_floor_usd": 0,

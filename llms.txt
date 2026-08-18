@@ -15,7 +15,7 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 
 ## Filing years
 
-- [2026 filing Markdown](https://www.rokhanna.money/2026/index.md): 3,008 reported transactions; 0 asset entries.
+- [2026 filing Markdown](https://www.rokhanna.money/2026/index.md): 3,025 reported transactions; 0 asset entries.
 - [2025 filing Markdown](https://www.rokhanna.money/2025/index.md): 5,402 reported transactions; 3,290 asset entries.
 - [2024 filing Markdown](https://www.rokhanna.money/2024/index.md): 4,665 reported transactions; 3,042 asset entries.
 - [2023 filing Markdown](https://www.rokhanna.money/2023/index.md): 4,677 reported transactions; 2,804 asset entries.
