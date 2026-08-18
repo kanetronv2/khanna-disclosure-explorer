@@ -6,15 +6,19 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,21 +26,21 @@
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PHIUIP MORRIS INTL INC CMN",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/29/2025",
+      "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +48,10 @@
       "asset_name": "ELEVANCE HEALTH INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +59,10 @@
       "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,174 +70,170 @@
       "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BOOKING HOLDINGS INC. CMN",
+      "asset_name": "BOOKING HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TESLA, INC. CMN",
+      "asset_name": "TESLA INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DOORDASH INC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CME GROUP INC. CMN CLASS A x",
+      "asset_name": "CME GROUP INC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PAYCHEX, INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MOUNA HEALTHCARE, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "VERISK ANALYMCS, INC. CMN",
+      "asset_name": "MOLINA HEALTHCARE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TRADE DESK, INC (THE) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DCAGILENT TECHNOLOGIES, INC CMN",
+      "asset_name": "VERISK ANALYTICS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/25/2025",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TRADE DESK INC (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AGILENT TECHNOLOGIES INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CLOROX CO (THE) (DELAWARE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BECTON, DICKINSON AND COMPANY",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "INTL FLAVORS & FRAGRANCE CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "IQVIA HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ARCH CAPITAL GROUP LTD. CMN",
+      "asset_name": "ARCH CAPITAL GROUP LTD CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All 20 printed transactions and the account heading were re-verified against PTR scan page 6. Clean fields match the same ordered annual Schedule B run (annual pages 208); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

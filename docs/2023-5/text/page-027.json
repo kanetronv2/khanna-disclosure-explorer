@@ -163,11 +163,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 2,
-      "field": "asset_name/date",
-      "read": "EMERA INCORPORATED HYBRID 06/15/2076 USD",
-      "note": "OCR asset text was lesan INCORPORATED HYBRID; normalized from matching annual Schedule B row (score 0.81)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All transaction rows and noted names checked against PTR scan page 27."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

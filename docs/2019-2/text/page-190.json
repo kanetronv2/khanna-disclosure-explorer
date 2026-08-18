@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZIONS BANCORP CMN CMN",
+      "asset_name": "ZIONS BANCORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

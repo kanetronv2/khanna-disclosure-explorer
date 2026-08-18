@@ -11,10 +11,10 @@
       "asset_name": "EBAY INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,10 +22,10 @@
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +33,10 @@
       "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +44,10 @@
       "asset_name": "MSCI INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +55,10 @@
       "asset_name": "JAZZ PHARMACEUTICALS PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,10 +66,10 @@
       "asset_name": "PINTEREST INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,10 +77,10 @@
       "asset_name": "YUM BRANDS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,43 +88,43 @@
       "asset_name": "NIKE CLASS B CMN CLASS B",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "INTL FLAVORS & FRAGRANCE CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALCOA CORPORATION CMN",
+      "asset_name": "REALTY INCOME CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMGEN INC. CMN",
+      "asset_name": "MODERNA INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,10 +132,10 @@
       "asset_name": "SYSCO CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,10 +143,10 @@
       "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,10 +154,10 @@
       "asset_name": "STEEL DYNAMICS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -165,10 +165,10 @@
       "asset_name": "COUSINS PROPERTIES INCORPORATE CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +176,10 @@
       "asset_name": "ORGANON & CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,10 +187,10 @@
       "asset_name": "ESSEX PROPERTY TRUST INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -198,10 +198,10 @@
       "asset_name": "LUMEN TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -209,10 +209,10 @@
       "asset_name": "SEALED AIR CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -220,10 +220,10 @@
       "asset_name": "CINCINNATI FINANCIAL CRP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -231,10 +231,10 @@
       "asset_name": "GLOBAL PAYMENTS INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -242,10 +242,10 @@
       "asset_name": "SYNOVUS FINANCIAL CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,10 +253,21 @@
       "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "FREEPORT-MCMORAN INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "5/19/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -264,10 +275,10 @@
       "asset_name": "OLAPLEX HOLDINGS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -275,10 +286,10 @@
       "asset_name": "SL GREEN REALTY CORP. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -286,32 +297,20 @@
       "asset_name": "COLGATE-PALMOLIVE CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 9,
-      "field": "asset_name/date",
-      "read": "INTL FLAVORS & FRAGRANCE CMN",
-      "note": "OCR asset text was wr ruavors & FRAGRANCE CMN; normalized from matching annual Schedule B row (score 0.80)."
-    },
-    {
-      "row": 10,
-      "field": "asset_name/date",
-      "read": "ALCOA CORPORATION CMN",
-      "note": "OCR asset text was REALTY INCOME CORPORATION CMN; normalized from matching annual Schedule B row (score 0.80)."
-    },
-    {
-      "row": 11,
-      "field": "asset_name/date",
-      "read": "AMGEN INC. CMN",
-      "note": "OCR asset text was MODERNA, INC. CMN; normalized from matching annual Schedule B row (score 0.75)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 24; Realty Income, Moderna, and omitted Freeport-McMoRan restored in printed order."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

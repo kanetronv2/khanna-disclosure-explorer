@@ -7,7 +7,7 @@
   "rows": [
     {
       "kind": "group",
-      "text": "MARA Trust Partnership"
+      "text": "M&R Trust Partnership"
     },
     {
       "kind": "tx",
@@ -112,11 +112,12 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 8,
-      "field": "notification_date",
-      "read": "03/02/2022",
-      "note": "OCR read looked like 03/aa/aa on Meta Platforms; page image indicates 03/02/22."
+      "row": null,
+      "field": "page_verification",
+      "read": "Verified against scan",
+      "note": "The account heading and all nine transactions were re-verified directly against PTR scan page 2; the existing transaction fields match the scan."
     }
   ],
-  "page_confidence": "high"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

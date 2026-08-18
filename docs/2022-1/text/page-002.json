@@ -17,7 +17,8 @@
       "cap_gain_over_200": false,
       "date": "12/01/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -27,7 +28,8 @@
       "cap_gain_over_200": true,
       "date": "12/01/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,7 +39,8 @@
       "cap_gain_over_200": true,
       "date": "12/07/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -47,7 +50,8 @@
       "cap_gain_over_200": true,
       "date": "12/07/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -57,7 +61,8 @@
       "cap_gain_over_200": true,
       "date": "12/07/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -67,7 +72,8 @@
       "cap_gain_over_200": true,
       "date": "12/07/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,7 +83,8 @@
       "cap_gain_over_200": false,
       "date": "12/07/2021",
       "notification_date": "01/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -87,7 +94,8 @@
       "cap_gain_over_200": false,
       "date": "12/31/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -97,7 +105,8 @@
       "cap_gain_over_200": true,
       "date": "12/31/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -107,7 +116,8 @@
       "cap_gain_over_200": true,
       "date": "12/31/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,

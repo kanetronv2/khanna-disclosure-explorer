@@ -17,7 +17,8 @@
       "cap_gain_over_200": false,
       "date": "12/17/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -27,7 +28,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,7 +39,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -47,7 +50,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -57,7 +61,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -67,7 +72,8 @@
       "cap_gain_over_200": true,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -77,7 +83,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "group",
@@ -91,7 +98,8 @@
       "cap_gain_over_200": false,
       "date": "12/17/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -101,7 +109,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -111,7 +120,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,7 +131,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -131,7 +142,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -141,7 +153,8 @@
       "cap_gain_over_200": true,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -151,7 +164,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "group",
@@ -165,7 +179,8 @@
       "cap_gain_over_200": false,
       "date": "12/17/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -175,7 +190,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -185,7 +201,8 @@
       "cap_gain_over_200": false,
       "date": "12/16/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -195,7 +212,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -205,7 +223,8 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -215,7 +234,8 @@
       "cap_gain_over_200": true,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -225,23 +245,18 @@
       "cap_gain_over_200": false,
       "date": "12/09/2021",
       "notification_date": "01/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": null,
-      "field": "group",
-      "read": "RAM",
-      "note": "Subheading under MURA Holdings is slightly faint but reads RAM."
-    },
-    {
-      "row": 6,
-      "field": "tx_type/cap_gain_over_200/amount",
-      "read": "HOME DEPOT INC sale, capital gain over $200, partial transaction, amount $15,001-$50,000",
-      "note": "X marks are small but visible; same pattern repeats in all three MURA Holdings blocks."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 21 transactions, three account separators, and repeated seven-row block fields checked against lossless PTR scan page 10."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

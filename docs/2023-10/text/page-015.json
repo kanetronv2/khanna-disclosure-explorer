@@ -13,27 +13,30 @@
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "IDEXX LABORATORIES CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AUTODESK, INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -43,17 +46,19 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "LOWES COMPANIES INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -63,7 +68,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -73,7 +79,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -83,7 +90,8 @@
       "cap_gain_over_200": true,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -93,7 +101,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -103,7 +112,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -113,7 +123,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -123,7 +134,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -133,7 +145,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,7 +156,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -153,7 +167,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -163,7 +178,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -173,7 +189,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -183,7 +200,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,

@@ -11,10 +11,10 @@
       "asset_name": "WEST PHARMACEUTICAL SERVICES INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,10 +22,21 @@
       "asset_name": "NUCOR CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "5/23/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +44,10 @@
       "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +55,10 @@
       "asset_name": "CSX CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +66,10 @@
       "asset_name": "PUBLIC STORAGE CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,10 +77,10 @@
       "asset_name": "EXPEDIA GROUP INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,10 +88,10 @@
       "asset_name": "PINTEREST INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,10 +99,21 @@
       "asset_name": "J B HUNT TRANS SVCS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ALCOA CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "5/19/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +121,10 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,10 +132,10 @@
       "asset_name": "IDEX CORPORATION COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,21 +143,21 @@
       "asset_name": "CATALENT, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "D.R. HORTON, INC. CMN",
+      "asset_name": "DOW INC CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,10 +165,10 @@
       "asset_name": "THE HOWARD HUGHES CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/23/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,32 +176,10 @@
       "asset_name": "ZIONS BANCORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/19/2023",
-      "notification_date": null,
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "OLENTANGY LOC SCH DIST OHIO GO 4% 12/01/26",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "5/4/2023",
       "notification_date": "6/2/2023",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PHILIP MORRIS INTERNATIONAL IN 1.75% 11/01/2031",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "5/16/2023",
-      "notification_date": "6/2/2023",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "group",
@@ -188,13 +188,35 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL",
+      "asset_name": "OLENTANGY LOC SCH DIST OHIO GO 4% 12/01/26-CA JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "5/4/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PHILIP MORRIS INTERNATIONAL IN 1.75% 11/01/2030 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "5/16/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -202,21 +224,21 @@
       "asset_name": "U.S. BANCORP MTN 1.375% 07/22/2030 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/16/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID PERPETUAL",
+      "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/2/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -224,32 +246,32 @@
       "asset_name": "CITIGROUP INC. HYBRID PERPETUAL",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/4/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL",
+      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/8/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EDISON INTERNATIONAL HYBRID PERPETUAL USD",
+      "asset_name": "HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "5/1/2023",
+      "date": "5/11/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -257,43 +279,31 @@
       "asset_name": "CENTERPOINT ENERGY, INC HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DUKE ENERGY CORPORATION HYBRID PERPETUAL",
+      "asset_name": "DUKE ENERGY CORPORATION HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/4/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 12,
-      "field": "asset_name/date",
-      "read": "D.R. HORTON, INC. CMN",
-      "note": "OCR asset text was DOW INC CMN; normalized from matching annual Schedule B row (score 0.70)."
-    },
-    {
-      "row": 18,
-      "field": "asset_name/date",
-      "read": "U.S. BANCORP MTN 1.375% 07/22/2030 USD",
-      "note": "OCR asset text was U.S. BANCORP MTN 1.375%; normalized from matching annual Schedule B row (score 0.74)."
-    },
-    {
-      "row": 22,
-      "field": "asset_name/date",
-      "read": "EDISON INTERNATIONAL HYBRID PERPETUAL USD",
-      "note": "OCR asset text was HVBRID PERPETUAL USD; normalized from matching annual Schedule B row (score 0.65)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 26 transactions and trust separator checked against PTR scan page 25; omitted Micron and Alcoa restored and printed trust block order retained."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

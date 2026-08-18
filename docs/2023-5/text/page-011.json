@@ -294,35 +294,23 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CITIGROUP INC. HYBRID 11/05/2030 USD",
+      "asset_name": "CITIGROUP INC. HYBRID 04/23/2029 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/16/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 16,
-      "field": "asset_name/tx_type/amount",
-      "read": "DELTA AIR NES, INC, CMN",
-      "note": "Could not confidently match OCR row to annual Schedule B; OCR line: DC | DELTA AIR LINES, INC, CMN 0/23/23| 06/02/23"
-    },
-    {
-      "row": 27,
-      "field": "asset_name/date",
-      "read": "CITIGROUP INC. HYBRID 11/05/2030 USD",
-      "note": "OCR asset text was CITIGROUP INC. HYBRID; normalized from matching annual Schedule B row (score 0.77)."
-    },
-    {
-      "row": 16,
-      "field": "asset_name/date/amount",
-      "read": "DELTA AIR LINES, INC. CMN",
-      "note": "OCR read date as 0/23/23 and asset as DELTA AIR NES; normalized using annual Schedule B matching asset/date."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 11; final Citigroup issue corrected to the printed 04/23/2029 hybrid."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

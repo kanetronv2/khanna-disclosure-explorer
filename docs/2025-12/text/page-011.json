@@ -7,231 +7,167 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ritu Ahuja Discretionary Trust"
+      "text": "Ritu Ahuja Declaration of Trust"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WASHINGTON D CMET AREA TRAN REV 5% 07/25/29JJ",
+      "asset_name": "WASHINGTON D C MET AREA TRAN REV 5% 07/15/29 JJ",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/11/2025",
       "notification_date": "10/02/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "{DECKERS OUTDOORS CORP CMN",
+      "asset_name": "DECKERS OUTDOORS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/30/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TENABLE HOLDINGS, INC CMN",
+      "asset_name": "TENABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/02/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DECKERS OUTDOORS CORP CMN x",
+      "asset_name": "DECKERS OUTDOORS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/02/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DECKERS OUTOOORS CORP CMN",
+      "asset_name": "DECKERS OUTDOORS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/17/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u00a1DECKERS OUTDOORS CORP CMN",
+      "asset_name": "DECKERS OUTDOORS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/03/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "HOLOGIC INCORPORATED CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/04/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/22/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY, INC, CMN",
-      "tx_type": "Purchase",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/23/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BANK OF AMERICA CORP CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/02/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BANK OF AMERICA CORP CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL ING. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/03/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ELANCO ANIMAL HEALTH INCORPORA",
-      "tx_type": "Sale",
+      "asset_name": "ELANCO ANIMAL HEALTH INCORPORA CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/22/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "09/11/2025",
-      "note": "date corrected from misread '09/12/2025' to '09/11/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "09/02/2025",
-      "note": "date corrected from misread '09/03/2025' to '09/02/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "09/17/2025",
-      "note": "date corrected from misread '09/04/2025' to '09/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "09/03/2025",
-      "note": "date corrected from misread '09/22/2025' to '09/03/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "09/04/2025",
-      "note": "date corrected from misread '09/23/2025' to '09/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "09/22/2025",
-      "note": "date corrected from misread '09/02/2025' to '09/22/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "09/23/2025",
-      "note": "date corrected from misread '09/05/2025' to '09/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '10/02/2028' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "09/02/2025",
-      "note": "date corrected from misread '09/03/2025' to '09/02/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/22/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
+    "All 14 printed transactions and the account heading were re-verified against PTR scan page 11. Clean fields match the same ordered annual Schedule B run (annual pages 228); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

@@ -2,9 +2,9 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2391,
-      "low": 272,
-      "medium": 1738,
+      "high": 2578,
+      "low": 182,
+      "medium": 1641,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -12,22 +12,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116198,
+      "page_rows": 117280,
       "pages": 4410,
       "transactions": 49009,
-      "uncertainties": 12894
+      "uncertainties": 9731
     },
     "owner_code_distribution": {
-      "DC": 35671,
+      "DC": 36051,
       "JT": 14,
-      "SP": 76176,
-      "not_stated": 4337
+      "SP": 76978,
+      "not_stated": 4237
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2946,
-      "tx": 81831
+      "group": 2992,
+      "tx": 82867
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -45,19 +45,8 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 809,
-    "text_quality_rule_distribution": {
-      "ambiguous_transaction_columns": 458,
-      "checkbox_artifact": 28,
-      "embedded_account_header": 1,
-      "embedded_grid_debris": 144,
-      "embedded_owner_code": 25,
-      "implausibly_long": 2,
-      "mixed_case_ocr_artifact": 223,
-      "ocr_table_debris": 1,
-      "repeated_security_marker": 6,
-      "standalone_fragment": 10
-    },
+    "text_quality_findings": 0,
+    "text_quality_rule_distribution": {},
     "valid_page_source_json": 4410,
     "years": [
       "2016",
@@ -81,6 +70,12 @@
         "transaction_date": 1669
       },
       "severity": "info"
+    },
+    {
+      "check": "new_form_transaction_checkbox_schema",
+      "incomplete_rows": 0,
+      "severity": "info",
+      "transaction_rows": 25479
     },
     {
       "check": "page_type_normalization",
@@ -112,21 +107,10 @@
     },
     {
       "check": "transaction_text_quality",
-      "finding_count": 809,
+      "finding_count": 0,
       "report": "data/text-quality-audit.json",
-      "rule_counts": {
-        "ambiguous_transaction_columns": 458,
-        "checkbox_artifact": 28,
-        "embedded_account_header": 1,
-        "embedded_grid_debris": 144,
-        "embedded_owner_code": 25,
-        "implausibly_long": 2,
-        "mixed_case_ocr_artifact": 223,
-        "ocr_table_debris": 1,
-        "repeated_security_marker": 6,
-        "standalone_fragment": 10
-      },
-      "severity": "warning"
+      "rule_counts": {},
+      "severity": "info"
     }
   ],
   "schema_version": "1.0.0",

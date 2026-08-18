@@ -17,10 +17,18 @@
       "cap_gain_over_200": true,
       "date": "09/01/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": "page",
+      "field": "core_fields",
+      "read": "scan-verified",
+      "note": "Dates and capital-gain/partial-sale checkbox fields for all represented transactions were checked against PTR scan page 2."
+    }
+  ],
   "page_confidence": "high"
 }

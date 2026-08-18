@@ -15,6 +15,7 @@
       "asset_name": "Intuitive Surgical Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/04/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -25,6 +26,7 @@
       "asset_name": "Match Group Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/04/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -35,6 +37,7 @@
       "asset_name": "M&T Bank Corp",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/06/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -45,6 +48,7 @@
       "asset_name": "Motorola Solutions Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/06/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -55,6 +59,7 @@
       "asset_name": "Ares Management Corp",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/06/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -65,6 +70,7 @@
       "asset_name": "Costar Group Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/13/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -75,6 +81,7 @@
       "asset_name": "IHS Markit Ltd",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/13/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -85,6 +92,7 @@
       "asset_name": "Snap Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/14/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -95,6 +103,7 @@
       "asset_name": "Facebook Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/14/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -105,6 +114,7 @@
       "asset_name": "Match Group Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/19/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -115,6 +125,7 @@
       "asset_name": "IHS Markit Ltd",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/19/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -125,6 +136,7 @@
       "asset_name": "Costar Group Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/21/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"
@@ -135,6 +147,7 @@
       "asset_name": "CBRE Group Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "05/21/2021",
       "notification_date": "06/01/2021",
       "amount": "$1,001-$15,000"

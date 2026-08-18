@@ -15,6 +15,7 @@
       "asset_name": "Paypal Holdings Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "03/03/2022",
       "notification_date": "04/04/2022",
       "amount": "$15,001-$50,000"
@@ -25,6 +26,7 @@
       "asset_name": "CME Group Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "03/03/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
@@ -35,6 +37,7 @@
       "asset_name": "ASML Holdings Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/03/2022",
       "notification_date": "04/04/2022",
       "amount": "$15,001-$50,000"
@@ -45,6 +48,7 @@
       "asset_name": "ServiceNow Inc",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/08/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"
@@ -55,6 +59,7 @@
       "asset_name": "Equinix Inc",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "03/31/2022",
       "notification_date": "04/04/2022",
       "amount": "$1,001-$15,000"

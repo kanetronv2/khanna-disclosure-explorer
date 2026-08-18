@@ -5,14 +5,51 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "M&R Trust Partnership"},
-    {"kind": "tx", "owner": "SP", "asset_name": "NVIDIA CORPORATION", "tx_type": "Sale", "cap_gain_over_200": true, "partial": true, "date": "07/13/2020", "notification_date": "08/05/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "AMAZON COM INC", "tx_type": "Sale", "cap_gain_over_200": true, "partial": true, "date": "07/13/2020", "notification_date": "08/05/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "PAYPAL HLDGS INC COM", "tx_type": "Sale", "cap_gain_over_200": true, "partial": true, "date": "07/13/2020", "notification_date": "08/05/2020", "amount": "$1,001-$15,000"}
+    {
+      "kind": "group",
+      "text": "M&R Trust Partnership"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NVIDIA CORPORATION",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "07/13/2020",
+      "notification_date": "08/05/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMAZON COM INC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "07/13/2020",
+      "notification_date": "08/05/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PAYPAL HLDGS INC COM",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "07/13/2020",
+      "notification_date": "08/05/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 4, "field": "notification_date", "note": "two additional otherwise-empty rows below PAYPAL each show only a stray '08/05/20' notification date (no owner/asset/type/amount) - treated as blank template artifacts, not emitted as transactions"}
+    {
+      "row": 4,
+      "field": "notification_date",
+      "note": "two additional otherwise-empty rows below PAYPAL each show only a stray '08/05/20' notification date (no owner/asset/type/amount) - treated as blank template artifacts, not emitted as transactions"
+    }
   ],
   "page_confidence": "high"
 }

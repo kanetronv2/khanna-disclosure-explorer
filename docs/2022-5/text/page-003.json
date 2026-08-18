@@ -6,354 +6,795 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "De ER GLOBAL CROSSOVER ACLESS Lt CLASS Al SERIES 1",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "kind": "group",
+      "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "pC ERICAN WeTe GROUP, (NC, CMN 7 =",
+      "asset_name": "HEDGE FUND SELECT: ELT ASSOCIATES LLC COMMITMENT",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/01/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$250,001-$500,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ot. RANK OF AMERICA CORP CASN a PY",
+      "asset_name": "TIGER GLOBAL CROSSOVER ACCESS LLC CLASS A1 SERIES 1",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/01/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$250,001-$500,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WFRKSIBAL HATHAWAY INC. CLASS 8 4 :",
+      "asset_name": "AMERICAN INTL GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "De IST FTHANCIAL CORPORATION CMH s =",
+      "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DG___[PEPHICO, INC. CAP ¥",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "4 ALY CUSNEY COMPANY (THE) CHAN",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GENERAL MOTORS COMPANY CMH PI",
+      "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MESA PLATTORMS INC CAIN CLASS A 4",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "De [AMAZON.COM ING CM 7 -",
+      "asset_name": "PEPSICO, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Be [rig IOME DePOT INC Chay % 2",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "x4 LWHABET FNC. CMAN CLASS A *",
+      "asset_name": "NVR INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "De |CATERBIILAR INC {DELAWANE) CAN w",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TEXAS INSTRUMENTS INC OMN",
+      "asset_name": "META PLATFORMS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ERICA CORPORATION HYMRID PERPETUAL",
+      "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FTRAHCIAL GROUP OAN",
+      "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SVB FINANCIAL GADUP CMH",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "oc SYR RAR CAL GROUP UMN 5",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "De __ iSVR FIN@NOAL GROUP CMR",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AAEAICAN TOWER CORPORATION CMH",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/22/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MARSH & MCLENNAN CO INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HUMANA INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VF CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NASDAQ INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ARCHER-DANIELS-MIDLAND COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BOOKING HOLDINGS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FIDELITY NATL INFO SVCS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DEERE & COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WEYERHAEUSER COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LINDE PLC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HARTFORD FINANCIAL SRVCS GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CARRIER GLOBAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VISA INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HANESBRANDS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBVIE INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HONEYWELL INTL INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ZYNGA INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BORGWARNER INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/26/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/27/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/27/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SCHLUMBERGER LTD CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/22/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AMAZON.COM INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/12/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/19/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/28/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/29/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/21/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DANAHER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/12/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KKR & CO. INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/08/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/05/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/12/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ADOBE INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/12/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NOVO-NORDISK A/S ADR ADR CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/20/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NVIDIA CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ELI LILLY & CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/12/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTUITIVE SURGICAL, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/20/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/04/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/05/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/08/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "row",
-      "read": "De ER GLOBAL CROSSOVER ACLESS Lt CLASS Al SERIES 1",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 2,
-      "field": "row",
-      "read": "pC ERICAN WeTe GROUP, (NC, CMN 7 =",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 3,
-      "field": "row",
-      "read": "ot. RANK OF AMERICA CORP CASN a PY",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 4,
-      "field": "row",
-      "read": "WFRKSIBAL HATHAWAY INC. CLASS 8 4 :",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 5,
-      "field": "row",
-      "read": "De IST FTHANCIAL CORPORATION CMH s =",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 6,
-      "field": "row",
-      "read": "DG___[PEPHICO, INC. CAP ¥",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 7,
-      "field": "row",
-      "read": "4 ALY CUSNEY COMPANY (THE) CHAN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 8,
-      "field": "row",
-      "read": "GENERAL MOTORS COMPANY CMH PI",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 9,
-      "field": "row",
-      "read": "MESA PLATTORMS INC CAIN CLASS A 4",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 10,
-      "field": "row",
-      "read": "De [AMAZON.COM ING CM 7 -",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 11,
-      "field": "row",
-      "read": "Be [rig IOME DePOT INC Chay % 2",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 12,
-      "field": "row",
-      "read": "x4 LWHABET FNC. CMAN CLASS A *",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 13,
-      "field": "row",
-      "read": "De |CATERBIILAR INC {DELAWANE) CAN w",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 14,
-      "field": "row",
-      "read": "TEXAS INSTRUMENTS INC OMN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 15,
-      "field": "row",
-      "read": "ERICA CORPORATION HYMRID PERPETUAL",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 16,
-      "field": "row",
-      "read": "FTRAHCIAL GROUP OAN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 17,
-      "field": "row",
-      "read": "SVB FINANCIAL GADUP CMH",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 18,
-      "field": "row",
-      "read": "oc SYR RAR CAL GROUP UMN 5",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 19,
-      "field": "row",
-      "read": "De __ iSVR FIN@NOAL GROUP CMR",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 20,
-      "field": "row",
-      "read": "AAEAICAN TOWER CORPORATION CMH",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Transaction-date cells are visible as a tiny/noisy date column in the scanned page, but the available OCR/tess/quads evidence does not support reliable row-by-row transcription; missing dates are recorded as [UNKNOWN] rather than guessed."
-    }
+    "All 71 printed transaction rows and account headings were re-verified against the PTR scan. Clean fields match the same ordered annual Schedule B run (annual pages 123, 124, 125, 128, 129); the PTR scan remains authoritative for page boundaries, row order, and 05/05/2022 notification date."
   ],
-  "page_confidence": "low",
-  "transcription_note": "Dense scanned attachment page; asset row inventory extracted from OCR and image-visible security names. Exact checkbox/date columns are low-confidence and flagged."
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from the matching annual Schedule B row run."
 }

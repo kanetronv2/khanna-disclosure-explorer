@@ -5,12 +5,30 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Areva"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ILLUMINA INC", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "08/13/2020", "notification_date": "09/01/2020", "amount": "$1,001-$15,000"}
+    {
+      "kind": "group",
+      "text": "Areva"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ILLUMINA INC",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/13/2020",
+      "notification_date": "09/01/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 1, "field": "text", "read": "Areva", "note": "bold group/portfolio header, faded; tesseract read 'Areca'. Could be Areva or Areca."}
+    {
+      "row": 1,
+      "field": "text",
+      "read": "Areva",
+      "note": "bold group/portfolio header, faded; tesseract read 'Areca'. Could be Areva or Areca."
+    }
   ],
   "page_confidence": "medium"
 }

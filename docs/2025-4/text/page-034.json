@@ -17,7 +17,8 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -27,17 +28,19 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/02/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -47,37 +50,41 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/28/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/24/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PAYPAL HOLDINGS INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -87,17 +94,19 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "FRANKLIN RESOURCES INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -107,7 +116,8 @@
       "cap_gain_over_200": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -117,7 +127,8 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -127,27 +138,30 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "AMETEK INC (NEW) CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "EQUITY RESIDENTIAL CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -157,7 +171,8 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -167,17 +182,19 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ECOLAB INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,

@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FERGUSON ENTERPRISES INC CMN COCA-COLA EUROPEAN PARTNERS PLC CMN",
+      "asset_name": "FERGUSON ENTERPRISES INC CMN / COCA-COLA EUROPEAN PARTNERS PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,12 +122,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
+    "All 10 printed rows were verified against the page scan. The final row contains both Ferguson Enterprises and Coca-Cola European Partners in one asset cell with one purchase checkbox, date, and amount; the slash preserves that filed combined entry without inventing a second transaction."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

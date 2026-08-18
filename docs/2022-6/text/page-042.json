@@ -11,21 +11,21 @@
       "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BUILDERS FIRSTSOURCE, INC CMN",
+      "asset_name": "BUILDERS FIRSTSOURCE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +33,10 @@
       "asset_name": "LAS VEGAS SANDS CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +44,10 @@
       "asset_name": "EQUINIX, INC. REIT",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,32 +55,32 @@
       "asset_name": "FIVE9, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LIBERTY BROADBAND CORPORATION C",
+      "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EXPEDITORS INTERNATIONAL OF WA CM",
+      "asset_name": "EXPEDITORS INTERNATIONAL OF WA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,10 +88,10 @@
       "asset_name": "LENNAR CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +99,10 @@
       "asset_name": "LUMENTUM HOLDINGS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,65 +110,76 @@
       "asset_name": "PLUG POWER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CELANESE CORPORATION COMMON STO",
+      "asset_name": "REGAL REXNORD CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CADENCE' DESIGN SYSTEMS INC CMN",
+      "asset_name": "CELANESE CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CM",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "XYLEM INC CMN",
+      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMMSCOPE HOLDING COMPANY, INC C",
+      "asset_name": "XYLEM INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COMMSCOPE HOLDING COMPANY, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/05/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +187,10 @@
       "asset_name": "UBIQUITI INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,133 +198,15 @@
       "asset_name": "LIFE STORAGE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PURE STORAGE INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

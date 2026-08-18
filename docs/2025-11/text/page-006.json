@@ -7,7 +7,7 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ahuja 2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Khanna Children"
     },
     {
       "kind": "tx",
@@ -15,21 +15,32 @@
       "asset_name": "THE KRAFT HEINZ CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "REWITY INC CMN",
+      "asset_name": "REVVITY INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DATADOG INC CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "08/26/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,32 +48,32 @@
       "asset_name": "IRON MOUNTAIN INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "METLIFE, INC. CMN",
+      "asset_name": "METLIFE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -70,32 +81,32 @@
       "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CARMAX, INC. CMN",
+      "asset_name": "CARMAX INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTUITINC CMN",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -103,21 +114,32 @@
       "asset_name": "COOPER COS INC/THE CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KEYSIGHT TECHNOLDGIES, INC. CMN",
+      "asset_name": "KEYSIGHT TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DIGITAL REALTY TRUST INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "08/26/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -125,10 +147,10 @@
       "asset_name": "DAYFORCE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -136,10 +158,10 @@
       "asset_name": "ADOBE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -147,98 +169,109 @@
       "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WYNN RESORTS, LIMITED CMN",
+      "asset_name": "WYNN RESORTS LIMITED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TRADE DESK, INC. (THE) CMN",
+      "asset_name": "TRADE DESK INC (THE) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "\u00a1EXTRA SPACE STORAGE INC. CMN",
+      "asset_name": "EXTRA SPACE STORAGE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LAS VEGAS SANDS CORP.CMN",
+      "asset_name": "LAS VEGAS SANDS CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NORWEGIAN CRUTSE UINE HLDG LTD CMN",
+      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APPUIED MATERIALS INC CMN",
+      "asset_name": "APPLIED MATERIALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VERISK ANALYTICS, INC. CMN",
+      "asset_name": "ESSEX PROPERTY TRUST INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KENVUE INC. CMN",
+      "asset_name": "VERISK ANALYTICS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KENVUE INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "08/26/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -246,54 +279,54 @@
       "asset_name": "JABIL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IQUALCOMM INC CMN",
+      "asset_name": "QUALCOMM INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TESLA, INC. CMN",
+      "asset_name": "TESLA INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MSCI INC. CMN",
+      "asset_name": "MSCI INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PAYCHEX, INC, CMN",
+      "asset_name": "PAYCHEX INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -301,10 +334,10 @@
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -312,66 +345,35 @@
       "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK",
+      "asset_name": "UNITED PARCEL SERVICE INC CLASS B COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BOOKING HOLDINGS INC. CMN",
+      "asset_name": "BOOKING HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "amount",
-      "read": "$1,001-$15,000",
-      "note": "Corrected 12 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '03/26/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '08/26/2028' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '05/04/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

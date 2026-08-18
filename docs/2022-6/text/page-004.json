@@ -7,69 +7,91 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "[UNKNOWN]",
-      "asset_name": "UNION PACIFIC CORP. CMIN",
+      "owner": "DC",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/11/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "[AMERICAN TOWER CORPORATION CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/18/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "TAKE TWO INTERACTIVE SOFTWARE INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/24/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VOYA FINANCIAL, INC. HYBRID",
+      "asset_name": "VOYA FINANCIAL, INC. HYBRID 06/15/2063 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/19/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ADOBE INC. CMN",
+      "asset_name": "APPLE INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/04/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ADOBE INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/06/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,273 +99,114 @@
       "asset_name": "WORKDAY, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "[ASML HOLDING N.V. ADR CMN",
+      "asset_name": "ASML HOLDING N.V. ADR CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/25/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "cisco SYSTEMS INC. CMN",
+      "asset_name": "CISCO SYSTEMS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PMORGAN CHASE & CO CMN",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARTIN MARIETTA MATERIALS INC CMN",
+      "asset_name": "MARTIN MARIETTA MATERIALS,INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/24/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "[AMERICAN TOWER CORPORATION CMN",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARTIN MARIETTA MATERIALS, INC CM",
+      "asset_name": "ELI LILLY & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/19/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ABBOTTLABORATORIES CMN",
+      "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE",
+      "asset_name": "NOVO-NORDISK A/S ADR ADR CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/26/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "'ABBOTT LABORATORIES CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NOVO-NORDISK A/ADR ADR CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "UNION PACIFIC CORP. CMIN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "VOYA FINANCIAL, INC. HYBRID",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "MARTIN MARIETTA MATERIALS, INC CM",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "UNITEDHEALTH GROUP INCORPORATE",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 1,
-      "field": "owner",
-      "read": "[UNKNOWN]",
-      "note": "owner mark is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

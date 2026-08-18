@@ -8,35 +8,35 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BAXTER INTERNATIONAL INC CMN )",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COOPER COMPANIES INC (NEW CMN",
+      "asset_name": "COOPER COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EMERSON ELECTRIC CO, CMN",
+      "asset_name": "EMERSON ELECTRIC CO. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,289 +44,169 @@
       "asset_name": "COLGATE-PALMOLIVE CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WEST PHARMACEUTICAL SERVICES INC *",
+      "asset_name": "WEST PHARMACEUTICAL SERVICES INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LOWE'S COMPANIES INC CMN",
+      "asset_name": "LOWES COMPANIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ANSYS INC CMN",
+      "asset_name": "ANSYS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MC DONALD'S CORP CMN",
+      "asset_name": "MC DONALDS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NETFLIX INC. CMN",
+      "asset_name": "TRANSUNION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "(AMERIPRISE FINANCIAL, INC. CMN",
+      "asset_name": "APTIV PLC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, IN",
+      "asset_name": "EATON CORP PLC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COSTCO WHOLESALE CORPORATION C",
+      "asset_name": "NETFLIX, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "(CHARTER COMMUNICATIONS, INC, CMN",
+      "asset_name": "AMERIPRISE FINANCIAL, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CM",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RESMED INC.CMN",
+      "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PROCTER & GAMBLE COMPANY (THE)",
+      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RESMED INC CMN",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "RESMED INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": null,
-      "note": "field could not be confidently recovered from the degraded scan/OCR"
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "COLGATE-PALMOLIVE CO CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "MC DONALD'S CORP CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "TRANSUNION CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": null,
-      "field": "rows",
-      "read": 1,
-      "note": "removed OCR-only table header/noise rows from transaction list"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

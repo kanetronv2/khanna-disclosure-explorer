@@ -8,378 +8,205 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TERADYNE INC CMN x osyucyo2 onfag/22",
+      "asset_name": "TERADYNE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, INC CMN x",
+      "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHARLES SCHWAB CORPORATION cMN )",
+      "asset_name": "CHARLES SCHWAB CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS 8",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "“DC NETAPP, INC. CMIN x asyinjzz o6fo2/22",
+      "asset_name": "NETAPP, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AVALONBAY COMMUNITIES INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "METTLER TOLEDO INTL CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KEYSIGHT TECHNOLOGIES, INC, CMN",
+      "asset_name": "KEYSIGHT TECHNOLOGIES, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IAC/INTERACTIVECORP CMN",
+      "asset_name": "IAC/INTERACTIVECORP. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CBRE GROUP, INC. CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACTIVISION BLIZZARD INC CMN",
+      "asset_name": "ACTIVISION BLIZZARD, INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MATCH GROUP, INC, CMN",
+      "asset_name": "MATCH GROUP, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "!VULCAN MATERIALS CO CMN",
+      "asset_name": "VULCAN MATERIALS CO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNION PACIFIC CORP, CNIN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "asset_name": "UNION PACIFIC CORP. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SHERWIN WILLIAMS CO CMN I",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "vF CORP CMN osfipy2z oeyoz722",
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VF CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GILEAD SCIENCES CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "TERADYNE INC CMN x osyucyo2 onfag/22",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "BERKSHIRE HATHAWAY INC. CLASS 8",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "“DC NETAPP, INC. CMIN x asyinjzz o6fo2/22",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "AVALONBAY COMMUNITIES INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "METTLER TOLEDO INTL CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "IAC/INTERACTIVECORP CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "ACTIVISION BLIZZARD INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "!VULCAN MATERIALS CO CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 14,
-      "field": "asset_name",
-      "read": "UNION PACIFIC CORP, CNIN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "vF CORP CMN osfipy2z oeyoz722",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 18,
-      "field": "asset_name",
-      "read": "GILEAD SCIENCES CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

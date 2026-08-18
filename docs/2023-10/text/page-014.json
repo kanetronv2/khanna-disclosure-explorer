@@ -9,11 +9,12 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -23,17 +24,19 @@
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PROLOGIS INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -43,17 +46,19 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "US Equity Stock",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -63,7 +68,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -73,17 +79,19 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "SERVICENOW INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -93,7 +101,8 @@
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -103,7 +112,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -113,27 +123,30 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "SALESFORCE INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ROPER TECHNOLOGIES INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -143,7 +156,8 @@
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -153,7 +167,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -163,7 +178,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -173,7 +189,8 @@
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -183,7 +200,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,

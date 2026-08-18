@@ -11,65 +11,65 @@
       "asset_name": "FREEPORT-MCMORAN INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY INC CMN",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/24/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ACCENTURE PLC CMN CLASS-A",
+      "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "METLIFE INC CMN",
+      "asset_name": "METLIFE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IZOETIS INC, CMN CLASS A",
+      "asset_name": "ZOETIS INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DUPONT DE NEMOURS, INC. CMN",
+      "asset_name": "DUPONT DE NEMOURS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,43 +77,43 @@
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DANAHER CORPORATIONCMN",
+      "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "[ALPHABET INC. CMN CLASS C",
+      "asset_name": "ALPHABET INC. CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MSCIINC. CMN osyzayea os/oarzz",
+      "asset_name": "MSCI INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,10 +121,10 @@
       "asset_name": "MGM RESORTS INTERNATIONAL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,10 +132,10 @@
       "asset_name": "TE CONNECTIVITY LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,43 +143,43 @@
       "asset_name": "FEDEX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MARTIN MARIETTA MATERIALS INC COM",
+      "asset_name": "MARTIN MARIETTA MATERIALS,INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "U.S, BANCORP CMN",
+      "asset_name": "U.S. BANCORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SIMON PROPERTY GROUPINC CMN",
+      "asset_name": "SIMON PROPERTY GROUP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,199 +187,26 @@
       "asset_name": "YUM BRANDS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FISERV, INC. CMN osj2a/zz o6/oa/22",
+      "asset_name": "FISERV, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 18,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 18,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 3,
-      "field": "asset_name",
-      "read": "ACCENTURE PLC CMN CLASS-A",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "METLIFE INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "IZOETIS INC, CMN CLASS A",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "DUPONT DE NEMOURS, INC. CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "MSCIINC. CMN osyzayea os/oarzz",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "TE CONNECTIVITY LTD CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 18,
-      "field": "asset_name",
-      "read": "FISERV, INC. CMN osj2a/zz o6/oa/22",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

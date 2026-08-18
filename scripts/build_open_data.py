@@ -49,13 +49,39 @@ TEXT_QUALITY_PATTERNS = {
     # every correction must still be read against the filed page image.
     "embedded_grid_debris": re.compile(r"[=—]|(?:^|\s)[xX](?:\s|$|[!.,;])"),
     "mixed_case_ocr_artifact": re.compile(r"(?:^[a-z]|[a-z][A-Z]|[A-Z][a-z][A-Z])"),
-    "embedded_owner_code": re.compile(r"(?:^|\s)(?:SP|DC|JT)(?=\s|[._])"),
+    "embedded_owner_code": re.compile(r"^[•\s]*(?:SP|DC|JT)(?=\s|[._])"),
     "repeated_security_marker": re.compile(
-        r"\b(?:CMN|COMMON STOCK)\b.*\b(?:CMN|COMMON STOCK)\b", re.I
+        r"(?:\bCMN\b.*\bCMN\b|\bCOMMON STOCK\b.*\bCOMMON STOCK\b)", re.I
     ),
 }
 TEXT_FRAGMENT_NAMES = {
     "CMN", "ICMN", "PERPETUAL", "STOCK", "COMMON STOCK", "IN CMN", "CMN CLASS A",
+}
+
+# Scan-verified text that is incomplete or unusual on the filed form itself.
+# These remain preserved verbatim in source JSON, but are reported separately
+# from actionable transcription findings.
+REVIEWED_TEXT_QUALITY_EXCEPTIONS = {
+    ("2023-5", 5, 12, "standalone_fragment"):
+        "The PTR scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-5", 19, 20, "standalone_fragment"):
+        "The PTR scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-6", 5, 15, "standalone_fragment"):
+        "The PTR scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-6", 18, 5, "standalone_fragment"):
+        "The PTR scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-6", 23, 1, "standalone_fragment"):
+        "The PTR scan itself prints only CMN in this asset cell.",
+    ("2023-14", 162, 10, "standalone_fragment"):
+        "The annual scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-14", 164, 17, "standalone_fragment"):
+        "The annual scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-14", 262, 23, "standalone_fragment"):
+        "The annual scan itself prints only COMMON STOCK in this asset cell.",
+    ("2023-14", 270, 3, "standalone_fragment"):
+        "The annual scan itself prints only COMMON STOCK in this asset cell.",
+    ("2025-8", 3, 11, "repeated_security_marker"):
+        "The PTR scan prints two securities in one asset cell with one transaction.",
 }
 
 
@@ -124,6 +150,12 @@ def page_type(value):
     return normalized if normalized in PAGE_TYPES else "other"
 
 
+def uses_new_ptr_checkbox_schema(document_id):
+    """Return whether a PTR uses the form with cap-gain and partial-sale columns."""
+    year, sequence = (int(value) for value in document_id.split("-", 1))
+    return year > 2020 or (year == 2020 and sequence >= 5)
+
+
 def read_data(year):
     path = ROOT / f"data-{year}.js"
     text = path.read_text(encoding="utf-8")
@@ -157,11 +189,26 @@ def text_quality_rules(value):
     rules = [label for label, pattern in TEXT_QUALITY_PATTERNS.items() if pattern.search(name)]
     # Preserve filed brand styling. These mixed-case names are deliberate,
     # rather than lowercase OCR characters embedded in all-caps text.
-    if name.startswith(("iShares ", "ServiceNow ")) and "mixed_case_ocr_artifact" in rules:
+    valid_mixed_case_prefixes = (
+        "Capital call for ",
+        "CoStar ",
+        "ConocoPhillips ",
+        "FedEx ",
+        "iShares ",
+        "PagerDuty ",
+        "PayPal ",
+        "RealPage ",
+        "ServiceNow ",
+        "UnitedHealth ",
+    )
+    if name.startswith(valid_mixed_case_prefixes) and "mixed_case_ocr_artifact" in rules:
         rules.remove("mixed_case_ocr_artifact")
     # Structured-note identifiers are printed as Ref=<identifier> on the form;
     # that equals sign is content, not a transaction-grid remnant.
     if re.search(r"\bRef=[A-Z0-9]+\b", name) and "embedded_grid_debris" in rules:
+        rules.remove("embedded_grid_debris")
+    # "X Y" is part of the filed municipal issuer name, not a checkbox mark.
+    if "[POLAND] X Y CERT SCH" in name and "embedded_grid_debris" in rules:
         rules.remove("embedded_grid_debris")
     option_contracts = re.findall(r"\b(?:PUT|CALL)(?:\s|/|\()", name, re.I)
     if len(option_contracts) > 1:
@@ -228,6 +275,8 @@ def build():
     raw_page_types, normalized_page_types = Counter(), Counter()
     unparsed_dates = Counter()
     date_century_rollbacks = []
+    new_form_checkbox_rows = 0
+    new_form_checkbox_issues = []
     page_index = {}
     page_text_rules = {}
 
@@ -271,6 +320,32 @@ def build():
                     "tesseract_text_path": tess,
                 })
                 for row_number, row in enumerate(source_page.get("rows") or [], 1):
+                    if (
+                        ptype == "ptr_transactions"
+                        and row.get("kind") == "tx"
+                        and uses_new_ptr_checkbox_schema(doc)
+                    ):
+                        new_form_checkbox_rows += 1
+                        missing = [
+                            field
+                            for field in ("cap_gain_over_200", "partial_sale")
+                            if not isinstance(row.get(field), bool)
+                        ]
+                        legacy_fields = [
+                            field
+                            for field in ("partial", "partial_transaction")
+                            if field in row
+                        ]
+                        if legacy_fields:
+                            missing.extend(f"legacy_{field}_key" for field in legacy_fields)
+                        if missing:
+                            new_form_checkbox_issues.append({
+                                "document_id": doc,
+                                "document_page_number": document_page,
+                                "row_number": row_number,
+                                "asset_name": clean(row.get("asset_name")),
+                                "fields": missing,
+                            })
                     code, label, reported_owner = owner(row.get("owner"))
                     value_min, value_max = bucket_range(row.get("value"))
                     amount_min, amount_max = bucket_range(row.get("amount"))
@@ -500,14 +575,47 @@ def build():
         issues.append({"check": "no_far_future_transaction_dates",
                        "count": len(date_century_rollbacks),
                        "examples": date_century_rollbacks[:10], "severity": "error"})
+    if new_form_checkbox_issues:
+        issues.append({
+            "check": "new_form_transaction_checkboxes_complete",
+            "count": len(new_form_checkbox_issues),
+            "examples": new_form_checkbox_issues[:25],
+            "severity": "error",
+        })
+    notes.append({
+        "check": "new_form_transaction_checkbox_schema",
+        "transaction_rows": new_form_checkbox_rows,
+        "incomplete_rows": len(new_form_checkbox_issues),
+        "severity": "info",
+    })
     notes.append({"check": "page_type_normalization", "raw": dict(sorted(raw_page_types.items())),
                   "normalized": dict(sorted(normalized_page_types.items())), "severity": "info"})
 
     text_quality_findings = []
+    reviewed_text_quality_exceptions = []
     for row in page_rows:
         if row["row_kind"] != "tx":
             continue
         rules = sorted(set(text_quality_rules(row["asset_name"]) + page_text_rules.get(row["page_id"], [])))
+        actionable_rules = []
+        for rule in rules:
+            exception_key = (
+                row["document_id"], row["document_page_number"], row["row_number"], rule
+            )
+            note = REVIEWED_TEXT_QUALITY_EXCEPTIONS.get(exception_key)
+            if note:
+                reviewed_text_quality_exceptions.append({
+                    "document_id": row["document_id"],
+                    "document_page_number": row["document_page_number"],
+                    "row_number": row["row_number"],
+                    "source_json_path": row["source_json_path"],
+                    "asset_name": row["asset_name"],
+                    "rule": rule,
+                    "note": note,
+                })
+            else:
+                actionable_rules.append(rule)
+        rules = actionable_rules
         if rules:
             text_quality_findings.append({
                 "finding_id": f"text-quality:{row['document_id']}:{row['document_page_number']:04d}:{row['row_number']:04d}",
@@ -534,6 +642,8 @@ def build():
         "rule_counts": dict(sorted(text_quality_counts.items())),
         "year_counts": dict(sorted(text_quality_year_counts.items())),
         "document_counts": dict(sorted(text_quality_document_counts.items())),
+        "reviewed_exception_count": len(reviewed_text_quality_exceptions),
+        "reviewed_exceptions": reviewed_text_quality_exceptions,
         "findings": text_quality_findings,
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     notes.append({

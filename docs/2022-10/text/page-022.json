@@ -8,46 +8,46 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CME GROUP INC, CMN CLASSA",
+      "asset_name": "CME GROUP INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "PUBLIC STORASE CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LLEXAS INSTRUMENTS INC. CMN",
+      "asset_name": "PUBLIC STORAGE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "SP. MID-AMERICA APT CMNTYS IMC CMN",
-      "tx_type": "[ILLEGIBLE]",
+      "owner": "SP",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MID-AMERICA APT CMNTYS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,32 +55,32 @@
       "asset_name": "CORTEVA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NIP SEMICONDUCTORS N.V, CMN",
+      "asset_name": "NXP SEMICONDUCTORS N.V. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "SKYWORKS SOLUTIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,164 +88,164 @@
       "asset_name": "PERKINELMER, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NETFLOX, ENG. CMN",
+      "asset_name": "NETFLIX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "WELLS FARGO & OQ (NEW) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALIGN TECHNOLOGY, ENC CMN",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ORZENS FINANCIAL GROUP, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "03/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "HEALTHPEAK PROPERTRES INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/23/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "BP EATON CORP PLC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ALIGN TECHNOLOGY, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CITIZENS FINANCIAL GROUP, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HEALTHPEAK PROPERTIES INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "EATON CORP PLC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "KLA CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "GLDBAL PAYMENTS INC CMN",
-      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PANCOM SOFTWARE, INC.CMI",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "LP. SIRIUS XM HOLDINGS INC EVN",
-      "tx_type": "[ILLEGIBLE]",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DELTA AIR UINES, INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
+      "asset_name": "PAYCOM SOFTWARE, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SIRIUS XM HOLDINGS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "9P DUPONT DE NEMOURS INC CMN",
+      "owner": "SP",
+      "asset_name": "DUPONT DE NEMOURS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "HARTFORD FINANCIAL SAVES GROUP CHN",
+      "owner": "SP",
+      "asset_name": "HARTFORD FINANCIAL SRVCS GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,184 +253,17 @@
       "asset_name": "SUN COMMUNITIES, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/20/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "09/00/22 10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 2,
-      "field": "owner",
-      "read": "PUBLIC STORASE CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 2,
-      "field": "notification_date",
-      "read": "09/23/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "09/08(22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "owner",
-      "read": "SP. MID-AMERICA APT CMNTYS IMC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "20/0322",
-      "note": "date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "20/0322",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "tx_type",
-      "read": "{'Purchase': 17, 'Sale': 0, 'Exchange': 0, 'cap': 2, 'partial': 0}",
-      "note": "transaction type checkbox not confidently detected"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 7,
-      "field": "owner",
-      "read": "SKYWORKS SOLUTIONS, INC. CMN.",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "09/29/22 _20/03/22 :",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 9,
-      "field": "notification_date",
-      "read": "09/28/22 20/03/22:",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": "[17, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": "08/28/22 20/03/22 л.",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "08/23/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 14,
-      "field": "owner",
-      "read": "BP EATON CORP PLC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "09/28/22 20/03/22 .",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 18,
-      "field": "owner",
-      "read": "LP. SIRIUS XM HOLDINGS INC EVN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 18,
-      "field": "tx_type",
-      "read": "{'Purchase': 17, 'Sale': 0, 'Exchange': 0, 'cap': 0, 'partial': 0}",
-      "note": "transaction type checkbox not confidently detected"
-    },
-    {
-      "row": 20,
-      "field": "owner",
-      "read": "PFIZER INC. CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 20,
-      "field": "notification_date",
-      "read": "09/08/222 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 21,
-      "field": "owner",
-      "read": "9P DUPONT DE NEMOURS INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 21,
-      "field": "notification_date",
-      "read": "19/00/2 10/02/22=",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 22,
-      "field": "owner",
-      "read": "HARTFORD FINANCIAL SAVES GROUP CHN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 22,
-      "field": "date",
-      "read": "20/03/22",
-      "note": "date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 22,
-      "field": "notification_date",
-      "read": "20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "09/20/22 20/03/22| л",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 286, 287. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-022.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

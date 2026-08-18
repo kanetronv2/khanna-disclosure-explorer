@@ -5,13 +5,41 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Grandchildren's Trust (ASK Partners, LLC)"},
-    {"kind": "tx", "owner": "DC", "asset_name": "Transtar/Speedstar Holding Company Class A Common", "tx_type": "Purchase", "cap_gain_over_200": false, "partial": false, "date": "11/06/2020", "notification_date": "11/02/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "DC", "asset_name": "Transtar/Speedstar Holding Company PIK Note", "tx_type": "Purchase", "cap_gain_over_200": false, "partial": false, "date": "11/06/2020", "notification_date": "11/02/2020", "amount": "$1,001-$15,000"}
+    {
+      "kind": "group",
+      "text": "Grandchildren's Trust (ASK Partners, LLC)"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Transtar/Speedstar Holding Company Class A Common",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "11/06/2020",
+      "notification_date": "11/02/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Transtar/Speedstar Holding Company PIK Note",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "11/06/2020",
+      "notification_date": "11/02/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 1, "field": "notification_date", "read": "11/02/2020", "note": "printed notification date (11/02/20) precedes the transaction date (11/06/20); transcribed verbatim as printed"}
+    {
+      "row": 1,
+      "field": "notification_date",
+      "read": "11/02/2020",
+      "note": "printed notification date (11/02/20) precedes the transaction date (11/06/20); transcribed verbatim as printed"
+    }
   ],
   "page_confidence": "high"
 }

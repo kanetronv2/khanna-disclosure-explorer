@@ -6,225 +6,201 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BANK OF MONTREAL LINKED TO S&P",
+      "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/11/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "\u00a1OHIO ST GO 5% 03/01/32 MS",
+      "asset_name": "OHIO ST GO 5% 03/01/32 MS",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/02/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APPLOVIN CORPORATION CMN CLASS",
+      "asset_name": "APPLOVIN CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE PROCTER & GAMBLE COMPANY",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STARBUCKS CORP. CMN",
+      "asset_name": "STARBUCKS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "SALESFORCE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROBINHOOD MARKETS, INC. CMN",
+      "asset_name": "ROBINHOOD MARKETS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VERT\u00c9X PHARIMACEUTICALS INCORPO",
+      "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK x",
+      "asset_name": "UNITED PARCEL SERVICE INC CLASS B COMMON STOCK",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MSCI INC. CMN",
+      "asset_name": "MSCI INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PALO ALTO NETWORKS INC, CMN",
+      "asset_name": "PALO ALTO NETWORKS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LEQUINIX, INC. REIT",
+      "asset_name": "EQUINIX INC REIT",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "METLIFE, INC. CMN",
+      "asset_name": "METLIFE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CARRIER GLOBAL CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "date",
-      "read": "09/11/2025",
-      "note": "date corrected from misread '03/01/2032' to '09/11/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "09/29/2025",
-      "note": "date corrected from misread '03/29/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "09/29/2025",
-      "note": "date corrected from misread '09/28/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "09/29/2025",
-      "note": "date corrected from misread '09/25/2025' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
+    "All 17 printed transactions and the account heading were re-verified against PTR scan page 5. Clean fields match the same ordered annual Schedule B run (annual pages 207, 208); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

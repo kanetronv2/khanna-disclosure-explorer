@@ -8,369 +8,262 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KIMBERLY-CLARK DORPORATIOM CMN",
-      "tx_type": "Sale",
+      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZOETISANC, CMN CLASSA",
-      "tx_type": "Sale",
+      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PRUDENTIAL FINANCIAL INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/23/2022",
-      "notification_date": "10/07/2022",
-      "amount": "$250,001-$500,000"
+      "date": "09/23/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(EASTMAN CHEMICAL COMPANY CMN",
-      "tx_type": "Purchase",
+      "asset_name": "EASTMAN CHEMICAL COMPANY CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "09/23/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "QUALCOMM INC CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$25,000,001-$50,000,000"
+      "date": "09/23/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CAPITAL ONE FINANCIAL COAP CMN",
+      "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "SERVICENOW INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/23/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CSX CORPORATION CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/23/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "EX CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$250,001-$500,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ROPER TECHNOLOGIES DNC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ANALOG DEVICES, INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AIR PRODUCIS & CHEMICAS ING CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "EDWARDS LPESCIENCE5 CORPORATI CMI",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/29/2022",
+      "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ГРАНКЕЙ-НАМНІРІН СORP.СМN",
+      "asset_name": "EDWARDS LIFESCIENCES CORPORATI CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "INVDIA CORPORATION GMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BOSTON SCIEKTIRC COAP. COMMON STOCK",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/22/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SHERWIN-WILLIAMS CO CAN",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/23/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CITISROUP INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "NVIDIA CORPORATION CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/23/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CITIGROUP INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "FEDEX CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "556C TECHNOLOGIES HOLDINGS,LN CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMETLIFE, INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "METLIFE, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/28/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DOVER CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$250,001-$500,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "9 MGM RESORIS INTERNATIONAL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ANSSINGCAN",
+      "asset_name": "MGM RESORTS INTERNATIONAL CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ANSYS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$100,001-$250,000"
+      "date": "09/28/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 2,
-      "field": "amount",
-      "read": "[16, 4, 0, 0, 0, 2, 1, 0, 0, 0, 5]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "09/23/22 19/02/23",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 6,
-      "field": "notification_date",
-      "read": "09/28/22 20/29/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "09/29/22 14/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": "09/00/22 10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "09/29/22 30/02/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 14,
-      "field": "owner",
-      "read": "INVDIA CORPORATION GMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 14,
-      "field": "notification_date",
-      "read": "4/222 10/0922",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 20,
-      "field": "notification_date",
-      "read": "09/2922 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 22,
-      "field": "owner",
-      "read": "9 MGM RESORIS INTERNATIONAL OMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 22,
-      "field": "amount",
-      "read": "[12, 1, 3, 5, 3, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 23,
-      "field": "date",
-      "read": "20/05(22",
-      "note": "date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "20/05(22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 21,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 22,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 338. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-028.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

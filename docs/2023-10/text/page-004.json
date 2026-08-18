@@ -13,7 +13,8 @@
       "cap_gain_over_200": false,
       "date": "10/20/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -23,7 +24,8 @@
       "cap_gain_over_200": false,
       "date": "10/19/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,7 +35,8 @@
       "cap_gain_over_200": false,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -43,7 +46,8 @@
       "cap_gain_over_200": false,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -53,7 +57,8 @@
       "cap_gain_over_200": false,
       "date": "10/5/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -63,7 +68,8 @@
       "cap_gain_over_200": false,
       "date": "10/11/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -73,7 +79,8 @@
       "cap_gain_over_200": false,
       "date": "10/27/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -83,7 +90,8 @@
       "cap_gain_over_200": true,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -93,7 +101,8 @@
       "cap_gain_over_200": false,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -103,7 +112,8 @@
       "cap_gain_over_200": false,
       "date": "10/6/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -113,11 +123,12 @@
       "cap_gain_over_200": false,
       "date": "10/9/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "group",
-      "text": "Ahuja Grandchildren’s Education Trust"
+      "text": "Ahuja Grandchildren\u2019s Education Trust"
     },
     {
       "kind": "tx",
@@ -127,7 +138,8 @@
       "cap_gain_over_200": false,
       "date": "10/20/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -137,7 +149,8 @@
       "cap_gain_over_200": false,
       "date": "10/23/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,44 +160,48 @@
       "cap_gain_over_200": false,
       "date": "10/25/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AVANTOR FUNDING, INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/25/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/5/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMERICAN INTL GROUP, INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/11/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
       "field": "rows",
-      "note": "All 17 printed transaction rows and the account separator were visually verified against the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 169, 173-174); the PTR’s 11/06/2023 notification date is retained."
+      "note": "All 17 printed transaction rows and the account separator were visually verified against the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 169, 173-174); the PTR\u2019s 11/06/2023 notification date is retained."
     }
   ],
   "page_confidence": "high"

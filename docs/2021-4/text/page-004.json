@@ -11,7 +11,7 @@
       "asset_name": "FACEBOOK, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -22,7 +22,7 @@
       "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -33,7 +33,7 @@
       "asset_name": "VF CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -44,7 +44,7 @@
       "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -55,7 +55,7 @@
       "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -66,7 +66,7 @@
       "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -77,7 +77,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -88,7 +88,7 @@
       "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -99,7 +99,7 @@
       "asset_name": "CHARLES SCHWAB CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -110,7 +110,7 @@
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -121,7 +121,7 @@
       "asset_name": "MORGAN STANLEY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -132,7 +132,7 @@
       "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -143,7 +143,7 @@
       "asset_name": "METLIFE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -154,7 +154,7 @@
       "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -165,7 +165,7 @@
       "asset_name": "WEYERHAEUSER COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -176,7 +176,7 @@
       "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -187,7 +187,7 @@
       "asset_name": "BOOKING HOLDINGS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -198,7 +198,7 @@
       "asset_name": "HUMANA INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -209,7 +209,7 @@
       "asset_name": "GILEAD SCIENCES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -220,7 +220,7 @@
       "asset_name": "ARCHER-DANIELS-MIDLAND COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -231,7 +231,7 @@
       "asset_name": "ASSURANT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -242,7 +242,7 @@
       "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -253,7 +253,7 @@
       "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/07/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -264,7 +264,7 @@
       "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/01/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -275,7 +275,7 @@
       "asset_name": "VISA INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -286,7 +286,7 @@
       "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/07/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -297,7 +297,7 @@
       "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -308,7 +308,7 @@
       "asset_name": "FIDELITY NATL INFO SVCS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -319,7 +319,7 @@
       "asset_name": "HANESBRANDS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -330,7 +330,7 @@
       "asset_name": "HARTFORD FINANCIAL SVCS GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -341,7 +341,7 @@
       "asset_name": "TEXAS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -352,7 +352,7 @@
       "asset_name": "FIRST REPUBLIC BANK CMN SERIES",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -363,7 +363,7 @@
       "asset_name": "DOMINION ENERGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -374,7 +374,7 @@
       "asset_name": "SHERWIN-WILLIAMS CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -385,7 +385,7 @@
       "asset_name": "HONEYWELL INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -396,7 +396,7 @@
       "asset_name": "PARKER HANNIFIN CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -407,7 +407,7 @@
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -418,7 +418,7 @@
       "asset_name": "LINDE PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -429,7 +429,7 @@
       "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -440,7 +440,7 @@
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -451,7 +451,7 @@
       "asset_name": "ZYNGA INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/20/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -462,7 +462,7 @@
       "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/05/2021",
       "notification_date": "05/05/2021",
       "amount": "$1,001-$15,000"
@@ -473,7 +473,7 @@
       "asset_name": "HONEYWELL INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/05/2021",
       "notification_date": "05/05/2021",
       "amount": "$1,001-$15,000"
@@ -484,7 +484,7 @@
       "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/07/2021",
       "notification_date": "05/11/2021",
       "amount": "$1,001-$15,000"
@@ -495,7 +495,7 @@
       "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/12/2021",
       "notification_date": "05/04/2021",
       "amount": "$1,001-$15,000"
@@ -506,7 +506,7 @@
       "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/19/2021",
       "notification_date": "05/05/2021",
       "amount": "$1,001-$15,000"
@@ -517,7 +517,7 @@
       "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/06/2021",
       "notification_date": "05/03/2021",
       "amount": "$1,001-$15,000"
@@ -528,7 +528,7 @@
       "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_transaction": false,
+      "partial_sale": false,
       "date": "04/07/2021",
       "notification_date": "05/11/2021",
       "amount": "$1,001-$15,000"

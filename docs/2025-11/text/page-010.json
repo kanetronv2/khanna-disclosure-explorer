@@ -12,403 +12,401 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARISTA NETWORKS, INC. CMN",
+      "asset_name": "ARISTA NETWORKS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "04/04/2025",
-      "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "TYLER TECHNOLOGIES, INC. CMN x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/04/2025",
-      "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "TARGET CORPORATION CMN x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTERNATIONAL PAPER CO. CMN",
+      "asset_name": "TYLER TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TARGET CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTERNATIONAL PAPER CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ALLSTATE CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KENVUE INC. CMN",
+      "asset_name": "KENVUE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BLOCK, INC. CMN CLASS A",
+      "asset_name": "BLOCK INC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "D.R. HORTON, INC. CMN",
+      "asset_name": "D R. HORTON INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EPAM SYSTEMS, INC. CMN",
+      "asset_name": "EPAM SYSTEMS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/04/2025",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VENTAS, INC CMN",
+      "asset_name": "VENTAS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "POOL CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CBRE GROUP, INC. CMN CLASS A",
+      "asset_name": "CBRE GROUP INC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CLOROX CO (THE) (DELAWARE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "04/04/2025",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRADE DESK, INC. (THE) CMN X",
+      "asset_name": "TRADE DESK INC (THE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROYAL CARIBBEAN GROUP ISIN: LR0008862868",
+      "asset_name": "ROYAL CARIBBEAN GROUP ISIN LR0008862868",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MOUINA HEALTHCARE, INC. CMN",
+      "asset_name": "MOLINA HEALTHCARE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VERIZON COMMUNICATIONS INC. CMN",
+      "asset_name": "VERIZON COMMUNICATIONS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CORPAY INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/04/2025",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "EVEREST GROUP LTD CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNON PACIFIC CORP, CMN",
+      "asset_name": "UNION PACIFIC CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GARMIN LTD CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "IDEXX LABORATORIES CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "04/04/2025",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PFIZER INC. CMN",
+      "asset_name": "PFIZER INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LAPPLE INC. CMN",
+      "asset_name": "APPLE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "LINDE PLC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/04/2025",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HILTON WORLDWIDE HOLDINGS INC. CMN",
+      "asset_name": "ESSEX PROPERTY TRUST INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
+      "asset_name": "HILTON WORLDWIDE HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
+      "asset_name": "CHARTER COMMUNICATIONS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALPHABET INC. CMN CLASS A",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ALPHABET INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "COCA-COLA COMPANY (THE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ZIMMER BIOMET HOLDINGS INC",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MERCK & CO., INC. CMN",
+      "asset_name": "MERCK & CO INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HEALTHPEAK OP, LLCCMN",
+      "asset_name": "HEALTHPEAK OP LLC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OLD DOMINION FREIGHT LINE, INC CMN",
+      "asset_name": "OLD DOMINION FREIGHT LINE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "amount",
-      "read": "$1,001-$15,000",
-      "note": "Corrected 31 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

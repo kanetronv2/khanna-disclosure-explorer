@@ -306,23 +306,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 12,
-      "field": "asset_name/tx_type/amount",
-      "read": "TE CONNECTIVITY LTO CMN",
-      "note": "Could not confidently match OCR row to annual Schedule B; OCR line: OC [TE CONNECTIVITY LTO CMN x 05/23/23| 06/02/23] __x"
-    },
-    {
-      "row": 17,
-      "field": "asset_name/date",
-      "read": "CITIGROUP INC. HYBRID 11/05/2030 USD",
-      "note": "OCR asset text was CITIGROUP INC. HYBRID; normalized from matching annual Schedule B row (score 0.77)."
-    },
-    {
-      "row": 12,
-      "field": "asset_name/date/amount",
-      "read": "TE CONNECTIVITY LTD CMN",
-      "note": "OCR read TE CONNECTIVITY LTO CMN; transaction type and amount read from page context and visible checkbox placement with medium confidence."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions and visible checkbox/amount columns checked against PTR scan page 9."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

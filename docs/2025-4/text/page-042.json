@@ -21,7 +21,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -31,7 +32,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -41,7 +43,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -51,7 +54,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -61,7 +65,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -71,7 +76,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -81,7 +87,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -91,27 +98,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "RTX CORPORATION COM USD1 00",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "RTX CORPORATION COM USD1 00",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,7 +109,30 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -131,7 +142,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -141,7 +153,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -151,7 +164,8 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -161,37 +175,41 @@
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNION PAC CORP COM",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNION PAC CORP COM",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNITEDHEALTH GROUP INC",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,

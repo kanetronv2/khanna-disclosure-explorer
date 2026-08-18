@@ -6,102 +6,102 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BALL CORPORATION CIMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "asset_name": "BALL CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CORPAY INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CROWN CASTLE INTL CORP CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DEXCOM, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "DEXCOM INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GARTNER, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "GARTNER INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FISERV, ING CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "FISERV INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IMOODY'S CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "MOODY'S CORPORATION CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All 8 printed transactions and the account heading were re-verified against PTR scan page 10. Clean fields match the same ordered annual Schedule B run (annual pages 210, 211); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

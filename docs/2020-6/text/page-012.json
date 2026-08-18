@@ -5,15 +5,63 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Areco L.P. Commercial Property"},
-    {"kind": "tx", "owner": "SP", "asset_name": "Location: Harahan, LA", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/11/2020", "notification_date": "05/11/2020", "amount": "$100,001-$250,000"},
-    {"kind": "tx", "owner": "DC", "asset_name": "Location: Harahan, LA", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/11/2020", "notification_date": "05/11/2020", "amount": "$15,001-$50,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "Location: Cincinnati, OH", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/21/2020", "notification_date": "05/21/2020", "amount": "$250,001-$500,000"},
-    {"kind": "tx", "owner": "DC", "asset_name": "Location: Cincinnati, OH", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/21/2020", "notification_date": "05/21/2020", "amount": "$15,001-$50,000"}
+    {
+      "kind": "group",
+      "text": "Areco L.P. Commercial Property"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "Location: Harahan, LA",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/11/2020",
+      "notification_date": "05/11/2020",
+      "amount": "$100,001-$250,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Location: Harahan, LA",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/11/2020",
+      "notification_date": "05/11/2020",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "Location: Cincinnati, OH",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/21/2020",
+      "notification_date": "05/21/2020",
+      "amount": "$250,001-$500,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "Location: Cincinnati, OH",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/21/2020",
+      "notification_date": "05/21/2020",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "group_text", "read": "Areco L.P. Commercial Property", "note": "entity name reads 'Areco' or 'Ateco' L.P.; likely the same account as the obscured group header on page 4 (recorded there as 'Amoco', low confidence)"}
+    {
+      "row": 0,
+      "field": "group_text",
+      "read": "Areco L.P. Commercial Property",
+      "note": "entity name reads 'Areco' or 'Ateco' L.P.; likely the same account as the obscured group header on page 4 (recorded there as 'Amoco', low confidence)"
+    }
   ],
   "page_confidence": "high"
 }

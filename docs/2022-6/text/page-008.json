@@ -8,280 +8,205 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FIDELITY NATL INFO SVCS INC CMIN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMN!",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "WELLS FARGO & CO (NEW) CMN )",
+      "asset_name": "FIDELITY NATL INFO SVCS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B",
+      "asset_name": "CITIGROUP INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STARBUCKS CORP. CMN usyinjzz osfoy22",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN . ae",
+      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FISERV, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "STARBUCKS CORP. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LENNAR CORPORATION CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ADVANCED MICRO DEVICES, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MOTOROLA SOLUTIONS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TJX COMPANIES INC (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MORGAN STANLEY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ANALOG DEVICES, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ILLINOIS TOOL WORKS CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARSH & MCLENNAN CD Inc CAIN, :",
+      "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "FIDELITY NATL INFO SVCS INC CMIN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "UNITED PARCEL SERVICE, INC. CLASS B",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "STARBUCKS CORP. CMN usyinjzz osfoy22",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "STERIS PUBLIC LIMITED COMPANY CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "PHILIP MORRIS INTL INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "MOTOROLA SOLUTIONS INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

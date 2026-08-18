@@ -295,53 +295,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 11,
-      "field": "asset_name/date",
-      "read": "WEST VIRGINIA ST GO 5% 12/01/23 JD",
-      "note": "OCR asset text was WEST VIRGINIA ST GO 5%; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 12,
-      "field": "asset_name/date",
-      "read": "KING CNTY WASH GO 5% 12/01/23 JD",
-      "note": "OCR asset text was KING CNTY WASH GO S%; normalized from matching annual Schedule B row (score 0.74)."
-    },
-    {
-      "row": 14,
-      "field": "asset_name/date",
-      "read": "MURFREESBORO TENN GO 5% 08/01/23 JD",
-      "note": "OCR asset text was MURFREESBORO TENN GO S%; normalized from matching annual Schedule B row (score 0.78)."
-    },
-    {
-      "row": 16,
-      "field": "asset_name/date",
-      "read": "BEXAR CNTY TEX DB 5.0000% 06/15/30 JD",
-      "note": "OCR asset text was BEXAR CNTY TEX DB S.0000%; normalized from matching annual Schedule B row (score 0.78)."
-    },
-    {
-      "row": 17,
-      "field": "asset_name/date",
-      "read": "MANASSAS VA GO 5% 07/01/23 JJ",
-      "note": "OCR asset text was MANASSAS VA GO 5%; normalized from matching annual Schedule B row (score 0.76)."
-    },
-    {
-      "row": 20,
-      "field": "asset_name/date",
-      "read": "FORT WORTH TEX GO 5% 03/01/24 MS",
-      "note": "OCR asset text was FORT WORTH TEX GO 5%; normalized from matching annual Schedule B row (score 0.79)."
-    },
-    {
-      "row": 21,
-      "field": "asset_name/date",
-      "read": "WASHINGTON GO 5.0000% 08/01/23 FA",
-      "note": "OCR asset text was WASHINGTON GO 5.0000%; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 23,
-      "field": "asset_name/date",
-      "read": "MCGREGOR TEX DD 5% 04/15/23 FA",
-      "note": "OCR asset text was MOGREGOR TEX DB 5%; normalized from matching annual Schedule B row (score 0.67)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All transaction rows and noted names checked against PTR scan page 23."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

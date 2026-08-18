@@ -5,22 +5,147 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "tx", "owner": "SP", "asset_name": "CHENIERE ENERGY, INC. CMN", "tx_type": "Sale", "partial": true, "date": "07/21/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "THE WILLIAMS COMPANIES, INC. CMN", "tx_type": "Sale", "partial": true, "date": "07/21/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "THE SOUTHERN CO. CMN", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ROSS STORES, INC CMN", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ANALOG DEVICES, INC. CMN", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "HOST HOTELS & RESORTS INC CMN", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "MPLX LP CMN", "tx_type": "Sale", "partial": true, "date": "07/21/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "MARATHON PETROLEUM CORPORATION CMN", "tx_type": "Sale", "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ESTEE LAUDER COS INC CL-A CMN CLASS A", "tx_type": "Sale", "partial": true, "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "MPLX LP CMN", "tx_type": "Sale", "date": "07/21/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ONEOK INC CMN", "tx_type": "Sale", "partial": true, "date": "07/28/2020", "notification_date": "08/03/2020", "amount": "$1,001-$15,000"}
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CHENIERE ENERGY, INC. CMN",
+      "tx_type": "Sale",
+      "date": "07/21/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "THE WILLIAMS COMPANIES, INC. CMN",
+      "tx_type": "Sale",
+      "date": "07/21/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "THE SOUTHERN CO. CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROSS STORES, INC CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ANALOG DEVICES, INC. CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HOST HOTELS & RESORTS INC CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MPLX LP CMN",
+      "tx_type": "Sale",
+      "date": "07/21/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MARATHON PETROLEUM CORPORATION CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ESTEE LAUDER COS INC CL-A CMN CLASS A",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MPLX LP CMN",
+      "tx_type": "Sale",
+      "date": "07/21/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ONEOK INC CMN",
+      "tx_type": "Sale",
+      "date": "07/28/2020",
+      "notification_date": "08/03/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 10, "field": "asset_name", "read": "ESTEE LAUDER COS INC CL-A CMN CLASS A", "note": "printed with a redundant class designation ('CL-A ... CLASS A') - transcribed verbatim"}
+    {
+      "row": 10,
+      "field": "asset_name",
+      "read": "ESTEE LAUDER COS INC CL-A CMN CLASS A",
+      "note": "printed with a redundant class designation ('CL-A ... CLASS A') - transcribed verbatim"
+    }
   ],
   "page_confidence": "high"
 }

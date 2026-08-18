@@ -299,11 +299,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 13,
-      "field": "asset_name/date",
-      "read": "EMERA INCORPORATED HYBRID 06/15/2076 USD",
-      "note": "OCR asset text was EMERA INCORPORATED HYBRID; normalized from matching annual Schedule B row (score 0.81)."
+      "row": 12,
+      "field": "asset_name",
+      "read": "COMMON STOCK",
+      "note": "The filed PTR itself prints only COMMON STOCK on this row; retained verbatim rather than inventing an issuer."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

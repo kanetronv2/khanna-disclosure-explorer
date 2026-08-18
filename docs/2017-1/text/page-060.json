@@ -11,7 +11,7 @@
     {"kind": "tx", "owner": "SP", "asset_name": "Allergan (AGN)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "5/2/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
     {"kind": "tx", "owner": "SP", "asset_name": "Allergan (AGN)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "8/4/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
     {"kind": "tx", "owner": "SP", "asset_name": "Allergan (AGN)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "9/20/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ance Data Systems C (ADS)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "3/13/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
+    {"kind": "tx", "owner": "SP", "asset_name": "Alliance Data Systems Corp (ADS)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "3/13/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
     {"kind": "tx", "owner": "SP", "asset_name": "Alphabet Inc (GOOGL)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "3/13/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
     {"kind": "tx", "owner": "SP", "asset_name": "Alphabet Inc (GOOGL)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "8/1/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
     {"kind": "tx", "owner": "SP", "asset_name": "Alphabet Inc (GOOGL)", "tx_type": "Purchase", "cap_gain_over_200": false, "date": "9/20/2017", "notification_date": null, "amount": "C: $1,001-$15,000"},
@@ -20,7 +20,7 @@
   ],
   "free_text": "Footer: MS MR Trust Partnership",
   "uncertainties": [
-    {"row": 5, "field": "asset_name", "read": "ance Data Systems C", "note": "security name truncated by the printed column width; visible text reads 'ance Data Systems C' (ticker ADS); full name is presumably 'Alliance Data Systems Corp' but only the truncated text is printed"},
+    {"row": 5, "field": "asset_name", "read": "ance Data Systems C", "note": "The printed column clips the beginning and end; the visible text plus ticker ADS identifies Alliance Data Systems Corp."},
     {"row": 10, "field": "amount", "read": "C: $1,001-$15,000", "note": "the C amount band is one continuous black fill spanning all 10 columns including this Partial Sale column; interpreted as bucket C for every column"}
   ],
   "page_confidence": "high"

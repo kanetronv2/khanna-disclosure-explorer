@@ -8,1627 +8,790 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "d CRED ROMSPANTY {THE} [WESTS",
+      "asset_name": "WESTERN UNION COMPANY (THE) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OO CTE ORATION Carty",
+      "asset_name": "STRYKER CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IDE CO ono 0 DRLOW",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "VF CORP CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "AMERISOURCEBERGEN CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "W.W. GRAINGER INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "CONAGRA BRANDS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "AMCOR PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "GARMIN LTD CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "PAYCOM SOFTWARE, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "WHIRLPOOL CORP. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "TELEDYNE TECHNOLOGIES INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "CITRIX SYSTEMS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "MATCH GROUP, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "AVALONBAY COMMUNITIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "GILEAD SCIENCES CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "GAMING AND LEISURE PROP, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "JAZZ PHARMACEUTICALS PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "CHARLES RIV LABS INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "COMCAST CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "UNITED RENTALS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "ASTRAZENECA PLC SPONS ADR SPONSORED ADR CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "ABIOMED, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "UNIVERSAL DISPLAY CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "AGILENT TECHNOLOGIES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "SEAGEN INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "JACK HENRY & ASSOC INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SALESFORCE.COM, INC CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "SPOTIFY TECHNOLOGY S.A. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "NEW YORK TIMES CO A CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "EXXON MOBIL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "AVERY DENNISON CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "CENTENE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "CARNIVAL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "WATERS CORPORATION COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "PENN NATIONAL GAMING INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "asset_name": "STARBUCKS CORP. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "asset_name": "ROYAL GOLD, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
+      "kind": "group",
+      "text": "Ahuja 2010 Trust"
+    },
+    {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "DORMITORY AUTH OF STATE OF NY REV 5.0000% 01/15/26-CA MN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "SAN ANTONIO TEX WTR REV REV 5% 11/15/26 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "LONG IS PWR AUTH N Y ELEC SYS REV 1% 09/01/25-CA MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$50,001-$100,000"
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1995 Trust"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "VISA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "AT&T INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "ORACLE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "CITIGROUP INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "ELECTRONIC ARTS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "GLOBAL PAYMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "OMNICOM GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "REALTY INCOME CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "CVS HEALTH CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "MODERNA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "MAINE MUN BD BK TRANSN REV 5% 09/01/22 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/1/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "CLACKAMAS CNTY ORE SCH DIST NO GO 5.2500% 06/[UNCLEAR]",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$15,001-$50,000"
+      "date": "12/3/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CENTRAL OHIO SOLID WASTE AUTH GO 5% 12/01/27 J[UNCLEAR]",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "12/6/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MATCH GROUP, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TJX COMPANIES INC (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BLACKROCK, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "asset_name",
-      "read": "d CRED ROMSPANTY {THE} [WESTS",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 1,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 2,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 3,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 4,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 5,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 6,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 7,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 8,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 9,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 10,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 11,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 12,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 13,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 14,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 14,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 15,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 15,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 16,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 17,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 18,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 18,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 19,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 19,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 20,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 20,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 21,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 21,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 22,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 22,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 23,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 23,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 24,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 24,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 25,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 25,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 26,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 26,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 27,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 27,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 28,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 28,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 29,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 29,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 30,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 30,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 31,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 31,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 32,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 32,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 33,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 33,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 34,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 34,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 35,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 35,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 36,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 36,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 37,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 37,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 38,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 38,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 39,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 39,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 40,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 40,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 41,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 41,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 42,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 42,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 43,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 43,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 44,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 44,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 45,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 45,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 46,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 46,
-      "field": "tx_type/amount",
-      "read": "Purchase, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 47,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 47,
-      "field": "tx_type/amount",
-      "read": "Purchase, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 48,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 48,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 49,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 49,
-      "field": "tx_type/amount",
-      "read": "Purchase, $50,001-$100,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 50,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 50,
-      "field": "tx_type/amount",
-      "read": "Purchase, $50,001-$100,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 51,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 51,
-      "field": "tx_type/amount",
-      "read": "Purchase, $50,001-$100,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 52,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 52,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 53,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 53,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 54,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 54,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 55,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 55,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 56,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 56,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 57,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 57,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 58,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 58,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 59,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 59,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 60,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 60,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 61,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 61,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 62,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 62,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 63,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 63,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 64,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 64,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 65,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 65,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 66,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 66,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 67,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 67,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 68,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 68,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 69,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 69,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 70,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 70,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 71,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 71,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 70 transactions and two account separators checked against lossless PTR scan page 6; annual rows used only for the matching final sequence."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

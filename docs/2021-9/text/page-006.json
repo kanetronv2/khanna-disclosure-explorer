@@ -11,19 +11,21 @@
       "asset_name": "INTL FLAVORS & FRAGRANCE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DMS WORLDWIDE CORPORATION CMN",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -31,9 +33,10 @@
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -41,19 +44,21 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CERIDIAN HCM HOLDING INC CMN",
+      "asset_name": "CERIDIAN HCM HOLDING INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -61,9 +66,10 @@
       "asset_name": "MEDICAL PROPERTIES TRUST INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -71,9 +77,10 @@
       "asset_name": "TERADYNE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -81,19 +88,21 @@
       "asset_name": "AVERY DENNISON CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AKAMAI TECHNOLOGIES, INC CMN",
+      "asset_name": "AKAMAI TECHNOLOGIES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -101,19 +110,21 @@
       "asset_name": "IDEX CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "F5 NETWORKS INC. CMN",
+      "asset_name": "F5 NETWORKS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,9 +132,10 @@
       "asset_name": "CROWN HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -131,9 +143,10 @@
       "asset_name": "NASDAQ INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -141,29 +154,32 @@
       "asset_name": "CDW CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK",
+      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON ST",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LAMB WESTON HOLDINGS INC CMN",
+      "asset_name": "LAMB WESTON HOLDINGS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -171,29 +187,32 @@
       "asset_name": "3M COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PERKINELMER INC CMN",
+      "asset_name": "PERKINELMER, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ANALOG DEVICES, INC CMN",
+      "asset_name": "ANALOG DEVICES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -201,59 +220,65 @@
       "asset_name": "CONAGRA BRANDS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHURCH & DWIGHT CO., INC CMN",
+      "asset_name": "CHURCH & DWIGHT CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COCA-COLA COMPANY [THE] CMN",
+      "asset_name": "COCA-COLA COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APM INTERNATIONAL INC CMN",
+      "asset_name": "RPM INTERNATIONAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SEAGEN INC CMN",
+      "asset_name": "SEAGEN INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BIOMARIN PHARMACEUTICAL INC CMN",
+      "asset_name": "BIOMARIN PHARMACEUTICAL INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -261,19 +286,21 @@
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE SCOTTS MIRACLE-GRO CO CLASS A",
+      "asset_name": "THE SCOTTS MIRACLE GRO CO CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -281,9 +308,10 @@
       "asset_name": "VMWARE, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -291,9 +319,10 @@
       "asset_name": "RELIANCE STEEL & ALUMINUM CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -301,9 +330,10 @@
       "asset_name": "FORD MOTOR COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -311,19 +341,21 @@
       "asset_name": "DUKE REALTY CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EDISON CMN",
+      "asset_name": "PPD, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -331,19 +363,21 @@
       "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SS&C TECHNOLOGIES HOLDINGS INC CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -351,9 +385,10 @@
       "asset_name": "QUALCOMM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -361,9 +396,10 @@
       "asset_name": "AMERISOURCEBERGEN CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -371,29 +407,32 @@
       "asset_name": "DAVITA INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHECK POINT SOFTWARE TECH. LTD ORDINARY SHARES",
+      "asset_name": "CHECK POINT SOFTWARE TECH. LTD ORDINARY SHA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JUNIPER NETWORKS INC CMN",
+      "asset_name": "JUNIPER NETWORKS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -401,9 +440,10 @@
       "asset_name": "HORIZON THERAPEUTICS PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -411,127 +451,140 @@
       "asset_name": "INTEL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IONIS PHARMACEUTICALS INC CMN",
+      "asset_name": "IONIS PHARMACEUTICALS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ADOBE INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "WALMART INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PROCTER & GAMBLE COMPANY [THE] CMN",
-      "tx_type": "Purchase",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ABBOTT LABORATORIES CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMGEN INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AT&T INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "AT&T INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMERICAN TOWER CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FACEBOOK INC. CMN CLASS A",
-      "tx_type": "Purchase",
+      "asset_name": "FACEBOOK, INC. CMN CLASS A",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MONDELEZ INTERNATIONAL INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -539,29 +592,32 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ILLINOIS TOOL WORKS CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHARTER COMMUNICATIONS INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "F5 NETWORKS INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "T-MOBILE US, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -569,9 +625,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DEERE & COMPANY CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -579,9 +636,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -589,9 +647,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -599,9 +658,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "EMERSON ELECTRIC CO. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -609,9 +669,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -619,19 +680,21 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ROPER TECHNOLOGIES INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VERIZON COMMUNICATIONS, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -639,19 +702,21 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ABBVIE INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SERVICENOW INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "FISERV, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -659,9 +724,21 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
+      "notification_date": "10/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AUTODESK, INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -669,9 +746,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "COLGATE-PALMOLIVE CO CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -679,9 +757,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "FREEPORT-MCMORAN INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": true,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     },
@@ -689,9 +768,10 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "date": "[ILLEGIBLE]",
+      "partial_sale": false,
+      "date": "09/28/2021",
       "notification_date": "10/04/2021",
       "amount": "$1,001-$15,000"
     }
@@ -699,9 +779,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "field": "rows",
-      "note": "Dates and amount-column marks are too faint for reliable per-row transcription; visible row inventory preserved."
+      "row": "page",
+      "field": "core_fields",
+      "read": "scan-verified",
+      "note": "Dates and capital-gain/partial-sale checkbox fields for all represented transactions were checked against PTR scan page 6."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

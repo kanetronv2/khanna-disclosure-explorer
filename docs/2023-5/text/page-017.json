@@ -90,7 +90,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "5/19/2023",
-      "notification_date": null,
+      "notification_date": "6/2/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -206,7 +206,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IQVIA HOLDINGS INC CMN",
+      "asset_name": "CF INDUSTRIES HOLDINGS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -243,7 +243,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "5/15/2023",
+      "date": "5/19/2023",
       "notification_date": "6/2/2023",
       "amount": "$1,001-$15,000"
     },
@@ -306,35 +306,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 4,
-      "field": "asset_name/date",
-      "read": "WEST VIRGINIA ST GO 5% 12/01/23 JD",
-      "note": "OCR asset text was WEST VIRGINIA ST GO 5%; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 6,
-      "field": "asset_name/date",
-      "read": "NORFOLK VA GO 5% 10/01/23 AO",
-      "note": "OCR asset text was NORFOLK VA GO 5%; normalized from matching annual Schedule B row (score 0.75)."
-    },
-    {
-      "row": 19,
-      "field": "asset_name/date",
-      "read": "IQVIA HOLDINGS INC CMN",
-      "note": "OCR asset text was CF INDUSTRIES HOLDINGS, INC. CMN; normalized from matching annual Schedule B row (score 0.71)."
-    },
-    {
-      "row": 22,
-      "field": "asset_name/tx_type/amount",
-      "read": "WHIRLPOOL CORP. CMN",
-      "note": "Could not confidently match OCR row to annual Schedule B; OCR line: SP |WHIRLPOOL CORP. CMN 05/19/23} 06/02/23"
-    },
-    {
-      "row": 22,
-      "field": "asset_name/date/amount",
-      "read": "WHIRLPOOL CORP. CMN",
-      "note": "PTR OCR read the date as 05/19/23; annual Schedule B has this spouse-owned Whirlpool purchase on 5/15/2023."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 17; CF Industries and the printed Whirlpool date restored."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

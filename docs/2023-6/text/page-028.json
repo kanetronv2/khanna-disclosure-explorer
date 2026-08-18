@@ -89,7 +89,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "06/22/23",
       "notification_date": "07/06/23",
       "amount": "$1,001-$15,000"
     },
@@ -187,14 +187,9 @@
     {
       "row": 8,
       "field": "date",
-      "note": "The fourth Stryker row appears at the page break with no visible date in OCR; asset/transaction marks are visible but date is not confidently legible."
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
+      "read": "06/22/23",
+      "note": "Date read directly from the high-resolution filed PTR scan."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

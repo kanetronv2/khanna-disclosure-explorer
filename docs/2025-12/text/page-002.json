@@ -12,57 +12,57 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALPHABET INC, CMN CLASS C",
+      "asset_name": "ALPHABET INC  CMN  CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/05/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/30/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO BASKET OF INDICES x",
+      "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/12/2025",
+      "date": "09/11/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROYAL BANK OF CANADA LINKED TO ,S&P 500 INDEX",
+      "asset_name": "T MOBILE US  INC  CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "T-MOBILE US, INC. CMN",
+      "asset_name": "BROADCOM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "IBROADCOM INC, CMN x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -70,76 +70,65 @@
       "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COCA-COLA EUROPEAN PARTNERS PL",
+      "asset_name": "COCA COLA EUROPEAN PARTNERS PL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/05/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/15/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "COLGATE PALMOLIVE CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COLGATE-PALMOLIVE CO CMN",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SBA COMM\u00dcNICATIONS CORPORATION CMN",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/26/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "EQUITABLE HOLDINGS INC CMN x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,10 +136,21 @@
       "asset_name": "EQUITABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/12/2025",
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "EQUITABLE HOLDINGS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/25/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -158,10 +158,10 @@
       "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2025",
+      "date": "09/12/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -169,10 +169,10 @@
       "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/25/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -180,32 +180,32 @@
       "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/15/2025",
+      "date": "09/25/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/15/2025",
+      "date": "09/15/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THUNTINGTON BANCSHARES INCORPOR (HYBRID PERPETUAL",
+      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -213,20 +213,16 @@
       "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/15/251",
+      "date": "09/15/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All 19 printed transactions and the account heading were re-verified against PTR scan page 2. Clean fields match the same ordered annual Schedule B run (annual pages 160, 161); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

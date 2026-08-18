@@ -5,13 +5,41 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Amoco"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ILLUMINA INC", "tx_type": "Purchase", "date": "05/29/2020", "notification_date": "06/02/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "PAYPAL HLDGS INC COM", "tx_type": "Sale", "partial": true, "cap_gain_over_200": true, "date": "05/13/2020", "notification_date": "06/02/2020", "amount": "$1,001-$15,000"}
+    {
+      "kind": "group",
+      "text": "Amoco"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ILLUMINA INC",
+      "tx_type": "Purchase",
+      "date": "05/29/2020",
+      "notification_date": "06/02/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PAYPAL HLDGS INC COM",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/13/2020",
+      "notification_date": "06/02/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    }
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 1, "field": "group_text", "read": "Amoco", "note": "group/account header partially obscured by scan bleed; reads approximately 'Amoco'/'Anoco' - low confidence"}
+    {
+      "row": 1,
+      "field": "group_text",
+      "read": "Amoco",
+      "note": "group/account header partially obscured by scan bleed; reads approximately 'Amoco'/'Anoco' - low confidence"
+    }
   ],
   "page_confidence": "medium"
 }

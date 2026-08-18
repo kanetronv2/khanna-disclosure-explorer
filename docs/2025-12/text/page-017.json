@@ -12,294 +12,206 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IKEYCORP HYBRID PERPETUAL USD",
+      "asset_name": "KEYCORP HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/30/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ISBA COMMUNICATIONS CORPORATION CMN",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CAPITAL ONE FINANCIAL CORPORAT HYBRID PERPETUAL",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/17/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/17/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/15/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COLGATE-PALMOLIVE CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/05/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ZOETIS INC, CIMN CLASS A x",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/26/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/17/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
+      "date": "09/17/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/15/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COLGATE PALMOLIVE CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/05/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/26/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/17/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/09/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CHARLES SCHWAB CORPORATION (TH HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/17/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EQUITABLE HOLDINGS INC CMN X",
+      "asset_name": "EQUITABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/25/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TEQUITABLE HOLDINGS INC CMN",
+      "asset_name": "EQUITABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "ZOETIS INC  CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/15/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PFIZER INC. CMN",
+      "asset_name": "PFIZER INC  CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/15/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LULULEMON ATHLETICA INC  CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/15/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LULULEMON ATHLETICA INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INASDAQ INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "NASDAQ INC  CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/08/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HARTFORD INSURANCE GROUP INC/T",
-      "tx_type": "Purchase",
+      "asset_name": "HARTFORD INSURANCE GROUP INC/T CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/08/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARMAX, INC, CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "CARMAX  INC  CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/08/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "09/30/2025",
-      "note": "date corrected from misread '09/05/2025' to '09/30/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/17/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "09/17/2025",
-      "note": "date corrected from misread '09/17/2028' to '09/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "09/17/2025",
-      "note": "date corrected from misread '09/15/2025' to '09/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "09/15/2025",
-      "note": "date corrected from misread '09/05/2025' to '09/15/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/26/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "09/26/2025",
-      "note": "date corrected from misread '09/17/2025' to '09/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "09/17/2025",
-      "note": "date corrected from misread '09/09/2025' to '09/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "09/09/2025",
-      "note": "date corrected from misread '09/17/2025' to '09/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "09/17/2025",
-      "note": "date corrected from misread '09/25/2025' to '09/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "09/25/2025",
-      "note": "date corrected from misread '09/05/2025' to '09/25/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/15/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "09/15/2025",
-      "note": "date corrected from misread '09/05/2025' to '09/15/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/08/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
+    "All 18 printed transactions and the account heading were re-verified against PTR scan page 17. Clean fields match the same ordered annual Schedule B run (annual pages 305); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

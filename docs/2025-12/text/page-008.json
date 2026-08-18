@@ -6,59 +6,74 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "S&P GLOBAL INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COSTCO WHOLESALE CORPORATION ICMN",
+      "asset_name": "S&P GLOBAL INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COLGATE PALMOLIVE CO CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KIMBERLY CLARK CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BRISTOL MYERS SQUIBB COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COLGATE-PALMOLIVE CO CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/29/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,54 +81,54 @@
       "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICKESSON CORPORATION CMN",
-      "tx_type": "Sale",
+      "asset_name": "MCKESSON CORPORATION CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ADOBE INC CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AIRBNE, INC. CMN CLASS A",
+      "asset_name": "AIRBNB INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CIGNA GROUP/THE CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -121,114 +136,104 @@
       "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APOLLO GLOBAL MANAGEMENT INC ICMN CLASS A",
+      "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMGEN INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "AMGEN INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BLACKSTONE GROUP INC/THE CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BLOCK, INC. CMN CLASS A",
+      "asset_name": "BLOCK INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTERCONTINENTAL EXCHANGE INC",
-      "tx_type": "Sale",
+      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MERCK & CO., INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "MERCK & CO INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ERIE INDEMNITY COMPANY CL-A CMN ICLASS A",
+      "asset_name": "ERIE INDEMNITY COMPANY CL A CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "09/29/2025",
-      "note": "date corrected from misread '09/29/2045' to '09/29/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
+    "All 20 printed transactions and the account heading were re-verified against PTR scan page 8. Clean fields match the same ordered annual Schedule B run (annual pages 209, 210); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

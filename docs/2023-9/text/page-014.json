@@ -170,28 +170,20 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "09/25/23",
       "notification_date": "10/05/23",
-      "amount": "[UNKNOWN]",
-      "notes": "Date of transaction and amount cells are cut off/blank at the bottom of the scanned page; OCR only shows the notification date.",
-      "confidence": "low"
+      "amount": "$250,001-$500,000",
+      "confidence": "high"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "The final Tiger Global row is truncated by the bottom of the page; only owner, asset, transaction type, and notification date are legible.",
     {
       "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "Audit repair: source scan/transcription did not provide a reliable value; retained as explicit uncertainty rather than guessing."
+      "field": "date/amount",
+      "read": "09/25/23; $250,001-$500,000",
+      "note": "Date and amount-column E mark read directly from the high-resolution filed PTR scan."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

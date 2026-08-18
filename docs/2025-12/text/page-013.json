@@ -7,267 +7,233 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ritu Ahuja 1996 Trust"
+      "text": "Ritu Ahuja 1994 Trust"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "MOTOROLA SOLUTIONS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VERIZON COMMUNICATIONS INC. CMN",
+      "asset_name": "VERIZON COMMUNICATIONS INC  CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EQUINIX, INC. REIT",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "EQUINIX  INC  REIT",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMCAST CORPORATION \u010cMN CLASS A VOTING",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ELEVANCE HEALTH INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CIGNA GROUP/THE CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "GLOBAL PAYMENTS INC  CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "EQUITY RESIDENTIAL CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ARTHUR J GALLAGHER & CO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EXTRA SPACE STORAGE INC. CMN",
+      "asset_name": "EXTRA SPACE STORAGE INC  CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "YUM BRANDS, ING. CMN",
+      "asset_name": "YUM BRANDS  INC  CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "SYSCO CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHUBB UMITED CMN",
+      "asset_name": "CHUBB LIMITED CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PAYCHEX, INC. CMN",
+      "asset_name": "PAYCHEX, INC  CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CALL/EWJ FLEX EURO PM @ 77 EXP 109/17/2025",
+      "asset_name": "CALL/EWJ FLEX EURO  PM  @ 77 EXP 09/12/2025",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/12/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(CALL/CRH FLEX EURO PM @104 EXP 109/12/2025",
+      "asset_name": "CALL/CRH FLEX EURO  PM  @ 104 EXP 09/12/2025",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/12/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '03/05/2023' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '08/05/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/12/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '09/12/2025' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "09/05/2025",
-      "note": "date corrected from misread '10/02/2028' to '09/05/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
+    "All 20 printed transactions and the account heading were re-verified against PTR scan page 13. Clean fields match the same ordered annual Schedule B run (annual pages 285); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

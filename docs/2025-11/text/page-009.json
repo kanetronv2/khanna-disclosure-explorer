@@ -12,457 +12,412 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ABVIEINCMN",
+      "asset_name": "ABBVIE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MASTERCARD INCORPORATED CMN |CLASS A",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CROWDSTRIKE HOLDINGS, INC. CMN",
+      "asset_name": "CROWDSTRIKE HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VERTEX PHARMACEUTICALS INCORPO (CMN",
+      "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WEYERMAEUSER COMPANY CMN X",
+      "asset_name": "WEYERHAEUSER COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALTRIA GROUP, INC. CMN",
+      "asset_name": "ALTRIA GROUP INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WELLTOWER, INC. CMN",
+      "asset_name": "WELLTOWER INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ISTARBUCKS CORP. CMN",
+      "asset_name": "STARBUCKS CORP CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHURCH & OWIGHT CO., INC CMN",
+      "asset_name": "CHURCH & DWIGHT CO INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMAZON.COM INC CMN",
+      "asset_name": "AMAZON COM INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARMAX, INC. CMN",
+      "asset_name": "DATADOG INC CMN CLASS A",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CARMAX, INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "MASCO CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTLFLAVORS & FRAGRANCE CMN",
+      "asset_name": "INTL.FLAVORS & FRAGRANCE CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "THE KRAFT HEINZ CO CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DUPONT DE NEMOURS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ASSURANT, INC. CMN",
+      "asset_name": "ASSURANT INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMORGAN STANLEY CMN",
+      "asset_name": "MORGAN STANLEY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "J B HUNT TRANS SVCS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "COOPER COS INC/THE CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INVITATION HOMES INC. CMN",
+      "asset_name": "INVITATION HOMES INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "INSULET CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "C.H. ROBINSON WORLDWIDE, INC. CMN",
+      "asset_name": "C H ROBINSON WORLDWIDE INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE CAMPBELL'S COMPANY CMN",
+      "asset_name": "THE CAMPBELL S COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC. CIMN",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LULULEMON ATHLETICA INC. CMN",
+      "asset_name": "LULULEMON ATHLETICA INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KIMCO REALTY OP, LLC CMN",
+      "asset_name": "KIMCO REALTY OP LLC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "QUALCOMM INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BROADCOM INC. CMN",
+      "asset_name": "BROADCOM INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COPART, INC. CMN",
+      "asset_name": "COPART INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "MOHAWK INDUSTRIES INC COMMON STOCK",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BEST BUY CO INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "amount",
-      "read": "$1,001-$15,000",
-      "note": "Corrected 35 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '08/04/2023' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '04/05/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '03/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '03/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '03/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '05/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 19,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '04/04/2045' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 22,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '02/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 26,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '03/04/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

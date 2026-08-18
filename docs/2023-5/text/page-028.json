@@ -33,7 +33,7 @@
     },
     {
       "kind": "group",
-      "text": "MURA Holdings - Trust (Khanna Portion)"
+      "text": "MURA Holdings - Grandchildren Trust (Khanna Portion)"
     },
     {
       "kind": "tx",
@@ -88,16 +88,10 @@
   "uncertainties": [
     {
       "row": "page",
-      "field": "amount",
-      "read": "$500,001-$1,000,000 / $1,000,001-$5,000,000",
-      "note": "Page 28 amount columns are partially degraded; buckets were cross-checked against matching annual Schedule B rows where available and the visible far-right amount header."
-    },
-    {
-      "row": "all",
-      "field": "date",
-      "read": "May 31, 2023 / June 1, 2023",
-      "note": "Page 28 prints spelled-out dates; transaction date recorded as May 31, 2023 and notification date as June 1, 2023."
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All six transactions and three printed MURA account separators checked against PTR scan page 28."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

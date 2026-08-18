@@ -261,6 +261,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "LIBERTY GLOBAL, PLC. CMN CLASS C",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "5/23/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
@@ -293,6 +304,13 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 22; omitted Liberty Global row restored before Mastercard."
+    }
+  ],
   "page_confidence": "high"
 }

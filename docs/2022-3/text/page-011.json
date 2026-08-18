@@ -8,299 +8,611 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMETER INC (MEW) CM :",
-      "tx_type": "Purchase",
+      "asset_name": "MASIMO CORPORATION CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2018SP VERISIGN INC Cla",
-      "tx_type": "Purchase",
+      "asset_name": "UNDER ARMOUR, INC. CMN CLASS C",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "URSA OKLA MET Uti AUT UTIL REY 1%",
-      "tx_type": "Purchase",
+      "asset_name": "TREX COMPANY INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GNCMATI OW OB SH 1240/72 1 * _ 9202/27 aan/22",
-      "tx_type": "Purchase",
+      "asset_name": "AMETEK INC (NEW) CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Eee sa On NYS T/T",
-      "tx_type": "Purchase",
+      "asset_name": "WASTE CONNECTIONS, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WADSWORTH OHt0 CITY SOM DIST GO 5X",
-      "tx_type": "Purchase",
+      "asset_name": "THE PROGRESSIVE CORPORATION CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2018SP DENVER COLORADO City & CNTY GO 5.000% 3",
-      "tx_type": "Purchase",
+      "asset_name": "VERISIGN, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1995 Trust"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KING CNTY WASH SCH DIST NO 404 GO 4%",
+      "asset_name": "TULSA OKLA MET UTIL AUTH UTIL REV 1% 07/01/22 JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SSRC TECHNOLOGIES HOLINNGS, IN. CMN",
+      "asset_name": "CINCINNATI OHIO DB 5% 12/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2018SP TENAS DOSTRUMENTS INC_CMN",
+      "asset_name": "HAWAII ST GO 5% 11/01/23 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/16/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WASTE EMEMT INC CAM",
+      "asset_name": "OHIO STATE GO 5.0000% 06/01/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/15/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SAA COMMUNICATIONS CONPORATIONCMN \u00ab on23/z2 maaya2",
+      "asset_name": "CONNECTICUT ST SPL TAX OBLIG REV 5.0000% 08/01/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/24/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WASTE MENT INC CMM, \u201c oujisy7? naoy/27 _l ee ee",
+      "asset_name": "COPPELL TEX INDPT SCH DIST GO 5% 08/15/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/23/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "META PLATFORMS INC CMIN CLASS A",
+      "asset_name": "GLN PK TX ISD SCH DST FR I&S GO 5.0000% 08/15/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/28/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WONEYWELL PYTL INC CM fl 0210/22 oynyjz3j",
+      "asset_name": "WADSWORTH OHIO CITY SCH DIST GO 5% 12/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/18/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PFLZTN INC. CAEN . on/umy2",
+      "asset_name": "DENVER COLORADO CITY & CNTY GO 5.0000% 12/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/22/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION OMN, a : Ons igyi2 auonez; a",
+      "asset_name": "KING CNTY WASH SCH DIST NO 405 GO 4% 06/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CA :",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/10/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u201830 META PLATFORMS INC CMAN CLASS A a oufnrf22 oxoyjz?",
+      "asset_name": "ALAMO TEX CMNTY COLLEGE DIST GO 3.0000% 08/15/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/07/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2018SP MARSH & MCLENNAN CO INC CMN \u201c gafoafed ouo3/22 _ a",
+      "asset_name": "VF CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/10/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANK OF AMERICA CORP CN fi ou/iay22 0100/72 +",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/11/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(MARSH & MCLENNAN CO INC CMM",
+      "asset_name": "TEXAS INSTRUMENTS INC, CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/10/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Wh GAMBLE COMPANY (THE) TN",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/18/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PROCTER & GAMBLE COMPAMY (IME) Cait a oi",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/23/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GS FINANCE CORP. LINKED TO SBP $00 MEX",
+      "owner": "SP",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/23/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GS FINANCE CORP LINKED FO EURO STOXx $0 PR",
+      "owner": "SP",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/10/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "DC GS FINANCE CORP. LINKED TO S&P 500 INDEX \u00ab",
+      "owner": "SP",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/17/2022",
+      "date": "02/15/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/16/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HANESBRANDS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/24/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "META PLATFORMS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HONEYWELL INTL INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BORGWARNER INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "META PLATFORMS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/07/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MARSH & MCLENNAN CO INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/03/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KKR & CO. INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ABBOTT LABORATORIES CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NASDAQ INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BANK OF AMERICA CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HARTFORD FINANCIAL SRVCS GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MARSH & MCLENNAN CO INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "META PLATFORMS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/03/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "02/23/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMERICAN INTL GROUP, INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "02/10/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "02/22/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "02/16/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "02/24/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "02/03/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "group",
@@ -312,10 +624,10 @@
       "asset_name": "GS FINANCE CORP. LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "03/01/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$500,001-$1,000,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -323,10 +635,10 @@
       "asset_name": "GS FINANCE CORP. LINKED TO EURO STOXX 50 PR",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/14/2022",
+      "date": "02/11/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$250,001-$500,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -334,10 +646,10 @@
       "asset_name": "GS FINANCE CORP. LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/10/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$500,001-$1,000,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -345,18 +657,21 @@
       "asset_name": "GS FINANCE CORP. LINKED TO ESTX BANKS (EUR) PR",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/17/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$250,001-$500,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "field": "page",
-      "note": "Top SP block and bottom M&R TP Primary rows read from OCR/crops; several bond names are degraded but transcribed to best readable form."
+      "row": null,
+      "field": "page_verification",
+      "read": "Verified against scan",
+      "note": "All 59 transactions and two printed account headings were re-verified against PTR scan page 11. The first 55 transactions match annual Schedule B positions 616-670. The scan directly controls the final four GS-note rows, including the 03/01 and 02/17 dates that conflict with or are absent from the annual February run."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

@@ -8,24 +8,24 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JLAM RESEARCH CORFORATION CMM",
+      "asset_name": "LAM RESEARCH CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARAIOTT INTERNATIONAL, INC CMN CLASS A",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,21 +33,21 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALPHABET INC, CMN CLASSA",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +55,10 @@
       "asset_name": "AVALONBAY COMMUNITIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/06/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,263 +66,204 @@
       "asset_name": "APPLE INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AIR PRODUCTS & CHEMICALS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "(THE BANK OP NY MELLON CORP CRN",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PARKER-KANNIFIN CORP. CMM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JINTEL CORPORATION CMM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "LYONDELLBASELL INDUSTRIES N.V.CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "05/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CHARTER CON ACATIONE, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CADENCE DESIGN SYSTEM5 INC CMN",
+      "asset_name": "THE BANK OF NY MELLON CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ICELANESE CORPORATION COMMON STOCK",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTEL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FOX CORPORATION CMN CLAS5 B",
+      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CELANESE CORPORATION COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FOX CORPORATION CMN CLASS B",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BLACKROCK, INC CMN",
+      "asset_name": "BLACKROCK, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TINVITATION HOMES INC. CMN",
+      "asset_name": "INVITATION HOMES INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/25/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "IPPG INOUSTRIES, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE HOME DEPCIT, INC. CIEN",
+      "asset_name": "PPG INDUSTRIES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/20/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROPER TECHNOLOSIES INC CMN",
+      "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "DCTHERMO FISHER SDIENTIFIC INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COLGATE PALMOLIVE CO CHN",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/06/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WANNER BROS DISCOVERY INC CMN",
+      "asset_name": "COLGATE-PALMOLIVE CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WARNER BROS DISCOVERY INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 2,
-      "field": "notification_date",
-      "read": "13/2922 10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "023/22 10/02/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "09/28/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 6,
-      "field": "notification_date",
-      "read": "09/06/22 20/08/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "09/08/22 20/99/221",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 10,
-      "field": "notification_date",
-      "read": "09429/22, 10/02/22.»",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": "05/06/23 18/03/22 x",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 21,
-      "field": "owner",
-      "read": "DCTHERMO FISHER SDIENTIFIC INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 21,
-      "field": "notification_date",
-      "read": "03/06/22 10/03/2 :",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "09/29/22 20/13/22 =",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 195, 196. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-007.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

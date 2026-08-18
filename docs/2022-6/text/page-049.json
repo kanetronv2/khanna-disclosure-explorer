@@ -8,298 +8,205 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "aTecr INC. CMN x ostsree ovoea",
+      "asset_name": "NVIDIA CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/23/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CME GROUP INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BOSTON SCIENTIFIC CORP, COMMON STOCK",
-      "tx_type": "Partial Sale",
+      "asset_name": "AT&T INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "05/16/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WELLS FARGO & CO (NEW) CMA x x osteyen oxyoetaz",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "sp tvs HEALTH Cone Cuan ox esvesre2 veroeren",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "EQUINIX HOLDINGS, INC. CMN",
+      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "aBSOTT LABORATORIES CMN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CVS HEALTH CORP CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/05/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BOOKING HOLDINGS INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/05/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ABBOTT LABORATORIES CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/10/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EBAY Inc. EMN x osvesyae cama",
-      "tx_type": "Partial Sale",
+      "asset_name": "EBAY INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(BERKSHIRE HATHAWAY INC CLASS B",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "asset_name": "COCA-COLA COMPANY (THE) CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/11/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/23/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "MOODY'S CORPORATION CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROSS STORES,INC CN x osfayrz owyoare",
+      "asset_name": "WARNER BROS DISCOVERY INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/05/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GLOBAL PAYMENTS INC, CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/23/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROSS STORES,INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "05/23/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "COMMERCE BANCSHARES, INC. CMN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
-      "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COMMERCE BANCSHARES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "warms nc cua",
-      "tx_type": "Partial Sale",
+      "asset_name": "PROLOGIS INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "[UNKNOWN]",
+      "date": "05/23/2022",
       "notification_date": "06/02/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date is blank, illegible, or an impossible OCR year in the source evidence"
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "aTecr INC. CMN x ostsree ovoea",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 3,
-      "field": "asset_name",
-      "read": "WELLS FARGO & CO (NEW) CMA x x osteyen oxyoetaz",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "sp tvs HEALTH Cone Cuan ox esvesre2 veroeren",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "EQUINIX HOLDINGS, INC. CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "aBSOTT LABORATORIES CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "EBAY Inc. EMN x osvesyae cama",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "(BERKSHIRE HATHAWAY INC CLASS B",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "MOODY'S CORPORATION CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "ROSS STORES,INC CN x osfayrz owyoare",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

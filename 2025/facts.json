@@ -18,7 +18,7 @@
     "annual_filing_pages": 353,
     "latest_readable_transaction_date": "2025-12-31",
     "loaded_pages": 665,
-    "unresolved_transcription_flags": 777
+    "unresolved_transcription_flags": 640
   },
   "dataset_version": "2026-08-18",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",

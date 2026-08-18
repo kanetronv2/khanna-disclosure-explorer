@@ -11,6 +11,7 @@
       "asset_name": "WALMART INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/22/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -21,6 +22,7 @@
       "asset_name": "NETFLIX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/15/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -31,6 +33,7 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -41,6 +44,7 @@
       "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -51,6 +55,7 @@
       "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -61,6 +66,7 @@
       "asset_name": "CHATTANOOGA TENN HEALTH EDL & REV 5.2500% 01/01/40 JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -71,6 +77,7 @@
       "asset_name": "MARYSVILLE OHIO WTR SYS MTG REV 4% 12/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/01/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -81,6 +88,7 @@
       "asset_name": "INFINERA CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/03/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -91,6 +99,7 @@
       "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -101,6 +110,7 @@
       "asset_name": "MC DONALDS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -111,6 +121,7 @@
       "asset_name": "CARTER'S, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/09/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -121,6 +132,7 @@
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -131,6 +143,7 @@
       "asset_name": "WISCONSIN ST GEN'FD ANNUAL REV 5% 05/01/23 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/15/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -141,6 +154,7 @@
       "asset_name": "MEMPHIS TENN GO 5% 05/01/23 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/15/2022",
       "notification_date": "09/06/2022",
       "amount": "$15,001-$50,000"
@@ -151,6 +165,7 @@
       "asset_name": "CARTER'S, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/31/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"
@@ -161,6 +176,7 @@
       "asset_name": "METLIFE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"
@@ -171,6 +187,7 @@
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"
@@ -181,6 +198,7 @@
       "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"
@@ -191,6 +209,7 @@
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/23/2022",
       "notification_date": "09/06/2022",
       "amount": "$1,001-$15,000"

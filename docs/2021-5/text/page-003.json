@@ -15,6 +15,7 @@
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/30/2021",
       "notification_date": "04/02/2021",
       "amount": "$1,001-$15,000"
@@ -25,6 +26,7 @@
       "asset_name": "ZYNGA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "02/04/2021",
       "notification_date": "04/02/2021",
       "amount": "$1,001-$15,000"
@@ -35,6 +37,7 @@
       "asset_name": "REGIONS FINANCIAL CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "05/14/2021",
       "notification_date": "05/18/2021",
       "amount": "$1,001-$15,000"
@@ -45,6 +48,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/14/2021",
       "notification_date": "05/18/2021",
       "amount": "$1,001-$15,000"
@@ -55,6 +59,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/20/2021",
       "notification_date": "05/20/2021",
       "amount": "$1,001-$15,000"
@@ -65,6 +70,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/25/2021",
       "notification_date": "05/25/2021",
       "amount": "$1,001-$15,000"
@@ -79,6 +85,7 @@
       "asset_name": "CLARK CNTY WASH SCH DIST NO GO 5% 12/01/21 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/11/2021",
       "notification_date": "04/08/2021",
       "amount": "$15,001-$50,000"
@@ -93,6 +100,7 @@
       "asset_name": "FAIRFAX CNTY VA GO 5.000% 10/01/21 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/14/2021",
       "notification_date": "06/03/2021",
       "amount": "$50,001-$100,000"
@@ -103,6 +111,7 @@
       "asset_name": "PORTLAND ORE SWR SYS REV REV 5% 10/01/21 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/11/2021",
       "notification_date": "05/30/2021",
       "amount": "$50,001-$100,000"
@@ -113,6 +122,7 @@
       "asset_name": "ILLINOIS FIN AUTH REV REV 5% 11/15/22 CA AMT",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/11/2021",
       "notification_date": "05/30/2021",
       "amount": "$15,001-$50,000"
@@ -123,6 +133,7 @@
       "asset_name": "DENVER COLO CITY & CNTY SCH GO 5% 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/11/2021",
       "notification_date": "06/03/2021",
       "amount": "$15,001-$50,000"
@@ -133,6 +144,7 @@
       "asset_name": "PLANO TEX INDPT SCH DIST GO 5% 02/15/27 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/14/2021",
       "notification_date": "06/03/2021",
       "amount": "$15,001-$50,000"
@@ -143,6 +155,7 @@
       "asset_name": "MC KINNEY TEX GO 5% 08/15/21 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/05/2021",
       "notification_date": "05/10/2021",
       "amount": "$15,001-$50,000"
@@ -153,6 +166,7 @@
       "asset_name": "ALIEF TEX INDPT SCH DIST GO 5% 02/15/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/11/2021",
       "notification_date": "05/13/2021",
       "amount": "$15,001-$50,000"
@@ -163,6 +177,7 @@
       "asset_name": "SOUTHWEST SUBN SYS DIST WASH REV 5% 05/01/22 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/18/2021",
       "notification_date": "06/03/2021",
       "amount": "$15,001-$50,000"
@@ -173,6 +188,7 @@
       "asset_name": "MOORESVILLE N C ENTERPRISE SYS REV 5% 05/01/22 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/18/2021",
       "notification_date": "06/14/2021",
       "amount": "$1,001-$15,000"
@@ -183,6 +199,7 @@
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/20/2021",
       "notification_date": "05/25/2021",
       "amount": "$1,001-$15,000"
@@ -193,6 +210,7 @@
       "asset_name": "ZYNGA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/04/2021",
       "notification_date": "06/03/2021",
       "amount": "$1,001-$15,000"
@@ -203,6 +221,7 @@
       "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/06/2021",
       "notification_date": "05/10/2021",
       "amount": "$1,001-$15,000"
@@ -213,6 +232,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/14/2021",
       "notification_date": "05/18/2021",
       "amount": "$1,001-$15,000"
@@ -223,6 +243,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/20/2021",
       "notification_date": "05/20/2021",
       "amount": "$1,001-$15,000"
@@ -233,6 +254,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "05/25/2021",
       "notification_date": "05/25/2021",
       "amount": "$1,001-$15,000"

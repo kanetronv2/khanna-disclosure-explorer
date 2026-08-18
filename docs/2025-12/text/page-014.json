@@ -7,216 +7,216 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ritu Ahuja 1998 Trust"
+      "text": "Ritu Ahuja 1994 Trust"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CALL/ING FLEX EURO PM & 24 EXP 09/12/2025",
+      "asset_name": "CALL/ING FLEX EURO  PM  @ 24 EXP 09/12/2025",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "date": "09/12/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 599 EXP 11/21/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/02/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 630 EXP 11/14/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
       "date": "09/24/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u20ac 599 EXP PUT/XSP 11/21/2025",
+      "asset_name": "PUT/XSP @ 629 EXP 10/24/2025",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/10/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u20ac 630 EXP PUT/XSP 21/24/2025",
+      "asset_name": "PUT/XSP @ 635 EXP 11/07/2025",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/19/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "@ 629 EXP PUT/XSP 10/24/2025",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/10/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "@635 EXP PUT/XSP 11/07/2025",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/05/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT/XSP @ 625 EXP 11/21/2025",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/05/2025",
+      "cap_gain_over_200": false,
+      "date": "09/10/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "SALESFORCE INC CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MCDONALDS CORP CMN",
+      "asset_name": "MC DONALDS CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TUNTUIT INC CMN",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "T-MOBILE US, INC, CMN",
+      "asset_name": "T MOBILE US  INC  CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/08/2025",
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMERICAN TOWER CORPORATION ICMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "U.S. BANCORP CMN",
-      "tx_type": "Sale",
+      "asset_name": "U S  BANCORP CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(PAYPAL HOLDINGS, INC CMN",
+      "asset_name": "PAYPAL HOLDINGS  INC  CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ECOLAB INC. CMN",
+      "asset_name": "ECOLAB INC  CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IVERTEX PHARMACEUTICALS INCORPO ICMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PARKER-HANNIFIN CORP.CMN",
+      "asset_name": "PARKER HANNIFIN CORP  CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ITAKE TWO INTERACTIVE SOFTWARE HINC",
+      "asset_name": "TAKE TWO INTERACTIVE SOFTWARE INC",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
+      "asset_name": "KIMBERLY CLARK CORPORATION CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -224,20 +224,16 @@
       "asset_name": "KROGER COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All 20 printed transactions and the account heading were re-verified against PTR scan page 14. Clean fields match the same ordered annual Schedule B run (annual pages 285, 286); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

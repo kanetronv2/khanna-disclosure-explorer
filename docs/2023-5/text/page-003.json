@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED NOTE",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED NOTE",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO BASKET OF INDICES",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -183,7 +183,7 @@
       "partial_sale": false,
       "date": "5/8/2023",
       "notification_date": "6/2/2023",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
@@ -232,7 +232,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED NOTE",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -288,17 +288,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 12,
-      "field": "asset_name/tx_type/amount",
-      "read": "CANADIAN IMPERIAL BANK OF COMM NKED TO SASKET OF INDIC",
-      "note": "Could not confidently match OCR row to annual Schedule B; OCR line: OC |CANADIAN IMPERIAL BANK OF COMM LINKED TO SASKET OF INDIC 05/02/23| 06/02/23"
-    },
-    {
-      "row": 12,
-      "field": "asset_name/date/amount",
-      "read": "CANADIAN IMPERIAL BANK OF COMM LINKED TO BASKET OF INDICES",
-      "note": "OCR read the row as CANADIAN IMPERIAL BANK OF COMM NKED TO SASKET OF INDIC; matched to annual Schedule B amount/type. Transaction date retained from PTR OCR as 5/2/2023, though annual Schedule B lists a similar row on 5/22/2023."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 25 transactions and amount/type columns checked against PTR scan page 3; scan date 05/02/23 retained for row 12."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

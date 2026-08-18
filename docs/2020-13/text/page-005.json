@@ -5,20 +5,117 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Ritu Ahuja 2005 Trust (continued from page 4)"},
-    {"kind": "tx", "owner": "SP", "asset_name": "EQT CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": true, "partial_sale": false, "date": "12/31/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "PROLOGIS INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": true, "date": "12/18/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "AMERICAN TOWER CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": false, "date": "12/18/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "PHILLIPS 66 CMN", "tx_type": "Sale", "cap_gain_over_200": true, "partial_sale": false, "date": "12/31/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "BIOGEN INC. CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": true, "date": "12/18/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "LOWES COMPANIES INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": true, "date": "12/18/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "DOMINION ENERGY INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": true, "date": "12/18/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "CONSOLIDATED EDISON INC CMN", "tx_type": "Sale", "cap_gain_over_200": false, "partial_sale": true, "date": "12/31/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "ANTERO RESOURCES CORPORATION CMN", "tx_type": "Sale", "cap_gain_over_200": true, "partial_sale": false, "date": "12/31/2020", "notification_date": "01/04/2021", "amount": "$1,001-$15,000"}
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 2005 Trust (continued from page 4)"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "EQT CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "12/31/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PROLOGIS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "12/18/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "12/18/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PHILLIPS 66 CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "12/31/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BIOGEN INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "12/18/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LOWES COMPANIES INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "12/18/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DOMINION ENERGY INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "12/18/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CONSOLIDATED EDISON INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "12/31/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ANTERO RESOURCES CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "12/31/2020",
+      "notification_date": "01/04/2021",
+      "amount": "$1,001-$15,000"
+    }
   ],
   "free_text": "Final page of the PTR. All 9 rows continue the 'Ritu Ahuja 2005 Trust' block from page 4 (no printed sub-header; synthetic continuation marker added). All SP sales, all amount column A, notification date 01/04/2021.",
   "uncertainties": [
-    {"row": "group header 1", "field": "text", "note": "no printed sub-header; marked as continuation of 'Ritu Ahuja 2005 Trust' from page 4 (inferred)"}
+    {
+      "row": "group header 1",
+      "field": "text",
+      "note": "no printed sub-header; marked as continuation of 'Ritu Ahuja 2005 Trust' from page 4 (inferred)"
+    }
   ],
   "page_confidence": "high"
 }

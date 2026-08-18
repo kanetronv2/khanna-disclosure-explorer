@@ -8,134 +8,134 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KKA & CO. INC CHN",
+      "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "pC KIMBERLY-CLANK CORPORATION CMN",
-      "tx_type": "Purchase",
+      "owner": "DC",
+      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SHERWINWILLAMSCO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HEPUBLC SERVICES INC CMN",
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "REPUBLIC SERVICES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "09/05/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "(SPOTIFY TECHNOLOGY S.A.CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "LYONDELLRASELL INDUSTRIES N.Y. CMN CLASS A",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/29/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COMZENS FINANCIAL GROUP, INC, CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ESTEE LAUDER COS IIC CL-A CHN CLASSA",
+      "asset_name": "SPOTIFY TECHNOLOGY S.A. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AVALONBAY COMMUNTES INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "LOTES WORLOWIDE CORPORATION CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "IOUPONT DE NEMOURS INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CITIZENS FINANCIAL GROUP, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ESTEE LAUDER COS INC CL-A CMN CLASS A",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AVALONBAY COMMUNITIES INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "DUPONT DE NEMOURS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,156 +143,127 @@
       "asset_name": "CELANESE CORPORATION COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "DC",
       "asset_name": "DUKE REALTY CORPORATION CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ESSEXPROPEKTY TRUSTINC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TRACTOR SUPPLY COMPANY CMM",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "EBAY INC, CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IQUALCOMM INC CMN",
+      "asset_name": "ESSEX PROPERTY TRUST INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARMOTT INTERNATIONAL, INC CMN CLASSA",
+      "asset_name": "TRACTOR SUPPLY COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IDOVER CORPORATION CMN",
+      "asset_name": "EBAY INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "QUALCOMM INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JPUBLIC STORAGE CMN",
+      "asset_name": "DOVER CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MATCH GROLP, INC. CMN",
+      "asset_name": "PUBLIC STORAGE CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MATCH GROUP, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FORD MOTOR COMPANY CMM",
-      "tx_type": "Purchase",
+      "asset_name": "FORD MOTOR COMPANY CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 2,
-      "field": "owner",
-      "read": "pC KIMBERLY-CLANK CORPORATION OMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 2,
-      "field": "notification_date",
-      "read": "09/0522 10/03-/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "09/06/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 12,
-      "field": "owner",
-      "read": "IOUPONT DE NEMOURS INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 14,
-      "field": "owner",
-      "read": "DUKE REALTY CORPORATION CMN",
-      "note": "owner mark not confidently parsed"
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 231, 232. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-015.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

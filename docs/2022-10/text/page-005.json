@@ -8,68 +8,68 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JIOHNSON & IOHNSON CMN",
+      "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASSA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COCA-COLA COMPANYTHE) CMN",
+      "asset_name": "ZOETIS INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COCA-COLA COMPANY (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AON PUBLIC UMITED COMPANY CMN",
+      "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WALT DISHEY COMPANY THE CMN",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IMICROSOFT CORPORATIOM CMN",
+      "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,32 +77,32 @@
       "asset_name": "WALMART INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TEXAS INSTRUMENTS WIC CMN",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PRUDENTIA, FLNANCAL INC CMN",
+      "asset_name": "PRUDENTIAL FINANCIAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,10 +110,10 @@
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,32 +121,32 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MEDTRONIC PUBUC LIMITEO COMRA CMN",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/29/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "T-MOEILE US, INC. CMN",
+      "asset_name": "T-MOBILE US, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/25/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,76 +154,76 @@
       "asset_name": "THE TRAVELERS COMPANIES, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CAPITAL ONE AINANCIAL COAP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GILEAD SCIEMCES CMN",
+      "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "GILEAD SCIENCES CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STARBUCKS CORP CMN",
+      "asset_name": "STARBUCKS CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "I3M COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GENERAL MOTORS DOMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ASERV. INC. CMN",
+      "asset_name": "3M COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/06/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FISERV, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -231,10 +231,10 @@
       "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/25/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -242,10 +242,10 @@
       "asset_name": "PEPSICO, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,94 +253,17 @@
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "09/29/22 20/03/22 =",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "0929/22 10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "08/29/2210/03/22=",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": "09/06/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 14,
-      "field": "notification_date",
-      "read": "08/29/22 20/03/22 •",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "09/29/22. 20/03/22 =",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 20,
-      "field": "notification_date",
-      "read": "09/29/22 20/03/22 1",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 22,
-      "field": "notification_date",
-      "read": "09/29/2 10/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "09/28/22 20/03/22.",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "10/23/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 9,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 194. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-005.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

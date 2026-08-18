@@ -19,6 +19,7 @@
       "asset_name": "MASTERCARD INCORPORATED CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -29,6 +30,7 @@
       "asset_name": "FARFETCH LTD COM USD0.04 CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -39,6 +41,7 @@
       "asset_name": "ACTIVISION BLIZZARD INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -49,6 +52,7 @@
       "asset_name": "VISA INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -59,6 +63,7 @@
       "asset_name": "TEXAS INSTRUMENTS INC COM USD1.00",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -69,6 +74,7 @@
       "asset_name": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS EACH REP",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -79,6 +85,7 @@
       "asset_name": "STRYKER CORPORATION COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -89,6 +96,7 @@
       "asset_name": "SHERWIN-WILLIAMS CO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -99,6 +107,7 @@
       "asset_name": "ROKU INC COM CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -109,6 +118,7 @@
       "asset_name": "PAYPAL HLDGS INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -119,6 +129,7 @@
       "asset_name": "OTIS WORLDWIDE CORP COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -129,6 +140,7 @@
       "asset_name": "MATCH GROUP INC NEW COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -139,6 +151,7 @@
       "asset_name": "HOME DEPOT INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -149,6 +162,7 @@
       "asset_name": "FARFETCH LTD COM USD0.04 CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$1,001-$15,000"
@@ -159,6 +173,7 @@
       "asset_name": "META PLATFORMS INC CLASS A COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -169,6 +184,7 @@
       "asset_name": "DOMINO'S PIZZA INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -179,6 +195,7 @@
       "asset_name": "DISNEY WALT CO COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -189,6 +206,7 @@
       "asset_name": "BOSTON SCIENTIFIC CORP",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -199,6 +217,7 @@
       "asset_name": "BOEING CO COM USD5.00",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -209,6 +228,7 @@
       "asset_name": "AUTODESK INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -219,6 +239,7 @@
       "asset_name": "AMAZON.COM INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -229,6 +250,7 @@
       "asset_name": "ALPHABET INC CAP STK CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -239,6 +261,7 @@
       "asset_name": "ADOBE SYSTEMS INCORPORATED COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"
@@ -249,6 +272,7 @@
       "asset_name": "ACTIVISION BLIZZARD INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "11/02/2021",
       "notification_date": "12/06/2021",
       "amount": "$15,001-$50,000"

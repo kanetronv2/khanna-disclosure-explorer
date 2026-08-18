@@ -19,7 +19,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KEYCORP CMN",
+      "asset_name": "VF CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -140,7 +140,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CALL/INVOFLEX EURO PM @ 167.5 EXP 05/12/2023",
+      "asset_name": "CALL/NVO FLEX EURO PM @ 157.5 EXP 05/12/2023",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -162,7 +162,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CALL/NVS FLEX EURO PM @ 92 EXP 06/12/2023",
+      "asset_name": "CALL/NVS FLEX EURO PM @ 92 EXP 05/12/2023",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -306,53 +306,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 2,
-      "field": "asset_name/date",
-      "read": "KEYCORP CMN",
-      "note": "OCR asset text was VF CORP CMN; normalized from matching annual Schedule B row (score 0.74)."
-    },
-    {
-      "row": 5,
-      "field": "asset_name/date",
-      "read": "ADVANCE AUTO PARTS, INC. CMN",
-      "note": "OCR merged the date into asset field; read as 05/19/23."
-    },
-    {
-      "row": 13,
-      "field": "asset_name/date",
-      "read": "CALL/INVOFLEX EURO PM @ 167.5 EXP 05/12/2023",
-      "note": "OCR asset text was CALL/NVO FLEX EURO PM @ 157.5 EX; normalized from matching annual Schedule B row (score 0.79)."
-    },
-    {
-      "row": 16,
-      "field": "asset_name/date",
-      "read": "PUT/XSP @ 384 EXP 07/21/2023",
-      "note": "OCR asset text was puT/xse @ 384 EX; normalized from matching annual Schedule B row (score 0.65)."
-    },
-    {
-      "row": 17,
-      "field": "asset_name/date",
-      "read": "PUT/XSP @ 397 EXP 08/18/2023",
-      "note": "OCR asset text was PUT/KSP @ 397 EX; normalized from matching annual Schedule B row (score 0.65)."
-    },
-    {
-      "row": 18,
-      "field": "asset_name/date",
-      "read": "PUT/XSP @ 387 EXP 07/31/2023",
-      "note": "OCR asset text was PUT/xse \u00a9 387 EX; normalized from matching annual Schedule B row (score 0.65)."
-    },
-    {
-      "row": 24,
-      "field": "asset_name/tx_type/amount",
-      "read": "SPDR SBP 500 ETF TRUST",
-      "note": "Could not confidently match OCR row to annual Schedule B; OCR line: SP |SPDR SBP 500 ETF TRUST x x 05/0a/23| 06/02/23 x"
-    },
-    {
-      "row": 24,
-      "field": "asset_name/date/amount",
-      "read": "SPDR S&P 500 ETF TRUST",
-      "note": "OCR read SPDR SBP and 05/0a/23; normalized to matching annual Schedule B row dated 5/8/2023."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 18; VF Corp and printed option identifiers restored."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

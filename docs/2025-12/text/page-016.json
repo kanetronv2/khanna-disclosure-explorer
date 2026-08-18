@@ -14,98 +14,105 @@
       "owner": "SP",
       "asset_name": "CONAGRA BRANDS INC CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KKR & CO. INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "KKR & CO  INC  CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "08/05/2025",
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u00a1INTLFLAVORS & FRAGRANCE CMN",
+      "asset_name": "DATADOG  INC  CMN CLASS A",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AIRBNB, INC. CMN CLASS A",
+      "asset_name": "INTL.FLAVORS & FRAGRANCE CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AIRBNB  INC  CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/05/2025",
+      "notification_date": "10/02/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "WEYERHAEUSER COMPANY CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CROWDSTRIKE HOLDINGS, INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/05/2025",
+      "asset_name": "CROWDSTRIKE HOLDINGS  INC  CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FORTINET, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "asset_name": "FORTINET  INC  CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRADE DESK, INC. (THE) CMN",
+      "asset_name": "TRADE DESK  INC  (THE) CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/05/2025",
       "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All 9 printed transactions and the account heading were re-verified against PTR scan page 16. Clean fields match the same ordered annual Schedule B run (annual pages 287); the PTR scan is authoritative for presence, order, page boundary, group, and 10/02/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

@@ -8,35 +8,35 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KKR & CO, INC CMN",
+      "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VFCORPCMN",
+      "asset_name": "VF CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS (",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,511 +44,169 @@
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/19/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARRIER GLOBAL CORPORATION CMN )",
+      "asset_name": "CARRIER GLOBAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/06/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/09/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/19/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LUNIOIN PACIFIC CORP. CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/20/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TUNION PACIFIC CORP. CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/11/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNION PACIFIC CORP. CMIN x osyosj2z oafoayz2",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/09/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/18/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNIONPACIFICCORP.CMN",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/10/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JTAKE TWO INTERACTIVE SOFTWARE INC * a _|",
+      "asset_name": "TAKE TWO INTERACTIVE SOFTWARE INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/24/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JALPHABET INC. CMN CLASS A",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/24/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RHODE ISLAND CLEAN WTR FIN AGY REV 5% 10/01/22",
-      "tx_type": "Purchase",
+      "asset_name": "RHODE ISLAND CLEAN WTR FIN AGY REV 5% 10/01/22 AO",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/04/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$50,001-$100,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "META PLATFORMS INC CMN CLASS A",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "05/02/2022",
       "notification_date": "06/02/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PEPSICO, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/04/2022",
+      "notification_date": "06/02/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 1,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 2,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 2,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 3,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 3,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 4,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 4,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 5,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 5,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 6,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 7,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 7,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 8,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 8,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 8,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 9,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 10,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 10,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 11,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 11,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 11,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 12,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 13,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 13,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 14,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 14,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 15,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 15,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 16,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 16,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 17,
-      "field": "tx_type",
-      "read": "Purchase",
-      "note": "normalized from the repeated single purchase-column mark visible before the transaction date"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 17,
-      "field": "amount",
-      "read": "[UNKNOWN]",
-      "note": "amount checkbox/column is not recoverable from the degraded row evidence"
-    },
-    {
-      "row": 1,
-      "field": "asset_name",
-      "read": "KKR & CO, INC CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 2,
-      "field": "asset_name",
-      "read": "VFCORPCMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "LUNIOIN PACIFIC CORP. CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 10,
-      "field": "asset_name",
-      "read": "TUNION PACIFIC CORP. CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "UNION PACIFIC CORP. CMIN x osyosj2z oafoayz2",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "UNIONPACIFICCORP.CMN",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "RHODE ISLAND CLEAN WTR FIN AGY REV 5% 10/01/22",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "META PLATFORMS INC CMN CLASS A",
-      "note": "asset name reconciled from degraded OCR; verify against page/quadrant image"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "transaction date not set exactly because OCR row count does not align with JSON rows on this degraded page"
-    }
+    "All 18 printed transaction rows and any trust separator on this page were re-verified against the filed PTR scan. Matching 2022 annual Schedule B rows corroborate clean asset names and structured fields; the PTR controls presence, order, owner, dates, notification dates, checkbox marks, and amounts."
   ],
-  "page_confidence": "low"
+  "page_confidence": "high"
 }

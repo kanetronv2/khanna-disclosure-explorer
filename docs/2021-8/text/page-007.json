@@ -11,6 +11,7 @@
       "asset_name": "MATTHEWS INTERNATIONAL CORP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "09/02/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -21,6 +22,7 @@
       "asset_name": "NUTANIX CORP CLASS A CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "09/02/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -31,6 +33,7 @@
       "asset_name": "GENTEX CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "09/02/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -41,6 +44,7 @@
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "09/02/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -51,6 +55,7 @@
       "asset_name": "MCCORMICK & CO NON VTG SHRS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "09/02/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"

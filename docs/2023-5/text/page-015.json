@@ -221,7 +221,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -299,23 +299,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 18,
-      "field": "asset_name/date",
-      "read": "CANADIAN IMPERIAL BANK OF COMM LINKED TO BA",
-      "note": "OCR asset text was CANADIAN IMPERIAL BANK OF COMM NKED TO BASKET OF INDICES; normalized from matching annual Schedule B row (score 0.82)."
-    },
-    {
-      "row": 19,
-      "field": "asset_name/date",
-      "read": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
-      "note": "OCR asset text was CAPPED BUFFERED ENHANCED PARTICIPATION NKED TO S&P S00 INDEX; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "AMERICAN TOWER CORPORATION CMN, 5/19/2023",
-      "note": "OCR line shows the asset name but drops the date columns; row restored from matching annual Schedule B entry and surrounding PTR sequence."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All transaction rows and noted linked-note names checked against PTR scan page 15."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

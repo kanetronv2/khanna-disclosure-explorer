@@ -13,7 +13,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -23,7 +24,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,7 +35,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -43,27 +46,30 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMETEK INC (NEW) CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "TEXAS INSTRUMENTS INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -73,17 +79,19 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ELEVANCE HEALTH INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -93,17 +101,19 @@
       "cap_gain_over_200": true,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "EDWARDS LIFESCIENCES CORPORATI CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -113,7 +123,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -123,7 +134,8 @@
       "cap_gain_over_200": false,
       "date": "10/8/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -133,17 +145,19 @@
       "cap_gain_over_200": true,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PAYPAL HOLDINGS, INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -153,17 +167,19 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MODERNA, INC. CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "10/7/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -173,7 +189,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -183,7 +200,8 @@
       "cap_gain_over_200": false,
       "date": "10/2/2023",
       "notification_date": "11/06/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,

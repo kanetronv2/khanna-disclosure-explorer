@@ -41,7 +41,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -96,7 +96,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
+      "asset_name": "CAPPED BUFFERED ENHANCED PARTICIPATION LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -306,29 +306,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 4,
-      "field": "asset_name/date",
-      "read": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
-      "note": "OCR asset text was CAPPED BUFFERED ENHANCED PARTICIPATION NKED TO S&P SOO INDEX |; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 9,
-      "field": "asset_name/date",
-      "read": "CAPPED BUFFERED ENHANCED PARTICIPATION LIN",
-      "note": "OCR asset text was CAPPED BUFFERED ENHANCED PARTICIPATION NKED TO S&P SOOINDEX |; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 11,
-      "field": "asset_name/date",
-      "read": "SOCIETE GENERALE LINKED TO S&P 500 INDEX",
-      "note": "OCR read 05/10/23 as 08/10/23."
-    },
-    {
-      "row": 16,
-      "field": "asset_name/date",
-      "read": "VANGUARD SPECIALIZED PORTFOLIO VANGUARD",
-      "note": "OCR asset text was VANGUARD SPECIA ZED PORTFO O VANGUARD DIVIDEND APPRECIATION; normalized from matching annual Schedule B row (score 0.73)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All transaction rows and noted linked-note names checked against PTR scan page 14."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

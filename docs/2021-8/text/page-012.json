@@ -649,6 +649,7 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -659,6 +660,7 @@
       "asset_name": "THE HOME DEPOT, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -669,6 +671,7 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -679,6 +682,7 @@
       "asset_name": "THE HOME DEPOT, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -689,6 +693,7 @@
       "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -699,6 +704,7 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/05/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -709,6 +715,7 @@
       "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -719,6 +726,7 @@
       "asset_name": "ORACLE CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -729,6 +737,7 @@
       "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -739,6 +748,7 @@
       "asset_name": "T-MOBILE US, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -749,6 +759,7 @@
       "asset_name": "EXXON MOBIL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -759,6 +770,7 @@
       "asset_name": "PNC FINANCIAL SERVICES GROUP, CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -769,6 +781,7 @@
       "asset_name": "AMGEN INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -779,6 +792,7 @@
       "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -789,6 +803,7 @@
       "asset_name": "HONEYWELL INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -799,6 +814,7 @@
       "asset_name": "CVS HEALTH CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -809,6 +825,7 @@
       "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"

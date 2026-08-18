@@ -85,6 +85,17 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "CITIGROUP INC. HYBRID 03/20/2030 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "5/4/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "FOX CORP 3.5% 04/08/2030 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -295,11 +306,11 @@
   "free_text": null,
   "uncertainties": [
     {
-      "row": 8,
-      "field": "asset_name/date",
-      "read": "FOX CORP 3.5% 04/08/2030 USD",
-      "note": "OCR asset text was FOX CORP 3.5%; normalized from matching annual Schedule B row (score 0.62)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 10; omitted Citigroup hybrid row restored between Paycom and Fox Corp."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

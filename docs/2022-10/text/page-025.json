@@ -8,13 +8,13 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LABORATORY CORPORATIDHOF AMER CMN",
+      "asset_name": "LABORATORY CORPORATION OF AMER CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "Over $50,000,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,43 +22,43 @@
       "asset_name": "PTC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[ILLEGIBLE]",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,000,001-$5,000,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LYONDELLBASELL INDUSTRIES N.V. OMIN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZEBRA TECHNOKOMES INC CMN CLASSA",
+      "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/01/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SHAP-ON INC CHN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$500,001-$1,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SNAP-ON INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,10 +66,10 @@
       "asset_name": "CROWN HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,21 +77,21 @@
       "asset_name": "TERADYNE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
+      "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$5,000,001-$25,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MARVELL TECHNOLOSY, INC. CMN",
+      "asset_name": "MARVELL TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +99,10 @@
       "asset_name": "FOX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$5,000,001-$25,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,65 +110,65 @@
       "asset_name": "WESTINGHOUSE AIR BRAKE TECHNOL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$5,000,001-$25,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "se TIX COMPANIES INC (NEW) CMN",
+      "owner": "SP",
+      "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "Over $50,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "5P. JTHE KRAFT HEINZ CO CMN",
+      "owner": "SP",
+      "asset_name": "THE KRAFT HEINZ CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "DOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CONSTELLATION BRANDS INC CMN CLASSA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "M&Y BANK CORPORATION CMI",
+      "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "M&T BANK CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +176,10 @@
       "asset_name": "ABBVIE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,54 +187,54 @@
       "asset_name": "UNITED AIRLINES HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$250,001-$500,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(LUMEN TECHNOLOGIES INC OMIN",
+      "asset_name": "LUMEN TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VENTAS, IMC. CMN",
+      "asset_name": "VENTAS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ENPHASE UNERGY, INC. CMN",
+      "asset_name": "ENPHASE ENERGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COOPER COMPANIES INC (NEW CMN",
+      "asset_name": "COOPER COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$100,001-$250,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -242,123 +242,28 @@
       "asset_name": "FOX CORPORATION CMN CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MOSAIC COMPANY (THEICMN",
+      "asset_name": "MOSAIC COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$25,000,001-$50,000,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "03/00/22 20/03/22",
-      "note": "date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "03/00/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 2,
-      "field": "date",
-      "read": "09/00/22 10/03.22",
-      "note": "date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 2,
-      "field": "notification_date",
-      "read": "09/00/22 10/03.22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 3,
-      "field": "amount",
-      "read": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": "[11, 12, 0, 0, 12, 14, 6, 10, 13, 18, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 11,
-      "field": "owner",
-      "read": "se TIX COMPANIES INC (NEW) CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 12,
-      "field": "owner",
-      "read": "5P. JTHE KRAFT HEINZ CO CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": "[0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 6]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 13,
-      "field": "owner",
-      "read": "DOW INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "09/08/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 15,
-      "field": "amount",
-      "read": "[19, 5, 0, 6, 0, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "09/08/22 20/09/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 19,
-      "field": "amount",
-      "read": "[4, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "08/08/22 20/0822",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "10/08/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 289. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-025.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

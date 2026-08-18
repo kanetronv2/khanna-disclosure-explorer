@@ -15,10 +15,10 @@
       "asset_name": "DANAHER CORPORATION",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/19/2020",
       "notification_date": "11/04/2020",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -26,10 +26,10 @@
       "asset_name": "DANAHER CORPORATION",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/19/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,10 +37,10 @@
       "asset_name": "ECOLAB INC.",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": false,
       "date": "10/19/2020",
       "notification_date": "11/04/2020",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -48,10 +48,10 @@
       "asset_name": "ECOLAB INC.",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": false,
       "date": "10/19/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -59,10 +59,10 @@
       "asset_name": "CHIPOTLE MEXICAN GRILL INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/26/2020",
       "notification_date": "11/04/2020",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -70,10 +70,10 @@
       "asset_name": "CHIPOTLE MEXICAN GRILL INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/26/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -81,10 +81,10 @@
       "asset_name": "ALPHABET INC. CL A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": false,
       "date": "10/26/2020",
       "notification_date": "11/04/2020",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -92,10 +92,10 @@
       "asset_name": "ALPHABET INC. CL A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": false,
       "date": "10/26/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -103,10 +103,10 @@
       "asset_name": "SNAP INC. CL A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": true,
       "date": "10/28/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -114,10 +114,10 @@
       "asset_name": "SNAP INC. CL A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial": true,
       "date": "10/28/2020",
       "notification_date": "11/04/2020",
-      "amount": "[UNKNOWN]"
+      "amount": "[UNKNOWN]",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -125,10 +125,10 @@
       "asset_name": "MICROSOFT CORP",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/28/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -136,10 +136,10 @@
       "asset_name": "S&P GLOBAL INC.",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/29/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,10 +147,10 @@
       "asset_name": "DANAHER CORPORATION",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial": false,
       "date": "10/29/2020",
       "notification_date": "11/04/2020",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,

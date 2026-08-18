@@ -11,6 +11,7 @@
       "asset_name": "CHEVRON CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -21,6 +22,7 @@
       "asset_name": "EQUINIX, INC. REIT",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -31,6 +33,7 @@
       "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON ST",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -41,6 +44,7 @@
       "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -51,6 +55,7 @@
       "asset_name": "WALMART INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -61,6 +66,7 @@
       "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -71,6 +77,7 @@
       "asset_name": "SHERWIN-WILLIAMS CO CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -81,6 +88,7 @@
       "asset_name": "ILLUMINA, INC CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -91,6 +99,7 @@
       "asset_name": "APPLE INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -101,6 +110,7 @@
       "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -111,6 +121,7 @@
       "asset_name": "AMETEK INC (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -121,6 +132,7 @@
       "asset_name": "ALTRIA GROUP, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -131,6 +143,7 @@
       "asset_name": "STARBUCKS CORP. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -141,6 +154,7 @@
       "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -151,6 +165,7 @@
       "asset_name": "NEXTERA ENERGY, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -161,6 +176,7 @@
       "asset_name": "PAYPAL HOLDINGS, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -171,6 +187,7 @@
       "asset_name": "PEPSICO, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/08/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -181,6 +198,7 @@
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -191,6 +209,7 @@
       "asset_name": "LOCKHEED MARTIN CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -201,6 +220,7 @@
       "asset_name": "TELEFLEX INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -211,6 +231,7 @@
       "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -221,6 +242,7 @@
       "asset_name": "CENTENE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -231,6 +253,7 @@
       "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -241,6 +264,7 @@
       "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -251,6 +275,7 @@
       "asset_name": "DOMINION ENERGY INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -261,6 +286,7 @@
       "asset_name": "RAYTHEON TECHNOLOGIES CORPORAT CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -271,6 +297,7 @@
       "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -281,6 +308,7 @@
       "asset_name": "PAYCHEX, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -291,6 +319,7 @@
       "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -301,6 +330,7 @@
       "asset_name": "GENERAL ELECTRIC COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -311,6 +341,7 @@
       "asset_name": "REALTY INCOME CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -321,6 +352,7 @@
       "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -331,6 +363,7 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -341,6 +374,7 @@
       "asset_name": "THE SOUTHERN CO. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -351,6 +385,7 @@
       "asset_name": "KELLOGG COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -361,6 +396,7 @@
       "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -371,6 +407,7 @@
       "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -381,6 +418,7 @@
       "asset_name": "STARBUCKS CORP. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -391,6 +429,7 @@
       "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -401,6 +440,7 @@
       "asset_name": "BLACKROCK, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -411,6 +451,7 @@
       "asset_name": "ALLSTATE CORPORATION COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -421,6 +462,7 @@
       "asset_name": "GARTNER, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -431,6 +473,7 @@
       "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -441,6 +484,7 @@
       "asset_name": "BOOKING HOLDINGS INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -451,6 +495,7 @@
       "asset_name": "PNC FINANCIAL SERVICES GROUP, CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -461,6 +506,7 @@
       "asset_name": "DOVER CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -471,6 +517,7 @@
       "asset_name": "LINDE PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -481,6 +528,7 @@
       "asset_name": "DUKE ENERGY CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -491,6 +539,7 @@
       "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -501,6 +550,7 @@
       "asset_name": "BOEING COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -511,6 +561,7 @@
       "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS C",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -521,6 +572,7 @@
       "asset_name": "LEGGETT & PLATT, INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -531,6 +583,7 @@
       "asset_name": "BEST BUY CO INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -541,6 +594,7 @@
       "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -551,6 +605,7 @@
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -561,6 +616,7 @@
       "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -571,6 +627,7 @@
       "asset_name": "NORTHROP GRUMMAN CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -581,6 +638,7 @@
       "asset_name": "3M COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -591,6 +649,7 @@
       "asset_name": "CONOCOPHILLIPS CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -601,6 +660,7 @@
       "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -611,6 +671,7 @@
       "asset_name": "HUMANA INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -621,6 +682,7 @@
       "asset_name": "CSX CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -631,6 +693,7 @@
       "asset_name": "S&P GLOBAL INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -641,6 +704,7 @@
       "asset_name": "AMERICAN INTL GROUP, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -651,6 +715,7 @@
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -661,6 +726,7 @@
       "asset_name": "GENERAL ELECTRIC COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -671,6 +737,7 @@
       "asset_name": "GENERAL DYNAMICS CORP. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -681,6 +748,7 @@
       "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
+      "partial_sale": true,
       "date": "08/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -691,6 +759,7 @@
       "asset_name": "CONSOLIDATED EDISON INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"
@@ -701,6 +770,7 @@
       "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/16/2021",
       "notification_date": "09/02/2021",
       "amount": "$1,001-$15,000"

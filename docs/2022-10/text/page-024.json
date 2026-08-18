@@ -11,241 +11,241 @@
       "asset_name": "FASTENAL COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IWASTE MANAGEMENTINC CMN",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/29/2022",
-      "notification_date": "10/02/2022",
-      "amount": "$1,001-$15,000"
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "HCA HEALTHCARE, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "METTLER-TOLEDD INTL CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PROCTER &GAMBLE COMPANY (THE, CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BOSTON SCIENTIHC CORP. COMMON STOCK",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "WALMART ING CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "DOW CORPORATION CMN",
+      "owner": "SP",
+      "asset_name": "METTLER-TOLEDO INTL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "VISA RKC. CMN CLASSA",
+      "owner": "SP",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/03/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
+      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WALMART INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CDW CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VISA INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "ALBEMARLE CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/06/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "SP. SOUTHWEST AIRLINES CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/06/2022",
-      "notification_date": "10/02/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "M&T BANK CORPORATION CAH",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$100,001-$250,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "MICHON TECHNOLOSY, INE. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALDIANDRLA REAL ESTATE EQLITIES, INC",
+      "asset_name": "SOUTHWEST AIRLINES CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/09/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "M&T BANK CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WESTERN DIGITAL CORPORATIOH CMN",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$100,001-$250,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "DGNIZANT TECHHOLOGY SOLUTIONS CORP GLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/05/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "gP CVS HEALTH CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "• SP PHIUP MORRIS INTLINC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$5,000,001-$25,000,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "MANASSAS VA GO.5K 07/01/2311",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/19/2022",
+      "date": "09/13/2022",
       "notification_date": "10/03/2022",
-      "amount": "$500,001-$1,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BRGADCOMINC. CMN",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "BOSTOW PROPERTIES, INC. COMMDN STOCK",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BALE CORPORATION CMN",
+      "asset_name": "WESTERN DIGITAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$5,000,001-$25,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CVS HEALTH CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MANASSAS VA GO 5% 07/01/23 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/19/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BROADCOM INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BOSTON PROPERTIES, INC. COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BALL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,178 +253,17 @@
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$5,000,001-$25,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 3,
-      "field": "owner",
-      "read": "HCA HEALTHCARE, INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "09/08/222 10/03/2 •",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "09/08/22 19/23/221",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "09/08/22 20/02/22 =",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "owner",
-      "read": "COW CORPORATION CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "09/08/22 20/02/2 =",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 9,
-      "field": "owner",
-      "read": "VISA RKC. CMN CLASSA",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 9,
-      "field": "notification_date",
-      "read": "10/03/221",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 10,
-      "field": "owner",
-      "read": "ALBEMARLE CORP CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 10,
-      "field": "notification_date",
-      "read": "09/06/22 20/03/23 \"",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 11,
-      "field": "owner",
-      "read": "SP. SOUTHWEST AIRLINES CO CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 13,
-      "field": "owner",
-      "read": "MICHON TECHNOLOSY, INE. CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 13,
-      "field": "amount",
-      "read": "[8, 15, 17, 17, 2, 13, 14, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "05/00/22 10/0222",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 16,
-      "field": "notification_date",
-      "read": "48/0822 10/05/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "[0, 0, 0, 5, 7, 0, 0, 0, 0, 0, 8]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 17,
-      "field": "owner",
-      "read": "gP CVS HEALTH CORP CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "10/02/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 17,
-      "field": "amount",
-      "read": "[0, 0, 3, 0, 1, 0, 1, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 18,
-      "field": "owner",
-      "read": "• SP PHIUP MORRIS INTLINC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "09/08/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 19,
-      "field": "owner",
-      "read": "MANASSAS VA GO.5K 07/01/2311",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 20,
-      "field": "amount",
-      "read": "[6, 0, 0, 0, 0, 0, 0, 4, 0, 0, 4]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 21,
-      "field": "owner",
-      "read": "BOSTOW PROPERTIES, INC. COMMDN STOCK",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 21,
-      "field": "notification_date",
-      "read": "03/08/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "10/23/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 288, 289. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-024.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

@@ -8,758 +8,783 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPANY CMN",
-      "tx_type": "Purchase",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "EATON CORP PLC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "FISERV, INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CSX CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "STRYKER CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "LAM RESEARCH CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE HOME DEPOT, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/14/2022",
-      "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "INTUIT INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NXP SEMICONDUCTORS NV CMN",
-      "tx_type": "Purchase",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AUTODESK, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "NXP SEMICONDUCTORS N.V. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AUTODESK, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "02/14/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ACCENTURE PLC CMN CLASS A",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ILLINOIS TOOL WORKS CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ORACLE CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "FEDEX CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WELLTOWER INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "WELLTOWER INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MICROCHIP TECHNOLOGY INCORPORA CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AGILENT TECHNOLOGIES, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "AGILENT TECHNOLOGIES, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SHERWIN WILLIAMS CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "APTIV PLC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "WASTE MANAGEMENT INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "D.R. HORTON, INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "INTUITIVE SURGICAL, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ELI LILLY & CO CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "EQUINIX, INC REIT",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ILLUMINA, INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ROPER TECHNOLOGIES INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMITED CMN",
-      "tx_type": "Purchase",
+      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHARTER COMMUNICATIONS, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMETEK INC (NEW) CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CIGNA CORP CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AT&T INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EDWARDS LIFESCIENCES CORPORATION CMN",
-      "tx_type": "Purchase",
+      "asset_name": "EDWARDS LIFESCIENCES CORPORATI CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MOTOROLA SOLUTIONS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "02/14/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ROCKWELL AUTOMATION INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GILEAD SCIENCES CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CROWN CASTLE INTL CORP CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GENERAL MOTORS COMPANY CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EBAY INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "EBAY INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CARRIER GLOBAL CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BROWN FORMAN CORP CL B CMN CLASS B",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC",
-      "tx_type": "Purchase",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MATCH GROUP, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "MATCH GROUP, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EQUIFAX INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "EQUIFAX INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PTC INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "POOL CORP CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SYNOPSYS INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "SYNOPSYS INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PHILIP MORRIS INTL CMN",
-      "tx_type": "Purchase",
+      "asset_name": "IHS MARKIT LTD CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CORTEVA INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "CLOROX CO (THE) (DELAWARE) CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CORNING INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "FIRST REPUBLIC BANK CMN SERIES",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TEGNA INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "TESLA, INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROKU INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "BIOGEN INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DELL TECHNOLOGIES INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "WESTERN DIGITAL CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BEST BUY CO INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "QORVO, INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "HEALTHPEAK PROPERTIES INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "NVIDIA CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PAYCOM SOFTWARE, INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "PAYCOM SOFTWARE, INC. CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LENNAR CORPORATION CMN CLASS A",
-      "tx_type": "Purchase",
+      "asset_name": "LENNAR CORPORATION CMN CLASS B",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "REALTY INCOME CORPORATION CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CERIDIAN HCM HOLDING INC. CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COSTAR GROUP, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "ROYAL CARIBBEAN GROUP ISIN: LR0008862868",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TRADEWEB INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "COSTAR GROUP, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TERADYNE INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "02/14/2022",
+      "notification_date": "03/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "FASTENAL COMPANY CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "02/14/2022",
       "notification_date": "03/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "field": "page",
-      "note": "All visible rows are DC purchases; names cleaned from OCR/crops with some spelling normalization. Date grid appears 02/14/2022 notified 03/03/2022."
+      "row": null,
+      "field": "page_verification",
+      "read": "Verified against scan",
+      "note": "All 70 printed transactions were re-verified against PTR scan page 5. Clean fields match the same ordered annual Schedule B run (annual pages 211, 212, 213); the PTR scan is authoritative for presence, order, page boundary, and notification date."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

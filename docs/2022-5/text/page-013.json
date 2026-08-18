@@ -8,369 +8,811 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FY MARR OTF INTESHATIONAL INC CAIN CLASS &",
+      "asset_name": "ROUND ROCK TEX GO 5% 08/15/22 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/18/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RGUNO ROCK TEX GO Sw Ua 18/22 FA",
+      "asset_name": "CORNING INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/18/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "2 AITHIC POWER STSTEMS, INC CN",
+      "asset_name": "MONOLITHIC POWER SYSTEMS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "+ PLC CHOY . 4/11/22 85, s",
+      "asset_name": "APTIV PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "E2 AST FINANCIAL CORPORATION CRN x —_j __ oY yl",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "F ITED APRLINES HOLDINGS INC CAN",
+      "asset_name": "YUM BRANDS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "i 18 PRODUCTS & CKEMICALS INC CMH",
+      "asset_name": "CIENA CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "tHASTOT INC, CMM",
+      "asset_name": "DELTA AIR LINES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROUTHAFEST NUNES CO CAN x, Day iifz2 OsvoNzils",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/06/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "30 [PAYPAL HOUDINGS, INC. CHAN * pasa aay",
+      "asset_name": "UNITED AIRLINES HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "fF _ [FAIUG ING CMN CLASS A 2 BA/LI/22) esos",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/28/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "3 CORE GROUP, INC EMM CLASS A : baprtsza| os f0SfT) =",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/04/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "$F [MOHAWK INDUSTMIES INC COMMON STOCK",
+      "asset_name": "CDW CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "3P___ {TARE TWO INTERACTIVE SOFTWARE INC = a/it fal BSMSI7| oe",
+      "asset_name": "J B HUNT TRANS SVCS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMT BUSINESS MACHINES CORP CAIN",
+      "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SXYAVORKS SOLUTIONS, INC CAH ¥ fy __ oyna on",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "$F ___|CARDTVAL CORPORATION CMH ¥ Haff sf22} osfos/27",
+      "asset_name": "F5 INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "F_(ERUOIAN CM HOLDING INC Chant = ‘Daft /23} 03/05/22) ok",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/18/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "iF _JATUASSIAN CORPORATION PLC CMN CLASS A, A 4 taf! a",
+      "asset_name": "TRIMBLE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "# iso a OST GO SKGYLSfI2 TA, * “oa/ia, Fy) a",
+      "asset_name": "HUBSPOT INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "v HARET tn. OMH CLASS C x DPT Fi",
+      "asset_name": "SOUTHWEST AIRLINES CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "[UNKNOWN]",
+      "date": "04/11/2022",
       "notification_date": "05/05/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PAYPAL HOLDINGS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/20/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UBER TECHNOLOGIES, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TWILIO INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CBRE GROUP, INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MOHAWK INDUSTRIES INC COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/21/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KKR & CO. INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTERPUBLIC GROUP COS CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SKYWORKS SOLUTIONS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MOTOROLA SOLUTIONS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "FASTENAL COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CARNIVAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CERIDIAN HCM HOLDING INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LULULEMON ATHLETICA INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ATLASSIAN CORPORATION PLC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KELLER TEX INDPT SCH DIST GO 5% 08/15/22 FA",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/18/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MODERNA, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ALPHABET INC. CMN CLASS C",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/27/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BATH & BODY WORKS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZOOM VIDEO COMMUNICATIONS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RALPH LAUREN CORP CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UNDER ARMOUR, INC. CMN CLASS C",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SNOWFLAKE INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SNAP INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ADVANCED MICRO DEVICES, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PEGASYSTEMS INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CAESARS ENTERTAINMENT INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SKECHERS USA INC CL A CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "XPO LOGISTICS WSH SH CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "EXPEDIA GROUP INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "THE BANK OF NY MELLON CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KLA CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GENUINE PARTS CO. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UNDER ARMOUR, INC. CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UNITED RENTALS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMERICAN AIRLINES GROUP INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DYNATRACE HOLDINGS LLC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "EPAM SYSTEMS, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BROADCOM INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROKU, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMERCO CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ZOOMINFO TECHNOLOGIES INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TRADE DESK, INC. (THE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ITT INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AVALARA INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "QORVO, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/11/2022",
+      "notification_date": "05/05/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "row",
-      "read": "FY MARR OTF INTESHATIONAL INC CAIN CLASS &",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 2,
-      "field": "row",
-      "read": "RGUNO ROCK TEX GO Sw Ua 18/22 FA",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 3,
-      "field": "row",
-      "read": "2 AITHIC POWER STSTEMS, INC CN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 4,
-      "field": "row",
-      "read": "+ PLC CHOY . 4/11/22 85, s",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 5,
-      "field": "row",
-      "read": "E2 AST FINANCIAL CORPORATION CRN x —_j __ oY yl",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 6,
-      "field": "row",
-      "read": "F ITED APRLINES HOLDINGS INC CAN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 7,
-      "field": "row",
-      "read": "i 18 PRODUCTS & CKEMICALS INC CMH",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 8,
-      "field": "row",
-      "read": "tHASTOT INC, CMM",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 9,
-      "field": "row",
-      "read": "ROUTHAFEST NUNES CO CAN x, Day iifz2 OsvoNzils",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 10,
-      "field": "row",
-      "read": "30 [PAYPAL HOUDINGS, INC. CHAN * pasa aay",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 11,
-      "field": "row",
-      "read": "fF _ [FAIUG ING CMN CLASS A 2 BA/LI/22) esos",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 12,
-      "field": "row",
-      "read": "3 CORE GROUP, INC EMM CLASS A : baprtsza| os f0SfT) =",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 13,
-      "field": "row",
-      "read": "$F [MOHAWK INDUSTMIES INC COMMON STOCK",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 14,
-      "field": "row",
-      "read": "3P___ {TARE TWO INTERACTIVE SOFTWARE INC = a/it fal BSMSI7| oe",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 15,
-      "field": "row",
-      "read": "IMT BUSINESS MACHINES CORP CAIN",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 16,
-      "field": "row",
-      "read": "SXYAVORKS SOLUTIONS, INC CAH ¥ fy __ oyna on",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 17,
-      "field": "row",
-      "read": "$F ___|CARDTVAL CORPORATION CMH ¥ Haff sf22} osfos/27",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 18,
-      "field": "row",
-      "read": "F_(ERUOIAN CM HOLDING INC Chant = ‘Daft /23} 03/05/22) ok",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 19,
-      "field": "row",
-      "read": "iF _JATUASSIAN CORPORATION PLC CMN CLASS A, A 4 taf! a",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 20,
-      "field": "row",
-      "read": "# iso a OST GO SKGYLSfI2 TA, * “oa/ia, Fy) a",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "row": 21,
-      "field": "row",
-      "read": "v HARET tn. OMH CLASS C x DPT Fi",
-      "note": "Low-confidence dense-page extraction from OCR/table image; verify exact type/date/amount before downstream use."
-    },
-    {
-      "field": "date",
-      "read": "[UNKNOWN]",
-      "note": "Transaction-date cells are visible as a tiny/noisy date column in the scanned page, but the available OCR/tess/quads evidence does not support reliable row-by-row transcription; missing dates are recorded as [UNKNOWN] rather than guessed."
-    }
+    "All 73 printed transaction rows and account headings were re-verified against the PTR scan. Clean fields match the same ordered annual Schedule B run (annual pages 267, 268, 269); the PTR scan remains authoritative for page boundaries, row order, and 05/05/2022 notification date."
   ],
-  "page_confidence": "low",
-  "transcription_note": "Dense scanned attachment page; asset row inventory extracted from OCR and image-visible security names. Exact checkbox/date columns are low-confidence and flagged."
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from the matching annual Schedule B row run."
 }

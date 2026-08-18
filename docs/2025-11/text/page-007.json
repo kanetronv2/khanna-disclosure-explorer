@@ -7,7 +7,7 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ahuja 2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Khanna Children"
     },
     {
       "kind": "tx",
@@ -15,21 +15,21 @@
       "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EQUINIX, INC. REIT",
+      "asset_name": "EQUINIX INC REIT",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,21 +37,21 @@
       "asset_name": "CARRIER GLOBAL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CME GROUP INC. CMN CLASS A",
+      "asset_name": "CME GROUP INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "02/26/2025",
+      "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -59,32 +59,32 @@
       "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PALO ALTO NETWORKS INC. CMN",
+      "asset_name": "PALO ALTO NETWORKS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STARBUCKS CORP.CMN",
+      "asset_name": "STARBUCKS CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -92,48 +92,35 @@
       "asset_name": "MARSH & MCLENNAN CO INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SALESFORCE INC CIMN",
+      "asset_name": "SALESFORCE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "THE PROCTER & GAMBLE COMPANY ICMN",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "amount",
-      "read": "$1,001-$15,000",
-      "note": "Corrected 8 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

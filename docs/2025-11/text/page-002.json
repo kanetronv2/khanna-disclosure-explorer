@@ -12,35 +12,35 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EXTRA SPACE STORAGE INC. CMN",
+      "asset_name": "EXTRA SPACE STORAGE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/24/2025",
+      "date": "08/14/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "08/04/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ZOETIS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "08/21/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/01/2025",
-      "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -48,10 +48,10 @@
       "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "05/04/2025",
+      "date": "08/01/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -59,10 +59,10 @@
       "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -70,21 +70,21 @@
       "asset_name": "FEDEX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/07/2025",
+      "date": "08/07/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "ZOETIS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/05/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -92,21 +92,21 @@
       "asset_name": "FEDEX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/05/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "ZOETIS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -114,10 +114,10 @@
       "asset_name": "CANADIAN IMPERIAL BANK OF COMM LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/06/2025",
+      "date": "08/07/2025",
       "notification_date": "09/04/2025",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -125,10 +125,10 @@
       "asset_name": "BNP PARIBAS LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/07/2025",
+      "date": "08/22/2025",
       "notification_date": "09/04/2025",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -136,10 +136,10 @@
       "asset_name": "CALL/NVDA FLEX EURO PM 162.5 EXP 08/01/2025",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/21/2025",
+      "date": "08/01/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,10 +147,10 @@
       "asset_name": "CALL/GEV FLEX EURO PM @ 585 EXP 08/01/2025",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/01/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -158,10 +158,10 @@
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "08/01/2025",
+      "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -169,43 +169,43 @@
       "asset_name": "SYSCO CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BUILDERS FIRSTSOURCE, INC CMN",
+      "asset_name": "BUILDERS FIRSTSOURCE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/13/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARTIN MARIETTA MATERIALS, INC CMN",
+      "asset_name": "MARTIN MARIETTA MATERIALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NASDAQ INC. CMN",
+      "asset_name": "NASDAQ INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -213,10 +213,10 @@
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -224,21 +224,21 @@
       "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "08/18/2025",
+      "date": "08/06/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS IN CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "08/01/2025",
+      "date": "08/18/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -246,10 +246,10 @@
       "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/01/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -257,32 +257,13 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/05/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 9,
-      "field": "date",
-      "read": "08/06/2025",
-      "note": "date corrected from misread '09/04/251' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "08/06/2025",
-      "note": "date corrected from misread '09/06/2025' to '08/06/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

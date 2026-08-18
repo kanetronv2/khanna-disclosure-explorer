@@ -7,29 +7,29 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ahuja 2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Khanna Children"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "\u00a1CAESARS ENTERTAINMENT INC CMN",
+      "asset_name": "CAESARS ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WORKDAY, INC. CMN CLASS A",
+      "asset_name": "WORKDAY INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,21 +37,21 @@
       "asset_name": "BLACKSTONE GROUP INC/THE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BLOCK, INC CMN CLASS A",
+      "asset_name": "BLOCK INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -59,10 +59,10 @@
       "asset_name": "FAIR ISAAC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -70,54 +70,54 @@
       "asset_name": "AVALONBAY COMMUNITIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LOWE'S COMPANIES INC CMN",
+      "asset_name": "LOWES COMPANIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHARTER COMMUNICATIONS, INC. CMN",
+      "asset_name": "CHARTER COMMUNICATIONS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FISERV, INC. CMN",
+      "asset_name": "FISERV INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN",
+      "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -125,21 +125,21 @@
       "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTL BUSINESS M\u00c1CHINES CORP CMN",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,21 +147,21 @@
       "asset_name": "SERVICENOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COLGATE-PALMOUIVE CO CMN",
+      "asset_name": "COLGATE PALMOLIVE CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -169,43 +169,43 @@
       "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TUNION PACIFIC CORP. CMN",
+      "asset_name": "UNION PACIFIC CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CLARK CNTY NEV HWY IMMPT REV REV 5% 07/01/31 JJ",
+      "asset_name": "CLARK CNTY NEV HWY IMPT REV REV 5% 07/01/31 JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/04/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TORONTO DOMINION BANX LNKED TO S&P 500 INDEX",
+      "asset_name": "TORONTO DOMINION BANK LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/21/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -213,76 +213,76 @@
       "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INGERSOLL RAND INC CIIN",
+      "asset_name": "INGERSOLL RAND INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IMODERNA, INC. CMN",
+      "asset_name": "MODERNA INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MID-AMERICA APT CMNTYS INC CIVN",
+      "asset_name": "MID-AMERICA APT CMNTYS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EU ULLY & CO CMN",
+      "asset_name": "ELI LILLY & CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ENTL.FLAVORS & FRAGRANCE CMN",
+      "asset_name": "INTL.FLAVORS & FRAGRANCE CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -290,90 +290,35 @@
       "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TUDR INC CMN",
+      "asset_name": "UDR INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OLD DOMINION FREIGHT LINE, INC CMN",
+      "asset_name": "OLD DOMINION FREIGHT LINE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "08/26/2025",
       "notification_date": "09/04/2025",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    },
-    {
-      "row": 0,
-      "field": "amount",
-      "read": "$1,001-$15,000",
-      "note": "Corrected 6 OCR/grid-shifted amount bucket readings after visual review; visible amount checkmarks are in column A on this page."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '08/26/2509' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '09/04/2045' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 13,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '07/01/2031' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 14,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '08/04/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "date",
-      "read": "08/26/2025",
-      "note": "date corrected from misread '08/21/2025' to '08/26/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "08/04/2025",
-      "note": "date corrected from misread '08/26/2025' to '08/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "08/21/2025",
-      "note": "date corrected from misread '08/26/2025' to '08/21/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

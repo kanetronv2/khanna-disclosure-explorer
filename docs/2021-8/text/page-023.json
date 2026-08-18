@@ -19,6 +19,7 @@
       "asset_name": "MAI Diversified Real Estate Fund",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/24/2021",
       "notification_date": "09/02/2021",
       "amount": "$50,001-$100,000"
@@ -29,6 +30,7 @@
       "asset_name": "MAI Capital Income and Growth Fund",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "03/25/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -47,6 +49,7 @@
       "asset_name": "Citymark US Apt Fund",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "07/27/2021",
       "notification_date": "09/02/2021",
       "amount": "$100,001-$250,000"
@@ -57,6 +60,7 @@
       "asset_name": "MAI Portfolio II, Income Fund",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "04/06/2021",
       "notification_date": "09/02/2021",
       "amount": "$100,001-$250,000"
@@ -67,6 +71,7 @@
       "asset_name": "Carlyle Wave/Athena CIP BND CV PFD1",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/05/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -81,6 +86,7 @@
       "asset_name": "ROIT ETF EMER MKTS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "07/22/2021",
       "notification_date": "09/01/2021",
       "amount": "$50,001-$100,000"
@@ -91,6 +97,7 @@
       "asset_name": "Hanover HSG Rev 4.000% 11/01/22 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "04/09/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -101,6 +108,7 @@
       "asset_name": "South Washington CIP BND CV PFD1",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/05/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"
@@ -115,6 +123,7 @@
       "asset_name": "Hamilton Lane ...",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "07/27/2021",
       "notification_date": "09/02/2021",
       "amount": "$50,001-$100,000"
@@ -125,6 +134,7 @@
       "asset_name": "MAI Managed Vol Income Instl",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "04/08/2021",
       "notification_date": "09/02/2021",
       "amount": "$50,001-$100,000"
@@ -135,6 +145,7 @@
       "asset_name": "Lamar Wisc/Athena CIP BND CV PFD1",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "08/08/2021",
       "notification_date": "09/02/2021",
       "amount": "$15,001-$50,000"

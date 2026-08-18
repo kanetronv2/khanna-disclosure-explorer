@@ -5,17 +5,120 @@
   "page_type": "ptr",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "tx", "owner": "SP", "asset_name": "WASTE CONNECTIONS, INC. CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "MOODY'S CORPORATION CMN", "tx_type": "Sale", "partial": true, "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "HUNTINGTON BANCSHARES INCORPOR CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "VEEVA SYSTEMS INC CMN", "tx_type": "Sale", "cap_gain_over_200": true, "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "DELTA AIR LINES, INC. CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "SEAGATE TECHNOLOGY PLC CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "HOLLYFRONTIER CORP CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "VULCAN MATERIALS CO CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "tx", "owner": "SP", "asset_name": "XCEL ENERGY INC. CMN", "tx_type": "Sale", "date": "05/20/2020", "notification_date": "06/01/2020", "amount": "$1,001-$15,000"},
-    {"kind": "group", "text": "M & R TP Primary"},
-    {"kind": "tx", "owner": "SP", "asset_name": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX", "tx_type": "Purchase", "date": "05/26/2020", "notification_date": "06/01/2020", "amount": "$250,001-$500,000"}
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WASTE CONNECTIONS, INC. CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MOODY'S CORPORATION CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HUNTINGTON BANCSHARES INCORPOR CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VEEVA SYSTEMS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SEAGATE TECHNOLOGY PLC CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HOLLYFRONTIER CORP CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VULCAN MATERIALS CO CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "XCEL ENERGY INC. CMN",
+      "tx_type": "Sale",
+      "date": "05/20/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$1,001-$15,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "M & R TP Primary"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX",
+      "tx_type": "Purchase",
+      "date": "05/26/2020",
+      "notification_date": "06/01/2020",
+      "amount": "$250,001-$500,000",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    }
   ],
   "free_text": null,
   "uncertainties": [],

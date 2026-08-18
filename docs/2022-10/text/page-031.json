@@ -8,101 +8,105 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LIGERTY BROADBANO CORPORATION CMN CLASSA",
+      "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CLOUDFLARE,INC. CMN CLASSA",
+      "asset_name": "CLOUDFLARE, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "AMERCO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "SP200MINFO TECHNOLDGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$500,001-$1,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ORTA, INC. CMN CLASSA",
+      "asset_name": "ZOOMINFO TECHNOLOGIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MATTEL INC CMN",
+      "asset_name": "OKTA, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
-      "notification_date": "10/02/2022",
-      "amount": "[UNKNOWN]"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "SEATTLE WASH GO 5% 06/01/23 30",
+      "owner": "SP",
+      "asset_name": "MATTEL, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1995 Trust"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SEATTLE WASH GO 5% 06/01/23 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/01/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "HOUSTON TEX INDPT SCH DIST GO 5.0000% 02/15/23 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/02/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$1,000,001-$5,000,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SOUTHLAKE TEX DE 5% 02/25/23FA",
+      "asset_name": "SOUTHLAKE TEX DB 5% 02/15/23 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/19/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,10 +114,10 @@
       "asset_name": "HCA HEALTHCARE, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "02/26/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "Over $1,000,000 (Spouse/DC Asset)"
+      "date": "09/26/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,21 +125,21 @@
       "asset_name": "VF CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
+      "date": "09/15/2022",
       "notification_date": "10/03/2022",
-      "amount": "Over $50,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PFIZER INC CMN",
+      "asset_name": "PFIZER INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
+      "date": "09/15/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,32 +147,32 @@
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ITEXAS INSTRUMENTS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "5VB HMANCIAL GROUP CMN",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SVB FINANCIAL GROUP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/15/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +180,10 @@
       "asset_name": "AMERICAN INTL GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,10 +191,10 @@
       "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$50,001-$100,000"
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -198,168 +202,61 @@
       "asset_name": "PEPSICO, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/15/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$500,001-$1,000,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "[ILLEGIBLE]",
-      "asset_name": "SP. JALPHABET INC, CMN CLASSA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE HOME DEPOT, INC CHN",
+      "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/15/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,000,001-$5,000,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GENERAL MOTORS COMPAHY CMN",
-      "tx_type": "Sale",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "09/14/2022",
+      "date": "09/15/2022",
       "notification_date": "10/03/2022",
-      "amount": "[UNKNOWN]"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMASDAQ INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/14/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NASDAQ INC. CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "09/14/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "09/08/22 10/032",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 3,
-      "field": "amount",
-      "read": "[2, 0, 19, 3, 2, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 4,
-      "field": "owner",
-      "read": "SP200MINFO TECHNOLDGIES INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 6,
-      "field": "amount",
-      "read": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 7,
-      "field": "owner",
-      "read": "SEATTLE WASH GO 5% 06/01/23 30.",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 8,
-      "field": "owner",
-      "read": "HOUSTON TEX INDPT SCH DIST GO 5.0000% 02/15/23 FA",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "09/02/2210/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 9,
-      "field": "amount",
-      "read": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 12,
-      "field": "notification_date",
-      "read": "09/25/22 20/83/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 12,
-      "field": "amount",
-      "read": "[2, 0, 20, 1, 7, 13, 0, 8, 17, 2, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "09/15/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 15,
-      "field": "amount",
-      "read": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 16,
-      "field": "amount",
-      "read": "[1, 1, 0, 1, 2, 7, 6, 12, 2, 0, 1]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "09/15/22 10/09/2z",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 19,
-      "field": "owner",
-      "read": "SP. JALPHABET INC, CMN CLASSA",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 21,
-      "field": "amount",
-      "read": "[0, 0, 10, 1, 4, 0, 0, 0, 0, 0, 0]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 10,
-      "field": "notification_date",
-      "read": "10/08/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 22 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 340, 352, 353, 354. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-031.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

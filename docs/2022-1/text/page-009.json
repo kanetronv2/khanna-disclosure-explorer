@@ -7,758 +7,391 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": ".__Prowide TENS FIMANCLAL GROUP, HC CMW.",
+      "owner": "SP",
+      "asset_name": "DENTSPLY SIRONA INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SACHA CMI INC",
+      "owner": "SP",
+      "asset_name": "MGM RESORTS INTERNATIONAL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "RESORTS (TERNATIONAL CMN RAGS",
+      "owner": "SP",
+      "asset_name": "ABIOMED, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "QORVO, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "St Peters $e",
+      "owner": "SP",
+      "asset_name": "GLOBUS MEDICAL INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GLO MED CLASS A,",
+      "owner": "SP",
+      "asset_name": "JAZZ PHARMACEUTICALS PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PLE CAH CnARMACEUTICALS HAL",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GAO",
+      "owner": "SP",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP, CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "G ARO LEISURE PROP, tC CORN,",
+      "owner": "SP",
+      "asset_name": "GAMING AND LEISURE PROP, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ED THERAPEUTICS CORP CM",
+      "owner": "SP",
+      "asset_name": "UNITED THERAPEUTICS CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "WMAWARE. OC CMN CLASS A.",
+      "owner": "SP",
+      "asset_name": "VMWARE, INC. CMN CLASS A",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "STA cS, Inc, Coie",
+      "owner": "SP",
+      "asset_name": "ARISTA NETWORKS, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CORP COMM,",
+      "owner": "SP",
+      "asset_name": "REPLIGEN CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CORPORATION CMN CLASS @",
+      "owner": "SP",
+      "asset_name": "NEWS CORPORATION CMN CLASS B",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TRONNOLOG CMN tO 3.4",
+      "owner": "SP",
+      "asset_name": "SPOTIFY TECHNOLOGY S.A CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GACH, Pi RICAN ST, CAA",
+      "owner": "SP",
+      "asset_name": "AMERICAN INTL GROUP, INC. CMN",
       "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CO LID CN",
+      "owner": "SP",
+      "asset_name": "STONECO LTD CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COMPANY {THE} CMN",
+      "owner": "SP",
+      "asset_name": "MOSAIC COMPANY (THE) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Wet CHAP YS, ANS",
+      "owner": "SP",
+      "asset_name": "ANSYS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "REALITY [A IRC COM",
+      "owner": "SP",
+      "asset_name": "ULTA BEAUTY INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "DEN 1.V, CRN",
+      "owner": "SP",
+      "asset_name": "YANDEX N.V. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CMN INC. TECHNOL OGTES,",
+      "owner": "SP",
+      "asset_name": "UBER TECHNOLOGIES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "2 1 79 0 0 0 322 980 42 15 -1 3 1 79 1 0 0 322 980 42 15 -1 4 1 79 1 1 0 322 980 42 15 -1 5 1 79 1 1 1 322 980 42 15 35.923088 Gvn 2 1 80 0 0 0 1572 974 61 24 -1 3 1 80 1 0 0 1572 974 61 24 -1 4 1 80 1 1 0 1572 974 61 24 -1 5 1 80 1 1 1 1572 974 61 24 0.000000 syiaf 2 1 81 0 0 0 1783 977 20 15 -1 3 1 81 1 0 0 1783 977 20 15 -1 4 1 81 1 1 0 1783 977 20 15 -1 5 1 81 1 1 1 1783 977 20 15 31.448736 ja? 2 1 82 0 0 0 211 1000 135 16 -1 3 1 82 1 0 0 211 1000 135 16 -1 4 1 82 1 1 0 211 1000 135 16 -1 5 1 82 1 1 1 207 996 73 30 0.000000 BaASHI) 5 1 82 1 1 2 294 996 52 30 0.000000 CORPT 2 1 83 0 0 0 375 1004 88 15 -1 3 1 83 1 0 0 375 1004 88 15 -1 4 1 83 1 1 0 375 1004 88 15 -1 5 1 83 1 1 1 375 1004 88 15 23.433638 THO 5 1 83 1 1 2 424 1000 22 29 44.939873 Ct 5 1 83 1 1 3 453 1000 13 29 54.189232 by 2 1 84 0 0 0 1783 1001 20 15 -1 3 1 84 1 0 0 1783 1001 20 15 -1 4 1 84 1 1 0 1783 1001 20 15 -1 5 1 84 1 1 1 1783 1001 20 15 32.497864 ‘22 2 1 85 0 0 0 1572 1000 70 22 -1 3 1 85 1 0 0 1572 1000 70 22 -1 4 1 85 1 1 0 1572 1000 70 22 -1 5 1 85 1 1 1 1572 1000 70 22 39.425926 ED 2 1 86 0 0 0 217 1030 137 15 -1 3 1 86 1 0 0 217 1030 137 15 -1 4 1 86 1 1 0 217 1030 137 15 -1 5 1 86 1 1 1 217 1030 137 15 87.314064 DAVITA 5 1 86 1 1 2 278 1026 27 29 59.974808 INE 5 1 86 1 1 3 314 1030 40 15 43.779442 CMN 2 1 87 0 0 0 204 1052 91 18 -1 3 1 87 1 0 0 204 1052 91 18 -1 4 1 87 1 1 0 204 1052 91 18 -1 5 1 87 1 1 1 200 1048 43 32 38.541824 2095 5 1 87 1 1 2 253 1048 46 32 47.490025 Trt 2 1 88 0 0 0 216 1084 3 7 -1 3 1 88 1 0 0 216 1084 3 7 -1 4 1 88 1 1 0 216 1084 3 7 -1 5 1 88 1 1 1 216 1084 3 7 12.866459 p 2 1 89 0 0 0 276 1078 300 18 -1 3 1 89 1 0 0 276 1078 300 18 -1 4 1 89 1 1 0 276 1078 300 18 -1 5 1 89 1 1 1 272 1074 37 29 75.818161 TEM 5 1 89 1 1 2 317 1074 42 29 63.271477 AREA 5 1 89 1 1 3 366 1074 47 29 35.428741 RAMLO 5 1 89 1 1 4 421 1078 113 16 74.856308 TRAN 5 1 89 1 1 5 475 1074 27 29 34.486725 ATW 5 1 89 1 1 6 511 1074 18 29 51.521931 $% 5 1 89 1 1 7 541 1078 35 18 86.361618 12/0: 2 1 90 0 0 0 602 1079 35 14 -1 3 1 90 1 0 0 602 1079 35 14 -1 4 1 90 1 1 0 602 1079 35 14 -1 5 1 90 1 1 1 602 1079 35 14 38.412323 iD 2 1 91 0 0 0 237 1100 448 20 -1 3 1 91 1 0 0 237 1100 448 20 -1 4 1 91 1 1 0 237 1100 448 20 -1 5 1 91 1 1 1 233 1096 83 31 29.500837 PAMOKITTE 5 1 91 1 1 2 326 1096 42 31 0.000000 CTY 5 1 91 1 1 3 375 1096 42 31 63.090027 KANS 5 1 91 1 1 4 424 1096 34 31 92.612999 CITY 5 1 91 1 1 5 468 1096 39 31 25.176811 EAWS 5 1 91 1 1 6 514 1096 30 31 36.783424 REW 5 1 91 1 1 7 550 1096 22 31 76.777565 5% 5 1 91 1 1 8 581 1096 71 31 0.000000 OR1/72 5 1 91 1 1 9 661 1096 27 31 32.713104 MAS 2 1 92 0 0 0 1783 1100 20 15 -1 3 1 92 1 0 0 1783 1100 20 15 -1 4 1 92 1 1 0 1783 1100 20 15 -1 5 1 92 1 1 1 1783 1100 20 15 0.540180 j22) 2 1 93 0 0 0 256 1133 5 6 -1 3 1 93 1 0 0 256 1133 5 6 -1 4 1 93 1 1 0 256 1133 5 6 -1 5 1 93 1 1 1 256 1133 5 6 58.711201 0 2 1 94 0 0 0 285 1127 243 17 -1 3 1 94 1 0 0 285 1127 243 17 -1 4 1 94 1 1 0 285 1127 243 17 -1 5 1 94 1 1 1 285 1129 27 13 27.404757 609 5 1 94 1 1 2 319 1121 45 31 81.559235 AUTH 5 1 94 1 1 3 371 1121 32 31 84.533875 REV 5 1 94 1 1 4 410 1121 32 31 84.533875 REV 5 1 94 1 1 5 448 1129 9 15 42.910675 S 5 1 94 1 1 6 462 1127 66 17 28.581724 CODON 2 1 95 0 0 0 553 1132 3 7 -1 3 1 95 1 0 0 553 1132 3 7 -1 4 1 95 1 1 0 553 1132 3 7 -1 5 1 95 1 1 1 553 1132 3 7 65.460793 0 2 1 96 0 0 0 588 1127 64 15 -1 3 1 96 1 0 0 588 1127 64 15 -1 4 1 96 1 1 0 588 1127 64 15 -1 5 1 96 1 1 1 588 1123 33 29 0.000000 2-24 5 1 96 1 1 2 629 1123 23 29 37.238293 Fa 2 1 97 0 0 0 1572 1126 72 13 -1 3 1 97 1 0 0 1572 1126 72 13 -1 4 1 97 1 1 0 1572 1126 72 13 -1 5 1 97 1 1 1 1572 1126 72 13 7.960548 127f0TfA 5 1 97 1 1 2 1635 1122 14 26 52.645969 1) 2 1 98 0 0 0 1728 1124 75 17 -1 3 1 98 1 0 0 1728 1124 75 17 -1 4 1 98 1 1 0 1728 1124 75 17 -1 5 1 98 1 1 1 1728 1124 75 17 48.358749 01.06/72] 2 1 99 0 0 0 1572 1150 18 15 -1 3 1 99 1 0 0 1572 1150 18 15 -1 4 1 99 1 1 0 1572 1150 18 15 -1 5 1 99 1 1 1 1572 1150 18 15 85.258904 13, 2 1 100 0 0 0 1728 1150 75 16 -1 3 1 100 1 0 0 1728 1150 75 16 -1 4 1 100 1 1 0 1728 1150 75 16 -1 5 1 100 1 1 1 1728 1150 75 16 51.096413 0106/27) 2 1 101 0 0 0 228 1150 499 21 -1 3 1 101 1 0 0 228 1150 499 21 -1 4 1 101 1 1 0 228 1150 499 21 -1 5 1 101 1 1 1 224 1146 55 31 20.622759 COSTA 5 1 101 1 1 2 288 1146 18 31 81.498085 ST 5 1 101 1 1 3 314 1146 41 31 77.128822 DEPT 5 1 101 1 1 4 366 1146 52 31 0.000000 MAGMT 5 1 101 1 1 5 425 1146 40 31 58.115044 SYCS 5 1 101 1 1 6 472 1146 37 31 32.922741 CTES 5 1 101 1 1 7 515 1146 40 31 82.339371 COPS 5 1 101 1 1 8 562 1153 22 15 86.072464 5% 5 1 101 1 1 9 612 1156 80 15 12.408457 LE/C1/12-CA 5 1 101 1 1 10 701 1146 30 31 55.976501 MAN, 2 1 102 0 0 0 264 1175 406 20 -1 3 1 102 1 0 0 264 1175 406 20 -1 4 1 102 1 1 0 264 1175 406 20 -1 5 1 102 1 1 1 260 1171 48 30 42.147728 RSITY 5 1 102 1 1 2 317 1171 41 30 79.677887 COLO 5 1 102 1 1 3 366 1177 100 15 0.000000 ENTER 5 1 102 1 1 4 422 1171 43 30 0.000000 PASE 5 1 102 1 1 5 475 1171 25 30 59.734589 SVS 5 1 102 1 1 6 507 1171 28 30 62.705963 ATV 5 1 102 1 1 7 545 1171 20 30 68.496147 $% 5 1 102 1 1 8 571 1175 75 20 0.000000 DRATI/I? 2 1 103 0 0 0 1728 1174 75 16 -1 3 1 103 1 0 0 1728 1174 75 16 -1 4 1 103 1 1 0 1728 1174 75 16 -1 5 1 103 1 1 1 1728 1174 75 16 54.204178 0108/72] 2 1 104 0 0 0 212 1201 457 22 -1 3 1 104 1 0 0 212 1201 457 22 -1 4 1 104 1 1 0 212 1201 457 22 -1 5 1 104 1 1 1 212 1202 211 17 27.238646 MOOVER 5 1 104 1 1 2 295 1197 23 30 37.277798 18 5 1 104 1 1 3 328 1197 30 30 75.367538 BAG 5 1 104 1 1 4 368 1197 18 30 78.204170 ED 5 1 104 1 1 5 395 1197 26 30 40.114594 SP1 5 1 104 1 1 6 430 1202 26 15 59.253891 TAN 5 1 104 1 1 7 465 1197 31 30 83.451569 SCH 5 1 104 1 1 8 503 1197 28 30 24.656839 ANY 5 1 104 1 1 9 540 1202 18 15 57.251854 5% 5 1 104 1 1 10 568 1201 101 22 55.729874 00/15/24 5 1 104 1 1 11 650 1197 23 30 52.382423 FA, 2 1 105 0 0 0 1572 1199 18 15 -1 3 1 105 1 0 0 1572 1199 18 15 -1 4 1 105 1 1 0 1572 1199 18 15 -1 5 1 105 1 1 1 1572 1199 18 15 62.656494 12, 2 1 106 0 0 0 1783 1199 20 15 -1 3 1 106 1 0 0 1783 1199 20 15 -1 4 1 106 1 1 0 1783 1199 20 15 -1 5 1 106 1 1 1 1783 1199 20 15 0.000000 j22| 2 1 107 0 0 0 212 1226 317 21 -1 3 1 107 1 0 0 212 1226 317 21 -1 4 1 107 1 1 0 212 1226 317 21 -1 5 1 107 1 1 1 208 1217 65 35 15.438023 PARES 5 1 107 1 1 2 280 1217 39 35 74.553391 CTY 5 1 107 1 1 3 327 1228 91 13 75.801003 TEM 5 1 107 1 1 4 365 1217 18 35 62.276001 AD 5 1 107 1 1 5 394 1217 22 35 81.642845 9% 5 1 107 1 1 6 424 1226 105 21 0.000000 1OYMI/22 5 1 107 1 1 7 508 1217 24 35 85.006813 AD 2 1 108 0 0 0 1572 1223 18 15 -1 3 1 108 1 0 0 1572 1223 18 15 -1 4 1 108 1 1 0 1572 1223 18 15 -1 5 1 108 1 1 1 1572 1223 18 15 69.044212 12, 2 1 109 0 0 0 1728 1223 18 15 -1 3 1 109 1 0 0 1728 1223 18 15 -1 4 1 109 1 1 0 1728 1223 18 15 -1 5 1 109 1 1 1 1728 1223 18 15 46.313572 01, 2 1 110 0 0 0 1783 1223 20 15 -1 3 1 110 1 0 0 1783 1223 20 15 -1 4 1 110 1 1 0 1783 1223 20 15 -1 5 1 110 1 1 1 1783 1223 20 15 66.185944 22) 2 1 111 0 0 0 212 1250 449 21 -1 3 1 111 1 0 0 212 1250 449 21 -1 4 1 111 1 1 0 212 1250 449 21 -1 5 1 111 1 1 1 208 1241 50 35 14.290915 KLARM 5 1 111 1 1 2 269 1241 42 35 54.756714 CNTY 5 1 111 1 1 3 321 1241 45 35 83.152061 WASH 5 1 111 1 1 4 377 1241 30 35 83.152061 PUS 5 1 111 1 1 5 415 1241 35 35 89.131493 UTIL 5 1 111 1 1 6 461 1241 22 35 0.000000 DG 5 1 111 1 1 7 499 1241 30 35 77.389091 NEV 5 1 111 1 1 8 537 1241 19 35 36.735207 5% 5 1 111 1 1 9 566 1241 71 35 26.832905 C1A01/22 5 1 111 1 1 10 645 1241 18 35 39.419144 1 2 1 112 0 0 0 1572 1247 72 21 -1 3 1 112 1 0 0 1572 1247 72 21 -1 4 1 112 1 1 0 1572 1247 72 21 -1 5 1 112 1 1 1 1572 1247 72 21 0.000000 wg 2 1 113 0 0 0 1783 1247 20 15 -1 3 1 113 1 0 0 1783 1247 20 15 -1 4 1 113 1 1 0 1783 1247 20 15 -1 5 1 113 1 1 1 1783 1247 20 15 58.808220 2? 2 1 114 0 0 0 212 1274 141 17 -1 3 1 114 1 0 0 212 1274 141 17 -1 4 1 114 1 1 0 212 1274 141 17 -1 5 1 114 1 1 1 212 1274 141 17 0.000000 PFPER 5 1 114 1 1 2 272 1270 35 31 81.681801 INC. 5 1 114 1 1 3 316 1274 37 17 82.881348 CMN 2 1 115 0 0 0 1783 1273 20 15 -1 3 1 115 1 0 0 1783 1273 20 15 -1 4 1 115 1 1 0 1783 1273 20 15 -1 5 1 115 1 1 1 1783 1273 20 15 60.107605 th 2 1 116 0 0 0 271 1300 297 15 -1 3 1 116 1 0 0 271 1300 297 15 -1 4 1 116 1 1 0 271 1300 297 15 -1 5 1 116 1 1 1 271 1300 44 15 37.853741 ONC 5 1 116 1 1 2 319 1300 62 15 78.945213 PUBLIC 5 1 116 1 1 3 387 1300 69 15 27.288288 LINITEO 5 1 116 1 1 4 460 1300 63 15 62.559456 COMMA 5 1 116 1 1 5 528 1300 40 15 25.319738 Cat 2 1 117 0 0 0 1570 1271 72 41 -1 3 1 117 1 0 0 1570 1271 72 41 -1 4 1 117 1 1 0 1570 1271 72 41 -1 5 1 117 1 1 1 1570 1271 72 41 22.267447 apg 2 1 118 0 0 0 2020 1933 33 12 -1 3 1 118 1 0 0 2020 1933 33 12 -1 4 1 118 1 1 0 2020 1933 33 12 -1 5 1 118 1 1 1 2020 1933 33 12 18.386059 — 5",
+      "owner": "SP",
+      "asset_name": "SEAGEN INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "MASIMO CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "asset_name": "DAVITA INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "12/14/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ahuja 2010 Trust"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "DALLAS TEX AREA RAPID TRAN REV 5% 12/01/22 JD",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "12/3/2021",
+      "notification_date": "1/6/2022",
       "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "WYANDOTTE CNTY KANS CITY KANS REV 5% 09/01/22 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
       "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "ILLINOIS FIN AUTH REV REV 5.0000% 08/01/22-CA FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "FLORIDA ST DEPT MGMT SVCS CTFS COPS 5% 11/01/22",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "UNIVERSITY COLO ENTERPRISE SYS REV 5% 06/01/32",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "HOOVER ALA BRD ED SPL TAX SCH REV 5% 02/15/24",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
+      "owner": "SP",
+      "asset_name": "NYC TRANSITIONAL FINANCE AUTH REV 5.0000% 08/01/22",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/4/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CLARK CNTY WASH PUB UTIL DIST REV 5% 01/01/22 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/10/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PFIZER INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/4/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Unclear asset name",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/3/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "asset_name",
-      "read": ".__Prowide TENS FIMANCLAL GROUP, HC CMW.",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 1,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 2,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 3,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 4,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 5,
-      "field": "asset_name",
-      "read": "St Peters $e",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 5,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 6,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "PLE CAH CnARMACEUTICALS HAL",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 7,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 8,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 9,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 10,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "WMAWARE. OC CMN CLASS A.",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 11,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "STA cS, Inc, Coie",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 12,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "CORP COMM,",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 13,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 14,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 15,
-      "field": "asset_name",
-      "read": "TRONNOLOG CMN tO 3.4",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 15,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "GACH, Pi RICAN ST, CAA",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 16,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 17,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 18,
-      "field": "asset_name",
-      "read": "COMPANY {THE} CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 18,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 19,
-      "field": "asset_name",
-      "read": "Wet CHAP YS, ANS",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 19,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 20,
-      "field": "asset_name",
-      "read": "REALITY [A IRC COM",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 20,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 21,
-      "field": "asset_name",
-      "read": "DEN 1.V, CRN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 21,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 22,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 23,
-      "field": "asset_name",
-      "read": "2 1 79 0 0 0 322 980 42 15 -1 3 1 79 1 0 0 322 980 42 15 -1 4 1 79 1 1 0 322 980 42 15 -1 5 1 79 1 1 1 322 980 42 15 35.923088 Gvn 2 1 80 0 0 0 1572 974 61 24 -1 3 1 80 1 0 0 1572 974 61 24 -1 4 1 80 1 1 0 1572 974 61 24 -1 5 1 80 1 1 1 1572 974 61 24 0.000000 syiaf 2 1 81 0 0 0 1783 977 20 15 -1 3 1 81 1 0 0 1783 977 20 15 -1 4 1 81 1 1 0 1783 977 20 15 -1 5 1 81 1 1 1 1783 977 20 15 31.448736 ja? 2 1 82 0 0 0 211 1000 135 16 -1 3 1 82 1 0 0 211 1000 135 16 -1 4 1 82 1 1 0 211 1000 135 16 -1 5 1 82 1 1 1 207 996 73 30 0.000000 BaASHI) 5 1 82 1 1 2 294 996 52 30 0.000000 CORPT 2 1 83 0 0 0 375 1004 88 15 -1 3 1 83 1 0 0 375 1004 88 15 -1 4 1 83 1 1 0 375 1004 88 15 -1 5 1 83 1 1 1 375 1004 88 15 23.433638 THO 5 1 83 1 1 2 424 1000 22 29 44.939873 Ct 5 1 83 1 1 3 453 1000 13 29 54.189232 by 2 1 84 0 0 0 1783 1001 20 15 -1 3 1 84 1 0 0 1783 1001 20 15 -1 4 1 84 1 1 0 1783 1001 20 15 -1 5 1 84 1 1 1 1783 1001 20 15 32.497864 ‘22 2 1 85 0 0 0 1572 1000 70 22 -1 3 1 85 1 0 0 1572 1000 70 22 -1 4 1 85 1 1 0 1572 1000 70 22 -1 5 1 85 1 1 1 1572 1000 70 22 39.425926 ED 2 1 86 0 0 0 217 1030 137 15 -1 3 1 86 1 0 0 217 1030 137 15 -1 4 1 86 1 1 0 217 1030 137 15 -1 5 1 86 1 1 1 217 1030 137 15 87.314064 DAVITA 5 1 86 1 1 2 278 1026 27 29 59.974808 INE 5 1 86 1 1 3 314 1030 40 15 43.779442 CMN 2 1 87 0 0 0 204 1052 91 18 -1 3 1 87 1 0 0 204 1052 91 18 -1 4 1 87 1 1 0 204 1052 91 18 -1 5 1 87 1 1 1 200 1048 43 32 38.541824 2095 5 1 87 1 1 2 253 1048 46 32 47.490025 Trt 2 1 88 0 0 0 216 1084 3 7 -1 3 1 88 1 0 0 216 1084 3 7 -1 4 1 88 1 1 0 216 1084 3 7 -1 5 1 88 1 1 1 216 1084 3 7 12.866459 p 2 1 89 0 0 0 276 1078 300 18 -1 3 1 89 1 0 0 276 1078 300 18 -1 4 1 89 1 1 0 276 1078 300 18 -1 5 1 89 1 1 1 272 1074 37 29 75.818161 TEM 5 1 89 1 1 2 317 1074 42 29 63.271477 AREA 5 1 89 1 1 3 366 1074 47 29 35.428741 RAMLO 5 1 89 1 1 4 421 1078 113 16 74.856308 TRAN 5 1 89 1 1 5 475 1074 27 29 34.486725 ATW 5 1 89 1 1 6 511 1074 18 29 51.521931 $% 5 1 89 1 1 7 541 1078 35 18 86.361618 12/0: 2 1 90 0 0 0 602 1079 35 14 -1 3 1 90 1 0 0 602 1079 35 14 -1 4 1 90 1 1 0 602 1079 35 14 -1 5 1 90 1 1 1 602 1079 35 14 38.412323 iD 2 1 91 0 0 0 237 1100 448 20 -1 3 1 91 1 0 0 237 1100 448 20 -1 4 1 91 1 1 0 237 1100 448 20 -1 5 1 91 1 1 1 233 1096 83 31 29.500837 PAMOKITTE 5 1 91 1 1 2 326 1096 42 31 0.000000 CTY 5 1 91 1 1 3 375 1096 42 31 63.090027 KANS 5 1 91 1 1 4 424 1096 34 31 92.612999 CITY 5 1 91 1 1 5 468 1096 39 31 25.176811 EAWS 5 1 91 1 1 6 514 1096 30 31 36.783424 REW 5 1 91 1 1 7 550 1096 22 31 76.777565 5% 5 1 91 1 1 8 581 1096 71 31 0.000000 OR1/72 5 1 91 1 1 9 661 1096 27 31 32.713104 MAS 2 1 92 0 0 0 1783 1100 20 15 -1 3 1 92 1 0 0 1783 1100 20 15 -1 4 1 92 1 1 0 1783 1100 20 15 -1 5 1 92 1 1 1 1783 1100 20 15 0.540180 j22) 2 1 93 0 0 0 256 1133 5 6 -1 3 1 93 1 0 0 256 1133 5 6 -1 4 1 93 1 1 0 256 1133 5 6 -1 5 1 93 1 1 1 256 1133 5 6 58.711201 0 2 1 94 0 0 0 285 1127 243 17 -1 3 1 94 1 0 0 285 1127 243 17 -1 4 1 94 1 1 0 285 1127 243 17 -1 5 1 94 1 1 1 285 1129 27 13 27.404757 609 5 1 94 1 1 2 319 1121 45 31 81.559235 AUTH 5 1 94 1 1 3 371 1121 32 31 84.533875 REV 5 1 94 1 1 4 410 1121 32 31 84.533875 REV 5 1 94 1 1 5 448 1129 9 15 42.910675 S 5 1 94 1 1 6 462 1127 66 17 28.581724 CODON 2 1 95 0 0 0 553 1132 3 7 -1 3 1 95 1 0 0 553 1132 3 7 -1 4 1 95 1 1 0 553 1132 3 7 -1 5 1 95 1 1 1 553 1132 3 7 65.460793 0 2 1 96 0 0 0 588 1127 64 15 -1 3 1 96 1 0 0 588 1127 64 15 -1 4 1 96 1 1 0 588 1127 64 15 -1 5 1 96 1 1 1 588 1123 33 29 0.000000 2-24 5 1 96 1 1 2 629 1123 23 29 37.238293 Fa 2 1 97 0 0 0 1572 1126 72 13 -1 3 1 97 1 0 0 1572 1126 72 13 -1 4 1 97 1 1 0 1572 1126 72 13 -1 5 1 97 1 1 1 1572 1126 72 13 7.960548 127f0TfA 5 1 97 1 1 2 1635 1122 14 26 52.645969 1) 2 1 98 0 0 0 1728 1124 75 17 -1 3 1 98 1 0 0 1728 1124 75 17 -1 4 1 98 1 1 0 1728 1124 75 17 -1 5 1 98 1 1 1 1728 1124 75 17 48.358749 01.06/72] 2 1 99 0 0 0 1572 1150 18 15 -1 3 1 99 1 0 0 1572 1150 18 15 -1 4 1 99 1 1 0 1572 1150 18 15 -1 5 1 99 1 1 1 1572 1150 18 15 85.258904 13, 2 1 100 0 0 0 1728 1150 75 16 -1 3 1 100 1 0 0 1728 1150 75 16 -1 4 1 100 1 1 0 1728 1150 75 16 -1 5 1 100 1 1 1 1728 1150 75 16 51.096413 0106/27) 2 1 101 0 0 0 228 1150 499 21 -1 3 1 101 1 0 0 228 1150 499 21 -1 4 1 101 1 1 0 228 1150 499 21 -1 5 1 101 1 1 1 224 1146 55 31 20.622759 COSTA 5 1 101 1 1 2 288 1146 18 31 81.498085 ST 5 1 101 1 1 3 314 1146 41 31 77.128822 DEPT 5 1 101 1 1 4 366 1146 52 31 0.000000 MAGMT 5 1 101 1 1 5 425 1146 40 31 58.115044 SYCS 5 1 101 1 1 6 472 1146 37 31 32.922741 CTES 5 1 101 1 1 7 515 1146 40 31 82.339371 COPS 5 1 101 1 1 8 562 1153 22 15 86.072464 5% 5 1 101 1 1 9 612 1156 80 15 12.408457 LE/C1/12-CA 5 1 101 1 1 10 701 1146 30 31 55.976501 MAN, 2 1 102 0 0 0 264 1175 406 20 -1 3 1 102 1 0 0 264 1175 406 20 -1 4 1 102 1 1 0 264 1175 406 20 -1 5 1 102 1 1 1 260 1171 48 30 42.147728 RSITY 5 1 102 1 1 2 317 1171 41 30 79.677887 COLO 5 1 102 1 1 3 366 1177 100 15 0.000000 ENTER 5 1 102 1 1 4 422 1171 43 30 0.000000 PASE 5 1 102 1 1 5 475 1171 25 30 59.734589 SVS 5 1 102 1 1 6 507 1171 28 30 62.705963 ATV 5 1 102 1 1 7 545 1171 20 30 68.496147 $% 5 1 102 1 1 8 571 1175 75 20 0.000000 DRATI/I? 2 1 103 0 0 0 1728 1174 75 16 -1 3 1 103 1 0 0 1728 1174 75 16 -1 4 1 103 1 1 0 1728 1174 75 16 -1 5 1 103 1 1 1 1728 1174 75 16 54.204178 0108/72] 2 1 104 0 0 0 212 1201 457 22 -1 3 1 104 1 0 0 212 1201 457 22 -1 4 1 104 1 1 0 212 1201 457 22 -1 5 1 104 1 1 1 212 1202 211 17 27.238646 MOOVER 5 1 104 1 1 2 295 1197 23 30 37.277798 18 5 1 104 1 1 3 328 1197 30 30 75.367538 BAG 5 1 104 1 1 4 368 1197 18 30 78.204170 ED 5 1 104 1 1 5 395 1197 26 30 40.114594 SP1 5 1 104 1 1 6 430 1202 26 15 59.253891 TAN 5 1 104 1 1 7 465 1197 31 30 83.451569 SCH 5 1 104 1 1 8 503 1197 28 30 24.656839 ANY 5 1 104 1 1 9 540 1202 18 15 57.251854 5% 5 1 104 1 1 10 568 1201 101 22 55.729874 00/15/24 5 1 104 1 1 11 650 1197 23 30 52.382423 FA, 2 1 105 0 0 0 1572 1199 18 15 -1 3 1 105 1 0 0 1572 1199 18 15 -1 4 1 105 1 1 0 1572 1199 18 15 -1 5 1 105 1 1 1 1572 1199 18 15 62.656494 12, 2 1 106 0 0 0 1783 1199 20 15 -1 3 1 106 1 0 0 1783 1199 20 15 -1 4 1 106 1 1 0 1783 1199 20 15 -1 5 1 106 1 1 1 1783 1199 20 15 0.000000 j22| 2 1 107 0 0 0 212 1226 317 21 -1 3 1 107 1 0 0 212 1226 317 21 -1 4 1 107 1 1 0 212 1226 317 21 -1 5 1 107 1 1 1 208 1217 65 35 15.438023 PARES 5 1 107 1 1 2 280 1217 39 35 74.553391 CTY 5 1 107 1 1 3 327 1228 91 13 75.801003 TEM 5 1 107 1 1 4 365 1217 18 35 62.276001 AD 5 1 107 1 1 5 394 1217 22 35 81.642845 9% 5 1 107 1 1 6 424 1226 105 21 0.000000 1OYMI/22 5 1 107 1 1 7 508 1217 24 35 85.006813 AD 2 1 108 0 0 0 1572 1223 18 15 -1 3 1 108 1 0 0 1572 1223 18 15 -1 4 1 108 1 1 0 1572 1223 18 15 -1 5 1 108 1 1 1 1572 1223 18 15 69.044212 12, 2 1 109 0 0 0 1728 1223 18 15 -1 3 1 109 1 0 0 1728 1223 18 15 -1 4 1 109 1 1 0 1728 1223 18 15 -1 5 1 109 1 1 1 1728 1223 18 15 46.313572 01, 2 1 110 0 0 0 1783 1223 20 15 -1 3 1 110 1 0 0 1783 1223 20 15 -1 4 1 110 1 1 0 1783 1223 20 15 -1 5 1 110 1 1 1 1783 1223 20 15 66.185944 22) 2 1 111 0 0 0 212 1250 449 21 -1 3 1 111 1 0 0 212 1250 449 21 -1 4 1 111 1 1 0 212 1250 449 21 -1 5 1 111 1 1 1 208 1241 50 35 14.290915 KLARM 5 1 111 1 1 2 269 1241 42 35 54.756714 CNTY 5 1 111 1 1 3 321 1241 45 35 83.152061 WASH 5 1 111 1 1 4 377 1241 30 35 83.152061 PUS 5 1 111 1 1 5 415 1241 35 35 89.131493 UTIL 5 1 111 1 1 6 461 1241 22 35 0.000000 DG 5 1 111 1 1 7 499 1241 30 35 77.389091 NEV 5 1 111 1 1 8 537 1241 19 35 36.735207 5% 5 1 111 1 1 9 566 1241 71 35 26.832905 C1A01/22 5 1 111 1 1 10 645 1241 18 35 39.419144 1 2 1 112 0 0 0 1572 1247 72 21 -1 3 1 112 1 0 0 1572 1247 72 21 -1 4 1 112 1 1 0 1572 1247 72 21 -1 5 1 112 1 1 1 1572 1247 72 21 0.000000 wg 2 1 113 0 0 0 1783 1247 20 15 -1 3 1 113 1 0 0 1783 1247 20 15 -1 4 1 113 1 1 0 1783 1247 20 15 -1 5 1 113 1 1 1 1783 1247 20 15 58.808220 2? 2 1 114 0 0 0 212 1274 141 17 -1 3 1 114 1 0 0 212 1274 141 17 -1 4 1 114 1 1 0 212 1274 141 17 -1 5 1 114 1 1 1 212 1274 141 17 0.000000 PFPER 5 1 114 1 1 2 272 1270 35 31 81.681801 INC. 5 1 114 1 1 3 316 1274 37 17 82.881348 CMN 2 1 115 0 0 0 1783 1273 20 15 -1 3 1 115 1 0 0 1783 1273 20 15 -1 4 1 115 1 1 0 1783 1273 20 15 -1 5 1 115 1 1 1 1783 1273 20 15 60.107605 th 2 1 116 0 0 0 271 1300 297 15 -1 3 1 116 1 0 0 271 1300 297 15 -1 4 1 116 1 1 0 271 1300 297 15 -1 5 1 116 1 1 1 271 1300 44 15 37.853741 ONC 5 1 116 1 1 2 319 1300 62 15 78.945213 PUBLIC 5 1 116 1 1 3 387 1300 69 15 27.288288 LINITEO 5 1 116 1 1 4 460 1300 63 15 62.559456 COMMA 5 1 116 1 1 5 528 1300 40 15 25.319738 Cat 2 1 117 0 0 0 1570 1271 72 41 -1 3 1 117 1 0 0 1570 1271 72 41 -1 4 1 117 1 1 0 1570 1271 72 41 -1 5 1 117 1 1 1 1570 1271 72 41 22.267447 apg 2 1 118 0 0 0 2020 1933 33 12 -1 3 1 118 1 0 0 2020 1933 33 12 -1 4 1 118 1 1 0 2020 1933 33 12 -1 5 1 118 1 1 1 2020 1933 33 12 18.386059 — 5",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 23,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 24,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 24,
-      "field": "tx_type/amount",
-      "read": "Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 25,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 25,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 26,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 26,
-      "field": "tx_type/amount",
-      "read": "Purchase, $100,001-$250,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 27,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 27,
-      "field": "tx_type/amount",
-      "read": "Purchase, $50,001-$100,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 28,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 28,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 29,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 29,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 30,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 30,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
       "row": 31,
       "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 31,
-      "field": "tx_type/amount",
-      "read": "Purchase, $15,001-$50,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 32,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 32,
-      "field": "tx_type/amount",
-      "read": "Purchase, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 33,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 33,
-      "field": "tx_type/amount",
-      "read": "Sale, $50,001-$100,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 34,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 34,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
-    },
-    {
-      "row": 35,
-      "field": "asset_name",
-      "read": "Unclear asset name",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 35,
-      "field": "tx_type/amount",
-      "read": "Partial Sale, $1,001-$15,000",
-      "note": "Checkboxes recovered by pixel sampling on a tight scan grid; verify against hires image if exact bucket is critical."
+      "read": "NYC TRANSITIONAL FINANCE AUTH REV 5.0000% 08/01/22",
+      "note": "Issuer and maturity are legible; final printed bond suffix remains too compressed to transcribe confidently."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium"
 }

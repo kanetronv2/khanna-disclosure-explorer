@@ -138,9 +138,9 @@ sales_page(14, [
     2: {"partial": True, "date": "04/04/2025"}, 3: {"partial": True, "date": "04/04/2025"},
     4: {"partial": True, "date": "04/03/2025"}, 5: {"cap": True, "partial": True, "date": "04/10/2025"},
     6: {"partial": True, "date": "04/04/2025"}, 7: {"partial": True, "date": "04/03/2025"},
-    8: {"date": "04/09/2025"}, 9: {"date": "04/08/2025"},
+    8: {"date": "04/09/2025"}, 9: {"partial": True, "date": "04/08/2025"},
     10: {"cap": True, "partial": True, "date": "04/28/2025"}, 11: {"cap": True, "partial": True, "date": "04/23/2025"},
-    12: {"type": "Purchase", "date": "04/17/2025"}, 13: {"partial": True, "date": "04/30/2025"},
+    12: {"type": "Sale", "cap": True, "date": "04/17/2025"}, 13: {"partial": True, "date": "04/30/2025"},
     14: {"partial": True, "date": "04/11/2025"}, 15: {"cap": True, "partial": True, "date": "04/02/2025"},
     16: {"cap": True, "partial": True, "date": "04/24/2025"},
 })
@@ -257,3 +257,38 @@ rewrite(48, [
     tx("ABBVIE INC COM USD0.01", "DC", "Sale", "04/04/2025", "04/07/2025", cap=True),
     tx("ALPHABET INC CAP STK CL A", "DC", "Purchase", "04/04/2025", "04/07/2025"),
 ])
+
+
+def complete_checkbox_fields():
+    """Canonicalize every scan-encoded Partial Sale mark in this PTR."""
+    transactions = partial_true = cap_true = 0
+    for path in sorted(PTR.glob("page-*.json")):
+        data = json.loads(path.read_text())
+        changed = False
+        for row in data.get("rows", []):
+            if row.get("kind") != "tx":
+                continue
+            transactions += 1
+            assert isinstance(row.get("cap_gain_over_200"), bool), path
+            marked_partial = (
+                row.get("partial_sale") is True
+                or row.get("tx_type") == "Partial Sale"
+            )
+            if row.get("tx_type") == "Partial Sale":
+                row["tx_type"] = "Sale"
+                changed = True
+            if row.get("partial_sale") is not marked_partial:
+                row["partial_sale"] = marked_partial
+                changed = True
+            cap_true += row["cap_gain_over_200"]
+            partial_true += marked_partial
+        if changed:
+            path.write_text(json.dumps(data, indent=2) + "\n")
+    assert transactions == 840
+    print(
+        f"2025-4: transactions={transactions} "
+        f"cap_gain_true={cap_true} partial_sale_true={partial_true}"
+    )
+
+
+complete_checkbox_fields()

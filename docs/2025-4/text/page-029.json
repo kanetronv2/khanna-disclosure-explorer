@@ -13,11 +13,12 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "OKTA INC CMN CLASS A",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/08/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -27,7 +28,8 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -37,7 +39,8 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -47,7 +50,8 @@
       "cap_gain_over_200": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -57,17 +61,19 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "OKTA INC CMN CLASS A",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -77,17 +83,19 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -97,17 +105,19 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PARKER HANNIFIN CORP CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -117,17 +127,19 @@
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ZIMMER BIOMET HOLDINGS INC",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -137,7 +149,8 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -147,37 +160,41 @@
       "cap_gain_over_200": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DUN & BRADSTREET HOLDINGS INC CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/03/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "THE PROGRESSIVE CORPORATION CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "SS&C TECHNOLOGIES HOLDINGS IN CMN",
-      "tx_type": "Partial Sale",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     }
   ],
   "free_text": null,

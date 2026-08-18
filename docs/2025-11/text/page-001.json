@@ -5,14 +5,7 @@
   "page_type": "ptr_cover",
   "filer": "Rohit Khanna",
   "rows": [],
-  "free_text": "**UNITED STATES HOUSE OF REPRESENTATIVES - Periodic Transaction Report**\n\n- **NAME:** Rohit Khanna\n- **OFFICE TELEPHONE:** 202-225-2631\n- [X] Member of the U.S. House of Representatives - State: CA, District: 17\n- [ ] Officer or Employee - Employing Office: (blank)\n- Did you purchase any shares that were allocated as a part of an Initial Public Offering? [ ] Yes  [X] No\n- Initial report checked; amendment unchecked.\n- Date of Report Being Amended: (blank)\n- Received stamp/marking: HAND DELIVERED / Legislative Resource Center, Office of the Clerk, 2025 SEP -3 PM 1:18.\n\nTransaction grid contains only the printed example row (Mega Corp); no real transaction rows on the cover.",
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "received stamp",
-      "read": "2025 SEP -3 PM 1:18",
-      "note": "Stamp text is degraded but legible enough to identify the date/time from the scan."
-    }
-  ],
-  "page_confidence": "medium"
+  "free_text": "**UNITED STATES HOUSE OF REPRESENTATIVES - Periodic Transaction Report**\n\n- **NAME:** Rohit Khanna\n- **OFFICE TELEPHONE:** 202-225-2631\n- [X] Member of the U.S. House of Representatives - State: CA, District: 17\n- [ ] Officer or Employee - Employing Office: (blank)\n- Did you purchase any shares that were allocated as a part of an Initial Public Offering? [ ] Yes  [X] No\n- Initial report checked; amendment unchecked.\n- Date of Report Being Amended: (blank)\n- Received stamp/marking: HAND DELIVERED / Legislative Resource Center, Office of the Clerk, 2025 SEP -9 PM 4:10.\n\nTransaction grid contains only the printed example row (Mega Corp); no real transaction rows on the cover.",
+  "uncertainties": [],
+  "page_confidence": "high"
 }

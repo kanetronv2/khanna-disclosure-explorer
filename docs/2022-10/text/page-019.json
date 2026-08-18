@@ -7,47 +7,47 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "ECOLAB INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "JINTEL CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ACCENTURE PLC OMIN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "(UBERTY GLOBAL PLC. DMN CLASS C",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTEL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ACCENTURE PLC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LIBERTY GLOBAL, PLC. CMN CLASS C",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +55,10 @@
       "asset_name": "INTUIT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,54 +66,54 @@
       "asset_name": "MC DONALDS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/23/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "INTLIT INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$500,001-$1,000,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BLACKROCK, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "[UNKNOWN]"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LAC INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$25,000,001-$50,000,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EDWARDS UFESCIENCES CORPORATI CMN",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BLACKROCK, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "IAC INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "EDWARDS LIFESCIENCES CORPORATI CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,65 +121,65 @@
       "asset_name": "AMERICAN EXPRESS CO. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IPMORGAN CHASE & CO CMN",
+      "asset_name": "JPMORGAN CHASE & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "08/08/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "HILUNOIS TOOL WORKS CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/29/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "KEYCOAPCMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "IPARKER-HANNIFIN-COAP. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LIBERTY GLOBAL, PLE CMN CLASS A",
+      "asset_name": "ILLINOIS TOOL WORKS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KEYCORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LIBERTY GLOBAL, PLC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/28/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,10 +187,10 @@
       "asset_name": "CELANESE CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -198,125 +198,72 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "09/21/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$15,001-$50,000"
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMICRON TECHNOLOGY, INC. CMN",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/14/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IMORGIAN STANLEY CMN",
+      "asset_name": "MORGAN STANLEY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AUTOMATIC DATA PROCESSING INC DMN",
+      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LAMAPHENOL CORP CLA (NEW) CMN CLASS A",
+      "asset_name": "AMPHENOL CORP CL-A (NEW) CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "[ILLEGIBLE]",
+      "owner": "SP",
       "asset_name": "ACTIVISION BLIZZARD, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
-      "notification_date": "[ILLEGIBLE]",
-      "amount": "$15,001-$50,000"
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "owner",
-      "read": "ECOLAB INC. CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "09/28/22 20/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 6,
-      "field": "notification_date",
-      "read": "08/23/22 30/03/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "notification_date",
-      "read": "09/29/22 20/13122",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 8,
-      "field": "amount",
-      "read": "[0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 14]",
-      "note": "amount checkbox not confidently detected"
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "09/21/22",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    },
-    {
-      "row": 23,
-      "field": "owner",
-      "read": "ACTIVISION BLIZZARD, INC CMN",
-      "note": "owner mark not confidently parsed"
-    },
-    {
-      "row": 12,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    },
-    {
-      "row": 23,
-      "field": "notification_date",
-      "read": "10/08/2022",
-      "note": "Existing transcription is after the 2022-10-07 filing stamp and treated as an impossible PTR date without clearer source support."
-    }
+    "All 23 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 251, 252. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-019.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

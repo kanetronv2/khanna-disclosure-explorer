@@ -10,47 +10,85 @@
       "text": "MURA Holdings"
     },
     {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
+    },
+    {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNITEDHEALTH GROUP INC",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
       "date": "09/03/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INC",
+      "asset_name": "BERKSHIRE HATHAWAY INC COM USD0 0033 CLASS B",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "09/04/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "cap_gain_over_200": false,
+      "date": "09/03/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
     },
     {
       "kind": "tx",
-      "owner": "SP",
+      "owner": "DC",
       "asset_name": "UNITEDHEALTH GROUP INC",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "08/03/2025",
-      "notification_date": "10/02/2025",
-      "amount": "$1,001-$15,000"
+      "cap_gain_over_200": false,
+      "date": "09/03/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BERKSHIRE HATHAWAY INC COM USD0 0033 CLASS B",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/03/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "UNITEDHEALTH GROUP INC",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/03/2025",
+      "notification_date": "09/04/2025",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "Apple Vision OCR plus grid-cell checkbox detection",
-      "note": "Dense scan remains degraded; null dates and unusual OCR-normalized asset text are flagged in validation summary before compile."
-    }
+    "All five printed transactions and six account headings were re-verified against PTR scan page 20. Matching annual Schedule B rows supply clean fields; the PTR amendment scan is authoritative for row order, account structure, and 09/04/2025 notification date."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

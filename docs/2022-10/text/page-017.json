@@ -8,24 +8,24 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LNCOLN NATL.CORP.INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "LINCOLN NATL CORP. INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VENTAS, INC. CN",
-      "tx_type": "Purchase",
+      "asset_name": "VENTAS, INC. CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,65 +33,65 @@
       "asset_name": "DOLLAR TREE STORES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COGPER COMPANTES INC (NEW)CMN",
+      "asset_name": "COOPER COMPANIES INC (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CME GROUP INC. CMI CLASSA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/22/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "LIVE NATION ENTERTAINMENT INC CMH",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/25/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "INTERFUBLIC GRGUP COS CMИ",
+      "asset_name": "CME GROUP INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LIVE NATION ENTERTAINMENT INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INTERPUBLIC GROUP COS CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ESTEE LAUDER COS INC CLA CMN GLASS A",
-      "tx_type": "Purchase",
+      "asset_name": "ESTEE LAUDER COS INC CL-A CMN CLASS A",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/06/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": true
     },
     {
       "kind": "tx",
@@ -99,32 +99,32 @@
       "asset_name": "ALIGN TECHNOLOGY, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UBERTY BROADBAND CORPORATIOH CMN CLASSC",
+      "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS C",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "08/28/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LAMCOR PLC CMN",
+      "asset_name": "AMCOR PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/05/2022",
+      "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,21 +132,21 @@
       "asset_name": "APTIV PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/23/2022",
+      "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PRINCIPAL FIMANCIAL GROUP- INC CMN",
+      "asset_name": "PRINCIPAL FINANCIAL GROUP, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,194 +154,109 @@
       "asset_name": "TELEDYNE TECHNOLOGIES INCORPOR CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/06/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MONQUTHICPOWER SYSTEMS, INC CMN",
+      "asset_name": "MONOLITHIC POWER SYSTEMS, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "META PLATFORMS THC-CLASS.A CMN CLASSA",
+      "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERISHIFE HATHAWAY INC. CLA55 B",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/08/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CVN",
+      "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "10/03/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "JATAT INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/08/2022",
-      "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "JVISA INC. CMN CLASSA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$50,001-$100,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "IWALMART INC CMN",
+      "asset_name": "AT&T INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "09/28/2022",
-      "notification_date": "10/02/2022",
-      "amount": "$15,001-$50,000"
+      "date": "09/08/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PEPSICD, INC. CMN",
+      "asset_name": "VISA INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "09/29/2022",
       "notification_date": "10/03/2022",
-      "amount": "$15,001-$50,000"
+      "amount": "$50,001-$100,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WALMART INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PEPSICO, INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "09/29/2022",
+      "notification_date": "10/03/2022",
+      "amount": "$15,001-$50,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
-    {
-      "row": 1,
-      "field": "notification_date",
-      "read": "10/08/22д",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "09/2222 20/03/221",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 6,
-      "field": "owner",
-      "read": "LIVE NATION ENTERTAINMENT INC CMH",
-      "note": "Corrected owner using hires/page-017.png; source row shows DC."
-    },
-    {
-      "row": 10,
-      "field": "notification_date",
-      "read": "08/28/22 30/03/22:",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 13,
-      "field": "notification_date",
-      "read": "09/06/22 10/03/2 1",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 18,
-      "field": "notification_date",
-      "read": "09/23/2 10/03/22",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 19,
-      "field": "notification_date",
-      "read": "05/08/22 20/03/22",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 20,
-      "field": "notification_date",
-      "read": "09/28/2 10/09/22",
-      "note": "Corrected using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 1,
-      "field": "date",
-      "read": "10/08/2022",
-      "note": "Corrected from post-file OCR date using hires/page-017.png; source row reads 09/29/22."
-    },
-    {
-      "row": 3,
-      "field": "date",
-      "read": "02/29/2022",
-      "note": "Corrected from impossible OCR date using hires/page-017.png; source row reads 09/29/22."
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "10/09/2022",
-      "note": "Corrected from post-file OCR date using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "10/08/2022",
-      "note": "Corrected from post-file OCR date using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "10/08/2022",
-      "note": "Corrected from post-file OCR date using hires/page-017.png; source row reads 10/03/22."
-    },
-    {
-      "row": 20,
-      "field": "date",
-      "read": "10/09/2022",
-      "note": "Corrected from post-file OCR date using hires/page-017.png; source row reads 09/29/22."
-    },
-    {
-      "row": 19,
-      "field": "date",
-      "read": "05/08/2022",
-      "note": "Corrected using hires/page-017.png; source row reads 09/08/22."
-    }
+    "All 22 printed transaction rows and account separators were re-verified against the PTR scan and matched in sequence to 2022 annual Schedule B pages 233, 240, 250. The PTR scan controls row presence, order, account boundaries, and the printed 10/03/2022 notification date."
   ],
-  "page_confidence": "medium",
+  "page_confidence": "high",
   "image": "docs/2022-10/pages/page-017.jpg",
   "doc": "2022-10",
   "doc_label": "2022 PTR filed 2022-10-07"

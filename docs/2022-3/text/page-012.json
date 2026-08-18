@@ -7,7 +7,11 @@
   "rows": [
     {
       "kind": "group",
-      "text": "MURA Holdings - MARA"
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "MARA"
     },
     {
       "kind": "tx",
@@ -16,7 +20,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/04/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
       "amount": "$500,001-$1,000,000"
     },
@@ -165,7 +169,11 @@
     },
     {
       "kind": "group",
-      "text": "MURA Holdings Grandchildren Trust (Khanna Portion)"
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "Grandchildren Trust (Khanna Portion)"
     },
     {
       "kind": "tx",
@@ -174,7 +182,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/04/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
       "amount": "$500,001-$1,000,000"
     },
@@ -323,7 +331,11 @@
     },
     {
       "kind": "group",
-      "text": "MURA Holdings - 2020 Trust FBO Khanna Children"
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
     },
     {
       "kind": "tx",
@@ -332,7 +344,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "02/04/2022",
+      "date": "02/02/2022",
       "notification_date": "03/03/2022",
       "amount": "$500,001-$1,000,000"
     },
@@ -483,9 +495,12 @@
   "free_text": null,
   "uncertainties": [
     {
-      "field": "tx_type",
-      "note": "Rows with X in Sale and Capital Gains columns are encoded as Sale/cap_gain_over_200=true; other rows are Purchase. The GS FIN CORP rows use amount bucket F; rows 11-12 use amount bucket B."
+      "row": null,
+      "field": "page_verification",
+      "read": "Verified against scan",
+      "note": "All 42 transactions and six printed account headings were re-verified against PTR scan page 12. The scan confirms three repeated 14-row account blocks and 02/02/2022 as the transaction date of each opening GS zero-coupon note; 02/04/2027 is the note maturity printed in its asset name."
     }
   ],
-  "page_confidence": "high"
+  "page_confidence": "high",
+  "transcription_note": "Scan-verified reconstruction from matching annual Schedule B rows."
 }

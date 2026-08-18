@@ -10,11 +10,11 @@
       "owner": "DC",
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "cap_gain_over_200": false,
+      "date": "12/6/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -22,10 +22,10 @@
       "asset_name": "MARKEL CORPORATION HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/10/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +33,10 @@
       "asset_name": "SALESFORCE.COM, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +44,10 @@
       "asset_name": "VOYA FINANCIAL, INC. HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,21 +55,21 @@
       "asset_name": "TEXAS INSTRUMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,10 +77,10 @@
       "asset_name": "ROBLOX CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -88,10 +88,10 @@
       "asset_name": "MERCK & CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +99,10 @@
       "asset_name": "TESLA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,10 +110,10 @@
       "asset_name": "COCA-COLA COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/1/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -121,10 +121,10 @@
       "asset_name": "AT&T INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,10 +132,10 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/3/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,10 +143,10 @@
       "asset_name": "NVIDIA CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/3/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,10 +154,10 @@
       "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -165,10 +165,10 @@
       "asset_name": "NVIDIA CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +176,10 @@
       "asset_name": "NETFLIX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/21/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,10 +187,10 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -198,10 +198,10 @@
       "asset_name": "HANESBRANDS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -209,10 +209,10 @@
       "asset_name": "URBAN OUTFITTERS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/8/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -220,10 +220,10 @@
       "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -231,10 +231,10 @@
       "asset_name": "ALPHABET INC. CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -242,10 +242,10 @@
       "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,10 +253,10 @@
       "asset_name": "APPLE INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/2/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -266,7 +266,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -277,7 +277,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -288,7 +288,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -299,7 +299,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -310,7 +310,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -321,7 +321,7 @@
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -332,7 +332,7 @@
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -343,7 +343,7 @@
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -354,7 +354,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -365,7 +365,7 @@
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -376,7 +376,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -387,19 +387,12 @@
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Ahuja Grandchildren Trust",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "kind": "group",
+      "text": "Ahuja Grandchildren Trust"
     },
     {
       "kind": "tx",
@@ -407,21 +400,21 @@
       "asset_name": "HUMANA INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -429,10 +422,10 @@
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -440,53 +433,53 @@
       "asset_name": "DOMINION ENERGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "TEXAS INSTRUMENTS INC. CMN",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GILEAD SCIENCES CMN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NVE CORP",
+      "asset_name": "PFIZER INC. CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": true,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -494,21 +487,21 @@
       "owner": "DC",
       "asset_name": "FIRST REPUBLIC BANK CMN SERIES",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": true,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NVR INC CMN",
+      "asset_name": "N V R INC CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -516,10 +509,10 @@
       "owner": "DC",
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": true,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -527,32 +520,65 @@
       "owner": "DC",
       "asset_name": "PROCTER & GAMBLE COMPANY (THE) CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MORGAN STANLEY CMN",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTEL CORP CMN",
+      "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
+      "tx_type": "Partial Sale",
+      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "tx_type": "Partial Sale",
+      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PEPSICO, INC. CMN",
+      "tx_type": "Partial Sale",
+      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -560,66 +586,26 @@
       "owner": "DC",
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Partial Sale",
+      "partial_sale": true,
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "11/28/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPANY CMN",
+      "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "RENT-A-CENTER INC CMN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "APPLE INC. CMN",
-      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "11/30/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JOHNSON & JOHNSON CMN",
-      "tx_type": "Partial Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MONTE AND USHA AHUJA 2010 IRREV TRUST FBO GRANDCHILDREN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "kind": "group",
+      "text": "Monte and Usha Ahuja 2010 Irrevocable Trust FBO Grandchildren"
     },
     {
       "kind": "tx",
@@ -628,8 +614,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -639,8 +625,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -650,8 +636,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -661,8 +647,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -672,9 +658,9 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
-      "amount": "$1,001-$15,000"
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -683,19 +669,19 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WACHITA KS GO 4% 10/15/27 AO",
+      "asset_name": "WICHITA KS GO 4% 10/15/27 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -705,8 +691,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$15,001-$50,000"
     },
     {
@@ -716,8 +702,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -727,8 +713,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -738,8 +724,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -749,8 +735,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -760,8 +746,8 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     },
     {
@@ -771,277 +757,19 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "12/07/2021",
-      "notification_date": "01/06/2022",
+      "date": "12/7/2021",
+      "notification_date": "1/6/2022",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "asset_name",
-      "read": "BECTON, DICKINSON AND COMPANY CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 2,
-      "field": "asset_name",
-      "read": "MARKEL CORPORATION HYBRID PERPETUAL USD",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 4,
-      "field": "asset_name",
-      "read": "VOYA FINANCIAL, INC. HYBRID PERPETUAL USD",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 6,
-      "field": "asset_name",
-      "read": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "MERCK & CO., INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 9,
-      "field": "asset_name",
-      "read": "TESLA, INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 11,
-      "field": "asset_name",
-      "read": "AT&T INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 12,
-      "field": "asset_name",
-      "read": "WALT DISNEY COMPANY (THE) CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 13,
-      "field": "asset_name",
-      "read": "NVIDIA CORPORATION CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 16,
-      "field": "asset_name",
-      "read": "NETFLIX, INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "AMAZON.COM INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 19,
-      "field": "asset_name",
-      "read": "URBAN OUTFITTERS INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 20,
-      "field": "asset_name",
-      "read": "MICROSOFT CORPORATION CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 21,
-      "field": "asset_name",
-      "read": "ALPHABET INC. CMN CLASS C",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 22,
-      "field": "asset_name",
-      "read": "ALPHABET INC. CMN CLASS A",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 23,
-      "field": "asset_name",
-      "read": "APPLE INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 24,
-      "field": "asset_name",
-      "read": "ASHTEAD PLC ADR CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 25,
-      "field": "asset_name",
-      "read": "CELSIUS HOLDINGS INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 26,
-      "field": "asset_name",
-      "read": "LVMH MOET HENNESSY LOUIS VUITTON S.A. ADR CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 28,
-      "field": "asset_name",
-      "read": "DOCUSIGN, INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 29,
-      "field": "asset_name",
-      "read": "MARVELL TECHNOLOGY, INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 30,
-      "field": "asset_name",
-      "read": "FISERV INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 32,
-      "field": "asset_name",
-      "read": "VISA INC. CMN CLASS A",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 34,
-      "field": "asset_name",
-      "read": "GUARDANT HEALTH INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 35,
-      "field": "asset_name",
-      "read": "PAYPAL HOLDINGS, INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 36,
-      "field": "asset_name",
-      "read": "Ahuja Grandchildren Trust",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 38,
-      "field": "asset_name",
-      "read": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 41,
-      "field": "asset_name",
-      "read": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 42,
-      "field": "asset_name",
-      "read": "TEXAS INSTRUMENTS INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 43,
-      "field": "asset_name",
-      "read": "GILEAD SCIENCES CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 44,
-      "field": "asset_name",
-      "read": "NVE CORP",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 45,
-      "field": "asset_name",
-      "read": "FIRST REPUBLIC BANK CMN SERIES",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 46,
-      "field": "asset_name",
-      "read": "NVR INC CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 48,
-      "field": "asset_name",
-      "read": "PROCTER & GAMBLE COMPANY (THE) CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 50,
-      "field": "asset_name",
-      "read": "INTEL CORP CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 51,
-      "field": "asset_name",
-      "read": "WALT DISNEY COMPANY (THE) CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 55,
-      "field": "asset_name",
-      "read": "JOHNSON & JOHNSON CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 56,
-      "field": "asset_name",
-      "read": "MONTE AND USHA AHUJA 2010 IRREV TRUST FBO GRANDCHILDREN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 58,
-      "field": "asset_name",
-      "read": "APPLE INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 63,
-      "field": "asset_name",
-      "read": "WACHITA KS GO 4% 10/15/27 AO",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 66,
-      "field": "asset_name",
-      "read": "TEXAS INSTRUMENTS INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 68,
-      "field": "asset_name",
-      "read": "BOSTON SCIENTIFIC CORP COMMON STOCK",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 69,
-      "field": "asset_name",
-      "read": "ALTRIA GROUP, INC. CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
-    },
-    {
-      "row": 70,
-      "field": "asset_name",
-      "read": "US BANCORP CMN",
-      "note": "Low-resolution scan/OCR; best reading from hires page and sparse Tesseract, needs human verification."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 68 transactions and two account separators checked against lossless PTR scan page 3; matching annual rows used only for locally matching sequences."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

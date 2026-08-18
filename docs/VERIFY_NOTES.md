@@ -259,3 +259,90 @@ date. Page 010's three repeated 12-row blocks were independently matched and reo
 their printed sequence. The rebuild replaces pages 003–010 with 534 scan-verified
 transactions, preserves the five already verified page-002 transactions, and leaves the
 document with 539 transactions and no text-quality finding for `2022-4`.
+
+**Remaining transaction-text audit rebuilds (Aug 2026):** the corpus-wide high-signal
+transaction-name audit exposed several filings whose defects extended well beyond the rows
+that triggered a warning. Each filing below was therefore checked page-by-page against its
+PTR scan, with matching annual Schedule B rows used as clean structured transcriptions only
+after the scan's sequence and endpoints agreed:
+
+- `docs/2022-5` pages 003–016 were rebuilt as 1,002 scan-matched transactions. The old
+  transcription had omitted 648 printed rows; the completed document contains 1,081
+  transactions. The 72 genuine date-after-notification rows printed on pages 017–018 remain
+  verbatim.
+- `docs/2022-6` pages 002–067 were rebuilt as 1,166 transactions with eight trust separators,
+  restoring 130 net rows and resolving 1,036 unknown dates, 52 unknown owners, and 160 unknown
+  amounts. The PTR scan controls the reordered Citigroup/XSP rows, six May rows represented
+  differently in the annual filing, the repeated Fidelity row, and the ARECO dates and marks.
+- `docs/2022-3` pages 002–012 were rebuilt as 666 transactions with fourteen printed account
+  headings. The old transcription omitted 240 transactions and contained three duplicated OCR
+  rows. Four Goldman Sachs notes on page 011 and the page-012 transaction dates were read from
+  the PTR scan where the annual sequence conflicted or was absent.
+- `docs/2022-1` pages 003–009 were rebuilt from lossless PDF images as part of a 495-transaction,
+  nine-heading row map, and page 010's six omitted partial-transaction marks were restored.
+  Six false or duplicated transactions were removed and five missing account separators were
+  restored. Page 009 retains one explicitly documented unreadable municipal-bond suffix rather
+  than inferring it from a non-matching annual row.
+- `docs/2021-9` pages 002–009 were rebuilt as 416 transactions with six account headings.
+  Five omitted transactions were restored, fifteen wrong-identity substitutions were corrected,
+  341 placeholder dates were replaced with the legible printed dates, and seventeen previously
+  populated dates were corrected. A second high-resolution pass resolved the remaining
+  PartnerRe/Vodafone and municipal-bond suffixes; no row-level source uncertainty remains.
+- `docs/2022-10` pages 003–032 were rebuilt as 664 transactions, leaving 665 in the document
+  with page 002. Six printed account separators were restored and five annual-only rows absent
+  from the PTR were excluded. Page 002's blacked-out transaction and notification dates remain
+  `[ILLEGIBLE]` rather than guessed. Four unusual purchase rows (Fifth Third, JPMorgan, Corteva,
+  and Regions) visibly have the capital-gain-over-$200 box checked on the filed scan and remain
+  verbatim.
+- `docs/2023-5` was rebuilt as 664 transactions. Nine omitted rows and seven substituted rows
+  were repaired. Two asset cells that genuinely print only `COMMON STOCK` remain verbatim and
+  are recorded as reviewed source exceptions by the text-quality audit.
+- `docs/2025-11` pages 002–015 were rebuilt as 358 transactions, restoring eight printed rows
+  and the filed trust separators. Shifted dates, transaction directions, amount bands, owners,
+  and cap-gain/partial-transaction marks were replaced with the scan-verified values; later
+  annual-only September activity was not imported into the PTR.
+- `docs/2025-12` pages 002–020 were rebuilt as 295 transactions, restoring five omitted rows
+  and fourteen missing account headings. Of the 290 retained rows, 273 required at least one
+  scan-backed field correction. Page 020's separate amendment sequence and 09/04/2025
+  notification date are preserved independently from the main September row run. The American
+  Express row on page 003 has a genuinely blank owner cell on the PTR and remains null with an
+  explicit provenance note.
+
+The text-quality audit now separates scan-verified source anomalies from actionable
+transcription findings. Its patterns were also narrowed where scan review showed legitimate
+filed text: municipal issuer abbreviations containing owner-like codes, `COMMON STOCK CMN`,
+mixed-case brand names, structured-note `Ref=` identifiers, and the filed `[POLAND] X Y`
+issuer name are no longer treated as OCR artifacts.
+
+**PTR checkbox-schema completeness audit (Aug 2026):** the cap-gain and partial-transaction
+columns first appear in this collection on `docs/2020-5`; 2017–2019 PTRs and `docs/2020-1`
+through `docs/2020-4` use the older form and are intentionally exempt. A scan-backed pass over
+the 2020 new-form cohort (`2020-5`, `2020-6`, `2020-8`, `2020-9`, `2020-11`, `2020-12`, and
+`2020-13`) made both booleans explicit on all 1,785 transactions, adding 747 missing cap-gain
+fields and 1,138 canonical partial-sale fields without changing non-boolean data. It preserves
+the filed Purchase+Partial XSP row in `2020-6`, five purchase+capital-gain PUT rows in `2020-8`,
+the genuinely blank SNAP amount in `2020-11`, and the two filed date-after-notification rows in
+`2020-12`. `scripts/build_open_data.py` now fails when a transaction on the newer form lacks
+either explicit boolean or retains the obsolete `partial`/`partial_transaction` key.
+
+The same checkbox pass completed 1,314 missing `partial_sale` fields and 180 missing
+`cap_gain_over_200` fields across `2021-4`, `2021-5`, `2021-7`, `2021-8`, `2021-11`,
+`2022-4`, and `2022-9`. Existing explicit booleans were preserved; missing values came from
+direct scan maps (`2021-7` and the two `2021-8/page-002` rows) or already scan-backed
+`Partial Sale`/`partial_transaction` evidence. The genuine chronology exceptions on
+`2021-11/page-008` and `2022-9/page-002` remain verbatim.
+
+Finally, `2023-10` and `2025-4` received explicit `partial_sale` values on their 646 and 291
+previously incomplete rows. The pass visually confirmed the 29 partial marks in `2023-10` and
+preserved the earlier full-table rebuild. In `2025-4`, scan review rejected six legacy
+`Partial Sale` labels whose partial column is actually blank, restored the marked Baxter row,
+and preserved the MKS sale/cap-gain row as non-partial. Both documents now use canonical
+`tx_type: Sale` plus the separate boolean for partial transactions.
+
+A separate core-field census checked every remaining null/`[UNKNOWN]`/`[ILLEGIBLE]` value on
+PTR transaction rows against the filed form. The residuals are source-authentic: ten
+`2018-13/page-004` rows omit type and amount; `2020-11/page-003` SNAP omits amount;
+`2022-10/page-002` has blacked-out date marks; `2023-1/page-017` Linde and three
+`2025-1/page-032` rows omit amount; and `2025-12/page-003` American Express omits owner. These
+remain explicit limitations rather than inferred values. The same census repaired the legible
+Stryker date on `2023-6/page-028` and Tiger Global date/amount on `2023-9/page-014`.

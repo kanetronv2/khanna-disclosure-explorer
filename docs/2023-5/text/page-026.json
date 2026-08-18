@@ -8,24 +8,35 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EMERA INCORPORATED HYBRID 06/15/2076 USD",
+      "asset_name": "EDISON INTERNATIONAL HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "5/5/2023",
+      "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL",
+      "asset_name": "EMERA INCORPORATED HYBRID 06/15/2076 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "5/5/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BANK OF NEW YORK MELLON CORPOR HYBRID PERPETUAL USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -33,10 +44,10 @@
       "asset_name": "PRUDENTIAL FINANCIAL, INC. HYBRID 05/15/2045 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/4/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -44,10 +55,10 @@
       "asset_name": "AMERICAN INTL GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -55,10 +66,10 @@
       "asset_name": "M&T BANK CORPORATION HYBRID PERPETUAL",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/5/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -66,10 +77,10 @@
       "asset_name": "AIR LEASE CORPORATION HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -77,21 +88,21 @@
       "asset_name": "PARAMOUNT GLOBAL HYBRID 03/30/2082 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/8/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHARLES SCHWAB CORPORATION (TH) HYBRID PERPETUAL",
+      "asset_name": "CHARLES SCHWAB CORPORATION (TH) HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/1/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -99,10 +110,10 @@
       "asset_name": "HCA HEALTHCARE, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -110,21 +121,21 @@
       "asset_name": "TEXAS INSTRUMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL",
+      "asset_name": "HUNTINGTON BANCSHARES INCORPOR HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/5/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -132,10 +143,10 @@
       "asset_name": "LEAR CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/24/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -143,10 +154,21 @@
       "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HUMANA INC. CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "5/10/2023",
+      "notification_date": "6/2/2023",
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -154,21 +176,21 @@
       "asset_name": "STRYKER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALLSTATE CORPORATION (THE) PFD 7.3750 SERIES",
+      "asset_name": "ALLSTATE CORPORATION (THE) PFD 7.3750 SERIES J BEQ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/15/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -176,10 +198,10 @@
       "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -187,10 +209,10 @@
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -198,10 +220,10 @@
       "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -209,10 +231,10 @@
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/10/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -220,10 +242,10 @@
       "asset_name": "HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/2/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -231,10 +253,10 @@
       "asset_name": "ENBRIDGE INC. HYBRID 01/15/2083 USD",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/31/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -242,10 +264,10 @@
       "asset_name": "CENTERPOINT ENERGY, INC HYBRID PERPETUAL USD",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/31/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -253,10 +275,10 @@
       "asset_name": "SEMPRA ENERGY HYBRID PERPETUAL USD",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/31/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
@@ -264,49 +286,31 @@
       "asset_name": "DUKE ENERGY CORPORATION HYBRID PERPETUAL",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/31/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ENERGY TRANSFER OPERATING LP FRN 11/01/2066",
+      "asset_name": "ENERGY TRANSFER OPERATING LP FRN 11/01/2066 USD SER B",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "5/31/2023",
       "notification_date": "6/2/2023",
-      "amount": "$1,001-$15,000"
+      "amount": "$1,001-$15,000",
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "asset_name/date",
-      "read": "EMERA INCORPORATED HYBRID 06/15/2076 USD",
-      "note": "OCR asset text was EMERA INCORPORATED HYBRID; normalized from matching annual Schedule B row (score 0.81)."
-    },
-    {
-      "row": 7,
-      "field": "asset_name/date",
-      "read": "PARAMOUNT GLOBAL HYBRID 03/30/2082 USD",
-      "note": "OCR asset text was PARAMOUNT GLOBAL HY8RID; normalized from matching annual Schedule B row (score 0.75)."
-    },
-    {
-      "row": 21,
-      "field": "asset_name/date",
-      "read": "ENBRIDGE INC. HYBRID 01/15/2083 USD",
-      "note": "OCR asset text was ENBRIDGE INC. HYBRID; normalized from matching annual Schedule B row (score 0.76)."
-    },
-    {
-      "row": 25,
-      "field": "asset_name/date",
-      "read": "ENERGY TRANSFER OPERATING LP FRN 11/01/2066",
-      "note": "OCR asset text was lenency TRANSFER OPERATING LP FAN; normalized from matching annual Schedule B row (score 0.77)."
+      "row": "page",
+      "field": "verification",
+      "read": "scan-verified",
+      "note": "All 27 transactions checked against PTR scan page 26; omitted Edison International and Humana rows restored in printed order."
     }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

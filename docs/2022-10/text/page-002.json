@@ -6,6 +6,10 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "M&R Trust Partnership"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "Enphase Energy",
@@ -23,14 +27,15 @@
       "row": 1,
       "field": "date",
       "read": "",
-      "note": "date was non-date text or not confidently OCR parsed"
+      "note": "The transaction date is blacked out on the filed scan."
     },
     {
       "row": 1,
       "field": "notification_date",
       "read": "",
-      "note": "notification date was non-date text or not confidently OCR parsed"
-    }
+      "note": "The notification date is blacked out on the filed scan."
+    },
+    "The printed M&R Trust Partnership account separator, owner, sale and capital-gain marks, and amount were re-verified against the PTR scan."
   ],
   "page_confidence": "medium",
   "image": "docs/2022-10/pages/page-002.jpg",

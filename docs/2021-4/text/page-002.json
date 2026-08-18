@@ -15,7 +15,7 @@
       "asset_name": "Motorola Solutions Inc.",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/14/2021",
       "notification_date": "05/06/2021",
       "amount": "$1,001-$15,000"
@@ -26,7 +26,7 @@
       "asset_name": "Motorola Solutions Inc.",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_transaction": true,
+      "partial_sale": true,
       "date": "04/21/2021",
       "notification_date": "05/06/2021",
       "amount": "$1,001-$15,000"
