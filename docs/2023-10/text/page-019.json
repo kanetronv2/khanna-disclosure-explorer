@@ -11,32 +11,29 @@
       "asset_name": "ZIMMER BIOMET HOLDINGS INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/25/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/25/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FISERV, INC, CMN ) *",
+      "asset_name": "FISERV, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMERICAN TOWER CORPORATION cMN )",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -44,21 +41,19 @@
       "asset_name": "ROSS STORES,INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZIMMER BIOMET HOLDINGS INC *",
+      "asset_name": "ZIMMER BIOMET HOLDINGS INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/23/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/25/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -66,10 +61,9 @@
       "asset_name": "PACCAR INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -77,32 +71,29 @@
       "asset_name": "CARRIER GLOBAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MOODY'S CORPORATION CMN *",
+      "asset_name": "MOODY'S CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CMNTAS CORPORATION CMN",
+      "asset_name": "CINTAS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -110,20 +101,28 @@
       "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/11/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTERPUBLIC GROUP COS CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "sp IINTERPUBLIC GROUP COS CMN 10/31/23, 11/06/23 T.ROWE PRICE GROUP, INC, CMN",
+      "asset_name": "T. ROWE PRICE GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -132,9 +131,8 @@
       "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -143,9 +141,8 @@
       "asset_name": "AGILENT TECHNOLOGIES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -154,9 +151,8 @@
       "asset_name": "METLIFE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -165,38 +161,37 @@
       "asset_name": "T-MOBILE US, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "1US Equity Stack ) )",
+      "asset_name": "US Equity Stock",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THERMO FISHER SCIENTIFICMNCCMN",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 18 printed transaction rows were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 288 and 289); the PTR's 11/06/2023 notification date is retained."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

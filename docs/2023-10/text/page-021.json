@@ -8,23 +8,21 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INGERSOLL RAND INC CMN )",
+      "asset_name": "INGERSOLL RAND INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COPART, INC. CMN )",
+      "asset_name": "COPART, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -33,9 +31,8 @@
       "asset_name": "DOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -44,9 +41,8 @@
       "asset_name": "SYSCO CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -55,9 +51,8 @@
       "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -66,42 +61,38 @@
       "asset_name": "HP INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "REGIONS FINANCIAL CORPORATION CMN )",
+      "asset_name": "REGIONS FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FORTIVE CORPORATION CMN 10/210/23",
+      "asset_name": "FORTIVE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/06/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ABBOTTLABORATORIESCMN K",
+      "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -110,20 +101,18 @@
       "asset_name": "MONSTER BEVERAGE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "REALTY INCOME CORPORATION CMN )",
+      "asset_name": "REALTY INCOME CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -132,9 +121,8 @@
       "asset_name": "OMNICOM GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -143,9 +131,8 @@
       "asset_name": "XYLEM INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -154,9 +141,8 @@
       "asset_name": "DISCOVER FINANCIAL SERVICES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -165,20 +151,18 @@
       "asset_name": "HOLOGIC INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NETAPP, INC. CMN )",
+      "asset_name": "NETAPP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -187,27 +171,27 @@
       "asset_name": "DARDEN RESTAURANTS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNGLOGY, INC. CMN %",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 18 printed transaction rows were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 289 and 290); the PTR's 11/06/2023 notification date is retained."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

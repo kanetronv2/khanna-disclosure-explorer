@@ -11,31 +11,28 @@
       "asset_name": "DARDEN RESTAURANTS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ELILILLY & COCMN",
+      "asset_name": "ELI LILLY & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "C.H. ROBINSON WORLDWIDE, INC icMN",
+      "asset_name": "C.H. ROBINSON WORLDWIDE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -44,9 +41,8 @@
       "asset_name": "NEWMONT CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -55,9 +51,8 @@
       "asset_name": "PACCAR INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -66,9 +61,8 @@
       "asset_name": "INTERNATIONAL PAPER CO. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -77,20 +71,18 @@
       "asset_name": "CORNING INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTL BUSINESS MACMNES CORPCMN )",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -99,9 +91,8 @@
       "asset_name": "ORGANON & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -110,9 +101,8 @@
       "asset_name": "U.S. BANCORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -121,20 +111,18 @@
       "asset_name": "T. ROWE PRICE GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMPHENOL CORP CL-A (NEW) CMN ICLASSA",
+      "asset_name": "AMPHENOL CORP CL-A (NEW) CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -143,20 +131,18 @@
       "asset_name": "CHUBB LIMITED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICRON TECHNOLOGY, INC, CMN",
+      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -165,49 +151,47 @@
       "asset_name": "ALPHABET INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RANE TECHNOLOGIES PUBLIC IMT CMN )",
+      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BIO-TECHNE CORPORATION CMN )",
+      "asset_name": "BIO-TECHNE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTL.FLAVORS & FRAGRANCE CMN",
+      "asset_name": "INTL FLAVORS & FRAGRANCE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/02/23",
-      "notification_date": "11/06/23",
+      "date": "10/2/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 18 printed transaction rows were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 214 and 215); the PTR's 11/06/2023 notification date is retained."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

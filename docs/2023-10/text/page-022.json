@@ -8,23 +8,21 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NORTHERN TRUST CORP CMN )",
+      "asset_name": "NORTHERN TRUST CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CITIZENS FINANCIAL GROUP, INC.CMN",
+      "asset_name": "CITIZENS FINANCIAL GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -33,9 +31,8 @@
       "asset_name": "YUM BRANDS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -44,42 +41,38 @@
       "asset_name": "W.W. GRAINGER INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WELLS FARGO & CO (NEW) CMN )",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RESMED INC. CMN )",
+      "asset_name": "RESMED INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CSX CORPORATION CMN : )",
+      "asset_name": "CSX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -88,42 +81,28 @@
       "asset_name": "MERCK & CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COOPER COMPANIES INC (NEW CMN",
+      "asset_name": "COOPER COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN )",
+      "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "jELEVANCE HEALTH INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -132,9 +111,18 @@
       "asset_name": "ELEVANCE HEALTH INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ELEVANCE HEALTH INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -143,9 +131,8 @@
       "asset_name": "UNITED RENTALS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -154,20 +141,18 @@
       "asset_name": "MERCK & CO., INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VERIZON COMMUNICATIONS, INC CMN",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -176,20 +161,18 @@
       "asset_name": "NETFLIX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE TRAVELERS COMPANIES, INCCMN",
+      "asset_name": "THE TRAVELERS COMPANIES, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/10/23",
-      "notification_date": "11/06/23",
+      "date": "10/10/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -198,16 +181,17 @@
       "asset_name": "DEXCOM, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 18 printed transaction rows were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows plus scan-only PTR rows (annual pp. 290 and 291); the PTR's 11/06/2023 notification date is retained."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

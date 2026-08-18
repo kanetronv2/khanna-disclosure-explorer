@@ -230,3 +230,12 @@ with the printed transaction dates, and 17 omitted transactions were restored. E
 page records scan verification and high page confidence; the resulting document contains
 615 transactions, and the catalog text-quality audit reports no high-signal artifact finding
 for `2026-5`.
+
+**`docs/2023-10` transaction-table re-verification (Aug 2026):** pages 002–040 were read
+against the filed PTR scans and aligned to the matching 2023 annual Schedule B rows. The PTR
+scans remained authoritative for row presence, account separators, notification dates, and
+the several PTR-only transactions absent from the annual form. The rebuild removed OCR grid
+debris and split-row fragments, corrected transaction directions and amount bands, restored
+four omitted transactions, and restored the printed account separators. The 39 transaction
+pages now contain 657 transactions, have high page confidence, produce no text-quality
+finding for `2023-10`, and produce no date-after-notification anomaly.

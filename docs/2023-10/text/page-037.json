@@ -8,173 +8,184 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "juso",
-      "tx_type": "Purchase",
+      "asset_name": "XCEL ENERGY INC 2.6% 12/01/2029 USD",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/11/23",
-      "notification_date": "11/06/23",
+      "date": "10/11/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "10/5/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JTRUIST FINANCIAL CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/05/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "AMERICAN INTL GROUP, INC. CMN !",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/11/23",
-      "notification_date": "11/06/23",
+      "asset_name": "AMERICAN INTL GROUP, INC. CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/11/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PARKER-HANNIFIN CORP. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/12/23",
-      "notification_date": "11/06/23",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/12/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARRIER GLGBAL CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/27/23",
-      "notification_date": "11/06/23",
+      "asset_name": "CARRIER GLOBAL CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/27/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMN ) 11/06/28",
-      "tx_type": "Purchase",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/09/23",
-      "notification_date": "11/06/23",
+      "date": "10/6/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "M & R TP Primary"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Dé /12/01/28-CA JO 10/23/23) 11/06/23 OHIO ST GO 5% 09/01/29 MS",
+      "asset_name": "OHIO ST WTR DEV AUTH REV REV 5% 12/01/28-CA J",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/19/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/23/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST SPL OBLIG REV 5.0000% 02/02/30 FA )",
+      "asset_name": "OHIO ST GO 5% 09/01/29 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/30/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/19/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIG ST WTR DEV AUTH WTR REV 5% 12/01/30-CA JD",
+      "asset_name": "OHIO ST SPL OBLIG REV 5.000% 02/01/30 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/23/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/30/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 06/01/26 JO",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 12/01/30-CA J",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/23/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/23/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD",
+      "asset_name": "OHIO ST SPL OBLIG REV 5.000% 10/01/26 AO",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/26/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/23/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GREEN BAY WIS HSG AUTH ASG REV REV 4.7500% 04/02/S5-CAAQ",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5% 06/01/26 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/19/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/23/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL US",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "10/26/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$250,001-$500,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "GREEN BAY WIS HSG AUTH HSG REV REV 4.7500%",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "10/19/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$250,001-$500,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/26/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/26/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "VISA INC. CMN CLASS A",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/26/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/26/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMAZON.COM INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/26/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "date": "10/26/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$50,001-$100,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 17 printed transaction rows and the account separator were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 316, 321); the PTR's 11/06/2023 notification date is retained. Two rows merged into adjacent OCR text were restored."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

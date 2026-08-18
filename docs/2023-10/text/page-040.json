@@ -6,10 +6,14 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "MURA Holdings — RIRA"
+    },
+    {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "Nextera Energy Inc Com",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "10/05/23",
@@ -24,14 +28,18 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "10/05/23",
-      "notification_date": "10/20/23",
+      "notification_date": "10/10/23",
       "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "MURA Holdings — Rohit Khanna Trust (Khanna Ahuja)"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "iran Tout (Kune Porton) Nextera Energy inc Com",
-      "tx_type": "Purchase",
+      "asset_name": "Nextera Energy Inc Com",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "10/05/23",
@@ -50,10 +58,14 @@
       "amount": "$1,001-$15,000"
     },
     {
+      "kind": "group",
+      "text": "MURA Holdings — 2020 Trust FBO Khanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "2020 Truse FOO Khonne Children Nextera Energy inc Com",
-      "tx_type": "Purchase",
+      "asset_name": "Nextera Energy Inc Com",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "10/05/23",
@@ -74,8 +86,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    "All six transaction rows, account headings, transaction types, dates, notification dates, and amount bands were visually verified against the filed page image."
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }

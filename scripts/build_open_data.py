@@ -155,6 +155,10 @@ def text_quality_rules(value):
     """Return conservative, review-oriented flags for visibly corrupted row text."""
     name = clean(value) or ""
     rules = [label for label, pattern in TEXT_QUALITY_PATTERNS.items() if pattern.search(name)]
+    # Preserve the issuer's filed brand styling.  "iShares" is deliberately
+    # camel-cased, rather than a lowercase OCR character embedded in an all-caps name.
+    if name.startswith("iShares ") and "mixed_case_ocr_artifact" in rules:
+        rules.remove("mixed_case_ocr_artifact")
     option_contracts = re.findall(r"\b(?:PUT|CALL)(?:\s|/|\()", name, re.I)
     if len(option_contracts) > 1:
         rules.append("multiple_option_contracts")

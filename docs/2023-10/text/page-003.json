@@ -8,23 +8,21 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ROSS STORES,INC CMN",
+      "asset_name": "ROSS STORES, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/06/23",
-      "notification_date": "11/06/23",
-      "amount": "$1,001-$15,000"
+      "date": "10/6/2023",
+      "notification_date": "11/06/2023",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CARMAX, INC. CMN )",
+      "asset_name": "CARMAX, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -33,9 +31,8 @@
       "asset_name": "CVS HEALTH CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/06/23",
-      "notification_date": "11/06/23",
+      "date": "10/6/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -44,9 +41,8 @@
       "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/06/23",
-      "notification_date": "11/06/23",
+      "date": "10/6/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -55,20 +51,18 @@
       "asset_name": "PEPSICO, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CORPORATION CMN",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/09/23",
-      "notification_date": "11/06/23",
+      "date": "10/9/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -77,9 +71,8 @@
       "asset_name": "EXTRA SPACE STORAGE INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/06/23",
-      "notification_date": "11/06/23",
+      "date": "10/6/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -88,31 +81,28 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CITIGROUP INC, HYBRID PERPETUAL usD )",
+      "asset_name": "CITIGROUP INC. HYBRID PERPETUAL USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/30/23",
-      "notification_date": "11/06/23",
+      "date": "10/30/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TEXAS INSTRUMENTS INC, CMN",
+      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -121,20 +111,18 @@
       "asset_name": "KKR & CO. INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PARKER-HANNIFIN CORP, CMN",
+      "asset_name": "PARKER-HANNIFIN CORP. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -143,9 +131,8 @@
       "asset_name": "REGAL REXNORD CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -154,9 +141,8 @@
       "asset_name": "FERGUSON PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -165,20 +151,18 @@
       "asset_name": "FERGUSON PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/31/23",
-      "notification_date": "11/06/23",
+      "date": "10/31/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WELLS FARGO & CO (NEW) CMN !",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     },
     {
@@ -187,16 +171,17 @@
       "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "10/20/23",
-      "notification_date": "11/06/23",
+      "date": "10/20/2023",
+      "notification_date": "11/06/2023",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
   "uncertainties": [
-    "Typed rows were extracted from OCR and visually spot-checked against the page image; transaction dates/notification dates were normalized where OCR confused 10/xx and 11/06/23.",
-    "Transaction type/amount default to the visible low-dollar row pattern where checkbox OCR was not reliable; page should receive a second visual pass before production compile."
+    {
+      "field": "rows",
+      "note": "All 17 printed transaction rows were visually aligned to the PTR scan and rebuilt from matching annual Schedule B rows (annual pp. 168 and 169); the PTR's 11/06/2023 notification date is retained."
+    }
   ],
-  "page_confidence": "medium"
+  "page_confidence": "high"
 }
