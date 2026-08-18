@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NTERNATIONAL PAPER CO. CMN",
+      "asset_name": "INTERNATIONAL PAPER CO. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PFIZER INC. CMN DC. PFIZER INC. CMN",
+      "asset_name": "PFIZER INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN MEDTRONIC PUBLIC LIMITED COMPA CMN",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,

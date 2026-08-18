@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICROCHIP TECHNOLOGY INCORPORA",
+      "asset_name": "MICROCHIP TECHNOLOGY INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROLLINS INC. REGOFF SCTASK0796638",
+      "asset_name": "ROLLINS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TELEDYNE TECHNOLOGIES INCORPOR CI",
+      "asset_name": "TELEDYNE TECHNOLOGIES INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GEN DIGITAL INC CMN: GEN DIGITAL INC CMN",
+      "asset_name": "GEN DIGITAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NEWS CORPORATION CMN CLASS A SPNEWS CORPORATION CMN CLASS A",
+      "asset_name": "NEWS CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2022CENTENE CORPORATION CMN",
+      "asset_name": "CENTENE CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

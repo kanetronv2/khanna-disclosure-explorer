@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(CANADIAN IMPERIAL BANK OF COMM UNKED TO &P 500 INDEX",
+      "asset_name": "CANADIAN IMPERIAL BANK OF COMMERCE LINKED TO S&P 500 INDEX",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BNP PARIBAS UINKED TO &500 lINDEX",
+      "asset_name": "BNP PARIBAS LINKED TO S&P 500 INDEX",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APPLED MATERIALS INC CMN",
+      "asset_name": "APPLIED MATERIALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,

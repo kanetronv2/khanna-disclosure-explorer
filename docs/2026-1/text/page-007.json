@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE SALESFORCE INC CMN",
+      "asset_name": "SALESFORCE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NTERNATIONALPAPER CO.CMN",
+      "asset_name": "INTERNATIONAL PAPER CO. CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN TMARTIN MARIETTA MATERIALS, INC CMN",
+      "asset_name": "MARTIN MARIETTA MATERIALS, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTURE PLE CMN CLASS A",
+      "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NVRINCMN NVRINCMN",
+      "asset_name": "NVR INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMAZON.COM INCMN",
+      "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -210,7 +210,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BUILDERS FIRSTSOURCE, INC. CMN DCBUILDERS FIRSTSOURCE, INC. CMN",
+      "asset_name": "BUILDERS FIRSTSOURCE, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -221,7 +221,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PC VISA INC. CMN CLASS A",
+      "asset_name": "VISA INC. CMN CLASS A",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,

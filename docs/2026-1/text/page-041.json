@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NIKE CLAS5-8 CMN CLASS 8 SPIINIKE CLAS5-8 CMN CLASS 8",
+      "asset_name": "NIKE CLASS B CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TEXELON CORPORATION CMN",
+      "asset_name": "EXELON CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PHIUIP MORRIS INTL INC CMN",
+      "asset_name": "PHILIP MORRIS INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMERICAN TOWER CORPORATION CMN SP_AMERICAN TOWER CORPORATION CMN",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MOTOROLA SOLUTIONS ING CMN",
+      "asset_name": "MOTOROLA SOLUTIONS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,

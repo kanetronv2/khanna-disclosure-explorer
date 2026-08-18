@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE (GENERAL MOTORS COMPANY CMN",
+      "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, IN EMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DECKERS QUTDOORS CORP CMN",
+      "asset_name": "DECKERS OUTDOOR CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DECKERS QUTDOORS CORP CMN",
+      "asset_name": "DECKERS OUTDOOR CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE THERMO FISHER SCIENTIFIC INC CMN",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SOLVENTUM CORPORATION CMN DC. SOLVENTUM CORPORATION CMN",
+      "asset_name": "SOLVENTUM CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

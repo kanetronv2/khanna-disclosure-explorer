@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NORWEGIAN CRUISE LINE HDG LTD CM",
+      "asset_name": "NORWEGIAN CRUISE LINE HDG LTD CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MARTIN MARIETTA MATERIALS, INC CM",
+      "asset_name": "MARTIN MARIETTA MATERIALS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FIFTH THIRD BANCORP CMN SPFIFTH THIRD BANCORP CMN",
+      "asset_name": "FIFTH THIRD BANCORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HUMANA INC. CMN FIFTH THIRD BANCORP CMN SPFIFTH THIRD BANCORP CMN HUMANA INC. CMN",
+      "asset_name": "HUMANA INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BUNGE GLOBALSA CMN HUMANA INC. CMN HUMANA INC. CMN BUNGE GLOBALSA CMN",
+      "asset_name": "BUNGE GLOBAL SA CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KIMBERLY-CLARK CORPORATLON CMN",
+      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,

@@ -1,34 +1,3 @@
-{
-  "pdf_page": 3,
-  "printed_label": "Rohit Khanna Page 3 of 43",
-  "section": "Periodic Transaction Report - transaction table",
-  "page_type": "ptr",
-  "filer": "Rohit Khanna",
-  "rows": [
-    {
-      "kind": "group",
-      "text": "Ahuya Grandchildren s Education Trust"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "NASDAQINC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/24/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    }
-  ],
-  "free_text": null,
-  "uncertainties": [
-    {
-      "row": null,
-      "field": "checkbox_columns",
-      "read": "OCR-assisted extraction",
-      "note": "Type/capital-gain/partial and amount fields were transcribed from rotated OCR plus visible grid positions; rows with multiple adjacent X marks are lower confidence."
-    }
-  ],
-  "page_confidence": "medium"
-}
+{"pdf_page":3,"printed_label":"Rohit Khanna Page 3 of 43","section":"Periodic Transaction Report - attached transaction table","page_type":"ptr","filer":"Rohit Khanna","rows":[
+{"kind":"group","text":"Ahuja Grandchildren's Education Trust"},
+{"kind":"tx","owner":"DC","asset_name":"NASDAQ INC. CMN","tx_type":"Sale","cap_gain_over_200":true,"partial_sale":true,"date":"03/24/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"}],"free_text":null,"uncertainties":[{"row":null,"field":"page_verification","read":"The single transaction row","note":"Direct review of the filed page scan verified the group heading, asset label, transaction columns, dates, and amount band."}],"page_confidence":"high"}

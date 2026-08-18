@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2022LUBER TECHNOLOGIES, INC. CMN",
+      "asset_name": "UBER TECHNOLOGIES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(FASTENAL COMPANY CMN",
+      "asset_name": "FASTENAL COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN O",
+      "asset_name": "MARRIOTT INTERNATIONAL, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AUTOMATIC DATA PROCESSING INC CM",
+      "asset_name": "AUTOMATIC DATA PROCESSING INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MARSH ORD CMN",
+      "asset_name": "MARSH & MCLENNAN COMPANIES, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "5P DANAHER CORPORATION CMN",
+      "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OMNICOM GROUP CMN SP_OMNICOM GROUP CMN",
+      "asset_name": "OMNICOM GROUP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CVSHEALTH CORPCMN",
+      "asset_name": "CVS HEALTH CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THONEYWELL INTL INC CMN",
+      "asset_name": "HONEYWELL INTL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,

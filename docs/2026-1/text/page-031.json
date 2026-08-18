@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DEX CORPORATION COMMON STOCK",
+      "asset_name": "IDEX CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SEAGATE TECHNOLOGY HOLDIN PLCCM",
+      "asset_name": "SEAGATE TECHNOLOGY HOLDINGS PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALLSTATE CORPORATION COMMON STOX",
+      "asset_name": "ALLSTATE CORPORATION COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARCH CAPITAL GROUP LTD. CMN SPARCH CAPITAL GROUP LTD. CMN",
+      "asset_name": "ARCH CAPITAL GROUP LTD. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE HERSHEY COMPANY CMN SP. THE HERSHEY COMPANY CMN",
+      "asset_name": "THE HERSHEY COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ROCKWELL AUTOMATION INC CMN SP..ROCKWELL AUTOMATION INC CMN",
+      "asset_name": "ROCKWELL AUTOMATION INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "QUEST DIAGNOSTICS INCORPORATED C",
+      "asset_name": "QUEST DIAGNOSTICS INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PALO ALTO NETWORKS INC. CMN SP_PALO ALTO NETWORKS INC. CMN",
+      "asset_name": "PALO ALTO NETWORKS INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SANDISK LLCMN",
+      "asset_name": "SANDISK LLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BIOGEN INC. CMN SPBIOGEN INC. CMN",
+      "asset_name": "BIOGEN INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN X STERIS PUBLIC LIMITED COMPANY CMN",
+      "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

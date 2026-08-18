@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE AMAZON.COM INC CMN",
+      "asset_name": "AMAZON.COM INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NVRINCMN INVRINCMN",
+      "asset_name": "NVR INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EOUITABLE HOLDINGS INC CMN DCEOUITABLE HOLDINGS INC CMN",
+      "asset_name": "EQUITABLE HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "D\u0421 KIMBERLY-CLARK CORPORATION CMN",
+      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,

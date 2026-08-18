@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ERIE INDEMNITY COMPANY CL-A CMN ICLASSA",
+      "asset_name": "ERIE INDEMNITY COMPANY CL-A CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DOORDASH INC CMN CLASSA",
+      "asset_name": "DOORDASH INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DOMINO'PIZZA, INC. CMN",
+      "asset_name": "DOMINO'S PIZZA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NSULET CORPORATION CMN",
+      "asset_name": "INSULET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "(GE HEALTHCARE TECHNOLOGIES INC iCMN",
+      "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NTERNATIONAL PAPER CO. CMN",
+      "asset_name": "INTERNATIONAL PAPER CO. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

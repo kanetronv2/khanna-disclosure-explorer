@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LALTRIA GROUP, INC. CMN",
+      "asset_name": "ALTRIA GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN AMERICAN TOWER CORPORATION CMN",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LULTA BEAUTY INC CMN",
+      "asset_name": "ULTA BEAUTY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE CORTEVA, INC. CMN",
+      "asset_name": "CORTEVA, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EQUIFAXINC. CMN",
+      "asset_name": "EQUIFAX INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE CATERPILLAR INC (DELAWARE) CMN",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "(CROWN CASTLE INTL CORP CMN",
+      "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

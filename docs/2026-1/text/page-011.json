@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN CLASS A ARES MANAGEMENT CORPORATION CMN CLASS A",
+      "asset_name": "ARES MANAGEMENT CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NTERACTIVE BROKERS GROUP, INC CMN CLASS A",
+      "asset_name": "INTERACTIVE BROKERS GROUP, INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TIX COMPANIES INC (NEW) CMN",
+      "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "\"AMERICAN EXPRESS CO. CMN",
+      "asset_name": "AMERICAN EXPRESS CO. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

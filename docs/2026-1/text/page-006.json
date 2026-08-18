@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FUND CLASSP GS INTERNATIONAL EQUITY INSIGHTS FUND CLASSP",
+      "asset_name": "GS INTERNATIONAL EQUITY INSIGHTS FUND CLASS P",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN I",
+      "asset_name": "FACTSET RESEARCH SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS 8",
+      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ABBOTT LABORATORIES CMN \u2022",
+      "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "C CAPITALONE FINANCIAL CORP CMI",
+      "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CLASS A ON PUBUCLIMITED COMPANY CMI CLASS A",
+      "asset_name": "ON PUBLIC LIMITED COMPANY CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNION PACIFIC CORP. JSE UNPIINT LEQTY DN CASH BASE",
+      "asset_name": "UNION PACIFIC CORP. CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -210,7 +210,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "GENERAL MILLS INC CMN DCGENERAL MILLS INC CMN",
+      "asset_name": "GENERAL MILLS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -221,7 +221,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CORPORATION CMN SBA COMMUNICATIONS CORPORATION CMN",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

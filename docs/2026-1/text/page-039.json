@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ND ST FIN ATH WASTEWATER UTIL REV",
+      "asset_name": "IND ST FIN AUTH WASTEWATER UTIL REV",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SERVICENOW INC CMN\u2022",
+      "asset_name": "SERVICENOW INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LIDEXX LABORATORJES CMN",
+      "asset_name": "IDEXX LABORATORIES CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NTERCONTINENTAL EXCHANGE INC CM",
+      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "\u2022 INTUITIVE SURGICAL, INC. CMN SP\u2022 INTUITIVE SURGICAL, INC. CMN",
+      "asset_name": "INTUITIVE SURGICAL, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,

@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALBERTSONS COMPANIES, INC. CMN CLASSA _x",
+      "asset_name": "ALBERTSONS COMPANIES, INC. CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "&TECHNOLOGIES HOLDINGS, IN ICMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,

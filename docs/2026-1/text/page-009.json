@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APPLED MATERIALS INC CMN",
+      "asset_name": "APPLIED MATERIALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN THE PROCTER & GAMBLE COMPANY CMN",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MARSHORD CMN",
+      "asset_name": "MARSH & MCLENNAN COMPANIES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "META PLATFORMS INC-CLASS A CMN DE CLASS A",
+      "asset_name": "META PLATFORMS INC-CLASS A CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LINDEPLCMN LINDEPLCMN",
+      "asset_name": "LINDE PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN TINTERCONTINENTAL EXCHANGE INC CMN",
+      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

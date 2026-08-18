@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANKOFAMERICA CORP CMN",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OHNSON & JOHNSON CMN",
+      "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APPLE JNC. CMN",
+      "asset_name": "APPLE INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FAIRFAX CMNTY VA ECONOMIC DEV REVL]",
+      "asset_name": "FAIRFAX CNTY VA ECONOMIC DEV REV",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PITTCNTY NCLTD OBLIG REV 14910% SP_PITTCNTY NCLTD OBLIG REV 14910%",
+      "asset_name": "PITT CNTY NC LTD OBLIG REV 1.4910%",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LINDE PLCMN",
+      "asset_name": "LINDE PLC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NDST FIN AUTH WASTEWATER UTTREY",
+      "asset_name": "IND ST FIN AUTH WASTEWATER UTIL REV",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATE &",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,

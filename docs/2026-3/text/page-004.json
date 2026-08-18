@@ -1,194 +1,21 @@
-{
-  "pdf_page": 4,
-  "printed_label": "Rohit Khanna Page 4 of 43",
-  "section": "Periodic Transaction Report - transaction table",
-  "page_type": "ptr",
-  "filer": "Rohit Khanna",
-  "rows": [
-    {
-      "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MC DONALDS CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CISCO SYSTEMS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ev pneny 7 Py UNITEDHEALTH GROUP INCORPORATE a BOSTON SCIENTIFIC CORP COMMON ie I STOCK",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "THE PROGRESSIVE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AMAZON COM INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "INTUIT INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "S&P GLOBAL INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SALESFORCE INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "REALTY INCOME CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ORACLE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AMERICAN EXPRESS CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PALO ALTO NETWORKS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    }
-  ],
-  "free_text": null,
-  "uncertainties": [
-    {
-      "row": null,
-      "field": "asset_name",
-      "read": "page-level cleanup",
-      "note": "Removed OCR grid marks and letter noise from the directly verified labels on this page; the row containing both UnitedHealth and Boston Scientific remains a separately identified merged-row issue."
-    },
-    {
-      "row": null,
-      "field": "checkbox_columns",
-      "read": "OCR-assisted extraction",
-      "note": "Type/capital-gain/partial and amount fields were transcribed from rotated OCR plus visible grid positions; rows with multiple adjacent X marks are lower confidence."
-    }
-  ],
-  "page_confidence": "medium"
-}
+{"pdf_page":4,"printed_label":"Rohit Khanna Page 4 of 43","section":"Periodic Transaction Report - attached transaction table","page_type":"ptr","filer":"Rohit Khanna","rows":[
+{"kind":"group","text":"2020 Trust FBO Khanna Children"},
+{"kind":"tx","owner":"DC","asset_name":"MC DONALDS CORP CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$50,001-$100,000"},
+{"kind":"tx","owner":"DC","asset_name":"CISCO SYSTEMS, INC. CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$50,001-$100,000"},
+{"kind":"tx","owner":"DC","asset_name":"COCA COLA COMPANY (THE) CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$50,001-$100,000"},
+{"kind":"tx","owner":"DC","asset_name":"UNITEDHEALTH GROUP INCORPORATED CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"BOSTON SCIENTIFIC CORP. COMMON STOCK","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"THE PROGRESSIVE CORPORATION CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"AMAZON COM INC CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"INTUIT INC CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"S&P GLOBAL INC CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"SALESFORCE INC CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"REALTY INCOME CORPORATION CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"ORACLE CORPORATION CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"AMERICAN EXPRESS CO. CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"TRUIST FINANCIAL CORPORATION CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"ALPHABET INC CMN CLASS A","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"WALT DISNEY COMPANY (THE) CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"MOODY'S CORPORATION CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"CAPITAL ONE FINANCIAL CORP CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"PALO ALTO NETWORKS INC CMN","tx_type":"Purchase","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"}],"free_text":null,"uncertainties":[{"row":null,"field":"page_verification","read":"All 19 transaction rows","note":"Direct review of the filed page scan rebuilt the complete row run, separated merged labels, restored four omitted transactions, and verified transaction columns, dates, and amount bands."}],"page_confidence":"high"}

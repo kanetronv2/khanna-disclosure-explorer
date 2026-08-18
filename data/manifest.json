@@ -29,74 +29,74 @@
       "sha256": "e6b4a5b8ee37f11c60645f72c3938cc07df58fdabdecc27f529e23ffc2f311e1"
     },
     {
-      "bytes": 26200798,
+      "bytes": 26216841,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 116056,
-      "sha256": "6da8085c9600fcbf2d6411a1b6d51069ba94a129a485f9b1971894c1d27ec181"
+      "records": 116138,
+      "sha256": "1635d9a740f9bf6223c7e8282ced782dec07ed3f5345054eeb27d9ddaaff4b47"
     },
     {
-      "bytes": 96409653,
+      "bytes": 96474499,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 116056,
-      "sha256": "9e68e60a69d22ce6f6215e231f426eeac1b05e8cf0302db5f27d5f5eac66ad87"
+      "records": 116138,
+      "sha256": "1c1b0e525e6bb18a739b4b04ddf43f7dc63e141e116dcd38fa60980095f1940c"
     },
     {
-      "bytes": 1194982,
+      "bytes": 1195223,
       "format": "csv",
       "path": "data/normalized/pages.csv",
       "records": 4410,
-      "sha256": "aaa6e7283541cb0acde248dc09267706b375361719efe1e7ba7af107fa051c8d"
+      "sha256": "c2df722dae39e0f870209821cc5087809e54dbb2742ff4a48c2f680d7a2293d2"
     },
     {
-      "bytes": 2296515,
+      "bytes": 2296756,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
       "records": 4410,
-      "sha256": "0636c891f8693bcfca03d8abac52f6cb3fb73be8f11329e4a50389d88b9ad7ef"
+      "sha256": "bc6ee758f96b86f16415937d1d6e3e3410ee3341413ca221fee9092823bf2f02"
     },
     {
-      "bytes": 14605339,
+      "bytes": 14634442,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
-      "records": 48920,
-      "sha256": "e8c09b58741a3ee82bba27f5003ad04593ea299a679c0b1e8bb763dd64649d6b"
+      "records": 49009,
+      "sha256": "2913d6995b93b674c126de30bb3ee14ffa1117dd33da6711879e28a9fda8548d"
     },
     {
-      "bytes": 38532666,
+      "bytes": 38604644,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
-      "records": 48920,
-      "sha256": "819c83e3f08b424f5c39d7968a92745e3b38505d64277d6e81891384b4c2cc41"
+      "records": 49009,
+      "sha256": "71c4ab927b738cae9afb0a0cd4c4b8d5a4561934b625a96fb4bd331cf32fbe88"
     },
     {
-      "bytes": 4840985,
+      "bytes": 4766501,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 17102,
-      "sha256": "42991918bee3339ce097704a7807a36d6aac0a4b53b3b6d3fcded8ecc8723e03"
+      "records": 16864,
+      "sha256": "3c9e05f131d4cc866b4f0b1e36e6897604c05d70f7b35814fd757fda094aad76"
     },
     {
-      "bytes": 6408229,
+      "bytes": 6312043,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 17102,
-      "sha256": "f2b7cad1fe95b8de8c3dfff8ed2d9fe2b68ae3cb66fb22d78b55dfd3d582636e"
+      "records": 16864,
+      "sha256": "90820893e537134067f1c6db1c5e6c0b789dc4fc76d93a884be240dc215fa902"
     },
     {
-      "bytes": 3309,
+      "bytes": 3105,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "e64d10ce56ea2f77408296904665ae4658bc6b7fbbab08074ec2fe62e3ef4eb1"
+      "sha256": "af37cac197e1e368829c106ad42eefb04b213c59c161cd80b98dcc397c45213f"
     },
     {
-      "bytes": 1045658,
+      "bytes": 636758,
       "format": "json",
       "path": "data/text-quality-audit.json",
-      "records": 2389,
-      "sha256": "7e3d65eaf1ab7d5dca98b5e53b1674c759824a3d206705c799a00139d8b2286b"
+      "records": 1446,
+      "sha256": "91dc691072da7afdf527ba501878bcf06ed2c1bf3df44c62ab83ecc64c0a8fbc"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -104,9 +104,9 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2272,
-      "low": 299,
-      "medium": 1830,
+      "high": 2330,
+      "low": 280,
+      "medium": 1791,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -114,22 +114,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116056,
+      "page_rows": 116138,
       "pages": 4410,
-      "transactions": 48920,
-      "uncertainties": 17102
+      "transactions": 49009,
+      "uncertainties": 16864
     },
     "owner_code_distribution": {
-      "DC": 35417,
+      "DC": 35461,
       "JT": 14,
-      "SP": 75809,
-      "not_stated": 4816
+      "SP": 75884,
+      "not_stated": 4779
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2920,
-      "tx": 81715
+      "group": 2926,
+      "tx": 81791
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -147,20 +147,17 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 2389,
+    "text_quality_findings": 1446,
     "text_quality_rule_distribution": {
-      "ambiguous_transaction_columns": 1353,
-      "checkbox_artifact": 51,
-      "duplicated_text": 3,
+      "ambiguous_transaction_columns": 936,
+      "checkbox_artifact": 37,
       "embedded_account_header": 3,
-      "embedded_grid_debris": 236,
-      "embedded_owner_code": 72,
-      "implausibly_long": 7,
-      "mixed_case_ocr_artifact": 550,
-      "multiple_option_contracts": 2,
-      "ocr_assisted_page": 891,
-      "ocr_table_debris": 8,
-      "repeated_security_marker": 61,
+      "embedded_grid_debris": 156,
+      "embedded_owner_code": 50,
+      "implausibly_long": 3,
+      "mixed_case_ocr_artifact": 510,
+      "ocr_table_debris": 2,
+      "repeated_security_marker": 14,
       "standalone_fragment": 21
     },
     "valid_page_source_json": 4410,

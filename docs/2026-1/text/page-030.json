@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JACK HENRY & ASSOCINC CMN",
+      "asset_name": "JACK HENRY & ASSOCIATES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PNC FINANCIAL SERVICES GROUP, CMN",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EDWARDS LIFESCIENCES CORPORATI CMN",
+      "asset_name": "EDWARDS LIFESCIENCES CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EXPEDITORS INTERNATIONAL OF WA CMN",
+      "asset_name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CRHPUBLC UMITED COMPANY CMN SPCRHPUBLC UMITED COMPANY CMN",
+      "asset_name": "CRH PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JB HUNT TRANS SVCS INCMN SPJB HUNT TRANS SVCS INCMN",
+      "asset_name": "JB HUNT TRANSPORT SERVICES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRIMBLE INC CMN SPTRIMBLE INC CMN",
+      "asset_name": "TRIMBLE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PTCINC. CMN SPPTCINC. CMN",
+      "asset_name": "PTC INC. CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EQUIFAXINC. CMN",
+      "asset_name": "EQUIFAX INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONALINC. CMN",
+      "asset_name": "BAXTER INTERNATIONAL INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

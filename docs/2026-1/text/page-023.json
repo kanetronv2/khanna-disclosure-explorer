@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PHILIP MORRIS INTERNATIONALIN 4.875% 02/15/2028 USD",
+      "asset_name": "PHILIP MORRIS INTERNATIONAL INC 4.875% 02/15/2028 USD",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CADEROUPINNESTDOS2O2N CADEROUPINNESTDOS2O2N",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CADEROUPINNESTDOS2O2N CADEROUPINNESTDOS2O2N CITIGROUP INC. HYBRID 03/20/2030 USD",
+      "asset_name": "CITIGROUP INC. HYBRID 03/20/2030 USD",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ERJE INDEMNITY COMPANY CL-A CMN ICLASS A",
+      "asset_name": "ERIE INDEMNITY COMPANY CL-A CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DELL TECHNOLOGIES INC. CMN CLASS PHILIP MORRIS INTL INC 5,75%",
+      "asset_name": "DELL TECHNOLOGIES INC. CMN CLASS C",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -210,7 +210,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "11/17/2032 USD PHILIP MORRIS INTL INC 5,75% 11/17/2032 USD",
+      "asset_name": "PHILIP MORRIS INTL INC 5.75% 11/17/2032 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

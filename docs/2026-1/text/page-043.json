@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "METTLER-TOLEDO INTL CMN SPI METTLER-TOLEDO INTL CMN",
+      "asset_name": "METTLER-TOLEDO INTL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HP INC CMN. - HP INC CMN",
+      "asset_name": "HP INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "'ITE CONNECTIVITY CORPORATION CMN",
+      "asset_name": "TE CONNECTIVITY CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RAYMONDJAMES FINANCIAL, INC. CMN SPRAYMONDJAMES FINANCIAL, INC. CMN",
+      "asset_name": "RAYMOND JAMES FINANCIAL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B Q",
+      "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HASBRO, INC. CMN SP. HASBRO, INC. CMN",
+      "asset_name": "HASBRO, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "5P MONDELEZ INTERNATIONAL, INC. CMN",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUBLIC STORAGE CMN SP. PUBLIC STORAGE CMN",
+      "asset_name": "PUBLIC STORAGE CMN",
       "tx_type": "Exchange",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MSCIINC. CMN",
+      "asset_name": "MSCI INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALASKAAIR GROUP INC(DEL HLDG) CMN",
+      "asset_name": "ALASKA AIR GROUP INC (DEL HLDG) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

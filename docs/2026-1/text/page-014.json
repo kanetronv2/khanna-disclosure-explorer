@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TILLINOIS TOOL WORKS CMN",
+      "asset_name": "ILLINOIS TOOL WORKS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WARNER BROS DISCOVERY INC CMN ICLASS A",
+      "asset_name": "WARNER BROS DISCOVERY INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN MONDELEZ INTERNATIONAL, INC. DC_ CMN",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

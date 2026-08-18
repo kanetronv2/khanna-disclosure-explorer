@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN MARTIN MARIETTA MATERIALS, INC CMN",
+      "asset_name": "MARTIN MARIETTA MATERIALS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN SS&C TECHNOLOGIES HOLDINGS, IN CMN",
+      "asset_name": "SS&C TECHNOLOGIES HOLDINGS, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,

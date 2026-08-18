@@ -1,173 +1,20 @@
-{
-  "pdf_page": 7,
-  "printed_label": "Rohit Khanna Page 7 of 43",
-  "section": "Periodic Transaction Report - transaction table",
-  "page_type": "ptr",
-  "filer": "Rohit Khanna",
-  "rows": [
-    {
-      "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ABBOTT LABORATORIES CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MARSH ORD CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ADOBE INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HUBBELL INCORPORATED CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SERVICENOW INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AMERIPRISE FINANCIAL, INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "SYNOPSYS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HCA HEALTHCARE INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AMERICAN TOWER CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CINTAS CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "03/30/2026",
-      "notification_date": "04/02/2026",
-      "amount": "$1,001-$15,000"
-    }
-  ],
-  "free_text": null,
-  "uncertainties": [
-    {
-      "row": null,
-      "field": "asset_name",
-      "read": "page-level cleanup",
-      "note": "Removed OCR grid marks and letter noise from labels directly verified against the filed page scan."
-    },
-    {
-      "row": 11,
-      "field": "notification_date",
-      "read": null,
-      "note": "Notification date was not safely parsed from OCR; source row remains visible in the page image."
-    },
-    {
-      "row": null,
-      "field": "checkbox_columns",
-      "read": "OCR-assisted extraction",
-      "note": "Type/capital-gain/partial and amount fields were transcribed from rotated OCR plus visible grid positions; rows with multiple adjacent X marks are lower confidence."
-    },
-    {
-      "row": 11,
-      "field": "date/notification_date",
-      "read": "03/30/26 / 04/02/26",
-      "note": "Filled after validation from rotated OCR/page image because initial parser captured a maturity date or missed the notification cell."
-    }
-  ],
-  "page_confidence": "medium"
-}
+{"pdf_page":7,"printed_label":"Rohit Khanna Page 7 of 43","section":"Periodic Transaction Report - attached transaction table","page_type":"ptr","filer":"Rohit Khanna","rows":[{"kind":"group","text":"2020 Trust FBO Khanna Children"},
+{"kind":"tx","owner":"DC","asset_name":"ABBOTT LABORATORIES CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"MARSH ORD CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"ADOBE INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"STRYKER CORPORATION CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"HUBBELL INCORPORATED CMN","tx_type":"Sale","cap_gain_over_200":true,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"SERVICENOW INC CMN","tx_type":"Sale","cap_gain_over_200":true,"partial_sale":true,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"AMERIPRISE FINANCIAL, INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"CADENCE DESIGN SYSTEMS INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"AMGEN INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"INTERCONTINENTAL EXCHANGE INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":true,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"SYNOPSYS, INC. CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$15,001-$50,000"},
+{"kind":"tx","owner":"DC","asset_name":"HCA HEALTHCARE INC CMN","tx_type":"Sale","cap_gain_over_200":true,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"AMERICAN TOWER CORPORATION CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"CINTAS CORPORATION CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"APOLLO GLOBAL MANAGEMENT INC CMN CLASS A","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"ECOLAB INC CMN","tx_type":"Sale","cap_gain_over_200":true,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"BOOKING HOLDINGS INC CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":true,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"},
+{"kind":"tx","owner":"DC","asset_name":"3M COMPANY CMN","tx_type":"Sale","cap_gain_over_200":false,"partial_sale":false,"date":"03/30/2026","notification_date":"04/02/2026","amount":"$1,001-$15,000"}],"free_text":null,"uncertainties":[{"row":null,"field":"page_verification","read":"All 19 transaction rows","note":"Direct review of the filed page scan rebuilt the complete row run, restored seven omitted transactions, and verified labels, transaction columns, dates, and amount bands."}],"page_confidence":"high"}

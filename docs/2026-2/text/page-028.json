@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TBOFA FINANCE LLC LINKED TO &500 INDEX",
+      "asset_name": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BANCO BILBAO VIZCAYA A ADR SPONSORED ADR CMN USDO.3296",
+      "asset_name": "BANCO BILBAO VIZCAYA S A ADR SPONSORED ADR CMN USD0.3296",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TMASTERCARD INCORPORATED CMN CLASSA",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE PROGRESSIVE CORPORATION CMN _x",
+      "asset_name": "THE PROGRESSIVE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NTUIT INC CMN",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SONY GROUP CORPORATION ISPONSORED ADR CMN",
+      "asset_name": "SONY GROUP CORPORATION SPONSORED ADR CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TBOSTON SCIENTIFIC CORP. COMMON . STOCK",
+      "asset_name": "BOSTON SCIENTIFIC CORP. COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "T-MOILE US, INCMN",
+      "asset_name": "T-MOBILE US, INC. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NOVO-NORDISK A/ADR ADR CMN",
+      "asset_name": "NOVO-NORDISK A/S ADR ADR CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

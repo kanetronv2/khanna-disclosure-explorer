@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NTL BUSINESS MACHINES CORP CMN SP..INTL BUSINESS MACHINES CORP CMN",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -199,7 +199,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JARTHURJ GALLAGHER & CO CMN",
+      "asset_name": "ARTHUR J GALLAGHER & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

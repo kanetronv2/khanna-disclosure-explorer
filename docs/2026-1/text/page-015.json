@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RON MOUNTAIN INCORPORATED DE CMN",
+      "asset_name": "IRON MOUNTAIN INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CMN IMONDELEZ INTERNATIONAL, INC. DC_CMN",
+      "asset_name": "MONDELEZ INTERNATIONAL, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PPGINDUSTRIES, INC. CMN",
+      "asset_name": "PPG INDUSTRIES, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DE (BLOCK, INC CMN CLASS A",
+      "asset_name": "BLOCK, INC. CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DOW INCMN",
+      "asset_name": "DOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "LIABILINCMN",
+      "asset_name": "JABIL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,

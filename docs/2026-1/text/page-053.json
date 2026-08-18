@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TALEXANDRIA REAL ESTATE EQUITIES, INC",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LAVOTING COMCAST CORPORATION CMN CLASS LAVOTING",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MODDY'S CORPORATION CMN",
+      "asset_name": "MOODY'S CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALTRIA GROUP, INC. CMN SP_ALTRIA GROUP, INC. CMN",
+      "asset_name": "ALTRIA GROUP, INC. CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": true,
       "partial_sale": true,
