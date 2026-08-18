@@ -1125,7 +1125,7 @@ def write_sitemap(ctx):
     both, and a stale priority is worse than none."""
     paths = ["/", TRADES_PATH, "/stock-trades/index.md", "/llms.txt", "/llms-full.txt",
              "/api/v1", "/api/v1/openapi.json", "/api/v1/years.json", "/api/v1/issuers.json"]
-    issuer_registry = json.loads((ROOT / "data" / "issuer-registry.json").read_text(encoding="utf-8"))
+    issuer_registry = json.loads((ROOT / "lib" / "issuer-registry.json").read_text(encoding="utf-8"))
     paths += [path for issuer in issuer_registry for path in (
         f"/companies/{issuer['slug']}/",
         f"/companies/{issuer['slug']}/index.md",

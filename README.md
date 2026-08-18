@@ -85,7 +85,7 @@ site-data/             generated, content-hashed lazy website chunks
 machine/v1/            generated API discovery and OpenAPI documents
 api/v1/                read-only evidence lookup and search handlers
 companies/             generated, indexable issuer summaries with Markdown alternates
-data/issuer-registry.json reviewed issuer aliases kept separate from raw filed names
+lib/issuer-registry.json reviewed issuer aliases kept separate from raw filed names
 templates/index.html   source template for every generated page
 index.html, YYYY/      generated HTML, Markdown, and facts JSON (build with: make pages)
 scripts/               release, audit, and page-rendering tooling

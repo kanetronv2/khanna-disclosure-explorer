@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = pages.ORIGIN
 API_ROOT = f"{ORIGIN}/api/v1"
 MACHINE = ROOT / "machine" / "v1"
-ISSUER_REGISTRY = ROOT / "data" / "issuer-registry.json"
+ISSUER_REGISTRY = ROOT / "lib" / "issuer-registry.json"
 
 
 def write_json(path: Path, value) -> None:

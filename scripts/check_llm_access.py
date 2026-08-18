@@ -32,7 +32,7 @@ def main():
     require("compare?entity=NVDA&years=2024,2025" in llms, "llms.txt lacks a cross-year question example")
     require(len(full) > len(llms), "llms-full.txt should contain expanded context")
 
-    issuer_registry = json.loads((ROOT / "data/issuer-registry.json").read_text(encoding="utf-8"))
+    issuer_registry = json.loads((ROOT / "lib/issuer-registry.json").read_text(encoding="utf-8"))
     require(issuer_registry and len({row["id"] for row in issuer_registry}) == len(issuer_registry),
             "issuer registry IDs must be present and unique")
     require(len({row["slug"] for row in issuer_registry}) == len(issuer_registry),
@@ -42,6 +42,8 @@ def main():
                 f"{issuer.get('id')}: issuer identity is incomplete")
         for pattern in issuer["security_name_patterns"]:
             re.compile(pattern)
+    require("require('./issuer-registry.json')" in (ROOT / "lib/issuer.js").read_text(encoding="utf-8"),
+            "runtime issuer registry must remain beside its helper because /data is excluded from Vercel")
 
     for year in YEARS:
         facts = json.loads((ROOT / year / "facts.json").read_text(encoding="utf-8"))

@@ -48,7 +48,7 @@ read-only and permits cross-origin GET requests.
 holdings across filing years. Its response distinguishes movements in the reported lower and
 upper bounds from any claim about actual holdings and carries filing-specific comparability
 warnings in machine-readable fields. `/api/v1/issuers.json` lists reviewed issuer identities;
-their aliases live in `data/issuer-registry.json`. Raw filed asset names are never replaced.
+their aliases live in `lib/issuer-registry.json`. Raw filed asset names are never replaced.
 
 ## Important semantics
 
