@@ -7,7 +7,7 @@
     "checkbox_artifact": 81,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 292,
+    "embedded_grid_debris": 287,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
     "mixed_case_ocr_artifact": 565,
@@ -29713,10 +29713,9 @@
       "row_number": 2,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "STERIS PUBLIC LIMITED COMPANY — yo - — CMN",
+      "asset_name": "STERIS PUBLIC LIMITED COMPANY CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29804,10 +29803,9 @@
       "row_number": 8,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS nn = — IA =",
+      "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29820,10 +29818,9 @@
       "row_number": 9,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "MICROCHIP TECHNOLOGY INCORPORA = = — CMN —",
+      "asset_name": "MICROCHIP TECHNOLOGY INCORPORATED CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29866,10 +29863,9 @@
       "row_number": 12,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "MCCORMICK & CONON VTGSHRS = —— i 1 ! — CMNCLASSN",
+      "asset_name": "MCCORMICK & CO NON VTG SHRS CMN CLASS N",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -29882,7 +29878,7 @@
       "row_number": 13,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "MOHAWK INDUSTRIES INC COMMON P 7 STOCK",
+      "asset_name": "MOHAWK INDUSTRIES INC COMMON STOCK",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -29912,10 +29908,9 @@
       "row_number": 15,
       "page_id": "page:2026-3:0011",
       "source_json_path": "docs/2026-3/text/page-011.json",
-      "asset_name": "GEN DIGITAL INC CMN — xf",
+      "asset_name": "GEN DIGITAL INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
