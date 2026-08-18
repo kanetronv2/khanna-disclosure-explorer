@@ -4,13 +4,13 @@
   "finding_count": 2987,
   "rule_counts": {
     "ambiguous_transaction_columns": 1951,
-    "checkbox_artifact": 81,
+    "checkbox_artifact": 80,
     "duplicated_text": 3,
     "embedded_account_header": 20,
-    "embedded_grid_debris": 284,
+    "embedded_grid_debris": 281,
     "embedded_owner_code": 155,
     "implausibly_long": 7,
-    "mixed_case_ocr_artifact": 563,
+    "mixed_case_ocr_artifact": 561,
     "multiple_option_contracts": 2,
     "ocr_assisted_page": 1444,
     "ocr_table_debris": 10,
@@ -30359,7 +30359,7 @@
       "row_number": 2,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "KKR&CO INC CMN",
+      "asset_name": "KKR & CO INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30404,10 +30404,9 @@
       "row_number": 5,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "QVIA HOLDINGS INC CMN x j —",
+      "asset_name": "QVIA HOLDINGS INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30450,7 +30449,7 @@
       "row_number": 8,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "BLOCK,INC CMNCLASSA",
+      "asset_name": "BLOCK, INC. CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
         "ocr_assisted_page"
@@ -30480,10 +30479,9 @@
       "row_number": 10,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "iCOSTAR GROUP INC CMN",
+      "asset_name": "COSTAR GROUP INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30556,12 +30554,9 @@
       "row_number": 15,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "i TESLA INC CMN x",
+      "asset_name": "TESLA INC CMN",
       "rules": [
         "ambiguous_transaction_columns",
-        "checkbox_artifact",
-        "embedded_grid_debris",
-        "mixed_case_ocr_artifact",
         "ocr_assisted_page"
       ],
       "severity": "warning"
@@ -30574,10 +30569,9 @@
       "row_number": 16,
       "page_id": "page:2026-3:0014",
       "source_json_path": "docs/2026-3/text/page-014.json",
-      "asset_name": "ALBERTSONS COMPANIES INC CMN j CLASSA —",
+      "asset_name": "ALBERTSONS COMPANIES INC CMN CLASS A",
       "rules": [
         "ambiguous_transaction_columns",
-        "embedded_grid_debris",
         "ocr_assisted_page"
       ],
       "severity": "warning"
