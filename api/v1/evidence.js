@@ -1,8 +1,8 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
 
 function origin(req) {
-  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
   const host = req.headers['x-forwarded-host'] || req.headers.host;
+  if (!host && process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
   const protocol = String(host || '').startsWith('localhost:') ? 'http' : 'https';
   return `${protocol}://${host}`;
 }

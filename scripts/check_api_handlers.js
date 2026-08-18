@@ -9,7 +9,11 @@ const rows = [
    tx_type: 'Sale', doc: '2025-14', page: 152},
 ];
 
-global.fetch = async () => ({ok: true, status: 200, json: async () => rows});
+const fetched = [];
+global.fetch = async endpoint => {
+  fetched.push(endpoint);
+  return {ok: true, status: 200, json: async () => rows};
+};
 
 function response() {
   return {
@@ -22,18 +26,25 @@ function response() {
 }
 
 async function main() {
+  process.env.VERCEL_URL = 'protected-preview.example.test';
   let res = response();
   await search({method: 'GET', headers: {host: 'localhost:3000'},
     query: {year: '2025', kind: 'transactions', q: 'apple'}}, res);
   if (res.code !== 200 || res.body.total !== 1 ||
       res.body.results[0].id !== 'transaction:2025:000001' ||
       !res.body.results[0].source_document_url) throw new Error('search handler failed');
+  if (fetched[0] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {
+    throw new Error(`search handler used the wrong request origin: ${fetched[0]}`);
+  }
 
   res = response();
   await evidence({method: 'GET', headers: {host: 'localhost:3000'},
     query: {id: 'transaction:2025:000002'}}, res);
   if (res.code !== 200 || res.body.id !== 'transaction:2025:000002' ||
       !res.body.source_page_url) throw new Error('evidence handler failed');
+  if (fetched[1] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {
+    throw new Error(`evidence handler used the wrong request origin: ${fetched[1]}`);
+  }
 
   res = response();
   await evidence({method: 'GET', headers: {host: 'localhost:3000'}, query: {id: 'bad'}}, res);
