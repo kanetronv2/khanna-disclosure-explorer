@@ -1,0 +1,35 @@
+# Ro Khanna Financial Disclosure Explorer
+
+> Independent, source-linked transcription of U.S. House financial disclosures for Ro Khanna, covering 2016–2026.
+
+Use the annual Markdown or facts JSON pages for compact answers. Use the API for complete holdings and transaction arrays. Dollar figures are statutory ranges, not exact values; household disclosures can include a spouse and dependent children.
+
+## Primary resources
+
+- [Latest annual filing](https://www.rokhanna.money/): Human-readable overview with methodology and sources.
+- [All reported stock trades](https://www.rokhanna.money/stock-trades/): Cross-year transaction analysis.
+- [API documentation](https://www.rokhanna.money/api/v1/openapi.json): OpenAPI 3.1 description of the read-only API.
+- [Year index](https://www.rokhanna.money/api/v1/years.json): Canonical, Markdown, and JSON URLs for every filing year.
+- [Full LLM context](https://www.rokhanna.money/llms-full.txt): Expanded annual summaries and citation guidance.
+- [Data methodology](https://github.com/kanetronv2/khanna-disclosure-explorer/blob/main/data/README.md): Normalized schema, caveats, and audit process.
+
+## Filing years
+
+- [2026 filing Markdown](https://www.rokhanna.money/2026/index.md): 3,008 reported transactions; 0 asset entries.
+- [2025 filing Markdown](https://www.rokhanna.money/2025/index.md): 5,402 reported transactions; 3,290 asset entries.
+- [2024 filing Markdown](https://www.rokhanna.money/2024/index.md): 4,665 reported transactions; 3,042 asset entries.
+- [2023 filing Markdown](https://www.rokhanna.money/2023/index.md): 4,677 reported transactions; 2,804 asset entries.
+- [2022 filing Markdown](https://www.rokhanna.money/2022/index.md): 7,615 reported transactions; 2,528 asset entries.
+- [2021 filing Markdown](https://www.rokhanna.money/2021/index.md): 3,916 reported transactions; 2,809 asset entries.
+- [2020 filing Markdown](https://www.rokhanna.money/2020/index.md): 6,048 reported transactions; 2,038 asset entries.
+- [2019 filing Markdown](https://www.rokhanna.money/2019/index.md): 4,546 reported transactions; 5,335 asset entries.
+- [2018 filing Markdown](https://www.rokhanna.money/2018/index.md): 6,359 reported transactions; 1,951 asset entries.
+- [2017 filing Markdown](https://www.rokhanna.money/2017/index.md): 2,667 reported transactions; 1,698 asset entries.
+- [2016 filing Markdown](https://www.rokhanna.money/2016/index.md): 0 reported transactions; 894 asset entries.
+
+## Citation and interpretation
+
+- Cite a canonical year page for aggregate calculations.
+- Cite an evidence record's `url` for a holding or transaction, then verify consequential claims against its linked filing page.
+- Preserve open-ended ranges and year-specific caveats. Do not describe the calculated totals as certified personal net worth.
+- Treat OCR and model-assisted transcription as fallible; unresolved readings remain explicit in the data.

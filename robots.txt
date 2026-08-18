@@ -1,3 +1,16 @@
+# Search, answer, user-fetch, and training agents are welcome. Keeping this named group
+# makes the intended policy explicit while preserving the same crawl-budget protection as
+# the wildcard group below.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Allow: /
+Allow: /site-data/summaries.js
+Disallow: /site-data/
+
 User-agent: *
 Allow: /
 

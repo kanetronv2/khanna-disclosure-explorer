@@ -1,0 +1,177 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2022/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2022:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2022/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2022&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2022/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2022/transactions.json"
+  },
+  "caveats": [
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "coverage": {
+    "annual_filing_pages": 367,
+    "latest_readable_transaction_date": "2022-12-30",
+    "loaded_pages": 686,
+    "unresolved_transcription_flags": 7605
+  },
+  "dataset_version": "2026-08-17",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "annual_financial_disclosure",
+  "id": "kde:financial-disclosure:2022",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": {
+      "asset_id": "asset:2022:001981",
+      "asset_name": "PUT/XSP @ 380 EXP 01/13/2023",
+      "display": "$50M+",
+      "evidence_url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001981",
+      "maximum_usd": null,
+      "minimum_usd": 50000001,
+      "open_ended": true
+    },
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 268722011,
+      "display": "$168.6M – $268.7M+",
+      "minimum_usd": 168589547,
+      "open_ended_entries": 11
+    },
+    "reported_transactions": {
+      "active_trading_days": 257,
+      "average_per_active_trading_day": 29.6,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 229145001,
+        "display": "$61.9M – $229.1M+",
+        "minimum_usd": 61945615,
+        "open_ended_entries": 1
+      },
+      "count": 7615,
+      "dated_count": 7598
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 20771400,
+      "display": "$3.96M – $20.8M",
+      "minimum_usd": 3957101,
+      "open_ended_entries": 0
+    },
+    "source_linked_asset_entries": 2528,
+    "source_pages": 686
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2022-1",
+      "label": "Periodic Transaction Report / filing #1 (2022)",
+      "pages": 10,
+      "url": "https://www.rokhanna.money/docs/src/2022-1.pdf"
+    },
+    {
+      "document_id": "2022-2",
+      "label": "Periodic Transaction Report / filing #2 (2022)",
+      "pages": 13,
+      "url": "https://www.rokhanna.money/docs/src/2022-2.pdf"
+    },
+    {
+      "document_id": "2022-3",
+      "label": "Periodic Transaction Report / filing #3 (2022)",
+      "pages": 12,
+      "url": "https://www.rokhanna.money/docs/src/2022-3.pdf"
+    },
+    {
+      "document_id": "2022-4",
+      "label": "Periodic Transaction Report / filing #4 (2022)",
+      "pages": 10,
+      "url": "https://www.rokhanna.money/docs/src/2022-4.pdf"
+    },
+    {
+      "document_id": "2022-5",
+      "label": "Periodic Transaction Report / filing #5 (2022)",
+      "pages": 18,
+      "url": "https://www.rokhanna.money/docs/src/2022-5.pdf"
+    },
+    {
+      "document_id": "2022-6",
+      "label": "Periodic Transaction Report / filing #6 (2022)",
+      "pages": 67,
+      "url": "https://www.rokhanna.money/docs/src/2022-6.pdf"
+    },
+    {
+      "document_id": "2022-7",
+      "label": "Periodic Transaction Report / filing #7 (2022)",
+      "pages": 34,
+      "url": "https://www.rokhanna.money/docs/src/2022-7.pdf"
+    },
+    {
+      "document_id": "2022-8",
+      "label": "Periodic Transaction Report / filing #8 (2022)",
+      "pages": 16,
+      "url": "https://www.rokhanna.money/docs/src/2022-8.pdf"
+    },
+    {
+      "document_id": "2022-9",
+      "label": "Periodic Transaction Report / filing #9 (2022)",
+      "pages": 24,
+      "url": "https://www.rokhanna.money/docs/src/2022-9.pdf"
+    },
+    {
+      "document_id": "2022-10",
+      "label": "Periodic Transaction Report / filing #10 (2022)",
+      "pages": 32,
+      "url": "https://www.rokhanna.money/docs/src/2022-10.pdf"
+    },
+    {
+      "document_id": "2022-11",
+      "label": "Periodic Transaction Report / filing #11 (2022)",
+      "pages": 21,
+      "url": "https://www.rokhanna.money/docs/src/2022-11.pdf"
+    },
+    {
+      "document_id": "2022-12",
+      "label": "Periodic Transaction Report / filing #12 (2022)",
+      "pages": 28,
+      "url": "https://www.rokhanna.money/docs/src/2022-12.pdf"
+    },
+    {
+      "document_id": "2022-13",
+      "label": "Periodic Transaction Report / filing #13 (2022)",
+      "pages": 27,
+      "url": "https://www.rokhanna.money/docs/src/2022-13.pdf"
+    },
+    {
+      "document_id": "2022-14",
+      "label": "Periodic Transaction Report / filing #14 (2022)",
+      "pages": 1,
+      "url": "https://www.rokhanna.money/docs/src/2022-14.pdf"
+    },
+    {
+      "document_id": "2022-15",
+      "label": "2022 Annual Financial Disclosure (Form A)",
+      "pages": 367,
+      "url": "https://www.rokhanna.money/docs/src/2022-15.pdf"
+    },
+    {
+      "document_id": "2022-16",
+      "label": "Periodic Transaction Report / filing #15 (2022)",
+      "pages": 6,
+      "url": "https://www.rokhanna.money/docs/src/2022-16.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-17",
+  "url": "https://www.rokhanna.money/2022/",
+  "year": 2022
+}

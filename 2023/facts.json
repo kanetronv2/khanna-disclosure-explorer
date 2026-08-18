@@ -1,0 +1,171 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2023/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2023:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2023/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2023&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2023/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2023/transactions.json"
+  },
+  "caveats": [
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "coverage": {
+    "annual_filing_pages": 327,
+    "latest_readable_transaction_date": "2023-12-29",
+    "loaded_pages": 584,
+    "unresolved_transcription_flags": 1005
+  },
+  "dataset_version": "2026-08-17",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "annual_financial_disclosure",
+  "id": "kde:financial-disclosure:2023",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": {
+      "asset_id": "asset:2023:000055",
+      "asset_name": "MAI Capital Income and Growth Fund V, LP",
+      "display": "$1M+",
+      "evidence_url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2023:000055",
+      "maximum_usd": null,
+      "minimum_usd": 1000001,
+      "open_ended": true
+    },
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 275105009,
+      "display": "$94.7M – $275.1M+",
+      "minimum_usd": 94721643,
+      "open_ended_entries": 9
+    },
+    "reported_transactions": {
+      "active_trading_days": 238,
+      "average_per_active_trading_day": 19.7,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 169725000,
+        "display": "$46.2M – $169.7M",
+        "minimum_usd": 46174676,
+        "open_ended_entries": 0
+      },
+      "count": 4677,
+      "dated_count": 4677
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 66061401,
+      "display": "$17.5M – $66.1M+",
+      "minimum_usd": 17468501,
+      "open_ended_entries": 1
+    },
+    "source_linked_asset_entries": 2804,
+    "source_pages": 584
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2023-1",
+      "label": "Periodic Transaction Report / filing #1 (2023)",
+      "pages": 17,
+      "url": "https://www.rokhanna.money/docs/src/2023-1.pdf"
+    },
+    {
+      "document_id": "2023-2",
+      "label": "Periodic Transaction Report / filing #2 (2023)",
+      "pages": 15,
+      "url": "https://www.rokhanna.money/docs/src/2023-2.pdf"
+    },
+    {
+      "document_id": "2023-3",
+      "label": "Periodic Transaction Report / filing #3 (2023)",
+      "pages": 23,
+      "url": "https://www.rokhanna.money/docs/src/2023-3.pdf"
+    },
+    {
+      "document_id": "2023-4",
+      "label": "Periodic Transaction Report / filing #4 (2023)",
+      "pages": 20,
+      "url": "https://www.rokhanna.money/docs/src/2023-4.pdf"
+    },
+    {
+      "document_id": "2023-5",
+      "label": "Periodic Transaction Report / filing #5 (2023)",
+      "pages": 28,
+      "url": "https://www.rokhanna.money/docs/src/2023-5.pdf"
+    },
+    {
+      "document_id": "2023-6",
+      "label": "Periodic Transaction Report / filing #6 (2023)",
+      "pages": 33,
+      "url": "https://www.rokhanna.money/docs/src/2023-6.pdf"
+    },
+    {
+      "document_id": "2023-7",
+      "label": "Periodic Transaction Report / filing #7 (2023)",
+      "pages": 13,
+      "url": "https://www.rokhanna.money/docs/src/2023-7.pdf"
+    },
+    {
+      "document_id": "2023-8",
+      "label": "Periodic Transaction Report / filing #8 (2023)",
+      "pages": 22,
+      "url": "https://www.rokhanna.money/docs/src/2023-8.pdf"
+    },
+    {
+      "document_id": "2023-9",
+      "label": "Periodic Transaction Report / filing #9 (2023)",
+      "pages": 15,
+      "url": "https://www.rokhanna.money/docs/src/2023-9.pdf"
+    },
+    {
+      "document_id": "2023-10",
+      "label": "Periodic Transaction Report / filing #10 (2023)",
+      "pages": 40,
+      "url": "https://www.rokhanna.money/docs/src/2023-10.pdf"
+    },
+    {
+      "document_id": "2023-11",
+      "label": "Periodic Transaction Report / filing #11 (2023)",
+      "pages": 14,
+      "url": "https://www.rokhanna.money/docs/src/2023-11.pdf"
+    },
+    {
+      "document_id": "2023-12",
+      "label": "Periodic Transaction Report / filing #12 (2023)",
+      "pages": 11,
+      "url": "https://www.rokhanna.money/docs/src/2023-12.pdf"
+    },
+    {
+      "document_id": "2023-13",
+      "label": "Periodic Transaction Report / filing #13 (2023)",
+      "pages": 1,
+      "url": "https://www.rokhanna.money/docs/src/2023-13.pdf"
+    },
+    {
+      "document_id": "2023-14",
+      "label": "2023 Annual Financial Disclosure (Form A)",
+      "pages": 327,
+      "url": "https://www.rokhanna.money/docs/src/2023-14.pdf"
+    },
+    {
+      "document_id": "2023-15",
+      "label": "Periodic Transaction Report / filing #14 (2023)",
+      "pages": 5,
+      "url": "https://www.rokhanna.money/docs/src/2023-15.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-17",
+  "url": "https://www.rokhanna.money/2023/",
+  "year": 2023
+}

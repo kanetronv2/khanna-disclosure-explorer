@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site-data"
 YEARS = [str(year) for year in range(2016, 2027)]
+ORIGIN = "https://www.rokhanna.money"
 
 
 def load_year(year):
@@ -115,11 +116,54 @@ def annual_progress(pages):
     return None
 
 
+def document_url(doc, primary_url=None, is_primary=False):
+    if is_primary and str(primary_url or "").startswith(("http://", "https://")):
+        return primary_url
+    path = "disclosures.pdf" if doc == "2024-1" else f"docs/src/{doc}.pdf"
+    return f"{ORIGIN}/{path}"
+
+
+def source_documents(pages, primary_url, annual):
+    documents = {}
+    for page in pages:
+        doc = page.get("doc") or "unknown"
+        current = documents.setdefault(doc, {
+            "document_id": doc,
+            "label": page.get("doc_label") or doc,
+            "pages": 0,
+        })
+        current["pages"] += 1
+    for doc, item in documents.items():
+        item["url"] = document_url(doc, primary_url, bool(annual and annual.get("doc") == doc))
+    def doc_key(value):
+        match = re.match(r"^(\d{4})-(\d+)$", value)
+        return (int(match.group(1)), int(match.group(2))) if match else (9999, value)
+    return [documents[key] for key in sorted(documents, key=doc_key)]
+
+
+def evidence_rows(rows, year, singular):
+    enriched = []
+    for index, source in enumerate(rows, 1):
+        row = dict(source)
+        row["doc"] = row.get("doc") or f"{year}-1"
+        record_id = f"{singular}:{year}:{index:06d}"
+        row.update({
+            "id": record_id,
+            "evidence_path": f"/api/v1/evidence?id={record_id}",
+        })
+        enriched.append(row)
+    return enriched
+
+
 def build_year(year):
     data = load_year(year)
     assets = data.get("assets") or []
     transactions = data.get("transactions") or []
     pages = data.get("pages") or []
+    annual = annual_progress(pages)
+    primary_url = data.get("source_pdf")
+    assets = evidence_rows(assets, year, "asset")
+    transactions = evidence_rows(transactions, year, "transaction")
     year_dir = OUT / year
     page_dir = year_dir / "pages"
     page_dir.mkdir(parents=True, exist_ok=True)
@@ -130,6 +174,9 @@ def build_year(year):
     page_index = []
     for page in pages:
         detail = dict(page)
+        doc = page.get("doc") or f"{year}-1"
+        page_match = re.search(r"page-(\d+)\.jpg$", page.get("image") or "")
+        document_page = int(page_match.group(1)) if page_match else int(page["pdf_page"])
         image_path = ROOT / page["image"]
         if image_path.is_file():
             detail["image"] = f"{page['image']}?v={file_hash(image_path)}"
@@ -137,6 +184,11 @@ def build_year(year):
         detail_path = page_dir / f"{int(page['pdf_page']):04d}.{hash_bytes(payload)}.json"
         detail_path.write_bytes(payload + b"\n")
         page_index.append({
+            "id": f"page:{doc}:{document_page:04d}",
+            "url": f"{ORIGIN}/{year}/#p{page['pdf_page']}",
+            "source_document_url": document_url(
+                doc, primary_url, bool(annual and annual.get("doc") == doc)
+            ),
             "pdf_page": page["pdf_page"],
             "printed_label": page.get("printed_label"),
             "section": page.get("section"),
@@ -166,7 +218,8 @@ def build_year(year):
         "income": sum_range(assets, "ilo", "ihi"),
         "transaction_total": sum_range(transactions, "lo", "hi"),
         "all_docs": page_progress(pages),
-        "annual_doc": annual_progress(pages),
+        "annual_doc": annual,
+        "source_documents": source_documents(pages, primary_url, annual),
         "owners": owners,
         "classes": classes,
         "groups": groups,

@@ -30,6 +30,20 @@ uncertain. Its warnings preserve source pointers and do not silently rewrite unc
 Schedule A holdings. Its accompanying README explains the exact-name matching, combined range
 semantics, and deliberately conservative higher/lower classification.
 
+## Read-only web API
+
+The deployed site publishes an OpenAPI 3.1 description at
+`https://www.rokhanna.money/api/v1/openapi.json`. Compact year facts are available at
+`/api/v1/years/YYYY/summary.json`; the complete source-linked arrays are available as
+`assets.json`, `transactions.json`, and `pages.json` under the same year route. Every asset and
+transaction includes a deterministic ID, a stable evidence lookup path, and document/page
+pointers. Resolving that ID through the evidence endpoint adds absolute source-document and
+filing-page URLs.
+
+`/api/v1/search` filters one year's assets or transactions without downloading the full array,
+and `/api/v1/evidence?id=transaction:2025:000001` resolves one deterministic record. The API is
+read-only and permits cross-origin GET requests.
+
 ## Important semantics
 
 - Dollar amounts are statutory ranges, not exact values. `*_min_usd` and `*_max_usd` are the

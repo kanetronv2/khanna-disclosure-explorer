@@ -1,0 +1,82 @@
+{
+  "dataset_version": "2026-08-17",
+  "years": [
+    {
+      "canonical_url": "https://www.rokhanna.money/2026/",
+      "filing_type": "periodic_transaction_reports",
+      "markdown_url": "https://www.rokhanna.money/2026/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2026/summary.json",
+      "year": 2026
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2025/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2025/summary.json",
+      "year": 2025
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2024/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2024/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2024/summary.json",
+      "year": 2024
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2023/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2023/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2023/summary.json",
+      "year": 2023
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2022/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2022/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2022/summary.json",
+      "year": 2022
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2021/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2021/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2021/summary.json",
+      "year": 2021
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2020/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2020/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2020/summary.json",
+      "year": 2020
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2019/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2019/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2019/summary.json",
+      "year": 2019
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2018/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2018/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2018/summary.json",
+      "year": 2018
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2017/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2017/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2017/summary.json",
+      "year": 2017
+    },
+    {
+      "canonical_url": "https://www.rokhanna.money/2016/",
+      "filing_type": "annual_financial_disclosure",
+      "markdown_url": "https://www.rokhanna.money/2016/index.md",
+      "summary_url": "https://www.rokhanna.money/api/v1/years/2016/summary.json",
+      "year": 2016
+    }
+  ]
+}

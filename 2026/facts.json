@@ -1,0 +1,104 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2026/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2026:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2026/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2026&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2026/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2026/transactions.json"
+  },
+  "caveats": [
+    "This year contains periodic transaction reports, not an annual holdings statement.",
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "coverage": {
+    "annual_filing_pages": null,
+    "latest_readable_transaction_date": "2026-06-08",
+    "loaded_pages": 211,
+    "unresolved_transcription_flags": 1280
+  },
+  "dataset_version": "2026-08-17",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "periodic_transaction_reports",
+  "id": "kde:financial-disclosure:2026",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": null,
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 0,
+      "display": "None",
+      "minimum_usd": 0,
+      "open_ended_entries": 0
+    },
+    "reported_transactions": {
+      "active_trading_days": 91,
+      "average_per_active_trading_day": 33.0,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 60610000,
+        "display": "$9.86M – $60.6M",
+        "minimum_usd": 9857008,
+        "open_ended_entries": 0
+      },
+      "count": 3008,
+      "dated_count": 3007
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 0,
+      "display": "None",
+      "minimum_usd": 0,
+      "open_ended_entries": 0
+    },
+    "source_linked_asset_entries": 0,
+    "source_pages": 211
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2026-1",
+      "label": "Periodic Transaction Report #1 (2026)",
+      "pages": 56,
+      "url": "https://www.rokhanna.money/docs/src/2026-1.pdf"
+    },
+    {
+      "document_id": "2026-2",
+      "label": "Periodic Transaction Report #2 (2026)",
+      "pages": 41,
+      "url": "https://www.rokhanna.money/docs/src/2026-2.pdf"
+    },
+    {
+      "document_id": "2026-3",
+      "label": "Periodic Transaction Report #3 (2026)",
+      "pages": 43,
+      "url": "https://www.rokhanna.money/docs/src/2026-3.pdf"
+    },
+    {
+      "document_id": "2026-4",
+      "label": "Periodic Transaction Report #4 (2026)",
+      "pages": 30,
+      "url": "https://www.rokhanna.money/docs/src/2026-4.pdf"
+    },
+    {
+      "document_id": "2026-5",
+      "label": "Periodic Transaction Report #5 (2026)",
+      "pages": 41,
+      "url": "https://www.rokhanna.money/docs/src/2026-5.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-17",
+  "url": "https://www.rokhanna.money/2026/",
+  "year": 2026
+}

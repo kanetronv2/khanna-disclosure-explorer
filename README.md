@@ -9,6 +9,11 @@ The data is designed for independent analysis. Every normalized record links bac
 source JSON file, and scan. Dollar figures remain the statutory ranges reported on the forms;
 the filings generally do not disclose exact values.
 
+Machine clients can begin at [`llms.txt`](llms.txt), use the OpenAPI description at
+`/api/v1/openapi.json`, or retrieve a compact Markdown and facts JSON document from each year
+directory. Stable API routes expose the complete per-year arrays without requiring a client to
+discover content-hashed website files.
+
 ## Use the data
 
 Start with [`data/README.md`](data/README.md). The main tables are in `data/normalized/`, in
@@ -31,7 +36,8 @@ make open-data
 ```
 
 That command recompiles every year, rebuilds the normalized dump, and fails if the structural
-audit finds missing source artifacts, pending pages, blank required text, or invalid ranges.
+audit finds missing source artifacts, pending pages, blank required text, invalid ranges, or
+drift in the LLM/API discovery surfaces.
 
 ## Run the website
 
@@ -56,6 +62,10 @@ to render `index.html` (the newest annual filing) plus one directory per remaini
 real markup rather than leaving them to client-side rendering, so the filing totals are
 readable without JavaScript and every year has its own indexable URL.
 
+`make pages` also generates `llms.txt`, `llms-full.txt`, annual `index.md` and `facts.json`
+documents, the OpenAPI files, and stable Vercel rewrites for the read-only API. After a verified
+production deployment, `make indexnow` submits the canonical sitemap URLs to IndexNow.
+
 ## Repository map
 
 ```text
@@ -69,8 +79,10 @@ docs/<document>/tess/  raw Tesseract output
 ocr/                   equivalent 2024 source/transcription pipeline
 data-YYYY.js           generated website datasets
 site-data/             generated, content-hashed lazy website chunks
+machine/v1/            generated API discovery and OpenAPI documents
+api/v1/                read-only evidence lookup and search handlers
 templates/index.html   source template for every generated page
-index.html, YYYY/      generated per-year pages (build with: make pages)
+index.html, YYYY/      generated HTML, Markdown, and facts JSON (build with: make pages)
 scripts/               release, audit, and page-rendering tooling
 ```
 

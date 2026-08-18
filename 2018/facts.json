@@ -1,0 +1,183 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2018/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2018:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2018/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2018&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2018/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2018/transactions.json"
+  },
+  "caveats": [
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "coverage": {
+    "annual_filing_pages": 309,
+    "latest_readable_transaction_date": "2018-12-31",
+    "loaded_pages": 427,
+    "unresolved_transcription_flags": 746
+  },
+  "dataset_version": "2026-08-17",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "annual_financial_disclosure",
+  "id": "kde:financial-disclosure:2018",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": {
+      "asset_id": "asset:2018:001261",
+      "asset_name": "GS FINANCIAL SQUARE TREASURY SOLUTIONS FUND",
+      "display": "$5M – $25M",
+      "evidence_url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2018:001261",
+      "maximum_usd": 25000000,
+      "minimum_usd": 5000001,
+      "open_ended": false
+    },
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 125525006,
+      "display": "$45.9M – $125.5M+",
+      "minimum_usd": 45945698,
+      "open_ended_entries": 6
+    },
+    "reported_transactions": {
+      "active_trading_days": 423,
+      "average_per_active_trading_day": 15.0,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 142159006,
+        "display": "$30.2M – $142.2M+",
+        "minimum_usd": 30154329,
+        "open_ended_entries": 6
+      },
+      "count": 6359,
+      "dated_count": 6354
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 12146900,
+      "display": "$2.57M – $12.1M",
+      "minimum_usd": 2566346,
+      "open_ended_entries": 0
+    },
+    "source_linked_asset_entries": 1951,
+    "source_pages": 427
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2018-2",
+      "label": "Periodic Transaction Report #1 (filed 2018)",
+      "pages": 7,
+      "url": "https://www.rokhanna.money/docs/src/2018-2.pdf"
+    },
+    {
+      "document_id": "2018-3",
+      "label": "Gift Disclosure Waiver Request",
+      "pages": 1,
+      "url": "https://www.rokhanna.money/docs/src/2018-3.pdf"
+    },
+    {
+      "document_id": "2018-4",
+      "label": "2018 Annual Financial Disclosure (Form A)",
+      "pages": 309,
+      "url": "https://www.rokhanna.money/docs/src/2018-4.pdf"
+    },
+    {
+      "document_id": "2018-5",
+      "label": "Periodic Transaction Report #2 (filed 2018)",
+      "pages": 5,
+      "url": "https://www.rokhanna.money/docs/src/2018-5.pdf"
+    },
+    {
+      "document_id": "2018-6",
+      "label": "Periodic Transaction Report #3 (filed 2018)",
+      "pages": 9,
+      "url": "https://www.rokhanna.money/docs/src/2018-6.pdf"
+    },
+    {
+      "document_id": "2018-7",
+      "label": "Periodic Transaction Report #4 (filed 2018)",
+      "pages": 6,
+      "url": "https://www.rokhanna.money/docs/src/2018-7.pdf"
+    },
+    {
+      "document_id": "2018-8",
+      "label": "Periodic Transaction Report #5 (filed 2018)",
+      "pages": 10,
+      "url": "https://www.rokhanna.money/docs/src/2018-8.pdf"
+    },
+    {
+      "document_id": "2018-9",
+      "label": "Periodic Transaction Report #6 (filed 2018)",
+      "pages": 11,
+      "url": "https://www.rokhanna.money/docs/src/2018-9.pdf"
+    },
+    {
+      "document_id": "2018-10",
+      "label": "Periodic Transaction Report #7 (filed 2018)",
+      "pages": 6,
+      "url": "https://www.rokhanna.money/docs/src/2018-10.pdf"
+    },
+    {
+      "document_id": "2018-11",
+      "label": "Periodic Transaction Report #8 (filed 2018)",
+      "pages": 10,
+      "url": "https://www.rokhanna.money/docs/src/2018-11.pdf"
+    },
+    {
+      "document_id": "2018-12",
+      "label": "Periodic Transaction Report #9 (filed 2018)",
+      "pages": 7,
+      "url": "https://www.rokhanna.money/docs/src/2018-12.pdf"
+    },
+    {
+      "document_id": "2018-13",
+      "label": "Periodic Transaction Report #10 (filed 2018)",
+      "pages": 7,
+      "url": "https://www.rokhanna.money/docs/src/2018-13.pdf"
+    },
+    {
+      "document_id": "2018-14",
+      "label": "Periodic Transaction Report #11 (filed 2018)",
+      "pages": 14,
+      "url": "https://www.rokhanna.money/docs/src/2018-14.pdf"
+    },
+    {
+      "document_id": "2018-15",
+      "label": "Periodic Transaction Report #12 (filed 2018)",
+      "pages": 11,
+      "url": "https://www.rokhanna.money/docs/src/2018-15.pdf"
+    },
+    {
+      "document_id": "2018-16",
+      "label": "Periodic Transaction Report #13 (filed 2018)",
+      "pages": 11,
+      "url": "https://www.rokhanna.money/docs/src/2018-16.pdf"
+    },
+    {
+      "document_id": "2018-17",
+      "label": "Periodic Transaction Report — Amendment (Nov 2018)",
+      "pages": 2,
+      "url": "https://www.rokhanna.money/docs/src/2018-17.pdf"
+    },
+    {
+      "document_id": "2018-18",
+      "label": "Financial Disclosure Extension Request",
+      "pages": 1,
+      "url": "https://www.rokhanna.money/docs/src/2018-18.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-17",
+  "url": "https://www.rokhanna.money/2018/",
+  "year": 2018
+}

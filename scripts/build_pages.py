@@ -757,6 +757,16 @@ KHANNA = {"@type": "Person", "name": "Ro Khanna", "alternateName": "Rohit Khanna
 
 
 def json_ld(summary, year, url, title, desc, ctx, is_root):
+    api = f"{ORIGIN}/api/v1/years/{year}"
+    source_urls = [item.get("url") for item in summary.get("source_documents") or [] if item.get("url")]
+    year_distributions = [
+        {"@type": "DataDownload", "encodingFormat": "application/json",
+         "contentUrl": f"{api}/summary.json", "name": f"{year} calculated facts and provenance"},
+        {"@type": "DataDownload", "encodingFormat": "application/json",
+         "contentUrl": f"{api}/assets.json", "name": f"{year} source-linked asset entries"},
+        {"@type": "DataDownload", "encodingFormat": "application/json",
+         "contentUrl": f"{api}/transactions.json", "name": f"{year} source-linked transactions"},
+    ]
     dataset = {
         "@context": "https://schema.org",
         "@type": "Dataset",
@@ -765,13 +775,23 @@ def json_ld(summary, year, url, title, desc, ctx, is_root):
         "url": url,
         "creator": PUBLISHER,
         "publisher": PUBLISHER,
+        "identifier": f"kde:financial-disclosure:{year}",
+        "version": ctx.modified,
         "about": KHANNA,
         "spatialCoverage": "California 17th congressional district",
         "temporalCoverage": year,
-        "isBasedOn": summary.get("source_pdf") or SOURCE_INDEX,
+        "isBasedOn": source_urls or [summary.get("source_pdf") or SOURCE_INDEX],
         "license": "https://creativecommons.org/publicdomain/zero/1.0/",
         "isAccessibleForFree": True,
         "dateModified": ctx.modified,
+        "measurementTechnique": [
+            "Transcription of official House financial-disclosure scans",
+            "OCR cross-checking with unresolved readings retained as uncertainties",
+            "Sum of statutory disclosure-range minimums and maximums",
+        ],
+        "includedInDataCatalog": {"@type": "DataCatalog",
+                                   "name": "Khanna Disclosure Explorer open data",
+                                   "url": f"{ORIGIN}/api/v1"},
         "keywords": ["Ro Khanna", "net worth", "stock trades", "financial disclosure",
                      "congressional trading", "U.S. House"],
         "variableMeasured": [
@@ -782,7 +802,7 @@ def json_ld(summary, year, url, title, desc, ctx, is_root):
             {"@type": "PropertyValue", "name": "Reported transactions",
              "value": summary["counts"]["transactions"]},
         ],
-        "distribution": ctx.distributions,
+        "distribution": year_distributions + ctx.distributions,
     }
     faq = {
         "@context": "https://schema.org",
@@ -827,9 +847,13 @@ def social_head(url, title, desc):
 
 
 def head(summary, year, url, canonical, title, desc, ctx, is_root):
+    year_machine_url = f"{ORIGIN}/{year}"
     return "\n".join([
         f"<title>{esc(title)}</title>",
         f'<link rel="canonical" href="{esc(canonical)}">',
+        f'<link rel="alternate" type="text/markdown" href="{year_machine_url}/index.md">',
+        f'<link rel="alternate" type="application/json" href="{year_machine_url}/facts.json">',
+        f'<link rel="describedby" type="application/json" href="{ORIGIN}/api/v1/openapi.json">',
         f'<meta name="description" content="{esc(desc)}">',
         '<meta name="robots" content="index,follow,max-image-preview:large">',
         '<meta name="author" content="Khanna Disclosure Explorer">',
@@ -1026,6 +1050,9 @@ def render_hub(template, ctx):
         "temporalCoverage": f"{first}/{last}", "isBasedOn": SOURCE_INDEX,
         "license": "https://creativecommons.org/publicdomain/zero/1.0/",
         "isAccessibleForFree": True, "dateModified": ctx.modified,
+        "identifier": "kde:reported-stock-trades", "version": ctx.modified,
+        "measurementTechnique": ["Transcription of official House disclosure scans",
+                                   "OCR cross-checking with explicit uncertainty flags"],
         "keywords": ["Ro Khanna", "stock trades", "congressional trading", "periodic transaction report"],
         "variableMeasured": [{"@type": "PropertyValue", "name": "Reported transactions",
                               "value": ctx.tx_total}],
@@ -1037,6 +1064,8 @@ def render_hub(template, ctx):
     head_html = "\n".join([
         f"<title>{esc(title)}</title>",
         f'<link rel="canonical" href="{esc(url)}">',
+        f'<link rel="alternate" type="text/markdown" href="{ORIGIN}/stock-trades/index.md">',
+        f'<link rel="describedby" type="application/json" href="{ORIGIN}/api/v1/openapi.json">',
         f'<meta name="description" content="{esc(desc)}">',
         '<meta name="robots" content="index,follow,max-image-preview:large">',
         '<meta name="author" content="Khanna Disclosure Explorer">',
@@ -1093,7 +1122,11 @@ def hub_lede(ctx):
 def write_sitemap(ctx):
     """Every canonical URL with a lastmod. changefreq/priority are omitted: Google ignores
     both, and a stale priority is worse than none."""
-    paths = ["/", TRADES_PATH] + [f"/{y}/" for y in sorted(ctx.years, reverse=True) if y != ctx.root_year]
+    paths = ["/", TRADES_PATH, "/stock-trades/index.md", "/llms.txt", "/llms-full.txt",
+             "/api/v1", "/api/v1/openapi.json", "/api/v1/years.json"]
+    paths += [f"/{y}/" for y in sorted(ctx.years, reverse=True) if y != ctx.root_year]
+    paths += [path for y in sorted(ctx.years, reverse=True)
+              for path in (f"/{y}/index.md", f"/{y}/facts.json")]
     body = "\n".join(
         f"  <url>\n    <loc>{ORIGIN}{p}</loc>\n    <lastmod>{ctx.modified}</lastmod>\n  </url>" for p in paths)
     (ROOT / "sitemap.xml").write_text(

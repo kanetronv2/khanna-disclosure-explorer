@@ -3,14 +3,23 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "khanna-disclosure-explorer.vercel.app" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "khanna-disclosure-explorer.vercel.app"
+        }
+      ],
       "destination": "https://www.rokhanna.money/$1",
       "permanent": true
     },
     {
       "source": "/",
       "has": [
-        { "type": "query", "key": "year", "value": "(?<year>20[0-9]{2})" }
+        {
+          "type": "query",
+          "key": "year",
+          "value": "(?<year>20[0-9]{2})"
+        }
       ],
       "destination": "/:year/",
       "permanent": true
@@ -20,39 +29,306 @@
     {
       "source": "/ocr/pages/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/docs/(.*)/pages/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/site-data/(.*).([a-f0-9]{12}).json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/site-data/summaries.js",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/api/v1/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/machine/v1/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/llms(.*).txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, stale-while-revalidate=86400"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/v1",
+      "destination": "/machine/v1/index.json"
+    },
+    {
+      "source": "/api/v1/index.json",
+      "destination": "/machine/v1/index.json"
+    },
+    {
+      "source": "/api/v1/openapi.json",
+      "destination": "/machine/v1/openapi.json"
+    },
+    {
+      "source": "/api/v1/years.json",
+      "destination": "/machine/v1/years.json"
+    },
+    {
+      "source": "/api/v1/years/2016/summary.json",
+      "destination": "/2016/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2016/assets.json",
+      "destination": "/site-data/2016/assets.4424860940f2.json"
+    },
+    {
+      "source": "/api/v1/years/2016/transactions.json",
+      "destination": "/site-data/2016/transactions.4f53cda18c2b.json"
+    },
+    {
+      "source": "/api/v1/years/2016/pages.json",
+      "destination": "/site-data/2016/pages-index.f074140cec00.json"
+    },
+    {
+      "source": "/api/v1/years/2017/summary.json",
+      "destination": "/2017/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2017/assets.json",
+      "destination": "/site-data/2017/assets.3c812e699e2c.json"
+    },
+    {
+      "source": "/api/v1/years/2017/transactions.json",
+      "destination": "/site-data/2017/transactions.11b02caca495.json"
+    },
+    {
+      "source": "/api/v1/years/2017/pages.json",
+      "destination": "/site-data/2017/pages-index.ae43181b2c93.json"
+    },
+    {
+      "source": "/api/v1/years/2018/summary.json",
+      "destination": "/2018/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2018/assets.json",
+      "destination": "/site-data/2018/assets.4c349723e7e5.json"
+    },
+    {
+      "source": "/api/v1/years/2018/transactions.json",
+      "destination": "/site-data/2018/transactions.b9280c7d4c25.json"
+    },
+    {
+      "source": "/api/v1/years/2018/pages.json",
+      "destination": "/site-data/2018/pages-index.9b98d06c089a.json"
+    },
+    {
+      "source": "/api/v1/years/2019/summary.json",
+      "destination": "/2019/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2019/assets.json",
+      "destination": "/site-data/2019/assets.606aae63bd60.json"
+    },
+    {
+      "source": "/api/v1/years/2019/transactions.json",
+      "destination": "/site-data/2019/transactions.9efcd605f916.json"
+    },
+    {
+      "source": "/api/v1/years/2019/pages.json",
+      "destination": "/site-data/2019/pages-index.287550f837e0.json"
+    },
+    {
+      "source": "/api/v1/years/2020/summary.json",
+      "destination": "/2020/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2020/assets.json",
+      "destination": "/site-data/2020/assets.34cf98ab54e6.json"
+    },
+    {
+      "source": "/api/v1/years/2020/transactions.json",
+      "destination": "/site-data/2020/transactions.1506605c83cc.json"
+    },
+    {
+      "source": "/api/v1/years/2020/pages.json",
+      "destination": "/site-data/2020/pages-index.1c864a466a74.json"
+    },
+    {
+      "source": "/api/v1/years/2021/summary.json",
+      "destination": "/2021/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2021/assets.json",
+      "destination": "/site-data/2021/assets.db255ecdfb86.json"
+    },
+    {
+      "source": "/api/v1/years/2021/transactions.json",
+      "destination": "/site-data/2021/transactions.24b1c4c463a7.json"
+    },
+    {
+      "source": "/api/v1/years/2021/pages.json",
+      "destination": "/site-data/2021/pages-index.c925c11d19b4.json"
+    },
+    {
+      "source": "/api/v1/years/2022/summary.json",
+      "destination": "/2022/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2022/assets.json",
+      "destination": "/site-data/2022/assets.c8d9ee3191e4.json"
+    },
+    {
+      "source": "/api/v1/years/2022/transactions.json",
+      "destination": "/site-data/2022/transactions.cd3680ab882f.json"
+    },
+    {
+      "source": "/api/v1/years/2022/pages.json",
+      "destination": "/site-data/2022/pages-index.be159a92cd03.json"
+    },
+    {
+      "source": "/api/v1/years/2023/summary.json",
+      "destination": "/2023/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2023/assets.json",
+      "destination": "/site-data/2023/assets.9eef053a87c8.json"
+    },
+    {
+      "source": "/api/v1/years/2023/transactions.json",
+      "destination": "/site-data/2023/transactions.2deb168e6640.json"
+    },
+    {
+      "source": "/api/v1/years/2023/pages.json",
+      "destination": "/site-data/2023/pages-index.064dade6b3af.json"
+    },
+    {
+      "source": "/api/v1/years/2024/summary.json",
+      "destination": "/2024/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2024/assets.json",
+      "destination": "/site-data/2024/assets.4c96fe67d39b.json"
+    },
+    {
+      "source": "/api/v1/years/2024/transactions.json",
+      "destination": "/site-data/2024/transactions.62d17611528f.json"
+    },
+    {
+      "source": "/api/v1/years/2024/pages.json",
+      "destination": "/site-data/2024/pages-index.03739f8e6b60.json"
+    },
+    {
+      "source": "/api/v1/years/2025/summary.json",
+      "destination": "/2025/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2025/assets.json",
+      "destination": "/site-data/2025/assets.1903960e99f0.json"
+    },
+    {
+      "source": "/api/v1/years/2025/transactions.json",
+      "destination": "/site-data/2025/transactions.634f121894bd.json"
+    },
+    {
+      "source": "/api/v1/years/2025/pages.json",
+      "destination": "/site-data/2025/pages-index.6be357ef5e2a.json"
+    },
+    {
+      "source": "/api/v1/years/2026/summary.json",
+      "destination": "/2026/facts.json"
+    },
+    {
+      "source": "/api/v1/years/2026/assets.json",
+      "destination": "/site-data/2026/assets.4f53cda18c2b.json"
+    },
+    {
+      "source": "/api/v1/years/2026/transactions.json",
+      "destination": "/site-data/2026/transactions.b0ed4a58ca70.json"
+    },
+    {
+      "source": "/api/v1/years/2026/pages.json",
+      "destination": "/site-data/2026/pages-index.af35224ad9ce.json"
     }
   ]
 }
