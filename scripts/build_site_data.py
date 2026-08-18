@@ -110,7 +110,7 @@ def annual_progress(pages):
         documents[page.get("doc") or "unknown"].append(page)
     for doc, members in documents.items():
         label = members[0].get("doc_label") or ""
-        if re.search(r"annual financial disclosure|financial disclosure report|financial disclosure statement|form a", label, re.I):
+        if re.search(r"annual financial disclosure|financial disclosure report|financial disclosure statement|form [ab]", label, re.I):
             return {"doc": doc, "label": label, **page_progress(members)}
     return None
 

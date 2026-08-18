@@ -129,28 +129,28 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.csv",
       "name": "page_rows.csv",
-      "contentSize": "26198184"
+      "contentSize": "26198026"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.jsonl",
       "name": "page_rows.jsonl",
-      "contentSize": "96398731"
+      "contentSize": "96396651"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.csv",
       "name": "pages.csv",
-      "contentSize": "1195110"
+      "contentSize": "1195100"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.jsonl",
       "name": "pages.jsonl",
-      "contentSize": "2296643"
+      "contentSize": "2296633"
     },
     {
       "@type": "DataDownload",
@@ -171,14 +171,14 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.csv",
       "name": "uncertainties.csv",
-      "contentSize": "5109761"
+      "contentSize": "5097634"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.jsonl",
       "name": "uncertainties.jsonl",
-      "contentSize": "6767029"
+      "contentSize": "6752056"
     },
     {
       "@type": "DataDownload",
@@ -192,7 +192,7 @@
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/text-quality-audit.json",
       "name": "text-quality-audit.json",
-      "contentSize": "1094080"
+      "contentSize": "1093682"
     }
   ]
 }
@@ -870,6 +870,11 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   const txTot = D.transaction_total;
   const allDocs = D.all_docs;
   const annualDoc = D.annual_doc;
+  const topHolding = (D.top_holdings || [])[0];
+  const valueBandCard = ['Largest disclosed value band',
+    topHolding ? rng$(topHolding.vlo, topHolding.vhi) : '—',
+    'highest value range assigned to a single asset entry',
+    topHolding ? topHolding.name : ''];
   const docCard = annualDoc
     ? ['Document status',
        `${annualDoc.done} / ${annualDoc.total} annual pages`,
@@ -900,7 +905,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     incomeCard,
     [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${D.counts.transactions.toLocaleString()} reported transactions`,
       `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}${txTot.open?` (+${txTot.open} open-ended)`:''}.`],
-    docCard,
+    valueBandCard,
   ];
   document.getElementById('statcards').innerHTML = cards.map(c=>
     `<div class="card" ${c[3]?`title="${esc(c[3])}"`:''}><div class="k">${c[0]}</div><div class="v">${c[1]}</div><div class="d">${c[2]}</div></div>`).join('');
@@ -920,7 +925,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     eyebrow:`${(D.meta||{}).year||''} disclosed holdings`,
     headline:`Up to ${fmt$(tot.hiF)} reported`,
     detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${D.counts.assets.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
-    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Average trades per day',averageTradesPerDay],['Reported transactions',D.counts.transactions.toLocaleString()]],
+    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Annual filing pages',annualDoc?annualDoc.total.toLocaleString():'—'],['Source-linked asset entries',D.counts.assets.toLocaleString()]],
   };
   document.getElementById('storylead').innerHTML = `
     <div class="story-primary">

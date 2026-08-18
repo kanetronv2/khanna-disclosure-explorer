@@ -129,28 +129,28 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.csv",
       "name": "page_rows.csv",
-      "contentSize": "26198184"
+      "contentSize": "26198026"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.jsonl",
       "name": "page_rows.jsonl",
-      "contentSize": "96398731"
+      "contentSize": "96396651"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.csv",
       "name": "pages.csv",
-      "contentSize": "1195110"
+      "contentSize": "1195100"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.jsonl",
       "name": "pages.jsonl",
-      "contentSize": "2296643"
+      "contentSize": "2296633"
     },
     {
       "@type": "DataDownload",
@@ -171,14 +171,14 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.csv",
       "name": "uncertainties.csv",
-      "contentSize": "5109761"
+      "contentSize": "5097634"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.jsonl",
       "name": "uncertainties.jsonl",
-      "contentSize": "6767029"
+      "contentSize": "6752056"
     },
     {
       "@type": "DataDownload",
@@ -192,7 +192,7 @@
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/text-quality-audit.json",
       "name": "text-quality-audit.json",
-      "contentSize": "1094080"
+      "contentSize": "1093682"
     }
   ]
 }
@@ -667,8 +667,8 @@
 
   <!-- ============ OVERVIEW ============ -->
   <section class="view on" id="v-overview" role="tabpanel" aria-labelledby="tab-overview">
-    <div class="story-lead" id="storylead"><div class="story-primary"><span class="eyebrow">2023 disclosed holdings</span><h2>Up to $275.1M reported</h2><p>The filing’s statutory ranges sum to $94.7M at the low end and $275.1M at the calculated upper end across 2,804 line-items. Because 9 holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. These are disclosure-range sums, not an exact personal net worth.</p><div class="source-line"><span>Source-linked transcription</span><a href="docs/src/2023-14.pdf" target="_blank" rel="noopener">Official House filing ↗</a></div></div><div class="story-aside"><div class="aside-fact"><span>Calculated upper floor</span><strong>$275.1M+</strong></div><div class="aside-fact"><span>Average trades per day</span><strong>19.7</strong></div><div class="aside-fact"><span>Reported transactions</span><strong>4,677</strong></div></div></div>
-    <div class="cards compact-cards" id="statcards"><div class="card"><div class="k">Unearned income (2023)</div><div class="v">$17.5M – $66.1M+</div><div class="d">dividends, interest, gains, rent · min $17,468,501</div></div><div class="card"><div class="k">Transaction value (2023)</div><div class="v">$46.2M – $169.7M</div><div class="d">4,677 reported transactions</div></div><div class="card"><div class="k">Document status</div><div class="v">327 / 327 annual pages</div><div class="d">all loaded filings: 584 / 584 pages</div></div></div>
+    <div class="story-lead" id="storylead"><div class="story-primary"><span class="eyebrow">2023 disclosed holdings</span><h2>Up to $275.1M reported</h2><p>The filing’s statutory ranges sum to $94.7M at the low end and $275.1M at the calculated upper end across 2,804 line-items. Because 9 holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. These are disclosure-range sums, not an exact personal net worth.</p><div class="source-line"><span>Source-linked transcription</span><a href="docs/src/2023-14.pdf" target="_blank" rel="noopener">Official House filing ↗</a></div></div><div class="story-aside"><div class="aside-fact"><span>Calculated upper floor</span><strong>$275.1M+</strong></div><div class="aside-fact"><span>Annual filing pages</span><strong>327</strong></div><div class="aside-fact"><span>Source-linked asset entries</span><strong>2,804</strong></div></div></div>
+    <div class="cards compact-cards" id="statcards"><div class="card"><div class="k">Unearned income (2023)</div><div class="v">$17.5M – $66.1M+</div><div class="d">dividends, interest, gains, rent · min $17,468,501</div></div><div class="card"><div class="k">Transaction value (2023)</div><div class="v">$46.2M – $169.7M</div><div class="d">4,677 reported transactions</div></div><div class="card" title="MAI Capital Income and Growth Fund V, LP"><div class="k">Largest disclosed value band</div><div class="v">$1M+</div><div class="d">highest value range assigned to a single asset entry</div></div></div>
     <div class="panel findings-panel" id="panel-findings">
       <div class="section-heading">
         <div><span class="section-kicker">What the filing shows</span><h2>Key findings</h2></div>
@@ -878,6 +878,11 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   const txTot = D.transaction_total;
   const allDocs = D.all_docs;
   const annualDoc = D.annual_doc;
+  const topHolding = (D.top_holdings || [])[0];
+  const valueBandCard = ['Largest disclosed value band',
+    topHolding ? rng$(topHolding.vlo, topHolding.vhi) : '—',
+    'highest value range assigned to a single asset entry',
+    topHolding ? topHolding.name : ''];
   const docCard = annualDoc
     ? ['Document status',
        `${annualDoc.done} / ${annualDoc.total} annual pages`,
@@ -908,7 +913,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     incomeCard,
     [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${D.counts.transactions.toLocaleString()} reported transactions`,
       `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}${txTot.open?` (+${txTot.open} open-ended)`:''}.`],
-    docCard,
+    valueBandCard,
   ];
   document.getElementById('statcards').innerHTML = cards.map(c=>
     `<div class="card" ${c[3]?`title="${esc(c[3])}"`:''}><div class="k">${c[0]}</div><div class="v">${c[1]}</div><div class="d">${c[2]}</div></div>`).join('');
@@ -928,7 +933,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     eyebrow:`${(D.meta||{}).year||''} disclosed holdings`,
     headline:`Up to ${fmt$(tot.hiF)} reported`,
     detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${D.counts.assets.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
-    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Average trades per day',averageTradesPerDay],['Reported transactions',D.counts.transactions.toLocaleString()]],
+    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Annual filing pages',annualDoc?annualDoc.total.toLocaleString():'—'],['Source-linked asset entries',D.counts.assets.toLocaleString()]],
   };
   document.getElementById('storylead').innerHTML = `
     <div class="story-primary">

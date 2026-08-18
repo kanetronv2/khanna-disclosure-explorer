@@ -284,9 +284,6 @@ class Context:
 def story_lead(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
     src = summary.get("source_pdf") or SOURCE_INDEX
-    dated = summary["counts"].get("dated_transactions", 0)
-    days = summary["counts"].get("active_trading_days", 0)
-    average = f"{dated / days:,.1f}" if days else "—"
     if is_ptr_only(summary):
         eyebrow = f"{year} periodic transaction reports"
         headline = f"{summary['counts']['transactions']:,} reported transactions"
@@ -305,9 +302,10 @@ def story_lead(summary, year):
             detail += (f"Because {tot['open']} holdings have no stated ceiling, this dashboard figure "
                        "is not a hard upper limit and the reported value may be higher. ")
         detail += "These are disclosure-range sums, not an exact personal net worth."
+        annual = summary.get("annual_doc")
         facts = [("Calculated upper floor", f"{fmt(tot['hiF'])}{'+' if tot['open'] else ''}"),
-                 ("Average trades per day", average),
-                 ("Reported transactions", f"{summary['counts']['transactions']:,}")]
+                 ("Annual filing pages", f"{annual['total']:,}" if annual else "—"),
+                 ("Source-linked asset entries", f"{summary['counts']['assets']:,}")]
     aside = "".join(f'<div class="aside-fact"><span>{esc(k)}</span><strong>{esc(v)}</strong></div>' for k, v in facts)
     return (f'<div class="story-primary"><span class="eyebrow">{esc(eyebrow)}</span>'
             f'<h2>{esc(headline)}</h2><p>{esc(detail)}</p>'
@@ -320,8 +318,13 @@ def stat_cards(summary, year):
     tot, inc, tx = summary["holdings"], summary["income"], summary["transaction_total"]
     all_docs, annual = summary["all_docs"], summary.get("annual_doc")
     if annual:
-        doc_card = ("Document status", f"{annual['done']} / {annual['total']} annual pages",
-                    f"all loaded filings: {all_docs['done']} / {all_docs['total']} pages", "")
+        top_holding = (summary.get("top_holdings") or [None])[0]
+        value_band_card = (
+            "Largest disclosed value band",
+            rng_pair(top_holding.get("vlo"), top_holding.get("vhi")) if top_holding else "—",
+            "highest value range assigned to a single asset entry",
+            top_holding.get("name", "") if top_holding else "",
+        )
     else:
         doc_card = ("Document status", f"{all_docs['done']} / {all_docs['total']} pages",
                     "all loaded filings transcribed from official scans", "")
@@ -332,7 +335,7 @@ def stat_cards(summary, year):
                            "annual holdings are filed the following spring", ""), doc_card]
     else:
         cards = [(f"Unearned income ({year})", rng_sum(inc),
-                  f"dividends, interest, gains, rent · min {exact(inc['lo'])}", ""), tx_card, doc_card]
+                  f"dividends, interest, gains, rent · min {exact(inc['lo'])}", ""), tx_card, value_band_card]
     return "".join(
         f'<div class="card"{f" title={chr(34)}{esc(tip)}{chr(34)}" if tip else ""}>'
         f'<div class="k">{esc(k)}</div><div class="v">{esc(v)}</div><div class="d">{esc(d)}</div></div>'

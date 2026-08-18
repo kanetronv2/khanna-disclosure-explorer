@@ -129,28 +129,28 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.csv",
       "name": "page_rows.csv",
-      "contentSize": "26198184"
+      "contentSize": "26198026"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/page_rows.jsonl",
       "name": "page_rows.jsonl",
-      "contentSize": "96398731"
+      "contentSize": "96396651"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.csv",
       "name": "pages.csv",
-      "contentSize": "1195110"
+      "contentSize": "1195100"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/pages.jsonl",
       "name": "pages.jsonl",
-      "contentSize": "2296643"
+      "contentSize": "2296633"
     },
     {
       "@type": "DataDownload",
@@ -171,14 +171,14 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.csv",
       "name": "uncertainties.csv",
-      "contentSize": "5109761"
+      "contentSize": "5097634"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/uncertainties.jsonl",
       "name": "uncertainties.jsonl",
-      "contentSize": "6767029"
+      "contentSize": "6752056"
     },
     {
       "@type": "DataDownload",
@@ -192,7 +192,7 @@
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/text-quality-audit.json",
       "name": "text-quality-audit.json",
-      "contentSize": "1094080"
+      "contentSize": "1093682"
     }
   ]
 }
@@ -683,8 +683,8 @@
 
   <!-- ============ OVERVIEW ============ -->
   <section class="view on" id="v-overview" role="tabpanel" aria-labelledby="tab-overview">
-    <div class="story-lead" id="storylead"><div class="story-primary"><span class="eyebrow">2025 disclosed holdings</span><h2>Up to $166.7M reported</h2><p>The filing’s statutory ranges sum to $69.2M at the low end and $166.7M at the calculated upper end across 3,290 line-items. Because 11 holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. These are disclosure-range sums, not an exact personal net worth.</p><div class="source-line"><span>Source-linked transcription</span><a href="https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf" target="_blank" rel="noopener">Official House filing ↗</a></div></div><div class="story-aside"><div class="aside-fact"><span>Calculated upper floor</span><strong>$166.7M+</strong></div><div class="aside-fact"><span>Average trades per day</span><strong>22.1</strong></div><div class="aside-fact"><span>Reported transactions</span><strong>5,402</strong></div></div></div>
-    <div class="cards compact-cards" id="statcards"><div class="card"><div class="k">Unearned income (2025)</div><div class="v">$2.51M – $10.8M</div><div class="d">dividends, interest, gains, rent · min $2,511,317</div></div><div class="card"><div class="k">Transaction value (2025)</div><div class="v">$44.6M – $164.4M</div><div class="d">5,402 reported transactions</div></div><div class="card"><div class="k">Document status</div><div class="v">353 / 353 annual pages</div><div class="d">all loaded filings: 665 / 665 pages</div></div></div>
+    <div class="story-lead" id="storylead"><div class="story-primary"><span class="eyebrow">2025 disclosed holdings</span><h2>Up to $166.7M reported</h2><p>The filing’s statutory ranges sum to $69.2M at the low end and $166.7M at the calculated upper end across 3,290 line-items. Because 11 holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. These are disclosure-range sums, not an exact personal net worth.</p><div class="source-line"><span>Source-linked transcription</span><a href="https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf" target="_blank" rel="noopener">Official House filing ↗</a></div></div><div class="story-aside"><div class="aside-fact"><span>Calculated upper floor</span><strong>$166.7M+</strong></div><div class="aside-fact"><span>Annual filing pages</span><strong>353</strong></div><div class="aside-fact"><span>Source-linked asset entries</span><strong>3,290</strong></div></div></div>
+    <div class="cards compact-cards" id="statcards"><div class="card"><div class="k">Unearned income (2025)</div><div class="v">$2.51M – $10.8M</div><div class="d">dividends, interest, gains, rent · min $2,511,317</div></div><div class="card"><div class="k">Transaction value (2025)</div><div class="v">$44.6M – $164.4M</div><div class="d">5,402 reported transactions</div></div><div class="card" title="HEDGE FUND SELECT ELT ASSOCIATES LLC COMMITMENT CLASS A SERIES 1"><div class="k">Largest disclosed value band</div><div class="v">$1M – $5M</div><div class="d">highest value range assigned to a single asset entry</div></div></div>
     <div class="panel findings-panel" id="panel-findings">
       <div class="section-heading">
         <div><span class="section-kicker">What the filing shows</span><h2>Key findings</h2></div>
@@ -894,6 +894,11 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   const txTot = D.transaction_total;
   const allDocs = D.all_docs;
   const annualDoc = D.annual_doc;
+  const topHolding = (D.top_holdings || [])[0];
+  const valueBandCard = ['Largest disclosed value band',
+    topHolding ? rng$(topHolding.vlo, topHolding.vhi) : '—',
+    'highest value range assigned to a single asset entry',
+    topHolding ? topHolding.name : ''];
   const docCard = annualDoc
     ? ['Document status',
        `${annualDoc.done} / ${annualDoc.total} annual pages`,
@@ -924,7 +929,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     incomeCard,
     [`Transaction value (${(D.meta||{}).year||''})`, rngS(txTot), `${D.counts.transactions.toLocaleString()} reported transactions`,
       `Exact sum of transaction-range minimums: ${exact$(txTot.lo)}; maximums: ${exact$(txTot.hiF)}${txTot.open?` (+${txTot.open} open-ended)`:''}.`],
-    docCard,
+    valueBandCard,
   ];
   document.getElementById('statcards').innerHTML = cards.map(c=>
     `<div class="card" ${c[3]?`title="${esc(c[3])}"`:''}><div class="k">${c[0]}</div><div class="v">${c[1]}</div><div class="d">${c[2]}</div></div>`).join('');
@@ -944,7 +949,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     eyebrow:`${(D.meta||{}).year||''} disclosed holdings`,
     headline:`Up to ${fmt$(tot.hiF)} reported`,
     detail:`The filing’s statutory ranges sum to ${fmt$(tot.lo)} at the low end and ${fmt$(tot.hiF)} at the calculated upper end across ${D.counts.assets.toLocaleString()} line-items. ${tot.open?`Because ${tot.open} holdings have no stated ceiling, this dashboard figure is not a hard upper limit and the reported value may be higher. `:''}These are disclosure-range sums, not an exact personal net worth.`,
-    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Average trades per day',averageTradesPerDay],['Reported transactions',D.counts.transactions.toLocaleString()]],
+    facts:[['Calculated upper floor',`${fmt$(tot.hiF)}${tot.open?'+':''}`],['Annual filing pages',annualDoc?annualDoc.total.toLocaleString():'—'],['Source-linked asset entries',D.counts.assets.toLocaleString()]],
   };
   document.getElementById('storylead').innerHTML = `
     <div class="story-primary">
