@@ -12,29 +12,29 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CADENCE' DESIGN SYSTEMS INC CMN",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "08/08/2025",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NASDAQ INC. CMN",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NASDAQ INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KKR & CO. INC. CMN",
+      "asset_name": "KKR & CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMMON STOCK",
+      "asset_name": "UNITED PARCEL SERVICE INC CLASS B COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,18 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SYNOPSYS INC. CMN \u201c",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "05/08/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "JA VOTING",
+      "asset_name": "SYNOPSYS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WO FLAY VETOES Wi UP Ee SP jo",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +89,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMGEN INC. CMN ry",
+      "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMGEN INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VEO TNT A RN Pek SP on",
+      "asset_name": "WESTINGHOUSE AIR BRAKE TECHNOL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BOOKING HOLDINGS INC. CMN",
+      "asset_name": "BOOKING HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN",
+      "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUVILPMALPY SU VP EN WASP Te red SP om",
+      "asset_name": "AMERICAN TOWER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -198,31 +198,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 5,
-      "field": "date",
-      "read": "04/09/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/06/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "date",
-      "read": "04/09/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/09/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

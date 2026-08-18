@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ZQETIS INC. CMN CLASS A K",
+      "asset_name": "ZOETIS INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SYNOPSYS INC. CMN",
+      "asset_name": "SYNOPSYS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THE HOME DEPOT, INC. CMN",
+      "asset_name": "THE HOME DEPOT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,18 +67,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KUMBERLY-CLARK CORPORATION CMN",
+      "asset_name": "KIMBERLY CLARK CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "QUANTASERVICESINCCMN",
+      "asset_name": "QUANTA SERVICES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FREEPORT-IMCMORAN INC CMN",
+      "asset_name": "FREEPORT MCMORAN INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TERADYNE INCCMN",
+      "asset_name": "TERADYNE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +122,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMN x",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KLA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KLACORP CMN",
+      "asset_name": "UNITED PARCEL SERVICE INC CLASS B COMMON STOCK",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMMON STOCK",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMN}",
+      "asset_name": "CHARLES SCHWAB CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SVPPASSILESSZ TD PIN RSET PEA, PE CY SP uss",
+      "asset_name": "MARRIOTT INTERNATIONAL INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CLASSA",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

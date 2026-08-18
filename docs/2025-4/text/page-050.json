@@ -11,23 +11,12 @@
     },
     {
       "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Rihanna Children"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Soc HONEYWELL INTERNATIONAL INC COM INTERNATIONAL INC COM USO1 RIZRAICCA LIOR AAI SEPAATISIALAL (AL? PAA",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HONEYWELL INTERNATIONAL INC COM \u00a5",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -38,7 +27,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ISHARES TR 0-3 MNTH TREASRY",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -49,29 +38,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "jJPMORGAN CHASE &CO. COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JOHNSON &JOHNSON COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JELILILLY &CO COM",
+      "asset_name": "ISHARES TR 0-3 MNTH TREASURY",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -82,7 +49,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "jMCDONALDS CORP",
+      "asset_name": "JPMORGAN CHASE & CO. COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -93,7 +60,40 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICROSOFT CORP",
+      "asset_name": "JOHNSON & JOHNSON COM",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "LVMH MOET HENNESSY LOUIS VUITTON ADR",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ELI LILLY & CO. COM",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MCDONALDS CORP",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -104,18 +104,18 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "MICROSOFT CORP",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "MONDELEZ INTL INC COM NPV",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MONDELEZ INTL INC COM NPV 4",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -126,7 +126,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NETFLIX INC bf 04/04/28",
+      "asset_name": "MONDELEZ INTL INC COM NPV",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -137,7 +137,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INVIDIA CORPORATION COM",
+      "asset_name": "NETFLIX INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -148,8 +148,19 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PEPSICO INC %",
+      "asset_name": "NVIDIA CORPORATION COM",
       "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PEPSICO INC",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -160,7 +171,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "PROCTER AND GAMBLE CO COM",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -171,7 +182,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "QUALCOMM INC",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -183,17 +194,6 @@
       "owner": "DC",
       "asset_name": "RTX CORPORATION COM USD1.00",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "RTX. CORPORATION COM USD1.00",
-      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -202,25 +202,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/04/2025' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

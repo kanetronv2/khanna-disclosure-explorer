@@ -2,9 +2,9 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2369,
+      "high": 2383,
       "low": 280,
-      "medium": 1752,
+      "medium": 1738,
       "medium-high": 1,
       "medium-low": 8
     },
@@ -12,22 +12,22 @@
     "normalized_records": {
       "assets": 26389,
       "documents": 128,
-      "page_rows": 116152,
+      "page_rows": 116166,
       "pages": 4410,
       "transactions": 49009,
-      "uncertainties": 16825
+      "uncertainties": 16754
     },
     "owner_code_distribution": {
-      "DC": 35470,
+      "DC": 35476,
       "JT": 14,
-      "SP": 75887,
-      "not_stated": 4781
+      "SP": 75888,
+      "not_stated": 4788
     },
     "page_images": 4410,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2928,
-      "tx": 81803
+      "group": 2935,
+      "tx": 81810
     },
     "page_source_json": 4410,
     "page_type_distribution": {
@@ -45,18 +45,18 @@
     "pending_pages": 0,
     "source_pdfs": 128,
     "tesseract_text_files": 4410,
-    "text_quality_findings": 1373,
+    "text_quality_findings": 1305,
     "text_quality_rule_distribution": {
       "ambiguous_transaction_columns": 936,
-      "checkbox_artifact": 37,
+      "checkbox_artifact": 32,
       "embedded_account_header": 3,
-      "embedded_grid_debris": 155,
-      "embedded_owner_code": 49,
+      "embedded_grid_debris": 153,
+      "embedded_owner_code": 25,
       "implausibly_long": 3,
-      "mixed_case_ocr_artifact": 449,
+      "mixed_case_ocr_artifact": 407,
       "ocr_table_debris": 2,
       "repeated_security_marker": 6,
-      "standalone_fragment": 13
+      "standalone_fragment": 10
     },
     "valid_page_source_json": 4410,
     "years": [
@@ -112,19 +112,19 @@
     },
     {
       "check": "transaction_text_quality",
-      "finding_count": 1373,
+      "finding_count": 1305,
       "report": "data/text-quality-audit.json",
       "rule_counts": {
         "ambiguous_transaction_columns": 936,
-        "checkbox_artifact": 37,
+        "checkbox_artifact": 32,
         "embedded_account_header": 3,
-        "embedded_grid_debris": 155,
-        "embedded_owner_code": 49,
+        "embedded_grid_debris": 153,
+        "embedded_owner_code": 25,
         "implausibly_long": 3,
-        "mixed_case_ocr_artifact": 449,
+        "mixed_case_ocr_artifact": 407,
         "ocr_table_debris": 2,
         "repeated_security_marker": 6,
-        "standalone_fragment": 13
+        "standalone_fragment": 10
       },
       "severity": "warning"
     }

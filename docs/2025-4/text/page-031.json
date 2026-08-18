@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EQUIFAX INC. CMN",
+      "asset_name": "EQUIFAX INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Ur tY GR OPAL PLES PERLE ead, INE, SP jCMN",
+      "asset_name": "DUN & BRADSTREET HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INCCMN",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PAYCHEX, INC. CMN",
+      "asset_name": "PAYCHEX INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DEXCOM, INC. CMN",
+      "asset_name": "DEXCOM INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,12 +100,12 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS 8",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "04/11/2025",
-      "notification_date": "08/08/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PPG INDUSTRIES, INC. CMN",
+      "asset_name": "PPG INDUSTRIES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
+      "asset_name": "MARTIN MARIETTA MATERIALS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -144,11 +144,22 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "A.0. SMITH CORP (DEL) CMN",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "A.O SMITH CORP (DEL) CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -166,18 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AIRBNB, INC. CMN CLASS A",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MKS INSTRUMENTS INC CMN",
+      "asset_name": "AIRBNB INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -188,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Is INSTRUMENTS INC CMN",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,

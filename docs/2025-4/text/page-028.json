@@ -15,7 +15,6 @@
       "asset_name": "THE BANK OF NY MELLON CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -23,10 +22,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, (NC. CMN",
+      "asset_name": "CHIPOTLE MEXICAN GRILL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -35,9 +33,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CSX CORPORATION CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,10 +42,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AMERIPRISE FINANCIAL, INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "AMERIPRISE FINANCIAL INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MQOBY'S CORPORATION CMN",
+      "asset_name": "MOODY'S CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -67,10 +62,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "asset_name": "DELTA AIR LINES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "p PACCAR INC CMN z 04/09/28]",
-      "tx_type": "Purchase",
+      "asset_name": "PACCAR INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -90,9 +83,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BAXTER INTERNATIONAL INC CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BILTON WORLDWIDE MOLDINGS INC.",
+      "asset_name": "HILTON WORLDWIDE HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LINDE PLCCMN",
-      "tx_type": "Sale",
+      "asset_name": "LINDE PLC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
-      "tx_type": "Sale",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -133,10 +122,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "METUIFE, INC. CMN",
+      "asset_name": "METLIFE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -147,7 +135,6 @@
       "asset_name": "FASTENAL COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SHERWIN-WILLIAMS CO CMN",
+      "asset_name": "SHERWIN WILLIAMS CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,10 +152,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CORP CLASSA",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -180,7 +165,6 @@
       "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,35 +172,15 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "METTLER-TOLEDO INTL CMN",
+      "asset_name": "METTLER TOLEDO INTL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 2,
-      "field": "date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '08/08/2025' to '05/08/2025' after re-checking the page scan"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "04/09/2025",
-      "note": "date corrected from misread '04/09/2028' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 10,
-      "field": "date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '08/08/2025' to '05/08/2025' after re-checking the page scan"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

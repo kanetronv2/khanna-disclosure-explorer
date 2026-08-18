@@ -15,7 +15,6 @@
       "asset_name": "SOLVENTUM CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -26,7 +25,6 @@
       "asset_name": "MGM RESORTS INTERNATIONAL CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -35,9 +33,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/02/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,10 +42,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BORGWARNER INC. CMN",
+      "asset_name": "BORGWARNER INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLOGCO CMN",
-      "tx_type": "Sale",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/28/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -68,9 +63,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/24/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PAYPAL HOLDINGS, INC. CMMN",
-      "tx_type": "Sale",
+      "asset_name": "PAYPAL HOLDINGS INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,7 +85,6 @@
       "asset_name": "M&T BANK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -101,9 +93,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "FRANKLIN RESOURCES INC CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -114,7 +105,6 @@
       "asset_name": "INSULET CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "QORVO, INC. CMN",
+      "asset_name": "QORVO INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -136,7 +125,16 @@
       "asset_name": "GEN DIGITAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "AMETEK INC (NEW) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -145,9 +143,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "EQUITY RESIDENTIAL CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +152,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JEASTMAN CHEMICAL COMPANY CMN 04,",
+      "asset_name": "EASTMAN CHEMICAL COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,10 +162,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRIMBLE INC CMN \u2018",
+      "asset_name": "TRIMBLE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -177,40 +172,15 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ECOLAB INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "ECOLAB INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "lecouas INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 15,
-      "field": "date",
-      "read": "04/23/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/23/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

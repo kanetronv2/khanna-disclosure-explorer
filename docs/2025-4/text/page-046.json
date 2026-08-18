@@ -8,32 +8,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JOHNSON & JOHNSON COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
       "asset_name": "LVMH MOET HENNESSY LOUIS VUITTON ADR",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ELI LILLY & CO COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -44,7 +21,6 @@
       "asset_name": "MASTERCARD INCORPORATED CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -52,10 +28,29 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MCDONALD'S CORP",
+      "asset_name": "MCDONALD S CORP",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MERCK &CO INC COM",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "META PLATFORMS INC CLASS A COMMON STOCK",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -66,7 +61,16 @@
       "asset_name": "MICROSOFT CORP",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MONDELEZ INTL INC COM NPV",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -77,18 +81,6 @@
       "asset_name": "MONDELEZ INTL INC COM NPV",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "MONDELEZ INTL INC COM NPV",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -99,7 +91,6 @@
       "asset_name": "NETFLIX INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -110,7 +101,6 @@
       "asset_name": "NVIDIA CORPORATION COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$15,001-$50,000"
@@ -121,7 +111,6 @@
       "asset_name": "ORACLE CORP",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -132,7 +121,6 @@
       "asset_name": "PALANTIR TECHNOLOGIES INC CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -143,7 +131,6 @@
       "asset_name": "PEPSICO INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -154,7 +141,6 @@
       "asset_name": "PROCTER AND GAMBLE CO COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -165,7 +151,6 @@
       "asset_name": "QUALCOMM INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -173,10 +158,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RTX CORPORATION COM USD1.00",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -184,10 +168,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RTX CORPORATION COM USD1.00",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -195,21 +178,15 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "RTX CORPORATION COM USD1.00",
+      "asset_name": "RTX CORPORATION COM USD1 00",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "field": "rows",
-      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

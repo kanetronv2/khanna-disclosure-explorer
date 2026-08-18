@@ -239,3 +239,12 @@ debris and split-row fragments, corrected transaction directions and amount band
 four omitted transactions, and restored the printed account separators. The 39 transaction
 pages now contain 657 transactions, have high page confidence, produce no text-quality
 finding for `2023-10`, and produce no date-after-notification anomaly.
+
+**`docs/2025-4` follow-up transaction-table re-verification (Aug 2026):** pages 003–005,
+007–009, 012–042, 044, 046–047, and 049–051 were re-read against the filed scans; this
+extends the earlier scan repairs on pages 006, 010–012, 014, 017, 024, 043, 045–046, and
+048 noted above. Matching 2025 annual Schedule B rows were used only after the scan's row
+count, endpoints, dates, and account boundaries agreed. The rebuild restored omitted rows,
+removed duplicated and merged OCR fragments, corrected shifted purchase/sale and amount
+columns, and put account separators back at their printed positions. The document now
+contains 840 transactions and produces no high-signal text-quality finding for `2025-4`.

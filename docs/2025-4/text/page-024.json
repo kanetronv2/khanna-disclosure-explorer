@@ -15,7 +15,6 @@
       "asset_name": "CAESARS ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -26,7 +25,6 @@
       "asset_name": "INTERPUBLIC GROUP COS CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARCHER-DANIELS-MIDLAND COMPANY CMN",
+      "asset_name": "ARCHER DANIELS-MIDLAND COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -48,7 +45,6 @@
       "asset_name": "ZEBRA TECHNOLOGIES INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BIOGEN INC. CMN",
+      "asset_name": "BIOGEN INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -70,7 +65,6 @@
       "asset_name": "DOLLAR GENERAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SKYWORKS SOLUTIONS, INC. CMN",
+      "asset_name": "SKYWORKS SOLUTIONS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -89,10 +82,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BUILDERS FIRSTSOURCE, INC. CMN",
+      "asset_name": "BUILDERS FIRSTSOURCE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALTRIA GROUP, INC. CMN",
+      "asset_name": "ALTRIA GROUP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARCH CAPITAL GROUP LTD. CMN",
+      "asset_name": "ARCH CAPITAL GROUP LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -125,7 +115,6 @@
       "asset_name": "WESTERN DIGITAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -133,10 +122,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DIGITAL REALTY TRUST, INC. CMN",
+      "asset_name": "DIGITAL REALTY TRUST INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -147,7 +135,6 @@
       "asset_name": "WEST PHARMACEUTICAL SERVICES INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/14/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,10 +152,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KKR & CO. INC. CMN",
+      "asset_name": "KKR & CO INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -180,7 +165,6 @@
       "asset_name": "FEDEX CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -191,18 +175,12 @@
       "asset_name": "AVALONBAY COMMUNITIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "field": "rows",
-      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

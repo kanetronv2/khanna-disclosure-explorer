@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "REV 5%",
+      "asset_name": "OHIO ST WTR DEV AUTH POLLUTION REV 5 / 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APOPLRHTS GPE EF Pe Lt ke ee bc ji JD CMNCINNATI OHIO WTR SYS REV REV",
+      "asset_name": "DUBLIN OHIO CITY SCH DIST GO 5 % 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Wal PERVERT Es PE EN Rey hey DC ss 12/01/25 JD",
+      "asset_name": "CINCINNATI OHIO WTR SYS REV REV 5 / 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -49,25 +49,25 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
+      "date": "04/02/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EPR D SE ERTY Whi Wet ) EO RE Ts re",
+      "asset_name": "DENVER COLO CITY & CNTY GO 5% 08/01/25 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/02/2025",
-      "notification_date": "08/01/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST GO 5%",
+      "asset_name": "OHIO ST GO 5 % 09/01/25 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -77,7 +77,7 @@
     },
     {
       "kind": "tx",
-      "owner": "SP",
+      "owner": "DC",
       "asset_name": "AMEREN CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
@@ -89,18 +89,18 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "[ASSET NAME UNCLEAR]",
+      "asset_name": "HEWLETT PACKARD ENTERPRISE CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CUBESMART LP 2.0% 05/18/2032 USD",
+      "asset_name": "CUBESMART LP 2.0 / 05/18/2032 USD",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "STEEL DYNAMICS, INC, CMN",
+      "asset_name": "STEEL DYNAMICS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NXP B.V. 2.5% 05/11/2031 USD",
+      "asset_name": "NXP B V 2 5% 05/11/2031 USD",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CLOUDFLARE, INC, CMN CLASS A",
+      "asset_name": "CLOUDFLARE INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -143,25 +143,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "ee",
-      "note": "Asset cell was poorly OCRed in both page text and row crop; row retained for count and checkbox/date data."
-    },
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 0,
-      "field": "asset_name",
-      "read": "manual cleanup applied",
-      "note": "Manual cleanup applied from page image/OCR for rows with degraded asset-name OCR; remaining marked names are uncertain where noted."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

@@ -15,7 +15,6 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -23,10 +22,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STV, Fake E SER Rae tee Reed TNR ied ey LEVEE ! SP cm",
-      "tx_type": "Sale",
+      "asset_name": "TRANE TECHNOLOGIES PUBLIC LIMI CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BROADCOM INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "BROADCOM INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,10 +42,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PU rik Ws IFES! LEU SP com",
+      "asset_name": "APOLLO GLOBAL MANAGEMENT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ASSURANT, INC. CMN",
+      "asset_name": "ASSURANT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -67,10 +62,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARISTA NETWORKS, INC. CMN %",
-      "tx_type": "Purchase",
+      "asset_name": "ARISTA NETWORKS INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JADVANCED MICRO DEVICES, INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "ADVANCED MICRO DEVICES INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -90,9 +83,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CLOROX CO (THE) (DELAWARE) CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JABILINC CMN",
+      "asset_name": "JABIL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NXP SEMICONDUCTORS N.V. CMN",
-      "tx_type": "Sale",
+      "asset_name": "NXP SEMICONDUCTORS N V CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -125,7 +115,6 @@
       "asset_name": "TE CONNECTIVITY CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -133,10 +122,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SPENT ENR TTR Pe atti GEVindy BEV,",
+      "asset_name": "MONOLITHIC POWER SYSTEMS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -147,7 +135,6 @@
       "asset_name": "LENNAR CORPORATION CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -156,9 +143,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DISCOVER FINANCIAL SERVICES CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,10 +152,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ADVANCEO MICRO DEVICES, INC. CMN",
-      "tx_type": "Sale",
+      "asset_name": "ADVANCED MICRO DEVICES INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -177,10 +162,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GODADOY INC. CMN CLASS A",
+      "asset_name": "GODADDY INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,29 +172,15 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HASBRO, INC. CMN",
+      "asset_name": "HASBRO INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 17,
-      "field": "date",
-      "read": "04/23/2025",
-      "note": "date corrected from misread '04/28/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 17,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/23/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

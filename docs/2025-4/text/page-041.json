@@ -16,29 +16,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DISNEY WALT CO COM [EXXON MoaIL CORP CoM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "META PLATEORAES INC CLASS A COMMON",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "Home DEPOT INC 04foa/25",
+      "asset_name": "DISNEY WALT CO COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -49,7 +27,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RONEYWeuL. INTERNATIONAL INC COM USD1",
+      "asset_name": "EXXON MOBIL CORP COM",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "META PLATFORMS INC CLASS A COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -60,7 +49,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "nowerweu INTERNATIONAL INC COM USD2",
+      "asset_name": "GE AEROSPACE COM NEW",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HOME DEPOT INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -71,7 +71,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "jroNerweu INTERNATIONAL INC COM USO1",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -82,7 +82,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ISHARES TR 0-3 MNTH TREASRY",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -93,7 +93,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JPMORGAN CHASE &CO. COM",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -104,7 +104,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "el GUY aco.com",
+      "asset_name": "INTERNATIONAL BUS MACH CORP COM USD0.20",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -115,7 +115,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MASTERCARD INCORPORATED CLA",
+      "asset_name": "ISHARES TR 0-3 MNTH TREASURY",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -159,7 +159,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LVMH MOET HENNESSY LOUIS VUITTON ADR",
+      "asset_name": "ELI LILLY & CO. COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -170,7 +170,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MASTERCARD INCORPORATED CLA",
+      "asset_name": "MASTERCARD INCORPORATED CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -181,9 +181,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "fmccomnscoe",
+      "asset_name": "MCDONALDS CORP",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -203,7 +203,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Se MONDELEZ INTL INC COM NPV",
+      "asset_name": "MONDELEZ INTL INC COM NPV",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -213,43 +213,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 15,
-      "field": "asset_name",
-      "read": "[ILLEGIBLE]",
-      "note": "Asset cell was poorly OCRed in both page text and row crop; row retained for count and checkbox/date data."
-    },
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 0,
-      "field": "asset_name",
-      "read": "manual cleanup applied",
-      "note": "Manual cleanup applied from page image/OCR for rows with degraded asset-name OCR; remaining marked names are uncertain where noted."
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 12,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/07/2025' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 18,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/04/2026' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

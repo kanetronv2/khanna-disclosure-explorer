@@ -11,13 +11,24 @@
     },
     {
       "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Rihanna Children"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "AMERICAN TOWER CORP NEW COM *",
+      "asset_name": "AMAZON.COM INC",
       "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AMERICAN TOWER CORP NEW COM",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -28,8 +39,8 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "APPLE INC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -40,7 +51,18 @@
       "owner": "DC",
       "asset_name": "BANK AMERICA CORP COM",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -61,19 +83,8 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BOOKING HOLDINGS INC COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "B8ROADCOM INC COM",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -93,7 +104,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CISCO SYSTEMS INC Xx",
+      "asset_name": "BROADCOM INC COM",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -104,9 +115,20 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "CISCO SYSTEMS INC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "CONOCOPHILLIPS COM",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -127,28 +149,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "EXXON MOBIL CORP COM",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GE AEROSPACE COM NEW",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "HOME DEPOT INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -181,7 +181,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "pe HOME DEPOT INC 2aAMEWIAIEIt IATTEDRNATIMAIAL IIS Cra",
+      "asset_name": "HOME DEPOT INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -192,29 +192,16 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD4",
+      "asset_name": "HONEYWELL INTERNATIONAL INC COM USD1",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/07/2025",
+      "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 12,
-      "field": "notification_date",
-      "read": "04/07/2025",
-      "note": "notification_date corrected from misread '04/07/2028' to '04/07/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

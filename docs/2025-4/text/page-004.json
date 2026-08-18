@@ -12,10 +12,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WALT DISNEY COMPANY {THE} CMN",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -26,7 +25,6 @@
       "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/25/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "IMKS INSTRUMENTS INC CMN",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/08/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,10 +42,9 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TENABLE HOLDINGS, INC CIMN",
+      "asset_name": "TENABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/30/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -59,8 +55,17 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "date": "04/08/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -70,18 +75,16 @@
       "asset_name": "PENN ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/08/2025",
+      "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,30 +95,7 @@
       "asset_name": "PINTEREST INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/16/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "JMKS INSTRUMENTS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/03/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "jOKTA, INC. CMN CLASS A",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -125,8 +105,57 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "OKTA INC CMN CLASS A",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/07/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "date": "04/16/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "04/17/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "04/17/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "04/21/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -136,51 +165,6 @@
       "asset_name": "GENERAL MOTORS COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/16/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS 8",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "04/17/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Bios Boe te a SY OC j/CORPORATION CMN BECTON, DICKINSON AND. COMPANY",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/17/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COR FSS, SPU ITAAIN FUSES UN bc ICMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/21/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GENERAL MOTORS COMPANY CMN BECTON, DICKINSON AND COMPANY",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,11 +172,10 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "Eafe ERIN y LATE OSSEY FAILS SASEVE AY F",
-      "tx_type": "Sale",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "05/08/2025",
+      "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }

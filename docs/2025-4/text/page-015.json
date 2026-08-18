@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CPUC Wl PVE RPA LAPIN be Re SP 00 INDEX",
+      "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -29,7 +29,7 @@
       "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -45,13 +45,13 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BLACKROCK FUNDING, INC, CMN",
+      "asset_name": "BLACKROCK FUNDING INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/05/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -84,29 +84,40 @@
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CORP CLASSA",
+      "asset_name": "AMPHENOL CORP CL A (NEW) CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PEPSICO, INC. CMN",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PEPSICO INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -122,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "j EATON CORP PLC CMN",
+      "asset_name": "EATON CORP PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,18 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CITIGROUP INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$15,001-$50,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "MKS INSTRUIMENTS INC CMN",
+      "asset_name": "CITIGROUP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PNC.FINANCIAL SERVICES GROUP, cM",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,13 +177,13 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PC HMAC SERVICES GROUP, cunt",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/05/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,

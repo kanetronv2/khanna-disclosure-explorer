@@ -16,18 +16,18 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZERO CPN 0.00000% 10 027",
+      "asset_name": "BANK MONTREAL MEDIUM SER K MTN ZERO CPN 0.00000% 10/21/2027",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/16/2025",
       "notification_date": "04/22/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$250,001-$500,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ACCENTURE PLC b4",
+      "asset_name": "ACCENTURE PLC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -39,17 +39,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ACCENTURE PLC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ABSOTT LABORATORIES",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -60,9 +49,64 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JABBOTT LABORATORIES",
-      "tx_type": "Purchase",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBOTT LABORATORIES",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ABBVIE INC COM USD0.01",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -72,7 +116,7 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ADOBE INC COM",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -82,8 +126,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ALPHABET INC CAP STK CLA",
-      "tx_type": "Sale",
+      "asset_name": "ALPHABET INC CAP STK CL A",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -94,8 +138,8 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMAZON.COM INC",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -105,39 +149,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "AMERICAN TOWER CORP NEW COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "APPLEINC b 4",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BANK AMERICA CORP COM",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "usoo.co33 cLass 8",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -148,8 +159,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BLACKROCK INC COM",
-      "tx_type": "Purchase",
+      "asset_name": "APPLE INC",
+      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -159,7 +170,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BOOKING HOLDINGS INC COM",
+      "asset_name": "BANK AMERICA CORP COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -202,13 +213,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 11,
-      "field": "date",
-      "read": "04/04/2025",
-      "note": "date corrected from misread '04/04/2028' to '04/04/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

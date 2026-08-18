@@ -12,10 +12,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ACE STORAGE INC. CMN",
+      "asset_name": "EXTRA SPACE STORAGE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -23,10 +22,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ICHUBB LIMITED CMN",
+      "asset_name": "CHUBB LIMITED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KEYSIGHT TECHNOLOGIES, INC. CIMN",
+      "asset_name": "KEYSIGHT TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -48,7 +45,6 @@
       "asset_name": "DEERE & COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SCAVAITC TOUANULVOT AVLUIN PLU. SP fc",
+      "asset_name": "SEAGATE TECHNOLOGY HOLDIN PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -67,10 +62,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UTDOORS.CORP CMN",
+      "asset_name": "DECKERS OUTDOORS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -81,7 +75,6 @@
       "asset_name": "DOORDASH INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -89,10 +82,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FIRST SOLAR, INC. CMN",
+      "asset_name": "FIRST SOLAR INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ICADENCE DESIGN SYSTEMS INC CMN",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALIGN TECHNOLOGY, INC CMN",
+      "asset_name": "ALIGN TECHNOLOGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "lAKAMAI TECHNOLOGIES, INC. CMN",
+      "asset_name": "AKAMAI TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -133,10 +122,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AGILENT TECHNOLOGIES, INC. CMN",
+      "asset_name": "AGILENT TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -144,10 +132,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LIVE NATION ENTERTAINMENT INC",
+      "asset_name": "LIVE NATION ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STATE SI RRST LURPURALIUN [INE WV} ! SP un",
+      "asset_name": "STATE STREET CORPORATION (NEW) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -169,7 +155,6 @@
       "asset_name": "ABBOTT LABORATORIES CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -177,10 +162,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Se Tek PRU LIVEP FUP EE Pear Tae LT",
+      "asset_name": "ELANCO ANIMAL HEALTH INCORPORA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,10 +172,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "jCMN 04/23/28!",
+      "asset_name": "GE HEALTHCARE TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"

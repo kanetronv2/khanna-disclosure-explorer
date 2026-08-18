@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ENPHASE ENERGY, INC. CMN",
+      "asset_name": "ENPHASE ENERGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PALANTIR TECHNOLOGIES INC. CMN",
+      "asset_name": "PALANTIR TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ULTRA CLEAN HOLDINGS, INC, CMN",
+      "asset_name": "ULTRA CLEAN HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,18 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SPEC DEITY WASTE FPP 178 0 eS BART, SP {jCMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "NCRVOYIX CORP GMN",
+      "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +78,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PENN ENTERTAINMENT INC CMN 04/1",
+      "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NCR VOYIX CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,11 +100,22 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SPONSORED ADR CMN 04/11725",
+      "asset_name": "PENN ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
+      "date": "04/11/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "IBERDROLA SOCIEDAD ANONIMA SPONSORED ADR CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/11/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -115,7 +126,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/12/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -126,7 +137,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/03/2025",
+      "date": "04/14/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
     },
@@ -137,7 +148,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/14/2025",
+      "date": "04/03/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -148,18 +159,18 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/03/2025",
+      "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "lqafanf2a2s % 423/25)",
+      "asset_name": "PUT/XSP @ 550 EXP 04/30/2025",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/16/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -170,7 +181,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/14/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -181,30 +192,12 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/14/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "rWwifAor YY 240 GAT SP loa/a0/2025",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 1,
-      "field": "date",
-      "read": "04/23/2025",
-      "note": "date corrected from misread '06/23/2025' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

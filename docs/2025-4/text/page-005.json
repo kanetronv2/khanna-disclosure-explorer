@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OKTA, INC. CMN CLASS A",
+      "asset_name": "OKTA INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BARE OS TASTING) PILES E ad, EP DC em",
+      "asset_name": "DUN & BRADSTREET HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VU & DRAUOTREE! MVULUINGS, INL",
+      "asset_name": "DUN & BRADSTREET HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -98,6 +98,10 @@
       "amount": "$1,001-$15,000"
     },
     {
+      "kind": "group",
+      "text": "2020 Trust FBO Rihanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "UBS AG LINKED TO S&P 500 INDEX",
@@ -122,35 +126,13 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "500 INDEX",
+      "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "UNKED TO S&P SOD INDEX",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/17/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/29/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -159,9 +141,9 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/24/2025",
+      "date": "04/17/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
@@ -170,31 +152,53 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/15/2025",
+      "date": "04/29/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$100,001-$250,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MORGAN STANLEY FINANCE LLC DC {LINKED TO S&P 500 INDEX UNITEDHEALTH GROUP INCORPORATE",
+      "asset_name": "ROYAL BANK OF CANADA LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/24/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$100,001-$250,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MICROSOFT CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WIVEP ELPA TT SE SIA ret DC {CMN",
+      "asset_name": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/21/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,

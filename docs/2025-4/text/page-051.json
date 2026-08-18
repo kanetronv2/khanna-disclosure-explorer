@@ -11,7 +11,7 @@
     },
     {
       "kind": "group",
-      "text": "2020 Trust FBO Khanna Children"
+      "text": "2020 Trust FBO Rihanna Children"
     },
     {
       "kind": "tx",
@@ -38,7 +38,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TESLAINC COM",
+      "asset_name": "TESLA INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -93,7 +93,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITEOHEALTH GROUP INC",
+      "asset_name": "UNITEDHEALTH GROUP INC",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -127,6 +127,25 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ZOETIS INC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "AR&CO"
+    },
+    {
+      "kind": "group",
+      "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BOFA FIN LLC SER A MTN ZERO CPN 0.0% 4/22/2030",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -135,9 +154,17 @@
       "amount": "$100,001-$250,000"
     },
     {
+      "kind": "group",
+      "text": "AR&CO"
+    },
+    {
+      "kind": "group",
+      "text": "2020 Trust FBO Rihanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "lo.o% 4/22/2030",
+      "asset_name": "BOFA FIN LLC SER A MTN ZERO CPN 0.0% 4/22/2030",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

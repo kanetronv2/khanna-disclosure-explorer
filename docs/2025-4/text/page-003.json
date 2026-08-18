@@ -10,10 +10,6 @@
       "text": "Monte and Usha Ahuja 2010 Irrev Trust FBO Grandchildren"
     },
     {
-      "kind": "group",
-      "text": "Ahuja Grandchildren's Education Trust"
-    },
-    {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "BECTON, DICKINSON AND COMPANY CMN",
@@ -93,13 +89,28 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "WASTE MANAGEMENT INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "04/04/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "group",
+      "text": "Ahuja Grandchildren's Education Trust"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
@@ -191,13 +202,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "ee:",
-      "note": "Asset cell was poorly OCRed in both page text and row crop; row retained for count and checkbox/date data."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

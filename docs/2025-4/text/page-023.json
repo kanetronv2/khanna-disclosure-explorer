@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WARNER BROS DISCOVERY INCCMN",
+      "asset_name": "WARNER BROS DISCOVERY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,6 +78,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "IDEX CORPORATION COMMON STOCK",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "ALBEMARLE CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -78,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CLASSA",
+      "asset_name": "AMPHENOL CORP CL-A (NEW) CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STARBUCKS CORP. CMN",
+      "asset_name": "STARBUCKS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WEYERHAEUSER COMPANY CMN 04/23/28",
+      "asset_name": "WEYERHAEUSER COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INVESCO LTO. CMN",
+      "asset_name": "INVESCO LTD CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,29 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FORTINET, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "pevay LTO. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "oP FORTINET, INC. CVIN",
+      "asset_name": "FORTINET INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -198,13 +198,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 15,
-      "field": "date",
-      "read": "04/23/2025",
-      "note": "date corrected from misread '04/23/2028' to '04/23/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

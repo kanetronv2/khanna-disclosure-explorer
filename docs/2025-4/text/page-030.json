@@ -12,40 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PRUDENTIAL FINANCIAL INC CMN % @",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/05/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "LRooosse28698",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SEIN OAEFA LRU LAS PULLS",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/04/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "WHEE LASTVIEVINSE SEES! LE, IES. SP cm",
+      "asset_name": "PRUDENTIAL FINANCIAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,9 +23,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DUN & BRADSTREET HOLDINGS, INC CMN",
+      "asset_name": "ROYAL CARIBBEAN GROUP ISIN LR0008862868",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
@@ -67,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "D.R. HORTON, INC, CMN",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING P CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -78,10 +45,54 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "S&P GLOBAL INC, CMN",
+      "asset_name": "OLD DOMINION FREIGHT LINE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HUBBELL INCORPORATED CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "DUN & BRADSTREET HOLDINGS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "04/04/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "D R HORTON INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "S&P GLOBAL INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -93,17 +104,6 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/09/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CROWDSTRIKE HOLDINGS, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
+      "asset_name": "CROWDSTRIKE HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -122,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN CHARLES RIVER LABORATORIES INT",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RESMED INC. CMN",
+      "asset_name": "CHARLES RIVER LABORATORIES INT CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,18 +144,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ARISTA NETWORKS, INC. CMN",
+      "asset_name": "RESMED INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
-      "notification_date": "08/08/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PALO ALTO NETWORKS INC. CMN",
+      "asset_name": "ARISTA NETWORKS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -166,7 +166,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LBAXTER INTERNATIONAL INC CMI % O4f03/25)",
+      "asset_name": "PALO ALTO NETWORKS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": true,
+      "date": "04/09/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -177,7 +188,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PTCINC. CMN",
+      "asset_name": "PTC INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -187,19 +198,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 15,
-      "field": "date",
-      "read": "04/03/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/03/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 15,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/03/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

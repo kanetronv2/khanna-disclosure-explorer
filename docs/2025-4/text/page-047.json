@@ -16,7 +16,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SALESFORCE ING COM",
+      "asset_name": "SALESFORCE INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -38,7 +38,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TESLAINCCOM",
+      "asset_name": "TESLA INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -60,7 +60,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNION PAC CORP COM 04/oaf25",
+      "asset_name": "UNION PAC CORP COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -104,7 +104,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VISAINC",
+      "asset_name": "VISA INC",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -126,8 +126,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WASTE MANAGEMENT INC xX",
-      "tx_type": "Purchase",
+      "asset_name": "WASTE MANAGEMENT INC",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -170,7 +170,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MERCK &CO. INC COM xX",
+      "asset_name": "MERCK & CO. INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -179,9 +179,17 @@
       "amount": "$1,001-$15,000"
     },
     {
+      "kind": "group",
+      "text": "MURA Holdings"
+    },
+    {
+      "kind": "group",
+      "text": "2020 Trust FBO Rihanna Children"
+    },
+    {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PUT UPM) JPMORGAN CHASE &CO. JU! 18 25 $170 (100 SHS",
+      "asset_name": "PUT (JPM) JPMORGAN CHASE & CO. JUL 18 25 $170 (100 SHS)",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -191,13 +199,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

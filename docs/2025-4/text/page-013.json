@@ -15,7 +15,6 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/08/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -26,7 +25,6 @@
       "asset_name": "HOLOGIC INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TENABLE HOLDINGS, INC CMN",
+      "asset_name": "TENABLE HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/30/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -48,7 +45,6 @@
       "asset_name": "PINTEREST INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/03/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MKS INSTRUMENTS INC.CMN",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -67,10 +62,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TRUIST FINANCIAL CORPORATION CMNI",
+      "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLAU FTL, PURE Ed SULA SP {CMN",
+      "asset_name": "ELANCO ANIMAL HEALTH INCORPORA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,7 +85,6 @@
       "asset_name": "NCR VOYIX CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/14/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -114,7 +105,6 @@
       "asset_name": "NCR VOYIX CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -125,8 +115,7 @@
       "asset_name": "PENN ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
+      "date": "04/11/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -136,7 +125,6 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
@@ -144,10 +132,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OKTA, INC. CMN CLASS A ”",
+      "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BAXTER INTERNATIONAL INC CMN ¥ QAfoas2s",
-      "tx_type": "Sale",
+      "asset_name": "OKTA INC CMN CLASS A",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,21 +152,19 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
-      "tx_type": "Sale",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/17/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY ING, CLASS B x",
-      "tx_type": "Sale",
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,10 +172,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BERKSHIRE HATHAWAY INC, CLASS 8B",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
+      "asset_name": "BERKSHIRE HATHAWAY INC CLASS B",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
       "date": "04/11/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"

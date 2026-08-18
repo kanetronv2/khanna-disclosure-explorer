@@ -11,96 +11,96 @@
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BANK OF AMERICA CORP CMN",
+      "owner": "DC",
+      "asset_name": "ALPHABET INC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "04/07/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COLGATE-PALMOLIVE CO CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/17/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "PUAN DPSS PINE sie SINE ft",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "04/04/2025",
+      "date": "03/19/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OHIO ST GO 5%",
-      "tx_type": "Purchase",
+      "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/02/2025",
+      "partial_sale": true,
+      "date": "03/19/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "42/01/27 Jp",
+      "asset_name": "OHIO ST GO 5 / 03/15/31 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/01/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TAINS RVR AGI LEA REE Rev O70",
+      "asset_name": "OHIO ST GO 5% 08/01/25 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/02/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$50,001-$100,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SPECS Bd TR GO Pie EF et Te OC (5% 12/01/25 JD GREATER CLEVELAND REGL TRAN REV",
+      "asset_name": "OHIO ST WTR DEV AUTH WTR REV 5 / 12/01/27 JD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/01/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TRINITY RIVER AUTH TEX REGL REV 5 / 08/01/25 FA",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/02/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "OHIO ST PARKS & REC CAP FACS REV 5 / 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
-      "notification_date": "12/01/2025",
-      "amount": "$1,001-$15,000"
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "MVREAICR VLE VOLPE? NEL PUN EY DC ce 12/01/25 JO",
+      "asset_name": "GREATER CLEVELAND REGL TRAN REV 5 / 12/01/25 JD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JOHIO ST GO 5%",
+      "asset_name": "OHIO ST GO 5 / 08/01/25 FA",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,13 +111,13 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PALANTIR TECHNOLOGIES INC.CMN",
+      "asset_name": "PALANTIR TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -128,34 +128,34 @@
       "partial_sale": false,
       "date": "04/25/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "59% 12/01/46-CA JD SCH DIST",
+      "asset_name": "WILLOUGHBY EASTLAKE OHIO CITY GO 5% 12/01/46-CA JD SCH DIST",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "JAIR PRODUCTS & CHEMICALS INCCMN",
+      "asset_name": "MIAMI UNIV OHIO GEN RCPTS REV 5 % 09/01/25 MS",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/02/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "late PRODUCTS & CHEMICALS INC CMN",
+      "owner": "DC",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -165,13 +165,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

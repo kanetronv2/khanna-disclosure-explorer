@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TVET RD FTP Ler, Wola et Ce",
+      "asset_name": "REGIONS FINANCIAL CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +23,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "Willd CULL PPE I Ee",
+      "asset_name": "OTIS WORLDWIDE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALCAAN LIMA REAL Bt CAAT dy, SP {INC",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ORACLE CORPGRATION CMN",
+      "asset_name": "ORACLE CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARMAX, INC. CMN",
+      "asset_name": "CARMAX, INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CLASSA",
+      "asset_name": "MASTERCARD INCORPORATED CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -115,14 +115,14 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "05/08/2025",
+      "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "OVER 0 EAST © LER ives Fe? ev SP iCMN SENSATA TECHNOLOGIES HOLDING P",
+      "asset_name": "MEDTRONIC PUBLIC LIMITED COMPA CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SRINOAE A LOU Ew FELONS SP sum",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING P CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "KIMBERLY-CLARK CORPORATION CMN",
+      "asset_name": "KIMBERLY CLARK CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EVITRAP TTI TREO TLE TUE Tey",
+      "asset_name": "MICROCHIP TECHNOLOGY INCORPORA CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "VENOM A CUP VEA eed PSL OSE SP com",
+      "asset_name": "SENSATA TECHNOLOGIES HOLDING P CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,

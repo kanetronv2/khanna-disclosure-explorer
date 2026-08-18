@@ -15,7 +15,6 @@
       "asset_name": "ADOBE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -26,7 +25,6 @@
       "asset_name": "AON PUBLIC LIMITED COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/25/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -37,7 +35,6 @@
       "asset_name": "ADOBE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -48,7 +45,6 @@
       "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HV@RID PERPETUAL",
+      "asset_name": "BANK OF AMERICA CORPORATION HYBRID PERPETUAL",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/24/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -67,10 +62,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CARMAX, INC. CIVIN",
+      "asset_name": "CARMAX INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TEXAS INSTRUMENTS INC. CMN",
+      "asset_name": "TEXAS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,7 +85,6 @@
       "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -103,7 +95,6 @@
       "asset_name": "SALESFORCE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -114,7 +105,6 @@
       "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STARBUCKS CORP, CMN",
+      "asset_name": "STARBUCKS CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -136,7 +125,6 @@
       "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -144,10 +132,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CORPORATION CMN",
-      "tx_type": "Sale",
+      "asset_name": "SBA COMMUNICATIONS CORPORATION CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "StLIVUN, VILANOUIN ANY CAJIVIFAINT",
-      "tx_type": "Sale",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/21/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -166,10 +152,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BE UIE, WTI LIEN PAILS asi ey",
-      "tx_type": "Sale",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/17/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -177,10 +162,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GENERAL MOTORS COMPANY CMN",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -189,28 +173,14 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GENERAL MOTORS COMPANY CMN",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 3,
-      "field": "date",
-      "read": "04/17/2025",
-      "note": "date corrected from misread '05/08/2025' to '04/17/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 3,
-      "field": "notification_date",
-      "read": "05/08/2025",
-      "note": "notification_date corrected from misread '04/17/2025' to '05/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

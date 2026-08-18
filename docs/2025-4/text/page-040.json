@@ -16,9 +16,20 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ABBVIE INC COM USD0.01",
+      "asset_name": "ABBOTT LABORATORIES",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ABBVIE INC COM USD0.01",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -28,7 +39,7 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "ADOBE INC COM",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
@@ -38,7 +49,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALPHABET INC CAP STK CLA",
+      "asset_name": "ALPHABET INC CAP STK CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -60,12 +71,45 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "AMERICAN TOWER CORP NEW COM",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "APPLE INC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "BANK AMERICA CORP COM",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/04/2025",
-      "notification_date": "08/07/2025",
+      "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -82,6 +126,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "BOOKING HOLDINGS INC COM",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "BROADCOM INC COM",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
@@ -95,7 +150,7 @@
       "owner": "SP",
       "asset_name": "BROADCOM INC COM",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
+      "cap_gain_over_200": true,
       "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
@@ -116,61 +171,6 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "CISCO SYSTEMS INC",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CISCO SYSTEMS INC",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CISCO SYSTEMS ING",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CONOCOPHILLIPS COM",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "5° cHevaow CORP NEW COM )",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CHEVRON CORP NEW COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -213,25 +213,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 17,
-      "field": "asset_name",
-      "read": "[ILLEGIBLE]",
-      "note": "Asset cell was poorly OCRed in both page text and row crop; row retained for count and checkbox/date data."
-    },
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    },
-    {
-      "row": 0,
-      "field": "asset_name",
-      "read": "manual cleanup applied",
-      "note": "Manual cleanup applied from page image/OCR for rows with degraded asset-name OCR; remaining marked names are uncertain where noted."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

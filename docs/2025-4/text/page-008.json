@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ot Too We CMN",
+      "asset_name": "DELL TECHNOLOGIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNITED RENTALS, INC. CMN",
+      "asset_name": "UNITED RENTALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PPG INDUSTRIES, INC, CMN",
+      "asset_name": "PPG INDUSTRIES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VEIT FORTE PISS PEA OC [CMN",
+      "asset_name": "SEAGATE TECHNOLOGY HOLDIN PLC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DOWINCCMN",
+      "asset_name": "DOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,13 +100,13 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "APPLE INC. CMN",
+      "asset_name": "APPLE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -117,7 +117,7 @@
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -128,24 +128,24 @@
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ANALOG DEVICES, INC. CMN",
+      "asset_name": "ANALOG DEVICES INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
-      "tx_type": "Purchase",
+      "asset_name": "LAM RESEARCH CORPORATION CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "04/15/2025",
@@ -155,13 +155,35 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "UNION PACIFIC CORP, CMN",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "UNION PACIFIC CORP CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PFIZER INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -172,45 +194,10 @@
       "partial_sale": true,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "De pram INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "wells FARGO & COMPANY CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 7,
-      "field": "asset_name",
-      "read": "ed",
-      "note": "Asset cell was poorly OCRed in both page text and row crop; row retained for count and checkbox/date data."
-    },
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

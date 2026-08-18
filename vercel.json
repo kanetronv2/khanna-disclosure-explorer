@@ -312,7 +312,7 @@
     },
     {
       "source": "/api/v1/years/2025/pages.json",
-      "destination": "/site-data/2025/pages-index.6be357ef5e2a.json"
+      "destination": "/site-data/2025/pages-index.360adaa449ec.json"
     },
     {
       "source": "/api/v1/years/2026/summary.json",

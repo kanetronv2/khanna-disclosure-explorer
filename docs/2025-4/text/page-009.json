@@ -12,29 +12,29 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ooors CORPORATION CMN",
+      "asset_name": "MOODY'S CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "Moopy's CORPORATION CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
       "asset_name": "ILLINOIS TOOL WORKS CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -45,7 +45,18 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ZOETIS INC. CMN CLASS A",
+      "asset_name": "ZOETIS INC CMN CLASS A",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KEYCORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PROLOGIS INC CN",
+      "asset_name": "PROLOGIS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,10 +89,10 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "COMMON STOCK",
+      "asset_name": "UNITED PARCEL SERVICE INC CLASS B COMMON STOCK",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,30 +103,30 @@
       "asset_name": "ACCENTURE PLC CMN CLASS A",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "OLD DOMINION FREIGHT LINE INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ACCENTURE PLC CMN CLASS A OLD DOMINION FREIGHT LINE, INC",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AVOTING",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/25/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -123,17 +134,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "TJX COMPANIES INC (NEW) CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "jEMERSON ELECTRIC CO. CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
@@ -144,10 +144,32 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "TARGET CORPORATION CMN",
+      "asset_name": "EMERSON ELECTRIC CO CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "MORGAN STANLEY HYBRID 12/10/2026 USD",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/10/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "TARGET CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -158,17 +180,6 @@
       "asset_name": "IQVIA HOLDINGS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/10/2025",
-      "notification_date": "04/25/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "FORTINET, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "04/15/2025",
       "notification_date": "05/08/2025",
@@ -177,18 +188,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "pew HOLDINGS INC CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "FORT INET, INC. CMN",
+      "asset_name": "FORTINET INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": false,
@@ -198,13 +198,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name/checkbox alignment",
-      "read": "OCR-assisted transcription",
-      "note": "Page text has wrapped or merged rows; row order and checkbox columns were cross-checked with scan coordinates, but some asset-name spellings may remain uncertain."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

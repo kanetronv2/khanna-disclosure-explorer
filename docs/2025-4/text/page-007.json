@@ -12,6 +12,17 @@
     {
       "kind": "tx",
       "owner": "DC",
+      "asset_name": "BLACKROCK FUNDING INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
       "asset_name": "DUPONT DE NEMOURS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
@@ -23,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PNCFINANCIAL SERVICES GROUP, CMN",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CLASSA",
+      "asset_name": "AMPHENOL CORP CL A (NEW) CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,7 +67,18 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "NETAPP, INC. CMN",
+      "asset_name": "U S BANCORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/15/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NETAPP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +111,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "OREGON ST GO 5% 05/01/31 MN",
+      "asset_name": "OREGON ST GO 5 % 05/01/31 MN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +122,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHIPOTLE MEXICAN GRILL, INC.CMN",
+      "asset_name": "CHIPOTLE MEXICAN GRILL, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -111,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KLACORPCMN",
+      "asset_name": "KLA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -122,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "asset_name": "DELTA AIR LINES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "SYNOPSYS INC. CMN",
+      "asset_name": "SYNOPSYS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PAYPAL HOLDINGS, INC. CMN",
+      "asset_name": "PAYPAL HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -167,28 +189,6 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "JPMORGAN CHASE & CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "pasos INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/15/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PMORGAN CHASE & CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,

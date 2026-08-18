@@ -15,7 +15,6 @@
       "asset_name": "CHUBB LIMITED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -23,10 +22,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PRINCIPAL FINANCIAL GROUP, INC CMN",
+      "asset_name": "PRINCIPAL FINANCIAL GROUP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DELTA AIR LINES, INC. CMN",
+      "asset_name": "DELTA AIR LINES INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -48,7 +45,6 @@
       "asset_name": "APPLIED MATERIALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -59,7 +55,6 @@
       "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -70,7 +65,6 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALPHABET INC. CMN CLASS C",
+      "asset_name": "ALPHABET INC CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,7 +85,6 @@
       "asset_name": "DOW INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -103,7 +95,6 @@
       "asset_name": "FAIR ISAAC INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COPART, INC. CMN",
+      "asset_name": "COPART INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FISERV, INC. CMN",
+      "asset_name": "FISERV INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -133,10 +122,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CISCO SYSTEMS, INC. CMN",
+      "asset_name": "CISCO SYSTEMS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -147,8 +135,7 @@
       "asset_name": "CAPITAL ONE FINANCIAL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/08/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -158,7 +145,6 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -169,7 +155,6 @@
       "asset_name": "CROWN CASTLE INTL CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -177,10 +162,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATED CMN",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -191,18 +175,12 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "field": "rows",
-      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

@@ -12,6 +12,17 @@
     {
       "kind": "tx",
       "owner": "SP",
+      "asset_name": "INTERNATIONAL PAPER CO CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
       "asset_name": "CORNING INCORPORATED CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
@@ -34,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EPAM SYSTEMS, INC. CMN",
+      "asset_name": "EPAM SYSTEMS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -47,17 +58,6 @@
       "owner": "SP",
       "asset_name": "BLACKSTONE GROUP INC/THE CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "NORTHERN TRUST CORP CMN",
-      "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "04/23/2025",
@@ -67,18 +67,40 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "LAS VEGAS SANDS CORP. CMN",
+      "asset_name": "NORTHERN TRUST CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
-      "notification_date": "05/05/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "LAS VEGAS SANDS CORP CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "VERALTO CORPORATION CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ON SEMICONDUCTOR CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,29 +122,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "STANLEY BLACK & DECKER, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "acrsr RESEARCH SYSTEMS INC cu",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "J B HUNT TRANS SVS INC CMN %",
+      "asset_name": "STANLEY BLACK & DECKER INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,11 +133,33 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MODERNA, INC. CMN",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "J B HUNT TRANS SVCS INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MODERNA INC CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -145,28 +167,6 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "NIKE CLASS-B CMN CLASS B",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/10/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SPONSORED ADR CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -177,7 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "sion PAYMENTS INC. CMN SUMITONO MITSUI FINANCIAL GRP",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -188,11 +188,11 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SUMHTOMO MITSUI FINANCIAL GRP",
+      "asset_name": "SUMITOMO MITSUI FINANCIAL GRP SPONSORED ADR CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
-      "date": "04/12/2025",
+      "date": "04/11/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }

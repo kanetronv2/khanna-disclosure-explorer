@@ -12,7 +12,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT/XSP @ [strike unclear] EXP 04/17/2025",
+      "asset_name": "PUT/XSP @ 544 EXP 04/17/2025",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,11 +45,11 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT/XSP @ 506 EXP 05/30/2025",
+      "asset_name": "PUT/XSP @ 506 EXP 06/30/2025",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/26/2025",
+      "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -61,7 +61,7 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/03/2025",
-      "notification_date": "04/14/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -72,18 +72,29 @@
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/14/2025",
-      "notification_date": "05/06/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT/XSP @ 460 EXP 06/30/2025",
-      "tx_type": "Purchase",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
-      "notification_date": "04/23/2025",
+      "notification_date": "05/08/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 490 EXP 07/31/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/23/2025",
+      "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
@@ -92,7 +103,7 @@
       "asset_name": "MICROSOFT CORPORATION CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,29 +111,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "APPLE INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "04/23/2025",
-      "notification_date": "05/08/2025",
-      "amount": "$50,001-$100,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "IBANK OF AMERICA CORP CMN",
+      "asset_name": "APPLE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MERCK & CO., INC, CMN",
+      "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,18 +133,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ABBVIE INC. CMN",
+      "asset_name": "MERCK & CO INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "00 INC. CMN THE PROCTER & GAMBLE COMPANY",
+      "asset_name": "ABBVIE INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
@@ -155,18 +155,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTUITINC CMN",
+      "asset_name": "THE PROCTER & GAMBLE COMPANY CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WALT DISNEY COMPANY {THE CHIN D4j0S/25)",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,34 +177,27 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNION PACIFIC CORP. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/08/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNION PACIFIC CORP. CMN",
+      "asset_name": "UNION PACIFIC CORP CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name",
-      "read": "manual cleanup applied",
-      "note": "Manual cleanup applied from page image/OCR for rows with degraded asset-name OCR; remaining marked names are uncertain where noted."
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }

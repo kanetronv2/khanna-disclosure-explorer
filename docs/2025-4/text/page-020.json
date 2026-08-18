@@ -12,10 +12,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HUNTINGTON BANCSHARES INCORPORATED CMN",
+      "asset_name": "EXPEDITORS INTERNATIONAL OF WA CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -23,10 +22,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTLFLAVORS & FRAGRANCE CMN",
+      "asset_name": "INTL.FLAVORS & FRAGRANCE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -34,10 +32,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "AUTODESK, INC. CMN",
+      "asset_name": "AUTODESK, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -45,10 +42,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "T. ROWE PRICE GROUP, INC. CMN ‘",
+      "asset_name": "T ROWE PRICE GROUP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -56,10 +52,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ICLASSA",
+      "asset_name": "ESTEE LAUDER COS INC CL A CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -70,7 +65,6 @@
       "asset_name": "JOHNSON & JOHNSON CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -78,10 +72,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NETAPP, INC. CMN",
+      "asset_name": "NETAPP INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -92,7 +85,6 @@
       "asset_name": "NEWS CORPORATION CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -100,10 +92,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITED AIRLINES HOLDINGS INCCMN",
+      "asset_name": "UNITED AIRLINES HOLDINGS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -111,10 +102,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WET SAL FE BLEUE VES ees ASE Phriday BEY BRE te SP cm",
+      "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -122,10 +112,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTUITIVE SURGICAL, INC. CMN",
+      "asset_name": "INTUITIVE SURGICAL, INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -136,7 +125,6 @@
       "asset_name": "VULCAN MATERIALS CO CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -144,10 +132,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTL BUSINESS MACHINES CORPCMN",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -155,10 +142,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CORTEVA, INC, CMN",
+      "asset_name": "CORTEVA INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -169,7 +155,6 @@
       "asset_name": "COOPER COS INC/THE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -180,7 +165,6 @@
       "asset_name": "BALL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -188,10 +172,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FERRET SUNN ET Re Cede PUP eed SECRET QP",
+      "asset_name": "HUNTINGTON BANCSHARES INCORPOR CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"

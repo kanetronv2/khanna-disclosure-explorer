@@ -11,23 +11,21 @@
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "FOX CORP 3.5% 04/08/2030 USD",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/10/2025",
+      "owner": "SP",
+      "asset_name": "OKTA INC CMN CLASS A",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "date": "03/18/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
-      "owner": "DC",
-      "asset_name": "REALTY INCOME CORP 2.85% 12/15/2032 USD",
-      "tx_type": "Sale",
+      "owner": "SP",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/10/2025",
+      "date": "03/10/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     },
@@ -41,7 +39,6 @@
       "asset_name": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/24/2025",
       "notification_date": "05/08/2025",
       "amount": "$50,001-$100,000"
@@ -52,7 +49,6 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
@@ -63,7 +59,6 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/03/2025",
       "notification_date": "05/08/2025",
       "amount": "$15,001-$50,000"
@@ -74,7 +69,6 @@
       "asset_name": "HOLOGIC INCORPORATED CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -82,10 +76,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -96,7 +89,6 @@
       "asset_name": "MKS INSTRUMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -107,7 +99,6 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -118,7 +109,6 @@
       "asset_name": "TARGET CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/07/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -126,10 +116,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -140,7 +129,6 @@
       "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/23/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -151,7 +139,6 @@
       "asset_name": "TRUIST FINANCIAL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/16/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -162,7 +149,6 @@
       "asset_name": "BANK OF AMERICA CORP CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -170,10 +156,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "MICRON TECHNOLOGY, INC. CMN",
+      "asset_name": "MICRON TECHNOLOGY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -181,10 +166,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GLOBAL PAYMENTS INC. CMN",
+      "asset_name": "GLOBAL PAYMENTS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/08/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
@@ -192,21 +176,15 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ALPHABET INC. CMN CLASS C",
+      "asset_name": "ALPHABET INC CMN CLASS C",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/03/2025",
+      "date": "04/09/2025",
       "notification_date": "05/08/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "field": "rows",
-      "note": "All printed rows re-verified against the filed PTR scan; restored omitted rows and separated merged/duplicated asset names."
-    }
-  ],
+  "uncertainties": [],
   "page_confidence": "high"
 }

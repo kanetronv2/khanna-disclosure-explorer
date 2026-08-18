@@ -16,10 +16,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "fonoetez INFL INC COM NPV",
-      "tx_type": "Purchase",
+      "asset_name": "MONDELEZ INTL INC COM NPV",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -27,10 +26,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NETFLIXINC",
+      "asset_name": "NETFLIX INC",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -38,10 +36,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INVIDIA CORPORATION COM",
+      "asset_name": "NVIDIA CORPORATION COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$15,001-$50,000"
@@ -52,7 +49,6 @@
       "asset_name": "ORACLE CORP",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -60,10 +56,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PALANTIR TECHNOLOGIES INC CLA",
+      "asset_name": "PALANTIR TECHNOLOGIES INC CL A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -74,7 +69,6 @@
       "asset_name": "PEPSICO INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -85,7 +79,6 @@
       "asset_name": "PROCTER AND GAMBLE CO COM",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -93,10 +86,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JQUALCOMM INC",
+      "asset_name": "QUALCOMM INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -104,10 +96,29 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RTX CORPORATION COM USD1.00",
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RTX CORPORATION COM USD1 00",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "RTX CORPORATION COM USD1 00",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -115,32 +126,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "RTX CORPORATION COM USD1.00",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "RTX CORPORATION COM USD1.00",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "SALESFORCE INCCOM",
+      "asset_name": "SALESFORCE INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -151,7 +139,6 @@
       "asset_name": "TARGA RESOURCES CORP",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -162,7 +149,6 @@
       "asset_name": "TESLA INC COM",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -170,21 +156,9 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "THERMO FISHER SCIENTIFIC INC. o4foaj2s",
+      "asset_name": "THERMO FISHER SCIENTIFIC INC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/07/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "UNION PAC CORP COM",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -193,9 +167,18 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNION PAC CORP COM",
-      "tx_type": "Sale",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "UNION PAC CORP COM",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
@@ -204,9 +187,8 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNITEDHEALTH GROUP INC",
-      "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": false,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"

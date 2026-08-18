@@ -17,7 +17,7 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT (GS) GOLDMAN SACHS GROUP JUL 18 25 $380 (100 SHS)",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -28,7 +28,7 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT (JPM) JPMORGAN CHASE & CO. JUL 18 25 $170 (100 SHS)",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -49,8 +49,8 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT (SPY) SPDR S&P500 ETF JUL 18 25 $410 (100 SHS)",
-      "tx_type": "Sale",
+      "asset_name": "PUT (SPY) SPDR S&P 500 ETF JUL 18 25 $410 (100 SHS)",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -61,7 +61,7 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT (NVDA) NVIDIA CORPORATION JUL 18 25 $75 (100 SHS)",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -71,8 +71,8 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $220 (200 SHS)",
-      "tx_type": "Sale",
+      "asset_name": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $120 (100 SHS)",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -83,7 +83,7 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT (TSLA) TESLA INC COM JUL 18 25 $195 (100 SHS)",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -93,8 +93,8 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $445 (100 SHS)",
-      "tx_type": "Sale",
+      "asset_name": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $145 (100 SHS)",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "04/08/2025",
@@ -105,39 +105,28 @@
       "kind": "tx",
       "owner": "SP",
       "asset_name": "PUT (V) VISA INC JUL 18 25 $255 (100 SHS)",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
+      "date": "04/08/2025",
+      "notification_date": "04/09/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "BANK MONTREAL MEDIUM SER K MTN ZERO CPN 0.00000% 10/21/2027",
-      "tx_type": "Sale",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
+      "date": "04/16/2025",
+      "notification_date": "04/22/2025",
+      "amount": "$250,001-$500,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ABBOTT LABORATORIES",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "04/04/2025",
-      "notification_date": "04/07/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "ABBOTT LABORATORIES",
+      "asset_name": "ACCENTURE PLC",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -152,7 +141,40 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "04/07/2025",
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ACCENTURE PLC",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
+      "notification_date": "04/07/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ABBOTT LABORATORIES",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "04/04/2025",
       "notification_date": "04/07/2025",
       "amount": "$1,001-$15,000"
     },
@@ -169,61 +191,6 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "asset_name",
-      "read": "manual cleanup applied",
-      "note": "Manual cleanup applied from page image/OCR for rows with degraded asset-name OCR; remaining marked names are uncertain where noted."
-    },
-    {
-      "row": 4,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 4,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 5,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 6,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "date",
-      "read": "04/08/2025",
-      "note": "date corrected from misread '04/09/2025' to '04/08/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    },
-    {
-      "row": 7,
-      "field": "notification_date",
-      "read": "04/09/2025",
-      "note": "notification_date corrected from misread '04/08/2025' to '04/09/2025' after re-checking the page scan (see docs/VERIFY_NOTES.md maturity-date audit)"
-    }
-  ],
-  "page_confidence": "medium"
+  "uncertainties": [],
+  "page_confidence": "high"
 }
