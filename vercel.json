@@ -63,6 +63,15 @@
       ]
     },
     {
+      "source": "/api/v1/(.*).txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
       "source": "/api/v1/(.*)",
       "headers": [
         {
@@ -70,8 +79,28 @@
           "value": "*"
         },
         {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Accept, Content-Type, If-None-Match"
+        },
+        {
           "key": "Cache-Control",
           "value": "public, max-age=300, stale-while-revalidate=86400"
+        },
+        {
+          "key": "Vary",
+          "value": "Accept"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.rokhanna.money/api/v1/openapi.json>; rel=\"describedby\"; type=\"application/vnd.oai.openapi+json\""
         }
       ]
     },
@@ -159,8 +188,20 @@
       "destination": "/machine/v1/issuers.json"
     },
     {
-      "source": "/api/v1/issuers/nvidia.json",
-      "destination": "/machine/v1/issuers/nvidia.json"
+      "source": "/api/v1/issuers/:slug/comparisons/:range.json",
+      "destination": "/api/v1/compare?entity=:slug&years=:range&resource=1"
+    },
+    {
+      "source": "/api/v1/issuers/:slug/comparisons/:range.txt",
+      "destination": "/api/v1/compare?entity=:slug&years=:range&resource=1&format=text"
+    },
+    {
+      "source": "/api/v1/issuers/:slug.json",
+      "destination": "/machine/v1/issuers/:slug.json"
+    },
+    {
+      "source": "/api/v1/issuers/:slug.txt",
+      "destination": "/machine/v1/issuers/:slug.txt"
     },
     {
       "source": "/api/v1/years/2016/summary.json",

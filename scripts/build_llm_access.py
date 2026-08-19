@@ -8,9 +8,9 @@ the llms.txt discovery documents without duplicating the underlying data in the 
 
 from __future__ import annotations
 
-import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 import build_pages as pages
@@ -257,15 +257,23 @@ def issuer_matches(row: dict, issuer: dict) -> bool:
 
 
 def issuer_public(issuer: dict) -> dict:
+    data_url = f"{API_ROOT}/issuers/{issuer['slug']}.json"
+    text_url = f"{API_ROOT}/issuers/{issuer['slug']}.txt"
+    featured = issuer.get("featured_comparison") or []
     return {
         "id": issuer["id"],
         "slug": issuer["slug"],
         "name": issuer["name"],
         "ticker": issuer.get("ticker"),
         "aliases": issuer.get("aliases") or [],
-        "url": f"{ORIGIN}/companies/{issuer['slug']}/",
-        "markdown_url": f"{ORIGIN}/companies/{issuer['slug']}/index.md",
-        "data_url": f"{API_ROOT}/issuers/{issuer['slug']}.json",
+        "url": data_url,
+        "data_url": data_url,
+        "text_url": text_url,
+        "comparison_url_template": f"{API_ROOT}/issuers/{issuer['slug']}/comparisons/{{from_year}}-{{to_year}}.json",
+        "featured_comparison_url": (
+            f"{API_ROOT}/issuers/{issuer['slug']}/comparisons/{featured[0]}-{featured[1]}.json"
+            if len(featured) == 2 else None
+        ),
     }
 
 
@@ -328,6 +336,21 @@ def issuer_payload(ctx: pages.Context, facts: dict[str, dict], issuer: dict) -> 
         caveat_text = (f"The filing years are not directly comparable: {' '.join(warnings)}"
                        if warnings else
                        "The disclosures report ranges rather than exact values, so an exact change cannot be calculated.")
+        answer = f"The aggregate reported range's bounds {direction_text}, from {old_value['display']} in {old['year']} to {new_value['display']} in {new['year']}. {caveat_text}"
+        limitations = list(dict.fromkeys([
+            "Reported values are statutory ranges, not exact market values or share counts.",
+            "A change in aggregated range bounds does not establish a change in actual holdings.",
+            *warnings,
+        ]))
+        evidence = [{
+            "id": record["id"],
+            "year": item["year"],
+            "reported_name": record.get("name"),
+            "reported_band": record.get("value"),
+            "owner": record.get("owner"),
+            "url": record["url"],
+            "source_page_url": record["source_page_url"],
+        } for item in (old, new) for record in item["records"]]
         comparisons.append({
             "from_year": old["year"],
             "to_year": new["year"],
@@ -338,16 +361,43 @@ def issuer_payload(ctx: pages.Context, facts: dict[str, dict], issuer: dict) -> 
             "directly_comparable": not warnings,
             "actual_holdings_change": "cannot_be_inferred",
             "warnings": warnings,
-            "answer": f"The aggregate reported range's bounds {direction_text}, from {old_value['display']} in {old['year']} to {new_value['display']} in {new['year']}. {caveat_text}",
+            "answer": answer,
+            "answer_basis": "Each bound is the sum of the statutory value-band bounds for matching Schedule A common-stock entries in that filing year.",
+            "calculation": {
+                "from": {"year": old["year"], "minimum_usd": old_lo, "upper_floor_usd": old_hi},
+                "to": {"year": new["year"], "minimum_usd": new_lo, "upper_floor_usd": new_hi},
+                "difference": {
+                    "minimum_usd": new_lo - old_lo,
+                    "upper_floor_usd": new_hi - old_hi,
+                },
+            },
+            "limitations": limitations,
+            "evidence": evidence,
         })
+    featured = issuer.get("featured_comparison") or []
+    featured_path = (f"{API_ROOT}/issuers/{issuer['slug']}/comparisons/{featured[0]}-{featured[1]}.json"
+                     if len(featured) == 2 else None)
+    featured_text = featured_path[:-5] + ".txt" if featured_path else None
     return {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "dataset_version": ctx.modified,
+        "generated_at": f"{ctx.modified}T00:00:00Z",
+        "canonical_url": f"{API_ROOT}/issuers/{issuer['slug']}.json",
+        "described_by": f"{API_ROOT}/openapi.json",
+        "methodology_url": f"{pages.REPO}/blob/main/data/README.md",
         "entity": issuer_public(issuer),
         "scope": "Annual Schedule A common-stock holdings aggregated across the household interests and portfolio groups printed in each filing.",
         "years": by_year,
         "comparisons": comparisons,
-        "compare_api_example": f"{API_ROOT}/compare?entity={issuer.get('ticker') or issuer['slug']}&years=2024,2025",
+        "compare_api_example": featured_path,
+        "links": {
+            "self": f"{API_ROOT}/issuers/{issuer['slug']}.json",
+            "text": f"{API_ROOT}/issuers/{issuer['slug']}.txt",
+            "featured_comparison": featured_path,
+            "featured_comparison_text": featured_text,
+            "issuer_index": f"{API_ROOT}/issuers.json",
+            "openapi": f"{API_ROOT}/openapi.json",
+        },
         "interpretation": [
             "Values are statutory reported ranges, not exact market values or share counts.",
             "Owner codes describe household disclosure attribution and do not establish who directed an investment decision.",
@@ -356,16 +406,16 @@ def issuer_payload(ctx: pages.Context, facts: dict[str, dict], issuer: dict) -> 
     }
 
 
-def issuer_markdown(payload: dict) -> str:
+def issuer_text(payload: dict) -> str:
     entity = payload["entity"]
     lines = [
         f"# Ro Khanna reported {entity['name']} holdings",
         "",
-        f"> Canonical page: {entity['url']}",
-        f"> Machine-readable issuer data: {entity['data_url']}",
+        f"> Canonical JSON: {entity['data_url']}",
+        f"> Text representation: {entity['text_url']}",
         f"> Dataset version: {payload['dataset_version']}",
         "",
-        f"This page groups reviewed filing-name variants under **{entity['name']} ({entity['ticker']})** while preserving every raw security name and evidence link. Values are household disclosure ranges, not exact holdings or share counts.",
+        f"This API resource groups reviewed filing-name variants under **{entity['name']} ({entity['ticker']})** while preserving every raw security name and evidence link. Values are household disclosure ranges, not exact holdings or share counts.",
         "",
         "## Annual reported ranges",
         "",
@@ -383,7 +433,14 @@ def issuer_markdown(payload: dict) -> str:
             "",
             "## Did the reported range increase from 2024 to 2025?",
             "",
-            f"Both reported bounds increased: **{old['reported_value']['display']}** in 2024 to **{new['reported_value']['display']}** in 2025. However, 2025 uses a different filing value-bracket basis, so this does not establish that actual holdings increased.",
+            target["answer"],
+            "",
+            f"Calculation: **{old['reported_value']['display']}** in 2024 to **{new['reported_value']['display']}** in 2025.",
+            "",
+            "### Evidence",
+            "",
+            *[f"- [{item['id']}]({item['url']}): {item['reported_name']} ({item.get('reported_band') or 'range unavailable'})"
+              for item in target["evidence"]],
         ])
     lines.extend([
         "",
@@ -395,62 +452,20 @@ def issuer_markdown(payload: dict) -> str:
         "## Data access",
         "",
         f"- [Issuer JSON]({entity['data_url']})",
-        f"- [Cross-year comparison API]({payload['compare_api_example']})",
+        f"- [Cross-year comparison API]({payload['compare_api_example']})" if payload["compare_api_example"] else "- No featured comparison configured.",
         f"- [API schema]({API_ROOT}/openapi.json)",
         "",
     ])
     return "\n".join(lines)
 
 
-def issuer_html(payload: dict) -> str:
-    entity = payload["entity"]
-    description = (
-        f"Source-linked annual disclosure ranges for {entity['name']} holdings reported in "
-        "Ro Khanna household financial disclosures, with reviewed issuer aliases and links "
-        "to the underlying filing evidence."
-    )
-    rows = []
-    for year in payload["years"]:
-        evidence = " ".join(
-            f'<a href="{html.escape(row["url"], quote=True)}">{index + 1}</a>'
-            for index, row in enumerate(year["records"])
-        )
-        rows.append(
-            f"<tr><th><a href=\"/{year['year']}/\">{year['year']}</a></th><td>{year['holding_count']}</td>"
-            f"<td>{html.escape(year['reported_value']['display'])}</td><td>{evidence}</td></tr>"
-        )
-    structured = json.dumps({
-        "@context": "https://schema.org",
-        "@type": "Dataset",
-        "name": f"Ro Khanna reported {entity['name']} holdings",
-        "description": description,
-        "url": entity["url"],
-        "creator": pages.PUBLISHER,
-        "publisher": pages.PUBLISHER,
-        "about": pages.KHANNA,
-        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "isAccessibleForFree": True,
-        "identifier": f"kde:issuer:{entity['slug']}",
-        "version": payload["dataset_version"],
-        "dateModified": payload["dataset_version"],
-        "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": entity["data_url"]}],
-    }, ensure_ascii=False).replace("</", "<\\/")
-    return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ro Khanna reported {html.escape(entity['name'])} holdings</title>
-<meta name="description" content="{html.escape(description, quote=True)}">
-<link rel="canonical" href="{entity['url']}"><link rel="alternate" type="text/markdown" href="{entity['markdown_url']}">
-<link rel="alternate" type="application/json" href="{entity['data_url']}"><link rel="describedby" type="application/json" href="{API_ROOT}/openapi.json">
-<script type="application/ld+json">{structured}</script>
-<style>body{{margin:0;background:#fafafa;color:#17191d;font:16px/1.55 system-ui,sans-serif}}main{{max-width:900px;margin:auto;padding:48px 22px}}h1{{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05}}table{{width:100%;border-collapse:collapse;background:white}}th,td{{padding:10px;border:1px solid #ddd;text-align:left}}a{{color:#174ea6}}.note{{color:#555;max-width:72ch}}</style></head>
-<body><main><p><a href="/">Ro Khanna Financial Disclosure Explorer</a></p><h1>Reported {html.escape(entity['name'])} holdings</h1>
-<p class="note">Reviewed issuer normalization for {html.escape(', '.join(entity['aliases']))}. Raw filed names and source evidence remain attached to every record. Values are household disclosure ranges, not exact holdings or share counts.</p>
-<h2>Annual reported ranges</h2><table><thead><tr><th>Filing year</th><th>Entries</th><th>Aggregated reported range</th><th>Evidence</th></tr></thead><tbody>{''.join(rows)}</tbody></table>
-<h2>How to interpret 2024–2025</h2><p>Both reported bounds increased, but the 2025 filing uses a different value-bracket basis. The comparison therefore does not establish that actual holdings increased.</p>
-<p><a href="{entity['markdown_url']}">Markdown version</a> · <a href="{entity['data_url']}">JSON data</a> · <a href="{payload['compare_api_example']}">Run the comparison API</a></p></main></body></html>'''
-
-
 def api_index(ctx: pages.Context) -> dict:
+    issuers = issuer_registry()
+    featured = next((issuer for issuer in issuers if len(issuer.get("featured_comparison") or []) == 2), None)
+    comparison_example = None
+    if featured:
+        start, end = featured["featured_comparison"]
+        comparison_example = f"{API_ROOT}/issuers/{featured['slug']}/comparisons/{start}-{end}.json"
     return {
         "name": "Khanna Disclosure Explorer read-only API",
         "version": "1.0.0",
@@ -459,7 +474,10 @@ def api_index(ctx: pages.Context) -> dict:
         "years": f"{API_ROOT}/years.json",
         "issuers": f"{API_ROOT}/issuers.json",
         "search": f"{API_ROOT}/search?year=2025&kind=transactions&q=apple",
-        "compare": f"{API_ROOT}/compare?entity=NVDA&years=2024,2025",
+        "issuer_url_template": f"{API_ROOT}/issuers/{{slug}}.json",
+        "comparison_url_template": f"{API_ROOT}/issuers/{{slug}}/comparisons/{{from_year}}-{{to_year}}.json",
+        "compare": comparison_example,
+        "legacy_compare": f"{API_ROOT}/compare?entity=NVDA&years=2024,2025",
         "evidence": f"{API_ROOT}/evidence?id=transaction:2025:000001",
         "license": "CC0-1.0 for original dataset contributions; see the site license notice.",
     }
@@ -468,6 +486,13 @@ def api_index(ctx: pages.Context) -> dict:
 def openapi(ctx: pages.Context) -> dict:
     error = {"type": "object", "properties": {"error": {"type": "string"}}}
     not_found = {"description": "Resource not found", "content": {"application/json": {"schema": error}}}
+    slug_parameter = {"name": "slug", "in": "path", "required": True,
+                      "description": "Reviewed lowercase issuer slug from /issuers.json.",
+                      "schema": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+    range_parameter = {"name": "range", "in": "path", "required": True,
+                       "description": "Two filing years separated by a hyphen.",
+                       "example": "2024-2025",
+                       "schema": {"type": "string", "pattern": "^20[0-9]{2}-20[0-9]{2}$"}}
     evidence_record = {
         "type": "object",
         "required": ["id", "doc", "page", "name"],
@@ -487,6 +512,102 @@ def openapi(ctx: pages.Context) -> dict:
             "source_page_url": {"type": "string", "format": "uri", "description": "Explorer URL for the filed page; present on lookup/search responses."},
         },
     }
+    issuer_identity = {
+        "type": "object",
+        "required": ["id", "slug", "name", "aliases", "url", "data_url", "text_url", "comparison_url_template"],
+        "properties": {
+            "id": {"type": "string"},
+            "slug": {"type": "string"},
+            "name": {"type": "string"},
+            "ticker": {"type": ["string", "null"]},
+            "aliases": {"type": "array", "items": {"type": "string"}},
+            "url": {"type": "string", "format": "uri"},
+            "data_url": {"type": "string", "format": "uri"},
+            "text_url": {"type": "string", "format": "uri"},
+            "comparison_url_template": {"type": "string"},
+            "featured_comparison_url": {"type": ["string", "null"]},
+        },
+    }
+    reported_value = {
+        "type": "object",
+        "required": ["minimum_usd", "calculated_upper_floor_usd", "maximum_usd", "display"],
+        "properties": {
+            "minimum_usd": {"type": ["integer", "null"]},
+            "calculated_upper_floor_usd": {"type": ["integer", "null"]},
+            "maximum_usd": {"type": ["integer", "null"], "description": "Null when one or more bands have no upper bound."},
+            "open_ended": {"type": "boolean"},
+            "open_ended_entries": {"type": "integer"},
+            "display": {"type": "string"},
+        },
+    }
+    comparison_result = {
+        "type": "object",
+        "required": ["from_year", "to_year", "answer", "answer_basis", "reported_bounds_direction",
+                     "conservative_range_relation", "directly_comparable", "actual_holdings_change",
+                     "calculation", "limitations", "evidence"],
+        "properties": {
+            "from_year": {"type": "integer"},
+            "to_year": {"type": "integer"},
+            "answer": {"type": "string", "description": "Concise answer that preserves the comparison warning."},
+            "answer_basis": {"type": "string"},
+            "lower_bound_direction": {"type": "string", "enum": ["increased", "decreased", "unchanged", "not_comparable"]},
+            "upper_bound_direction": {"type": "string", "enum": ["increased", "decreased", "unchanged", "not_comparable"]},
+            "reported_bounds_direction": {"type": "string"},
+            "conservative_range_relation": {"type": "string"},
+            "directly_comparable": {"type": "boolean"},
+            "actual_holdings_change": {"type": "string", "enum": ["cannot_be_inferred"]},
+            "warnings": {"type": "array", "items": {"type": "string"}},
+            "limitations": {"type": "array", "items": {"type": "string"}},
+            "calculation": {"type": "object", "description": "Input bounds and arithmetic differences used for the answer."},
+            "evidence": {"type": "array", "items": {"type": "object"}},
+        },
+        "examples": [{
+            "from_year": 2024,
+            "to_year": 2025,
+            "answer": "The aggregate reported range's lower and upper bounds both increased, but actual holdings change cannot be inferred.",
+            "answer_basis": "Each bound is the sum of matching Schedule A common-stock value-band bounds.",
+            "reported_bounds_direction": "both_increased",
+            "conservative_range_relation": "overlapping_reported_ranges",
+            "directly_comparable": False,
+            "actual_holdings_change": "cannot_be_inferred",
+            "calculation": {"from": {"year": 2024, "minimum_usd": 851005, "upper_floor_usd": 1765000},
+                            "to": {"year": 2025, "minimum_usd": 1210008, "upper_floor_usd": 2550000},
+                            "difference": {"minimum_usd": 359003, "upper_floor_usd": 785000}},
+            "limitations": ["Reported values are statutory ranges, not exact market values or share counts."],
+            "evidence": [{"id": "asset:2024:000231", "year": 2024,
+                          "url": f"{API_ROOT}/evidence?id=asset:2024:000231"}],
+        }],
+    }
+    issuer_response = {
+        "type": "object",
+        "required": ["schema_version", "dataset_version", "generated_at", "canonical_url", "described_by",
+                     "entity", "years", "comparisons", "links", "interpretation"],
+        "properties": {
+            "schema_version": {"type": "string"},
+            "dataset_version": {"type": "string", "format": "date"},
+            "generated_at": {"type": "string", "format": "date-time"},
+            "canonical_url": {"type": "string", "format": "uri"},
+            "described_by": {"type": "string", "format": "uri"},
+            "methodology_url": {"type": "string", "format": "uri"},
+            "entity": {"$ref": "#/components/schemas/IssuerIdentity"},
+            "scope": {"type": "string"},
+            "answer": {"type": ["string", "array"], "description": "Present on comparison responses."},
+            "years": {"type": "array", "items": {"type": "object", "properties": {
+                "year": {"type": "integer"}, "holding_count": {"type": "integer"},
+                "reported_value": {"$ref": "#/components/schemas/ReportedValue"},
+                "records": {"type": "array", "items": {"$ref": "#/components/schemas/EvidenceRecord"}},
+            }}},
+            "comparisons": {"type": "array", "items": {"$ref": "#/components/schemas/ComparisonResult"}},
+            "limitations": {"type": "array", "items": {"type": "string"}},
+            "evidence": {"type": "array", "items": {"type": "object"}},
+            "links": {"type": "object"},
+            "interpretation": {"type": "array", "items": {"type": "string"}},
+        },
+    }
+    json_issuer_response = {"description": "Source-linked issuer holdings and comparisons",
+                            "content": {"application/json": {"schema": {"$ref": "#/components/schemas/IssuerResponse"}}}}
+    text_issuer_response = {"description": "Plain-text answer, calculation, limitations, and evidence URLs",
+                            "content": {"text/plain": {"schema": {"type": "string"}}}}
     return {
         "openapi": "3.1.0",
         "info": {
@@ -499,6 +620,10 @@ def openapi(ctx: pages.Context) -> dict:
         "security": [],
         "components": {"schemas": {
             "EvidenceRecord": evidence_record,
+            "IssuerIdentity": issuer_identity,
+            "ReportedValue": reported_value,
+            "ComparisonResult": comparison_result,
+            "IssuerResponse": issuer_response,
             "SearchResults": {
                 "type": "object",
                 "required": ["year", "kind", "total", "returned", "results"],
@@ -525,25 +650,18 @@ def openapi(ctx: pages.Context) -> dict:
                     "comparability": {"type": "object", "description": "Machine-readable warning status for cross-year holdings interpretation."},
                 },
             },
-            "IssuerComparison": {
-                "type": "object",
-                "required": ["entity", "years", "comparisons", "interpretation"],
-                "properties": {
-                    "entity": {"type": "object", "description": "Curated issuer identity, separate from raw filed security names."},
-                    "years": {"type": "array", "items": {"type": "object"}},
-                    "comparisons": {"type": "array", "items": {"type": "object"}},
-                    "interpretation": {"type": "array", "items": {"type": "string"}},
-                },
-            },
         }},
         "paths": {
             "/years.json": {"get": {"operationId": "getYears", "summary": "List filing years", "responses": {"200": {"description": "Year index"}, "404": not_found}}},
-            "/issuers.json": {"get": {"operationId": "getIssuers", "summary": "List reviewed issuer identities and their indexable pages", "responses": {"200": {"description": "Issuer index"}, "404": not_found}}},
-            "/issuers/{slug}.json": {"get": {"operationId": "getIssuer", "summary": "Get source-linked annual holdings for one reviewed issuer", "parameters": [{"name": "slug", "in": "path", "required": True, "schema": {"type": "string"}}], "responses": {"200": {"description": "Issuer holdings and comparisons", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/IssuerComparison"}}}}, "404": not_found}}},
+            "/issuers.json": {"get": {"operationId": "getIssuers", "summary": "List reviewed issuer identities and API resources", "responses": {"200": {"description": "Issuer index"}, "404": not_found}}},
+            "/issuers/{slug}.json": {"get": {"operationId": "getIssuer", "summary": "Get source-linked annual holdings for one reviewed issuer", "parameters": [slug_parameter], "responses": {"200": {**json_issuer_response, "links": {"featuredComparison": {"operationId": "getIssuerComparison", "parameters": {"slug": "$request.path.slug", "range": "2024-2025"}}}}, "404": not_found}}},
+            "/issuers/{slug}.txt": {"get": {"operationId": "getIssuerText", "summary": "Get a compact text representation of one issuer resource", "parameters": [slug_parameter], "responses": {"200": text_issuer_response, "404": not_found}}},
+            "/issuers/{slug}/comparisons/{range}.json": {"get": {"operationId": "getIssuerComparison", "summary": "Compare one reviewed issuer across two filing years", "parameters": [slug_parameter, range_parameter], "responses": {"200": {**json_issuer_response, "links": {"issuer": {"operationId": "getIssuer", "parameters": {"slug": "$request.path.slug"}}, "text": {"operationId": "getIssuerComparisonText", "parameters": {"slug": "$request.path.slug", "range": "$request.path.range"}}}}, "400": {"description": "Invalid filing years", "content": {"application/json": {"schema": error}}}, "404": not_found}}},
+            "/issuers/{slug}/comparisons/{range}.txt": {"get": {"operationId": "getIssuerComparisonText", "summary": "Get an answer-ready text issuer comparison", "parameters": [slug_parameter, range_parameter], "responses": {"200": text_issuer_response, "400": {"description": "Invalid filing years", "content": {"application/json": {"schema": error}}}, "404": not_found}}},
             "/years/{year}/summary.json": {"get": {"operationId": "getYearSummary", "summary": "Get calculated facts and provenance for one year", "parameters": [{"name": "year", "in": "path", "required": True, "schema": {"type": "integer", "minimum": 2016, "maximum": 2026}}], "responses": {"200": {"description": "Year facts", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/YearFacts"}}}}, "404": not_found}}},
             "/years/{year}/{kind}.json": {"get": {"operationId": "getYearRecords", "summary": "Download all records of one kind for a year", "parameters": [{"name": "year", "in": "path", "required": True, "schema": {"type": "integer", "minimum": 2016, "maximum": 2026}}, {"name": "kind", "in": "path", "required": True, "schema": {"type": "string", "enum": ["assets", "transactions", "pages"]}}], "responses": {"200": {"description": "Record array", "content": {"application/json": {"schema": {"type": "array", "items": {"$ref": "#/components/schemas/EvidenceRecord"}}}}}, "404": not_found}}},
             "/search": {"get": {"operationId": "searchRecords", "summary": "Search assets or transactions within one year", "parameters": [{"name": "year", "in": "query", "required": True, "schema": {"type": "integer"}}, {"name": "kind", "in": "query", "required": True, "schema": {"type": "string", "enum": ["assets", "transactions"]}}, {"name": "q", "in": "query", "schema": {"type": "string"}}, {"name": "owner", "in": "query", "schema": {"type": "string"}}, {"name": "class", "in": "query", "schema": {"type": "string"}}, {"name": "type", "in": "query", "schema": {"type": "string"}}, {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 100, "default": 25}}, {"name": "offset", "in": "query", "schema": {"type": "integer", "minimum": 0, "default": 0}}], "responses": {"200": {"description": "Search results", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/SearchResults"}}}}, "400": {"description": "Invalid query", "content": {"application/json": {"schema": error}}}}}},
-            "/compare": {"get": {"operationId": "compareIssuerHoldings", "summary": "Compare one issuer's annual reported common-stock holdings across filing years", "description": "Resolves reviewed aliases such as NVDA, preserves raw filed names, sums statutory bands, and returns machine-readable comparability warnings. An increase in reported bounds is not necessarily an increase in actual holdings.", "parameters": [{"name": "entity", "in": "query", "required": True, "example": "NVDA", "schema": {"type": "string"}}, {"name": "years", "in": "query", "required": False, "example": "2024,2025", "schema": {"type": "string", "default": "2024,2025"}}], "responses": {"200": {"description": "Source-linked issuer comparison", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/IssuerComparison"}}}}, "400": {"description": "Invalid entity or filing years", "content": {"application/json": {"schema": error}}}}}},
+            "/compare": {"get": {"operationId": "compareIssuerHoldingsLegacy", "deprecated": True, "summary": "Compatibility query endpoint for issuer comparisons", "description": "Use /issuers/{slug}/comparisons/{range}.json for stable reviewed-issuer resources. This endpoint also supports unregistered name searches and 2–11 filing years.", "parameters": [{"name": "entity", "in": "query", "required": True, "example": "NVDA", "schema": {"type": "string"}}, {"name": "years", "in": "query", "required": False, "example": "2024,2025", "schema": {"type": "string", "default": "2024,2025"}}, {"name": "format", "in": "query", "required": False, "schema": {"type": "string", "enum": ["text", "txt"]}}], "responses": {"200": {"description": "Source-linked issuer comparison", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/IssuerResponse"}}, "text/plain": {"schema": {"type": "string"}}, "text/markdown": {"schema": {"type": "string"}}}}, "400": {"description": "Invalid entity or filing years", "content": {"application/json": {"schema": error}}}}}},
             "/evidence": {"get": {"operationId": "getEvidence", "summary": "Resolve a deterministic asset or transaction ID", "parameters": [{"name": "id", "in": "query", "required": True, "schema": {"type": "string", "pattern": "^(asset|transaction):20[0-9]{2}:[0-9]{6}$"}}], "responses": {"200": {"description": "Evidence record", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/EvidenceRecord"}}}}, "404": {"description": "Unknown record", "content": {"application/json": {"schema": error}}}}}},
         },
     }
@@ -558,12 +676,11 @@ def update_vercel_routes(ctx: pages.Context) -> None:
         {"source": "/api/v1/openapi.json", "destination": "/machine/v1/openapi.json"},
         {"source": "/api/v1/years.json", "destination": "/machine/v1/years.json"},
         {"source": "/api/v1/issuers.json", "destination": "/machine/v1/issuers.json"},
+        {"source": "/api/v1/issuers/:slug/comparisons/:range.json", "destination": "/api/v1/compare?entity=:slug&years=:range&resource=1"},
+        {"source": "/api/v1/issuers/:slug/comparisons/:range.txt", "destination": "/api/v1/compare?entity=:slug&years=:range&resource=1&format=text"},
+        {"source": "/api/v1/issuers/:slug.json", "destination": "/machine/v1/issuers/:slug.json"},
+        {"source": "/api/v1/issuers/:slug.txt", "destination": "/machine/v1/issuers/:slug.txt"},
     ]
-    for issuer in issuer_registry():
-        rewrites.append({
-            "source": f"/api/v1/issuers/{issuer['slug']}.json",
-            "destination": f"/machine/v1/issuers/{issuer['slug']}.json",
-        })
     for year in ctx.years:
         files = ctx.summaries[year]["files"]
         rewrites.extend([
@@ -582,6 +699,11 @@ def main() -> None:
     markdown = {year: markdown_for(ctx, year, facts[year]) for year in ctx.years}
     issuers = issuer_registry()
     issuer_payloads = {issuer["slug"]: issuer_payload(ctx, facts, issuer) for issuer in issuers}
+
+    # API-only issuer architecture: remove generated presentation pages from older builds.
+    companies_dir = ROOT / "companies"
+    if companies_dir.exists():
+        shutil.rmtree(companies_dir)
 
     for year in ctx.years:
         write_json(ROOT / year / "facts.json", facts[year])
@@ -632,19 +754,21 @@ def main() -> None:
         } for year in reversed(ctx.years)],
     })
     write_json(MACHINE / "issuers.json", {
+        "schema_version": "1.1.0",
         "dataset_version": ctx.modified,
+        "generated_at": f"{ctx.modified}T00:00:00Z",
+        "described_by": f"{API_ROOT}/openapi.json",
         "scope": "Reviewed issuer identities used to join raw filed security-name variants without altering the transcription.",
+        "issuer_url_template": f"{API_ROOT}/issuers/{{slug}}.json",
+        "issuer_text_url_template": f"{API_ROOT}/issuers/{{slug}}.txt",
+        "comparison_url_template": f"{API_ROOT}/issuers/{{slug}}/comparisons/{{from_year}}-{{to_year}}.json",
         "issuers": [issuer_public(issuer) for issuer in issuers],
     })
     for issuer in issuers:
         slug = issuer["slug"]
         payload = issuer_payloads[slug]
         write_json(MACHINE / "issuers" / f"{slug}.json", payload)
-        company_dir = ROOT / "companies" / slug
-        company_dir.mkdir(parents=True, exist_ok=True)
-        issuer_md = issuer_markdown(payload)
-        (company_dir / "index.md").write_text(issuer_md, encoding="utf-8")
-        (company_dir / "index.html").write_text(issuer_html(payload), encoding="utf-8")
+        (MACHINE / "issuers" / f"{slug}.txt").write_text(issuer_text(payload), encoding="utf-8")
 
     concise = [
         "# Ro Khanna Financial Disclosure Explorer",
@@ -660,7 +784,8 @@ def main() -> None:
         f"- [API documentation]({API_ROOT}/openapi.json): OpenAPI 3.1 description of the read-only API.",
         f"- [Year index]({API_ROOT}/years.json): Canonical, Markdown, and JSON URLs for every filing year.",
         f"- [Issuer index]({API_ROOT}/issuers.json): Reviewed company identities that join raw filing-name variants.",
-        f"- [Issuer comparison API]({API_ROOT}/compare?entity=NVDA&years=2024,2025): Cross-year reported bounds, evidence, and comparability warnings.",
+        f"- [Issuer comparison API]({API_ROOT}/issuers/nvidia/comparisons/2024-2025.json): Cross-year reported bounds, calculations, evidence, and comparability warnings.",
+        f"- [Issuer comparison text]({API_ROOT}/issuers/nvidia/comparisons/2024-2025.txt): Answer-ready text representation of the same API resource.",
         f"- [Full LLM context]({ORIGIN}/llms-full.txt): Expanded annual summaries and citation guidance.",
         f"- [Data methodology]({pages.REPO}/blob/main/data/README.md): Normalized schema, caveats, and audit process.",
         "",
@@ -678,7 +803,7 @@ def main() -> None:
         "## Common question pattern",
         "",
         "Question: Did Ro Khanna's reported NVIDIA holdings increase or decrease from 2024 to 2025?",
-        f"Use [{API_ROOT}/compare?entity=NVDA&years=2024,2025]({API_ROOT}/compare?entity=NVDA&years=2024,2025). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.",
+        f"Use [{API_ROOT}/issuers/nvidia/comparisons/2024-2025.json]({API_ROOT}/issuers/nvidia/comparisons/2024-2025.json). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.",
         "",
         "## Citation and interpretation",
         "",
@@ -692,7 +817,7 @@ def main() -> None:
 
     full = concise + ["# Reviewed issuer summaries", ""]
     for issuer in issuers:
-        full.append(issuer_markdown(issuer_payloads[issuer["slug"]]))
+        full.append(issuer_text(issuer_payloads[issuer["slug"]]))
     full.extend(["# Expanded annual summaries", ""])
     for year in reversed(ctx.years):
         full.append(markdown[year])

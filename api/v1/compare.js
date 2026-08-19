@@ -1,5 +1,6 @@
 'use strict';
 
+const {createHash} = require('crypto');
 const {normalized, resolveIssuer, rowMatchesIssuer, absoluteIssuer, enrichWithIssuer} = require('../../lib/issuer.js');
 
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
@@ -27,6 +28,22 @@ function displayRange(value) {
   }
   if (value.minimum_usd === value.maximum_usd) return money(value.minimum_usd);
   return `${money(value.minimum_usd)}–${money(value.maximum_usd)}${value.open_ended ? '+' : ''}`;
+}
+
+function parseYears(value) {
+  return String(value || '2024,2025').split(/[,-]/).map(year => year.trim()).filter(Boolean);
+}
+
+function evidenceSummary(record, year) {
+  return {
+    id: record.id,
+    year,
+    reported_name: record.name,
+    reported_band: record.value || null,
+    owner: record.owner || null,
+    url: record.url,
+    source_page_url: record.source_page_url,
+  };
 }
 
 function aggregate(year, rows, base) {
@@ -106,6 +123,12 @@ function comparison(from, to, facts) {
   const caveat = directlyComparable ?
     'The disclosures report ranges rather than exact values, so an exact change cannot be calculated.' :
     `The filing years are not directly comparable: ${warnings.join(' ')}`;
+  const answer = `The aggregate reported range's lower and upper bounds ${directionWords}, from ${oldValue.display} in ${from.year} to ${newValue.display} in ${to.year}. ${caveat}`;
+  const limitations = [
+    'Reported values are statutory ranges, not exact market values or share counts.',
+    'A change in aggregated range bounds does not establish a change in actual holdings.',
+    ...warnings,
+  ];
   return {
     from_year: from.year,
     to_year: to.year,
@@ -116,7 +139,21 @@ function comparison(from, to, facts) {
     directly_comparable: directlyComparable,
     actual_holdings_change: 'cannot_be_inferred',
     warnings,
-    answer: `The aggregate reported range's lower and upper bounds ${directionWords}, from ${oldValue.display} in ${from.year} to ${newValue.display} in ${to.year}. ${caveat}`,
+    answer,
+    answer_basis: 'Each bound is the sum of the statutory value-band bounds for matching Schedule A common-stock entries in that filing year.',
+    calculation: {
+      from: {year: from.year, minimum_usd: oldValue.minimum_usd, upper_floor_usd: oldValue.calculated_upper_floor_usd},
+      to: {year: to.year, minimum_usd: newValue.minimum_usd, upper_floor_usd: newValue.calculated_upper_floor_usd},
+      difference: {
+        minimum_usd: oldValue.minimum_usd == null || newValue.minimum_usd == null ? null : newValue.minimum_usd - oldValue.minimum_usd,
+        upper_floor_usd: oldValue.calculated_upper_floor_usd == null || newValue.calculated_upper_floor_usd == null ? null : newValue.calculated_upper_floor_usd - oldValue.calculated_upper_floor_usd,
+      },
+    },
+    limitations: [...new Set(limitations.filter(Boolean))],
+    evidence: [
+      ...from.records.map(record => evidenceSummary(record, from.year)),
+      ...to.records.map(record => evidenceSummary(record, to.year)),
+    ],
   };
 }
 
@@ -127,6 +164,51 @@ function genericMatch(row, query) {
   return Boolean(needle && (name.includes(needle) || needle.includes(name)));
 }
 
+function textPayload(payload) {
+  const lines = [
+    `# ${payload.entity.name} reported holdings comparison`,
+    '',
+    `Dataset version: ${payload.dataset_version}`,
+    `Canonical JSON: ${payload.canonical_url}`,
+    `API description: ${payload.described_by}`,
+    '',
+  ];
+  for (const item of payload.comparisons) {
+    lines.push(`## ${item.from_year} to ${item.to_year}`, '', item.answer, '', '### Calculation', '');
+    lines.push(`- ${item.from_year}: ${money(item.calculation.from.minimum_usd)} to ${money(item.calculation.from.upper_floor_usd)}`);
+    lines.push(`- ${item.to_year}: ${money(item.calculation.to.minimum_usd)} to ${money(item.calculation.to.upper_floor_usd)}`);
+    lines.push(`- Lower-bound difference: ${money(item.calculation.difference.minimum_usd)}`);
+    lines.push(`- Upper-floor difference: ${money(item.calculation.difference.upper_floor_usd)}`, '', '### Limitations', '');
+    lines.push(...item.limitations.map(value => `- ${value}`), '', '### Evidence', '');
+    lines.push(...item.evidence.map(value => `- ${value.id}: ${value.reported_name} (${value.reported_band || 'range unavailable'}) — ${value.url}`), '');
+  }
+  return `${lines.join('\n').trim()}\n`;
+}
+
+function sendPayload(req, res, payload) {
+  const accept = String(req.headers.accept || '').toLowerCase();
+  const format = String(one(req.query.format) || '').toLowerCase();
+  const asText = format === 'text' || format === 'txt' || accept.includes('text/plain') || accept.includes('text/markdown');
+  const serialized = JSON.stringify(payload);
+  const etag = `"${createHash('sha256').update(serialized).digest('hex')}"`;
+  res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400');
+  res.setHeader('ETag', etag);
+  res.setHeader('Last-Modified', new Date(`${payload.dataset_version}T00:00:00Z`).toUTCString());
+  res.setHeader('Vary', 'Accept');
+  res.setHeader('X-Robots-Tag', 'index, follow');
+  res.setHeader('Link', [
+    `<${payload.described_by}>; rel="describedby"; type="application/vnd.oai.openapi+json"`,
+    `<${payload.links.issuer}>; rel="collection"; type="application/json"`,
+    `<${payload.links.text}>; rel="alternate"; type="text/plain"`,
+  ].join(', '));
+  if (String(req.headers['if-none-match'] || '') === etag) return res.status(304).end();
+  if (asText) {
+    res.setHeader('Content-Type', accept.includes('text/markdown') ? 'text/markdown; charset=utf-8' : 'text/plain; charset=utf-8');
+    return res.status(200).send(textPayload(payload));
+  }
+  return res.status(200).json(payload);
+}
+
 module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -135,13 +217,15 @@ module.exports = async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).json({error: 'GET only'});
 
   const query = String(one(req.query.entity || req.query.q) || '').trim();
-  const requestedYears = String(one(req.query.years) || '2024,2025').split(',').map(value => value.trim()).filter(Boolean);
+  const requestedYears = parseYears(one(req.query.years));
   const years = [...new Set(requestedYears)];
   if (!query) return res.status(400).json({error: 'entity is required (for example entity=NVDA)'});
   if (years.length < 2 || years.length > 11 || years.some(year => !YEARS.has(year))) {
-    return res.status(400).json({error: 'years must contain 2–11 comma-separated filing years from 2016 through 2026'});
+    return res.status(400).json({error: 'years must contain 2–11 comma- or hyphen-separated filing years from 2016 through 2026'});
   }
   const issuer = resolveIssuer(query);
+  const resourceRequest = String(one(req.query.resource) || '') === '1';
+  if (resourceRequest && !issuer) return res.status(404).json({error: 'Unknown reviewed issuer slug'});
   const base = origin(req);
   try {
     const responses = await Promise.all(years.flatMap(year => [
@@ -161,23 +245,41 @@ module.exports = async function handler(req, res) {
       results.push(aggregate(years[index], matched, base));
     }
     const comparisons = results.slice(1).map((item, index) => comparison(results[index], item, [facts[index], facts[index + 1]]));
-    res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400');
-    return res.status(200).json({
-      schema_version: '1.0.0',
+    const pairPath = issuer && years.length === 2 ?
+      `/api/v1/issuers/${issuer.slug}/comparisons/${years[0]}-${years[1]}` : null;
+    const canonicalUrl = pairPath ? `${base}${pairPath}.json` :
+      `${base}/api/v1/compare?entity=${encodeURIComponent(query)}&years=${years.join(',')}`;
+    const textUrl = pairPath ? `${base}${pairPath}.txt` : `${canonicalUrl}&format=text`;
+    const payload = {
+      schema_version: '1.1.0',
       dataset: 'Khanna Disclosure Explorer',
       dataset_version: facts[0] && facts[0].dataset_version || null,
+      generated_at: facts[0] && facts[0].dataset_version ? `${facts[0].dataset_version}T00:00:00Z` : null,
+      canonical_url: canonicalUrl,
       described_by: `${base}/api/v1/openapi.json`,
+      methodology_url: 'https://github.com/kanetronv2/khanna-disclosure-explorer/blob/main/data/README.md',
       scope: 'Annual Schedule A common-stock holdings aggregated across the household interests and portfolio groups printed in each filing.',
       query,
       entity: absoluteIssuer(issuer, base) || {id: null, slug: null, name: query, ticker: null, aliases: []},
       years: results,
       comparisons,
+      answer: comparisons.length === 1 ? comparisons[0].answer : comparisons.map(item => item.answer),
+      limitations: [...new Set(comparisons.flatMap(item => item.limitations))],
+      evidence: comparisons.flatMap(item => item.evidence),
+      links: {
+        self: canonicalUrl,
+        text: textUrl,
+        issuer: issuer ? `${base}/api/v1/issuers/${issuer.slug}.json` : `${base}/api/v1/issuers.json`,
+        issuer_index: `${base}/api/v1/issuers.json`,
+        openapi: `${base}/api/v1/openapi.json`,
+      },
       interpretation: [
         'Values are statutory reported ranges, not exact market values or share counts.',
         'Owner codes describe household disclosure attribution and do not establish who directed an investment decision.',
         'Raw security names are preserved on each evidence record; issuer identity is a separate curated normalization.',
       ],
-    });
+    };
+    return sendPayload(req, res, payload);
   } catch (error) {
     return res.status(502).json({error: 'Could not load the source datasets', detail: error.message});
   }

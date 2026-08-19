@@ -14,8 +14,10 @@ Machine clients can begin at [`llms.txt`](llms.txt), use the OpenAPI description
 directory. Stable API routes expose the complete per-year arrays without requiring a client to
 discover content-hashed website files. The issuer comparison API joins reviewed filing-name
 variants without rewriting the raw transcription; for example,
-`/api/v1/compare?entity=NVDA&years=2024,2025` returns the reported bounds, evidence records,
-and any cross-year comparability warning together.
+`/api/v1/issuers/nvidia/comparisons/2024-2025.json` returns the reported bounds, calculation,
+evidence records, and cross-year comparability warning together. A `.txt` representation is
+available at the same resource path. The legacy `/api/v1/compare` query remains available for
+compatibility and unregistered-name searches.
 
 ## Use the data
 
@@ -82,9 +84,8 @@ docs/<document>/tess/  raw Tesseract output
 ocr/                   equivalent 2024 source/transcription pipeline
 data-YYYY.js           generated website datasets
 site-data/             generated, content-hashed lazy website chunks
-machine/v1/            generated API discovery and OpenAPI documents
-api/v1/                read-only evidence lookup and search handlers
-companies/             generated, indexable issuer summaries with Markdown alternates
+machine/v1/            generated API discovery, issuer JSON/text, and OpenAPI documents
+api/v1/                read-only evidence, search, and comparison handlers
 lib/issuer-registry.json reviewed issuer aliases kept separate from raw filed names
 templates/index.html   source template for every generated page
 index.html, YYYY/      generated HTML, Markdown, and facts JSON (build with: make pages)

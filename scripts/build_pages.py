@@ -689,7 +689,7 @@ def crosslinks(ctx, year):
         '<div class="crosslink-hub">'
         f'<a href="/">Ro Khanna net worth — latest filing</a>'
         f'<a href="{TRADES_PATH}">All reported stock trades, {ctx.tx_span()[0]}–{ctx.tx_span()[1]}</a>'
-        '<a href="/companies/nvidia/">NVIDIA holdings by filing year</a>'
+        '<a href="/api/v1">Machine-readable API</a>'
         f'<a href="{DATA_HOME}" target="_blank" rel="noopener">Download the open dataset</a>'
         '</div>'
         f'<div class="crosslink-years"><span>Every filing year:</span> {year_links}</div></nav>')
@@ -1126,11 +1126,13 @@ def write_sitemap(ctx):
     paths = ["/", TRADES_PATH, "/stock-trades/index.md", "/llms.txt", "/llms-full.txt",
              "/api/v1", "/api/v1/openapi.json", "/api/v1/years.json", "/api/v1/issuers.json"]
     issuer_registry = json.loads((ROOT / "lib" / "issuer-registry.json").read_text(encoding="utf-8"))
-    paths += [path for issuer in issuer_registry for path in (
-        f"/companies/{issuer['slug']}/",
-        f"/companies/{issuer['slug']}/index.md",
-        f"/api/v1/issuers/{issuer['slug']}.json",
-    )]
+    for issuer in issuer_registry:
+        slug = issuer["slug"]
+        paths.extend((f"/api/v1/issuers/{slug}.json", f"/api/v1/issuers/{slug}.txt"))
+        featured = issuer.get("featured_comparison") or []
+        if len(featured) == 2:
+            stem = f"/api/v1/issuers/{slug}/comparisons/{featured[0]}-{featured[1]}"
+            paths.extend((f"{stem}.json", f"{stem}.txt"))
     paths += [f"/{y}/" for y in sorted(ctx.years, reverse=True) if y != ctx.root_year]
     paths += [path for y in sorted(ctx.years, reverse=True)
               for path in (f"/{y}/index.md", f"/{y}/facts.json")]

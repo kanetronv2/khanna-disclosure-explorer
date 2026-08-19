@@ -11,7 +11,8 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 - [API documentation](https://www.rokhanna.money/api/v1/openapi.json): OpenAPI 3.1 description of the read-only API.
 - [Year index](https://www.rokhanna.money/api/v1/years.json): Canonical, Markdown, and JSON URLs for every filing year.
 - [Issuer index](https://www.rokhanna.money/api/v1/issuers.json): Reviewed company identities that join raw filing-name variants.
-- [Issuer comparison API](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025): Cross-year reported bounds, evidence, and comparability warnings.
+- [Issuer comparison API](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json): Cross-year reported bounds, calculations, evidence, and comparability warnings.
+- [Issuer comparison text](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.txt): Answer-ready text representation of the same API resource.
 - [Full LLM context](https://www.rokhanna.money/llms-full.txt): Expanded annual summaries and citation guidance.
 - [Data methodology](https://github.com/kanetronv2/khanna-disclosure-explorer/blob/main/data/README.md): Normalized schema, caveats, and audit process.
 
@@ -32,7 +33,7 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 ## Common question pattern
 
 Question: Did Ro Khanna's reported NVIDIA holdings increase or decrease from 2024 to 2025?
-Use [https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.
+Use [https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.
 
 ## Citation and interpretation
 

@@ -40,6 +40,7 @@ function response() {
     setHeader(key, value) { this.headers[key] = value; },
     status(code) { this.code = code; return this; },
     json(body) { this.body = body; return this; },
+    send(body) { this.body = body; return this; },
     end() { return this; },
   };
 }
@@ -71,12 +72,37 @@ async function main() {
 
   res = response();
   await compare({method: 'GET', headers: {host: 'localhost:3000'},
-    query: {entity: 'NVDA', years: '2024,2025'}}, res);
+    query: {entity: 'nvidia', years: '2024-2025', resource: '1'}}, res);
   if (res.code !== 200 || res.body.entity.ticker !== 'NVDA' ||
       res.body.years[0].holding_count !== 2 || res.body.years[1].holding_count !== 2 ||
       res.body.comparisons[0].reported_bounds_direction !== 'both_increased' ||
       res.body.comparisons[0].directly_comparable !== false ||
-      !res.body.years[1].records[0].issuer) throw new Error('issuer comparison handler failed');
+      !res.body.years[1].records[0].issuer || !res.body.answer ||
+      !res.body.comparisons[0].calculation || !res.body.comparisons[0].evidence.length ||
+      res.body.canonical_url !== 'http://localhost:3000/api/v1/issuers/nvidia/comparisons/2024-2025.json' ||
+      !res.headers.ETag || !res.headers.Link || !res.headers['Last-Modified']) {
+    throw new Error('issuer comparison handler failed');
+  }
+
+  const etag = res.headers.ETag;
+  res = response();
+  await compare({method: 'GET', headers: {host: 'localhost:3000', accept: 'text/plain'},
+    query: {entity: 'nvidia', years: '2024-2025', resource: '1'}}, res);
+  if (res.code !== 200 || typeof res.body !== 'string' ||
+      !res.body.includes('# NVIDIA Corporation reported holdings comparison') ||
+      !res.body.includes('### Evidence') || res.headers['Content-Type'] !== 'text/plain; charset=utf-8') {
+    throw new Error('issuer comparison text representation failed');
+  }
+
+  res = response();
+  await compare({method: 'GET', headers: {host: 'localhost:3000', 'if-none-match': etag},
+    query: {entity: 'nvidia', years: '2024-2025', resource: '1'}}, res);
+  if (res.code !== 304) throw new Error('issuer comparison ETag revalidation failed');
+
+  res = response();
+  await compare({method: 'GET', headers: {host: 'localhost:3000'},
+    query: {entity: 'unknown-slug', years: '2024-2025', resource: '1'}}, res);
+  if (res.code !== 404) throw new Error('unknown canonical issuer resource should return 404');
   console.log('API handler audit: PASS');
 }
 

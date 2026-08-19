@@ -24,7 +24,9 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 
 - [Issuer index](https://www.rokhanna.money/api/v1/issuers.json): Reviewed company identities that join raw filing-name variants.
 
-- [Issuer comparison API](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025): Cross-year reported bounds, evidence, and comparability warnings.
+- [Issuer comparison API](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json): Cross-year reported bounds, calculations, evidence, and comparability warnings.
+
+- [Issuer comparison text](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.txt): Answer-ready text representation of the same API resource.
 
 - [Full LLM context](https://www.rokhanna.money/llms-full.txt): Expanded annual summaries and citation guidance.
 
@@ -66,7 +68,7 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 
 Question: Did Ro Khanna's reported NVIDIA holdings increase or decrease from 2024 to 2025?
 
-Use [https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.
+Use [https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json). Report the direction of the disclosed lower and upper bounds separately from actual holdings, and carry forward the returned 2025 comparability warning.
 
 
 
@@ -90,11 +92,11 @@ Use [https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025](http
 
 # Ro Khanna reported NVIDIA Corporation holdings
 
-> Canonical page: https://www.rokhanna.money/companies/nvidia/
-> Machine-readable issuer data: https://www.rokhanna.money/api/v1/issuers/nvidia.json
-> Dataset version: 2026-08-18
+> Canonical JSON: https://www.rokhanna.money/api/v1/issuers/nvidia.json
+> Text representation: https://www.rokhanna.money/api/v1/issuers/nvidia.txt
+> Dataset version: 2026-08-19
 
-This page groups reviewed filing-name variants under **NVIDIA Corporation (NVDA)** while preserving every raw security name and evidence link. Values are household disclosure ranges, not exact holdings or share counts.
+This API resource groups reviewed filing-name variants under **NVIDIA Corporation (NVDA)** while preserving every raw security name and evidence link. Values are household disclosure ranges, not exact holdings or share counts.
 
 ## Annual reported ranges
 
@@ -113,7 +115,25 @@ This page groups reviewed filing-name variants under **NVIDIA Corporation (NVDA)
 
 ## Did the reported range increase from 2024 to 2025?
 
-Both reported bounds increased: **$851K – $1.77M** in 2024 to **$1.21M – $2.55M** in 2025. However, 2025 uses a different filing value-bracket basis, so this does not establish that actual holdings increased.
+The aggregate reported range's bounds both increased, from $851K – $1.77M in 2024 to $1.21M – $2.55M in 2025. The filing years are not directly comparable: The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.
+
+Calculation: **$851K – $1.77M** in 2024 to **$1.21M – $2.55M** in 2025.
+
+### Evidence
+
+- [asset:2024:000231](https://www.rokhanna.money/api/v1/evidence?id=asset:2024:000231): NVIDIA CORPORATION CMN ($100,001-$250,000)
+- [asset:2024:000784](https://www.rokhanna.money/api/v1/evidence?id=asset:2024:000784): NVIDIA CORPORATION CMN ($250,001-$500,000)
+- [asset:2024:001387](https://www.rokhanna.money/api/v1/evidence?id=asset:2024:001387): NVIDIA CORPORATION CMN ($1,001-$15,000)
+- [asset:2024:001973](https://www.rokhanna.money/api/v1/evidence?id=asset:2024:001973): NVIDIA CORPORATION CMN ($250,001-$500,000)
+- [asset:2024:002646](https://www.rokhanna.money/api/v1/evidence?id=asset:2024:002646): NVIDIA CORPORATION CMN ($250,001-$500,000)
+- [asset:2025:000490](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:000490): NVIDIA CORPORATION CMN ($50,001-$100,000)
+- [asset:2025:000996](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:000996): NVIDIA CORPORATION CMN ($500,001-$1,000,000)
+- [asset:2025:001423](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:001423): NVIDIA CORPORATION CMN ($15,001-$50,000)
+- [asset:2025:002222](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:002222): NVIDIA CORPORATION CMN ($500,001-$1,000,000)
+- [asset:2025:002829](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:002829): NVIDIA CORPORATION CMN ($100,001-$250,000)
+- [asset:2025:003099](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003099): NVIDIA CORPORATION COM ($15,001-$50,000)
+- [asset:2025:003196](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003196): NVIDIA CORPORATION COM ($15,001-$50,000)
+- [asset:2025:003273](https://www.rokhanna.money/api/v1/evidence?id=asset:2025:003273): NVIDIA CORPORATION COM ($15,001-$50,000)
 
 ## Interpretation
 
@@ -125,7 +145,7 @@ Both reported bounds increased: **$851K – $1.77M** in 2024 to **$1.21M – $2.
 ## Data access
 
 - [Issuer JSON](https://www.rokhanna.money/api/v1/issuers/nvidia.json)
-- [Cross-year comparison API](https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025)
+- [Cross-year comparison API](https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json)
 - [API schema](https://www.rokhanna.money/api/v1/openapi.json)
 
 
@@ -137,7 +157,7 @@ Both reported bounds increased: **$851K – $1.77M** in 2024 to **$1.21M – $2.
 
 > Canonical page: https://www.rokhanna.money/2026/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2026/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -199,7 +219,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2025/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -284,7 +304,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2024/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2024/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -356,7 +376,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2023/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2023/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -442,7 +462,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2022/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2022/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -529,7 +549,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2021/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2021/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -614,7 +634,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2020/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2020/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -702,7 +722,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2019/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2019/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -790,7 +810,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2018/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2018/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -879,7 +899,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2017/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2017/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -964,7 +984,7 @@ Cite the canonical year page for calculated totals. For a specific holding or tr
 
 > Canonical page: https://www.rokhanna.money/2016/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2016/summary.json
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 

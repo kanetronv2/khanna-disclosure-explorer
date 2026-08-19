@@ -25,7 +25,7 @@
     "loaded_pages": 392,
     "unresolved_transcription_flags": 949
   },
-  "dataset_version": "2026-08-18",
+  "dataset_version": "2026-08-19",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
   "filing_type": "annual_financial_disclosure",
   "id": "kde:financial-disclosure:2021",
@@ -165,7 +165,7 @@
     "name": "Ro Khanna",
     "office": "U.S. Representative"
   },
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "url": "https://www.rokhanna.money/2021/",
   "year": 2021
 }

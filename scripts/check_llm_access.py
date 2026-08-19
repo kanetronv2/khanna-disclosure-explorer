@@ -89,7 +89,10 @@ def main():
     full = (ROOT / "llms-full.txt").read_text(encoding="utf-8")
     require(len(llms) < 20_000, "llms.txt should remain a concise discovery document")
     require("API documentation" in llms and "Citation and interpretation" in llms, "llms.txt is incomplete")
-    require("compare?entity=NVDA&years=2024,2025" in llms, "llms.txt lacks a cross-year question example")
+    require("issuers/nvidia/comparisons/2024-2025.json" in llms,
+            "llms.txt lacks the canonical cross-year API resource")
+    require("issuers/nvidia/comparisons/2024-2025.txt" in llms,
+            "llms.txt lacks the answer-ready text representation")
     require(len(full) > len(llms), "llms-full.txt should contain expanded context")
 
     issuer_registry = json.loads((ROOT / "lib/issuer-registry.json").read_text(encoding="utf-8"))
@@ -100,6 +103,9 @@ def main():
     for issuer in issuer_registry:
         require(issuer.get("name") and issuer.get("aliases") and issuer.get("security_name_patterns"),
                 f"{issuer.get('id')}: issuer identity is incomplete")
+        featured = issuer.get("featured_comparison") or []
+        require(not featured or (len(featured) == 2 and all(2016 <= int(year) <= 2026 for year in featured)),
+                f"{issuer.get('id')}: featured comparison must contain two filing years")
         for pattern in issuer["security_name_patterns"]:
             re.compile(pattern)
     require("require('./issuer-registry.json')" in (ROOT / "lib/issuer.js").read_text(encoding="utf-8"),
@@ -139,8 +145,16 @@ def main():
     require(rewrites.get("/api/v1") == "/machine/v1/index.json", "API discovery rewrite missing")
     require(rewrites.get("/api/v1/issuers.json") == "/machine/v1/issuers.json",
             "issuer index rewrite missing")
-    require(rewrites.get("/api/v1/issuers/nvidia.json") == "/machine/v1/issuers/nvidia.json",
-            "NVIDIA issuer rewrite missing")
+    require(rewrites.get("/api/v1/issuers/:slug.json") == "/machine/v1/issuers/:slug.json",
+            "generic issuer JSON rewrite missing")
+    require(rewrites.get("/api/v1/issuers/:slug.txt") == "/machine/v1/issuers/:slug.txt",
+            "generic issuer text rewrite missing")
+    require(rewrites.get("/api/v1/issuers/:slug/comparisons/:range.json") ==
+            "/api/v1/compare?entity=:slug&years=:range&resource=1",
+            "canonical comparison JSON rewrite missing")
+    require(rewrites.get("/api/v1/issuers/:slug/comparisons/:range.txt") ==
+            "/api/v1/compare?entity=:slug&years=:range&resource=1&format=text",
+            "canonical comparison text rewrite missing")
     for year in YEARS:
         for kind in ("assets", "transactions", "pages"):
             source = f"/api/v1/years/{year}/{kind}.json"
@@ -149,8 +163,17 @@ def main():
 
     openapi = json.loads((ROOT / "machine/v1/openapi.json").read_text(encoding="utf-8"))
     require(openapi.get("openapi") == "3.1.0", "OpenAPI version drift")
-    require(all(path in openapi["paths"] for path in ("/search", "/evidence", "/compare", "/issuers/{slug}.json")),
+    require(all(path in openapi["paths"] for path in (
+        "/search", "/evidence", "/compare", "/issuers/{slug}.json", "/issuers/{slug}.txt",
+        "/issuers/{slug}/comparisons/{range}.json", "/issuers/{slug}/comparisons/{range}.txt")),
             "API operations missing")
+    operation_ids = [operation["operationId"] for item in openapi["paths"].values()
+                     for operation in item.values() if isinstance(operation, dict) and operation.get("operationId")]
+    require(len(operation_ids) == len(set(operation_ids)), "OpenAPI operation IDs must be unique")
+    comparison_schema = openapi["components"]["schemas"]["ComparisonResult"]
+    require(comparison_schema.get("examples") and comparison_schema["properties"].get("evidence") and
+            comparison_schema["properties"].get("calculation"),
+            "OpenAPI comparison schema lacks examples, evidence, or calculation semantics")
 
     nvidia = json.loads((ROOT / "machine/v1/issuers/nvidia.json").read_text(encoding="utf-8"))
     require(nvidia["entity"]["ticker"] == "NVDA", "NVIDIA issuer identity drift")
@@ -170,8 +193,17 @@ def main():
     require(target["conservative_range_relation"] == "overlapping_reported_ranges" and
             "not directly comparable" in target["answer"],
             "NVIDIA comparison must be answer-ready without overstating the evidence")
-    require((ROOT / "companies/nvidia/index.html").is_file() and
-            (ROOT / "companies/nvidia/index.md").is_file(), "indexable NVIDIA pages missing")
+    require(target.get("answer_basis") and target.get("calculation") and target.get("limitations") and
+            target.get("evidence"), "NVIDIA comparison lacks answer-ready provenance fields")
+    require(nvidia.get("generated_at") and nvidia.get("canonical_url") ==
+            "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+            "issuer resource lacks stable generation/canonical metadata")
+    require(nvidia["entity"]["url"] == nvidia["entity"]["data_url"] and
+            "/companies/" not in json.dumps(nvidia), "issuer identity still points to a presentation page")
+    issuer_text = (ROOT / "machine/v1/issuers/nvidia.txt").read_text(encoding="utf-8")
+    require(target["answer"] in issuer_text and "Canonical JSON:" in issuer_text,
+            "issuer text representation is incomplete")
+    require(not (ROOT / "companies").exists(), "API-only architecture must not generate issuer pages")
     dataset_count = audit_dataset_json_ld()
 
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
@@ -184,9 +216,18 @@ def main():
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     sitemap_urls = {node.text for node in tree.findall("s:url/s:loc", namespace)}
     for url in ("https://www.rokhanna.money/llms.txt", "https://www.rokhanna.money/api/v1/openapi.json",
-                "https://www.rokhanna.money/companies/nvidia/",
-                "https://www.rokhanna.money/api/v1/issuers/nvidia.json"):
+                "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+                "https://www.rokhanna.money/api/v1/issuers/nvidia.txt",
+                "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json",
+                "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.txt"):
         require(url in sitemap_urls, f"sitemap lacks {url}")
+    require(not any("/companies/" in url for url in sitemap_urls),
+            "sitemap still exposes removed issuer presentation pages")
+
+    api_headers = next(item["headers"] for item in config["headers"] if item["source"] == "/api/v1/(.*)")
+    api_header_map = {item["key"]: item["value"] for item in api_headers}
+    for key in ("Access-Control-Allow-Origin", "Cache-Control", "Vary", "X-Robots-Tag", "Link"):
+        require(key in api_header_map, f"API delivery header missing: {key}")
 
     key = "264f47e7ac6f754571619ef2cfe0c4af"
     require((ROOT / f"{key}.txt").read_text(encoding="utf-8").strip() == key, "IndexNow key file drift")
@@ -201,7 +242,7 @@ def main():
 
     # Guard against accidental unescaped control text in generated JSON and Markdown URLs.
     require(not re.search(r"https://www\.rokhanna\.money//", llms + full), "double-slash URL in LLM documents")
-    print(f"llm access audit: PASS (11 years, {dataset_count} Dataset schemas, discovery, Markdown, facts, issuer comparison, evidence, API, robots, sitemap, IndexNow)")
+    print(f"llm access audit: PASS (11 years, {dataset_count} Dataset schemas, discovery, Markdown, facts, API-only issuer JSON/text, comparison, evidence, robots, sitemap, IndexNow)")
 
 
 if __name__ == "__main__":

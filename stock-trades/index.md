@@ -1,7 +1,7 @@
 # Ro Khanna reported stock trades, 2017–2026
 
 > Canonical page: https://www.rokhanna.money/stock-trades/
-> Dataset version: 2026-08-18
+> Dataset version: 2026-08-19
 
 The loaded House filings contain 49,009 reported household transactions. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.
 
