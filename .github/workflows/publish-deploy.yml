@@ -41,6 +41,7 @@ jobs:
             '/404.html' \
             '/DATA_LICENSE.md' \
             '/LICENSE' \
+            '/robots.txt' \
             '/vercel.json'
           git -c protocol.version=2 fetch --depth=1 --filter=blob:none origin "$GITHUB_SHA"
           git checkout --detach FETCH_HEAD
