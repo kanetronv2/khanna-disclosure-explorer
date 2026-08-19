@@ -646,8 +646,7 @@ def methodology(ctx):
     """
     return (
         '<section class="panel method-panel" id="method">'
-        '<div class="section-heading"><div><span class="section-kicker">Method and sourcing</span>'
-        '<h2>How these figures were produced</h2></div></div>'
+        '<div class="section-heading"><div><h2>How these figures were produced</h2></div></div>'
         '<p>Every number on this site is transcribed from the financial disclosure filings published by the '
         f'<a href="{SOURCE_INDEX}" target="_blank" rel="noopener">Clerk of the U.S. House of Representatives</a>. '
         'Those filings are paper scans with no machine-readable text, so each page was transcribed from '

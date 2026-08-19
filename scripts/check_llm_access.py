@@ -95,6 +95,16 @@ def main():
             "llms.txt lacks the answer-ready text representation")
     require(len(full) > len(llms), "llms-full.txt should contain expanded context")
 
+    heading_eyebrow = re.compile(
+        r'<div class="section-heading">(?:(?!</div>).)*<span class="section-kicker"', re.S
+    )
+    heading_sources = [ROOT / "templates/index.html", ROOT / "templates/stock-trades.html",
+                       ROOT / "index.html", ROOT / "stock-trades/index.html"]
+    heading_sources.extend(ROOT / year / "index.html" for year in YEARS)
+    for path in heading_sources:
+        require(not heading_eyebrow.search(path.read_text(encoding="utf-8")),
+                f"{path.relative_to(ROOT)}: section headings must not use eyebrow labels")
+
     issuer_registry = json.loads((ROOT / "lib/issuer-registry.json").read_text(encoding="utf-8"))
     require(issuer_registry and len({row["id"] for row in issuer_registry}) == len(issuer_registry),
             "issuer registry IDs must be present and unique")
