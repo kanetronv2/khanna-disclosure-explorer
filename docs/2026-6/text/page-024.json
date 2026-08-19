@@ -60,7 +60,7 @@
       "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "06/20/2026",
+      "date": "06/30/2026",
       "notification_date": "07/01/2026",
       "amount": "$1,001-$15,000"
     },
@@ -193,6 +193,12 @@
       "field": "page_verification",
       "read": "All 16 transaction rows",
       "note": "Direct scan geometry reconciled every printed row and checkbox column; asset labels were read from the isolated filed row, with obvious scan/OCR artifacts normalized."
+    },
+    {
+      "row": 5,
+      "field": "date",
+      "read": "06/30/26",
+      "note": "High-resolution scan re-check corrected an earlier 06/20/2026 digit slip for Cognizant."
     }
   ],
   "page_confidence": "high"

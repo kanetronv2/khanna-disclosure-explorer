@@ -14,8 +14,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Reported household holdings | None |
 | Open-ended holdings | 0 |
 | Reported transactions | 3,855 |
-| Active trading days | 134 |
-| Average trades per active day | 28.8 |
+| Active trading days | 133 |
+| Average trades per active day | 29.0 |
 | Combined transaction range | $17.2M – $96.5M |
 | Source-linked asset entries | 0 |
 

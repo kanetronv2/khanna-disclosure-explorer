@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE_ORIGIN = "https://www.rokhanna.money"
 CONFIG = ROOT / "lib" / "evidence-config.json"
+SOURCE_REGISTRY = ROOT / "lib" / "source-registry.json"
 MANIFEST = ROOT / "evidence-manifest.json"
 
 
@@ -28,6 +29,23 @@ def public_url(path: str) -> str:
     if value.startswith(("http://", "https://")):
         return value
     return f"{evidence_origin()}/{value.lstrip('/')}"
+
+
+@lru_cache(maxsize=1)
+def source_registry() -> dict[str, dict]:
+    if not SOURCE_REGISTRY.is_file():
+        return {}
+    return json.loads(SOURCE_REGISTRY.read_text(encoding="utf-8"))
+
+
+def official_source(doc: str, primary_url: str | None = None) -> dict:
+    registered = dict(source_registry().get(str(doc)) or {})
+    if not registered and str(primary_url or "").startswith("https://disclosures-clerk.house.gov/"):
+        registered["official_url"] = str(primary_url)
+        filing_id = Path(str(primary_url)).stem
+        if filing_id.isdigit():
+            registered["filing_id"] = filing_id
+    return registered
 
 
 def sha256(path: Path) -> str:

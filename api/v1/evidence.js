@@ -1,6 +1,6 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
 const {enrichWithIssuer} = require('../../lib/issuer.js');
-const {evidenceUrl} = require('../../lib/evidence.js');
+const {evidenceUrl, officialSource} = require('../../lib/evidence.js');
 
 function origin(req) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
@@ -39,12 +39,17 @@ module.exports = async function handler(req, res) {
     const base = origin(req);
     const doc = row.doc || '';
     const documentPath = doc === '2024-1' ? 'disclosures.pdf' : `docs/src/${doc}.pdf`;
+    const mirrorUrl = evidenceUrl(documentPath, base);
+    const official = officialSource(doc);
     return res.status(200).json({
       ...enrichWithIssuer(row, base),
       url: `${base}/api/v1/evidence?id=${encodeURIComponent(row.id)}`,
-      source_document_url: evidenceUrl(documentPath, base),
+      source_document_url: official?.official_url || mirrorUrl,
+      source_document_mirror_url: mirrorUrl,
+      official_source_url: official?.official_url || null,
+      house_filing_id: official?.filing_id || null,
       source_page_url: `${base}/${year}/#p${row.page}`,
-      citation_note: 'Verify consequential claims against source_document_url and source_page_url. Reported amounts are statutory ranges, not exact values.',
+      citation_note: 'Cite this evidence record and the official filing when available; verify consequential claims against the scanned page. Reported amounts are statutory ranges, not exact values.',
     });
   } catch (error) {
     return res.status(502).json({error: 'Could not load the source dataset', detail: error.message});

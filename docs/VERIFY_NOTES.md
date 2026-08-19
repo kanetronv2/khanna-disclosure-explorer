@@ -4,25 +4,28 @@ Accumulated during the 2018–2026 OCR marathon. The transcribed per-page JSON i
 faithful; most items below are compile-time (aggregation/display) fixes that need
 the FULL structure of each annual visible, plus targeted re-reads.
 
-## 1. Annual Schedule-A block-split merge — TWO layouts (IMPORTANT)
+## 1. Annual Schedule-A block-split merge — TWO layouts (RESOLVED)
 Form A annuals split each asset's attributes across separate sheets. Two layouts seen:
 - **Interleaved triplets** (2018-4): pages go Value, Income, Amount for the SAME asset
   set, repeating. Handled by `merge_block_runs` (consecutive disjoint blocks, same group,
   equal counts) — verified collapsing 3→1 on 2018-4 pp55-57.
 - **Grouped-by-block** (2019-2): ALL Value pages, then ALL Income pages, then ALL Amount
-  pages, each covering different alphabetical subsets of the same trust. Consecutive pages
-  share the SAME block, so `merge_block_runs` does NOT merge them → assets fragment into
-  value-only / income-only / amount-only rows and inflate counts.
-- **FIX (finalization):** replace/augment with **name-based merge within each annual doc**:
-  group asset rows by (normalized trust group, asset_name), then combine fields (value,
-  income_types/other_income, amount_of_income[_preceding/current], transaction, eif) from
-  whichever fragment set each. This handles BOTH layouts uniformly. Re-verify each annual
-  year's asset count is sane (no 2x/3x inflation) after.
+  pages, each covering different alphabetical subsets of the same trust. Resolved in
+  `compile17.py` by `merge_named_asset_fragments`: exact normalized trust/name matches merge
+  only when at most one fragment supplies each field family and the fragments come from
+  different pages. Repeated same-page labels and clusters with overlapping values remain
+  separate. The compiler retains every contributing page in `source_pages`.
+- Result: 2019 fell from 5,335 fragmented rows to 4,007 source-linked asset entries, merging
+  1,328 redundant fragments. The scan-resolved `Ritu Ahuja 1993 Trust` and `Ritu Ahuja 1995
+  Trust` headers also replace the former `Rita`/`Mike` OCR artifacts. Independently recomputed
+  minimum/upper-floor holdings and income
+  totals are byte-for-byte numerically unchanged. Example: the Cisco value on p.31, dividend
+  type on p.42, and amount-sheet occurrence on p.55 now form one record linked to all pages.
 
-## 2. Transaction-code decoding (display)
+## 2. Transaction-code decoding (display) — RESOLVED
 Annual Schedule-A "Transaction Summary" uses P / PS / FS = Purchase / Partial Sale / Full
-Sale (not the standard P/S). Extend index.html `txWords` decoder: P→Purchased,
-PS→Partial sale, FS→Full sale (keep existing S→Sold, S(part)→Partial sale, E→Exchanged).
+Sale (not the standard P/S). The shared template decoder now renders P→Purchased,
+PS→Partial sale, FS→Full sale, S→Sold, S(part)→Partial sale, and E→Exchanged.
 
 ## 3. Re-read low/medium-confidence & flagged pages
 - Wide **value-matrix** Schedule A pages (e.g. 2019-2 pp29-30): single X across 12 far-apart

@@ -258,6 +258,9 @@ class Context:
         self.tx = {y: load_transactions(summaries, y, self.modified) for y in self.years}
         self.all_tx = [r for y in self.years for r in self.tx[y]]
         self.tx_total = sum(summaries[y]["counts"]["transactions"] for y in self.years)
+        self.common_stock_total = sum(
+            1 for row in self.all_tx if (row.get("cls") or "") == "Common stock"
+        )
         dates = [r["iso"] for r in self.all_tx if r["iso"]]
         self.data_through = max(dates) if dates else ""
         self.undated = sum(1 for r in self.all_tx if not r["iso"])
@@ -283,7 +286,8 @@ class Context:
 
 def story_lead(summary, year):
     tot, tx = summary["holdings"], summary["transaction_total"]
-    src = summary.get("source_pdf") or SOURCE_INDEX
+    src = summary.get("official_source_pdf") or summary.get("source_pdf") or SOURCE_INDEX
+    source_label = "Official House filing ↗" if summary.get("official_source_pdf") else "Source filing mirror ↗"
     if is_ptr_only(summary):
         eyebrow = "Reported transaction activity"
         headline = f"{summary['counts']['transactions']:,} reported transactions"
@@ -303,7 +307,7 @@ def story_lead(summary, year):
     return (f'<div class="story-primary"><span class="eyebrow">{esc(eyebrow)}</span>'
             f'<h2>{esc(headline)}</h2><p>{esc(detail)}</p>'
             f'<div class="source-line"><span>Source-linked transcription</span>'
-            f'<a href="{esc(src)}" target="_blank" rel="noopener">Official House filing ↗</a></div>'
+            f'<a href="{esc(src)}" target="_blank" rel="noopener">{esc(source_label)}</a></div>'
             f'{caveat_html}</div>')
 
 
@@ -461,7 +465,9 @@ def tx_table(rows, show_year=False):
             f"<td>{esc(r.get('tx_type') or '—')}</td>"
             f"<td class=\"num\">{esc(r.get('amount') or '—')}</td>"
             f"<td>{esc(r.get('cls') or '—')}</td><td>{esc(owner)}</td></tr>")
+    caption = "Recent reported transactions across filing years" if show_year else "Recent reported transactions for this filing year"
     return ('<div class="table-scroll"><table class="year-table tx-table">'
+            f'<caption>{esc(caption)}</caption>'
             f"<thead><tr>{year_head}<th>Date</th><th>Security</th><th>Type</th>"
             "<th>Reported amount</th><th>Asset class</th><th>Owner</th></tr></thead>"
             f'<tbody>{"".join(body)}</tbody></table></div>')
@@ -537,6 +543,7 @@ def year_table(summaries, current, url_for):
             f'<td>{esc(fmt(h["hiF"]))}{"+" if h["open"] else ""}</td>'
             f'<td class="narrow">{h["open"]}</td></tr>')
     return ('<div class="table-scroll"><table class="year-table">'
+            '<caption>Reported household holdings by annual filing year</caption>'
             '<thead><tr><th>Filing year</th><th>Reported minimum</th><th>Reported maximum</th>'
             '<th>Open-ended holdings</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>'
@@ -687,11 +694,31 @@ def crosslinks(ctx, year):
         f'<div class="crosslink-row">{"".join(nav)}</div>'
         '<div class="crosslink-hub">'
         f'<a href="/">Ro Khanna net worth — latest filing</a>'
-        f'<a href="{TRADES_PATH}">All reported stock trades, {ctx.tx_span()[0]}–{ctx.tx_span()[1]}</a>'
+        f'<a href="{TRADES_PATH}">All reported financial transactions, {ctx.tx_span()[0]}–{ctx.tx_span()[1]}</a>'
         '<a href="/api/v1">Machine-readable API</a>'
         f'<a href="{DATA_HOME}" target="_blank" rel="noopener">Download the open dataset</a>'
         '</div>'
         f'<div class="crosslink-years"><span>Every filing year:</span> {year_links}</div></nav>')
+
+
+def citation_panel(summary, year, ctx):
+    canonical = f"{ORIGIN}{ctx.url_for(year)}"
+    cite = (f"Khanna Disclosure Explorer. “Ro Khanna {year} Financial Disclosure.” "
+            f"Dataset version {ctx.modified}. {canonical}")
+    official = next(
+        (item.get("official_url") for item in summary.get("source_documents") or [] if item.get("official_url")),
+        None,
+    )
+    source = (f'<a href="{esc(official)}" target="_blank" rel="noopener">original House Clerk PDF</a>'
+              if official else
+              f'<a href="{SOURCE_INDEX}" target="_blank" rel="noopener">House Clerk disclosure index</a>')
+    return (
+        '<section class="panel citation-panel" aria-labelledby="citation-heading">'
+        '<h2 id="citation-heading">How to cite this data</h2>'
+        f'<p class="citation-copy"><code>{esc(cite)}</code></p>'
+        '<p class="note">For an individual holding or transaction, cite its stable evidence endpoint and the '
+        f'scanned filing page; use the {source} when available. Add your access date. Values are reported ranges, '
+        'and this is an independent transcription.</p></section>')
 
 
 def year_options(ctx, year):
@@ -710,22 +737,22 @@ def titles(summary, year, is_root, ctx):
     tot, tx = summary["holdings"], summary["transaction_total"]
     if is_root:
         span = f"{fmt(tot['lo'])}–{fmt(tot['hiF'])}"
-        title = f"Ro Khanna Net Worth {ctx.site_year}: {span} (Latest Filing)"
+        title = f"Ro Khanna {year} Financial Disclosure: {span} Reported"
         h1 = "Ro Khanna Financial Disclosures"
-        desc = (f"Ro Khanna's latest House disclosure — the {year} annual filing — reports {span} in assets, "
-                f"plus {ctx.tx_total:,} reported stock trades, with source scans.")
+        desc = (f"Ro Khanna's latest annual House disclosure ({year}) reports {span} in household asset bands. "
+                f"The explorer also contains {ctx.tx_total:,} reported financial transactions through {ctx.site_year}, with source scans.")
     elif is_ptr_only(summary):
-        title = f"Ro Khanna Stock Trades {year}: {summary['counts']['transactions']:,} Reported Trades"
-        h1 = f"Ro Khanna’s {year} Stock Trades"
-        desc = (f"Ro Khanna's {year} periodic transaction reports: {summary['counts']['transactions']:,} trades "
+        title = f"Ro Khanna Transactions {year}: {summary['counts']['transactions']:,} Reported"
+        h1 = f"Ro Khanna’s {year} Reported Transactions"
+        desc = (f"Ro Khanna's {year} periodic transaction reports: {summary['counts']['transactions']:,} financial transactions "
                 f"worth {rng_sum(tx)}, transcribed from official U.S. House filings with source scans.")
     else:
         span = f"{fmt(tot['lo'])}–{fmt(tot['hiF'])}"
         title = f"Ro Khanna Net Worth {year}: {span} Reported"
         h1 = f"Ro Khanna’s {year} Financial Disclosure"
         desc = (f"Ro Khanna's {year} House financial disclosure reports {span} in assets across "
-                f"{summary['counts']['assets']:,} line-items, plus {summary['counts']['transactions']:,} stock "
-                "trades. Searchable, with source scans.")
+                f"{summary['counts']['assets']:,} line-items, plus {summary['counts']['transactions']:,} reported "
+                "financial transactions. Searchable, with source scans.")
     return title, h1, desc
 
 
@@ -758,7 +785,11 @@ KHANNA = {"@type": "Person", "name": "Ro Khanna", "alternateName": "Rohit Khanna
 
 def json_ld(summary, year, url, title, desc, ctx, is_root):
     api = f"{ORIGIN}/api/v1/years/{year}"
-    source_urls = [item.get("url") for item in summary.get("source_documents") or [] if item.get("url")]
+    source_urls = [
+        item.get("official_url") or item.get("url")
+        for item in summary.get("source_documents") or []
+        if item.get("official_url") or item.get("url")
+    ]
     year_distributions = [
         {"@type": "DataDownload", "encodingFormat": "application/json",
          "contentUrl": f"{api}/summary.json", "name": f"{year} calculated facts and provenance"},
@@ -889,6 +920,7 @@ def render(template, ctx, year, at_root):
             through=None if at_root else ctx.through(year)),
         "<!--SEO_ANSWER-->": answer_panel(summary, year, ctx.summaries, ctx.url_for),
         "<!--SEO_METHOD-->": overview_methodology(ctx, summary, year),
+        "<!--SEO_CITATION-->": citation_panel(summary, year, ctx),
         "<!--SEO_CROSSLINKS-->": crosslinks(ctx, year),
         "<!--PR_STORYLEAD-->": story_lead(summary, year),
         "<!--PR_STATCARDS-->": stat_cards(summary, year),
@@ -936,7 +968,8 @@ def hub_year_rows(ctx):
             f'<td class="num">{buckets["other"]:,}</td>'
             f'<td>{esc(rng_sum(s["transaction_total"]))}</td></tr>')
     return ('<div class="table-scroll"><table class="year-table">'
-            "<thead><tr><th>Filing year</th><th>Reported trades</th><th>Purchases</th><th>Sales</th>"
+            '<caption>Reported financial transactions by filing year</caption>'
+            "<thead><tr><th>Filing year</th><th>Reported transactions</th><th>Purchases</th><th>Sales</th>"
             "<th>Other or unread</th><th>Combined reported value</th></tr></thead>"
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -961,7 +994,8 @@ def hub_companies(ctx):
         f'<td class="num">{esc(rng_pair(a["lo"], a["hi"]))}</td>'
         f'<td>{esc(min(a["years"]))}–{esc(max(a["years"]))}</td></tr>' for name, a in top)
     return ('<div class="table-scroll"><table class="year-table">'
-            "<thead><tr><th>Security</th><th>Asset class</th><th>Trades</th>"
+            '<caption>Most frequently reported securities</caption>'
+            "<thead><tr><th>Security</th><th>Asset class</th><th>Transactions</th>"
             "<th>Summed reported value</th><th>Years</th></tr></thead>"
             f"<tbody>{rows}</tbody></table></div>")
 
@@ -1013,10 +1047,12 @@ def hub_faq(ctx):
     share = (top_owner[1] / max(len(ctx.all_tx), 1)) * 100
     return [
         ("Does Ro Khanna trade stocks?",
-         f"The disclosures list {ctx.tx_total:,} transactions from {first} to {last}. They cover Khanna, his "
+         f"The disclosures list {ctx.tx_total:,} financial transactions from {first} to {last}, including "
+         f"{ctx.common_stock_total:,} classified as common stock. They cover Khanna, his "
          "spouse and dependent children, so a listed trade does not show who directed it."),
-        ("How many stock trades has Ro Khanna reported?",
-         f"{ctx.tx_total:,} across {first}–{last}. The latest year ({ctx.years[-1]}) has "
+        ("How many financial transactions are in the disclosures?",
+         f"{ctx.tx_total:,} across {first}–{last}, of which {ctx.common_stock_total:,} are classified as common stock. "
+         f"The latest year ({ctx.years[-1]}) has "
          f"{latest['counts']['transactions']:,}, in reported value bands totalling "
          f"{rng_sum(latest['transaction_total'])}."),
         ("Whose trades appear in Ro Khanna's disclosures?",
@@ -1035,17 +1071,17 @@ def hub_faq(ctx):
 def render_hub(template, ctx):
     first, last = ctx.tx_span()
     url = f"{ORIGIN}{TRADES_PATH}"
-    title = f"Ro Khanna Stock Trades: {ctx.tx_total:,} Reported, {first}–{last}"
-    h1 = f"Ro Khanna’s Reported Stock Trades: {ctx.tx_total:,} Transactions, {first}–{last}"
-    desc = (f"Every stock trade in Ro Khanna's House disclosures: {ctx.tx_total:,} reported transactions, "
-            f"{first}–{last}, with dates, amounts and owner codes from the official filings.")
+    title = f"Ro Khanna Financial Transactions: {ctx.tx_total:,} Reported, {first}–{last}"
+    h1 = f"Ro Khanna’s Reported Financial Transactions: {ctx.tx_total:,}, {first}–{last}"
+    desc = (f"Every reported financial transaction in Ro Khanna's House disclosures: {ctx.tx_total:,} rows, "
+            f"including {ctx.common_stock_total:,} common-stock transactions, with dates, amounts, owner codes and source scans.")
     faqs = hub_faq(ctx)
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ro Khanna Financial Disclosures", "item": f"{ORIGIN}/"},
         {"@type": "ListItem", "position": 2, "name": "Stock trades", "item": url}]}
     dataset = {
         "@context": "https://schema.org", "@type": "Dataset",
-        "name": f"Ro Khanna reported stock trades, {first}–{last}",
+        "name": f"Ro Khanna reported financial transactions, {first}–{last}",
         "description": desc, "url": url, "creator": PUBLISHER, "publisher": PUBLISHER, "about": KHANNA,
         "temporalCoverage": f"{first}/{last}", "isBasedOn": SOURCE_INDEX,
         "license": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -1053,7 +1089,7 @@ def render_hub(template, ctx):
         "identifier": "kde:reported-stock-trades", "version": ctx.modified,
         "measurementTechnique": ["Transcription of official House disclosure scans",
                                    "OCR cross-checking with explicit uncertainty flags"],
-        "keywords": ["Ro Khanna", "stock trades", "congressional trading", "periodic transaction report"],
+        "keywords": ["Ro Khanna", "financial transactions", "stock trades", "congressional trading", "periodic transaction report"],
         "variableMeasured": [{"@type": "PropertyValue", "name": "Reported transactions",
                               "value": ctx.tx_total}],
         "distribution": ctx.distributions,
@@ -1092,6 +1128,15 @@ def render_hub(template, ctx):
         "<!--HUB_OWNERS-->": hub_owner_split(ctx),
         "<!--HUB_FAQ-->": "".join(f"<dt>{esc(q)}</dt><dd>{esc(a)}</dd>" for q, a in faqs),
         "<!--HUB_METHOD-->": methodology(ctx),
+        "<!--HUB_CITATION-->": (
+            '<section class="panel citation-panel" aria-labelledby="hub-citation-heading">'
+            '<h2 id="hub-citation-heading">How to cite this dataset</h2>'
+            f'<p class="citation-copy"><code>Khanna Disclosure Explorer. “Ro Khanna Reported Financial Transactions, '
+            f'{first}–{last}.” Dataset version {ctx.modified}. {url}</code></p>'
+            '<p class="note">For a specific transaction, cite its stable evidence endpoint and scanned filing page. '
+            'Add your access date, preserve the reported amount range, and identify the owner code printed on the form.</p>'
+            '</section>'
+        ),
         "<!--HUB_YEAR_LINKS-->": year_links,
         "<!--HUB_TOTAL-->": esc(f"{ctx.tx_total:,}"),
         "<!--HUB_DATA_HOME-->": DATA_HOME,
@@ -1112,7 +1157,8 @@ def hub_lede(ctx):
     total = max(len(ctx.all_tx), 1)
     parts = sorted(owners.items(), key=lambda kv: kv[1], reverse=True)[:3]
     split = ", ".join(f"{(n / total) * 100:.1f}% to {OWNER_PHRASE[k]}" for k, n in parts)
-    return (f"The House filings list <b>{ctx.tx_total:,} transactions</b> from {first} to {last}. They cover "
+    return (f"The House filings list <b>{ctx.tx_total:,} financial transactions</b> from {first} to {last}, "
+            f"including <b>{ctx.common_stock_total:,} common-stock transactions</b>. They cover "
             "Khanna, his spouse and dependent children—reported activity, not a record of individual decisions. "
             f"By owner code: {split}. Amounts are value bands, not exact trade values.")
 
@@ -1161,7 +1207,7 @@ def write_404(ctx):
         "<p>That URL is not part of this site. The explorer publishes one page per filing year, "
         "plus a cross-year view of every reported transaction.</p>\n"
         f'<p><a href="/">Ro Khanna net worth — latest filing</a><br>\n'
-        f'<a href="{TRADES_PATH}">All reported stock trades</a></p>\n'
+        f'<a href="{TRADES_PATH}">All reported financial transactions</a></p>\n'
         f"<h2>Filing years</h2>\n<ul>{links}</ul>\n</main>\n</body>\n</html>\n", encoding="utf-8")
 
 

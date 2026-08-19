@@ -5,7 +5,7 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Mike Ahuja 1995 Trust"},
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
     {"kind": "asset", "owner": null, "asset_name": "BB&T CORPORATION CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "BECTON, DICKINSON AND COMPANY CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -96,7 +96,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of 'Mike Ahuja 1995 Trust' portfolio (header repeats). This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice BB&T CORPORATION CMN through CONTINENTAL RESOURCES, INC CMN (87 assets). Per-row X-columns for amount_of_income and transaction are present but not reliably resolvable at this degradation; nulled for downstream name-based merge across split sheets."},
+    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of the scan-verified 'Ritu Ahuja 1995 Trust' portfolio (header repeats). This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice BB&T CORPORATION CMN through CONTINENTAL RESOURCES, INC CMN (87 assets). Per-row X-columns for amount_of_income and transaction are present but not reliably resolvable at this degradation; nulled for downstream name-based merge across split sheets."},
     {"row": 21, "field": "asset_name", "read": "BROWARD CNTY FLA SCH BRD CTFS COPS 5% 07/01/29 ...", "note": "muni bond; CUSIP/series digits partly illegible"},
     {"row": 44, "field": "asset_name", "read": "CEDAR LAKE CNTY ILL @ REV 4.000% 05/01/33 ...", "note": "muni bond; issuer/detail partly illegible"},
     {"row": 49, "field": "asset_name", "read": "CHEMEKETA ORE CMNTY COLLEGE CO 5% 06/15/29 ...", "note": "muni bond; issuer/detail partly illegible"},

@@ -5,7 +5,7 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Ahir Ahuja 1994 Trust"},
+    {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
     {"kind": "asset", "owner": null, "asset_name": "OMRO HEALTH INC CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "ORACLE CORPORATION CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -94,7 +94,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "layout", "read": "Field-split Schedule A sheet under trust header 'Ahir Ahuja 1994 Trust'. Asset slice O-S (alphabetical, OMRO/ORACLE ... through SAREPTA). This sheet carries ONLY the Amount-of-Income + Transaction Summary matrix block; the Value (Block B) and Type-of-Income (Block C) blocks appear on companion sheets for the same trust. Merge to companion sheets by asset name.", "note": "value and income_types nulled because their blocks are not present on this sheet"},
+    {"row": 0, "field": "layout", "read": "Field-split Schedule A sheet under trust header 'Ritu Ahuja 1994 Trust'. Asset slice O-S (alphabetical, OMRO/ORACLE ... through SAREPTA). This sheet carries ONLY the Amount-of-Income + Transaction Summary matrix block; the Value (Block B) and Type-of-Income (Block C) blocks appear on companion sheets for the same trust. Merge to companion sheets by asset name.", "note": "High-resolution scan re-check resolves the header as Ritu Ahuja 1994 Trust; value and income_types remain null because their blocks are not present on this sheet."},
     {"row": null, "field": "amount_of_income/transaction", "read": "matrix X marks present across ~13 unlabeled Amount-of-Income bucket columns plus 3 Transaction Summary columns (P/S/PS)", "note": "scan is severely degraded (tesseract output pure noise); individual X marks cannot be pixel-aligned to specific bucket columns reliably, so amount_of_income and transaction are nulled per spec rather than guessed"},
     {"row": null, "field": "asset_name", "read": "common-stock (CMN) names inferred largely from alphabetical order and S&P-500 membership; municipal-bond rows carry rates/dates/CUSIPs that are illegible", "note": "names are best-effort/low-confidence; bond descriptors marked [municipal bond ... illegible]; row-count and ordering may be off by a row or two at the TL/BL seam"},
     {"row": null, "field": "owner", "read": "left-margin SP/DC/JT column present but not legibly resolvable per row", "note": "owner nulled for all rows"}

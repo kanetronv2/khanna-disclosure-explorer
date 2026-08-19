@@ -5,7 +5,7 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Mike Ahuja 1995 Trust"},
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
     {"kind": "asset", "owner": null, "asset_name": "FERNANDINA BEACH FLA UTIL SYS REV RXX 09/01/29 MS REV REF BDS 2XX8 A SXO SX LIEN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "FIDELITY NATL INFO SVCS INC CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "FIFTH THIRD BANCORP CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -98,7 +98,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of 'Mike Ahuja 1995 Trust' portfolio. This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice FERNANDINA BEACH FLA UTIL SYS REV ... through INTEL CORPORATION CMN (89 assets). Per-row X-columns not reliably resolvable at this degradation; nulled for downstream name-based merge."},
+    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of the scan-verified 'Ritu Ahuja 1995 Trust' portfolio. This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice FERNANDINA BEACH FLA UTIL SYS REV ... through INTEL CORPORATION CMN (89 assets). Per-row X-columns not reliably resolvable at this degradation; nulled for downstream name-based merge."},
     {"row": 4, "field": "asset_name", "read": "FIREEYE, INC. CMN", "note": "degraded; identity uncertain"},
     {"row": 10, "field": "asset_name", "read": "FLUOR CORPORATION CMN", "note": "between FLORENCE muni and FMC; could be FLOWSERVE/FLIR; degraded"},
     {"row": 51, "field": "asset_name", "read": "HEALTHCARE REALTY TRUST INC CMN", "note": "one of two adjacent healthcare-REIT rows both reading HEALTHPEAK-like; first labeled HEALTHCARE REALTY TRUST tentatively"},

@@ -509,6 +509,9 @@ def openapi(ctx: pages.Context) -> dict:
             "issuer": {"type": ["object", "null"], "description": "Reviewed issuer identity when available; separate from the raw reported name."},
             "url": {"type": "string", "format": "uri", "description": "Absolute evidence lookup URL; present on lookup/search responses."},
             "source_document_url": {"type": "string", "format": "uri", "description": "Source disclosure PDF; present on lookup/search responses."},
+            "source_document_mirror_url": {"type": "string", "format": "uri", "description": "Project-hosted byte-preserving mirror of the source disclosure PDF."},
+            "official_source_url": {"type": ["string", "null"], "format": "uri", "description": "Original House Clerk PDF URL when identified."},
+            "house_filing_id": {"type": ["string", "null"], "description": "House Clerk filing identifier when identified."},
             "source_page_url": {"type": "string", "format": "uri", "description": "Explorer URL for the filed page; present on lookup/search responses."},
         },
     }
@@ -711,12 +714,12 @@ def main() -> None:
 
     first, last = ctx.tx_span()
     trades_md = [
-        f"# Ro Khanna reported stock trades, {first}–{last}",
+        f"# Ro Khanna reported financial transactions, {first}–{last}",
         "",
         f"> Canonical page: {ORIGIN}/stock-trades/",
         f"> Dataset version: {ctx.modified}",
         "",
-        f"The loaded House filings contain {ctx.tx_total:,} reported household transactions. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.",
+        f"The loaded House filings contain {ctx.tx_total:,} reported household financial transactions, including {ctx.common_stock_total:,} classified as common stock. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.",
         "",
         "## Filing-year coverage",
         "",
@@ -780,7 +783,7 @@ def main() -> None:
         "## Primary resources",
         "",
         f"- [Latest annual filing]({ORIGIN}/): Human-readable overview with methodology and sources.",
-        f"- [All reported stock trades]({ORIGIN}/stock-trades/): Cross-year transaction analysis.",
+        f"- [All reported financial transactions]({ORIGIN}/stock-trades/): Cross-year analysis, including stocks, bonds, options, funds, and other reportable assets.",
         f"- [API documentation]({API_ROOT}/openapi.json): OpenAPI 3.1 description of the read-only API.",
         f"- [Year index]({API_ROOT}/years.json): Canonical, Markdown, and JSON URLs for every filing year.",
         f"- [Issuer index]({API_ROOT}/issuers.json): Reviewed company identities that join raw filing-name variants.",

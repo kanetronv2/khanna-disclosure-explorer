@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the dataset and the underlying House filing page used for each consequential claim."
+title: "Khanna Disclosure Explorer"
+type: dataset
+version: "2026-08-19"
+authors:
+  - name: "Khanna Disclosure Explorer contributors"
+repository-code: "https://github.com/kanetronv2/khanna-disclosure-explorer"
+url: "https://www.rokhanna.money/"
+license: CC0-1.0
+abstract: "Source-linked transcription and normalized data from Ro Khanna's U.S. House financial disclosure filings."
+keywords:
+  - financial disclosure
+  - congressional transactions
+  - U.S. House of Representatives

@@ -10,12 +10,12 @@
     },
     "missing_or_invalid_records": 0,
     "normalized_records": {
-      "assets": 26389,
+      "assets": 25061,
       "documents": 130,
       "page_rows": 118075,
       "pages": 4460,
       "transactions": 49750,
-      "uncertainties": 9779
+      "uncertainties": 9786
     },
     "owner_code_distribution": {
       "DC": 36387,

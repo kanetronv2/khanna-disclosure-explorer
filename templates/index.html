@@ -346,7 +346,7 @@
   .fbar input[type=search],.fbar select{width:100%;max-width:none;min-height:38px}
   .fbar button.dl{min-height:38px}
   .fbar .cnt{align-self:center}
-  table.data caption{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  table.data caption,.year-table caption,.grid caption{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   .data th[role=button]:focus-visible{outline:2px solid var(--bar2);outline-offset:-2px}
 
   .doc-index-toggle,.doc-mobile-toggle{display:none}
@@ -458,7 +458,7 @@
       <button id="tab-doc" role="tab" aria-controls="v-doc" aria-selected="false" tabindex="-1" data-v="doc">Document</button>
     </nav>
     <div class="nav-actions">
-      <a class="trades-link" href="<!--PR_TRADES_PATH-->">All stock trades</a>
+      <a class="trades-link" href="<!--PR_TRADES_PATH-->">All transactions</a>
       <div class="yearwrap"><label class="yl" for="yearsel">Filing year</label><select id="yearsel" title="Choose filing year" aria-label="Choose filing year"><!--PR_YEAR_OPTIONS--></select></div>
     </div>
   </div>
@@ -498,6 +498,7 @@
       </div>
     </div>
     <!--SEO_METHOD-->
+    <!--SEO_CITATION-->
     <!--SEO_CROSSLINKS-->
   </section>
 
@@ -590,6 +591,7 @@
           <button id="doc-index-toggle" class="doc-index-toggle" aria-expanded="false">Pages</button>
           <button id="prev" aria-label="Previous page">←</button><b id="pageno"></b><button id="next" aria-label="Next page">→</button>
           <span class="meta" id="pagemeta"></span><span class="badge" id="confbadge"></span>
+          <a class="meta" id="docsource" href="#" target="_blank" rel="noopener">Source PDF ↗</a>
           <span class="meta" style="margin-left:auto">click image to zoom · <kbd>←</kbd><kbd>→</kbd></span>
           <div class="doc-mobile-toggle" role="group" aria-label="Document view">
             <button type="button" data-pane="scan" aria-pressed="true">Scan</button>
@@ -607,7 +609,7 @@
 </div></main>
 
 <footer><div class="wrap">
-  <div class="footer-main"><b>Independent and unofficial.</b> This best-effort transcription is provided for public-interest research. For authoritative data, consult the <a id="srclink2" href="#" target="_blank" rel="noopener">original House filing</a>.</div>
+  <div class="footer-main"><b>Independent and unofficial.</b> This best-effort transcription is provided for public-interest research. For authoritative data, consult the <a id="srclink2" href="#" target="_blank" rel="noopener">source filing</a>.</div>
   <details class="method-details"><summary>Methodology and data-quality status</summary><p>The official filings are paper scans with no machine-readable text. Each page is transcribed with a vision model reading the full page and high-resolution crops, cross-checked against Tesseract OCR. Unresolved readings are flagged inline in the Document tab, and a second-pass verification is part of the pipeline. Dollar figures are statutory ranges, not exact values. <span id="fstats"></span></p></details>
   <div class="photo-credit">Header photo: Kevin Dietsch/Getty Images (editorial).</div>
 </div></footer>
@@ -629,11 +631,14 @@ const sitePath = path => !path || /^[a-z]+:/i.test(path) || path.startsWith('/')
 (() => {
 const D = window.FD_SUMMARIES?.[FD_YEAR] || {meta:{},counts:{assets:0,transactions:0,pages:0},top_holdings:[],owners:[],classes:[],groups:[],transaction_types:[]};
 const META = D.meta || {};
+const primarySource = D.official_source_pdf || D.source_pdf;
+const primarySourceLabel = D.official_source_pdf ? 'Official House filing ↗' : 'Source filing mirror ↗';
 const evidencePath = path => !path || /^[a-z]+:/i.test(path) ? path : `${String(D.evidence_origin||location.origin).replace(/\/$/,'')}/${String(path).replace(/^\//,'')}`;
 if (META.kicker) document.querySelector('.kicker').textContent = META.kicker;
-const srcEl = document.getElementById('srclink'); if (srcEl && !srcEl.getAttribute('href').length) srcEl.href = D.source_pdf;
-if (document.getElementById('srclink')) document.getElementById('srclink').href = D.source_pdf;
-document.getElementById('srclink2').href = D.source_pdf;
+const srcEl = document.getElementById('srclink'); if (srcEl && !srcEl.getAttribute('href').length) srcEl.href = primarySource;
+if (document.getElementById('srclink')) document.getElementById('srclink').href = primarySource;
+document.getElementById('srclink2').href = primarySource;
+document.getElementById('srclink2').textContent = D.official_source_pdf ? 'original House filing' : 'source filing mirror';
 const yearSelect = document.getElementById('yearsel');
 yearSelect.value = FD_YEAR;
 yearSelect.onchange = () => { location.href = FD_URL(yearSelect.value); };
@@ -695,7 +700,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
   document.getElementById('statcards').innerHTML = cards.map(c=>
     `<div class="card" ${c[3]?`title="${esc(c[3])}"`:''}><div class="k">${c[0]}</div><div class="v">${c[1]}</div><div class="d">${c[2]}</div></div>`).join('');
 
-  const pageSource = `<a href="${esc(D.source_pdf)}" target="_blank" rel="noopener">Official House filing ↗</a>`;
+  const pageSource = `<a href="${esc(primarySource)}" target="_blank" rel="noopener">${esc(primarySourceLabel)}</a>`;
   const datedTransactions = D.counts.dated_transactions || 0;
   const activeTradingDays = D.counts.active_trading_days || 0;
   const averageTradesPerDay = activeTradingDays
@@ -846,8 +851,8 @@ const rngLines = v => {
   const m = v.match(/^(\$[\d,]+)\s*-\s*(\$[\d,]+.*)$/);
   return m ? `<span style="white-space:nowrap">${esc(m[1])} –</span><br><span style="white-space:nowrap">${esc(m[2])}</span>` : esc(v);
 };
-const TXW = {P:'Purchased', S:'Sold', 'S(part)':'Partial sale', E:'Exchanged'};
-const txWords = t => (t||'').split(/(?<=\))\s*[,.\s]\s*|(?<=[PSE])\s*[,.\s]\s*(?=[PSE])/).filter(Boolean).map(x=>TXW[x.trim()]||x).join(', ');
+const TXW = {P:'Purchased', PS:'Partial sale', FS:'Full sale', S:'Sold', 'S(PART)':'Partial sale', E:'Exchanged'};
+const txWords = t => (t||'').split(/\s*[,.;]\s*|\s+/).filter(Boolean).map(x=>TXW[x.trim().toUpperCase()]||x).join(', ');
 const pgLink = kind => r => `<td class="pg"><a href="#p${r.page}" data-goto="${r.page}" aria-label="View filing page ${r.page}">View p.${r.page}</a></td>`;
 document.body.addEventListener('click', async e=>{
   const a=e.target.closest('a[data-goto]');
@@ -1107,7 +1112,7 @@ function rowsTable(p){
   const isTx = rows.some(r=>r.kind==='tx');
   const cols = isTx?['Owner','Asset','Type','CG','Date','Amount']:['Owner','Asset','Value','Income type','Income','Tx'];
   const flagged=new Set((p.uncertainties||[]).map(u=>u.row));
-  let h=`<table class="grid"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>`;
+  let h=`<table class="grid"><caption>${isTx?'Transaction transcription':'Asset transcription'} for PDF page ${esc(p.pdf_page)}</caption><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>`;
   rows.forEach((r,i)=>{
     if(r.kind==='group'){h+=`<tr class="group"><td colspan="${cols.length}">${esc(r.text)}</td></tr>`;return;}
     const fl=flagged.has(i)||flagged.has(i+1)?' class="flagged"':'';
@@ -1129,6 +1134,10 @@ async function showPage(n){
   document.getElementById('pageimg').alt=`Scan of PDF page ${p.pdf_page}${p.printed_label?`, ${p.printed_label}`:''}`;
   document.getElementById('pageno').textContent=`Page ${p.pdf_page}/${pages.length}`;
   document.getElementById('pagemeta').textContent=[p.printed_label,p.section].filter(Boolean).join(' — ');
+  const docSource=document.getElementById('docsource');
+  docSource.href=entry.official_source_url||entry.source_document_url;
+  docSource.textContent=entry.official_source_url?'Official filing ↗':'Filing mirror ↗';
+  docSource.title=[entry.house_filing_id?`House filing ${entry.house_filing_id}`:'',entry.source_document_sha256?`SHA-256 ${entry.source_document_sha256}`:''].filter(Boolean).join(' · ');
   const cb=document.getElementById('confbadge');
   cb.textContent=p.page_confidence?`confidence: ${p.page_confidence}`:''; cb.className='badge '+(p.page_confidence||'');
   let h=rowsTable(p);

@@ -5,7 +5,7 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Mike Ahuja 1995 Trust"},
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
     {"kind": "asset", "owner": null, "asset_name": "INTERCEPT PHARMACEUTICALS, INC CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "INTERCONTINENTAL EXCHANGE INC CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "INTERNATIONAL GAME TECHNOLOGY PLC CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -96,7 +96,7 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of 'Mike Ahuja 1995 Trust' portfolio. This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice INTERCEPT PHARMACEUTICALS ... through MARRIOTT INTERNATIONAL, INC CMN CLASS A (87 assets). Per-row X-columns not reliably resolvable at this degradation; nulled for downstream name-based merge."},
+    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "Continuation of the scan-verified 'Ritu Ahuja 1995 Trust' portfolio. This sheet carries only the Amount-of-Income block (sub-header 'Amount of Income') plus far-right 'Transaction Summary' (P/S/PS) matrix; Value (Block B) and Type-of-Income (Block C) are on sibling sheets. Asset slice INTERCEPT PHARMACEUTICALS ... through MARRIOTT INTERNATIONAL, INC CMN CLASS A (87 assets). Per-row X-columns not reliably resolvable at this degradation; nulled for downstream name-based merge."},
     {"row": 73, "field": "asset_name", "read": "LOGMEIN, INC. CMN", "note": "degraded; could be LOGITECH; identity uncertain"},
     {"row": 87, "field": "asset_name", "read": "MARRIOTT INTERNATIONAL, INC CMN CLASS A", "note": "last row degraded; identity inferred from alphabetical position"},
     {"row": 14, "field": "asset_name", "read": "muni bonds", "note": "Muni-bond rows on this page (IREDELL CNTY, JERSEY CITY x2, JOHNSON CITY, KANSAS ST DEPT TRANSN, KING CNTY WASH, LAREDO TEX, LEXINGTON-FAYETTE, MADISON CNTY ALA, MAINE ASLN BD BK) have CUSIP/rate/date detail partly illegible; transcribed best-effort with X placeholders."}

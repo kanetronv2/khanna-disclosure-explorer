@@ -119,6 +119,24 @@ def document_url(doc, primary_url=None, is_primary=False):
     return evidence_assets.public_url(path)
 
 
+def document_path(doc):
+    return "disclosures.pdf" if doc == "2024-1" else f"docs/src/{doc}.pdf"
+
+
+def document_provenance(doc, primary_url=None, is_primary=False):
+    path = document_path(doc)
+    local = ROOT / path
+    registered = evidence_assets.official_source(doc, primary_url if is_primary else None)
+    checksum = evidence_assets.sha256(local) if local.is_file() else None
+    return {
+        "url": document_url(doc, primary_url, is_primary),
+        "mirror_url": evidence_assets.public_url(path),
+        "official_url": registered.get("official_url"),
+        "filing_id": registered.get("filing_id"),
+        "sha256": checksum,
+    }
+
+
 def source_documents(pages, primary_url, annual):
     documents = {}
     for page in pages:
@@ -130,7 +148,7 @@ def source_documents(pages, primary_url, annual):
         })
         current["pages"] += 1
     for doc, item in documents.items():
-        item["url"] = document_url(doc, primary_url, bool(annual and annual.get("doc") == doc))
+        item.update(document_provenance(doc, primary_url, bool(annual and annual.get("doc") == doc)))
     def doc_key(value):
         match = re.match(r"^(\d{4})-(\d+)$", value)
         return (int(match.group(1)), int(match.group(2))) if match else (9999, value)
@@ -180,12 +198,15 @@ def build_year(year):
         payload = encoded(detail)
         detail_path = page_dir / f"{int(page['pdf_page']):04d}.{hash_bytes(payload)}.json"
         detail_path.write_bytes(payload + b"\n")
+        provenance = document_provenance(doc, primary_url, bool(annual and annual.get("doc") == doc))
         page_index.append({
             "id": f"page:{doc}:{document_page:04d}",
             "url": f"{ORIGIN}/{year}/#p{page['pdf_page']}",
-            "source_document_url": document_url(
-                doc, primary_url, bool(annual and annual.get("doc") == doc)
-            ),
+            "source_document_url": provenance["url"],
+            "source_document_mirror_url": provenance["mirror_url"],
+            "official_source_url": provenance["official_url"],
+            "house_filing_id": provenance["filing_id"],
+            "source_document_sha256": provenance["sha256"],
             "pdf_page": page["pdf_page"],
             "printed_label": page.get("printed_label"),
             "section": page.get("section"),
@@ -205,6 +226,8 @@ def build_year(year):
     transaction_types = grouped(transactions, "tx_type", "lo", "hi", "?")
     confidence = Counter(page.get("page_confidence") or "unknown" for page in pages)
     public_source_pdf = evidence_assets.public_url(primary_url) if primary_url else None
+    primary_doc = annual.get("doc") if annual else (pages[0].get("doc") if pages else None)
+    primary_source = document_provenance(primary_doc, primary_url, True) if primary_doc else {}
     public_meta = dict(data.get("meta") or {})
     meta_source_pdf = public_meta.get("source_pdf")
     if meta_source_pdf:
@@ -217,6 +240,10 @@ def build_year(year):
         "meta": public_meta,
         "evidence_origin": evidence_assets.evidence_origin(),
         "source_pdf": public_source_pdf,
+        "official_source_pdf": primary_source.get("official_url"),
+        "source_pdf_mirror": primary_source.get("mirror_url"),
+        "source_pdf_sha256": primary_source.get("sha256"),
+        "house_filing_id": primary_source.get("filing_id"),
         "filer": data.get("filer"),
         "filing": data.get("filing"),
         "counts": {"assets": len(assets), "transactions": len(transactions), "pages": len(pages),

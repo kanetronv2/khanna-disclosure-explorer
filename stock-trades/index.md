@@ -1,15 +1,15 @@
-# Ro Khanna reported stock trades, 2017–2026
+# Ro Khanna reported financial transactions, 2017–2026
 
 > Canonical page: https://www.rokhanna.money/stock-trades/
 > Dataset version: 2026-08-19
 
-The loaded House filings contain 49,750 reported household transactions. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.
+The loaded House filings contain 49,750 reported household financial transactions, including 43,214 classified as common stock. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.
 
 ## Filing-year coverage
 
 | Year | Reported transactions | Active trading days | Combined value range |
 | --- | ---: | ---: | ---: |
-| [2026](https://www.rokhanna.money/2026/index.md) | 3,855 | 134 | $17.2M – $96.5M |
+| [2026](https://www.rokhanna.money/2026/index.md) | 3,855 | 133 | $17.2M – $96.5M |
 | [2025](https://www.rokhanna.money/2025/index.md) | 5,402 | 244 | $44.6M – $164.4M |
 | [2024](https://www.rokhanna.money/2024/index.md) | 4,665 | 234 | $36.4M – $137.2M |
 | [2023](https://www.rokhanna.money/2023/index.md) | 4,677 | 238 | $46.2M – $169.7M |

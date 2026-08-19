@@ -1,7 +1,7 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
 const KINDS = new Set(['assets', 'transactions']);
 const {enrichWithIssuer} = require('../../lib/issuer.js');
-const {evidenceUrl} = require('../../lib/evidence.js');
+const {evidenceUrl, officialSource} = require('../../lib/evidence.js');
 
 function origin(req) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
@@ -21,10 +21,15 @@ function one(value) {
 function withEvidence(row, base) {
   const doc = row.doc || '';
   const documentPath = doc === '2024-1' ? 'disclosures.pdf' : `docs/src/${doc}.pdf`;
+  const mirrorUrl = evidenceUrl(documentPath, base);
+  const official = officialSource(doc);
   return {
     ...enrichWithIssuer(row, base),
     url: `${base}/api/v1/evidence?id=${encodeURIComponent(row.id)}`,
-    source_document_url: evidenceUrl(documentPath, base),
+    source_document_url: official?.official_url || mirrorUrl,
+    source_document_mirror_url: mirrorUrl,
+    official_source_url: official?.official_url || null,
+    house_filing_id: official?.filing_id || null,
     source_page_url: `${base}/${String(row.id || '').split(':')[1]}/#p${row.page}`,
   };
 }

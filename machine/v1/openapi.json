@@ -149,6 +149,13 @@
             "description": "Stable lookup path for the evidence record.",
             "type": "string"
           },
+          "house_filing_id": {
+            "description": "House Clerk filing identifier when identified.",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "id": {
             "description": "Deterministic dataset record ID.",
             "type": "string"
@@ -171,6 +178,14 @@
             "description": "Reported asset or security name.",
             "type": "string"
           },
+          "official_source_url": {
+            "description": "Original House Clerk PDF URL when identified.",
+            "format": "uri",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "owner": {
             "description": "Owner code printed on the filing.",
             "type": [
@@ -181,6 +196,11 @@
           "page": {
             "description": "Page position in the filing-year collection.",
             "type": "integer"
+          },
+          "source_document_mirror_url": {
+            "description": "Project-hosted byte-preserving mirror of the source disclosure PDF.",
+            "format": "uri",
+            "type": "string"
           },
           "source_document_url": {
             "description": "Source disclosure PDF; present on lookup/search responses.",

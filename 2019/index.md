@@ -17,7 +17,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Active trading days | 390 |
 | Average trades per active day | 7.4 |
 | Combined transaction range | $15.5M – $89.9M |
-| Source-linked asset entries | 5,335 |
+| Source-linked asset entries | 4,007 |
 | Largest disclosed value band | $1M+ |
 
 ## Important caveats

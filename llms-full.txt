@@ -16,7 +16,7 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 
 - [Latest annual filing](https://www.rokhanna.money/): Human-readable overview with methodology and sources.
 
-- [All reported stock trades](https://www.rokhanna.money/stock-trades/): Cross-year transaction analysis.
+- [All reported financial transactions](https://www.rokhanna.money/stock-trades/): Cross-year analysis, including stocks, bonds, options, funds, and other reportable assets.
 
 - [API documentation](https://www.rokhanna.money/api/v1/openapi.json): OpenAPI 3.1 description of the read-only API.
 
@@ -52,7 +52,7 @@ Use the annual Markdown or facts JSON pages for compact answers. Use the API for
 
 - [2020 filing Markdown](https://www.rokhanna.money/2020/index.md): 6,048 reported transactions; 2,038 asset entries.
 
-- [2019 filing Markdown](https://www.rokhanna.money/2019/index.md): 4,546 reported transactions; 5,335 asset entries.
+- [2019 filing Markdown](https://www.rokhanna.money/2019/index.md): 4,546 reported transactions; 4,007 asset entries.
 
 - [2018 filing Markdown](https://www.rokhanna.money/2018/index.md): 6,359 reported transactions; 1,951 asset entries.
 
@@ -105,7 +105,7 @@ This API resource groups reviewed filing-name variants under **NVIDIA Corporatio
 | [2016](https://www.rokhanna.money/2016/) | 3 | $2K – $30K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000046) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000161) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000678) |
 | [2017](https://www.rokhanna.money/2017/) | 3 | $31K – $115K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000072) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000600) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:001334) |
 | [2018](https://www.rokhanna.money/2018/) | 5 | $47K – $180K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000101) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000102) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000133) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000669) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:001473) |
-| [2019](https://www.rokhanna.money/2019/) | 5 | $15K – $50K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000652) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001414) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:002962) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:003799) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:004627) |
+| [2019](https://www.rokhanna.money/2019/) | 4 | $15K – $50K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000652) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:002736) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:003455) |
 | [2020](https://www.rokhanna.money/2020/) | 2 | $50K – $100K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000747) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:001569) |
 | [2021](https://www.rokhanna.money/2021/) | 7 | $331K – $815K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000059) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000097) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000731) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001044) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001545) [6](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001835) [7](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:002268) |
 | [2022](https://www.rokhanna.money/2022/) | 5 | $117K – $330K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000464) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000690) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001171) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001908) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:002358) |
@@ -169,8 +169,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Reported household holdings | None |
 | Open-ended holdings | 0 |
 | Reported transactions | 3,855 |
-| Active trading days | 134 |
-| Average trades per active day | 28.8 |
+| Active trading days | 133 |
+| Average trades per active day | 29.0 |
 | Combined transaction range | $17.2M – $96.5M |
 | Source-linked asset entries | 0 |
 
@@ -739,7 +739,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Active trading days | 390 |
 | Average trades per active day | 7.4 |
 | Combined transaction range | $15.5M – $89.9M |
-| Source-linked asset entries | 5,335 |
+| Source-linked asset entries | 4,007 |
 | Largest disclosed value band | $1M+ |
 
 ## Important caveats

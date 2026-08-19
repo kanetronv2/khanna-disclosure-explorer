@@ -53,7 +53,9 @@ async function main() {
     query: {year: '2025', kind: 'transactions', q: 'apple'}}, res);
   if (res.code !== 200 || res.body.total !== 1 ||
       res.body.results[0].id !== 'transaction:2025:000001' ||
-      res.body.results[0].source_document_url !== 'https://evidence.example.test/docs/src/2025-14.pdf') {
+      res.body.results[0].source_document_url !== 'https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf' ||
+      res.body.results[0].source_document_mirror_url !== 'https://evidence.example.test/docs/src/2025-14.pdf' ||
+      res.body.results[0].house_filing_id !== '9116272') {
     throw new Error('search handler failed');
   }
   if (fetched[0] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {
@@ -65,7 +67,8 @@ async function main() {
     query: {id: 'transaction:2025:000002'}}, res);
   if (res.code !== 200 || res.body.id !== 'transaction:2025:000002' ||
       !res.body.source_page_url ||
-      res.body.source_document_url !== 'https://evidence.example.test/docs/src/2025-14.pdf') {
+      res.body.source_document_url !== 'https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf' ||
+      res.body.source_document_mirror_url !== 'https://evidence.example.test/docs/src/2025-14.pdf') {
     throw new Error('evidence handler failed');
   }
   if (fetched[1] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {

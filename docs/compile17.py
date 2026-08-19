@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Compile the 2016/2017 filing OCR JSONs into data-2016.js and data-2017.js."""
 import glob, os, re, sys
+from collections import defaultdict
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "ocr"))
 import fdlib
 
@@ -83,6 +84,75 @@ def merge_block_runs(pages):
     return pages
 
 
+def _merge_key(value):
+    """A conservative identity key for split-sheet holdings."""
+    return re.sub(r"[^A-Z0-9]+", " ", value or "").strip().upper()
+
+
+def merge_named_asset_fragments(assets, doc):
+    """Merge non-conflicting Schedule-A fragments split across distant sheets.
+
+    The 2019 annual first prints value columns for long runs of securities, then repeats
+    those securities on later income-type and income-amount sheets. Page adjacency cannot
+    join that layout. We merge only when an exact normalized trust/name cluster contains
+    at most one populated value block, income-type block, and income-amount/transaction
+    block. A cluster with two populated values (or two of either other block) is left
+    untouched because it may represent genuinely separate positions with the same label.
+    """
+    if doc != "2019-2":
+        return assets
+
+    families = {
+        "value": ("value", "vlo", "vhi"),
+        "income_type": ("income_types", "other_income"),
+        "income_amount": ("income_amt", "ilo", "ihi", "tx"),
+    }
+
+    def populated(asset, family):
+        if family == "value":
+            return asset.get("value") is not None
+        if family == "income_type":
+            return bool(asset.get("income_types") or asset.get("other_income"))
+        return asset.get("income_amt") is not None or bool(asset.get("tx"))
+
+    clusters = defaultdict(list)
+    for index, asset in enumerate(assets):
+        clusters[(_merge_key(asset.get("group")), _merge_key(asset.get("name")))].append(index)
+
+    consumed = set()
+    replacements = {}
+    for indices in clusters.values():
+        if len(indices) < 2:
+            continue
+        members = [assets[index] for index in indices]
+        # Identical labels repeated on the same sheet are separate reported positions,
+        # not split-sheet fragments.
+        if len({asset.get("page") for asset in members}) != len(members):
+            continue
+        if any(sum(populated(asset, family) for asset in members) > 1 for family in families):
+            continue
+
+        base_index = next((index for index in indices if populated(assets[index], "value")), indices[0])
+        merged = dict(assets[base_index])
+        source_pages = []
+        for index in indices:
+            asset = assets[index]
+            if asset.get("page") not in source_pages:
+                source_pages.append(asset.get("page"))
+            if not merged.get("owner") and asset.get("owner"):
+                merged["owner"] = asset["owner"]
+            for family, fields in families.items():
+                if not populated(asset, family):
+                    continue
+                for field in fields:
+                    merged[field] = asset.get(field)
+        merged["source_pages"] = source_pages
+        replacements[base_index] = merged
+        consumed.update(index for index in indices if index != base_index)
+
+    return [replacements.get(index, asset) for index, asset in enumerate(assets) if index not in consumed]
+
+
 def tx_year(t):
     m = re.search(r"/(\d{4})$", t.get("date") or "")
     return int(m.group(1)) if m else None
@@ -95,6 +165,7 @@ def build(year, docs, asset_doc, tx_rule, meta):
         pages, seq, probs = doc_pages(doc, label, seq)
         problems += probs
         a, t = fdlib.flatten(merge_block_runs(pages), doc=doc)
+        a = merge_named_asset_fragments(a, doc)
         if doc == asset_doc:
             all_assets += a
         all_txs += [x for x in t if tx_rule(doc, x)]

@@ -5,7 +5,7 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "group", "text": "Mike Ahuja 1995 Trust"},
+    {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
     {"kind": "asset", "owner": null, "asset_name": "3M COMPANY CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "A.O. SMITH CORP (DEL) CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": null, "asset_name": "ABBOTT LABORATORIES CMN", "value": null, "income_types": null, "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -97,8 +97,8 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "This sheet under trust header 'Mike Ahuja 1995 Trust' presents only the Amount-of-Income block (sub-header reads 'Amount of Income'; 12-bucket min/max header None..Over $5,000,000) plus a far-right 'Transaction Summary' (P/S/PS) matrix. Value (Block B) and Type-of-Income (Block C) appear on sibling sheets. Asset slice 3M COMPANY CMN through BAXTER INTERNATIONAL INC CMN (88 assets). amount_of_income and transaction X-columns are present in the scan but not reliably resolvable per-row at this degradation; nulled here for downstream name-based merge across the split sheets."},
-    {"row": 1, "field": "group_text", "read": "Mike Ahuja 1995 Trust", "note": "trust header italic and faint; spelling of given name uncertain (Mike/Mihir?)"},
+    {"row": 0, "field": "layout", "read": "FIELD-SPLIT trust sheet", "note": "This sheet under the scan-verified trust header 'Ritu Ahuja 1995 Trust' presents only the Amount-of-Income block (sub-header reads 'Amount of Income'; 12-bucket min/max header None..Over $5,000,000) plus a far-right 'Transaction Summary' (P/S/PS) matrix. Value (Block B) and Type-of-Income (Block C) appear on sibling sheets. Asset slice 3M COMPANY CMN through BAXTER INTERNATIONAL INC CMN (88 assets). amount_of_income and transaction X-columns are present in the scan but not reliably resolvable per-row at this degradation; nulled here for downstream name-based merge across the split sheets."},
+    {"row": 1, "field": "group_text", "read": "Ritu Ahuja 1995 Trust", "note": "The italic header is faint, but direct review of the high-resolution scan resolves it as 'Ritu Ahuja 1995 Trust'."},
     {"row": 40, "field": "asset_name", "read": "AMDOCS LIMITED CMN", "note": "reads 'AMDOCS PM/FM CMN'; suffix unclear"},
     {"row": 55, "field": "asset_name", "read": "ANCHORAGE ALASKA GO 5.00% 09/01/13 ...", "note": "muni bond; CUSIP/fund/rate digits partly illegible"},
     {"row": 65, "field": "asset_name", "read": "APOLLO-RIDGE SCH DIST PA GO 4% 05/01/28 ...", "note": "muni bond; issuer name and detail partly illegible"},
