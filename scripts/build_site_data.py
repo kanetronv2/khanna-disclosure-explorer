@@ -11,6 +11,8 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
+import evidence_assets
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site-data"
@@ -39,14 +41,6 @@ def write_hashed(directory, stem, value):
     path = directory / f"{stem}.{hash_bytes(payload)}.json"
     path.write_bytes(payload + b"\n")
     return str(path.relative_to(ROOT))
-
-
-def file_hash(path):
-    digest = hashlib.sha256()
-    with path.open("rb") as fh:
-        for chunk in iter(lambda: fh.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()[:12]
 
 
 def sum_range(rows, low, high):
@@ -119,8 +113,10 @@ def annual_progress(pages):
 def document_url(doc, primary_url=None, is_primary=False):
     if is_primary and str(primary_url or "").startswith(("http://", "https://")):
         return primary_url
+    if is_primary and primary_url:
+        return evidence_assets.public_url(primary_url)
     path = "disclosures.pdf" if doc == "2024-1" else f"docs/src/{doc}.pdf"
-    return f"{ORIGIN}/{path}"
+    return evidence_assets.public_url(path)
 
 
 def source_documents(pages, primary_url, annual):
@@ -177,9 +173,10 @@ def build_year(year):
         doc = page.get("doc") or f"{year}-1"
         page_match = re.search(r"page-(\d+)\.jpg$", page.get("image") or "")
         document_page = int(page_match.group(1)) if page_match else int(page["pdf_page"])
-        image_path = ROOT / page["image"]
-        if image_path.is_file():
-            detail["image"] = f"{page['image']}?v={file_hash(image_path)}"
+        token = evidence_assets.version_token(page["image"])
+        detail["image"] = page["image"]
+        if token:
+            detail["image"] += f"?v={token}"
         payload = encoded(detail)
         detail_path = page_dir / f"{int(page['pdf_page']):04d}.{hash_bytes(payload)}.json"
         detail_path.write_bytes(payload + b"\n")
@@ -207,9 +204,19 @@ def build_year(year):
     groups = grouped(assets, "group", "vlo", "vhi", "(not under a listed trust)")
     transaction_types = grouped(transactions, "tx_type", "lo", "hi", "?")
     confidence = Counter(page.get("page_confidence") or "unknown" for page in pages)
+    public_source_pdf = evidence_assets.public_url(primary_url) if primary_url else None
+    public_meta = dict(data.get("meta") or {})
+    meta_source_pdf = public_meta.get("source_pdf")
+    if meta_source_pdf:
+        public_meta["source_pdf"] = evidence_assets.public_url(meta_source_pdf)
+        if public_meta.get("why_html"):
+            public_meta["why_html"] = public_meta["why_html"].replace(
+                str(meta_source_pdf), public_meta["source_pdf"]
+            )
     summary = {
-        "meta": data.get("meta") or {},
-        "source_pdf": data.get("source_pdf"),
+        "meta": public_meta,
+        "evidence_origin": evidence_assets.evidence_origin(),
+        "source_pdf": public_source_pdf,
         "filer": data.get("filer"),
         "filing": data.get("filing"),
         "counts": {"assets": len(assets), "transactions": len(transactions), "pages": len(pages),

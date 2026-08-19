@@ -346,3 +346,21 @@ PTR transaction rows against the filed form. The residuals are source-authentic:
 `2025-1/page-032` rows omit amount; and `2025-12/page-003` American Express omits owner. These
 remain explicit limitations rather than inferred values. The same census repaired the legible
 Stryker date on `2023-6/page-028` and Tiger Global date/amount on `2023-9/page-014`.
+
+## 2026 Clerk filings 9116206 and 9116267 (Aug 2026)
+
+The two remaining public 2026 PTRs were downloaded from the House Clerk and ingested as
+`docs/2026-6` and `docs/2026-7`:
+
+- Clerk filing `9116206`: 32 pages, 467 transaction rows. The source PDF SHA-256 is
+  `e52065ddff1df9c62032993d8352c66d9ad3971b7bd27518c5fe5bbf3a8048e4`.
+- Clerk filing `9116267`: 18 pages, 274 transaction rows. The source PDF SHA-256 is
+  `05081479c7a1e25becfb7035cbc0107c3d56aedcd82eeff50d4a8f26b9e026a5`.
+
+Every filed page was rendered and reconciled row-by-row against the transaction grid. Checkbox
+geometry controls transaction type, partial-sale, capital-gain, and amount fields. Security
+labels and dates were read from isolated scan rows, with direct visual overrides applied to
+the generated text where grid noise made OCR ambiguous. A third-party structured transcription
+was used only where its rows aligned one-for-one with the filing scans; it omitted or deduplicated
+large sections of `9116206`, so the Clerk scans—not that transcription—control completeness.
+The page-031/page-032 MURA Holdings sub-tables were transcribed directly from the images.

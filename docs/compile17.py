@@ -290,4 +290,4 @@ build("2025", DOCS2025, "2025-14",
                     "are viewable in the Document tab (their trades duplicate Schedule B).")})
 
 # ---- PTR-only years (no annual filed for the calendar year yet)
-ptr_year_build("2026", 5, None)
+ptr_year_build("2026", 7, None)

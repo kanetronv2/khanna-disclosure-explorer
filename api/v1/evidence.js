@@ -1,5 +1,6 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
 const {enrichWithIssuer} = require('../../lib/issuer.js');
+const {evidenceUrl} = require('../../lib/evidence.js');
 
 function origin(req) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
@@ -41,7 +42,7 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({
       ...enrichWithIssuer(row, base),
       url: `${base}/api/v1/evidence?id=${encodeURIComponent(row.id)}`,
-      source_document_url: `${base}/${documentPath}`,
+      source_document_url: evidenceUrl(documentPath, base),
       source_page_url: `${base}/${year}/#p${row.page}`,
       citation_note: 'Verify consequential claims against source_document_url and source_page_url. Reported amounts are statutory ranges, not exact values.',
     });

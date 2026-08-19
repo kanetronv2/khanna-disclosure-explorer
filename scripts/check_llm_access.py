@@ -57,7 +57,7 @@ def schema_nodes(value):
 def audit_dataset_json_ld():
     dataset_count = 0
     for path in sorted(ROOT.rglob("*.html")):
-        if any(part in {".git", "node_modules"} for part in path.parts):
+        if any(part in {".git", "build", "node_modules"} for part in path.parts):
             continue
         parser = JsonLdParser()
         parser.feed(path.read_text(encoding="utf-8"))
@@ -120,6 +120,12 @@ def main():
             re.compile(pattern)
     require("require('./issuer-registry.json')" in (ROOT / "lib/issuer.js").read_text(encoding="utf-8"),
             "runtime issuer registry must remain beside its helper because /data is excluded from Vercel")
+    evidence_config = json.loads((ROOT / "lib/evidence-config.json").read_text(encoding="utf-8"))
+    require(str(evidence_config.get("evidence_origin") or "").startswith("https://"),
+            "runtime evidence origin must be HTTPS")
+    for script in (ROOT / "api/v1/search.js", ROOT / "api/v1/evidence.js"):
+        require("../../lib/evidence.js" in script.read_text(encoding="utf-8"),
+                f"{script.name}: source documents must use the configurable evidence origin")
 
     for year in YEARS:
         facts = json.loads((ROOT / year / "facts.json").read_text(encoding="utf-8"))
@@ -149,6 +155,14 @@ def main():
                 f"{year}: HTML Markdown alternate missing")
         require(f'href="https://www.rokhanna.money/{year}/facts.json"' in html,
                 f"{year}: HTML JSON alternate missing")
+
+        page_details = sorted((ROOT / "site-data" / year / "pages").glob("*.json"))
+        require(page_details, f"{year}: page-detail data missing")
+        sample = json.loads(page_details[0].read_text(encoding="utf-8"))
+        require(str(summary.get("evidence_origin") or "").startswith("https://"),
+                f"{year}: evidence origin must be absolute")
+        require(str(sample.get("image") or "").startswith(("docs/", "ocr/pages/")),
+                f"{year}: page evidence path drift")
 
     config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
     rewrites = {item["source"]: item["destination"] for item in config.get("rewrites") or []}

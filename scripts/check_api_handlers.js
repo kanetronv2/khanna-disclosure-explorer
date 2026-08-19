@@ -47,12 +47,15 @@ function response() {
 
 async function main() {
   process.env.VERCEL_URL = 'protected-preview.example.test';
+  process.env.EVIDENCE_ORIGIN = 'https://evidence.example.test';
   let res = response();
   await search({method: 'GET', headers: {host: 'localhost:3000'},
     query: {year: '2025', kind: 'transactions', q: 'apple'}}, res);
   if (res.code !== 200 || res.body.total !== 1 ||
       res.body.results[0].id !== 'transaction:2025:000001' ||
-      !res.body.results[0].source_document_url) throw new Error('search handler failed');
+      res.body.results[0].source_document_url !== 'https://evidence.example.test/docs/src/2025-14.pdf') {
+    throw new Error('search handler failed');
+  }
   if (fetched[0] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {
     throw new Error(`search handler used the wrong request origin: ${fetched[0]}`);
   }
@@ -61,7 +64,10 @@ async function main() {
   await evidence({method: 'GET', headers: {host: 'localhost:3000'},
     query: {id: 'transaction:2025:000002'}}, res);
   if (res.code !== 200 || res.body.id !== 'transaction:2025:000002' ||
-      !res.body.source_page_url) throw new Error('evidence handler failed');
+      !res.body.source_page_url ||
+      res.body.source_document_url !== 'https://evidence.example.test/docs/src/2025-14.pdf') {
+    throw new Error('evidence handler failed');
+  }
   if (fetched[1] !== 'http://localhost:3000/api/v1/years/2025/transactions.json') {
     throw new Error(`evidence handler used the wrong request origin: ${fetched[1]}`);
   }

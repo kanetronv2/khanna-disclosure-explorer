@@ -3,5 +3,6 @@ ocr/hires/
 ocr/quads/
 
 .DS_Store
+/build/
 docs/*/hires/
 docs/*/quads/

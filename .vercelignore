@@ -1,5 +1,6 @@
 # Deploy only what the site serves: site/ and ocr/pages/ (Document-tab scans).
 /disclosures.pdf
+/evidence-manifest.json
 /README.md
 /DATA_LICENSE.md
 /LICENSE

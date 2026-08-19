@@ -1,6 +1,7 @@
 const YEARS = new Set(Array.from({length: 11}, (_, i) => String(2016 + i)));
 const KINDS = new Set(['assets', 'transactions']);
 const {enrichWithIssuer} = require('../../lib/issuer.js');
+const {evidenceUrl} = require('../../lib/evidence.js');
 
 function origin(req) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
@@ -23,7 +24,7 @@ function withEvidence(row, base) {
   return {
     ...enrichWithIssuer(row, base),
     url: `${base}/api/v1/evidence?id=${encodeURIComponent(row.id)}`,
-    source_document_url: `${base}/${documentPath}`,
+    source_document_url: evidenceUrl(documentPath, base),
     source_page_url: `${base}/${String(row.id || '').split(':')[1]}/#p${row.page}`,
   };
 }

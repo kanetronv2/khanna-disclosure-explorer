@@ -622,13 +622,14 @@ const FD_YEAR = (()=>{const m=location.pathname.match(/(?:^|\/)(\d{4})(?:\/|$)/)
 const FD_URL = year => year===FD_ROOT_YEAR ? '/' : `/${year}/`;
 // Data chunks are recorded as repo-relative paths; resolve them from the site root
 // so they load identically from / and from /YYYY/.
-const abs = path => !path || /^[a-z]+:/i.test(path) || path.startsWith('/') ? path : '/'+path;
+const sitePath = path => !path || /^[a-z]+:/i.test(path) || path.startsWith('/') ? path : '/'+path;
 </script>
 <script src="/timeline-data.js"></script>
 <script>
 (() => {
 const D = window.FD_SUMMARIES?.[FD_YEAR] || {meta:{},counts:{assets:0,transactions:0,pages:0},top_holdings:[],owners:[],classes:[],groups:[],transaction_types:[]};
 const META = D.meta || {};
+const evidencePath = path => !path || /^[a-z]+:/i.test(path) ? path : `${String(D.evidence_origin||location.origin).replace(/\/$/,'')}/${String(path).replace(/^\//,'')}`;
 if (META.kicker) document.querySelector('.kicker').textContent = META.kicker;
 const srcEl = document.getElementById('srclink'); if (srcEl && !srcEl.getAttribute('href').length) srcEl.href = D.source_pdf;
 if (document.getElementById('srclink')) document.getElementById('srclink').href = D.source_pdf;
@@ -669,7 +670,7 @@ document.querySelector('nav.tabs').addEventListener('keydown',e=>{
 
 // ================= OVERVIEW =================
 let A = [], T = [];
-const loadJSON = path => fetch(abs(path)).then(response=>{
+const loadJSON = path => fetch(sitePath(path)).then(response=>{
   if(!response.ok) throw new Error(`Could not load ${path}: ${response.status}`);
   return response.json();
 });
@@ -1124,7 +1125,7 @@ async function showPage(n){
   const entry=byPage.get(n);
   let p=pageDetails.get(n);
   if(!p){p=await loadJSON(entry.detail);pageDetails.set(n,p);}
-  document.getElementById('pageimg').src=abs(p.image);
+  document.getElementById('pageimg').src=evidencePath(p.image);
   document.getElementById('pageimg').alt=`Scan of PDF page ${p.pdf_page}${p.printed_label?`, ${p.printed_label}`:''}`;
   document.getElementById('pageno').textContent=`Page ${p.pdf_page}/${pages.length}`;
   document.getElementById('pagemeta').textContent=[p.printed_label,p.section].filter(Boolean).join(' — ');

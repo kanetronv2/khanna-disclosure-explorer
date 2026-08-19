@@ -13,10 +13,10 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Filing type | periodic_transaction_reports |
 | Reported household holdings | None |
 | Open-ended holdings | 0 |
-| Reported transactions | 3,114 |
-| Active trading days | 91 |
-| Average trades per active day | 34.2 |
-| Combined transaction range | $12.5M – $67.9M |
+| Reported transactions | 3,855 |
+| Active trading days | 134 |
+| Average trades per active day | 28.8 |
+| Combined transaction range | $17.2M – $96.5M |
 | Source-linked asset entries | 0 |
 
 ## Important caveats
@@ -34,6 +34,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 - [Periodic Transaction Report #3 (2026)](https://www.rokhanna.money/docs/src/2026-3.pdf) — 43 pages; document `2026-3`.
 - [Periodic Transaction Report #4 (2026)](https://www.rokhanna.money/docs/src/2026-4.pdf) — 30 pages; document `2026-4`.
 - [Periodic Transaction Report #5 (2026)](https://www.rokhanna.money/docs/src/2026-5.pdf) — 41 pages; document `2026-5`.
+- [Periodic Transaction Report #6 (2026)](https://www.rokhanna.money/docs/src/2026-6.pdf) — 32 pages; document `2026-6`.
+- [Periodic Transaction Report #7 (2026)](https://www.rokhanna.money/docs/src/2026-7.pdf) — 18 pages; document `2026-7`.
 
 ## Largest disclosed holdings
 
@@ -43,8 +45,8 @@ No annual holdings statement is loaded for this year.
 
 | Type | Transactions | Combined range |
 | --- | ---: | ---: |
-| Purchase | 1,534 | $7.55M – $36.4M |
-| Sale | 1,505 | $4.74M – $30.2M |
+| Purchase | 1,963 | $8.6M – $44.2M |
+| Sale | 1,817 | $8.46M – $50.9M |
 | Exchange | 75 | $173K – $1.37M |
 
 ## Data access

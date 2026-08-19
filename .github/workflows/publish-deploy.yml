@@ -1,0 +1,74 @@
+name: Publish slim Vercel branch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: slim-vercel-deploy
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ vars.EVIDENCE_ORIGIN != '' }}
+    runs-on: ubuntu-latest
+    env:
+      EVIDENCE_ORIGIN: ${{ vars.EVIDENCE_ORIGIN }}
+    steps:
+      - name: Sparse partial checkout
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git init
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone \
+            '/.github/' \
+            '/api/' \
+            '/assets/' \
+            '/data-*.js' \
+            '/data/manifest.json' \
+            '/evidence-manifest.json' \
+            '/lib/' \
+            '/scripts/' \
+            '/templates/' \
+            '/viewer/' \
+            '/264f47e7ac6f754571619ef2cfe0c4af.txt' \
+            '/404.html' \
+            '/DATA_LICENSE.md' \
+            '/LICENSE' \
+            '/vercel.json'
+          git -c protocol.version=2 fetch --depth=1 --filter=blob:none origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+
+      - name: Regenerate deployable artifacts
+        run: |
+          python3 scripts/build_site_data.py
+          python3 scripts/build_pages.py
+          python3 scripts/build_llm_access.py
+          python3 scripts/check_llm_access.py
+
+      - name: Build and validate slim tree
+        run: |
+          python3 scripts/build_deploy_tree.py \
+            --output build/deploy \
+            --source-commit "$GITHUB_SHA" \
+            --evidence-origin "$EVIDENCE_ORIGIN"
+          python3 scripts/check_deploy_tree.py build/deploy
+
+      - name: Publish orphan deploy branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd build/deploy
+          git init --initial-branch=deploy
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add --all
+          git commit -m "Deploy ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:deploy

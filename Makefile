@@ -1,4 +1,6 @@
-.PHONY: open-data audit pages llm-access llm-check indexnow
+.PHONY: open-data audit pages llm-access llm-check evidence-manifest evidence-check deploy-tree indexnow
+
+DEPLOY_DIR ?= build/deploy
 
 open-data:
 	python3 ocr/compile.py
@@ -29,6 +31,16 @@ llm-access:
 
 llm-check:
 	python3 scripts/check_llm_access.py
+
+evidence-manifest:
+	python3 scripts/build_evidence_manifest.py
+
+evidence-check:
+	python3 scripts/build_evidence_manifest.py --check
+
+deploy-tree:
+	python3 scripts/build_deploy_tree.py --output "$(DEPLOY_DIR)"
+	python3 scripts/check_deploy_tree.py "$(DEPLOY_DIR)"
 
 indexnow:
 	python3 scripts/submit_indexnow.py

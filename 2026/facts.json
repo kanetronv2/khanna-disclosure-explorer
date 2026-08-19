@@ -22,9 +22,9 @@
   },
   "coverage": {
     "annual_filing_pages": null,
-    "latest_readable_transaction_date": "2026-05-28",
-    "loaded_pages": 211,
-    "unresolved_transcription_flags": 203
+    "latest_readable_transaction_date": "2026-07-31",
+    "loaded_pages": 261,
+    "unresolved_transcription_flags": 251
   },
   "dataset_version": "2026-08-19",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
@@ -45,16 +45,16 @@
       "open_ended_entries": 0
     },
     "reported_transactions": {
-      "active_trading_days": 91,
-      "average_per_active_trading_day": 34.2,
+      "active_trading_days": 134,
+      "average_per_active_trading_day": 28.8,
       "combined_value_range": {
-        "calculated_upper_floor_usd": 67940000,
-        "display": "$12.5M – $67.9M",
-        "minimum_usd": 12464114,
+        "calculated_upper_floor_usd": 96450000,
+        "display": "$17.2M – $96.5M",
+        "minimum_usd": 17233855,
         "open_ended_entries": 0
       },
-      "count": 3114,
-      "dated_count": 3114
+      "count": 3855,
+      "dated_count": 3855
     },
     "reported_unearned_income": {
       "calculated_upper_floor_usd": 0,
@@ -63,7 +63,7 @@
       "open_ended_entries": 0
     },
     "source_linked_asset_entries": 0,
-    "source_pages": 211
+    "source_pages": 261
   },
   "schema_version": "1.0.0",
   "sources": [
@@ -96,6 +96,18 @@
       "label": "Periodic Transaction Report #5 (2026)",
       "pages": 41,
       "url": "https://www.rokhanna.money/docs/src/2026-5.pdf"
+    },
+    {
+      "document_id": "2026-6",
+      "label": "Periodic Transaction Report #6 (2026)",
+      "pages": 32,
+      "url": "https://www.rokhanna.money/docs/src/2026-6.pdf"
+    },
+    {
+      "document_id": "2026-7",
+      "label": "Periodic Transaction Report #7 (2026)",
+      "pages": 18,
+      "url": "https://www.rokhanna.money/docs/src/2026-7.pdf"
     }
   ],
   "subject": {

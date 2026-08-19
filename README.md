@@ -1,7 +1,7 @@
 # Ro Khanna Financial Disclosure Open Data
 
 An open, reproducible data dump and static explorer of Rep. Ro Khanna's U.S. House financial
-disclosure filings from 2016–2026. The repository includes the source PDFs, 4,057 page images,
+disclosure filings from 2016–2026. The repository includes the source PDFs, 4,460 page images,
 page-level structured transcriptions, raw Tesseract text, normalized analysis tables, quality
 reports, and the code used to compile them.
 
@@ -70,6 +70,53 @@ readable without JavaScript and every year has its own indexable URL.
 `make pages` also generates `llms.txt`, `llms-full.txt`, annual `index.md` and `facts.json`
 documents, the OpenAPI files, and stable Vercel rewrites for the read-only API. After a verified
 production deployment, `make indexnow` submits the canonical sitemap URLs to IndexNow.
+
+## Slim production deployment
+
+The source repository intentionally retains filing PDFs, page scans, OCR material, and generated
+open data. Vercel applies `.vercelignore` only after cloning, so those multi-gigabyte source objects
+must not be reachable from the branch Vercel clones.
+
+Production uses two release surfaces:
+
+- `main` remains the auditable source and generated-data history.
+- An orphan `deploy` branch contains only the website, read-only API handlers, compact `site-data`,
+  and discovery documents. Filing PDFs and page scans are served from the HTTPS origin configured
+  as `EVIDENCE_ORIGIN`.
+
+Build or validate the immutable evidence manifest with:
+
+```sh
+make evidence-manifest
+make evidence-check
+```
+
+`scripts/publish_evidence.py` uploads exactly the files named in that manifest through an
+already-configured `rclone` remote. It deliberately uses `copy`, not `sync`, so publishing cannot
+delete remote evidence accidentally. Verify the remote after uploading:
+
+```sh
+python3 scripts/publish_evidence.py r2:rokhanna-evidence
+python3 scripts/publish_evidence.py r2:rokhanna-evidence --check-only
+```
+
+To exercise the slim tree in a disposable checkout:
+
+```sh
+EVIDENCE_ORIGIN=https://evidence.example.org python3 scripts/build_site_data.py
+EVIDENCE_ORIGIN=https://evidence.example.org python3 scripts/build_pages.py
+EVIDENCE_ORIGIN=https://evidence.example.org python3 scripts/build_llm_access.py
+EVIDENCE_ORIGIN=https://evidence.example.org make deploy-tree
+```
+
+The deploy-tree validator rejects local scan/PDF directories, relative evidence URLs, trees over
+200 MiB, and runtime configuration that disagrees with the generated evidence origin. The GitHub
+workflow `.github/workflows/publish-deploy.yml` performs a blob-filtered sparse checkout and
+force-publishes a one-commit `deploy` branch only after the repository variable
+`EVIDENCE_ORIGIN` is configured. Point Vercel's Production Branch at `deploy` only after the
+evidence origin and a preview deployment have both passed live verification. The generated
+deploy-branch `vercel.json` disables automatic deployments from `main`, preventing future source
+pushes from cloning the multi-gigabyte branch for unused previews.
 
 ## Repository map
 

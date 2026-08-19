@@ -1,3 +1,4 @@
 # Raw OCR output is preserved byte-for-byte, including Tesseract's trailing blank lines.
 docs/*/tess/*.txt -whitespace
 ocr/tess/*.txt -whitespace
+*.pdf binary

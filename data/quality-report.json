@@ -2,7 +2,7 @@
   "checks": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2578,
+      "high": 2628,
       "low": 182,
       "medium": 1641,
       "medium-high": 1,
@@ -11,31 +11,31 @@
     "missing_or_invalid_records": 0,
     "normalized_records": {
       "assets": 26389,
-      "documents": 128,
-      "page_rows": 117280,
-      "pages": 4410,
-      "transactions": 49009,
-      "uncertainties": 9731
+      "documents": 130,
+      "page_rows": 118075,
+      "pages": 4460,
+      "transactions": 49750,
+      "uncertainties": 9779
     },
     "owner_code_distribution": {
-      "DC": 36051,
+      "DC": 36387,
       "JT": 14,
-      "SP": 76978,
-      "not_stated": 4237
+      "SP": 77383,
+      "not_stated": 4291
     },
-    "page_images": 4410,
+    "page_images": 4460,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 2992,
-      "tx": 82867
+      "group": 3046,
+      "tx": 83608
     },
-    "page_source_json": 4410,
+    "page_source_json": 4460,
     "page_type_distribution": {
       "cover": 16,
       "letter": 10,
       "other": 30,
-      "ptr_cover": 104,
-      "ptr_transactions": 1469,
+      "ptr_cover": 106,
+      "ptr_transactions": 1517,
       "schedule_a": 1246,
       "schedule_b": 1522,
       "schedule_c": 3,
@@ -43,11 +43,11 @@
       "schedule_h": 3
     },
     "pending_pages": 0,
-    "source_pdfs": 128,
-    "tesseract_text_files": 4410,
+    "source_pdfs": 130,
+    "tesseract_text_files": 4460,
     "text_quality_findings": 0,
     "text_quality_rule_distribution": {},
-    "valid_page_source_json": 4410,
+    "valid_page_source_json": 4460,
     "years": [
       "2016",
       "2017",
@@ -75,7 +75,7 @@
       "check": "new_form_transaction_checkbox_schema",
       "incomplete_rows": 0,
       "severity": "info",
-      "transaction_rows": 25479
+      "transaction_rows": 26220
     },
     {
       "check": "page_type_normalization",
@@ -83,8 +83,8 @@
         "cover": 16,
         "letter": 10,
         "other": 30,
-        "ptr_cover": 104,
-        "ptr_transactions": 1469,
+        "ptr_cover": 106,
+        "ptr_transactions": 1517,
         "schedule_a": 1246,
         "schedule_b": 1522,
         "schedule_c": 3,
@@ -95,8 +95,8 @@
         "cover": 16,
         "letter": 10,
         "other": 30,
-        "ptr": 1469,
-        "ptr_cover": 104,
+        "ptr": 1517,
+        "ptr_cover": 106,
         "schedule_a": 1246,
         "schedule_b": 1522,
         "schedule_c": 3,
