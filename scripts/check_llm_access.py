@@ -7,6 +7,7 @@ import json
 import re
 import subprocess
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from pathlib import Path
 
 import build_pages as pages
@@ -19,6 +20,65 @@ YEARS = [str(year) for year in range(2016, 2027)]
 def require(condition, message):
     if not condition:
         raise AssertionError(message)
+
+
+class JsonLdParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self._active = False
+        self._buffer = []
+        self.blocks = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "script" and dict(attrs).get("type") == "application/ld+json":
+            self._active = True
+            self._buffer = []
+
+    def handle_data(self, data):
+        if self._active:
+            self._buffer.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "script" and self._active:
+            self.blocks.append("".join(self._buffer))
+            self._active = False
+
+
+def schema_nodes(value):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from schema_nodes(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from schema_nodes(child)
+
+
+def audit_dataset_json_ld():
+    dataset_count = 0
+    for path in sorted(ROOT.rglob("*.html")):
+        if any(part in {".git", "node_modules"} for part in path.parts):
+            continue
+        parser = JsonLdParser()
+        parser.feed(path.read_text(encoding="utf-8"))
+        for index, block in enumerate(parser.blocks, 1):
+            try:
+                structured = json.loads(block)
+            except json.JSONDecodeError as error:
+                raise AssertionError(f"{path.relative_to(ROOT)} JSON-LD block {index}: {error}") from error
+            for node in schema_nodes(structured):
+                node_type = node.get("@type")
+                types = [node_type] if isinstance(node_type, str) else node_type or []
+                if "Dataset" not in types:
+                    continue
+                dataset_count += 1
+                label = f"{path.relative_to(ROOT)} Dataset {node.get('name')!r}"
+                for field in ("name", "description", "creator", "license"):
+                    require(node.get(field), f"{label}: missing {field}")
+                require(50 <= len(node["description"]) <= 5000,
+                        f"{label}: description must be 50–5000 characters")
+    require(dataset_count > 0, "no Dataset JSON-LD found")
+    return dataset_count
 
 
 def main():
@@ -112,6 +172,7 @@ def main():
             "NVIDIA comparison must be answer-ready without overstating the evidence")
     require((ROOT / "companies/nvidia/index.html").is_file() and
             (ROOT / "companies/nvidia/index.md").is_file(), "indexable NVIDIA pages missing")
+    dataset_count = audit_dataset_json_ld()
 
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     for agent in ("OAI-SearchBot", "ChatGPT-User", "GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended"):
@@ -140,7 +201,7 @@ def main():
 
     # Guard against accidental unescaped control text in generated JSON and Markdown URLs.
     require(not re.search(r"https://www\.rokhanna\.money//", llms + full), "double-slash URL in LLM documents")
-    print("llm access audit: PASS (11 years, discovery, Markdown, facts, issuer comparison, evidence, API, robots, sitemap, IndexNow)")
+    print(f"llm access audit: PASS (11 years, {dataset_count} Dataset schemas, discovery, Markdown, facts, issuer comparison, evidence, API, robots, sitemap, IndexNow)")
 
 
 if __name__ == "__main__":

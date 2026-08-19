@@ -404,6 +404,11 @@ def issuer_markdown(payload: dict) -> str:
 
 def issuer_html(payload: dict) -> str:
     entity = payload["entity"]
+    description = (
+        f"Source-linked annual disclosure ranges for {entity['name']} holdings reported in "
+        "Ro Khanna household financial disclosures, with reviewed issuer aliases and links "
+        "to the underlying filing evidence."
+    )
     rows = []
     for year in payload["years"]:
         evidence = " ".join(
@@ -418,14 +423,22 @@ def issuer_html(payload: dict) -> str:
         "@context": "https://schema.org",
         "@type": "Dataset",
         "name": f"Ro Khanna reported {entity['name']} holdings",
+        "description": description,
         "url": entity["url"],
+        "creator": pages.PUBLISHER,
+        "publisher": pages.PUBLISHER,
+        "about": pages.KHANNA,
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "isAccessibleForFree": True,
+        "identifier": f"kde:issuer:{entity['slug']}",
+        "version": payload["dataset_version"],
         "dateModified": payload["dataset_version"],
         "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": entity["data_url"]}],
     }, ensure_ascii=False).replace("</", "<\\/")
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ro Khanna reported {html.escape(entity['name'])} holdings</title>
-<meta name="description" content="Source-linked annual reported ranges for {html.escape(entity['name'])} holdings in Ro Khanna household financial disclosures.">
+<meta name="description" content="{html.escape(description, quote=True)}">
 <link rel="canonical" href="{entity['url']}"><link rel="alternate" type="text/markdown" href="{entity['markdown_url']}">
 <link rel="alternate" type="application/json" href="{entity['data_url']}"><link rel="describedby" type="application/json" href="{API_ROOT}/openapi.json">
 <script type="application/ld+json">{structured}</script>
