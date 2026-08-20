@@ -1,0 +1,21 @@
+[
+  {
+    "id": "issuer:nvidia",
+    "slug": "nvidia",
+    "name": "NVIDIA Corporation",
+    "ticker": "NVDA",
+    "aliases": [
+      "NVIDIA",
+      "NVIDIA CORP",
+      "NVIDIA CORPORATION",
+      "NVDA"
+    ],
+    "featured_comparison": [
+      2024,
+      2025
+    ],
+    "security_name_patterns": [
+      "^NVIDIA(?: CORPORATION| CORP)?(?: CMN| COM| COMMON STOCK)?$"
+    ]
+  }
+]

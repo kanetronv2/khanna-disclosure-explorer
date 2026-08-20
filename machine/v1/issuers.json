@@ -1,0 +1,29 @@
+{
+  "comparison_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}/comparisons/{from_year}-{to_year}.json",
+  "dataset_version": "2026-08-20",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "generated_at": "2026-08-20T00:00:00Z",
+  "issuer_text_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.txt",
+  "issuer_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.json",
+  "issuers": [
+    {
+      "aliases": [
+        "NVIDIA",
+        "NVIDIA CORP",
+        "NVIDIA CORPORATION",
+        "NVDA"
+      ],
+      "comparison_url_template": "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/{from_year}-{to_year}.json",
+      "data_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json",
+      "featured_comparison_url": "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json",
+      "id": "issuer:nvidia",
+      "name": "NVIDIA Corporation",
+      "slug": "nvidia",
+      "text_url": "https://www.rokhanna.money/api/v1/issuers/nvidia.txt",
+      "ticker": "NVDA",
+      "url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json"
+    }
+  ],
+  "schema_version": "1.1.0",
+  "scope": "Reviewed issuer identities used to join raw filed security-name variants without altering the transcription."
+}

@@ -1,0 +1,171 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2016/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2016:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2016/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2016&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2016/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2016/transactions.json"
+  },
+  "caveats": [
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "comparability": {
+    "cross_year_holdings": {
+      "reason": "No filing-specific value-basis warning is recorded for this year; statutory ranges still do not disclose exact values.",
+      "status": "no_year_specific_basis_warning"
+    }
+  },
+  "coverage": {
+    "annual_filing_pages": 116,
+    "latest_readable_transaction_date": null,
+    "loaded_pages": 198,
+    "unresolved_transcription_flags": 143
+  },
+  "dataset_version": "2026-08-20",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "annual_financial_disclosure",
+  "id": "kde:financial-disclosure:2016",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": {
+      "asset_id": "asset:2016:000007",
+      "asset_name": "Condo, NY, NY",
+      "display": "$1M+",
+      "evidence_url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000007",
+      "maximum_usd": null,
+      "minimum_usd": 1000001,
+      "open_ended": true
+    },
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 80326004,
+      "display": "$28.1M – $80.3M+",
+      "minimum_usd": 28088544,
+      "open_ended_entries": 4
+    },
+    "reported_transactions": {
+      "active_trading_days": 0,
+      "average_per_active_trading_day": null,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 0,
+        "display": "None",
+        "minimum_usd": 0,
+        "open_ended_entries": 0
+      },
+      "count": 0,
+      "dated_count": 0
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 3939700,
+      "display": "$1.12M – $3.94M",
+      "minimum_usd": 1123728,
+      "open_ended_entries": 0
+    },
+    "source_linked_asset_entries": 894,
+    "source_pages": 198
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2016-1",
+      "label": "2016 Financial Disclosure (Form B, new member)",
+      "pages": 116,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2016-1.pdf"
+    },
+    {
+      "document_id": "2017-2",
+      "label": "Periodic Transaction Report #1 (filed 2017)",
+      "pages": 5,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-2.pdf"
+    },
+    {
+      "document_id": "2017-3",
+      "label": "Periodic Transaction Report #2 (filed 2017)",
+      "pages": 8,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-3.pdf"
+    },
+    {
+      "document_id": "2017-4",
+      "label": "Periodic Transaction Report #3 (filed 2017)",
+      "pages": 3,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-4.pdf"
+    },
+    {
+      "document_id": "2017-5",
+      "label": "Periodic Transaction Report #4 (filed 2017)",
+      "pages": 5,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-5.pdf"
+    },
+    {
+      "document_id": "2017-6",
+      "label": "Periodic Transaction Report #5 (filed 2017)",
+      "pages": 9,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-6.pdf"
+    },
+    {
+      "document_id": "2017-7",
+      "label": "Periodic Transaction Report #6 (filed 2017)",
+      "pages": 5,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-7.pdf"
+    },
+    {
+      "document_id": "2017-8",
+      "label": "Periodic Transaction Report #7 (filed 2017)",
+      "pages": 8,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-8.pdf"
+    },
+    {
+      "document_id": "2017-9",
+      "label": "Periodic Transaction Report #8 (filed 2017)",
+      "pages": 8,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-9.pdf"
+    },
+    {
+      "document_id": "2017-10",
+      "label": "Periodic Transaction Report #9 (filed 2017)",
+      "pages": 3,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-10.pdf"
+    },
+    {
+      "document_id": "2017-11",
+      "label": "Periodic Transaction Report #10 (filed 2017)",
+      "pages": 6,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-11.pdf"
+    },
+    {
+      "document_id": "2017-12",
+      "label": "Periodic Transaction Report #11 (filed 2017)",
+      "pages": 7,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-12.pdf"
+    },
+    {
+      "document_id": "2017-13",
+      "label": "Periodic Transaction Report #12 (filed 2017)",
+      "pages": 11,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-13.pdf"
+    },
+    {
+      "document_id": "2017-14",
+      "label": "Periodic Transaction Report #13 (filed 2017)",
+      "pages": 4,
+      "url": "https://cdn.jsdelivr.net/gh/kanetronv2/khanna-disclosure-explorer@main/docs/src/2017-14.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-20",
+  "url": "https://www.rokhanna.money/2016/",
+  "year": 2016
+}

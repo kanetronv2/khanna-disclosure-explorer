@@ -1,0 +1,27 @@
+# Search, answer, user-fetch, and training agents are welcome. Keeping this named group
+# makes the intended policy explicit while preserving the same crawl-budget protection as
+# the wildcard group below.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Allow: /
+Allow: /site-data/summaries.js
+Disallow: /site-data/
+
+User-agent: *
+Allow: /
+
+# The lazy per-year chunks are machine plumbing with nothing to index, and they are the
+# bulk of what a crawler would otherwise pull. summaries.js stays crawlable because every
+# page runs it on load, so blocking it would break how Google renders the overview.
+Allow: /site-data/summaries.js
+Disallow: /site-data/
+
+# Page scans and source PDFs stay crawlable on purpose: they are the evidence behind every
+# figure. The OCR side-channels (raw text, Tesseract dumps, crops) are not deployed at all,
+# so they need no rule here.
+
+Sitemap: https://www.rokhanna.money/sitemap.xml

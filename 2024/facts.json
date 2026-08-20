@@ -1,0 +1,93 @@
+{
+  "api": {
+    "assets": "https://www.rokhanna.money/api/v1/years/2024/assets.json",
+    "evidence_lookup": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2024:000001",
+    "pages": "https://www.rokhanna.money/api/v1/years/2024/pages.json",
+    "search": "https://www.rokhanna.money/api/v1/search?year=2024&kind=transactions&q=example",
+    "summary": "https://www.rokhanna.money/api/v1/years/2024/summary.json",
+    "transactions": "https://www.rokhanna.money/api/v1/years/2024/transactions.json"
+  },
+  "caveats": [
+    "Dollar figures are statutory disclosure ranges, not exact values.",
+    "Household scope can include the filer, spouse, and dependent children.",
+    "A null maximum with open_ended=true is a disclosed lower threshold, not missing data.",
+    "This is an independent transcription; consequential claims should be checked against the linked scans."
+  ],
+  "comparability": {
+    "cross_year_holdings": {
+      "reason": "No filing-specific value-basis warning is recorded for this year; statutory ranges still do not disclose exact values.",
+      "status": "no_year_specific_basis_warning"
+    }
+  },
+  "coverage": {
+    "annual_filing_pages": 333,
+    "latest_readable_transaction_date": "2024-12-31",
+    "loaded_pages": 333,
+    "unresolved_transcription_flags": 515
+  },
+  "dataset_version": "2026-08-20",
+  "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
+  "filing_type": "annual_financial_disclosure",
+  "id": "kde:financial-disclosure:2024",
+  "license": "CC0-1.0 for original dataset contributions; source records retain their own legal status.",
+  "method": {
+    "average_trades_per_day": "Dated reported transactions divided by distinct calendar dates containing at least one reported transaction.",
+    "range_aggregation": "Sum each reported statutory minimum and maximum. For open-ended entries, the displayed upper total remains a floor.",
+    "transcription": "Full-page and cropped image transcription cross-checked against OCR, with unresolved readings retained as uncertainties."
+  },
+  "metrics": {
+    "largest_disclosed_value_band": {
+      "asset_id": "asset:2024:000172",
+      "asset_name": "HEDGE FUND SELECT: ELT ASSOCIATES LLC COMMITMENT CLASS A SERIES 1",
+      "display": "$5M – $25M",
+      "evidence_url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2024:000172",
+      "maximum_usd": 25000000,
+      "minimum_usd": 5000001,
+      "open_ended": false
+    },
+    "reported_holdings": {
+      "calculated_upper_floor_usd": 314921010,
+      "display": "$98.7M – $314.9M+",
+      "minimum_usd": 98665968,
+      "open_ended_entries": 10
+    },
+    "reported_transactions": {
+      "active_trading_days": 234,
+      "average_per_active_trading_day": 19.9,
+      "combined_value_range": {
+        "calculated_upper_floor_usd": 137165000,
+        "display": "$36.4M – $137.2M",
+        "minimum_usd": 36355665,
+        "open_ended_entries": 0
+      },
+      "count": 4665,
+      "dated_count": 4665
+    },
+    "reported_unearned_income": {
+      "calculated_upper_floor_usd": 15951100,
+      "display": "$3.65M – $16M",
+      "minimum_usd": 3647683,
+      "open_ended_entries": 0
+    },
+    "source_linked_asset_entries": 3042,
+    "source_pages": 333
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "document_id": "2024-1",
+      "label": "2024 Annual Financial Disclosure (Form A)",
+      "pages": 333,
+      "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2024/9115596.pdf"
+    }
+  ],
+  "subject": {
+    "alternate_name": "Rohit Khanna",
+    "district": "California 17th congressional district",
+    "name": "Ro Khanna",
+    "office": "U.S. Representative"
+  },
+  "updated": "2026-08-20",
+  "url": "https://www.rokhanna.money/2024/",
+  "year": 2024
+}

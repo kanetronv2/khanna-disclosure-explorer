@@ -1,0 +1,15 @@
+{
+  "compare": "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json",
+  "comparison_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}/comparisons/{from_year}-{to_year}.json",
+  "dataset_version": "2026-08-20",
+  "documentation": "https://www.rokhanna.money/api/v1/openapi.json",
+  "evidence": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2025:000001",
+  "issuer_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.json",
+  "issuers": "https://www.rokhanna.money/api/v1/issuers.json",
+  "legacy_compare": "https://www.rokhanna.money/api/v1/compare?entity=NVDA&years=2024,2025",
+  "license": "CC0-1.0 for original dataset contributions; see the site license notice.",
+  "name": "Khanna Disclosure Explorer read-only API",
+  "search": "https://www.rokhanna.money/api/v1/search?year=2025&kind=transactions&q=apple",
+  "version": "1.0.0",
+  "years": "https://www.rokhanna.money/api/v1/years.json"
+}
