@@ -19,6 +19,144 @@ evidence records, and cross-year comparability warning together. A `.txt` repres
 available at the same resource path. The legacy `/api/v1/compare` query remains available for
 compatibility and unregistered-name searches.
 
+## Fork this for another House member
+
+You can fork this repository and ask a coding LLM to turn it into the same kind of explorer for
+another member of the U.S. House. This is a reproducible project, but it is not yet a one-command
+white-label template: the current filing corpus, member identity, domain, repository links,
+photograph, source registry, examples, and some validation assertions are specific to Ro Khanna.
+An LLM should migrate those surfaces deliberately and regenerate the derived files. A blind global
+name replacement is not sufficient and must never be run across filing transcriptions.
+
+### Information to give the LLM
+
+Collect these details before starting. It is fine to leave optional fields blank and ask the LLM
+to find them from official sources.
+
+| Field | Example format |
+| --- | --- |
+| Public display name | `Rep. Jane Smith` |
+| Name printed on filings | `Jane A. Smith` |
+| State and district | `New York 12th` / `NY-12` |
+| Congress.gov or Bioguide identifier | `S000000` |
+| Filing years to include | `2022–2026` |
+| Official House Clerk filing URLs or IDs | One annual filing and every PTR for each year |
+| New public domain | `https://disclosures.example.org` |
+| Fork URL | `https://github.com/owner/repository` |
+| Evidence-file origin | An HTTPS bucket/domain for PDFs and page scans |
+| Portrait and attribution | A licensed local image plus source/credit text |
+
+Use the official House Clerk disclosure site as the authority for annual reports and periodic
+transaction reports (PTRs). Preserve the filing ID and original PDF for every document. If an
+official field is blank, illegible, internally inconsistent, or printed with an unusual date,
+record that limitation rather than inventing a correction.
+
+Rebuilding the included corpus needs only Python 3. Ingesting a new corpus may also require a PDF
+rasterizer such as Poppler (`pdftoppm`) and an OCR engine such as Tesseract. OCR accelerates review;
+it does not replace visual verification of the filed page.
+
+### Copy-paste LLM request
+
+Replace the bracketed values, paste this request into a coding LLM opened at the root of your fork,
+and attach or identify the filing PDFs. The prompt is intentionally explicit so the agent performs
+the rebuild instead of merely proposing one.
+
+```text
+Rebuild this repository as a financial-disclosure explorer for a different U.S. House member.
+
+Target member
+- Display name: [DISPLAY NAME]
+- Filing/legal name: [NAME PRINTED ON FILINGS]
+- State and district: [STATE AND DISTRICT]
+- Bioguide or Congress.gov ID: [ID OR UNKNOWN]
+- Filing years: [YEARS]
+- Official filing URLs/IDs: [LIST, OR "find them on the official House Clerk site"]
+- Canonical site origin: [HTTPS DOMAIN]
+- GitHub repository: [FORK URL]
+- Evidence origin: [HTTPS EVIDENCE ORIGIN]
+- Portrait path, alt text, and credit: [IMAGE DETAILS]
+
+Do the migration; do not stop at a plan.
+
+1. Begin with read-only discovery. Read README.md, data/README.md, docs/VERIFY_NOTES.md,
+   Makefile, the templates, the build scripts, the API handlers, and the deployment workflow.
+   Check git status and preserve unrelated work. Inventory every member-specific string with rg,
+   including names, district labels, domains, repository URLs, official links, image names,
+   issuer examples, schema metadata, tests, and generated pages.
+
+2. Create one central member/site configuration file for identity, district, canonical origin,
+   repository, portrait metadata, and date coverage. Refactor generators and checks to read it.
+   Keep document-specific official URLs and filing IDs in lib/source-registry.json. Do not merely
+   scatter the new member's name through the same hard-coded locations.
+
+3. Replace the Khanna filing corpus with the target member's corpus. Keep each original PDF and a
+   stable document ID. Render every page, retain OCR as a secondary aid, and create page-level
+   structured JSON matching the existing schemas. Remove old-member data only after resolving the
+   exact replacement scope; never mix records belonging to two members.
+
+4. Verify scans before structured data. The scan is authoritative, the structured JSON follows
+   it, and OCR is only a third opinion. Check whole-row alignment, account/trust headings, owner
+   codes, dates, notification dates, transaction type, amount band, and checkbox fields. Do not
+   "fix" a suspicious date without confirming that the asset and every other field belong to the
+   same printed row. Preserve genuine filed-form anomalies and document uncertainty explicitly.
+
+5. Replace the public identity and editorial surfaces: titles, descriptions, schema.org Person and
+   Dataset objects, FAQ copy, navigation, portrait/credit, domain, repository links, methodology,
+   source provenance, API descriptions, llms.txt, facts files, OpenAPI, robots/sitemap rules, and
+   the not-found page. Remove Khanna-specific political/editorial links unless an equivalent,
+   sourced statement is appropriate for the target member.
+
+6. Review lib/issuer-registry.json rather than inheriting its examples blindly. Retain aliases only
+   when the target corpus supports them, and rebuild all issuer comparison/API output from the new
+   records. Never rewrite the raw filed asset name merely to match a registry entry.
+
+7. Regenerate outputs; do not hand-edit generated HTML, data-YYYY.js, site-data, normalized CSV or
+   JSONL, facts files, llms files, OpenAPI, sitemap, or vercel.json. Update the owning templates,
+   configuration, source JSON, and generators, then run the build.
+
+8. Validate the finished migration with at least:
+      make open-data
+      make audit
+      node scripts/check_api_handlers.js
+      python3 -m py_compile scripts/*.py docs/compile17.py
+      git diff --check
+   Serve it locally with python3 -m http.server 8742 and inspect the root page, every year,
+   Assets, Transactions, Document, /stock-trades/, API discovery, evidence links, desktop layout,
+   and mobile layout. Exercise dynamic API handlers, not just static files.
+
+9. Prove that the old member is gone from code and public/generated output. Review every remaining
+   match from a case-insensitive search for Ro Khanna, Rohit Khanna, rokhanna, CA-17,
+   California 17th, khanna.house.gov, and the original repository/domain. Do not delete legitimate
+   license or Git-history references without reason, but report every intentional remainder.
+
+10. Report the exact filing/document/page/row counts, unresolved scan limitations, commands run,
+    browser checks, and changed paths. Do not commit, push, publish evidence, or deploy unless I
+    explicitly ask for those actions.
+```
+
+### Migration map
+
+The LLM should discover the current tree rather than rely only on this list, but these are the main
+ownership boundaries:
+
+- `docs/src/`, `docs/<document>/`, and `ocr/` hold the original filings, scans, OCR, and page JSON.
+- `docs/compile17.py` and `ocr/compile.py` compile those source records into yearly datasets.
+- `lib/source-registry.json` maps local document IDs to official House filing URLs.
+- `lib/evidence-config.json` and the `EVIDENCE_ORIGIN` environment variable control scan/PDF URLs.
+- `templates/` owns the rendered site structure; `scripts/build_pages.py` supplies page metadata
+  and copy; `scripts/build_llm_access.py` owns machine-readable discovery documents.
+- `scripts/build_open_data.py`, `scripts/build_site_data.py`, and `scripts/evidence_assets.py` own
+  normalized data, compact site chunks, and source provenance.
+- `lib/issuer-registry.json` is reviewed normalization metadata, not a substitute for transcription.
+- `scripts/check_llm_access.py`, API-handler checks, and deploy-tree checks include domain- and
+  corpus-specific assertions that must be migrated with the site.
+- `data-YYYY.js`, `data/normalized/`, `site-data/`, `YYYY/index.html`, `machine/`, `llms*.txt`,
+  `sitemap.xml`, and `vercel.json` are generated outputs.
+
+The migration is complete only when every public record belongs to the target member, every record
+links to its source page, generated counts come from the new corpus, the audit passes, and no public
+surface silently retains the old member's identity or filings.
+
 ## Use the data
 
 Start with [`data/README.md`](data/README.md). The main tables are in `data/normalized/`, in
@@ -96,8 +234,8 @@ already-configured `rclone` remote. It deliberately uses `copy`, not `sync`, so 
 delete remote evidence accidentally. Verify the remote after uploading:
 
 ```sh
-python3 scripts/publish_evidence.py r2:rokhanna-evidence
-python3 scripts/publish_evidence.py r2:rokhanna-evidence --check-only
+python3 scripts/publish_evidence.py r2:member-disclosures
+python3 scripts/publish_evidence.py r2:member-disclosures --check-only
 ```
 
 To exercise the slim tree in a disposable checkout:
