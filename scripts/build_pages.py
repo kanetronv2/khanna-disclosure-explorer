@@ -701,26 +701,6 @@ def crosslinks(ctx, year):
         f'<div class="crosslink-years"><span>Every filing year:</span> {year_links}</div></nav>')
 
 
-def citation_panel(summary, year, ctx):
-    canonical = f"{ORIGIN}{ctx.url_for(year)}"
-    cite = (f"Khanna Disclosure Explorer. “Ro Khanna {year} Financial Disclosure.” "
-            f"Dataset version {ctx.modified}. {canonical}")
-    official = next(
-        (item.get("official_url") for item in summary.get("source_documents") or [] if item.get("official_url")),
-        None,
-    )
-    source = (f'<a href="{esc(official)}" target="_blank" rel="noopener">original House Clerk PDF</a>'
-              if official else
-              f'<a href="{SOURCE_INDEX}" target="_blank" rel="noopener">House Clerk disclosure index</a>')
-    return (
-        '<section class="panel citation-panel" aria-labelledby="citation-heading">'
-        '<h2 id="citation-heading">How to cite this data</h2>'
-        f'<p class="citation-copy"><code>{esc(cite)}</code></p>'
-        '<p class="note">For an individual holding or transaction, cite its stable evidence endpoint and the '
-        f'scanned filing page; use the {source} when available. Add your access date. Values are reported ranges, '
-        'and this is an independent transcription.</p></section>')
-
-
 def year_options(ctx, year):
     return "".join(f'<option{" selected" if y == year else ""}>{esc(y)}</option>' for y in ctx.years)
 
@@ -920,7 +900,6 @@ def render(template, ctx, year, at_root):
             through=None if at_root else ctx.through(year)),
         "<!--SEO_ANSWER-->": answer_panel(summary, year, ctx.summaries, ctx.url_for),
         "<!--SEO_METHOD-->": overview_methodology(ctx, summary, year),
-        "<!--SEO_CITATION-->": citation_panel(summary, year, ctx),
         "<!--SEO_CROSSLINKS-->": crosslinks(ctx, year),
         "<!--PR_STORYLEAD-->": story_lead(summary, year),
         "<!--PR_STATCARDS-->": stat_cards(summary, year),
@@ -1128,15 +1107,6 @@ def render_hub(template, ctx):
         "<!--HUB_OWNERS-->": hub_owner_split(ctx),
         "<!--HUB_FAQ-->": "".join(f"<dt>{esc(q)}</dt><dd>{esc(a)}</dd>" for q, a in faqs),
         "<!--HUB_METHOD-->": methodology(ctx),
-        "<!--HUB_CITATION-->": (
-            '<section class="panel citation-panel" aria-labelledby="hub-citation-heading">'
-            '<h2 id="hub-citation-heading">How to cite this dataset</h2>'
-            f'<p class="citation-copy"><code>Khanna Disclosure Explorer. “Ro Khanna Reported Financial Transactions, '
-            f'{first}–{last}.” Dataset version {ctx.modified}. {url}</code></p>'
-            '<p class="note">For a specific transaction, cite its stable evidence endpoint and scanned filing page. '
-            'Add your access date, preserve the reported amount range, and identify the owner code printed on the form.</p>'
-            '</section>'
-        ),
         "<!--HUB_YEAR_LINKS-->": year_links,
         "<!--HUB_TOTAL-->": esc(f"{ctx.tx_total:,}"),
         "<!--HUB_DATA_HOME-->": DATA_HOME,
