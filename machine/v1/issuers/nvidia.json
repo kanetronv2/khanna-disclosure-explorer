@@ -1068,7 +1068,7 @@
       ]
     }
   ],
-  "dataset_version": "2026-08-19",
+  "dataset_version": "2026-11-05",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
   "entity": {
     "aliases": [
@@ -1087,7 +1087,7 @@
     "ticker": "NVDA",
     "url": "https://www.rokhanna.money/api/v1/issuers/nvidia.json"
   },
-  "generated_at": "2026-08-19T00:00:00Z",
+  "generated_at": "2026-11-05T00:00:00Z",
   "interpretation": [
     "Values are statutory reported ranges, not exact market values or share counts.",
     "Owner codes describe household disclosure attribution and do not establish who directed an investment decision.",

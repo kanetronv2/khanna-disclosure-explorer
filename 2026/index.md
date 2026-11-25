@@ -2,7 +2,7 @@
 
 > Canonical page: https://www.rokhanna.money/2026/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2026/summary.json
-> Dataset version: 2026-08-19
+> Dataset version: 2026-11-05
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
@@ -13,10 +13,10 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Filing type | periodic_transaction_reports |
 | Reported household holdings | None |
 | Open-ended holdings | 0 |
-| Reported transactions | 3,855 |
-| Active trading days | 133 |
-| Average trades per active day | 29.0 |
-| Combined transaction range | $17.2M – $96.5M |
+| Reported transactions | 4,849 |
+| Active trading days | 196 |
+| Average trades per active day | 24.7 |
+| Combined transaction range | $21.6M – $118.5M |
 | Source-linked asset entries | 0 |
 
 ## Important caveats
@@ -36,6 +36,9 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 - [Periodic Transaction Report #5 (2026)](https://www.rokhanna.money/docs/src/2026-5.pdf) — 41 pages; document `2026-5`.
 - [Periodic Transaction Report #6 (2026)](https://www.rokhanna.money/docs/src/2026-6.pdf) — 32 pages; document `2026-6`.
 - [Periodic Transaction Report #7 (2026)](https://www.rokhanna.money/docs/src/2026-7.pdf) — 18 pages; document `2026-7`.
+- [Periodic Transaction Report #8 (2026)](https://www.rokhanna.money/docs/src/2026-8.pdf) — 18 pages; document `2026-8`.
+- [Periodic Transaction Report #9 (2026)](https://www.rokhanna.money/docs/src/2026-9.pdf) — 31 pages; document `2026-9`.
+- [Periodic Transaction Report #10 (2026)](https://www.rokhanna.money/docs/src/2026-10.pdf) — 23 pages; document `2026-10`.
 
 ## Largest disclosed holdings
 
@@ -45,9 +48,10 @@ No annual holdings statement is loaded for this year.
 
 | Type | Transactions | Combined range |
 | --- | ---: | ---: |
-| Purchase | 1,963 | $8.6M – $44.2M |
-| Sale | 1,817 | $8.46M – $50.9M |
+| Purchase | 2,479 | $11.6M – $57.3M |
+| Sale | 2,280 | $9.76M – $59.7M |
 | Exchange | 75 | $173K – $1.37M |
+| ? | 15 | $26K – $215K |
 
 ## Data access
 

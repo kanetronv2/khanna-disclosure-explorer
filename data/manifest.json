@@ -15,88 +15,88 @@
       "sha256": "fca5892d2251e55f2212ca803a49bfae2306286a39321d207107d07977c6fc47"
     },
     {
-      "bytes": 16906,
+      "bytes": 17281,
       "format": "csv",
       "path": "data/normalized/documents.csv",
-      "records": 130,
-      "sha256": "6def3ecc528dc553ff9b07cd6ade3c9ae57cf55d8c0ff1bd54898f88910f6da5"
+      "records": 133,
+      "sha256": "2022e140384710f0c45c70b27ee27286283422987f79342147be5f0f1227aed9"
     },
     {
-      "bytes": 29314,
+      "bytes": 29977,
       "format": "jsonl",
       "path": "data/normalized/documents.jsonl",
-      "records": 130,
-      "sha256": "30baba6391b490781d7575d27d3f9cf3ed015c0bb25bca87ad90e7929ce1cf93"
+      "records": 133,
+      "sha256": "0493ffbb44bf291f4b20b10bdd31e1fdfe543ef452f48ba7ab4bb69d8f0630e6"
     },
     {
-      "bytes": 26676414,
+      "bytes": 26930171,
       "format": "csv",
       "path": "data/normalized/page_rows.csv",
-      "records": 118075,
-      "sha256": "33698b8e8582c8192bda71013c745d2566fd2b878b299a29a2335d7ad03a94ef"
+      "records": 119140,
+      "sha256": "d0203d1aa41e567a310cbe6c93cc5c46758f25ebd79f39b0bbca5944a1ea04db"
     },
     {
-      "bytes": 98089226,
+      "bytes": 98986147,
       "format": "jsonl",
       "path": "data/normalized/page_rows.jsonl",
-      "records": 118075,
-      "sha256": "59bbbe45945747ee3d68c7ec94d1f354cb63434bdfedd48d531425d126912307"
+      "records": 119140,
+      "sha256": "234109a37e9ec543377339deded31eafa82dcb928bd325258505e4eedf444897"
     },
     {
-      "bytes": 1208308,
+      "bytes": 1227691,
       "format": "csv",
       "path": "data/normalized/pages.csv",
-      "records": 4460,
-      "sha256": "33bff1e3756ab577019f20f004e1cbacc03ce7dc38ee6e3c9a2b6c1d7ee090b7"
+      "records": 4532,
+      "sha256": "c2dc8c78bafb338b49e78e8c457582b5c13dbd8a434fac30b817149547894537"
     },
     {
-      "bytes": 2322355,
+      "bytes": 2359756,
       "format": "jsonl",
       "path": "data/normalized/pages.jsonl",
-      "records": 4460,
-      "sha256": "2e6bdc730a09fc6f08f40f48421342366b423bf8f785e0de2140d828243dcde8"
+      "records": 4532,
+      "sha256": "ae34d5c58addde133439d2280ed0c3594f195b058b4245f0c56f050cc09964ef"
     },
     {
-      "bytes": 14879328,
+      "bytes": 15194867,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
-      "records": 49750,
-      "sha256": "b96a5c22558f02c3c8c3b6726db536285d627aada111c3df364b7edccbfc4c9b"
+      "records": 50744,
+      "sha256": "5b89cc7696108742c1222534dfc8022009dc699aa2e18be40b2964cd96fb0fcd"
     },
     {
-      "bytes": 39209167,
+      "bytes": 40008194,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
-      "records": 49750,
-      "sha256": "e8eea9b09c241b00b1548a06175f7824fe3efb3192bf923e62d425d213af3fd1"
+      "records": 50744,
+      "sha256": "885ed8cee9f6f7a66b73c9cd1e0fe3f05a14a5318c143d79dde25f81197ea484"
     },
     {
-      "bytes": 2857888,
+      "bytes": 2893166,
       "format": "csv",
       "path": "data/normalized/uncertainties.csv",
-      "records": 9786,
-      "sha256": "8db5ab0c8242835f47cd37a0bad9045d2b1f4508bf058e35da53b759ca94617e"
+      "records": 9891,
+      "sha256": "43b47912c310e3e7352aa94c73579e9563e6008e2c416b2c022717ae7a4cc4d6"
     },
     {
-      "bytes": 3757297,
+      "bytes": 3802198,
       "format": "jsonl",
       "path": "data/normalized/uncertainties.jsonl",
-      "records": 9786,
-      "sha256": "e4f271832e244091a35e29f17dc08854a8641481772f390805728fc34165cea2"
+      "records": 9891,
+      "sha256": "f63b327e13565fbd4e0410dda798d2c48394d53cfaa30c8b304c205d62a24a58"
     },
     {
-      "bytes": 2527,
+      "bytes": 2610,
       "format": "json",
       "path": "data/quality-report.json",
       "records": 1,
-      "sha256": "f076175e5e66477cf296a4781a792de982f3970d8692ffdfc83648c4f1e8044e"
+      "sha256": "b7941348c75edc5cdfdca0fabe1120653bbe6f7a9b984a4bf4385cb49699606a"
     },
     {
-      "bytes": 3495,
+      "bytes": 406186,
       "format": "json",
       "path": "data/text-quality-audit.json",
-      "records": 0,
-      "sha256": "85c22848a229c07c68058521c86b120f90d3757a700b2487750b740278a2cf3f"
+      "records": 994,
+      "sha256": "daffa721284b706a5260a3e8b8578022191399ebbf402eea9e24623e99a4a441"
     }
   ],
   "license": "CC0-1.0 for original dataset contributions; see DATA_LICENSE.md",
@@ -104,40 +104,40 @@
   "source_coverage": {
     "compiled_year_files": 11,
     "confidence_distribution": {
-      "high": 2628,
+      "high": 2631,
       "low": 182,
-      "medium": 1641,
+      "medium": 1710,
       "medium-high": 1,
       "medium-low": 8
     },
     "missing_or_invalid_records": 0,
     "normalized_records": {
       "assets": 25061,
-      "documents": 130,
-      "page_rows": 118075,
-      "pages": 4460,
-      "transactions": 49750,
-      "uncertainties": 9786
+      "documents": 133,
+      "page_rows": 119140,
+      "pages": 4532,
+      "transactions": 50744,
+      "uncertainties": 9891
     },
     "owner_code_distribution": {
-      "DC": 36387,
+      "DC": 36774,
       "JT": 14,
-      "SP": 77383,
-      "not_stated": 4291
+      "SP": 77989,
+      "not_stated": 4363
     },
-    "page_images": 4460,
+    "page_images": 4532,
     "page_row_kind_distribution": {
       "asset": 31421,
-      "group": 3046,
-      "tx": 83608
+      "group": 3117,
+      "tx": 84602
     },
-    "page_source_json": 4460,
+    "page_source_json": 4532,
     "page_type_distribution": {
       "cover": 16,
       "letter": 10,
       "other": 30,
-      "ptr_cover": 106,
-      "ptr_transactions": 1517,
+      "ptr_cover": 109,
+      "ptr_transactions": 1586,
       "schedule_a": 1246,
       "schedule_b": 1522,
       "schedule_c": 3,
@@ -145,11 +145,13 @@
       "schedule_h": 3
     },
     "pending_pages": 0,
-    "source_pdfs": 130,
-    "tesseract_text_files": 4460,
-    "text_quality_findings": 0,
-    "text_quality_rule_distribution": {},
-    "valid_page_source_json": 4460,
+    "source_pdfs": 133,
+    "tesseract_text_files": 4532,
+    "text_quality_findings": 994,
+    "text_quality_rule_distribution": {
+      "ocr_assisted_page": 994
+    },
+    "valid_page_source_json": 4532,
     "years": [
       "2016",
       "2017",

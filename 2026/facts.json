@@ -22,11 +22,11 @@
   },
   "coverage": {
     "annual_filing_pages": null,
-    "latest_readable_transaction_date": "2026-07-31",
-    "loaded_pages": 261,
-    "unresolved_transcription_flags": 258
+    "latest_readable_transaction_date": "2026-10-30",
+    "loaded_pages": 333,
+    "unresolved_transcription_flags": 363
   },
-  "dataset_version": "2026-08-19",
+  "dataset_version": "2026-11-05",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
   "filing_type": "periodic_transaction_reports",
   "id": "kde:financial-disclosure:2026",
@@ -45,16 +45,16 @@
       "open_ended_entries": 0
     },
     "reported_transactions": {
-      "active_trading_days": 133,
-      "average_per_active_trading_day": 29.0,
+      "active_trading_days": 196,
+      "average_per_active_trading_day": 24.7,
       "combined_value_range": {
-        "calculated_upper_floor_usd": 96450000,
-        "display": "$17.2M – $96.5M",
-        "minimum_usd": 17233855,
+        "calculated_upper_floor_usd": 118515000,
+        "display": "$21.6M – $118.5M",
+        "minimum_usd": 21600830,
         "open_ended_entries": 0
       },
-      "count": 3855,
-      "dated_count": 3855
+      "count": 4849,
+      "dated_count": 4848
     },
     "reported_unearned_income": {
       "calculated_upper_floor_usd": 0,
@@ -63,7 +63,7 @@
       "open_ended_entries": 0
     },
     "source_linked_asset_entries": 0,
-    "source_pages": 261
+    "source_pages": 333
   },
   "schema_version": "1.0.0",
   "sources": [
@@ -108,6 +108,24 @@
       "label": "Periodic Transaction Report #7 (2026)",
       "pages": 18,
       "url": "https://www.rokhanna.money/docs/src/2026-7.pdf"
+    },
+    {
+      "document_id": "2026-8",
+      "label": "Periodic Transaction Report #8 (2026)",
+      "pages": 18,
+      "url": "https://www.rokhanna.money/docs/src/2026-8.pdf"
+    },
+    {
+      "document_id": "2026-9",
+      "label": "Periodic Transaction Report #9 (2026)",
+      "pages": 31,
+      "url": "https://www.rokhanna.money/docs/src/2026-9.pdf"
+    },
+    {
+      "document_id": "2026-10",
+      "label": "Periodic Transaction Report #10 (2026)",
+      "pages": 23,
+      "url": "https://www.rokhanna.money/docs/src/2026-10.pdf"
     }
   ],
   "subject": {
@@ -116,7 +134,7 @@
     "name": "Ro Khanna",
     "office": "U.S. Representative"
   },
-  "updated": "2026-08-19",
+  "updated": "2026-11-05",
   "url": "https://www.rokhanna.money/2026/",
   "year": 2026
 }

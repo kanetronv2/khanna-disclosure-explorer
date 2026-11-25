@@ -1,0 +1,247 @@
+{
+  "pdf_page": 14,
+  "printed_label": "Rohit Khanna Page 14 of 23",
+  "section": "Periodic Transaction Report - attached transaction table",
+  "page_type": "ptr",
+  "filer": "Rohit Khanna",
+  "rows": [
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GENERAL MILLS INC CMN",
+      "tx_type": null,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "FERGUSON ENTERPRISES INC CMN",
+      "tx_type": null,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROYAL CARIBBEAN GROUP ISIN LROOO8862868",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "REGENERON PHARMACEUTICAL INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "CLOROX CO (THE) (DELAWARE) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COSTAR GROUP INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PENTAIR PLC CMN",
+      "tx_type": null,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SYNOPSYS INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "INTL BUSINESS MACHINES CORP CMN",
+      "tx_type": null,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BLOOM ENERGY CORP CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ROBINHOOD MARKETS INC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VERTIV HOLDINGS LLC CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "KROGER COMPANY CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/07/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BROADCOM INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/13/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MODERNA INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/13/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BRISTOL MYERS SQUIBB COMPANY CMN",
+      "tx_type": null,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "10/13/2026",
+      "notification_date": "11/02/2026",
+      "amount": "$1,001-$15,000"
+    }
+  ],
+  "free_text": null,
+  "uncertainties": [
+    {
+      "row": null,
+      "field": "page_verification",
+      "read": "Scan table and OCR",
+      "note": "OCR-assisted extraction. Grid geometry was used to align cells and read checkbox marks, and selected ambiguous fields were checked against the scan. Asset text and remaining OCR readings may contain errors."
+    },
+    {
+      "row": 2,
+      "field": "tx_type",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 2,
+      "field": "amount",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 3,
+      "field": "tx_type",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 6,
+      "field": "amount",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 8,
+      "field": "tx_type",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 8,
+      "field": "amount",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 10,
+      "field": "tx_type",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    },
+    {
+      "row": 17,
+      "field": "tx_type",
+      "read": null,
+      "note": "No mark is legible in the corresponding checkbox columns of the scan."
+    }
+  ],
+  "page_confidence": "medium"
+}

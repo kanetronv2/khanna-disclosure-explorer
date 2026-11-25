@@ -23,6 +23,8 @@ from collections import defaultdict
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
+from evidence_assets import source_registry
+
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / "templates" / "index.html"
@@ -208,13 +210,13 @@ def pretty_month(iso):
 
 
 def build_date():
-    """Last-modified date for the schema blocks: the data's own commit date when we have
-    one, so a rebuild that changes nothing does not advertise a bogus update."""
+    """Use Git and recorded filing dates to date the build reproducibly."""
+    filing_dates = [source["filed_on"] for source in source_registry().values() if source.get("filed_on")]
     try:
         out = subprocess.run(["git", "-C", str(ROOT), "log", "-1", "--format=%cI"],
                              capture_output=True, text=True, timeout=5)
         if out.returncode == 0 and re.match(r"^\d{4}-\d{2}-\d{2}", out.stdout.strip()):
-            return out.stdout.strip()[:10]
+            return max(out.stdout.strip()[:10], *filing_dates) if filing_dates else out.stdout.strip()[:10]
     except (OSError, subprocess.SubprocessError):
         pass
     return datetime.date.today().isoformat()

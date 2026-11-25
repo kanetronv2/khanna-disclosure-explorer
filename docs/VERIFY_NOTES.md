@@ -367,3 +367,22 @@ the generated text where grid noise made OCR ambiguous. A third-party structured
 was used only where its rows aligned one-for-one with the filing scans; it omitted or deduplicated
 large sections of `9116206`, so the Clerk scans—not that transcription—control completeness.
 The page-031/page-032 MURA Holdings sub-tables were transcribed directly from the images.
+
+## September–November 2026 PTRs
+
+The House Clerk's 2026 filing index lists these three PTRs after the August 7 report:
+
+| Filed | Clerk filing ID | Local document | Pages | Transaction rows |
+| --- | --- | --- | ---: | ---: |
+| 2026-09-04 | `9116328` | `2026-8` | 18 | 244 |
+| 2026-10-07 | `9116376` | `2026-9` | 31 | 459 |
+| 2026-11-05 | `9116399` | `2026-10` | 23 | 291 |
+
+The originals, page images, OCR text, and structured transcriptions are retained. The cover
+pages contain form examples, which are excluded from the transaction rows. The October and
+November MURA Holdings sub-tables retain their separate trust headings and their own printed
+dates. Suspect OCR dates and selected checkbox and asset fields were checked against the scans.
+The November scans have broken rules and blank marks in some transaction-type and amount cells.
+Those fields remain null with page-level evidence. A partially legible transaction date in the
+October report also remains null. The transaction pages are marked as OCR-assisted and still
+need a full row-by-row visual review, especially for asset labels and faint checkboxes.

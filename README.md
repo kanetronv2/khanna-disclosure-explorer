@@ -1,7 +1,7 @@
 # Ro Khanna Financial Disclosure Open Data
 
 An open, reproducible data dump and static explorer of Rep. Ro Khanna's U.S. House financial
-disclosure filings from 2016–2026. The repository includes the source PDFs, 4,460 page images,
+disclosure filings from 2016–2026. The repository includes the source PDFs, 4,532 page images,
 page-level structured transcriptions, raw Tesseract text, normalized analysis tables, quality
 reports, and the code used to compile them.
 
