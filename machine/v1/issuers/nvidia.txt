@@ -2,7 +2,7 @@
 
 > Canonical JSON: https://www.rokhanna.money/api/v1/issuers/nvidia.json
 > Text representation: https://www.rokhanna.money/api/v1/issuers/nvidia.txt
-> Dataset version: 2026-11-05
+> Dataset version: 2026-11-24
 
 This API resource groups reviewed filing-name variants under **NVIDIA Corporation (NVDA)** while preserving every raw security name and evidence link. Values are household disclosure ranges, not exact holdings or share counts.
 

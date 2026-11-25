@@ -77,7 +77,7 @@ def rule_descriptor(name, cls):
         return f"Capital call for private fund / partnership investment — {title(n)}"
     if re.search(r"\b-\s*CC\b|\bCC$", n, re.I) and cls == "Hedge funds & private funds":
         return f"Capital call for private fund / partnership investment — {title(n)}"
-    if re.search(r"COUNTRY CLUB|GOLF|CONDO|COMMERCIAL PROPERTY|LOCATION:", n, re.I):
+    if cls != "Common stock" and re.search(r"COUNTRY CLUB|GOLF|CONDO|COMMERCIAL PROPERTY|LOCATION:", n, re.I):
         return f"Real estate or club/property interest — {title(n)}"
     if re.search(r"STRUCTURED NOTE|TRIGGER PLUS|PARTICIPATION SECURITIES|EURO STOXX", n, re.I):
         return f"Structured note or market-linked security — {title(n)}"
@@ -112,7 +112,7 @@ def rule_descriptor(name, cls):
 
 def descriptor(name, cls):
     d = DESCR.get(name)
-    if d:
+    if d and not (cls == "Common stock" and d.startswith("Real estate or club/property interest")):
         return d
     return rule_descriptor(name, cls) or ""
 

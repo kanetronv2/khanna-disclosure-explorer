@@ -353,7 +353,7 @@
     },
     {
       "source": "/api/v1/years/2025/assets.json",
-      "destination": "/site-data/2025/assets.1903960e99f0.json"
+      "destination": "/site-data/2025/assets.a94462384e86.json"
     },
     {
       "source": "/api/v1/years/2025/transactions.json",
@@ -373,7 +373,7 @@
     },
     {
       "source": "/api/v1/years/2026/transactions.json",
-      "destination": "/site-data/2026/transactions.b1b93b9cc444.json"
+      "destination": "/site-data/2026/transactions.2a82d7b6e7cd.json"
     },
     {
       "source": "/api/v1/years/2026/pages.json",

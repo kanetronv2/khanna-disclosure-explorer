@@ -45,7 +45,7 @@ RAW = "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/m
 # How many rows of real markup each prerendered table carries. Enough to be substantive
 # content for a crawler without bloating the HTML the browser has to parse before hydrating.
 RECENT_TX_ON_YEAR_PAGE = 6
-RECENT_TX_ON_HUB = 100
+RECENT_TX_ON_HUB = 20
 TOP_COMPANIES_ON_HUB = 30
 
 OWNER_NAMES = {"SP": "Spouse", "DC": "Dependent children", "JT": "Joint", "UNSPECIFIED": "Not specified"}
@@ -272,11 +272,12 @@ class Context:
         return "/" if year == self.root_year else f"/{year}/"
 
     def recent_tx(self, rows, limit):
-        return sorted(rows, key=lambda r: (r["iso"], r.get("page") or 0), reverse=True)[:limit]
+        dated = (r for r in rows if r["iso"] and r["iso"][:4] <= r["year"])
+        return sorted(dated, key=lambda r: (r["iso"], r.get("page") or 0), reverse=True)[:limit]
 
     def through(self, year):
         """Latest readable transaction date within one filing year."""
-        dates = [r["iso"] for r in self.tx[year] if r["iso"]]
+        dates = [r["iso"] for r in self.tx[year] if r["iso"] and r["iso"][:4] <= year]
         return max(dates) if dates else ""
 
     def tx_span(self):
@@ -444,8 +445,7 @@ def undated_note(rows):
     n = sum(1 for r in rows if not r["iso"])
     if not n:
         return ""
-    return (f" {n:,} of these rows carry no readable transaction date on the filing and cannot be "
-            "ordered here; they remain in the full searchable table and the open dataset.")
+    return f" {n:,} rows without usable dates are available in the full dataset."
 
 
 def tx_table(rows, show_year=False):
@@ -462,8 +462,7 @@ def tx_table(rows, show_year=False):
         year_cell = f'<td>{esc(r["year"])}</td>' if show_year else ""
         body.append(
             f"<tr>{year_cell}<td>{esc(r.get('date') or '—')}</td>"
-            f"<td>{esc(r.get('name') or '—')}"
-            f"<span class=\"tx-desc\">{esc(r.get('desc') or '')}</span></td>"
+            f'<td><a href="/{esc(r["year"])}/#p{esc(r["page"])}">{esc(r.get("name") or "—")}</a></td>'
             f"<td>{esc(r.get('tx_type') or '—')}</td>"
             f"<td class=\"num\">{esc(r.get('amount') or '—')}</td>"
             f"<td>{esc(r.get('cls') or '—')}</td><td>{esc(owner)}</td></tr>")
@@ -583,7 +582,7 @@ def faq_items(summary, year, summaries):
     tot, tx = summary["holdings"], summary["transaction_total"]
     items = []
     if is_ptr_only(summary):
-        items.append((f"What is Ro Khanna's net worth in {year}?",
+        items.append((f"Is there an annual holdings statement for {year}?",
                       f"No annual holdings statement for {year} is on file, so there is no {year} range yet. "
                       f"The latest annual filing ({annual_years(summaries)[-1]}) lists "
                       f"{rng_sum(summaries[annual_years(summaries)[-1]]['holdings'])} in assets."))
@@ -594,7 +593,7 @@ def faq_items(summary, year, summaries):
         answer += "It is a household disclosure using value bands, not a certified personal net-worth figure."
         if caveat(summary):
             answer += " " + caveat(summary)
-        items.append((f"What is Ro Khanna's net worth in {year}?", answer))
+        items.append((f"What holdings were reported in {year}?", answer))
     if caveat(summary):
         items.append((f"Why do the {year} totals differ so much from earlier years?", caveat(summary)))
     items.append((f"How much stock trading did Ro Khanna report in {year}?",
@@ -626,18 +625,15 @@ def overview_methodology(ctx, summary, year):
                    for q, a in faq_items(summary, year, ctx.summaries))
     return (
         '<details class="panel reading-panel" id="method">'
-        '<summary><span><b>How to read this filing</b>'
-        '<small>Ranges, household scope, sourcing, and common questions</small></span></summary>'
+        '<summary><b>How to read this filing</b></summary>'
         '<div class="reading-body">'
-        '<p>House filings are published as paper scans. This independent transcription makes them searchable '
-        'while retaining links to the official filing, page scans, and flagged uncertainties.</p>'
+        '<p>Search the transcription and verify any row against its source scan.</p>'
         '<ul class="method-list">'
-        '<li><b>Ranges, not exact values.</b> Totals sum statutory value bands and are not a certified net worth.</li>'
+        '<li><b>Value ranges.</b> Totals add the low and high ends of the disclosed bands.</li>'
         '<li><b>Open-ended holdings.</b> A displayed upper total is a floor when a holding has no stated ceiling.</li>'
         '<li><b>Household scope.</b> The filing covers the member, spouse, and dependent children.</li>'
-        '<li><b>Independent and unofficial.</b> Verify consequential findings against the linked scans.</li>'
         '</ul>'
-        '<div class="faq-heading"><span>FAQ</span><h3>Common questions</h3></div>'
+        '<div class="faq-heading"><h3>Common questions</h3></div>'
         f'<dl class="faq">{faqs}</dl>'
         f'<p class="note">Dataset through {esc(pretty_month(ctx.data_through) or "the latest loaded filing")}; '
         f'updated <time datetime="{esc(ctx.modified)}">{esc(ctx.modified)}</time>. '
@@ -647,7 +643,7 @@ def overview_methodology(ctx, summary, year):
 
 # ---------------------------------------------------------------- shared sections
 
-def methodology(ctx):
+def methodology():
     """Sourcing and method, stated on the page rather than only in the repo README.
 
     Net-worth queries are trust-sensitive, and provenance is the one thing this site has
@@ -655,28 +651,14 @@ def methodology(ctx):
     """
     return (
         '<section class="panel method-panel" id="method">'
-        '<div class="section-heading"><div><h2>How these figures were produced</h2></div></div>'
-        '<p>Every number on this site is transcribed from the financial disclosure filings published by the '
-        f'<a href="{SOURCE_INDEX}" target="_blank" rel="noopener">Clerk of the U.S. House of Representatives</a>. '
-        'Those filings are paper scans with no machine-readable text, so each page was transcribed from '
-        'full-page images and high-resolution crops, cross-checked against Tesseract OCR, and annotated where a '
-        'reading is uncertain. Every normalized record links back to the page and scan it came from.</p>'
+        '<div class="section-heading"><h2>Sources and method</h2></div>'
+        f'<p>We transcribe <a href="{SOURCE_INDEX}" target="_blank" rel="noopener">House Clerk filings</a>, '
+        'link each record to its source page, and flag uncertain readings.</p>'
         '<ul class="method-list">'
-        '<li><b>Ranges, not exact values.</b> House forms report statutory value bands. Totals here are sums of '
-        'those bands and are not a certified net worth.</li>'
-        '<li><b>Open-ended holdings.</b> Buckets with no stated ceiling keep a null upper bound and an explicit '
-        'flag, so an upper total is a floor, never a maximum.</li>'
-        '<li><b>Household scope.</b> Filings cover the member, spouse, and dependent children together. Owner '
-        'codes are reproduced as printed and are not a finding about beneficial ownership.</li>'
-        '<li><b>Independent and unofficial.</b> This is a best-effort transcription and can contain errors. '
-        'Verify consequential findings against the linked scans and the official filings.</li>'
+        '<li>Totals add the disclosed value bands. Where a band has no ceiling, the displayed upper sum is a floor.</li>'
+        '<li>Owner codes identify whose interest was reported. The filings do not identify who placed a trade.</li>'
         '</ul>'
-        f'<p class="note">Across every filing year, the dataset runs through '
-        f'{esc(pretty_month(ctx.data_through) or "the latest loaded filing")}. '
-        f'Transcription last updated <time datetime="{esc(ctx.modified)}">{esc(ctx.modified)}</time>. '
-        f'The full normalized dump — assets, transactions, pages and flagged uncertainties — is published as '
-        f'<a href="{DATA_HOME}" target="_blank" rel="noopener">CSV and JSONL</a> under CC0, alongside the '
-        'source PDFs and page scans.</p></section>')
+        f'<p class="note"><a href="{DATA_HOME}" target="_blank" rel="noopener">Download CSV and JSONL (CC0)</a>.</p></section>')
 
 
 def crosslinks(ctx, year):
@@ -695,7 +677,7 @@ def crosslinks(ctx, year):
         '<nav class="panel crosslinks" aria-label="Related pages">'
         f'<div class="crosslink-row">{"".join(nav)}</div>'
         '<div class="crosslink-hub">'
-        f'<a href="/">Ro Khanna net worth — latest filing</a>'
+        f'<a href="/">Latest annual holdings</a>'
         f'<a href="{TRADES_PATH}">All reported financial transactions, {ctx.tx_span()[0]}–{ctx.tx_span()[1]}</a>'
         '<a href="/api/v1">Machine-readable API</a>'
         f'<a href="{DATA_HOME}" target="_blank" rel="noopener">Download the open dataset</a>'
@@ -730,7 +712,7 @@ def titles(summary, year, is_root, ctx):
                 f"worth {rng_sum(tx)}, transcribed from official U.S. House filings with source scans.")
     else:
         span = f"{fmt(tot['lo'])}–{fmt(tot['hiF'])}"
-        title = f"Ro Khanna Net Worth {year}: {span} Reported"
+        title = f"Ro Khanna {year} Reported Holdings: {span}"
         h1 = f"Ro Khanna’s {year} Financial Disclosure"
         desc = (f"Ro Khanna's {year} House financial disclosure reports {span} in assets across "
                 f"{summary['counts']['assets']:,} line-items, plus {summary['counts']['transactions']:,} reported "
@@ -754,7 +736,7 @@ def freshness(ctx, lead, through=None):
     bits = [lead]
     through = ctx.data_through if through is None else through
     if through:
-        bits.append(f"Records through <b>{esc(pretty_month(through))}</b>")
+        bits.append(f"Trades through <b>{esc(pretty_month(through))}</b>")
     bits.append(f'Updated <time datetime="{esc(ctx.modified)}">{esc(ctx.modified)}</time>')
     return f'<p class="freshline">{" · ".join(bits)}</p>'
 
@@ -899,7 +881,7 @@ def render(template, ctx, year, at_root):
             ctx,
             f'Latest annual filing: <a href="/{ctx.root_year}/"><b>{esc(ctx.root_year)}</b></a>' if at_root
             else f"Filing year: <b>{esc(year)}</b>",
-            through=None if at_root else ctx.through(year)),
+            through=ctx.through(year)),
         "<!--SEO_ANSWER-->": answer_panel(summary, year, ctx.summaries, ctx.url_for),
         "<!--SEO_METHOD-->": overview_methodology(ctx, summary, year),
         "<!--SEO_CROSSLINKS-->": crosslinks(ctx, year),
@@ -913,9 +895,9 @@ def render(template, ctx, year, at_root):
         "<!--PR_GROUPS-->": groups(summary),
         "<!--PR_TXSUM-->": tx_summary(summary),
         "<!--PR_RECENT_TX-->": tx_preview(recent),
+        "<!--PR_RECENT_TITLE-->": f"Recent trades in the {year} {'reports' if is_ptr_only(summary) else 'filing'}",
+        "<!--PR_NEWER_TRADES-->": (f'<p class="note"><a href="/{ctx.site_year}/#txs">Browse {ctx.site_year} trades through {esc(pretty_month(ctx.through(ctx.site_year)))} →</a></p>' if year == ctx.root_year and ctx.site_year > year and ctx.through(ctx.site_year) else ""),
         "<!--PR_YEAR_TABLE-->": year_table(ctx.summaries, year, ctx.url_for),
-        "<!--PR_RECENT_TX_COUNT-->": esc(f"{len(recent):,}"),
-        "<!--PR_UNDATED_NOTE-->": esc(undated_note(ctx.tx[year])),
         "<!--PR_YEAR_OPTIONS-->": year_options(ctx, year),
         "<!--PR_TRADES_PATH-->": TRADES_PATH,
         "<!--PR_POSITION_YEAR-->": esc(year),
@@ -1053,7 +1035,7 @@ def render_hub(template, ctx):
     first, last = ctx.tx_span()
     url = f"{ORIGIN}{TRADES_PATH}"
     title = f"Ro Khanna Financial Transactions: {ctx.tx_total:,} Reported, {first}–{last}"
-    h1 = f"Ro Khanna’s Reported Financial Transactions: {ctx.tx_total:,}, {first}–{last}"
+    h1 = "Ro Khanna’s reported transactions"
     desc = (f"Every reported financial transaction in Ro Khanna's House disclosures: {ctx.tx_total:,} rows, "
             f"including {ctx.common_stock_total:,} common-stock transactions, with dates, amounts, owner codes and source scans.")
     faqs = hub_faq(ctx)
@@ -1098,6 +1080,9 @@ def render_hub(template, ctx):
         "<!--HUB_KICKER-->": esc(f"Reported transactions · U.S. House · California 17th · {first}–{last}"),
         "<!--HUB_FRESHNESS-->": freshness(ctx, f"Filing years: <b>{esc(first)}–{esc(last)}</b>"),
         "<!--HUB_LEDE-->": hub_lede(ctx),
+        "<!--HUB_SEARCH_YEARS-->": "".join(
+            f'<option value="{ctx.url_for(y)}"{" selected" if y == last else ""}>{y}</option>'
+            for y in reversed(ctx.years) if ctx.summaries[y]["counts"]["transactions"]),
         "<!--HUB_YEAR_TABLE-->": hub_year_rows(ctx),
         "<!--HUB_RECENT_TX-->": tx_table(ctx.recent_tx(ctx.all_tx, RECENT_TX_ON_HUB), show_year=True),
         "<!--HUB_RECENT_COUNT-->": esc(f"{min(RECENT_TX_ON_HUB, len(ctx.all_tx)):,}"),
@@ -1108,7 +1093,7 @@ def render_hub(template, ctx):
         "<!--HUB_CLASSES-->": hub_classes(ctx),
         "<!--HUB_OWNERS-->": hub_owner_split(ctx),
         "<!--HUB_FAQ-->": "".join(f"<dt>{esc(q)}</dt><dd>{esc(a)}</dd>" for q, a in faqs),
-        "<!--HUB_METHOD-->": methodology(ctx),
+        "<!--HUB_METHOD-->": methodology(),
         "<!--HUB_YEAR_LINKS-->": year_links,
         "<!--HUB_TOTAL-->": esc(f"{ctx.tx_total:,}"),
         "<!--HUB_DATA_HOME-->": DATA_HOME,
@@ -1123,16 +1108,8 @@ def render_hub(template, ctx):
 
 def hub_lede(ctx):
     first, last = ctx.tx_span()
-    owners = defaultdict(int)
-    for r in ctx.all_tx:
-        owners[owner_key(r.get("owner"))] += 1
-    total = max(len(ctx.all_tx), 1)
-    parts = sorted(owners.items(), key=lambda kv: kv[1], reverse=True)[:3]
-    split = ", ".join(f"{(n / total) * 100:.1f}% to {OWNER_PHRASE[k]}" for k, n in parts)
-    return (f"The House filings list <b>{ctx.tx_total:,} financial transactions</b> from {first} to {last}, "
-            f"including <b>{ctx.common_stock_total:,} common-stock transactions</b>. They cover "
-            "Khanna, his spouse and dependent children—reported activity, not a record of individual decisions. "
-            f"By owner code: {split}. Amounts are value bands, not exact trade values.")
+    return (f"Explore <b>{ctx.tx_total:,} reported household transactions</b> from {first}–{last}. "
+            "Amounts are disclosed ranges. Owner codes show whose interest was reported.")
 
 
 # ---------------------------------------------------------------- site files
@@ -1178,7 +1155,7 @@ def write_404(ctx):
         "<main>\n<h1>Page not found</h1>\n"
         "<p>That URL is not part of this site. The explorer publishes one page per filing year, "
         "plus a cross-year view of every reported transaction.</p>\n"
-        f'<p><a href="/">Ro Khanna net worth — latest filing</a><br>\n'
+        f'<p><a href="/">Latest annual holdings</a><br>\n'
         f'<a href="{TRADES_PATH}">All reported financial transactions</a></p>\n'
         f"<h2>Filing years</h2>\n<ul>{links}</ul>\n</main>\n</body>\n</html>\n", encoding="utf-8")
 

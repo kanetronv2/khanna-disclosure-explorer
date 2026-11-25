@@ -1,18 +1,18 @@
 {
   "files": [
     {
-      "bytes": 7348810,
+      "bytes": 7348750,
       "format": "csv",
       "path": "data/normalized/assets.csv",
       "records": 25061,
-      "sha256": "fc793c1645efb5fd11b671d74877e199c04165fda61c5febc6b024062ac3db8a"
+      "sha256": "fec14b698f988940be6f830cd5a981ab5e844970ed53da950c4f54e9259cd244"
     },
     {
-      "bytes": 18744720,
+      "bytes": 18744660,
       "format": "jsonl",
       "path": "data/normalized/assets.jsonl",
       "records": 25061,
-      "sha256": "fca5892d2251e55f2212ca803a49bfae2306286a39321d207107d07977c6fc47"
+      "sha256": "7fba67ae6e95f9278e662c1a6f93cff71d59f224630e2a10737fbedb60c578dc"
     },
     {
       "bytes": 17281,
@@ -57,18 +57,18 @@
       "sha256": "ae34d5c58addde133439d2280ed0c3594f195b058b4245f0c56f050cc09964ef"
     },
     {
-      "bytes": 15194867,
+      "bytes": 15194391,
       "format": "csv",
       "path": "data/normalized/transactions.csv",
       "records": 50744,
-      "sha256": "5b89cc7696108742c1222534dfc8022009dc699aa2e18be40b2964cd96fb0fcd"
+      "sha256": "2a8af20fe0d362235127e8c5a6f86e6506ec7748462371b2819d7c7de29c8af3"
     },
     {
-      "bytes": 40008194,
+      "bytes": 40007718,
       "format": "jsonl",
       "path": "data/normalized/transactions.jsonl",
       "records": 50744,
-      "sha256": "885ed8cee9f6f7a66b73c9cd1e0fe3f05a14a5318c143d79dde25f81197ea484"
+      "sha256": "fbdbab066347b0c4a94d9a6693614cfa52b2feb983b1b43fbfefac8829d1abbd"
     },
     {
       "bytes": 2893166,

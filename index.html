@@ -23,7 +23,7 @@
 <meta name="description" content="Ro Khanna&#x27;s latest annual House disclosure (2025) reports $69.2M–$166.7M in household asset bands. The explorer also contains 50,744 reported financial transactions through 2026, with source scans.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="author" content="Khanna Disclosure Explorer">
-<meta name="last-modified" content="2026-11-05">
+<meta name="last-modified" content="2026-11-24">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ro Khanna Financial Disclosure Explorer">
 <meta property="og:url" content="https://www.rokhanna.money/">
@@ -56,7 +56,7 @@
     "url": "https://www.rokhanna.money/"
   },
   "identifier": "kde:financial-disclosure:2025",
-  "version": "2026-11-05",
+  "version": "2026-11-24",
   "about": {
     "@type": "Person",
     "name": "Ro Khanna",
@@ -87,7 +87,7 @@
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-24",
   "measurementTechnique": [
     "Transcription of official House financial-disclosure scans",
     "OCR cross-checking with unresolved readings retained as uncertainties",
@@ -149,14 +149,14 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/assets.csv",
       "name": "assets.csv",
-      "contentSize": "7348810"
+      "contentSize": "7348750"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/assets.jsonl",
       "name": "assets.jsonl",
-      "contentSize": "18744720"
+      "contentSize": "18744660"
     },
     {
       "@type": "DataDownload",
@@ -205,14 +205,14 @@
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/transactions.csv",
       "name": "transactions.csv",
-      "contentSize": "15194867"
+      "contentSize": "15194391"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/x-ndjson",
       "contentUrl": "https://raw.githubusercontent.com/kanetronv2/khanna-disclosure-explorer/main/data/normalized/transactions.jsonl",
       "name": "transactions.jsonl",
-      "contentSize": "40008194"
+      "contentSize": "40007718"
     },
     {
       "@type": "DataDownload",
@@ -252,7 +252,7 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Ro Khanna's net worth in 2025?",
+      "name": "What holdings were reported in 2025?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 2025 filing lists $69.2M to $166.7M in household assets. Its 11 open-ended holdings mean the upper figure is a floor. It is a household disclosure using value bands, not a certified personal net-worth figure. The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth."
@@ -439,8 +439,10 @@
   .dsplit{display:grid;grid-template-columns:1fr 1fr;flex:1;min-height:0}
   .dpane{overflow:auto;min-width:0}
   .dpane.img{background:#23262b;display:flex;align-items:flex-start;justify-content:center}
-  .dpane.img img{max-width:100%;height:auto;cursor:zoom-in}
-  .dpane.img.zoomed img{max-width:none;width:190%;cursor:zoom-out}
+  .dpane.img img{max-width:100%;height:auto}
+  .dpane.img.zoomed img{max-width:none;width:190%}
+  .filter-field.mobile-sort{display:none}
+  .table-sort{display:inline;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}
   .dpane.txt{padding:12px 16px 40px;background:var(--panel)}
   table.grid{border-collapse:collapse;width:100%;font-size:12px}
   .grid th{text-align:left;font-size:10.5px;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);padding:4px 7px;position:sticky;top:-12px;background:var(--panel)}
@@ -717,7 +719,8 @@
     #v-assets table.data,#v-txs table.data{min-width:0}
     table.data,table.data tbody,table.data tr,table.data td{display:block;width:100%}
     table.data{border:0;background:transparent}
-    table.data thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+    table.data thead{display:none}
+    .filter-field.mobile-sort{display:grid}
     table.data tbody{display:grid;gap:10px}
     table.data tr{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(16,24,40,.03)}
     table.data td{display:grid;grid-template-columns:92px minmax(0,1fr);gap:10px;padding:8px 11px;border-bottom:1px solid #eef1f4;overflow-wrap:anywhere}
@@ -751,7 +754,7 @@
       <img class="avatar" src="/assets/khanna-avatar.webp?v=64b260d6d1e0" width="144" height="144" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
       <div class="masttext"><div class="kicker">2025 Annual Financial Disclosure (Form A) + PTRs · U.S. House · California 17th</div><h1>Ro Khanna Financial Disclosures</h1><p class="deck">Source-linked House filings, holdings, and transactions.</p></div>
     </div>
-    <p class="freshline">Latest annual filing: <a href="/2025/"><b>2025</b></a> · Records through <b>October 2026</b> · Updated <time datetime="2026-11-05">2026-11-05</time></p>
+    <p class="freshline">Latest annual filing: <a href="/2025/"><b>2025</b></a> · Trades through <b>December 2025</b> · Updated <time datetime="2026-11-24">2026-11-24</time></p>
   </div>
 </header>
 <div class="nav-shell">
@@ -782,6 +785,7 @@
       </div>
       <p class="note">Annual filings report statutory ranges, not exact market values. The upper line is a floor in years with open-ended holdings. Transaction-only years are excluded.</p>
       <div id="timeline-chart"></div>
+      <p class="note" id="timeline-break" hidden>† The reporting basis changed. This year is shown separately.</p>
       <details class="data-details"><summary>View annual values</summary><div id="timeline-table"><div class="table-scroll"><table class="year-table"><caption>Reported household holdings by annual filing year</caption><thead><tr><th>Filing year</th><th>Reported minimum</th><th>Reported maximum</th><th>Open-ended holdings</th></tr></thead><tbody><tr><td><a href="/2016/">2016</a></td><td>$28.1M</td><td>$80.3M+</td><td class="narrow">4</td></tr><tr><td><a href="/2017/">2017</a></td><td>$29.4M</td><td>$78.5M+</td><td class="narrow">7</td></tr><tr><td><a href="/2018/">2018</a></td><td>$45.9M</td><td>$125.5M+</td><td class="narrow">6</td></tr><tr><td><a href="/2019/">2019</a></td><td>$44.4M</td><td>$116.6M+</td><td class="narrow">6</td></tr><tr><td><a href="/2020/">2020</a></td><td>$40.4M</td><td>$89.8M+</td><td class="narrow">5</td></tr><tr><td><a href="/2021/">2021</a></td><td>$61.5M</td><td>$154.5M+</td><td class="narrow">8</td></tr><tr><td><a href="/2022/">2022</a></td><td>$168.6M</td><td>$268.7M+</td><td class="narrow">11</td></tr><tr><td><a href="/2023/">2023</a></td><td>$94.7M</td><td>$275.1M+</td><td class="narrow">9</td></tr><tr><td><a href="/2024/">2024</a></td><td>$98.7M</td><td>$314.9M+</td><td class="narrow">10</td></tr><tr class="current"><td><a href="/">2025</a></td><td>$69.2M</td><td>$166.7M+</td><td class="narrow">11</td></tr></tbody></table></div><p class="note"><b>Not directly comparable:</b> <b>2025</b> — see the note above on how that filing reports value brackets.</p><p class="note">Transaction-only years, reported through periodic transaction reports rather than an annual holdings statement: <a href="/2026/">2026</a>.</p></div></details>
     </div>
     <div class="overview-previews">
@@ -795,19 +799,21 @@
       </div>
       <div class="panel" id="panel-recent-tx">
         <div class="section-heading">
-          <div><h2>Recent activity</h2></div>
+          <div><h2>Recent trades in the 2025 filing</h2></div>
           <a class="text-link" href="#txs">Browse all transactions →</a>
         </div>
-        <p class="note">Latest 6 dated rows.</p>
+<p class="note"><a href="/2026/#txs">Browse 2026 trades through October 2026 →</a></p>
         <ul class="plain recent-list"><li><span><span class="recent-name">TPG TECH ADJACENCIES II ACCESS LLC</span><span class="recent-meta">12/31/2025 · Purchase</span></span><span class="r">$15,001-$50,000<br><a href="#p318" data-goto="318">View p.318</a></span></li><li><span><span class="recent-name">TPG TECH ADJACENCIES II</span><span class="recent-meta">12/31/2025 · Purchase</span></span><span class="r">$15,001-$50,000<br><a href="#p164" data-goto="164">View p.164</a></span></li><li><span><span class="recent-name">COLGATE PALMOLIVE CO CMN</span><span class="recent-meta">12/30/2025 · Purchase</span></span><span class="r">$1,001-$15,000<br><a href="#p308" data-goto="308">View p.308</a></span></li><li><span><span class="recent-name">ADOBE INC CMN</span><span class="recent-meta">12/30/2025 · Purchase</span></span><span class="r">$1,001-$15,000<br><a href="#p308" data-goto="308">View p.308</a></span></li><li><span><span class="recent-name">EXTRA SPACE STORAGE INC  CMN</span><span class="recent-meta">12/30/2025 · Purchase</span></span><span class="r">$1,001-$15,000<br><a href="#p308" data-goto="308">View p.308</a></span></li><li><span><span class="recent-name">ZOETIS INC  CMN CLASS A</span><span class="recent-meta">12/30/2025 · Purchase</span></span><span class="r">$1,001-$15,000<br><a href="#p308" data-goto="308">View p.308</a></span></li></ul>
       </div>
     </div>
-    <details class="panel reading-panel" id="method"><summary><span><b>How to read this filing</b><small>Ranges, household scope, sourcing, and common questions</small></span></summary><div class="reading-body"><p>House filings are published as paper scans. This independent transcription makes them searchable while retaining links to the official filing, page scans, and flagged uncertainties.</p><ul class="method-list"><li><b>Ranges, not exact values.</b> Totals sum statutory value bands and are not a certified net worth.</li><li><b>Open-ended holdings.</b> A displayed upper total is a floor when a holding has no stated ceiling.</li><li><b>Household scope.</b> The filing covers the member, spouse, and dependent children.</li><li><b>Independent and unofficial.</b> Verify consequential findings against the linked scans.</li></ul><div class="faq-heading"><span>FAQ</span><h3>Common questions</h3></div><dl class="faq"><dt>What is Ro Khanna&#x27;s net worth in 2025?</dt><dd>The 2025 filing lists $69.2M to $166.7M in household assets. Its 11 open-ended holdings mean the upper figure is a floor. It is a household disclosure using value bands, not a certified personal net-worth figure. The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.</dd><dt>Why do the 2025 totals differ so much from earlier years?</dt><dd>The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.</dd><dt>How much stock trading did Ro Khanna report in 2025?</dt><dd>The 2025 filings list 5,402 transactions in reported value bands totalling $44.6M – $164.4M. They cover the household and do not identify who made each trade.</dd><dt>Whose assets are counted in Ro Khanna&#x27;s disclosure?</dt><dd>The filing covers Khanna, his spouse and dependent children. In 2025, owner codes show: Dependent children: $61.7M – $153.7M+ (89.2% of the reported minimum); Spouse: $7.45M – $13M+ (10.8% of the reported minimum). They reflect the form&#x27;s labels, not a finding on beneficial ownership.</dd><dt>Where does this data come from?</dt><dd>We transcribe the official House Clerk scans, check them against OCR, and flag unclear readings. This is an independent, unofficial transcription.</dd></dl><p class="note">Dataset through October 2026; updated <time datetime="2026-11-05">2026-11-05</time>. <a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download CSV and JSONL</a>.</p></div></details>
-    <nav class="panel crosslinks" aria-label="Related pages"><div class="crosslink-row"><a class="crosslink prev" href="/2024/">← 2024 filing</a><a class="crosslink next" href="/2026/">2026 filing →</a></div><div class="crosslink-hub"><a href="/">Ro Khanna net worth — latest filing</a><a href="/stock-trades/">All reported financial transactions, 2017–2026</a><a href="/api/v1">Machine-readable API</a><a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download the open dataset</a></div><div class="crosslink-years"><span>Every filing year:</span> <a href="/2016/">2016</a> <a href="/2017/">2017</a> <a href="/2018/">2018</a> <a href="/2019/">2019</a> <a href="/2020/">2020</a> <a href="/2021/">2021</a> <a href="/2022/">2022</a> <a href="/2023/">2023</a> <a href="/2024/">2024</a> <b>2025</b> <a href="/2026/">2026</a></div></nav>
+    <details class="panel reading-panel" id="method"><summary><b>How to read this filing</b></summary><div class="reading-body"><p>Search the transcription and verify any row against its source scan.</p><ul class="method-list"><li><b>Value ranges.</b> Totals add the low and high ends of the disclosed bands.</li><li><b>Open-ended holdings.</b> A displayed upper total is a floor when a holding has no stated ceiling.</li><li><b>Household scope.</b> The filing covers the member, spouse, and dependent children.</li></ul><div class="faq-heading"><h3>Common questions</h3></div><dl class="faq"><dt>What holdings were reported in 2025?</dt><dd>The 2025 filing lists $69.2M to $166.7M in household assets. Its 11 open-ended holdings mean the upper figure is a floor. It is a household disclosure using value bands, not a certified personal net-worth figure. The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.</dd><dt>Why do the 2025 totals differ so much from earlier years?</dt><dd>The filing’s notes page states that, pursuant to the 2026 Instruction Guide, “the value bracket that represents the percentage interest in the asset is selected.” On that basis the 2025 brackets describe a percentage interest rather than the value of the asset itself, so 2025 totals are not directly comparable with earlier filing years and the year-over-year change should not be read as a change in wealth.</dd><dt>How much stock trading did Ro Khanna report in 2025?</dt><dd>The 2025 filings list 5,402 transactions in reported value bands totalling $44.6M – $164.4M. They cover the household and do not identify who made each trade.</dd><dt>Whose assets are counted in Ro Khanna&#x27;s disclosure?</dt><dd>The filing covers Khanna, his spouse and dependent children. In 2025, owner codes show: Dependent children: $61.7M – $153.7M+ (89.2% of the reported minimum); Spouse: $7.45M – $13M+ (10.8% of the reported minimum). They reflect the form&#x27;s labels, not a finding on beneficial ownership.</dd><dt>Where does this data come from?</dt><dd>We transcribe the official House Clerk scans, check them against OCR, and flag unclear readings. This is an independent, unofficial transcription.</dd></dl><p class="note">Dataset through October 2026; updated <time datetime="2026-11-24">2026-11-24</time>. <a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download CSV and JSONL</a>.</p></div></details>
+    <nav class="panel crosslinks" aria-label="Related pages"><div class="crosslink-row"><a class="crosslink prev" href="/2024/">← 2024 filing</a><a class="crosslink next" href="/2026/">2026 filing →</a></div><div class="crosslink-hub"><a href="/">Latest annual holdings</a><a href="/stock-trades/">All reported financial transactions, 2017–2026</a><a href="/api/v1">Machine-readable API</a><a href="https://github.com/kanetronv2/khanna-disclosure-explorer/tree/main/data" target="_blank" rel="noopener">Download the open dataset</a></div><div class="crosslink-years"><span>Every filing year:</span> <a href="/2016/">2016</a> <a href="/2017/">2017</a> <a href="/2018/">2018</a> <a href="/2019/">2019</a> <a href="/2020/">2020</a> <a href="/2021/">2021</a> <a href="/2022/">2022</a> <a href="/2023/">2023</a> <a href="/2024/">2024</a> <b>2025</b> <a href="/2026/">2026</a></div></nav>
   </section>
 
   <!-- ============ ASSETS ============ -->
   <section class="view" id="v-assets" role="tabpanel" aria-labelledby="tab-assets">
+    <div class="panel" id="assets-empty" hidden><h2>No annual holdings for this year</h2><p>This year has periodic transaction reports.</p><a href="#txs">Browse this year’s transactions →</a> · <a href="/">Latest annual holdings →</a></div>
+    <div id="assets-results">
     <details class="panel detail-panel" id="asset-summary">
       <summary><span><b>Asset breakdown</b><small>Ownership, largest holdings, portfolios, and trusts</small></span></summary>
       <div class="detail-body">
@@ -836,18 +842,22 @@
       <label class="filter-field portfolio-field"><span>Portfolio or trust</span><select id="af-group"></select></label>
       <label class="filter-field"><span>Minimum value</span><select id="af-val"></select></label>
       <label class="filter-field"><span>Income type</span><select id="af-inc"></select></label>
+      <label class="filter-field mobile-sort"><span>Sort by</span><select id="af-sort"><option value="vlo:-1">Highest reported value</option><option value="name:1">Asset name A–Z</option></select></label>
       <button class="clear" id="af-clear">clear filters</button>
       <button class="dl" id="af-csv" title="Download every asset row (ignores filters)">⬇ Download CSV</button>
       <span class="cnt" id="af-cnt" aria-live="polite"></span>
     </div>
     <table class="data" id="atable"><caption>Assets reported in the selected filing</caption><thead></thead><tbody></tbody></table>
     <button class="more" id="af-more">Show more</button>
+    </div>
   </section>
 
   <!-- ============ TRANSACTIONS ============ -->
   <section class="view" id="v-txs" role="tabpanel" aria-labelledby="tab-txs">
+    <div class="panel" id="txs-empty" hidden><h2>No transactions in this year’s table</h2><p>Browse the annual holdings or search transactions in another filing year.</p><a href="#assets">Browse holdings →</a> · <a href="/stock-trades/#year-search">Search by filing year →</a></div>
+    <div id="txs-results">
     <details class="panel detail-panel" id="transaction-summary">
-      <summary><span><b>Transaction summary and context</b><small>Trading pace, reported ranges, and public position</small></span></summary>
+      <summary><b>Transaction summary</b></summary>
       <div class="detail-body">
         <div class="findings" id="keyfindings"><article class="finding"><span class="section-kicker">active trading days</span><strong class="finding-num">244</strong><p>Distinct calendar dates with at least one reported transaction.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">average trades per day</span><strong class="finding-num">22.1</strong><p>5,402 dated transactions across 244 active trading days; undated rows are excluded.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">combined transaction range</span><strong class="finding-num">$44.6M – $164.4M</strong><p>A sum of the statutory transaction buckets, not exact trade values.</p><a href="#txs">Inspect evidence →</a></article><article class="finding"><span class="section-kicker">reported transactions</span><strong class="finding-num">5,402</strong><p>Across all loaded 2025 filings; household-wide, not a record of personal trading.</p><a href="#txs">Inspect evidence →</a></article></div>
         <section class="detail-section">
@@ -868,7 +878,7 @@
               <p id="position-fact">The loaded filing data contains 5,402 reported transactions across reportable family interests, with a combined statutory range of $44.6M – $164.4M.</p>
             </div>
           </div>
-          <p class="context-note"><b>Context:</b> Household disclosure rows do not establish who directed a transaction, and this comparison does not allege illegality or a disclosure violation.</p>
+          <p class="context-note">The filings do not say who directed each trade.</p>
         </section>
       </div>
     </details>
@@ -878,12 +888,14 @@
       <label class="filter-field"><span>Asset class</span><select id="tf-cls"></select></label>
       <label class="filter-field"><span>Month</span><select id="tf-month"></select></label>
       <label class="filter-field"><span>Minimum amount</span><select id="tf-amt"></select></label>
+      <label class="filter-field mobile-sort"><span>Sort by</span><select id="tf-sort"><option value="_dk:-1">Newest first</option><option value="_dk:1">Oldest first</option><option value="lo:-1">Highest reported amount</option><option value="name:1">Asset name A–Z</option></select></label>
       <button class="clear" id="tf-clear">clear filters</button>
       <button class="dl" id="tf-csv" title="Download every transaction row (ignores filters)">⬇ Download CSV</button>
       <span class="cnt" id="tf-cnt" aria-live="polite"></span>
     </div>
     <table class="data" id="ttable"><caption>Transactions reported in the selected filing</caption><thead></thead><tbody></tbody></table>
     <button class="more" id="tf-more">Show more</button>
+    </div>
   </section>
 
   <!-- ============ DOCUMENT ============ -->
@@ -893,10 +905,10 @@
       <div class="doc-main">
         <div class="dbar">
           <button id="doc-index-toggle" class="doc-index-toggle" aria-expanded="false">Pages</button>
-          <button id="prev" aria-label="Previous page">←</button><b id="pageno"></b><button id="next" aria-label="Next page">→</button>
+          <button id="prev" aria-label="Previous page">←</button><b id="pageno" aria-live="polite"></b><button id="next" aria-label="Next page">→</button>
           <span class="meta" id="pagemeta"></span><span class="badge" id="confbadge"></span>
           <a class="meta" id="docsource" href="#" target="_blank" rel="noopener">Source PDF ↗</a>
-          <span class="meta" style="margin-left:auto">click image to zoom · <kbd>←</kbd><kbd>→</kbd></span>
+          <button id="scan-zoom" type="button" aria-controls="imgpane" aria-pressed="false">Zoom scan</button>
           <div class="doc-mobile-toggle" role="group" aria-label="Document view">
             <button type="button" data-pane="scan" aria-pressed="true">Scan</button>
             <button type="button" data-pane="text" aria-pressed="false">Transcription</button>
@@ -913,8 +925,8 @@
 </div></main>
 
 <footer><div class="wrap">
-  <div class="footer-main"><b>Independent and unofficial.</b> This best-effort transcription is provided for public-interest research. For authoritative data, consult the <a id="srclink2" href="#" target="_blank" rel="noopener">source filing</a>.</div>
-  <details class="method-details"><summary>Methodology and data-quality status</summary><p>The official filings are paper scans with no machine-readable text. Each page is transcribed with a vision model reading the full page and high-resolution crops, cross-checked against Tesseract OCR. Unresolved readings are flagged inline in the Document tab, and a second-pass verification is part of the pipeline. Dollar figures are statutory ranges, not exact values. <span id="fstats"></span></p></details>
+  <div class="footer-main">Independent transcription. For authoritative data, see the <a id="srclink2" href="#" target="_blank" rel="noopener">source filing</a>.</div>
+  <details class="method-details"><summary>Transcription quality</summary><p>We transcribe House scans and flag uncertain readings in the Document tab. <span id="fstats"></span></p></details>
   <div class="photo-credit">Header photo: Kevin Dietsch/Getty Images (editorial).</div>
 </div></footer>
 
@@ -945,7 +957,14 @@ document.getElementById('srclink2').href = primarySource;
 document.getElementById('srclink2').textContent = D.official_source_pdf ? 'original House filing' : 'source filing mirror';
 const yearSelect = document.getElementById('yearsel');
 yearSelect.value = FD_YEAR;
-yearSelect.onchange = () => { location.href = FD_URL(yearSelect.value); };
+yearSelect.onchange = () => {
+  syncHash();
+  const [view, query] = location.hash.split('?');
+  const filters = new URLSearchParams(query);
+  if (view === '#txs' && filters.has('month')) filters.set('month', yearSelect.value + filters.get('month').slice(4));
+  const suffix = /^#p\d+$/.test(view) ? '#doc' : view + (filters.size ? '?' + filters : '');
+  location.href = FD_URL(yearSelect.value) + suffix;
+};
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt$ = n => {
@@ -962,8 +981,12 @@ const tabs = document.querySelectorAll('nav.tabs button');
 let appReady = false;
 document.querySelectorAll('.view:not(.on)').forEach(s=>s.hidden=true);
 async function showView(v){
-  if(v==='assets') await ensureAssets();
-  if(v==='txs') await ensureTransactions();
+  if(v==='assets'||v==='txs'){
+    const empty = !D.counts[v==='assets'?'assets':'transactions'];
+    document.getElementById(v+'-empty').hidden= !empty;
+    document.getElementById(v+'-results').hidden=empty;
+    if(!empty) await (v==='assets'?ensureAssets():ensureTransactions());
+  }
   if(v==='doc'){await ensureDocuments();await showPage(cur);}
   tabs.forEach(b=>{const on=b.dataset.v===v;b.classList.toggle('on',on);b.setAttribute('aria-selected',on?'true':'false');b.tabIndex=on?0:-1;});
   document.querySelectorAll('.view').forEach(s=>{const on=s.id==='v-'+v;s.classList.toggle('on',on);s.hidden=!on;});
@@ -973,6 +996,7 @@ tabs.forEach(b=>b.onclick=()=>void showView(b.dataset.v));
 document.querySelector('nav.tabs').addEventListener('keydown',e=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key)||!e.target.matches('[role=tab]'))return;
   e.preventDefault(); const list=[...tabs]; const i=list.indexOf(e.target);
+  e.stopPropagation();
   const next=e.key==='Home'?list[0]:e.key==='End'?list[list.length-1]:list[(i+(e.key==='ArrowRight'?1:-1)+list.length)%list.length];
   showView(next.dataset.v); next.focus();
 });
@@ -1064,11 +1088,21 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
     const axisMax=Math.ceil(rawMax/axisStep)*axisStep;
     const x=i=>L+(annualTimeline.length===1?plotW/2:(i/(annualTimeline.length-1))*plotW);
     const y=v=>Tp+plotH-(v/axisMax)*plotH;
-    const loPts=annualTimeline.map((r,i)=>`${x(i)},${y(r.holdings.lo)}`).join(' ');
-    const hiPts=annualTimeline.map((r,i)=>`${x(i)},${y(r.holdings.hi)}`).join(' ');
-    const bandPts=hiPts+' '+annualTimeline.map((r,i)=>`${x(annualTimeline.length-1-i)},${y(annualTimeline[annualTimeline.length-1-i].holdings.lo)}`).join(' ');
+    const hasBreak=r=>Boolean(window.FD_SUMMARIES?.[r.year]?.meta?.caveat);
+    document.getElementById('timeline-break').hidden=!annualTimeline.some(hasBreak);
+    const segments=[];
+    annualTimeline.forEach((r,i)=>{
+      if(!segments.length||hasBreak(r)||hasBreak(annualTimeline[i-1]))segments.push([]);
+      segments.at(-1).push({r,i});
+    });
+    const bands=segments.filter(s=>s.length>1).map(segment=>{
+      const lo=segment.map(({r,i})=>`${x(i)},${y(r.holdings.lo)}`);
+      const hi=segment.map(({r,i})=>`${x(i)},${y(r.holdings.hi)}`);
+      return `<polygon class="timeline-band" points="${[...hi,...lo.slice().reverse()].join(' ')}"></polygon><polyline class="timeline-hi" points="${hi.join(' ')}"></polyline><polyline class="timeline-lo" points="${lo.join(' ')}"></polyline>`;
+    }).join('');
+    const breakpoints=segments.filter(s=>s.length===1).map(([{r,i}])=>`<line class="timeline-hi" x1="${x(i)}" x2="${x(i)}" y1="${y(r.holdings.lo)}" y2="${y(r.holdings.hi)}"/><circle class="timeline-point" cx="${x(i)}" cy="${y(r.holdings.hi)}" r="3.5"/>`).join('');
     const ticks=[0,axisMax/2,axisMax];
-    document.getElementById('timeline-chart').innerHTML=`<div class="timeline-wrap"><svg class="timeline-svg" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="timeline-title timeline-desc"><title id="timeline-title">Reported annual holdings from ${annualTimeline[0].year} through ${annualTimeline[annualTimeline.length-1].year}</title><desc id="timeline-desc">Two lines show the sums of statutory minimum and maximum value ranges. Maximums are lower-bound calculations when a filing contains open-ended holdings.</desc>${ticks.map(v=>`<line class="timeline-grid" x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}"></line><text class="timeline-axis" x="${L-8}" y="${y(v)+4}" text-anchor="end">${esc(fmt$(v))}</text>`).join('')}<polygon class="timeline-band" points="${bandPts}"></polygon><polyline class="timeline-hi" points="${hiPts}"></polyline><polyline class="timeline-lo" points="${loPts}"></polyline>${annualTimeline.map((r,i)=>`<circle class="timeline-point${r.year===FD_YEAR?' current':''}" cx="${x(i)}" cy="${y(r.holdings.lo)}" r="${r.year===FD_YEAR?5:3.5}"><title>${esc(`${r.year}: ${fmt$(r.holdings.lo)} – ${fmt$(r.holdings.hi)}${r.holdings.open?'+':''}`)}</title></circle><text class="timeline-label" x="${x(i)}" y="${H-15}" text-anchor="middle">${r.year}</text>`).join('')}</svg></div><div class="timeline-legend"><span><i class="legend-line"></i>sum of minimums</span><span><i class="legend-line hi"></i>sum of maximums${annualTimeline.some(r=>r.holdings.open)?' (sometimes a floor)':''}</span></div>`;
+    document.getElementById('timeline-chart').innerHTML=`<div class="timeline-wrap"><svg class="timeline-svg" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="timeline-title timeline-desc"><title id="timeline-title">Reported annual holdings from ${annualTimeline[0].year} through ${annualTimeline[annualTimeline.length-1].year}</title><desc id="timeline-desc">Two lines show the sums of statutory minimum and maximum value ranges. Maximums are lower-bound calculations when a filing contains open-ended holdings.</desc>${ticks.map(v=>`<line class="timeline-grid" x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}"></line><text class="timeline-axis" x="${L-8}" y="${y(v)+4}" text-anchor="end">${esc(fmt$(v))}</text>`).join('')}${bands}${breakpoints}${annualTimeline.map((r,i)=>`<circle class="timeline-point${r.year===FD_YEAR?' current':''}" cx="${x(i)}" cy="${y(r.holdings.lo)}" r="${r.year===FD_YEAR?5:3.5}"><title>${esc(`${r.year}: ${fmt$(r.holdings.lo)} – ${fmt$(r.holdings.hi)}${r.holdings.open?'+':''}`)}</title></circle><text class="timeline-label" x="${x(i)}" y="${H-15}" text-anchor="middle">${r.year}${hasBreak(r)?'†':''}</text>`).join('')}</svg></div><div class="timeline-legend"><span><i class="legend-line"></i>sum of minimums</span><span><i class="legend-line hi"></i>sum of maximums${annualTimeline.some(r=>r.holdings.open)?' (sometimes a floor)':''}</span></div>`;
   }
   if (ptrOnly) {
     ['panel-clsbars','panel-tophold','panel-groups'].forEach(id=>{const el=document.getElementById(id); if(el) el.style.display='none';});
@@ -1121,7 +1155,7 @@ const rngS = s => (!s.any || (s.lo===0 && s.hiF===0)) ? 'None'
 
 // ================= generic table machinery =================
 function makeTable(cfg){
-  const {rows, theadEl, tbodyEl, cols, cntEl, moreBtn, filters, defaultSort, onChange} = cfg;
+  const {rows, theadEl, tbodyEl, cols, cntEl, moreBtn, filters, defaultSort, onChange, mobileSort} = cfg;
   let sortKey = defaultSort, sortDir = -1, shown = 100, filtered = rows;
   function apply(){
     filtered = rows.filter(r=>filters.every(f=>f(r)));
@@ -1134,20 +1168,30 @@ function makeTable(cfg){
     if(onChange) onChange();
   }
   function render(){
-    theadEl.innerHTML='<tr>'+cols.map(c=>`<th scope="col" data-k="${c.sort||''}"${c.sort?` role="button" tabindex="0" aria-sort="${c.sort===sortKey?(sortDir>0?'ascending':'descending'):'none'}"`:''}${c.w?` style="width:${c.w}"`:''}>${c.h}${c.sort===sortKey?` <span class="arr" aria-hidden="true">${sortDir>0?'▲':'▼'}</span>`:''}</th>`).join('')+'</tr>';
+    theadEl.innerHTML='<tr>'+cols.map(c=>`<th scope="col"${c.sort===sortKey?` aria-sort="${sortDir>0?'ascending':'descending'}"`:''}${c.w?` style="width:${c.w}"`:''}>${c.sort?`<button class="table-sort" type="button" data-k="${c.sort}">${c.h}${c.sort===sortKey?` <span class="arr" aria-hidden="true">${sortDir>0?'▲':'▼'}</span>`:''}</button>`:c.h}</th>`).join('')+'</tr>';
     tbodyEl.innerHTML = filtered.slice(0,shown).map(r=>`<tr data-rid="${r._i}">`+cols.map(c=>c.cell(r).replace(/^<td/,`<td data-label="${esc(c.h)}"`)).join('')+'</tr>').join('');
     cntEl.textContent = `${filtered.length.toLocaleString()} of ${rows.length.toLocaleString()} rows`;
     moreBtn.style.display = filtered.length>shown?'block':'none';
+    mobileSort.value = `${sortKey}:${sortDir}`;
   }
-  function sortFromTarget(target){const th=target.closest('th'); if(!th||!th.dataset.k)return;
-    if(sortKey===th.dataset.k)sortDir*=-1; else {sortKey=th.dataset.k; sortDir=['name','tx','_inc','page','cls','tx_type'].includes(th.dataset.k)?1:-1;} apply();};
-  theadEl.onclick=e=>sortFromTarget(e.target);
-  theadEl.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();sortFromTarget(e.target);}};
+  theadEl.onclick=e=>{
+    const button=e.target.closest('button[data-k]');
+    if(!button)return;
+    const key=button.dataset.k;
+    sortDir=sortKey===key?-sortDir:['name','tx','_inc','page','cls','tx_type'].includes(key)?1:-1;
+    sortKey=key;
+    apply();
+    theadEl.querySelector(`button[data-k="${key}"]`).focus();
+  };
+  mobileSort.onchange=()=>{
+    const [key,direction]=mobileSort.value.split(':');
+    sortKey=key; sortDir=+direction; apply();
+  };
   moreBtn.onclick=()=>{shown+=200;render();};
   return {apply, reset:()=>{shown=100;apply();},
     getSort:()=>({k:sortKey,d:sortDir}),
     getFiltered:()=>filtered,
-    setSort:(k,d)=>{sortKey=k; sortDir=d;},
+    setSort:(k,d)=>{if(cols.some(c=>c.sort===k)){sortKey=k;sortDir=d===1?1:-1;}},
     showIndex:(rid)=>{const pos=filtered.findIndex(r=>r._i===rid); if(pos>=0&&pos>=shown){shown=pos+21;render();} return pos;}};
 }
 const rngLines = v => {
@@ -1186,7 +1230,7 @@ afEls.val.innerHTML = VAL_STEPS.map(([v,l])=>`<option value="${v}">${l}</option>
   if (A.some(a=>!(a.income_types||[]).length && !a.other_income)) vals.add('Not marked');
   fillSel(afEls.inc,'All income types', [...vals].sort()); })();
 aTable = makeTable({
-  rows:A, defaultSort:'vlo', onChange:()=>syncHash(),
+  rows:A, defaultSort:'vlo', onChange:()=>syncHash(), mobileSort:document.getElementById('af-sort'),
   theadEl:document.querySelector('#atable thead'), tbodyEl:document.querySelector('#atable tbody'),
   cntEl:afEls.cnt, moreBtn:afEls.more,
   cols:[
@@ -1241,7 +1285,7 @@ tfEls.amt.innerHTML = VAL_STEPS.map(([v,l])=>`<option value="${v}">${l==='Any va
 const tDateKey = t=>{const m=(t.date||'').match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/); return m?+`${m[3]}${m[1].padStart(2,'0')}${m[2].padStart(2,'0')}`:0;};
 T.forEach(t=>t._dk=tDateKey(t));
 tTable = makeTable({
-  rows:T, defaultSort:'lo', onChange:()=>syncHash(),
+  rows:T, defaultSort:'_dk', onChange:()=>syncHash(), mobileSort:document.getElementById('tf-sort'),
   theadEl:document.querySelector('#ttable thead'), tbodyEl:document.querySelector('#ttable tbody'),
   cntEl:tfEls.cnt, moreBtn:tfEls.more,
   cols:[
@@ -1307,7 +1351,7 @@ function syncHash(){
   if(!appReady)return;
   const v = document.querySelector('nav.tabs button.on')?.dataset.v || 'overview';
   let h = '#'+v;
-  if(v==='assets'){
+  if(v==='assets' && aTable){
     const p = new URLSearchParams();
     if(afEls.q.value) p.set('q', afEls.q.value);
     if(afEls.cls.value) p.set('cls', afEls.cls.value);
@@ -1316,14 +1360,14 @@ function syncHash(){
     if(afEls.inc.value) p.set('inc', afEls.inc.value);
     const s = aTable.getSort(); if(s.k!=='vlo'||s.d!==-1){ p.set('sort', s.k); p.set('dir', s.d); }
     const qs = p.toString(); if(qs) h += '?'+qs;
-  } else if(v==='txs'){
+  } else if(v==='txs' && tTable){
     const p = new URLSearchParams();
     if(tfEls.q.value) p.set('q', tfEls.q.value);
     if(tfEls.type.value) p.set('type', tfEls.type.value);
     if(tfEls.cls.value) p.set('cls', tfEls.cls.value);
     if(tfEls.month.value) p.set('month', tfEls.month.value);
     if(+tfEls.amt.value) p.set('amt', tfEls.amt.value);
-    const s = tTable.getSort(); if(s.k!=='lo'||s.d!==-1){ p.set('sort', s.k); p.set('dir', s.d); }
+    const s = tTable.getSort(); if(s.k!=='_dk'||s.d!==-1){ p.set('sort', s.k); p.set('dir', s.d); }
     const qs = p.toString(); if(qs) h += '?'+qs;
   } else if(v==='doc'){
     h = '#p'+cur;
@@ -1361,14 +1405,14 @@ async function applyHash(){
   }
   if((m = h.match(/^#(assets|txs|overview|doc)(?:\?(.*))?$/))){
     const v = m[1], p = new URLSearchParams(m[2]||'');
-    if(v==='assets'){
+    if(v==='assets' && D.counts.assets){
       await ensureAssets();
       afEls.q.value = p.get('q')||''; afEls.cls.value = p.get('cls')||'';
       afEls.group.value = p.get('group')||'';
       afEls.val.value = p.get('val')||'0'; afEls.inc.value = p.get('inc')||'';
       if(p.get('sort')) aTable.setSort(p.get('sort'), +(p.get('dir')||-1));
       aTable.reset();
-    } else if(v==='txs'){
+    } else if(v==='txs' && D.counts.transactions){
       await ensureTransactions();
       tfEls.q.value = p.get('q')||''; tfEls.type.value = p.get('type')||'';
       tfEls.cls.value = p.get('cls')||'';
@@ -1434,12 +1478,15 @@ async function showPage(n){
   const entry=byPage.get(n);
   let p=pageDetails.get(n);
   if(!p){p=await loadJSON(entry.detail);pageDetails.set(n,p);}
+  if(n!==cur)return;
+  const documentPage=+(entry.id?.split(':').at(-1)||n);
+  const printedPage=p.printed_label?.match(/(?:page\s+)?(\d+)\s*(?:of|\/)\s*(\d+)/i);
   document.getElementById('pageimg').src=evidencePath(p.image);
   document.getElementById('pageimg').alt=`Scan of PDF page ${p.pdf_page}${p.printed_label?`, ${p.printed_label}`:''}`;
-  document.getElementById('pageno').textContent=`Page ${p.pdf_page}/${pages.length}`;
-  document.getElementById('pagemeta').textContent=[p.printed_label,p.section].filter(Boolean).join(' — ');
+  document.getElementById('pageno').textContent=printedPage?`Page ${printedPage[1]} of ${printedPage[2]}`:`PDF page ${documentPage}`;
+  document.getElementById('pagemeta').textContent=[entry.doc_label,p.section].filter(Boolean).join(' · ');
   const docSource=document.getElementById('docsource');
-  docSource.href=entry.official_source_url||entry.source_document_url;
+  docSource.href=(entry.official_source_url||entry.source_document_url).split('#')[0]+`#page=${documentPage}`;
   docSource.textContent=entry.official_source_url?'Official filing ↗':'Filing mirror ↗';
   docSource.title=[entry.house_filing_id?`House filing ${entry.house_filing_id}`:'',entry.source_document_sha256?`SHA-256 ${entry.source_document_sha256}`:''].filter(Boolean).join(' · ');
   const cb=document.getElementById('confbadge');
@@ -1447,8 +1494,10 @@ async function showPage(n){
   let h=rowsTable(p);
   if(p.free_text)h+=`<div class="free">${esc(p.free_text).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}</div>`;
   if((p.uncertainties||[]).length){
-    h+=`<div class="unc"><h3>⚠ Uncertain readings (${p.uncertainties.length})</h3>`+
-      p.uncertainties.map(u=>`<div>· row ${esc(u.row)} <b>${esc(u.field||'')}</b>: "${esc(u.read||'')}" — ${esc(u.note||'')}</div>`).join('')+'</div>';
+    const rowNotes=p.uncertainties.filter(u=>u.row!=null);
+    const pageNotes=p.uncertainties.filter(u=>u.row==null);
+    if(pageNotes.length)h+=`<div class="unc"><h3>Page notes</h3>${pageNotes.map(u=>`<div>${esc(u.note||u.read||u.field)}</div>`).join('')}</div>`;
+    if(rowNotes.length)h+=`<div class="unc"><h3>Uncertain readings (${rowNotes.length})</h3>${rowNotes.map(u=>`<div>Row ${esc(u.row)} · <b>${esc(u.field||'')}</b>${u.read?`: ${esc(u.read)}`:''}${u.note?` — ${esc(u.note)}`:''}</div>`).join('')}</div>`;
   }
   document.getElementById('txtpane').innerHTML=h||'<div class="free" style="color:var(--muted)">No content on this page.</div>';
   document.querySelectorAll('.toc a.active').forEach(a=>a.classList.remove('active'));
@@ -1460,17 +1509,22 @@ async function showPage(n){
 function adjacentPage(offset){const index=pages.findIndex(page=>page.pdf_page===cur);return pages[index+offset]?.pdf_page;}
 document.getElementById('prev').onclick=()=>{const n=adjacentPage(-1);if(n)void showPage(n);};
 document.getElementById('next').onclick=()=>{const n=adjacentPage(1);if(n)void showPage(n);};
-document.getElementById('imgpane').onclick=()=>document.getElementById('imgpane').classList.toggle('zoomed');
+const scanZoom=document.getElementById('scan-zoom');
+scanZoom.onclick=()=>{
+  const zoomed=document.getElementById('imgpane').classList.toggle('zoomed');
+  scanZoom.setAttribute('aria-pressed',zoomed);
+  scanZoom.textContent=zoomed?'Reset zoom':'Zoom scan';
+};
 document.getElementById('doc-index-toggle').onclick=()=>{const grid=document.querySelector('.docgrid');const open=grid.classList.toggle('index-open');document.getElementById('doc-index-toggle').setAttribute('aria-expanded',open?'true':'false');};
 document.querySelectorAll('.doc-mobile-toggle button').forEach(button=>button.onclick=()=>{
   const grid=document.querySelector('.docgrid');grid.dataset.mobilePane=button.dataset.pane;
   document.querySelectorAll('.doc-mobile-toggle button').forEach(b=>b.setAttribute('aria-pressed',b===button?'true':'false'));
 });
-document.addEventListener('keydown',e=>{
-  if(/INPUT|SELECT|TEXTAREA/.test(e.target.tagName))return;
-  if(document.getElementById('v-doc').classList.contains('on')){
-    if(e.key==='ArrowLeft'){const n=adjacentPage(-1);if(n)void showPage(n);}else if(e.key==='ArrowRight'){const n=adjacentPage(1);if(n)void showPage(n);}
-  }
+document.querySelector('.dbar').addEventListener('keydown',e=>{
+  if(!e.target.matches('#prev,#next')||!['ArrowLeft','ArrowRight'].includes(e.key))return;
+  e.preventDefault();
+  const n=adjacentPage(e.key==='ArrowLeft'?-1:1);
+  if(n)void showPage(n);
 });
 appReady = true;
 void applyHash();

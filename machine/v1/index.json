@@ -1,7 +1,7 @@
 {
   "compare": "https://www.rokhanna.money/api/v1/issuers/nvidia/comparisons/2024-2025.json",
   "comparison_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}/comparisons/{from_year}-{to_year}.json",
-  "dataset_version": "2026-11-05",
+  "dataset_version": "2026-11-24",
   "documentation": "https://www.rokhanna.money/api/v1/openapi.json",
   "evidence": "https://www.rokhanna.money/api/v1/evidence?id=transaction:2025:000001",
   "issuer_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.json",
