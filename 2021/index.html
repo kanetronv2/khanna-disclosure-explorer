@@ -326,7 +326,8 @@
   .top .why a{color:#93c5fd}
   .processing-banner{margin:14px 0 0;max-width:940px;background:#fef3c7;color:#7c2d12;border:1px solid #f59e0b;border-left:5px solid #f59e0b;border-radius:8px;padding:11px 15px;font-size:14px;font-weight:750}
   .masthead{display:flex;gap:18px;align-items:center}
-  .avatar{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:12% 30%;border:2px solid #f2c94c;box-shadow:0 0 0 4px rgba(242,201,76,.15);flex:none}
+  .avatar-link{flex:none;border-radius:50%}
+  .avatar{display:block;width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:12% 30%;border:2px solid #f2c94c;box-shadow:0 0 0 4px rgba(242,201,76,.15)}
   .masttext{min-width:0;flex:1}
   .socials{display:flex;gap:8px;flex:none;align-self:center}
   .socials a{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;color:#98a2b3;border:1px solid #344054;transition:all .15s}
@@ -735,7 +736,9 @@
 <header class="top">
   <div class="wrap">
     <div class="masthead">
-      <img class="avatar" src="/assets/khanna-avatar.webp?v=64b260d6d1e0" width="144" height="144" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
+      <a class="avatar-link" href="/" aria-label="Disclosure explorer home">
+        <img class="avatar" src="/assets/khanna-avatar.webp?v=64b260d6d1e0" width="144" height="144" alt="Rep. Ro Khanna at a House hearing" title="Photo: Kevin Dietsch/Getty Images">
+      </a>
       <div class="masttext"><div class="kicker">2021 Annual Financial Disclosure (Form A) + PTRs · U.S. House · California 17th</div><h1>Ro Khanna’s 2021 Financial Disclosure</h1><p class="deck">Source-linked House filings, holdings, and transactions.</p></div>
     </div>
     <p class="freshline">Filing year: <b>2021</b> · Trades through <b>December 2021</b> · Updated <time datetime="2026-11-25">2026-11-25</time></p>
