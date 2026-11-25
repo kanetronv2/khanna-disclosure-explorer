@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -17,11 +18,20 @@ SOURCE_REGISTRY = ROOT / "lib" / "source-registry.json"
 MANIFEST = ROOT / "evidence-manifest.json"
 
 
-def evidence_origin() -> str:
-    configured = os.environ.get("EVIDENCE_ORIGIN")
+def evidence_origin(configured: str | None = None) -> str:
+    if configured is None:
+        configured = os.environ.get("EVIDENCE_ORIGIN")
     if not configured and CONFIG.is_file():
         configured = json.loads(CONFIG.read_text(encoding="utf-8")).get("evidence_origin")
-    return str(configured or SITE_ORIGIN).rstrip("/")
+    origin = str(configured or SITE_ORIGIN).rstrip("/")
+    repository = os.environ.get("GITHUB_REPOSITORY")
+    source_commit = os.environ.get("GITHUB_SHA", "")
+    # Query strings do not reliably invalidate jsDelivr's cached Git branch paths.
+    if repository and re.fullmatch(r"[0-9a-f]{40}", source_commit):
+        branch_origin = f"https://cdn.jsdelivr.net/gh/{repository}@main"
+        if origin == branch_origin:
+            return f"https://cdn.jsdelivr.net/gh/{repository}@{source_commit}"
+    return origin
 
 
 def public_url(path: str) -> str:

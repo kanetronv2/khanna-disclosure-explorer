@@ -1,8 +1,8 @@
 {
   "comparison_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}/comparisons/{from_year}-{to_year}.json",
-  "dataset_version": "2026-11-24",
+  "dataset_version": "2026-11-25",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
-  "generated_at": "2026-11-24T00:00:00Z",
+  "generated_at": "2026-11-25T00:00:00Z",
   "issuer_text_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.txt",
   "issuer_url_template": "https://www.rokhanna.money/api/v1/issuers/{slug}.json",
   "issuers": [

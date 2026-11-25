@@ -7,9 +7,7 @@ for f in docs/src/2026-*.pdf; do
   pdftoppm -jpeg -r 150 -jpegopt quality=80 $f docs/$doc/pages/page
   pdftoppm -png -r 300 -gray $f docs/$doc/hires/page
 done
-echo "rendered"
-ls docs/2026-*/pages/*.jpg docs/2026-*/hires/*.png | xargs -n 1 -P 8 sips -r 270 >/dev/null 2>&1
-echo "rotated"
+echo "rendered in source PDF orientation"
 # zero-pad
 python3 - <<'PY'
 import os, re, glob

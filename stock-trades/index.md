@@ -1,7 +1,7 @@
 # Ro Khanna reported financial transactions, 2017–2026
 
 > Canonical page: https://www.rokhanna.money/stock-trades/
-> Dataset version: 2026-11-24
+> Dataset version: 2026-11-25
 
 The loaded House filings contain 50,744 reported household financial transactions, including 44,080 classified as common stock. Amounts are statutory value bands, not exact trade values, and the filings do not establish who made an investment decision.
 

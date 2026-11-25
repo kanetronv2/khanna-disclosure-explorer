@@ -68,7 +68,7 @@ def main() -> None:
     args = parser.parse_args()
 
     output = safe_output(args.output)
-    origin = args.evidence_origin.rstrip("/")
+    origin = evidence_assets.evidence_origin(args.evidence_origin)
     if not origin.startswith("https://"):
         raise SystemExit("the slim deploy requires an HTTPS evidence origin")
     if origin == evidence_assets.SITE_ORIGIN:

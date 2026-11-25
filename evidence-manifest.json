@@ -27072,396 +27072,396 @@
       "sha256": "fd46b681c54e46ddc17a6e5e9f3eebd5fab267b037fb7ad7e6f7828af57976fc"
     },
     {
-      "bytes": 417398,
+      "bytes": 304660,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-001.jpg",
-      "sha256": "54b42360eb206f88f1b6131bf967361f496bea66a97cb9cc7008d0adbc17fcc2"
+      "sha256": "37a2fff8cc33c171f48a5c3134aad912d264ff76554c9053f2b8dd35d3463534"
     },
     {
-      "bytes": 405660,
+      "bytes": 302928,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-002.jpg",
-      "sha256": "38cdc3917e63f1a3afa233b5304b727383972bb084dc6a3442751d7d19582a10"
+      "sha256": "9f7e2e0b9c9be2dccd55e206e64447806253067d6012c803b105e053d9dea756"
     },
     {
-      "bytes": 415825,
+      "bytes": 308422,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-003.jpg",
-      "sha256": "49580305f58dc56c21508d26f0b3127ddc082b435f33b8a5ec9dcef9e45d2f4d"
+      "sha256": "cd78e3d9b57d2250763e8cd161521aa462a1c9de4c41539f48057f4880d0d766"
     },
     {
-      "bytes": 392333,
+      "bytes": 293257,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-004.jpg",
-      "sha256": "6ae2254aacd28a6c5273a0ce7f20716980a5411bdfe068911048793608ec3562"
+      "sha256": "d026c4408b303e534c151be807d3b347236f92e26d67e848cbc6220ace8b0cb7"
     },
     {
-      "bytes": 191143,
+      "bytes": 144986,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-005.jpg",
-      "sha256": "967c94dda451eaa2a609841006944ef89b03ed067ba41999dae44864a9d40a4d"
+      "sha256": "0b6f958e723a660573c6a121ed1fe11edc0e133be9770cebcb904bb86044971f"
     },
     {
-      "bytes": 416463,
+      "bytes": 311376,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-006.jpg",
-      "sha256": "8fc43599f5f69e39cf81e619fd657611568910047d04474968aaa01f7eb0354f"
+      "sha256": "1a3d4f3e59edc523fc539ea35d6570aac41f055c20264f80b5f18605c4f9574d"
     },
     {
-      "bytes": 400992,
+      "bytes": 296801,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-007.jpg",
-      "sha256": "2fad5ca714a99229136e3383d6c7c9d3fc88a7bc3374f8a39552f310f407d40a"
+      "sha256": "f990a9516aaa48034be9ace920daa05402fedc8b45ef5ab244c1867857dcf4d3"
     },
     {
-      "bytes": 298917,
+      "bytes": 226294,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-008.jpg",
-      "sha256": "b8492a42e405fbb5667c905721373fa30ef1d542255b112ca171f2503a2f725e"
+      "sha256": "d316ee2acce1893ec9696e99f4e193bd588fc3137a65ceaa6888d5dac9342aab"
     },
     {
-      "bytes": 397864,
+      "bytes": 296052,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-009.jpg",
-      "sha256": "127745527616e35cc0db9c2d4bd585f36fed1e84fee4046b7c8d169ffe7b8ed5"
+      "sha256": "f126b18619cdf666d878dd3e12a4efa02a2825696dca8f4ec57e1fc8ce14934c"
     },
     {
-      "bytes": 410260,
+      "bytes": 304637,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-010.jpg",
-      "sha256": "9a596165eb0fb1dcb3bfc7f3be5149790721303c5f8851a3b6cc340424c53dc0"
+      "sha256": "729c1997dd8b14bbb41bf844f58fa2d260b9030f48f1f89a0facfc36989a56d4"
     },
     {
-      "bytes": 384306,
+      "bytes": 288698,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-011.jpg",
-      "sha256": "92b1cdcdae50c22d1ecf57f938c3b2b40bf1bb487331e62c76ffbbc6f917dbeb"
+      "sha256": "0356576e27a54b3fec2eb6f841db885c1a4f4aefba34e2856b854f3ff94a76d4"
     },
     {
-      "bytes": 372598,
+      "bytes": 279893,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-012.jpg",
-      "sha256": "6b63842743374de640633b0a1260aac9476d7c07a571d53da220b8af5b989f10"
+      "sha256": "2a6aac4404c3963d8d2abd8ca730c58970fb251fcab01d9b69575405e2054400"
     },
     {
-      "bytes": 379889,
+      "bytes": 281876,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-013.jpg",
-      "sha256": "3cf6e31e22fe7d6881d2ab9f52926fe6c01c4f75d225ebb63431c89c1af0b3c8"
+      "sha256": "7e2e2e6153b29d3079d3affcbb00c78cc0a0273320c94b2fb2e8e338996a6680"
     },
     {
-      "bytes": 410356,
+      "bytes": 303181,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-014.jpg",
-      "sha256": "7ac9e1da52fd787eba0dad1c70c602f868644903b096e1861ccf2934166f01a8"
+      "sha256": "34d0fd58e653cedf0466d4ed491375af8365ba8e937fba366d7c4553c25ab32e"
     },
     {
-      "bytes": 393750,
+      "bytes": 294057,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-015.jpg",
-      "sha256": "32dd0123a3f392a47563feca340c51a4383fcb6f316c8551c2de5ba6eef89b34"
+      "sha256": "4834c70e58ff44900e1197a2d0d3d52244b82ecd36ae231baf45ede8f4995db9"
     },
     {
-      "bytes": 371712,
+      "bytes": 278798,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-016.jpg",
-      "sha256": "09f2f855bb5dd57872f64eeb8b05959dfbaaf4b6f05a218857c8150960c6d4e4"
+      "sha256": "e73aac10980997250eb0aa837123cd040f66c65d6c0aca88c8d423ece4e90230"
     },
     {
-      "bytes": 380863,
+      "bytes": 285576,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-017.jpg",
-      "sha256": "597c09ab6011225ccd3edccf7e1a459657d4b3765e617c86da73c4978c80451b"
+      "sha256": "3511168ec0b21859bd4c43587bf470586632ac35b1742d1e0f7fc2405549e116"
     },
     {
-      "bytes": 403581,
+      "bytes": 300752,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-018.jpg",
-      "sha256": "1c0744105b3770dd1a544d726589a6685db9e5cb016151b4fd39b4549226b05f"
+      "sha256": "be835089c5b415ddb85996f5f7211eef90bad5a5c62f9ec411d9423cfaf9e164"
     },
     {
-      "bytes": 419278,
+      "bytes": 310203,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-019.jpg",
-      "sha256": "4d84b1d34f019a52bcf8c0bc26449c8bcac407b596159b025e8bcc7129f707fb"
+      "sha256": "59e48b04af8eac307deb1483c584fa17c0ec1c2690cbe51b71dc991b96b4cf79"
     },
     {
-      "bytes": 423124,
+      "bytes": 313902,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-020.jpg",
-      "sha256": "4513137b74e76f66a4abe936e3d5c88830e2fec34032d8fdb6c7cae837475540"
+      "sha256": "1104c0a063b3d5d16b139a8522b0e5c35add66c46ec1dae2c807001e3cfbc17e"
     },
     {
-      "bytes": 435868,
+      "bytes": 322406,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-021.jpg",
-      "sha256": "c020539dffba7b749c5afdcf7e0edf171c977afc25b2564d616c82212e985866"
+      "sha256": "45dcb21d646eb0427504d45255076d3ec1adb1bfe92a70c3c5badefd1589a480"
     },
     {
-      "bytes": 408372,
+      "bytes": 307072,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-022.jpg",
-      "sha256": "13d11f75179d787efa92f9c447da657b3eaf29aa5076b6e771a06d43d10ba074"
+      "sha256": "a85d1479633badb6b86405b4f70f7bfe73b212e5e9dc800d28b8e443536551d4"
     },
     {
-      "bytes": 405729,
+      "bytes": 301430,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-023.jpg",
-      "sha256": "0dd40fb4dfef0d0467b0f678651f7df9b8469b8031d806ff8c0a99b8dfc0ce57"
+      "sha256": "7ed796ef7485af401baabaee71108e54efda326ab74449a75592b380e80320aa"
     },
     {
-      "bytes": 241803,
+      "bytes": 182223,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-024.jpg",
-      "sha256": "ad2316712c19c55ee155e56cc83ec372e64cf9b3cb4b5684bb81cb9fc69df488"
+      "sha256": "f2fba598886a7dbdc2620b82d325e39f0d32fc2b19a415b6a2653741b636b7ad"
     },
     {
-      "bytes": 391714,
+      "bytes": 289870,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-025.jpg",
-      "sha256": "012e872a8e8bc4a693c6d3404dee39c7e37493ff4fe9829a965682fe67cc2628"
+      "sha256": "fe424b185aa218cbc6781c624394f5b498c58c4da580af5ed7daa38dbf46b65f"
     },
     {
-      "bytes": 401318,
+      "bytes": 297879,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-026.jpg",
-      "sha256": "d1356c8563ae9875d7d78f07dbcae8b1c09732d01ee5a1738810169b8cae9a0e"
+      "sha256": "bfb78e4b9a4073eaf52802d820640eec4dc4f3f5a662bfbf0be4404abd5be73a"
     },
     {
-      "bytes": 370994,
+      "bytes": 276861,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-027.jpg",
-      "sha256": "c339b4d0ea8828fc7c255eeb25ef6f468bfa692c58ce78988a8927e12318631e"
+      "sha256": "a94c650da07941773f53e922369c38befe41e185da263653e6a7f00d730cffb1"
     },
     {
-      "bytes": 390280,
+      "bytes": 290597,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-028.jpg",
-      "sha256": "368a15f1d23dc7f535dd71d72fa91a1b3e38538676aed811cd83199ea56bedd1"
+      "sha256": "ec817b28fc80ea0a77466ba7cfbad43b005300172a4814628234c5d81d299785"
     },
     {
-      "bytes": 374932,
+      "bytes": 281074,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-029.jpg",
-      "sha256": "e5919530663b3160235963f3cc7239f451ad739cc8898b93786b54f29d8584f7"
+      "sha256": "8db0e63ba873f0441654cfa52b394b7fa61be7e36407c4b70bc3172e4b2706f4"
     },
     {
-      "bytes": 380532,
+      "bytes": 285474,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-030.jpg",
-      "sha256": "fb8b76dc4c1cedb253b9b050703ea09a2e0e255d636b6020c16bd7b1cbdabdcd"
+      "sha256": "03dc974ce9504475921141d137dd94c1332b145059a94668fcb46e49486171ad"
     },
     {
-      "bytes": 379371,
+      "bytes": 285981,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-031.jpg",
-      "sha256": "29355118fcbd1b1ce8390e1fbd3d4816173b0d0a6ccb1d0986226b9e9a2bad78"
+      "sha256": "f472987d236b811abbd36a20255d5fc0d4b46b3b87cf5ff1259bdb07674669d6"
     },
     {
-      "bytes": 423324,
+      "bytes": 309103,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-032.jpg",
-      "sha256": "ebc91a87f702053ce32d3b2e12962e5ef4b339c3c73a1c193d8a4b0abf70e269"
+      "sha256": "708bff6b9bc44c32623a7b18e61770b5a44479b34edad35c0f8b0b5f6f8606a3"
     },
     {
-      "bytes": 388191,
+      "bytes": 287196,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-033.jpg",
-      "sha256": "40535985f5ca8edeb8a166f33373bb3cb715442147b4858050e1b20252baeeea"
+      "sha256": "70e4b84172030f3f2196618a37b781589d1ad2e3a2abbc140aaccb708ca4d475"
     },
     {
-      "bytes": 366564,
+      "bytes": 277436,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-034.jpg",
-      "sha256": "969f9cd3197ebde80a79dde44c56f320b4f40f0f8aab4ce59a9fddc78d538a32"
+      "sha256": "69d8b103483f4f043d3106d773976dbac831bf6f1a52ac21a37548e519f6a90c"
     },
     {
-      "bytes": 390779,
+      "bytes": 290472,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-035.jpg",
-      "sha256": "ffa562d90978ec0d1e3ee20de3f7904bb7a8bdc51a3864c825d65e8a3a50424d"
+      "sha256": "cf82b58a28c29c76c78a65853340c16f756b6d6a79d422d9689f0e264d89ee7e"
     },
     {
-      "bytes": 395152,
+      "bytes": 293658,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-036.jpg",
-      "sha256": "9299cf16d7c4787903ee050b3954f18c40ea1a47a28645daa4eb6bb985e56691"
+      "sha256": "30f64a070d835a23ce2e090987f89814363e87b886cdaf40f8a739471f4c676e"
     },
     {
-      "bytes": 421758,
+      "bytes": 309798,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-037.jpg",
-      "sha256": "04438ad71e92c649620da67338a607cf084a86e2a0b69c57d5fd2a8ba3d5bbcb"
+      "sha256": "15df7f22ab1369e0df24b6b7e49e08b3caf2b280481e0fdae8842a17d20f8295"
     },
     {
-      "bytes": 408059,
+      "bytes": 301672,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-038.jpg",
-      "sha256": "5653be8567cafb251f349ed1ffb03f843a1de6ef7d5ff9629ff77f6051b6ca10"
+      "sha256": "1e99b2ddccf71a1db866e5790a91649b4314676e0b2adfb267b619b39a5f3aa7"
     },
     {
-      "bytes": 384536,
+      "bytes": 283216,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-039.jpg",
-      "sha256": "0b877dcef4290c7860f7dd4ce5b104598a042f4697614be53bf07f92a5f5a34d"
+      "sha256": "7793080aa7dc3440925d0bffaa13d871984c3b64560f3e3395b5e1bd41f2f106"
     },
     {
-      "bytes": 369592,
+      "bytes": 277422,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-040.jpg",
-      "sha256": "a9ca0452558f9da8bc2d702ebb54c78e3388b59e4ed66bf7dae1b6779fafa132"
+      "sha256": "6fad0f9f2accde051c77a1ef7a6573be72348526bb08679097a86b15b30750e3"
     },
     {
-      "bytes": 400037,
+      "bytes": 295910,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-041.jpg",
-      "sha256": "3123b50512f151231c70c1062232465962e871cf3707422338532e1548c2b040"
+      "sha256": "055d0a2f458160641857fd8f2f8bda2963461aed311bac7f9d97835c72968625"
     },
     {
-      "bytes": 380947,
+      "bytes": 288018,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-042.jpg",
-      "sha256": "e4ac4c6ea3e363f0ac96e16b9945cdb90cd6f24d81b2eb9928860da83eaadefe"
+      "sha256": "78e7dfa6b75b252b80e2c942094277a2f14c0b69a34772d41c25d85bbbab3d04"
     },
     {
-      "bytes": 373069,
+      "bytes": 276165,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-043.jpg",
-      "sha256": "46f98addd464d3c2ef7a4e72fcbec4771df9ce18522f9dda3d5626ae28d2ff4d"
+      "sha256": "87d3862e8046544f1f79757deeca788786e3f5ab8a9a836dc3fcf12204e3b608"
     },
     {
-      "bytes": 393184,
+      "bytes": 295929,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-044.jpg",
-      "sha256": "2ccd0e0e5bd406efcbb228ae7b97eace8054b53302f0827f35294234b637cd36"
+      "sha256": "78411cdc04aa61eab2f5989506ae6ad849df87682fa92d5c0e4a6b1e613853e2"
     },
     {
-      "bytes": 384317,
+      "bytes": 288872,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-045.jpg",
-      "sha256": "4d127fe45472c157a165736e1977d1056cba32bec05c10b9fd584eab709020f4"
+      "sha256": "2eb4e76df18ccfb07f3d5871752b35bfafe9b66782d4d15542f2d496ef150915"
     },
     {
-      "bytes": 382155,
+      "bytes": 282675,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-046.jpg",
-      "sha256": "2619b2bd9a2d3ab33b6815e34137ac4352427ff62328e19ff808e07697ce41a1"
+      "sha256": "b437241c9f1e7fa21d0392aae394e81dc03f1a95dc899598aa6d8e2e2a90e780"
     },
     {
-      "bytes": 375111,
+      "bytes": 280937,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-047.jpg",
-      "sha256": "4810bb399ac779a163761f53b308981d4c3ef91a59fbb9767996911ef852fc67"
+      "sha256": "d46b036af8911faa275f8a348449b773f25516769afe4066a502f6bc3964e4d2"
     },
     {
-      "bytes": 384114,
+      "bytes": 287509,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-048.jpg",
-      "sha256": "2b797668a5e9979ca7a66f626e37a0d9ead4efbdbeae5d8e1f20ada1466bb2d7"
+      "sha256": "3c5ae8f365ec8356fb8c3eb31ce8eef2d3a2a107a3f22862a767e1412ae97e4d"
     },
     {
-      "bytes": 372560,
+      "bytes": 281607,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-049.jpg",
-      "sha256": "bd80e8919d856cc8baeebd8e7fc856b38829e73b4137dcd32c444ff22ff4421c"
+      "sha256": "2dce7c66c642d5ef76baa389ab4135f339cc5f330d2cc9dc132ddd5c342281e4"
     },
     {
-      "bytes": 165860,
+      "bytes": 128620,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-050.jpg",
-      "sha256": "17a879e46269163b36e350d2e92216509cefbafdc9a0e1692760416891c73040"
+      "sha256": "b569e46cf63a8200454bcc60f7d6a1f1740f73b3f24073371acfccea73579bf2"
     },
     {
-      "bytes": 391618,
+      "bytes": 290931,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-051.jpg",
-      "sha256": "b104e5d89847b692e6b32175d18fb8a7992bc6879526efbdead0b94ba81afe8d"
+      "sha256": "9c3923dc8fd5e21848259d1c0ccdb3c0a98e033cd91de6c00bdfec6f0575c836"
     },
     {
-      "bytes": 385300,
+      "bytes": 288708,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-052.jpg",
-      "sha256": "577e1fa614a20973809b80813476d47e76588c5dd71ba193a456f983538d4433"
+      "sha256": "5637b0b58da70727db49a5578af8bc6970aa83d2cf5f91073cdf2425862dd230"
     },
     {
-      "bytes": 386140,
+      "bytes": 288011,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-053.jpg",
-      "sha256": "63009194525342b6c7caeda56293b3e465fa105ce8d8cc373db98bd4dd0a81c8"
+      "sha256": "f9e5ca3bac1c9f4b297b0c82f2a6a3b5665040bda67f00db5fbe05c144f3dcf5"
     },
     {
-      "bytes": 400689,
+      "bytes": 297455,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-054.jpg",
-      "sha256": "deab6b15ad1a4e1d004532d59e7cbb5ad6c512fd73c88101d60a3bcb746ef4a1"
+      "sha256": "825508d3b6d0262fd91f2c8c5d13f9fc6790a79ba483dc94e3c1c429a1aae30d"
     },
     {
-      "bytes": 410434,
+      "bytes": 306111,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-055.jpg",
-      "sha256": "43856d314b40be7c7ea8642f7e6bc15858a3c9c7e2d50b959b01d7e5b5d37182"
+      "sha256": "9602baffb1efbd4738cbe5e9b7cfb6ac1dfb105aa8bc804b94eeb9aff3f6cf0a"
     },
     {
-      "bytes": 205038,
+      "bytes": 157278,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-1/pages/page-056.jpg",
-      "sha256": "59541630f149bc1049e2b6dd67956a193bb0f65f1c19a7843db7c8e4188cf4fb"
+      "sha256": "deb97fabfce31e20241e409a5f86cc5804abecb38c30a28bb82bcf4309a1632a"
     },
     {
       "bytes": 274865,
@@ -27625,1439 +27625,1439 @@
       "sha256": "25dd8421ad6f2d69807016764cfa5d43c6c6c68ebd0f2e599c9a3b866e5eeedf"
     },
     {
-      "bytes": 425697,
+      "bytes": 313907,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-001.jpg",
-      "sha256": "b73a329a95d60eac0762e99289e6c5e264cecc51e916f62812af1050a39ae280"
+      "sha256": "ce5c89742970e0893ef3ab3c4024f65fcb7dd70fd57b02f8069b25ee67f04ee5"
     },
     {
-      "bytes": 362512,
+      "bytes": 269396,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-002.jpg",
-      "sha256": "e2cf820e482f48d990a4cb8d34a30c6cbe4af5995e6a83bbbd1da256e614d3c5"
+      "sha256": "978fb26599da5f81328503a71a70184945f0b57f7a0d753071af704b669b6461"
     },
     {
-      "bytes": 413818,
+      "bytes": 303243,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-003.jpg",
-      "sha256": "f8c7332c6092be272974a8fa76d6c638cfc0e86e0b41e513ccf1624e69d12a03"
+      "sha256": "c888a93c76c4e6c6ff2ee00ecbdba1f2d4b646b329e3409e0b27bd588558d36a"
     },
     {
-      "bytes": 147023,
+      "bytes": 114887,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-004.jpg",
-      "sha256": "4206560682d6fcb63f42b88d8fa4f24d6c35f299025e5a5d023b88a64a723596"
+      "sha256": "305fc22fd209906ef2de62948da49fcd27538fa6f8c6299c024a123c8b5c43da"
     },
     {
-      "bytes": 387571,
+      "bytes": 286472,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-005.jpg",
-      "sha256": "be2204c0f2307224ff7e1e445eefea3d5d10bfe054e66a336b2af2bcbe19bd8e"
+      "sha256": "d5649151cf2515f3525b69724be821ef8f3fd0ce93407f61866334cde003e4dc"
     },
     {
-      "bytes": 395940,
+      "bytes": 292008,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-006.jpg",
-      "sha256": "6e7616fd4a73dd6fa3dbc01e53ef2e55db700780185e114a48051fee0c5bf96d"
+      "sha256": "98352898eb409c8e0519cf61dc62dd68e969d0feb1b49815ae5e1cd46e7c8401"
     },
     {
-      "bytes": 381081,
+      "bytes": 280626,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-007.jpg",
-      "sha256": "63953f7695b43c2c5f4836f0b4487eb4ea324b3c020dbb40a7b32c2581b29222"
+      "sha256": "1b59021fdd5424013a44cbd5b9d5471940e61ef70797cfe901d43d077cd6b904"
     },
     {
-      "bytes": 389830,
+      "bytes": 289933,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-008.jpg",
-      "sha256": "57cd3e461d2d7b52afab6c4bf882c19c2afe04fd9df5348fb9103c839731f465"
+      "sha256": "b4637102f696cdf052e69d9cf481a5f1136240facc2ef3667df5e6637ea6dfab"
     },
     {
-      "bytes": 391818,
+      "bytes": 288467,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-009.jpg",
-      "sha256": "4e4fdfa8bc5e4757c91bcc3a0fc0aa5f21f7f464d47ca66b1b1ca959d558698d"
+      "sha256": "42d065c8d254c69e3dd8e8f2fa4404f33f04414dd7408a8c4eb5aaf756ede998"
     },
     {
-      "bytes": 398797,
+      "bytes": 292176,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-010.jpg",
-      "sha256": "1a4bdd84fa0451695f88c72297182b5eb7f47a160e1b1a003bd7904abf25deee"
+      "sha256": "08e8f580e9281e0d40f6f387d533f226804c86653b6f1b4d62f6635dd87349e6"
     },
     {
-      "bytes": 390269,
+      "bytes": 286926,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-011.jpg",
-      "sha256": "6b33621ca57205057d8dbb8de5b1089c9fbbe8802a667be2d3f1ce2ebd2df1b8"
+      "sha256": "724d73bb7fc72944d3a2e31530deaff1ade67dddf643809c63f55444b4c7327c"
     },
     {
-      "bytes": 390843,
+      "bytes": 289124,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-012.jpg",
-      "sha256": "b9f27849f543fb3bf838c604ab07751489862bd1dc9e6c8843c93f894ba16478"
+      "sha256": "fb50dae8f4293637a9f825f8d1cb0bc91e9c70ae00c8a30f72e75900dedb18a7"
     },
     {
-      "bytes": 151923,
+      "bytes": 117908,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-013.jpg",
-      "sha256": "f91fd32e4abea8396d9eb3cc9ae2ff105e16a68cd28e398f024640ac194a35d9"
+      "sha256": "2020c7d05a8828f544098c27b737978261dfdb80cbd378a2a7bb1a1f64d97eff"
     },
     {
-      "bytes": 386257,
+      "bytes": 284842,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-014.jpg",
-      "sha256": "eca03b27c0acb1f2b1cee819adaa5d4485896bb687a1cbfefbe4f065d0d9bac5"
+      "sha256": "9e8364ae98c18488dd544fec438bdc44da31635274c4290fc89b8a2008882441"
     },
     {
-      "bytes": 382473,
+      "bytes": 281401,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-015.jpg",
-      "sha256": "2deffac9ac86a87bf96d1756596526631ce0bc6bd70f797a0347391da179852b"
+      "sha256": "6f7d0488cdb4b4e7ec15b651b592960be425074ba33d5157b1efc4611e84c5c3"
     },
     {
-      "bytes": 375571,
+      "bytes": 277587,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-016.jpg",
-      "sha256": "a55aa9441ed87486b4b5c2ea96328e06c40f78d9d83992d1dd1c1ea842a22850"
+      "sha256": "799dc987bd8309f62c038f6e5ee6708b9c5fb9c0ca330212559be7c9d61ace25"
     },
     {
-      "bytes": 379959,
+      "bytes": 279959,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-017.jpg",
-      "sha256": "fe811f51b4ba62a70a43732797463bc9ab4ce7c41febb42440203fea13913ef8"
+      "sha256": "451977045d8440514ef156cb759217644f56309b7fd6685e19d795efab627efe"
     },
     {
-      "bytes": 390272,
+      "bytes": 288345,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-018.jpg",
-      "sha256": "476d0dc6bffeb04a82550ece65790afc85469a5464ff20211d5e5118c6fa1a1c"
+      "sha256": "8957ed3da312a2031b677f59fb0c34c0469290fdeb2208530e3f162782dcc3d4"
     },
     {
-      "bytes": 389554,
+      "bytes": 286319,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-019.jpg",
-      "sha256": "ced336ec21244e7f37613ce50e517825e8c9e04cd443f2942b7004048bf52215"
+      "sha256": "ab6402e25640a2543c1c558c4844a17b49960581863714d190c3deb88e88db04"
     },
     {
-      "bytes": 384282,
+      "bytes": 284210,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-020.jpg",
-      "sha256": "8b3377beac29f3c9f66a6965a7d17107e4bf8750824b70b27778298dd7a6414a"
+      "sha256": "ad2c19d8d64d8e47892e4e1e9bbec887a91059fd5d55c763844fe2dd954d4732"
     },
     {
-      "bytes": 390191,
+      "bytes": 287148,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-021.jpg",
-      "sha256": "a3172cce909ba21e4060f83b98d18854f5fc34c22357ed9e631694ada78b2479"
+      "sha256": "1dfe3de806ddeafd48b11e67e7db3f175a2e164a5d36f9ae246179a2a369e246"
     },
     {
-      "bytes": 384615,
+      "bytes": 284143,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-022.jpg",
-      "sha256": "2588a94696fa910387ffd6422f2a79934ce15f80a4b7a2fc3338f02e37e91176"
+      "sha256": "1b3ea831ec35fa9ead5572cab26dd340f12170bc15541d879b7a8ca8d67cda92"
     },
     {
-      "bytes": 410499,
+      "bytes": 300866,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-023.jpg",
-      "sha256": "7789308170f3eeed611ed9ae22449ed73e5d631c70f4b3795fdca5e71284ad1c"
+      "sha256": "67a2966503ae006dd6cbad0abd21169d655d33c821a9fd16eae1fbbe3cdb59c4"
     },
     {
-      "bytes": 407601,
+      "bytes": 296809,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-024.jpg",
-      "sha256": "d8da99d1c013c20832a7d38272c3b90a5558bacc25cff9ea6f2562c2242b380c"
+      "sha256": "534f6ec55397bc82ba5af8e2fdd5e8976f0f63f7a1b1fb46267c4d698b6d85d1"
     },
     {
-      "bytes": 404008,
+      "bytes": 296340,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-025.jpg",
-      "sha256": "35cf2fb521d9d0eb657b5cb446928e3a9823c04b33c5ca6a711bbdb5d95b0281"
+      "sha256": "042366ce0dafc4705144e5a9ad2079f775a9cd6bb780cd5e0e8fa3feb9b47d3f"
     },
     {
-      "bytes": 407127,
+      "bytes": 297036,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-026.jpg",
-      "sha256": "20269b1b5b3df7b53c3d37423f9b393e20c53daad4f1d83c057d3e232723419a"
+      "sha256": "c4e08f7097b9e3330e2b17ff908c69c2c6296016354aa560e690745c5221a4f3"
     },
     {
-      "bytes": 140697,
+      "bytes": 109714,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-027.jpg",
-      "sha256": "4ddc88f7e8fcb9cec30d1e8c46ea19c0fc3bb8901d03e7e917bedf10a088b313"
+      "sha256": "dfb759ff4dfb37ee34ce7f6eead59aa3b6431bce28d85b7c3414989945f1108d"
     },
     {
-      "bytes": 399653,
+      "bytes": 294938,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-028.jpg",
-      "sha256": "a8b1dfbaaa888b525bdc1d8d800e7953cc69b63533a10972d464317354c58dc2"
+      "sha256": "eb71e8982484785b1028b1178d1d98953c47aa5e3841145b0696caec3738c6db"
     },
     {
-      "bytes": 410153,
+      "bytes": 301939,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-029.jpg",
-      "sha256": "47ace97b425a3b22dbfaed79cf35e0e0ddf20df92bced7e8180ce07751511207"
+      "sha256": "bdf23eeef2ce3bd62d05355fe7daebf3b7f4d7bada852dae4d54ae436940b0e2"
     },
     {
-      "bytes": 395392,
+      "bytes": 292441,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-030.jpg",
-      "sha256": "9d21c0137f8e6a9df17f76fb1c4901e296e6b5bf406fd71f66521569bff9fb5a"
+      "sha256": "ad3ec8aa9bddd16f1193ae3ec8e991fef73a4d95cb0c303ce071e77ef3acb105"
     },
     {
-      "bytes": 420300,
+      "bytes": 309866,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-031.jpg",
-      "sha256": "9e64c0758d0cb2f05d374a408d6667b225c8313bf10afb624d69e72bba3afab2"
+      "sha256": "1b674f1888bf5ed3459c1a70ff61ffbd0dc0cd6196bcd2550c8107cf39b17e7d"
     },
     {
-      "bytes": 405225,
+      "bytes": 296768,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-032.jpg",
-      "sha256": "4aa2b5fb1ae3564c1ffd729609645324fce29405256454baab6363843bdd7645"
+      "sha256": "a2c08afc8bbac8413efaa7bd4e258e5ac028a55f90e581e348f97d3bc0296537"
     },
     {
-      "bytes": 385883,
+      "bytes": 283473,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-033.jpg",
-      "sha256": "4c9c2fecbc017c3b9f6c16a4e44f4e6ed79d8ebceeb623edc3e90722bb30ad14"
+      "sha256": "683102cf5246f00339fadddb3dd2e50a0068817f40c9662de892af6d847b5e28"
     },
     {
-      "bytes": 398260,
+      "bytes": 293195,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-034.jpg",
-      "sha256": "429c10e8bd62642ae4715144454406dbf7c897c4b29191335cc9b0e7f5551227"
+      "sha256": "e614d1f06a2d8bdf010f1d6b66b5cf05ecbfc5a9e8f3570ead443d3002fd44f1"
     },
     {
-      "bytes": 426015,
+      "bytes": 307991,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-035.jpg",
-      "sha256": "1232ab3d970d11c1a9414d151ec2e424eca1ea8289fe6131459f5ae532407df1"
+      "sha256": "edbef19626b7b90ff61b46135c3bd9bba5ab3945576c795b4bd3fe9207271ecb"
     },
     {
-      "bytes": 279334,
+      "bytes": 208348,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-036.jpg",
-      "sha256": "19fd1ed54f9eb6a626cee11bb613c8860d2776998cdefa58bb9ff2a87c771fe5"
+      "sha256": "8e2e1b21bd93d6f922ca6c427ec086d9ed212492aec39ea59c1442ace3437632"
     },
     {
-      "bytes": 196977,
+      "bytes": 150110,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-037.jpg",
-      "sha256": "18703d694100370efb4c7362bef09316e0f0aba231e3042289cb6d88dd753e92"
+      "sha256": "25e33c3f6cd942807d6bade76e91aa0319d595abf216007c87f99ef69d2d3b19"
     },
     {
-      "bytes": 377585,
+      "bytes": 279980,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-038.jpg",
-      "sha256": "2cfd2cba75065defc24259413a58d0bbd9d49a896d0859238240ee9470571df1"
+      "sha256": "34ac7b80d91be681340dc87faa3bb4c221b546333bda2d714a40d92117b0606c"
     },
     {
-      "bytes": 125771,
+      "bytes": 100188,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-039.jpg",
-      "sha256": "8f53d62ff4035676a40e4c8712692c011687418185a7d7650ec237a446dc8df1"
+      "sha256": "3f6db5eac8d80e8726bdb4f7748d842c55d8a268a2147e15eeb3fddfff199e4e"
     },
     {
-      "bytes": 126742,
+      "bytes": 98931,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-040.jpg",
-      "sha256": "32276735b77276c17e38ee36866106afca18e1980c13bc8bc1ce21a874b6c9e8"
+      "sha256": "4e37bba4437394ad00f5047cf5abe1897cfadf1e9ed9be5ef7ee08956d6bfaa9"
     },
     {
-      "bytes": 265358,
+      "bytes": 198096,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-2/pages/page-041.jpg",
-      "sha256": "625edfecfc7144957d918caea3a429a101c4e0dd3c3b0a03fcc223c66fef4581"
+      "sha256": "c80e872499b6e6e60ecf40bbc48aba1e06c2b53fd2c1eb6c713d77b08428b982"
     },
     {
-      "bytes": 402761,
+      "bytes": 297606,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-001.jpg",
-      "sha256": "74af800a6865f79cea03c44f8e79d0fb8c46883362af533e01e89af7ec2a40dd"
+      "sha256": "5abf69eaeded65f6f3910975809b83b13c38f9d41f43cfa03851706f28711a5b"
     },
     {
-      "bytes": 404230,
+      "bytes": 298755,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-002.jpg",
-      "sha256": "782fc039e266c6bc88272b125442dbf0c63d9eaf6126dbec154f3539408edeae"
+      "sha256": "7515f9d45ef3d542d3b432a2822bc153cf423b881e2282e1d7b67db41a39a730"
     },
     {
-      "bytes": 130208,
+      "bytes": 103138,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-003.jpg",
-      "sha256": "0f94db5cceb9104b3f1280176a963c54d985c8687086a7164f0cd2ce86834e07"
+      "sha256": "6f7f73dc2fcdf58632f2ca7515c3809f10dabde725dce799bbbe17badee99e94"
     },
     {
-      "bytes": 421420,
+      "bytes": 310317,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-004.jpg",
-      "sha256": "97a822fb50aba20f4d5d205108966574580d1181792bb7bd7d6693a192b50265"
+      "sha256": "4ff2abc8f0d4776358ff05b96fa1383b9ee61c97a389c3ff4cee7545f2c6fb3c"
     },
     {
-      "bytes": 410043,
+      "bytes": 303935,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-005.jpg",
-      "sha256": "6dc2fe6e8cfcf971afe1a9d7f7cce3437bed0ce68b3c1be08c48eb67cfc86cc6"
+      "sha256": "291805e3a201ad36411d7470150e1fe0cd7e4d95851f53b3f3e67a9e4eeae3e8"
     },
     {
-      "bytes": 404821,
+      "bytes": 301272,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-006.jpg",
-      "sha256": "6e694d0eb80d0eec6d3f2a6c5cd1c0508a932428c7001018729f66362da7ccb2"
+      "sha256": "803348486c005e8ff00d8181efced748b00f6f3a5093616ba8bdd20d9cccfed6"
     },
     {
-      "bytes": 402053,
+      "bytes": 299892,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-007.jpg",
-      "sha256": "a53c6492b7911b66957873221a17e002a59691656c11b8a1abddbdb22a14aaf7"
+      "sha256": "2ca4501984204c5dec7e7cc1e67711fb7639c413dbc0e07fafc40e9da07b480f"
     },
     {
-      "bytes": 416640,
+      "bytes": 309146,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-008.jpg",
-      "sha256": "8c31eb0fcabd587e4e1c9e506b0b6c5f98244cee9cf2bc75ecd1fb2bad884c3d"
+      "sha256": "8af97e84b6fa59d8061e871760f4a0a78c260824a48ff5b0d09feedfe7052b05"
     },
     {
-      "bytes": 416853,
+      "bytes": 308296,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-009.jpg",
-      "sha256": "2a8b063c66c9cfb0d510fcc8fdb418900edac50404ccec8c025225e6b5a4666b"
+      "sha256": "fe54bcd80f14d6bce42fddaf7575e970be8ef02be15e0de26051d01650129f7e"
     },
     {
-      "bytes": 393867,
+      "bytes": 294426,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-010.jpg",
-      "sha256": "6b0906cfee0b315d30c867b9ae874abd93d82ca0de64b0e5016f27cec14ae460"
+      "sha256": "3a476a520138d874bba61f6f2f3717c8f54166e0cafdaab758253d6d5edc2e99"
     },
     {
-      "bytes": 346918,
+      "bytes": 260629,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-011.jpg",
-      "sha256": "30f44b7a7007e54e592fc014428114220dd2cb93913889224f0b20c3be6f6ba0"
+      "sha256": "7cac36920de846c793efbb1a1e6f055d703c790ab01d570e1dbd76363bc06631"
     },
     {
-      "bytes": 386387,
+      "bytes": 287563,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-012.jpg",
-      "sha256": "72a5b44a18be40838480693e39473093174e01e7f5053144a4d4ef0d8e522cb4"
+      "sha256": "7bbb5dd8830d302ad5b998383996285f41274e1bbaee541747d385746a2dc209"
     },
     {
-      "bytes": 398091,
+      "bytes": 296484,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-013.jpg",
-      "sha256": "e97ecc0a9c5abf19176774bd9174756551f18554d581e54d5a40a17436ce5442"
+      "sha256": "7e0f3b7d63ab084922d203ac6099aea9b83e481363967fa6a4e52e5744a52f1a"
     },
     {
-      "bytes": 383602,
+      "bytes": 283662,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-014.jpg",
-      "sha256": "979d8fe0818953de3f7b91d85c94e5b927b11e4feb40ce3ec0dcdec793313085"
+      "sha256": "f16fbde71893691ebbfac966e29f39d8657f8cadd8bd777994702a5bc217c535"
     },
     {
-      "bytes": 400748,
+      "bytes": 296957,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-015.jpg",
-      "sha256": "411db695079973dda340b6b970988d2f7470ec2a49d19a7ce02b6deca66e85bc"
+      "sha256": "c9ab980f2bcf42956801e8c165f4a7b1a23f0b2581b5973b4296c0ef7e3448f3"
     },
     {
-      "bytes": 407422,
+      "bytes": 301965,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-016.jpg",
-      "sha256": "ac2b7a489c8b5586083c72f3ea159749c34bb1117dab73a5a63db0607d82fc88"
+      "sha256": "9a1e6fdcde7be1826990893ba6157936a5a2c03cfcd535ea04ee1100f1a01a86"
     },
     {
-      "bytes": 369172,
+      "bytes": 273939,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-017.jpg",
-      "sha256": "32a194219963f485c6d3af2a033e3e3139b15191775669cb3e90660a86f76915"
+      "sha256": "4cbc4dc828b304c95f7ff9d3b3c5d73f2a446e9d1299f40ebcd43483623d69fd"
     },
     {
-      "bytes": 251747,
+      "bytes": 191285,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-018.jpg",
-      "sha256": "924f1bcfad71071d6111170be4db37c137080dc386a4ee662566f90b4f4f26ed"
+      "sha256": "5829265fdc53de40700da953fbb2aee1f07e0120c31815dfeb8dc4ea6b06b3cd"
     },
     {
-      "bytes": 373376,
+      "bytes": 276866,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-019.jpg",
-      "sha256": "d12b836b877e69537a5d5a867b8f39581735142a0fd4c032094d0d325daef353"
+      "sha256": "bd483c54c5292db8bb65aa5feaa4245a4d0324a27692df1ea2775b64ac641892"
     },
     {
-      "bytes": 383043,
+      "bytes": 284520,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-020.jpg",
-      "sha256": "0f8a5367d377f2480107a94b7fd00475e217a56619027adddaad3309c46188cd"
+      "sha256": "f36a53286ce71ebde2fa2049409b2e94233b8f64e843e6b399533bd32aeb3ab2"
     },
     {
-      "bytes": 372925,
+      "bytes": 275367,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-021.jpg",
-      "sha256": "a70c4795a1dceee2fba0dc2d6f9ff68ba096d9dc15c4cf874e59834e705341c2"
+      "sha256": "bcbf1dedfb01a8fadbb581520ea7fb868860442a59fcb24f1ab3409d276b68b4"
     },
     {
-      "bytes": 374577,
+      "bytes": 276378,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-022.jpg",
-      "sha256": "44b6f4857454ec79c88079a5aaf6ce550d7d8be7955d2fd1b7fcdcb317b8235e"
+      "sha256": "57ac3f134882fa68a49e27f3afdcb5043cfc0f8ac82df7028da32592b829024d"
     },
     {
-      "bytes": 367777,
+      "bytes": 270790,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-023.jpg",
-      "sha256": "894de83269105a296aa3775017b8e9ceaa955806f6c6bfe5c169c7eca12875f5"
+      "sha256": "053bb75078b7d7bcc55d88815ce2f78425eefc0dd89f54058572b079d3da1921"
     },
     {
-      "bytes": 363791,
+      "bytes": 272876,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-024.jpg",
-      "sha256": "f9a39a22262038c0901dd99bca3d0d8ee1f6931d2adcde50889047a53ebb6cb3"
+      "sha256": "a63e878b164c9093eba0674c29916ab7095849b4b72eb4cd4e8c2843df9804b7"
     },
     {
-      "bytes": 382347,
+      "bytes": 280240,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-025.jpg",
-      "sha256": "97391ab14d736001896b9261278e68916285be4dcba9193739fb43c38dd3a0da"
+      "sha256": "0d03876d1dc959e1e936b3ee11c6d6142a38a97da822cda3315ffe98d170cdf4"
     },
     {
-      "bytes": 365355,
+      "bytes": 271819,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-026.jpg",
-      "sha256": "c329912584049481bb605591210511688ffce9bb4ba1c7cbdb26948c05b7c08c"
+      "sha256": "ee818a8fe6afd2a80646843c99b53d80fa2a5d686cb55c26caa0bd997f0a6fff"
     },
     {
-      "bytes": 366181,
+      "bytes": 269484,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-027.jpg",
-      "sha256": "7474daf2874cadbe4edb5c859af5e6554a6d3f3d329bc258c4eaaf212f0426e4"
+      "sha256": "6a0c5f058215d964a74616050b85b0e95714a85f312f1b9e40179a1b81b4d484"
     },
     {
-      "bytes": 379584,
+      "bytes": 279752,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-028.jpg",
-      "sha256": "5715189dace66df2fd5a2c14310980ba396d308a0db99b9088b72e2464743a18"
+      "sha256": "ed8d318d63e3a36fcdfd4317dfa9e2879b4fce6701053570df4ad1276fd1e130"
     },
     {
-      "bytes": 382297,
+      "bytes": 282845,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-029.jpg",
-      "sha256": "ca2a3baccfd9ef01beb0eac583d985215bc036a5aa1fa7af6085725677e4f2d7"
+      "sha256": "d79602576bf423331859697e48ef812a4953fd586e44062b10ce9827a2e70e3f"
     },
     {
-      "bytes": 368605,
+      "bytes": 272951,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-030.jpg",
-      "sha256": "d21d40212828984e539510616d62f893ed96caa0b1dab7b57ab13261ae5ced87"
+      "sha256": "95e02ba61dc9ebdeb776c0f5cdca36b66b14bd576ce99c68eaf655a3697749b7"
     },
     {
-      "bytes": 352524,
+      "bytes": 262260,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-031.jpg",
-      "sha256": "fc990ff09832cabf33ddc3f40c7b4d7239d758b78fdb118789dd2b20f655e8af"
+      "sha256": "1b065c0037f1591d12975d3f6fcd8e926a1db30f5a3379daaaf03fd20bd10612"
     },
     {
-      "bytes": 199438,
+      "bytes": 154685,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-032.jpg",
-      "sha256": "e252d8dec6ccdb5b41154b5ab4ade0c53d5d0ac46b49dd388f064a24050c140f"
+      "sha256": "036a3996d8a6ade890ee637079997d151eb9152e21d6f64806571f241d5684c1"
     },
     {
-      "bytes": 384796,
+      "bytes": 284267,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-033.jpg",
-      "sha256": "9fd1ce598afa45720bee76a48b402beccb92cfc7f6deb2c31c78ebb515cfaadd"
+      "sha256": "40aa77b1d28afff8ae38c36615e0f3673535f56283dc8c9070cc8e95f20e491c"
     },
     {
-      "bytes": 391404,
+      "bytes": 291632,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-034.jpg",
-      "sha256": "6846b5e188639c3351d64931d07f8a210fe2c05f62ad390b4974e41d4bc46020"
+      "sha256": "c336f7a89bbadfab5b431e3f63bac53f11eaff27c0df4178366f4c4edb83bae9"
     },
     {
-      "bytes": 187097,
+      "bytes": 142218,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-035.jpg",
-      "sha256": "1c564b1a9951721acbce8805a3d16819df082f987136c6c81ccd67e2f2b09642"
+      "sha256": "1032b38a3f93600db8d3fbd5dd866ed8dc92e9167299effe715c4a97420a8f69"
     },
     {
-      "bytes": 124423,
+      "bytes": 99319,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-036.jpg",
-      "sha256": "0181ce55bcef8f9cd12b911b47f97def2bebb52021f71823f3bd9d5a21401e76"
+      "sha256": "8e33cc1b0ef87ba6eab4e912abcc11b1e0c01c7e92058c02aabcabf448846332"
     },
     {
-      "bytes": 134262,
+      "bytes": 105737,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-037.jpg",
-      "sha256": "b2d8aa53ca216f1378076b91aa76af2fc4eed6d337d10ca9ccf345bc1009086d"
+      "sha256": "afae61c0dc6df4e84764a4f0bce94ca424eee8742fd125f6ce8579284df2702b"
     },
     {
-      "bytes": 460712,
+      "bytes": 335307,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-038.jpg",
-      "sha256": "c1a26327b6d152adcf2b659542f24939379d0da0c9dad665a6b80be84b382295"
+      "sha256": "653c3d0818751d5294bcaef52461265fe798c31332b41d59d06b2b9b42bc263f"
     },
     {
-      "bytes": 156699,
+      "bytes": 120979,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-039.jpg",
-      "sha256": "4415df6740b0bcf374f2f21af9d2b97f265ab50ae51319e20d3a310da2eecd8e"
+      "sha256": "5719b9d0063da4ac601b643fae1e624984fd17b48d6174155f877954116ade76"
     },
     {
-      "bytes": 448743,
+      "bytes": 330459,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-040.jpg",
-      "sha256": "131dc7c6d16fc4d29b34ec6ca019719f8b8f38303fca4248dc2ebc20e8dbee13"
+      "sha256": "f964b4d13bb5a141583c2b9386f037f94bcbcc3f9b18314ac7d38c3e799bb2e8"
     },
     {
-      "bytes": 165992,
+      "bytes": 127431,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-041.jpg",
-      "sha256": "e46228e9878c55e127eec8460cd58de9e9c543d3bd80c2f96873c87de2804e0c"
+      "sha256": "a1c7d25b466aa6af22be5ba1d26a4624ce1b3d4939dfc7217510779f8f9b5cd8"
     },
     {
-      "bytes": 412950,
+      "bytes": 304272,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-042.jpg",
-      "sha256": "699f5b06ea8cb57147432be5b32ae8589c968734ea0c2f2b0efb548432e6e90c"
+      "sha256": "aeeac6cf5c072f6e37f66c13d53bc5858cbd68c18bf3a64bfd7962fc98d4875c"
     },
     {
-      "bytes": 130482,
+      "bytes": 102854,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-3/pages/page-043.jpg",
-      "sha256": "ce17f774895ddbcf6d1ceec2bed9c0d4eb348804018e32e3042a8220307eb72f"
+      "sha256": "36f7f852d7ebe8eb845259daa03b1ce34da9841b2b61d6112b95def3b071d79c"
     },
     {
-      "bytes": 400757,
+      "bytes": 295157,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-001.jpg",
-      "sha256": "f84d7973f50d78f38bb24ce71c7e9f7e1ee31e180b9c6045203fa250d62af8d5"
+      "sha256": "22a2b7b248309b7657c4892b8e58011996c4bae21f225841e17b8ae00379851f"
     },
     {
-      "bytes": 199575,
+      "bytes": 153134,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-002.jpg",
-      "sha256": "7e73b3ce161496799d2414d1535c93595bd7642fc7a2a146d96971df8d550547"
+      "sha256": "61783df7d8ed941b4237e7643be4d2e74830de25ec5571044e29b0d83d160ee3"
     },
     {
-      "bytes": 163107,
+      "bytes": 127206,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-003.jpg",
-      "sha256": "a99ee2b7e3ce39e89b13385ec255e073fb69814c05c492213066fd66826e71f5"
+      "sha256": "933d5d970ee2aa7f161cdcb7a3994e9574cc5291e50d542f15e55f33a6aa2770"
     },
     {
-      "bytes": 386284,
+      "bytes": 291508,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-004.jpg",
-      "sha256": "a7356705f6f82672eee2e8f79c18c4c88794b3ac6f476fd166e3b60a10a5acae"
+      "sha256": "a8b4b0179e039d4ba09a6ed1e5ce05be7281212e8a31cf48c596a496536fb49d"
     },
     {
-      "bytes": 375831,
+      "bytes": 284213,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-005.jpg",
-      "sha256": "5b1b0bb16b85e6244216a5b54ea201a2d413242beb8fb06974bc72005cbb2c76"
+      "sha256": "7b6eedada778e8f9075bddeccbb8b44cc6d1f5b533e019ad28c44c7adde09d57"
     },
     {
-      "bytes": 406788,
+      "bytes": 304645,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-006.jpg",
-      "sha256": "1c950c948ad2642476e24d28dca2293ff2c814d9f82d33fac2d7685243b450fe"
+      "sha256": "3ce480e37e7481d0c8759d9f0c4abb425a419d978e63bebe594e24baaaca1bb3"
     },
     {
-      "bytes": 384057,
+      "bytes": 291962,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-007.jpg",
-      "sha256": "35fa9fc279fa4061b9bdcad52f1ecb413e3f29267f2ee40818503b362d43f79e"
+      "sha256": "879ccadfd8c3639c21e098677dcf4f250f3a724cc861e6d5dd36aac9b9eb583c"
     },
     {
-      "bytes": 372727,
+      "bytes": 284144,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-008.jpg",
-      "sha256": "8de35eba0b7767068eee6986b3c3b994a5ac1140e9ea07623025338a7ab7d70c"
+      "sha256": "a7136e7e57fe7fc1f56168fe0497b252f694b069193e169e8f761023989c5b86"
     },
     {
-      "bytes": 356193,
+      "bytes": 269674,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-009.jpg",
-      "sha256": "a64370572ade12f758b57f093d9baef7b12990b32edd20db2c7edae7b49e6562"
+      "sha256": "b052b9b0856e11f4004d20935b9dc5e50a93e5da7cab3e6526a36665cc1de4d0"
     },
     {
-      "bytes": 381078,
+      "bytes": 284379,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-010.jpg",
-      "sha256": "08e5633ccdcf3f662c3c556a99e7fb50bfbd8c38a7eca62584a28df98c9e431f"
+      "sha256": "f2318af72d4980705713a9dc01bf0bf43073a8599b2c2dacab9321c08f0e9e7a"
     },
     {
-      "bytes": 385668,
+      "bytes": 292549,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-011.jpg",
-      "sha256": "6f4139348cffca84d99e142799261d408a8d4ef9acf37816568f0d2f06264d13"
+      "sha256": "b67f17c0b35c174936e6594aee358e0f4c510b6d47b84ffe29e0ed66c9422a5c"
     },
     {
-      "bytes": 381593,
+      "bytes": 290534,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-012.jpg",
-      "sha256": "ff8ea16022be9f428ed430bbb1fcb5d31bde01376b4a87a7298ff8514a847275"
+      "sha256": "928725131611a9adff55327ba458f1987cd5c4516621aec9efc0f489630ee654"
     },
     {
-      "bytes": 374190,
+      "bytes": 282761,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-013.jpg",
-      "sha256": "e52f16b1be700e64b275b3518bb9fe6e2ba5c141ce1c7cda7b189475cd0b6fe8"
+      "sha256": "19ea92e61168c9d1a5396a4ce24723a8f521b333178b9d11a173601e01293630"
     },
     {
-      "bytes": 378495,
+      "bytes": 285691,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-014.jpg",
-      "sha256": "267f2d183e96638970e3e9dc9716bb152f7c4db040966a484d5a3be6c5fe2857"
+      "sha256": "a3d7d6389d468dba2a5302708753ef40994cce67644db85f6ec075d7ce083b9b"
     },
     {
-      "bytes": 380870,
+      "bytes": 286272,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-015.jpg",
-      "sha256": "18dc5257c70c3db52896e32b4f173a49ce41b19f1190f72856e4a392011d51c4"
+      "sha256": "6590ef930b829158c9ec0551b925223bf861a8e330a68d05381ff33409cf4a28"
     },
     {
-      "bytes": 387018,
+      "bytes": 291488,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-016.jpg",
-      "sha256": "1bab10c0e3a017bf9e3f1c768d3bdfd29abf4d4debd908122927b2e5a2d28a04"
+      "sha256": "baf6a33f5894469a84f0db63f63218b5a0d33e1a76ff19b27d8109c0db320b57"
     },
     {
-      "bytes": 143608,
+      "bytes": 112913,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-017.jpg",
-      "sha256": "0c49a65e19014057f28bb6ee3e7a0919f11cd5d7a5afe90186f3ba98b46e3c05"
+      "sha256": "8bc7272a2aedf37af91efdb634dec96774498cbbf8f2ad9e2bffb461f657c72b"
     },
     {
-      "bytes": 361810,
+      "bytes": 272965,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-018.jpg",
-      "sha256": "0327e8ca8ec390c67e27c1ff2f8c1334caff75cc54b250d35041845c708a7d46"
+      "sha256": "859472e1a41704287cc5d269382e94d6d7bc13ee2d49211f8e293e1225be10e3"
     },
     {
-      "bytes": 345877,
+      "bytes": 265682,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-019.jpg",
-      "sha256": "00f6646668f0e55d004cb935cb195b819edd89314f27c892aa6bacd89069202f"
+      "sha256": "a1bea33f75ae72f636b59ae0b3ed84db9dfbb19046b9abff9d7c16238e90f47e"
     },
     {
-      "bytes": 345189,
+      "bytes": 262156,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-020.jpg",
-      "sha256": "e6e24f6e44dbc72ca31f955c26bd2af03261d5a1c95edf838ea3373d0ae29e85"
+      "sha256": "45b9a6a39be46371428b3bbef1802b749be7ca6df6483ce313f656cfde1c541f"
     },
     {
-      "bytes": 348828,
+      "bytes": 262847,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-021.jpg",
-      "sha256": "14a5f6de0a5fb49e1720b2bdbd81b5f2d5c6850b11bf49f4afb32b1706be13e8"
+      "sha256": "75ab91b5e25390d0e6b569111fde6fe139db7dbfe54834b96269d55c4f46fc81"
     },
     {
-      "bytes": 348025,
+      "bytes": 262007,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-022.jpg",
-      "sha256": "52f108732d1fc65cd2650bd46de9b50450a54f9d958534eb885c2338be5cfa6d"
+      "sha256": "92977ee076e98452d6d291deb5e66bb6dfd164f21642a5c9e998974fcaea0b72"
     },
     {
-      "bytes": 365500,
+      "bytes": 273896,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-023.jpg",
-      "sha256": "6240019e74a21b97fd46c8a084e707bec6c8c5ccdb5950294b589a2d03f4afd8"
+      "sha256": "c51cad2fcf1e50ad653f5a03f0fc6192cc70326a4bc3d9a8f69b9c7c48dfc244"
     },
     {
-      "bytes": 362361,
+      "bytes": 273777,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-024.jpg",
-      "sha256": "a7129a39c6adaed525d469c19bb2d10dd2383f18a7064613c4a816e5c39883eb"
+      "sha256": "3297e3fd206267e0b07e329a7775ee486a69a05d07114e8bcbb90fdc29d8d12d"
     },
     {
-      "bytes": 349902,
+      "bytes": 261154,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-025.jpg",
-      "sha256": "018327cb2478edd3cf50a1b67a88960119b3cb9678e536f852dae91fb4cecba7"
+      "sha256": "e4756537605dfff2b77de0fb3088856103a81bff23a2e32b56f1552d38a850b2"
     },
     {
-      "bytes": 305711,
+      "bytes": 228300,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-026.jpg",
-      "sha256": "f6d2727834743c3acbfa9d2b21812a836c9eccf9f80285a38871d33ae85b7806"
+      "sha256": "00d660eeb26a2f3c409465005dec16ab05550898b8685d5ed75aa969dd561288"
     },
     {
-      "bytes": 166498,
+      "bytes": 130361,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-027.jpg",
-      "sha256": "3870b297b6dabf3b824dd5168d95f1eafa2ef22e58315ffad153a0d5e16a42c3"
+      "sha256": "4a351b240ed1f976f3a71e637939518928bfb944443e9fed6ed66251ebd6bee5"
     },
     {
-      "bytes": 179521,
+      "bytes": 137412,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-028.jpg",
-      "sha256": "0388f756f3fa74b53972a01e0a4b33055eb702a5e36b61ff601334d1bff40d20"
+      "sha256": "bc1aa909659641c79febd9bc7f8e1bc555017272d337c39ee0aaf2238efcf32a"
     },
     {
-      "bytes": 128043,
+      "bytes": 102990,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-029.jpg",
-      "sha256": "5d5a378d82248e305068566cbe9a5e150a323ea09c01c108d8a8bf514f2d0251"
+      "sha256": "dce353052af75268498dbf97f8cc68e89445f4a1c51ce06c21e3ded2edb16950"
     },
     {
-      "bytes": 129986,
+      "bytes": 102832,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-4/pages/page-030.jpg",
-      "sha256": "9107ddb3baad2d32a01407c6d89d5773a20d4bff5d946d1404e4e9669a6ef1a0"
+      "sha256": "9dbd1051b284a411cc838db3fdc51751c561a475813296c48c028c5213ca54d7"
     },
     {
-      "bytes": 430668,
+      "bytes": 311020,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-001.jpg",
-      "sha256": "3f3f744dfb27df557d7200ad8e12bf44d70c5b2da7c77e2eba810357efc29b33"
+      "sha256": "30cb2f80ed98a0ea162d83b95cce9f12329bed4c98f8c7440c508a559824a968"
     },
     {
-      "bytes": 357815,
+      "bytes": 265752,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-002.jpg",
-      "sha256": "3a3b0f1c06df4d69bad9e5bc540b80d4ef60f917d0cf68d155ca44b9334a8ad8"
+      "sha256": "ac8e03087c3820380eb2de76e8e7311536d220c531f305ce7339abc85225ca03"
     },
     {
-      "bytes": 255500,
+      "bytes": 190067,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-003.jpg",
-      "sha256": "c292018077b45f5f542ecec34622396448186e7fbe72c3e099d1de8820fe584d"
+      "sha256": "125d1493f5b77127955652a1ef9fa546c47f83f149e6d56354ce2d689d0219cc"
     },
     {
-      "bytes": 443309,
+      "bytes": 328715,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-004.jpg",
-      "sha256": "063aefc95ece9835393595c056ac77fa40cbca15532049ac9b64c59251de5a42"
+      "sha256": "b7d4fd580c8c471ad45140bc080b613f086992b56f8e2a647bc08d796c6fb941"
     },
     {
-      "bytes": 444986,
+      "bytes": 323382,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-005.jpg",
-      "sha256": "e41840d71cefbe8bbf5693714fb0f55c5e2cfaceb5722316de77f7cdd1acd401"
+      "sha256": "fc141d5683587d40ef36b186e85552ade811ef58a5f49f512667db6c79370717"
     },
     {
-      "bytes": 440022,
+      "bytes": 320019,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-5/pages/page-006.jpg",
-      "sha256": "8dfad58e72cb38a0d106f270a07c1ed1ac5bd0bc0cece6ff8591c3ef5f8c36fd"
-    },
-    {
-      "bytes": 444715,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-007.jpg",
-      "sha256": "1aa5d12ff2551ec62b992e1fc02efcb367baa57c296d729dfd321b36a83c7608"
-    },
-    {
-      "bytes": 428650,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-008.jpg",
-      "sha256": "b0a98e3c7035bd5819c4a958905260b061b6e431b93aa19df31591e9e040788f"
-    },
-    {
-      "bytes": 435619,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-009.jpg",
-      "sha256": "4f1cde8250b05d9346f81890aaf380120308f2c4a99d1f5d2da57e2c1ce37437"
-    },
-    {
-      "bytes": 428761,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-010.jpg",
-      "sha256": "d80b327642812de42ebe95965758c1b5014174de346f6febb7f907c8f5bc6703"
-    },
-    {
-      "bytes": 264138,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-011.jpg",
-      "sha256": "16d07d0b35ced7e4fead8804fd22fcecd839e38eb714a70752d65580bcdcaf12"
-    },
-    {
-      "bytes": 425217,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-012.jpg",
-      "sha256": "671aaf26cda6b2e45430b60b445d339e738291d77c7edd425977d3abc20f3a86"
-    },
-    {
-      "bytes": 428893,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-013.jpg",
-      "sha256": "b7341ddf6dfcf9ef0a2cb3fe3948600208cc60cee5b940dbeb1d4fdf64b74e59"
-    },
-    {
-      "bytes": 418963,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-014.jpg",
-      "sha256": "7d0676bc538466598aa042e1fc1cc93292cd7149d487e0871dd7b92b71be525d"
-    },
-    {
-      "bytes": 414672,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-015.jpg",
-      "sha256": "10ce9c39bc7467bf20a90522f5a67b7580ed8f2328c53947052b77b17d7c9807"
-    },
-    {
-      "bytes": 422180,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-016.jpg",
-      "sha256": "b3250ee17002bc4656987eaa5701999f4398a53084ff1f6752ad191b7fdd3c9c"
-    },
-    {
-      "bytes": 382342,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-017.jpg",
-      "sha256": "d3d19aee730ed354eeb68b8a3df66bdeb5130e246ea9bde2a5bd7d8e7c319a4e"
-    },
-    {
-      "bytes": 404705,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-018.jpg",
-      "sha256": "c0b64e07089a594d9d7efcf7cc1c17c0249de7db6689f91b6b03999ccdf83191"
-    },
-    {
-      "bytes": 418493,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-019.jpg",
-      "sha256": "a74f25479081530225c7613de89e0f1a39b62b505efeb5dc8b175f2a55882af0"
-    },
-    {
-      "bytes": 425530,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-020.jpg",
-      "sha256": "507c7d8837948f67779acc58701964176cedac3f0d9ec2b03012ffbc1aeb1851"
-    },
-    {
-      "bytes": 426097,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-021.jpg",
-      "sha256": "963a454f1ab10f2270d69ae51efee093fb621b56a35f6c3777ca46e6581562a0"
-    },
-    {
-      "bytes": 415372,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-022.jpg",
-      "sha256": "1bbffeb23e0ffa7b519f36b3359c764537b575e5b1babff5f1b359701367893c"
-    },
-    {
-      "bytes": 268373,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-023.jpg",
-      "sha256": "97ba666d9ed65fcf2c3d75fabca7c8b50ecef4276b3c73a62a4e799756f0b59e"
-    },
-    {
-      "bytes": 410935,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-024.jpg",
-      "sha256": "19c72a371a0ec399b24e04503b881058e4c40a7f2553e26e72e378c2e9fd7c8f"
-    },
-    {
-      "bytes": 398083,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-025.jpg",
-      "sha256": "7d49be90e84a9219d4c28febaa6c3b3251abb29606927591dc4280ce9b78bb13"
-    },
-    {
-      "bytes": 395021,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-026.jpg",
-      "sha256": "3d67e5dbc2431b603dd5d6336d09e1f3dd1a3d221848922de8e66c818f8be1dc"
-    },
-    {
-      "bytes": 385803,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-027.jpg",
-      "sha256": "bf688ad0440d9afdaca116db5137736fefb1bcf27ae3adad0ed8012724bc5e21"
-    },
-    {
-      "bytes": 389782,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-028.jpg",
-      "sha256": "c8aa27a2f95a5f7887e18f6ecdb2555eb5bdb21c6e061a3731b4768f81d3366e"
-    },
-    {
-      "bytes": 393178,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-029.jpg",
-      "sha256": "25e803c6d7ef331a805be32ff190b6e25c6d5eea32110502679496ea365612ca"
-    },
-    {
-      "bytes": 393363,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-030.jpg",
-      "sha256": "74de50bc85cbbc5a793664a6f3e1ab03c5d97104a313cace7ad1f63cd81f9cad"
-    },
-    {
-      "bytes": 412039,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-031.jpg",
-      "sha256": "043f6f7e6fc0d930a3fa7d9a7c5703662b8475f9528ea26612f7ba7d7d2fbf93"
-    },
-    {
-      "bytes": 388051,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-032.jpg",
-      "sha256": "bffd924f7a60fe9202ff8feed5c6b97e2d02371f4483d5438c1f86770599f2c3"
-    },
-    {
-      "bytes": 398995,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-033.jpg",
-      "sha256": "d32a1567679724bbd19ce35de1fff3a183886d053d9b502885826c179277a383"
-    },
-    {
-      "bytes": 387947,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-034.jpg",
-      "sha256": "263c66551aa9819ea8260a81a2b724e413ff672c54e6b852e1133031873cf325"
-    },
-    {
-      "bytes": 402887,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-035.jpg",
-      "sha256": "2ae2422891bf3afc82dcd3d7edea8c55dd3d0499b46f0c17edd17c96a9c386c6"
-    },
-    {
-      "bytes": 395697,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-036.jpg",
-      "sha256": "3133fc2d19ee21539b7e3e008f64ccbbb5164cc14287680487a5bda945059725"
-    },
-    {
-      "bytes": 394606,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-037.jpg",
-      "sha256": "7310ed59e46f9c48496eeeae264910a59654465c8cca74e39305bc65ee8b1321"
-    },
-    {
-      "bytes": 337836,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-038.jpg",
-      "sha256": "980d1cb6733697de7a77e3e32ac4347cfa20139c57a30e97afa6e743357985e0"
-    },
-    {
-      "bytes": 251628,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-039.jpg",
-      "sha256": "9b3863eda0cfc56dcd5dce02968b7c53a59dee5702be1fc515d045161a58d38f"
-    },
-    {
-      "bytes": 409682,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-040.jpg",
-      "sha256": "87e2a4959cbb8536c0c479ecc81ed014ef98520bc523a3b078f0f0a36f78ca6c"
-    },
-    {
-      "bytes": 225803,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-5/pages/page-041.jpg",
-      "sha256": "a86ac327d54cb7cab809d52e236014ed6698e445dbfc8492332150f1fbbc9f60"
-    },
-    {
-      "bytes": 397795,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-001.jpg",
-      "sha256": "e7b13ae2fe90bf9c4312dc98345b4e099e9ca0472ac9d9091f18b2c4f13d464a"
-    },
-    {
-      "bytes": 393289,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-002.jpg",
-      "sha256": "a05207c747f2be49d441af45970788a591e98f1cfe471b9faca5885e87fea5ac"
-    },
-    {
-      "bytes": 314571,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-003.jpg",
-      "sha256": "899d18121646e51bc8b8795d35a6c1c0a28b716ce4a735fcd48e0177d5dadfe9"
-    },
-    {
-      "bytes": 217170,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-004.jpg",
-      "sha256": "e048526eba0f1ebf235e77ece1472a22ccb91ccb6d919c1da90f2915a8ef62b2"
-    },
-    {
-      "bytes": 430249,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-005.jpg",
-      "sha256": "28e75b8a98133c9e0dc09357c9ec82e35e3769d89e57440f6def40864aebf75b"
-    },
-    {
-      "bytes": 421351,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-006.jpg",
-      "sha256": "d947a245876ee7bf50bb27585bc2c45bd0a80a58453478a0dfde1ca8bd07da0f"
-    },
-    {
-      "bytes": 451484,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-007.jpg",
-      "sha256": "773103ad14fe0d0c62305886365db0324e813f84cb66f0c72b3a2225961ff471"
-    },
-    {
-      "bytes": 451526,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-008.jpg",
-      "sha256": "7eee90ca4c7e7893406adcd25accf55b3cd789a47322b0bef8358655068e7f01"
-    },
-    {
-      "bytes": 449943,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-009.jpg",
-      "sha256": "ea2c49b10e1a73997bd3728ee1cc9bba6ca99b3250ca7aef3a0c042f65936050"
-    },
-    {
-      "bytes": 445293,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-010.jpg",
-      "sha256": "027e1f194038e0a605f1eb602c6c97b63538588f261f910cf4393f63f402ef7c"
-    },
-    {
-      "bytes": 414892,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-011.jpg",
-      "sha256": "d4f912ea57156c0fb4fd5f991c0b9ee57a6496a17183aaa84eb1f04b9e08bd99"
-    },
-    {
-      "bytes": 271352,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-012.jpg",
-      "sha256": "4004b31f52c6475b99241b02675f0aaae45bb2cc00bcf3b6b45fd56eb7e61f2e"
-    },
-    {
-      "bytes": 418232,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-013.jpg",
-      "sha256": "038dd64cab9039c06f58db9955d88dc6def1eba4f31058a830b11f89026908b1"
-    },
-    {
-      "bytes": 395421,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-014.jpg",
-      "sha256": "bcd0f856cdac72df88a6b62800c90950fc2386f1a0bff4b1a7a471c909901408"
-    },
-    {
-      "bytes": 425489,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-015.jpg",
-      "sha256": "f96d495f617c218742010a7d21aa71141f88c2f77a83a2c3996c2cf9eb6cbfa4"
-    },
-    {
-      "bytes": 409350,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-016.jpg",
-      "sha256": "7eb061d2bac3feec4ec524d56678e01f58d1e256788411d30ebd66ab4fb7e42b"
-    },
-    {
-      "bytes": 420308,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-017.jpg",
-      "sha256": "118f44f9f9c3969da45014e3590772b828e0d6fedde5c822a1398729fc1a3871"
-    },
-    {
-      "bytes": 338177,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-018.jpg",
-      "sha256": "9c8c50bcad5bb3614a4d1983853a7b89cefd1f54b4abbe0e07f076e1cbfc9538"
-    },
-    {
-      "bytes": 374743,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-019.jpg",
-      "sha256": "f0a9d29a76eba7769930966db84a1633992a4ac35d33d584344ce9ad4f18da51"
-    },
-    {
-      "bytes": 369558,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-020.jpg",
-      "sha256": "e91b512ee1aa913c319d2a9e062a0e09ed1227ce6f21c9be3ca7b70762a1ebb1"
-    },
-    {
-      "bytes": 380975,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-021.jpg",
-      "sha256": "111e62edc7804f3dcca76899c1b8482355153296b8ec0539a490114482d9756c"
-    },
-    {
-      "bytes": 388285,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-022.jpg",
-      "sha256": "d6fcc327ae6b6986fa7e571efa31d4f7199bdb01ec5fc66d8d7411390b5adbc1"
-    },
-    {
-      "bytes": 390232,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-023.jpg",
-      "sha256": "87a42a80fb7668700766fe40b603772722e274395bd56495636aedafcc4103ce"
-    },
-    {
-      "bytes": 369940,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-024.jpg",
-      "sha256": "d481121e83140f06ee5bc7fe0642833fa4f056811683807c0339d722a8d22ed9"
-    },
-    {
-      "bytes": 384309,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-025.jpg",
-      "sha256": "36b3ca45db2aaa875179cb932c01815037b38441d4da7c23cd1f23bcf492ca61"
-    },
-    {
-      "bytes": 360604,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-026.jpg",
-      "sha256": "570b3c32b77acfa76793328a8e1b724de6839585543d09d399c5114367b555f3"
-    },
-    {
-      "bytes": 159164,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-027.jpg",
-      "sha256": "b091c1fca74bf6d89bbc207cce773aeb51d10a9eb0739f375efc449cfd3f2822"
-    },
-    {
-      "bytes": 273635,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-028.jpg",
-      "sha256": "49206bd47b3dfadde3c0ac95fe46cb849c883ed9e178ed6adc69d228766a5151"
-    },
-    {
-      "bytes": 389546,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-029.jpg",
-      "sha256": "4f164b931d6e32af65ca406617b30daade4fb729ed03eb83b4b7275dd57fbb9a"
-    },
-    {
-      "bytes": 313773,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-030.jpg",
-      "sha256": "eea53aab0be1014b7239f0b437d2cc59a659faae8f72583d977225d2eef5b858"
-    },
-    {
-      "bytes": 367729,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-031.jpg",
-      "sha256": "c7a6fa7da8d2d46df67b7eacd7b4b8cdab2eb4955ae4b3cbea246c317caf403b"
-    },
-    {
-      "bytes": 322788,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-6/pages/page-032.jpg",
-      "sha256": "856adc96f051c9ef2f0e694bc8f1779c445c56a14beb0aea69fd1a52252d29bb"
-    },
-    {
-      "bytes": 386957,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-001.jpg",
-      "sha256": "f0f3a5e6c035aec4427789269a5e69f01e04e3d7a983913686defa2a7b6c6655"
-    },
-    {
-      "bytes": 184322,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-002.jpg",
-      "sha256": "68189f6cdf126d26b2e02ef9e7db12164604de2bf9d27cc7b49ab1360812c8f7"
-    },
-    {
-      "bytes": 384606,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-003.jpg",
-      "sha256": "1616da34130ad8328111d712a936673bc84ee7ca72d2faa38baad9d71bcf8b83"
-    },
-    {
-      "bytes": 406988,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-004.jpg",
-      "sha256": "ae81e1d53978e92d216934b33152b5d27b2f505709eb50e60b99cdeeb797f239"
-    },
-    {
-      "bytes": 415012,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-005.jpg",
-      "sha256": "e7c6b14dcfbf63d8435e6cf8edefe9d51a0c70fd9b465342c6f1fa5ea91a9641"
-    },
-    {
-      "bytes": 403863,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-006.jpg",
-      "sha256": "dbc451b191df061f0f68fa9a5aabc9e88203eb0c774e440572a7a0e88ae1187e"
-    },
-    {
-      "bytes": 414925,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-007.jpg",
-      "sha256": "b63d1c805a74863d780c271aa242839fe860c9b30f72207d16053eb4c08fed4b"
-    },
-    {
-      "bytes": 201786,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-008.jpg",
-      "sha256": "7127b9afed96ac915ff74159e943dbbe54cd38f061305978fa6538eaa3331453"
-    },
-    {
-      "bytes": 400352,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-009.jpg",
-      "sha256": "fc4ca5ca2e89123ae0fd657d4c6626e71e0fe80bc051715df66ef45860136049"
-    },
-    {
-      "bytes": 403900,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-010.jpg",
-      "sha256": "7356de9b0937ffe2cb7d8dc6072fec8b8091ea1d277758e10a9093931c9241af"
-    },
-    {
-      "bytes": 394002,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-011.jpg",
-      "sha256": "2a2216f6bdeecda357c31efc7b163dba84c1e8c61e0bc37dfff7cc242980a78b"
-    },
-    {
-      "bytes": 409515,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-012.jpg",
-      "sha256": "7a61bcee6c7dff36d64c804d8b13b98cbba800291b307e18a8ec49893c95aeac"
-    },
-    {
-      "bytes": 406301,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-013.jpg",
-      "sha256": "0b8b87a10f3c88fcd8c9f5a9db005b1caca9005f4793714c85ca4ff576c021b5"
-    },
-    {
-      "bytes": 407464,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-014.jpg",
-      "sha256": "5679e9d2eddc4adf874e9284d7ab3d939fcfa93e91fb41f3b7a2ec6581c77d08"
-    },
-    {
-      "bytes": 410537,
-      "cache_control": "public, max-age=31536000, immutable",
-      "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-015.jpg",
-      "sha256": "809ff95116c572202481f35068ffdebf40f473f14ccfefd44f88ae1149f9a6a7"
+      "sha256": "3f7d50748a6a636b1b16de870f61b9a65a3f512a3aef284722f2deca4889006b"
     },
     {
       "bytes": 328129,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
-      "path": "docs/2026-7/pages/page-016.jpg",
-      "sha256": "60904d1135d55dc32099e6bdef5efe67c3fca8d0ba603c6c338fd6ac3302ba59"
+      "path": "docs/2026-5/pages/page-007.jpg",
+      "sha256": "21b02f2bd20526f5ccd7d25fe3b25a5a2b5f1481ec1b61342767e969bb38e59d"
     },
     {
-      "bytes": 414744,
+      "bytes": 316221,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-008.jpg",
+      "sha256": "48bdd1f11c6a37a58ea5459c490e2764e0df8a4f4895582137be9fffc2ec3190"
+    },
+    {
+      "bytes": 319708,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-009.jpg",
+      "sha256": "1f0b9bf7df06eb8cf53f3fcc82a7128188742b8036ee26192f93f1da1644ea3b"
+    },
+    {
+      "bytes": 314601,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-010.jpg",
+      "sha256": "0e997de06c57f343272e220d916d96730c0b69f987d2cc2b0779688325abbcd0"
+    },
+    {
+      "bytes": 196939,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-011.jpg",
+      "sha256": "a01636eb03edf53b8736b567b0adb399a9aa3faaf197f51d1537ee0679c0e6b9"
+    },
+    {
+      "bytes": 313621,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-012.jpg",
+      "sha256": "b64dc65f3e81ca2cc0aa46ea5956bdb450e67815ba5ee429af0e554c64f95535"
+    },
+    {
+      "bytes": 312155,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-013.jpg",
+      "sha256": "5e378d62c49c45963c03c3faa912a5b7e4c743c4a72b3651ab1c02d26d1ac77d"
+    },
+    {
+      "bytes": 305521,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-014.jpg",
+      "sha256": "7285667f085aa8b72b1133cbdb17918ad023e15f226378be7532c99719c83958"
+    },
+    {
+      "bytes": 308109,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-015.jpg",
+      "sha256": "bf34cc359c6ceb5fbf0ea9b67c8afd8f517776d47e803463c87f5b593822fc35"
+    },
+    {
+      "bytes": 312367,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-016.jpg",
+      "sha256": "5bd746f3d2f23410ab1a36eef852d9c2534ffd18383fa1a72ebc75e9c0f2f37f"
+    },
+    {
+      "bytes": 284035,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-017.jpg",
+      "sha256": "979e5dc2cef2f1bc34225cdb1e04d33d0634bbe1820f847c2cff7c402f357a39"
+    },
+    {
+      "bytes": 296467,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-018.jpg",
+      "sha256": "39f5bb5f6e9eee46f7bf002664a03c218c9fe1325a24c84c52a1181dfd5f12b7"
+    },
+    {
+      "bytes": 309197,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-019.jpg",
+      "sha256": "4c50f839d6852f150415837e888e7be1f96a2f2735ac0379bf817f61b347a863"
+    },
+    {
+      "bytes": 316102,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-020.jpg",
+      "sha256": "d30e8af841eb8ea49ae8ff34e34b0a518e66c65a33563e34bc344f6a528bd48b"
+    },
+    {
+      "bytes": 316082,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-021.jpg",
+      "sha256": "317111425949b2b1f7dac9f482dc297dd7767b11330998c4daced2b39f28f821"
+    },
+    {
+      "bytes": 309100,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-022.jpg",
+      "sha256": "365ff1b7358b40b7c8a150fe90875aa42fc3537e129753c754e4dd4640d2acef"
+    },
+    {
+      "bytes": 201108,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-023.jpg",
+      "sha256": "04d1a367fe8ae1d6de7f4e48c39c3b452fab2352f99cd48e7ec068c017d5823c"
+    },
+    {
+      "bytes": 293511,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-024.jpg",
+      "sha256": "4b46d7faad012909862c2ca8caca12534d8dd906ccd17b0520b1228ee01d72ec"
+    },
+    {
+      "bytes": 292888,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-025.jpg",
+      "sha256": "78c96983dd0a8b351a7ec84c19991d1feea809e506c3450fb52359d8695847cf"
+    },
+    {
+      "bytes": 292993,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-026.jpg",
+      "sha256": "11571d32d34863ded62ab572f3d2683bf111cdc7674e4f6ee9feb5b838e807ef"
+    },
+    {
+      "bytes": 283120,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-027.jpg",
+      "sha256": "5c96e09359fa8036abd15a037901e0d9fb44c818d22bd2cb73412113fdc30245"
+    },
+    {
+      "bytes": 285722,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-028.jpg",
+      "sha256": "64f176b7bd69a9f3cd295cb17fa7a84eac72b5f79ccad33de07d19d843ce9b06"
+    },
+    {
+      "bytes": 290175,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-029.jpg",
+      "sha256": "47c774040bb5c5a5d96fa0272097f435254252b1f4fce56cdb5f40ad851a283c"
+    },
+    {
+      "bytes": 283251,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-030.jpg",
+      "sha256": "53e8fc78bcfd3632821858ce4c34418ef4e1f4d684043f6ab2df0227eea4b62b"
+    },
+    {
+      "bytes": 296899,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-031.jpg",
+      "sha256": "356a563c58ccf5ceb5b84122778c6a90a23e30d74b530c62a7ff9f69ce7f9690"
+    },
+    {
+      "bytes": 282754,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-032.jpg",
+      "sha256": "2d1dc021ec20514af87f9dbcdcc98d1548744e713968bb0f9c1958ad44f4805c"
+    },
+    {
+      "bytes": 288531,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-033.jpg",
+      "sha256": "9d043b6152cda820085f23d7cb24baa667646f33b5ec12818944c6b21445a3b0"
+    },
+    {
+      "bytes": 286284,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-034.jpg",
+      "sha256": "29cde66e8704ad271dfd6e43f747839a03cf5cce42e6f4889be47b3f004a87e5"
+    },
+    {
+      "bytes": 295457,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-035.jpg",
+      "sha256": "34e3cffa67448c29c5ee2bcfc5afec379b1fdd4e1840b80083b2caff2d4c312a"
+    },
+    {
+      "bytes": 291909,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-036.jpg",
+      "sha256": "a0bb65c4b52177954be00b7ac431d7b88562549e246a56ef5f3f5bfa3454b9b7"
+    },
+    {
+      "bytes": 290400,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-037.jpg",
+      "sha256": "16806ad3408837f2a7bdb1707e0e324d3be1d74ce9a158f99c6307fea404d06e"
+    },
+    {
+      "bytes": 250029,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-038.jpg",
+      "sha256": "3d0205080383d28e0f2e2ae8af4c72e48c5984f14960a8dc9e1a54872fa89515"
+    },
+    {
+      "bytes": 187857,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-039.jpg",
+      "sha256": "4e5b43f9fa193767d14a307dd3c71bf4281aa457c8c3e24b7df0f44dd4fb4863"
+    },
+    {
+      "bytes": 302284,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-040.jpg",
+      "sha256": "3ebb5e0f502a4ef91d0c4fabcab6ec0fb7a08d55534812f0ee68850f99d85735"
+    },
+    {
+      "bytes": 168524,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-5/pages/page-041.jpg",
+      "sha256": "9b8eedf72494dec67bbe15838d791bd2d31f13229e99f6cc4051324a87ddf010"
+    },
+    {
+      "bytes": 293468,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-001.jpg",
+      "sha256": "03044bf997e03fb875f4bf0a8588f6f73d7f39169ddab4e9078616312823af62"
+    },
+    {
+      "bytes": 292046,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-002.jpg",
+      "sha256": "73d9e857ab0a310ab144c2d90af4ce4f7efdde1e48078140bd1c5596eb226292"
+    },
+    {
+      "bytes": 234188,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-003.jpg",
+      "sha256": "27a800c4d31a0a0d728e24c4cd918b71864ae09cbff02b742000a4119e5004c9"
+    },
+    {
+      "bytes": 164844,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-004.jpg",
+      "sha256": "f3c6cfc7b753492da3c98ccf02ba0a0c76e46e3442aba3e993b50ed5d3b6f220"
+    },
+    {
+      "bytes": 316971,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-005.jpg",
+      "sha256": "57dd2160e2b5bd98c5d86e88076bc8bfca068ef9b818d2bfdd4b3a722398df9a"
+    },
+    {
+      "bytes": 311704,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-006.jpg",
+      "sha256": "755aaa5767429655f5090b70d8df1798dd489d36055f67e45fb1e47c5b3776cd"
+    },
+    {
+      "bytes": 333055,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-007.jpg",
+      "sha256": "7be3d9ace37f3dfb34e2db8883087dd8e36ea8ceed841a31acd56ddcf4d01dc1"
+    },
+    {
+      "bytes": 337369,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-008.jpg",
+      "sha256": "a4d7b97b91e204de451d77b4a1aaccb47456a24eabe5d2726a7c763053d9932f"
+    },
+    {
+      "bytes": 331370,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-009.jpg",
+      "sha256": "b175cd0580107fb5e348ecd062cfa3dc7368a2f49a74e68857a3c06b418a1aed"
+    },
+    {
+      "bytes": 331041,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-010.jpg",
+      "sha256": "14d3d573ddc904ef19c1e366ff46bc0d6bf9a8a78d22ef09caceb9b81bc27fdb"
+    },
+    {
+      "bytes": 308806,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-011.jpg",
+      "sha256": "136934d728fb6a74e593e0875af0663877d4a5d416b419e83e31491e125eb6c8"
+    },
+    {
+      "bytes": 203002,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-012.jpg",
+      "sha256": "b28c7946b174063a5b9353f86598e69089117d3a014c6864d31a94fe3f529bdd"
+    },
+    {
+      "bytes": 309543,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-013.jpg",
+      "sha256": "da338df496d77cf6d6e71b8717582504d8683939eb10d65c4802f03fbf30c222"
+    },
+    {
+      "bytes": 297229,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-014.jpg",
+      "sha256": "0c62b6b2e7f573aa79878fecbddffd68e09652f1d1c2131f92938a593812072d"
+    },
+    {
+      "bytes": 316306,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-015.jpg",
+      "sha256": "05e5554b4bc5cc60dc35f668f0287299610979dd0615e15e67f69ff2b1c50a5f"
+    },
+    {
+      "bytes": 307485,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-016.jpg",
+      "sha256": "3baede1978886fde525940409ed4d0eefd13698d6ecadc34649f9d41030bef0e"
+    },
+    {
+      "bytes": 313432,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-017.jpg",
+      "sha256": "8f319ba8cdbda5935f43b519e0a6c9e0043d7f8441df9750280c8ec7f1ca5388"
+    },
+    {
+      "bytes": 253951,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-018.jpg",
+      "sha256": "a67f62ec7d304fb3d72c1afe7db24cd4a692d1e56bc3951f2d3e19d6fbec3b28"
+    },
+    {
+      "bytes": 280130,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-019.jpg",
+      "sha256": "0224ed92a9671c0b0daad94224ee6abcae2f91ead5a0d0699c2f7111da47edf8"
+    },
+    {
+      "bytes": 276562,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-020.jpg",
+      "sha256": "a421402f924801cb5c608d9771edfa75355af4b274046eabe6c693703ab22e7e"
+    },
+    {
+      "bytes": 285790,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-021.jpg",
+      "sha256": "ee59f7785303a35363cca4eb0ef56cd8b4b75de335f01c1b1cd4c79a7d93bd62"
+    },
+    {
+      "bytes": 291135,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-022.jpg",
+      "sha256": "482b771661defbcb7c587b02df45391307f009033574341af4b811afc5c1bfe4"
+    },
+    {
+      "bytes": 289328,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-023.jpg",
+      "sha256": "cb3d3c19314e054f422099b843d9f52e84a697c45d5a994f8e2379653fa834b5"
+    },
+    {
+      "bytes": 276473,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-024.jpg",
+      "sha256": "1eca74d323943331c400e1f371b7f787012c645b7b7c209546abaacfb03dfc82"
+    },
+    {
+      "bytes": 287782,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-025.jpg",
+      "sha256": "756e68add29aab9eb80353fe937ce5fe6eee439acae47c84b94cb8205e71a162"
+    },
+    {
+      "bytes": 270001,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-026.jpg",
+      "sha256": "296db324d627b24d424f1b50930a2c7e50ebd6dfafaaffb03e180291e5ea2d1a"
+    },
+    {
+      "bytes": 122736,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-027.jpg",
+      "sha256": "c84381cd79bf86f19b1906433bc3dcef1b5752953a0d72408f75281f32d9fabe"
+    },
+    {
+      "bytes": 205812,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-028.jpg",
+      "sha256": "2f038a74e71e0b30d10be9f80ce9719804fdb6a548e5b97bf2f52813d303220e"
+    },
+    {
+      "bytes": 291907,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-029.jpg",
+      "sha256": "b63e1d83585c17f8845f1bc3d072eb3768a65776cad6195f1f46b378a2141dbb"
+    },
+    {
+      "bytes": 234771,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-030.jpg",
+      "sha256": "0afed18afc24bf64848cadb6ff5086932385322ecb5336933a90133b7548a6cf"
+    },
+    {
+      "bytes": 277753,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-031.jpg",
+      "sha256": "eb5cfa3c74dffdd19d7234500db182da25195f3df3835b4d3cd33706b78aa500"
+    },
+    {
+      "bytes": 240436,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-6/pages/page-032.jpg",
+      "sha256": "e77b657c288d0555ed0d3254338cd58eac6ae1b9519db41e0d4fe4e9e2fc2f5a"
+    },
+    {
+      "bytes": 285592,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-001.jpg",
+      "sha256": "d88800ce88b8e4b5f14f7fef33d2430387d64bbd091a9e386c9f1f068ccb236c"
+    },
+    {
+      "bytes": 139975,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-002.jpg",
+      "sha256": "3f3b3f7117ad912099d22520fab773a8f9a4d8bfa03ce442d81c042795a1b5c0"
+    },
+    {
+      "bytes": 288833,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-003.jpg",
+      "sha256": "6662b67df29c0e78c62e54b5abdba181a4e5a9da9f98d2440dc78bab30e0f89a"
+    },
+    {
+      "bytes": 302955,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-004.jpg",
+      "sha256": "3ac1e68ddd8205a153e0d3efd57c8668627e8086a57b1673ea580112cbe9a453"
+    },
+    {
+      "bytes": 306951,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-005.jpg",
+      "sha256": "b44a1d0932f000a9e2805f4466366e954ab5bb02bd52e4f034661a181e15ff4b"
+    },
+    {
+      "bytes": 300750,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-006.jpg",
+      "sha256": "1b60aa889fd06c7736298817be56205553495446896f3bf70f98ca1dbb2ea4a6"
+    },
+    {
+      "bytes": 308148,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-007.jpg",
+      "sha256": "3e8402e72610fefd93a3e7a5bd7f377e04c2613e07bd2345e05e1a54428da7f8"
+    },
+    {
+      "bytes": 154966,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-008.jpg",
+      "sha256": "dd34947c2a759f61604c46cca0f3cd46498d68c7d83bb337642d0fee90ad8c04"
+    },
+    {
+      "bytes": 297948,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-009.jpg",
+      "sha256": "09cded1ad78902b6817916f86edfe9c867be6f0bcf90552c926ccc8bcd072141"
+    },
+    {
+      "bytes": 302171,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-010.jpg",
+      "sha256": "8e5da0dbd6d24b6a30e8bf49fb9ad129905d0d0932c98023fd788b7c8de8f61b"
+    },
+    {
+      "bytes": 296842,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-011.jpg",
+      "sha256": "b694d86ce35465e2538b18fa95f7252aca2236ada9a1ccb02caf339a36d96749"
+    },
+    {
+      "bytes": 306036,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-012.jpg",
+      "sha256": "789c2bdc4b14d56a56dd0052b541472c7adf630f0481b4093649799cfe775cd4"
+    },
+    {
+      "bytes": 302040,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-013.jpg",
+      "sha256": "212d57020013ad266aa74101cdf6435cc64e65dc140df34b92c09eae63975ee4"
+    },
+    {
+      "bytes": 301786,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-014.jpg",
+      "sha256": "0490c4adc3bbc18675853ba3587dd599e5bdfbcf9885b03c58ae90036dbce963"
+    },
+    {
+      "bytes": 300415,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-015.jpg",
+      "sha256": "c8b87723075aefd2893a9d0bd13c81ff1146f5744d75d89be4e5827499379f0b"
+    },
+    {
+      "bytes": 246209,
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_type": "image/jpeg",
+      "path": "docs/2026-7/pages/page-016.jpg",
+      "sha256": "17f13906f83a1912492d073c58c0af1ffdcb821b2ed2d1a0081b09f2173cc9e5"
+    },
+    {
+      "bytes": 307223,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-7/pages/page-017.jpg",
-      "sha256": "db38fedcbe4c5b55ded23db4f4b34640d6258ed7750b3cb0c47d34e629f70560"
+      "sha256": "32a9f3133a881b11e75cfe900a76673a5e54066cc4e10b66723a94082d12e605"
     },
     {
-      "bytes": 416112,
+      "bytes": 307470,
       "cache_control": "public, max-age=31536000, immutable",
       "content_type": "image/jpeg",
       "path": "docs/2026-7/pages/page-018.jpg",
-      "sha256": "940bdb8cf07933f15e5ce52e3c31da61dcb44b67fbb30db470fcd7c1a8e959d2"
+      "sha256": "36c8bc4756cad243165a42a82039ed67e493bda4abbc614b4383924ab112d10e"
     },
     {
       "bytes": 280412,
@@ -32659,5 +32659,5 @@
     }
   ],
   "schema_version": "1.0.0",
-  "total_bytes": 2314479623
+  "total_bytes": 2290203403
 }

@@ -2,7 +2,7 @@
 
 > Canonical page: https://www.rokhanna.money/2019/
 > Machine-readable facts: https://www.rokhanna.money/api/v1/years/2019/summary.json
-> Dataset version: 2026-11-24
+> Dataset version: 2026-11-25
 
 This is an independent, source-linked transcription of U.S. House financial-disclosure scans. Values are reported statutory ranges, not exact personal net worth.
 
