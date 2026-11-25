@@ -36,7 +36,7 @@
     {"kind": "asset", "owner": "SP", "asset_name": "FIREEYE, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIRSTENERGY CORP. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FISERV, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FLA ST DEPT ENV PROTN PRES REV 5.0000% 07/01/20 JJ REV BDS EVERGLADES RESTORATION 2015A SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FLA ST DEPT ENV PROTN PRES REV 5.0000% 07/01/20 JJ REV BDS EVERGLADES RESTORATION 2015A SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLEETCOR TECHNOLOGIES, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLORENCE CNTY S C SCH DIST NO GO 5% 03/01/20 MS 001 GO BDS 2016 UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLUOR CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -48,34 +48,46 @@
     {"kind": "asset", "owner": "SP", "asset_name": "FOX CORPORATION CMN CLASS B", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FOX VY PK DIST ILL GO 4% 12/15/19 JD GO REF PK BDS 2015 B UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FRANKLIN RESOURCES INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FREEPORT-MCMORAN INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FREEPORT-MCMORAN INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GAP INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GARMIN LTD. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GARTNER, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GCI LIBERTY, INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GARTNER, INC. CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GCI LIBERTY, INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GENERAL DYNAMICS CORP. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GENERAL ELECTRIC CO CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MILLS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MOTORS COMPANY CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MILLS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MOTORS COMPANY CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GENESEE & WYOMING INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GENUINE PARTS CO. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GENUINE PARTS CO. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GEORGIA MUN GAS AUTH GAS REV REV 5% 10/01/19 AO REV BDS GAS PORTFOLIO IV PROJ A SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GILEAD SCIENCES CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GILEAD SCIENCES CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GODADDY INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GOLDMAN SACHS BANK USA DEPOSIT (BDA)", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GRANITE POINT MORTGAGE TRUST I CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GRANITE POINT MORTGAGE TRUST I CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GRANITE SCH DIST UTAH SALT GO 4.5000% 06/01/20 JD LAKE CNTY GO SCH BLDG BDS 2011 UT SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GREENWOOD S C MET DIST SWR SYS REV 4% 10/01/20 AO REV SYS SWR REV REF BDS 2016 SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GRUBHUB INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = EPAM SYS through GRUBHUB (E/F/G range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."},
-    {"row": null, "field": "income_types (CAPITAL GAINS secondary marks)", "note": "Primary income-type per row confident (anchored by 7 Interest checkpoints and non-dividend-payers reading None; None-mark count 12 matches). Secondary CAPITAL GAINS marks (EQT, EQUITY RESIDENTIAL, ESSEX, EXELON, EXPEDIA, EXTRA SPACE, FIRSTENERGY, FREEPORT, GENERAL MOTORS, GENUINE PARTS, GILEAD, GRANITE POINT + CG-only GCI LIBERTY/GENESEE/GODADDY) carry some row-assignment risk within dividend clusters."},
-    {"row": 58, "field": "income_types", "read": "NONE (rows 58-60: GRANITE SCH DIST, GREENWOOD)", "note": "The two bottom municipal bonds GRANITE SCH DIST UTAH (row 58) and GREENWOOD S C (row 59) read NONE (marks land in the None column, part of a clear 3-mark None stack with GRUBHUB), not Interest as the other munis on this page - consistent with recently-acquired bonds that received no coupon in the reporting period. Flagged because None-vs-Interest on a muni is error-prone."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."},
-    {"row": 56, "field": "income_types", "read": "INTEREST", "note": "GOLDMAN SACHS BANK USA DEPOSIT (BDA) reads Interest (bank deposit / interest income), which is one of the 7 Interest checkpoints on this page."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = EPAM SYS through GRUBHUB (E/F/G range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."
+    },
+    {
+      "row": null,
+      "field": "income_types (CAPITAL GAINS secondary marks)",
+      "note": "Primary income-type per row confident (anchored by 7 Interest checkpoints and non-dividend-payers reading None; None-mark count 12 matches). Secondary CAPITAL GAINS marks (EQT, EQUITY RESIDENTIAL, ESSEX, EXELON, EXPEDIA, EXTRA SPACE, FIRSTENERGY, FREEPORT, GENERAL MOTORS, GENUINE PARTS, GILEAD, GRANITE POINT + CG-only GCI LIBERTY/GENESEE/GODADDY) carry some row-assignment risk within dividend clusters."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

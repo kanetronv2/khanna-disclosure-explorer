@@ -11,7 +11,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $44.4M – $116.6M+ |
+| Reported household holdings | $29.6M – $74.1M+ |
 | Open-ended holdings | 6 |
 | Reported transactions | 4,546 |
 | Active trading days | 390 |
@@ -55,12 +55,12 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | ARECO LP Commercial Property - Location: Walton Hills, OH 44146 | SP | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000046) |
 | MAI Capital Management, LLC | SP | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000050) |
 | Transtar/Speedstar Holding Co. | DC | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000053) |
-| ALLIANCE DATA SYSTEMS CORPORATE CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000183) |
-| AMEREN CORPORATION CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000192) |
-| AMERICAN WATER WORKS CO, INC. CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000198) |
-| AMPHENOL CORP CL-A (NEW) CMN CLASS A | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000203) |
-| APPLE INC. CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000211) |
-| ATLANTA GA WTR & WASTEWTR REV REV 5.2500% 11/01/34 MN PREREFUNDED-SER B PRE 11/1/19 DE 80 OD SR LIEN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000220) |
+| GS FINANCE CORP. STRUCTURED NOTE DUE 06/04/2020 | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000452) |
+| GS SHORT DURATION TAX FREE FUND CLASS F | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000454) |
+| Citibank savings | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000002) |
+| Draper Fisher Jurvetson Growth Fund 2006, LP | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000015) |
+| Kayne Anderson MLP Fund, L.P. | DC | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000021) |
+| Park Center Plaza Holdings LP (Plaza I, II, III Locations: Independence, OH 44131) | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000034) |
 
 ## Transaction categories
 

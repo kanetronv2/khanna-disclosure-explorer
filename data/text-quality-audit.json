@@ -13,7 +13,7 @@
     "2026-8": 244,
     "2026-9": 459
   },
-  "reviewed_exception_count": 10,
+  "reviewed_exception_count": 9,
   "reviewed_exceptions": [
     {
       "document_id": "2023-14",
@@ -86,15 +86,6 @@
       "asset_name": "COMMON STOCK",
       "rule": "standalone_fragment",
       "note": "The PTR scan itself prints only COMMON STOCK in this asset cell."
-    },
-    {
-      "document_id": "2023-6",
-      "document_page_number": 23,
-      "row_number": 1,
-      "source_json_path": "docs/2023-6/text/page-023.json",
-      "asset_name": "CMN",
-      "rule": "standalone_fragment",
-      "note": "The PTR scan itself prints only CMN in this asset cell."
     },
     {
       "document_id": "2025-8",

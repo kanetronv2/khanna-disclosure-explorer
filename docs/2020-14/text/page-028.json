@@ -12,32 +12,53 @@
     {"kind": "asset", "owner": "SP", "asset_name": "ELECTRONIC ARTS CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ELI LILLY & CO CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EMERSON ELECTRIC CO. CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "ENCOMPASS HEALTH CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "ENCOMPASS HEALTH CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ENERGIZER HOLDINGS, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ENERGY NORTHWEST REV 5.0000% 07/01/21 II COLUMBIA GENERATING STATION ELECTRIC REVENUE BEO", "value": "$1,001-$15,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ENTEGRIS, INC. CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ENTERGY CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EOG RESOURCES INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EPR PROPERTIES CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "EQT CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "EQT CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EQUIFAX INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EQUINIX, INC. REIT", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EQUITABLE HOLDINGS INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EQUITRANS MIDSTREAM CORPORATIO CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EQUITY RESIDENTIAL CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "ESSEX PROPERTY TRUST INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "ESSEX PROPERTY TRUST INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ESTEE LAUDER COS INC CL-A CMN CLASS A", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "ETSY, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "ETSY, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EVERCORE INC CMN CLASS A", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EVEREST RE GROUP LTD CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EVERGY, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 22, "field": "asset_name", "read": "ETSY, INC. CMN", "note": "Scan reads 'EBSY'; alphabetical position (after ESTEE LAUDER, before EVERCORE) implies ETSY, INC. CMN."},
-    {"row": 21, "field": "value", "read": "$50,001-$100,000", "note": "ESTEE LAUDER X sits right-of-center under stipple; column between D and E uncertain."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."},
-    {"row": null, "field": "value", "read": null, "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."}
+    {
+      "row": 22,
+      "field": "asset_name",
+      "read": "ETSY, INC. CMN",
+      "note": "Scan reads 'EBSY'; alphabetical position (after ESTEE LAUDER, before EVERCORE) implies ETSY, INC. CMN."
+    },
+    {
+      "row": 21,
+      "field": "value",
+      "read": "$50,001-$100,000",
+      "note": "ESTEE LAUDER X sits right-of-center under stipple; column between D and E uncertain."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."
+    },
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 4 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

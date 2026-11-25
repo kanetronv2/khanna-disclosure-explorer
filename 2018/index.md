@@ -69,8 +69,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Type | Transactions | Combined range |
 | --- | ---: | ---: |
 | Purchase | 3,328 | $19.5M – $80.2M+ |
-| Partial Sale | 1,762 | $5.78M – $35.1M |
-| Sale | 1,240 | $4.7M – $26.2M |
+| Partial Sale | 1,806 | $5.95M – $36.1M |
+| Sale | 1,196 | $4.54M – $25.2M |
 | Full Sale | 27 | $153K – $720K |
 | [UNKNOWN] | 2 | None |
 

@@ -11,189 +11,183 @@
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "SAP AG CMN",
+      "date": "11/14/2025",
+      "notification_date": "12/04/2025",
       "owner": "SP",
-      "asset_name": "APPLIED MATERIALS INC CMN",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "AXA-UAP AMERICAN DEPOSITARY SHARES",
+      "date": "11/14/2025",
+      "notification_date": "12/04/2025",
       "owner": "SP",
-      "asset_name": "ARK-INNOVATION ETF",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "INDUSTRIA DE DISENO TEXTIL, S. ADR CMN",
+      "date": "11/14/2025",
+      "notification_date": "12/04/2025",
       "owner": "SP",
-      "asset_name": "WALT DISNEY COMPANY (THE) CMN",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "COLGATE-PALMOLIVE CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "INTUITIVE SURGICAL, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "S&P GLOBAL INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "S&P GLOBAL INC. CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "YUM! BRANDS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "UDR INC CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "COSTCO WHOLESALE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "COPART, INC. CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "THE PROGRESSIVE CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "IDEXX LABORATORIES, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "MID-AMERICA APT CMNTYS INC CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "STRYKER CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "STARBUCKS CORP. CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "SHERWIN-WILLIAMS CO CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "MICROSOFT CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "INVITATION HOMES, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "INVITATION HOMES INC. CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
-      "asset_name": "APPLE TECHNOLOGIES INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
+      "asset_name": "ROPER TECHNOLOGIES INC CMN",
       "date": "11/10/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "high",
+  "transcription_note": "Re-read all 16 transactions in order from the upright source scan."
 }

@@ -105,7 +105,7 @@ This API resource groups reviewed filing-name variants under **NVIDIA Corporatio
 | [2016](https://www.rokhanna.money/2016/) | 3 | $2K – $30K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000046) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000161) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2016:000678) |
 | [2017](https://www.rokhanna.money/2017/) | 3 | $31K – $115K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000072) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:000600) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2017:001334) |
 | [2018](https://www.rokhanna.money/2018/) | 5 | $47K – $180K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000101) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000102) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000133) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:000669) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2018:001473) |
-| [2019](https://www.rokhanna.money/2019/) | 4 | $15K – $50K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000652) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:002736) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:003455) |
+| [2019](https://www.rokhanna.money/2019/) | 4 | $16K – $65K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000652) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:002736) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:003455) |
 | [2020](https://www.rokhanna.money/2020/) | 2 | $50K – $100K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000747) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:001569) |
 | [2021](https://www.rokhanna.money/2021/) | 7 | $331K – $815K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000059) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000097) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:000731) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001044) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001545) [6](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:001835) [7](https://www.rokhanna.money/api/v1/evidence?id=asset:2021:002268) |
 | [2022](https://www.rokhanna.money/2022/) | 5 | $117K – $330K | [1](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000464) [2](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:000690) [3](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001171) [4](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:001908) [5](https://www.rokhanna.money/api/v1/evidence?id=asset:2022:002358) |
@@ -391,7 +391,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $94.7M – $275.1M+ |
+| Reported household holdings | $99.1M – $298.8M+ |
 | Open-ended holdings | 9 |
 | Reported transactions | 4,677 |
 | Active trading days | 238 |
@@ -649,7 +649,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $40.4M – $89.8M+ |
+| Reported household holdings | $41.1M – $91.1M+ |
 | Open-ended holdings | 5 |
 | Reported transactions | 6,048 |
 | Active trading days | 242 |
@@ -697,9 +697,9 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Transtar/Speedster Holding | DC | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000058) |
 | VANGUARD DIVIDEND APPRECIATION(VIG) | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000155) |
 | VANGUARD DIVIDEND APPRECIATION(VIG) | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000198) |
+| APPLE INC. CMN | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000290) |
 | Citibank Checking | JT | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000003) |
 | Park Center Plaza | SP | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000034) |
-| BANK DEPOSIT PROGRAM(BDPS) | SP | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000178) |
 
 ## Transaction categories
 
@@ -737,7 +737,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $44.4M – $116.6M+ |
+| Reported household holdings | $29.6M – $74.1M+ |
 | Open-ended holdings | 6 |
 | Reported transactions | 4,546 |
 | Active trading days | 390 |
@@ -781,12 +781,12 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | ARECO LP Commercial Property - Location: Walton Hills, OH 44146 | SP | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000046) |
 | MAI Capital Management, LLC | SP | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000050) |
 | Transtar/Speedstar Holding Co. | DC | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000053) |
-| ALLIANCE DATA SYSTEMS CORPORATE CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000183) |
-| AMEREN CORPORATION CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000192) |
-| AMERICAN WATER WORKS CO, INC. CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000198) |
-| AMPHENOL CORP CL-A (NEW) CMN CLASS A | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000203) |
-| APPLE INC. CMN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000211) |
-| ATLANTA GA WTR & WASTEWTR REV REV 5.2500% 11/01/34 MN PREREFUNDED-SER B PRE 11/1/19 DE 80 OD SR LIEN | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000220) |
+| GS FINANCE CORP. STRUCTURED NOTE DUE 06/04/2020 | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000452) |
+| GS SHORT DURATION TAX FREE FUND CLASS F | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000454) |
+| Citibank savings | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000002) |
+| Draper Fisher Jurvetson Growth Fund 2006, LP | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000015) |
+| Kayne Anderson MLP Fund, L.P. | DC | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000021) |
+| Park Center Plaza Holdings LP (Plaza I, II, III Locations: Independence, OH 44131) | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2019:000034) |
 
 ## Transaction categories
 
@@ -883,8 +883,8 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Type | Transactions | Combined range |
 | --- | ---: | ---: |
 | Purchase | 3,328 | $19.5M – $80.2M+ |
-| Partial Sale | 1,762 | $5.78M – $35.1M |
-| Sale | 1,240 | $4.7M – $26.2M |
+| Partial Sale | 1,806 | $5.95M – $36.1M |
+| Sale | 1,196 | $4.54M – $25.2M |
 | Full Sale | 27 | $153K – $720K |
 | [UNKNOWN] | 2 | None |
 

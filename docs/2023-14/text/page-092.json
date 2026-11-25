@@ -28,10 +28,19 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja 1994 Trust", "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."},
-    {"row": 18, "field": "value/amount_of_income", "read": "$100,001-$250,000 / $50,001-$100,000", "note": "Graphic Packaging high-value and high-income checkboxes are clear but unusually large; second review recommended."},
-    {"row": 19, "field": "asset_name", "read": "BEARIS", "note": "Printed name is truncated at the asset-name column edge."},
-    {"row": 20, "field": "value", "read": "$100,001-$250,000", "note": "GS Financial Square value mark is faint in the lower table row."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja 1994 Trust",
+      "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."
+    },
+    {
+      "row": 19,
+      "field": "asset_name",
+      "read": "BEARIS",
+      "note": "Printed name is truncated at the asset-name column edge."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

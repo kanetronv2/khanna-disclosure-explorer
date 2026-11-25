@@ -20,8 +20,8 @@
     {"kind": "asset", "owner": "SP", "asset_name": "CENTRAL LAKE CNTY ILL JT REV 4.0000% 05/01/19 MN ACTION WTR AGY WTR REV UNREFUNDED BALANCE-RFDG SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CENTURYLINK INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CERNER CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CF INDUSTRIES HOLDINGS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CHARLES SCHWAB CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CF INDUSTRIES HOLDINGS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CHARLES SCHWAB CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CHARTER COMMUNICATIONS, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CHEMED CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CHEMEKETA ORE CMNTY COLLEGE GO 5% 06/15/20 JD DIST GO BDS 2014 UT GUA SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -31,8 +31,8 @@
     {"kind": "asset", "owner": "SP", "asset_name": "CHIPOTLE MEXICAN GRILL, INC. CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CHUBB LIMITED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CHURCH & DWIGHT CO., INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CIGNA CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CIMAREX ENERGY CO. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CIGNA CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CIMAREX ENERGY CO. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CINCINNATI FINANCIAL CRP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CINTAS CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CISCO SYSTEMS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -50,16 +50,16 @@
     {"kind": "asset", "owner": "SP", "asset_name": "COCA-COLA EUROPEAN PARTNERS PL CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COGNEX CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COHERENT INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COHERENT INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COLGATE-PALMOLIVE CO CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COLLIN CNTY TEX GO 4% 02/15/19 FA ULTD TAX RD AND REF BDS 2015 UT SED SR LIEN", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COMERICA INCORPORATED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONAGRA BRANDS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CONCHO RESOURCES INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CONCHO RESOURCES INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONNECTICUT ST GO 3% 01/15/21 JJ GO BDS 2020 A UT SEO", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONNECTICUT ST GO 4% 08/15/19 MS GO REF BDS 2018 F UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CONOCOPHILLIPS CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CONOCOPHILLIPS CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONSOLIDATED EDISON INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONSTELLATION BRANDS INC CMN CLASS A", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CONTINENTAL RESOURCES, INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -71,11 +71,29 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present (no Value matrix, no Amount-of-Income/Transaction-Summary block). Asset slice = C range (CARROLLTON TEX GO through CORTEVA, INC.), under the scan-verified 'Ritu Ahuja 1993 Trust' header. value/amount_of_income/transaction all null (absent blocks) for downstream name-based merge; income_types recorded from the present block."},
-    {"row": 0, "field": "group/trust_name", "read": "Ritu Ahuja 1993 Trust", "note": "Faint italic header; direct review of the high-resolution scan resolves the printed name as 'Ritu Ahuja 1993 Trust'. This 1993 trust is distinct from the separate 1995 trust."},
-    {"row": null, "field": "income_types (CAPITAL GAINS secondary marks)", "note": "Primary income-type per row (None/Dividends/Interest columns, which are 100-350px apart) is confident and row-alignment is anchored by the 10 municipal-bond rows carrying Interest marks. The secondary CAPITAL GAINS marks (recorded on CENTURYLINK, CF INDUSTRIES, CME GROUP, COCA-COLA, COCA-COLA EUROPEAN, COMCAST, CONOCOPHILLIPS, CORNING) are the least certain element: a CG mark could be off by one row within the dividend-paying CI*/CO* clusters, and one or two additional CG marks may be present but unassigned. Value/amount grids were absent so cannot cross-check."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."},
-    {"row": 7, "field": "income_types", "read": "CAPITAL GAINS", "note": "CELGENE, CENTENE (rows 7-8) and CHIPOTLE (row 22) read Capital-Gains-only (no dividend mark), consistent with these being non-dividend-payers; visually confirmed single mark in the Capital Gains column."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present (no Value matrix, no Amount-of-Income/Transaction-Summary block). Asset slice = C range (CARROLLTON TEX GO through CORTEVA, INC.), under the scan-verified 'Ritu Ahuja 1993 Trust' header. value/amount_of_income/transaction all null (absent blocks) for downstream name-based merge; income_types recorded from the present block."
+    },
+    {
+      "row": 0,
+      "field": "group/trust_name",
+      "read": "Ritu Ahuja 1993 Trust",
+      "note": "Faint italic header; direct review of the high-resolution scan resolves the printed name as 'Ritu Ahuja 1993 Trust'. This 1993 trust is distinct from the separate 1995 trust."
+    },
+    {
+      "row": null,
+      "field": "income_types (CAPITAL GAINS secondary marks)",
+      "note": "Primary income-type per row (None/Dividends/Interest columns, which are 100-350px apart) is confident and row-alignment is anchored by the 10 municipal-bond rows carrying Interest marks. The secondary CAPITAL GAINS marks (recorded on CENTURYLINK, CF INDUSTRIES, CME GROUP, COCA-COLA, COCA-COLA EUROPEAN, COMCAST, CONOCOPHILLIPS, CORNING) are the least certain element: a CG mark could be off by one row within the dividend-paying CI*/CO* clusters, and one or two additional CG marks may be present but unassigned. Value/amount grids were absent so cannot cross-check."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

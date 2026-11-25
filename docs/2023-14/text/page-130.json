@@ -5,8 +5,8 @@
   "page_type": "schedule_a",
   "filer": "Rohit Khanna",
   "rows": [
-    {"kind": "asset", "owner": "SP", "asset_name": "XCEL ENERGY INC 3.4% 06/01/2030 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "VC OPPORTUNITIES ACCESS LLC", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
+    {"kind": "asset", "owner": "SP", "asset_name": "XCEL ENERGY INC 3.4% 06/01/2030 USD SR LIEN", "value": "$15,001-$50,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "8VC OPPORTUNITIES ACCESS LLC", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
     {"kind": "asset", "owner": "DC", "asset_name": "Broad Street Senior Credit Partners II, L.P.", "value": "$1,000,001-$5,000,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$100,001-$1,000,000", "transaction": "P"},
     {"kind": "asset", "owner": "DC", "asset_name": "CARIBBEAN REAL ESTATE OPPORTUNITY FUND 2005,", "value": "$15,001-$50,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "DC", "asset_name": "CARLYLE OPPORTUNITIES ACCESS LLC", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
@@ -20,14 +20,22 @@
     {"kind": "asset", "owner": "DC", "asset_name": "GLOBAL PRIVATE OPPORTUNITIES PARTNERS II LP", "value": "$500,001-$1,000,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$5,001-$15,000", "transaction": null},
     {"kind": "asset", "owner": "DC", "asset_name": "GROWTH AND EMERGING MARKETS PRIVATE EQUITY", "value": "$500,001-$1,000,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$15,001-$50,000", "transaction": null},
     {"kind": "asset", "owner": "DC", "asset_name": "GS CAPITAL PARTNERS VI, L.P. /GSCP VI AIV", "value": "$50,001-$100,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$1,001-$2,500", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "HEDGE FUND SELECT: ELT ASSOCIATES LLC COMMIT", "value": "$1-$1,000", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$5,001-$15,000", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "HEDGE FUND SELECT: ELT ASSOCIATES LLC COMMIT", "value": "None", "income_types": [], "other_income_spec": "PTN", "amount_of_income": "$5,001-$15,000", "transaction": "P"},
     {"kind": "asset", "owner": "DC", "asset_name": "HEDGE FUND SELECT: ELT ASSOCIATES LLC COMMIT", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 1, "field": "context", "read": "MAR Trust Partnership / 2020 Trust FBO Khanna Children", "note": "Printed group headers appear above the DC rows; not represented as rows per local 2023-14 convention."},
-    {"field": "checkbox_grid", "note": "Private-fund rows have very dense Block B/D marks and several PTN write-ins; values/amounts are medium-low confidence."},
-    {"field": "asset_name", "note": "Several fund names are clipped at the right edge of Block A."}
+    {
+      "field": "asset_name",
+      "note": "Several fund names are clipped at the right edge of Block A."
+    },
+    {
+      "row": 1,
+      "field": "context",
+      "read": "M&R Trust Partnership / 2020 Trust FBO Khanna Children",
+      "note": "These account headings are printed immediately above the DC rows."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

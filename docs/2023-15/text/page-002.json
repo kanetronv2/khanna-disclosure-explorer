@@ -17,11 +17,12 @@
       "kind": "asset",
       "owner": "DC",
       "asset_name": "Kayne Anderson Real Estate Opportunistic Debt",
-      "value": null,
+      "value": "$250,001-$500,000",
       "income_types": [],
-      "other_income_spec": "PTN",
+      "other_income_spec": null,
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
@@ -30,18 +31,20 @@
       "value": null,
       "income_types": [],
       "other_income_spec": "PTN",
-      "amount_of_income": null,
-      "transaction": null
+      "amount_of_income": "$5,001-$15,000",
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
       "owner": "DC",
-      "asset_name": "Resilience Fund V LP",
+      "asset_name": "Resilience Fund IV LP",
       "value": null,
       "income_types": [],
       "other_income_spec": "PTN",
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "group",
@@ -54,8 +57,13 @@
       "value": null,
       "income_types": [],
       "other_income_spec": "PTN",
-      "amount_of_income": null,
-      "transaction": null
+      "amount_of_income": "$1,001-$2,500",
+      "transaction": null,
+      "eif": true
+    },
+    {
+      "kind": "group",
+      "text": "ARECO LP"
     },
     {
       "kind": "group",
@@ -65,25 +73,31 @@
       "kind": "asset",
       "owner": "DC",
       "asset_name": "MAI Capital Income and Growth Fund III, LP",
-      "value": null,
+      "value": "$1,001-$15,000",
       "income_types": [],
       "other_income_spec": "PTN",
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
       "owner": "DC",
       "asset_name": "MAI Diversified Real Estate Income Fund, LP",
-      "value": null,
+      "value": "$50,001-$100,000",
       "income_types": [],
       "other_income_spec": "PTN",
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "group",
       "text": "2020 Trust FBO Khanna Children"
+    },
+    {
+      "kind": "group",
+      "text": "ARECO LP"
     },
     {
       "kind": "asset",
@@ -93,25 +107,28 @@
       "income_types": [],
       "other_income_spec": "PTN",
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
       "owner": "DC",
       "asset_name": "MAI Diversified Real Estate Income Fund, LP",
-      "value": null,
+      "value": "$250,001-$500,000",
       "income_types": [],
       "other_income_spec": "PTN",
-      "amount_of_income": null,
-      "transaction": null
+      "amount_of_income": "$1,001-$2,500",
+      "transaction": null,
+      "eif": true
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
       "field": "value/amount buckets",
-      "note": "Amendment scan mainly updates partnership income; bucket columns are faint in OCR and left null where not confidently readable."
+      "note": "Shaded cells obscure some marks. Bands that could not be read remain blank in the transcription."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Recovered the visible value and income bands and re-read the account headings and fund names."
 }

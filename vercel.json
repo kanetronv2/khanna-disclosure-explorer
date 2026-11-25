@@ -245,11 +245,11 @@
     },
     {
       "source": "/api/v1/years/2018/transactions.json",
-      "destination": "/site-data/2018/transactions.b9280c7d4c25.json"
+      "destination": "/site-data/2018/transactions.55ffd19152c6.json"
     },
     {
       "source": "/api/v1/years/2018/pages.json",
-      "destination": "/site-data/2018/pages-index.a5f767c2131b.json"
+      "destination": "/site-data/2018/pages-index.d65ce66d8bee.json"
     },
     {
       "source": "/api/v1/years/2019/summary.json",
@@ -257,7 +257,7 @@
     },
     {
       "source": "/api/v1/years/2019/assets.json",
-      "destination": "/site-data/2019/assets.e6ab682bfc22.json"
+      "destination": "/site-data/2019/assets.f0f9cbc91bdd.json"
     },
     {
       "source": "/api/v1/years/2019/transactions.json",
@@ -265,7 +265,7 @@
     },
     {
       "source": "/api/v1/years/2019/pages.json",
-      "destination": "/site-data/2019/pages-index.1040d2bda2cc.json"
+      "destination": "/site-data/2019/pages-index.7744cb096bcf.json"
     },
     {
       "source": "/api/v1/years/2020/summary.json",
@@ -273,7 +273,7 @@
     },
     {
       "source": "/api/v1/years/2020/assets.json",
-      "destination": "/site-data/2020/assets.34cf98ab54e6.json"
+      "destination": "/site-data/2020/assets.343d4290370f.json"
     },
     {
       "source": "/api/v1/years/2020/transactions.json",
@@ -281,7 +281,7 @@
     },
     {
       "source": "/api/v1/years/2020/pages.json",
-      "destination": "/site-data/2020/pages-index.edde6590d685.json"
+      "destination": "/site-data/2020/pages-index.e380d25ac62c.json"
     },
     {
       "source": "/api/v1/years/2021/summary.json",
@@ -313,7 +313,7 @@
     },
     {
       "source": "/api/v1/years/2022/pages.json",
-      "destination": "/site-data/2022/pages-index.e8598638d5eb.json"
+      "destination": "/site-data/2022/pages-index.ceb56e58d64e.json"
     },
     {
       "source": "/api/v1/years/2023/summary.json",
@@ -321,7 +321,7 @@
     },
     {
       "source": "/api/v1/years/2023/assets.json",
-      "destination": "/site-data/2023/assets.9eef053a87c8.json"
+      "destination": "/site-data/2023/assets.b43a3f94ef50.json"
     },
     {
       "source": "/api/v1/years/2023/transactions.json",
@@ -329,7 +329,7 @@
     },
     {
       "source": "/api/v1/years/2023/pages.json",
-      "destination": "/site-data/2023/pages-index.6aa18eb1536e.json"
+      "destination": "/site-data/2023/pages-index.ec2449dd5ceb.json"
     },
     {
       "source": "/api/v1/years/2024/summary.json",
@@ -361,7 +361,7 @@
     },
     {
       "source": "/api/v1/years/2025/pages.json",
-      "destination": "/site-data/2025/pages-index.1e3231c62eb7.json"
+      "destination": "/site-data/2025/pages-index.16b3c872e3ce.json"
     },
     {
       "source": "/api/v1/years/2026/summary.json",

@@ -36,30 +36,30 @@
     {"kind": "asset", "owner": "SP", "asset_name": "UNIVERSITY UTAH UNIV REVS REV 5.0000% 08/01/19 FA GEN-SER A BEO", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "UNUM GROUP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "UTAH ST BRD REGENTS STUDENT LN REV 5.0000% 11/01/19 MN REV STUDENT LOAN REV BDS SER XX -2 BEO SR LIEN S-", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "VALERO ENERGY CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "VALERO ENERGY CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VARIAN MEDICAL SYSTEMS INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VEEVA SYSTEMS INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VENTAS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VERISIGN, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VERISK ANALYTICS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "VERIZON COMMUNICATIONS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "VERIZON COMMUNICATIONS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VERMONT MUN BD BK REV 3.5000% 12/01/19 JD MUNICIPAL BOND BANK BDS 2009-1 BEO SR LIEN", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VERTEX PHARMACEUTICALS INCORPO CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VF CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "VIACOM INC CMN CLASS B", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "VIACOMCBS INC CMN CLASS B", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "VIACOM INC CMN CLASS B", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "VIACOMCBS INC CMN CLASS B", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VIACOMCBS INC. CMN CLASS B", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VISA INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "VISTRA ENERGY CORP. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "VISTRA ENERGY CORP. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VMWARE, INC. CMN CLASS A", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VORNADO REALTY TRUST CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VOYA FINANCIAL INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VRDN FRANKLIN CNTY OHIO HOSP REV 02/25/09 11/15/43-CA-FT 2009B BPA SR LIEN MSF CPN 05/02/18 05/05/11 1.5800%", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "VULCAN MATERIALS CO CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "W.W. GRAINGER INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "W.W. GRAINGER INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "WALGREENS BOOTS ALLIANCE, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "WALLINGFORD-SWARTHMORE PA SCH GO 5.2500% 08/01/23 MN DIST GO BDS 2011A PRERE 11/01/19 LT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "WALMART INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "WALMART INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "WALT DISNEY COMPANY (THE) CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "WASHINGTON ST CTFS PARTN COPS 3% 07/01/2010 COPS 2019 A CERTS PARTN BED", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "WASHINGTON ST GO 5% 09/01/28 FA GO BDS 2010A PRERE 09/01/19 UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -71,13 +71,33 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = TRANSOCEAN through WAYFAIR (T/U/V/W range, 61 named). Trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."},
-    {"row": null, "field": "group/trust header", "note": "Italic trust header faint; read as 'Ritu Ahuja 1993 Trust' for continuity with pages 079/082-085 (same continuous alphabetical portfolio)."},
-    {"row": null, "field": "income_types (Interest / muni anchors)", "note": "Munis and cash anchored to Interest: TULSA (4), U S DOLLAR cash line (10), UNIV ARK (26), UNIV UTAH (27), UTAH ST BRD (29), VERMONT (37), VRDN FRANKLIN OHIO (48), WALLINGFORD-SWARTHMORE (52), WASHINGTON ST GO (56). Munis read NONE (no coupon received in period): TYLER TEX JR COLLEGE (8), WASHINGTON ST CTFS (55, COPS 3% due 07/01/2010 already matured), WAUWATOSA (60). None-vs-Interest on munis is error-prone; flagged."},
-    {"row": 3, "field": "income_types", "read": "row 2 TRIPADVISOR = CAPITAL GAINS, row 3 TRUIST = NONE", "note": "The two marks below TRANSOCEAN (None) could pair either way: TRIPADVISOR-CG / TRUIST-None (recorded) OR TRIPADVISOR-None / TRUIST-CG (TRUIST just formed Dec-2019 from the BB&T/SunTrust merger, so a merger capital-gain there is equally plausible). Low-confidence at the top of the sheet."},
-    {"row": 12, "field": "income_types", "read": "NONE on rows 12 (UGI), 23 (UNITI GROUP)", "note": "UGI and UNITI GROUP each read a None-column mark despite paying dividends (UGI utility, UNITI a REIT); recorded as visually marked but each is a candidate for a one-row alignment slip."},
-    {"row": null, "field": "income_types (CAPITAL GAINS)", "note": "Capital-Gains marks: CG-only non-payers TRIPADVISOR (2), 21st CENTURY FOX A/B (5,6, acquired by Disney Mar-2019), ULTA (13), UNDER ARMOUR A (14), UNITED AIRLINES (17); Dividends+CG rows UNITEDHEALTH (22), VALERO (30), VENTAS (33), VISA (43), WALGREENS (51), DISNEY (54). Secondary CG marks matched by pixel y-alignment in the bottom-right crop; each carries +/- one-row risk."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = TRANSOCEAN through WAYFAIR (T/U/V/W range, 61 named). Trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."
+    },
+    {
+      "row": null,
+      "field": "group/trust header",
+      "note": "Italic trust header faint; read as 'Ritu Ahuja 1993 Trust' for continuity with pages 079/082-085 (same continuous alphabetical portfolio)."
+    },
+    {
+      "row": null,
+      "field": "income_types (Interest / muni anchors)",
+      "note": "Munis and cash anchored to Interest: TULSA (4), U S DOLLAR cash line (10), UNIV ARK (26), UNIV UTAH (27), UTAH ST BRD (29), VERMONT (37), VRDN FRANKLIN OHIO (48), WALLINGFORD-SWARTHMORE (52), WASHINGTON ST GO (56). Munis read NONE (no coupon received in period): TYLER TEX JR COLLEGE (8), WASHINGTON ST CTFS (55, COPS 3% due 07/01/2010 already matured), WAUWATOSA (60). None-vs-Interest on munis is error-prone; flagged."
+    },
+    {
+      "row": null,
+      "field": "income_types (CAPITAL GAINS)",
+      "note": "Capital-Gains marks: CG-only non-payers TRIPADVISOR (2), 21st CENTURY FOX A/B (5,6, acquired by Disney Mar-2019), ULTA (13), UNDER ARMOUR A (14), UNITED AIRLINES (17); Dividends+CG rows UNITEDHEALTH (22), VALERO (30), VENTAS (33), VISA (43), WALGREENS (51), DISNEY (54). Secondary CG marks matched by pixel y-alignment in the bottom-right crop; each carries +/- one-row risk."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

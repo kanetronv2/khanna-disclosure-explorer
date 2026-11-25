@@ -40,8 +40,8 @@
     {"kind": "asset", "owner": "SP", "asset_name": "XCEL ENERGY INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "XEROX CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "XEROX HOLDINGS CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "XILINX INCORPORATED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "XPO LOGISTICS INC CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "XILINX INCORPORATED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "XPO LOGISTICS INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "XYLEM INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "YANDEX N.V. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "YUM BRANDS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -54,13 +54,33 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Final holdings sheet of the block-split Schedule A: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = WEC ENERGY GROUP through ZOETIS (W/X/Y/Z tail, 44 named), ending the alphabetical portfolio at Z. Trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge. No total/summary rows appear below ZOETIS."},
-    {"row": null, "field": "group/trust header", "note": "Italic trust header faint; read as 'Ritu Ahuja 1993 Trust' for continuity with pages 079/082-086 (same continuous alphabetical portfolio)."},
-    {"row": null, "field": "income_types (Interest / muni anchors)", "note": "Munis anchored to Interest: WICHITA KANS (18), WILL CNTY CMNTY SCH (19), WILL CNTY DIST PRESV (20), WILMINGTON DEL (23), WISCONSIN ST (24), WOODBRIDGE TWP NJ (25). Munis read NONE (no coupon received in period): WEYMOUTH MASS (15), WILL CNTY SCH DIST 159 (21). None-vs-Interest on munis is error-prone; flagged."},
-    {"row": 9, "field": "income_types", "read": "PARTNERSHIP INCOME only on rows 9 (WESTERN GAS PARTNERS LP), 10 (WESTERN MIDSTREAM PARTNERS LP)", "note": "Both LP rows carry only a far-right Partnership Income mark (no Dividends mark), unusual for MLP distributions; recorded as visually read."},
-    {"row": 14, "field": "income_types", "read": "NONE (WEYERHAEUSER)", "note": "WEYERHAEUSER (row 14) reads a None-column mark despite being a dividend-paying REIT; recorded as visually marked but a candidate for a one-row alignment slip."},
-    {"row": null, "field": "income_types (CAPITAL GAINS)", "note": "Capital-Gains marks: Dividends+CG rows WELLTOWER (4), WABTEC (11), WHIRLPOOL (16), ZIMMER (42), ZOETIS (44); CG-only non-payers WORLDPAY (27, acquired by FIS 2019) and XPO LOGISTICS (35). The middle tail CG mark (~rows 33-35) was assigned to XPO; a 2019 Xerox reorganization capital gain on XEROX CORPORATION/XEROX HOLDINGS (32/33) is an alternative placement - low-confidence. Secondary CG marks matched by pixel y-alignment, each +/- one-row risk."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Final holdings sheet of the block-split Schedule A: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = WEC ENERGY GROUP through ZOETIS (W/X/Y/Z tail, 44 named), ending the alphabetical portfolio at Z. Trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge. No total/summary rows appear below ZOETIS."
+    },
+    {
+      "row": null,
+      "field": "group/trust header",
+      "note": "Italic trust header faint; read as 'Ritu Ahuja 1993 Trust' for continuity with pages 079/082-086 (same continuous alphabetical portfolio)."
+    },
+    {
+      "row": null,
+      "field": "income_types (Interest / muni anchors)",
+      "note": "Munis anchored to Interest: WICHITA KANS (18), WILL CNTY CMNTY SCH (19), WILL CNTY DIST PRESV (20), WILMINGTON DEL (23), WISCONSIN ST (24), WOODBRIDGE TWP NJ (25). Munis read NONE (no coupon received in period): WEYMOUTH MASS (15), WILL CNTY SCH DIST 159 (21). None-vs-Interest on munis is error-prone; flagged."
+    },
+    {
+      "row": null,
+      "field": "income_types (CAPITAL GAINS)",
+      "note": "Capital-Gains marks: Dividends+CG rows WELLTOWER (4), WABTEC (11), WHIRLPOOL (16), ZIMMER (42), ZOETIS (44); CG-only non-payers WORLDPAY (27, acquired by FIS 2019) and XPO LOGISTICS (35). The middle tail CG mark (~rows 33-35) was assigned to XPO; a 2019 Xerox reorganization capital gain on XEROX CORPORATION/XEROX HOLDINGS (32/33) is an alternative placement - low-confidence. Secondary CG marks matched by pixel y-alignment, each +/- one-row risk."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

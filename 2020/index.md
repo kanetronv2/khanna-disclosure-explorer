@@ -11,7 +11,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $40.4M – $89.8M+ |
+| Reported household holdings | $41.1M – $91.1M+ |
 | Open-ended holdings | 5 |
 | Reported transactions | 6,048 |
 | Active trading days | 242 |
@@ -59,9 +59,9 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Transtar/Speedster Holding | DC | $1M+ | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000058) |
 | VANGUARD DIVIDEND APPRECIATION(VIG) | SP | $1M – $5M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000155) |
 | VANGUARD DIVIDEND APPRECIATION(VIG) | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000198) |
+| APPLE INC. CMN | SP | $500K – $1M | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000290) |
 | Citibank Checking | JT | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000003) |
 | Park Center Plaza | SP | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000034) |
-| BANK DEPOSIT PROGRAM(BDPS) | SP | $250K – $500K | [record](https://www.rokhanna.money/api/v1/evidence?id=asset:2020:000178) |
 
 ## Transaction categories
 

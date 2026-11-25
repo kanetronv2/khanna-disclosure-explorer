@@ -28,9 +28,13 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja 1994 Trust", "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."},
-    {"row": 19, "field": "value", "read": "$1,001-$15,000", "note": "DoorDash value checkbox is faint; no transaction text is visible at the right edge."},
-    {"row": 20, "field": "value", "read": "None", "note": "Douglas Emmett value checkbox is faint and should be second-reviewed."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja 1994 Trust",
+      "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

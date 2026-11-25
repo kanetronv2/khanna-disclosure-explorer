@@ -28,10 +28,25 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja 1994 Trust", "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."},
-    {"row": 1, "field": "asset_name", "read": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS", "note": "Right edge of asset name is truncated; likely class text continues beyond the visible column."},
-    {"row": 6, "field": "asset_name", "read": "COMMON STOCK", "note": "Only 'COMMON STOCK' is visible as the asset name on this row."},
-    {"row": 13, "field": "value", "read": "$100,001-$250,000", "note": "Corning value checkbox is faint and should be second-reviewed."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja 1994 Trust",
+      "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."
+    },
+    {
+      "row": 1,
+      "field": "asset_name",
+      "read": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS",
+      "note": "Right edge of asset name is truncated; likely class text continues beyond the visible column."
+    },
+    {
+      "row": 6,
+      "field": "asset_name",
+      "read": "COMMON STOCK",
+      "note": "Only 'COMMON STOCK' is visible as the asset name on this row."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

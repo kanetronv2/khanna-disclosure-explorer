@@ -9,36 +9,62 @@
     {"kind": "asset", "owner": "SP", "asset_name": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "M&T BANK CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MACERICH COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MACY'S INC. CMN", "value": "$1-$1,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MADISON SQUARE GARDEN SPORTS C CMN CLASS A", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MADISON WIS GO 4% 10/01/20 AO GO PROM NTS 2012-A UT", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MADISON WIS GO 4% 10/01/20 AO GP PROM NTS 2018 A UT", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MAINE MUN BD BK REV 5% 09/01/20 MS GRANT ANTIC BDS 2014A BBO SR LIEN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MACY'S INC. CMN", "value": "$1-$1,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MADISON SQUARE GARDEN SPORTS C CMN CLASS A", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MADISON WIS GO 4% 10/01/20 AO GO PROM NTS 2012-A UT", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MADISON WIS GO 4% 10/01/20 AO GP PROM NTS 2018 A UT", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MAINE MUN BD BK REV 5% 09/01/20 MS GRANT ANTIC BDS 2014A BBO SR LIEN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MANPOWER GROUP CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MARATHON OIL CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MARATHON OIL CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MARATHON PETROLEUM CORPORATION CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MARICOPA CNTY ARIZ CMNTY GO 4.0000% 07/01/20 JJ COLL DIST OF MARICOPA COUNTY, ARIZONA UT BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MARRIOTT INTERNATIONAL, INC CMN CLASS A", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MARSH & MCLENNAN CO INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MARSH & MCLENNAN CO INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MARTIN MARIETTA MATERIALS, INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MARVELL TECHNOLOGY GROUP LTD. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MASCO CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MASCO CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MASTERCARD INCORPORATED CMN CLASS A", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MATCH GROUP, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MATCH GROUP, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MATCH GROUP, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MATCH GROUP, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MATTEL, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "MAXIM INTEGRATED PRODUCTS INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "MAXIM INTEGRATED PRODUCTS INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MC DONALDS CORP CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MCALLISTER ACADEMIC REV 5.0000% 07/01/20 JJ RFDG-ARIZONA ST UNIV HASSAYAMPA ACADEMIC BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "MCCORMICK & CO NON VTG SHRS CMN", "value": "$1-$1,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value,income_types,amount_of_income,transaction", "read": "best-effort", "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort with possible +/-1 column ambiguity (X's in cols A/None, B/$1-$1,000, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."},
-    {"row": 3, "field": "other_income_spec", "read": "PTRN", "note": "MACERICH shows a 'PTRN' write-in in the Block C Other Type of Income column; DIVIDENDS and CAPITAL GAINS marks also read but uncertain under stipple."},
-    {"row": null, "field": "asset_name", "read": "MC DONALDS (row 23) precedes MCALLISTER (row 24)", "note": "Filer's alphabetization is space-aware: 'MC DONALDS' (with space) sorts before 'MCALLISTER'/'MCCORMICK'. Row order is as printed; no correction made."},
-    {"row": null, "field": "asset_name", "read": "MATCH GROUP, INC. CMN appears twice (rows 19 and 20)", "note": "Two consecutive identical 'MATCH GROUP, INC. CMN' rows appear on the page; both transcribed as printed."},
-    {"row": null, "field": "income_types", "read": "NONE", "note": "Municipal bond rows (MADISON WIS x2, MAINE MUN BD, MARICOPA CNTY, MCALLISTER ACADEMIC) read NONE for income type; would typically pay INTEREST but marks read in NONE column under stipple."}
+    {
+      "row": null,
+      "field": "value,income_types,amount_of_income,transaction",
+      "read": "best-effort",
+      "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort with possible +/-1 column ambiguity (X's in cols A/None, B/$1-$1,000, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."
+    },
+    {
+      "row": 3,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "MACERICH shows a 'PTRN' write-in in the Block C Other Type of Income column; DIVIDENDS and CAPITAL GAINS marks also read but uncertain under stipple."
+    },
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "MC DONALDS (row 23) precedes MCALLISTER (row 24)",
+      "note": "Filer's alphabetization is space-aware: 'MC DONALDS' (with space) sorts before 'MCALLISTER'/'MCCORMICK'. Row order is as printed; no correction made."
+    },
+    {
+      "row": null,
+      "field": "asset_name",
+      "read": "MATCH GROUP, INC. CMN appears twice (rows 19 and 20)",
+      "note": "Two consecutive identical 'MATCH GROUP, INC. CMN' rows appear on the page; both transcribed as printed."
+    },
+    {
+      "row": null,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "Municipal bond rows (MADISON WIS x2, MAINE MUN BD, MARICOPA CNTY, MCALLISTER ACADEMIC) read NONE for income type; would typically pay INTEREST but marks read in NONE column under stipple."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 11 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

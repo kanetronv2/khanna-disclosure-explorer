@@ -12,10 +12,10 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HILTON WORLDWIDE HOLDINGS INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "HILTON WORLDWIDE HOLDINGS INC CMN",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "11/03/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
@@ -24,7 +24,51 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "DOORDASH INC CMN CLASS A",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "BECTON DICKINSON AND COMPANY CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ANALOG DEVICES INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "YUM BRANDS INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "KENVUE INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -34,8 +78,19 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CAMPBELL'S CO CMN",
-      "tx_type": "Purchase",
+      "asset_name": "PAYPAL HOLDINGS INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PAYCHEX INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -45,8 +100,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "REGENCY CENTERS CORPORATION CMN",
-      "tx_type": "Purchase",
+      "asset_name": "ARCH CAPITAL GROUP LTD CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -56,8 +111,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "CHARLES RIVER LABORATORIES INTL INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "AMCOR PLC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -67,8 +122,19 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "EQUIFAX INC CMN",
-      "tx_type": "Purchase",
+      "asset_name": "CADENCE DESIGN SYSTEMS INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "EXTRA SPACE STORAGE INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -78,8 +144,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PAYPAL HOLDINGS, INC. CMN",
-      "tx_type": "Purchase",
+      "asset_name": "VERISK ANALYTICS INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -89,8 +155,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "PACKAGING CORP OF AMERICA CMN",
-      "tx_type": "Purchase",
+      "asset_name": "NXP SEMICONDUCTORS N V CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -100,63 +166,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "ARM HOLDINGS PLC ADR",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "DEFENSE MISSION SYSTEMS INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "IRA SNAP STORAGE INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "VEEVA SYSTEMS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BROOKFIELD INFRASTRUCTURE PARTNERS N.Y. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "BOWMAN CONSULTING GROUP LTD CMN",
-      "tx_type": "Purchase",
+      "asset_name": "DOW INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -167,9 +178,9 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "CORTEVA INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "11/03/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
@@ -178,9 +189,9 @@
       "kind": "tx",
       "owner": "DC",
       "asset_name": "GLOBAL PAYMENTS INC CMN",
-      "tx_type": "Purchase",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
+      "partial_sale": true,
       "date": "11/03/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
@@ -188,8 +199,8 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "KIMCO REALTY CORP CMN",
-      "tx_type": "Purchase",
+      "asset_name": "KIMCO REALTY OP LLC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/03/2025",
@@ -198,13 +209,7 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "medium",
+  "transcription_note": "Reconstructed 18 printed transactions using the upright PTR scan. Row order, account heading, notification dates and checkbox columns come from the PTR. Asset labels and trade dates were cross-checked against annual Schedule B pages 215."
 }

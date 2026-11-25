@@ -23,7 +23,7 @@
     "annual_filing_pages": 309,
     "latest_readable_transaction_date": "2018-12-31",
     "loaded_pages": 427,
-    "unresolved_transcription_flags": 746
+    "unresolved_transcription_flags": 733
   },
   "dataset_version": "2026-11-25",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
@@ -55,9 +55,9 @@
       "active_trading_days": 423,
       "average_per_active_trading_day": 15.0,
       "combined_value_range": {
-        "calculated_upper_floor_usd": 142159006,
+        "calculated_upper_floor_usd": 142194006,
         "display": "$30.2M – $142.2M+",
-        "minimum_usd": 30154329,
+        "minimum_usd": 30168329,
         "open_ended_entries": 6
       },
       "count": 6359,

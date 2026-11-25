@@ -10,14 +10,19 @@
       "text": "M&R Trust Partnership"
     },
     {
+      "kind": "group",
+      "text": "2020 Trust FBO Khanna Children"
+    },
+    {
       "kind": "asset",
       "owner": "DC",
       "asset_name": "FIDELIS INVESTORS LP",
-      "value": null,
+      "value": "$1,001-$15,000",
       "income_types": [],
       "other_income_spec": "PTN",
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
@@ -25,9 +30,10 @@
       "asset_name": "GROWTH AND EMERGING MARKETS PRIVATE EQUITY",
       "value": null,
       "income_types": [],
-      "other_income_spec": "PTN",
+      "other_income_spec": null,
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
@@ -35,27 +41,30 @@
       "asset_name": "KKR PRINCIPAL OPPORTUNITIES ACCESS LP",
       "value": null,
       "income_types": [],
-      "other_income_spec": "PTN",
+      "other_income_spec": null,
       "amount_of_income": null,
-      "transaction": null
+      "transaction": null,
+      "eif": true
     },
     {
       "kind": "asset",
       "owner": "DC",
-      "asset_name": "PETERSHILL IV LP",
-      "value": null,
+      "asset_name": "PETERSHILL II LP",
+      "value": "$1,000,001-$5,000,000",
       "income_types": [],
       "other_income_spec": "PTN",
-      "amount_of_income": null,
-      "transaction": null
+      "amount_of_income": "$50,001-$100,000",
+      "transaction": null,
+      "eif": true
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
       "field": "value/amount buckets",
-      "note": "Asset rows and PTN income type are readable; value and amount columns are not confidently readable from OCR."
+      "note": "Shaded cells obscure some marks. Bands that could not be read remain blank in the transcription."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Recovered the visible value and income bands and re-read the account headings and fund names."
 }

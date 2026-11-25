@@ -10,13 +10,13 @@
     {"kind": "asset", "owner": "SP", "asset_name": "PATTERSON-UTI ENERGY, INC. ORD CMN REG OFFER 23054738", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PAYCHEX, INC. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PAYCOM SOFTWARE, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "PAYPAL HOLDINGS, INC. CMN", "value": "$50,001-$100,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "PAYPAL HOLDINGS, INC. CMN", "value": "$50,001-$100,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PENNSYLVANIA ST HIGHER EDL REV 5% 06/15/21-CA JD FACS AUTH REV REV BDS AR SR LIEN S-T SPL RDM", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PENTAIR PLC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PEPSICO, INC. CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PERKINELMER, INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PERRIGO CO PLC CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "PERRIN-WHITT TEX CONS INDPT GO 5% 08/15/20 FA SCH DIST ULTD TAX REF BDS 2015 UT BNK QUAL BEO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "PERRIN-WHITT TEX CONS INDPT GO 5% 08/15/20 FA SCH DIST ULTD TAX REF BDS 2015 UT BNK QUAL BEO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PFIZER, INC. CMN", "value": "$250,001-$500,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PHILIP MORRIS INTL INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PHILLIPS 66 CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -29,12 +29,23 @@
     {"kind": "asset", "owner": "SP", "asset_name": "PNC FINANCIAL SERVICES GROUP, CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "POOL CORP CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "POST HOLDINGS, INC. CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "PPG INDUSTRIES, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
+    {"kind": "asset", "owner": "SP", "asset_name": "PPG INDUSTRIES, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value,income_types,amount_of_income,transaction", "read": "best-effort", "note": "Transposed Ritu Ahuja 1994 Trust grid (SP-owned) over heavy grey stipple. Block B (value) best-effort. Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable under stipple -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."},
-    {"row": 12, "field": "value", "read": "$250,001-$500,000", "note": "PFIZER value X read well right of the typical $1,001-$15,000 column; column could be anywhere in the F-H range ($100,001-$250,000 to $500,001-$1,000,000). Low confidence on exact bucket."}
+    {
+      "row": null,
+      "field": "value,income_types,amount_of_income,transaction",
+      "read": "best-effort",
+      "note": "Transposed Ritu Ahuja 1994 Trust grid (SP-owned) over heavy grey stipple. Block B (value) best-effort. Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable under stipple -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."
+    },
+    {
+      "row": 12,
+      "field": "value",
+      "read": "$250,001-$500,000",
+      "note": "PFIZER value X read well right of the typical $1,001-$15,000 column; column could be anywhere in the F-H range ($100,001-$250,000 to $500,001-$1,000,000). Low confidence on exact bucket."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 3 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

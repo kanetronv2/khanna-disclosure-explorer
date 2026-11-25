@@ -6,12 +6,16 @@
   "filer": "Rohit Khanna",
   "rows": [
     {
+      "kind": "group",
+      "text": "Ritu Ahuja 1994 Trust"
+    },
+    {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "LABCORP HOLDINGS INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -21,8 +25,8 @@
       "owner": "SP",
       "asset_name": "RESMED INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -32,8 +36,8 @@
       "owner": "SP",
       "asset_name": "SIMON PROPERTY GROUP INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -43,8 +47,8 @@
       "owner": "SP",
       "asset_name": "MOODY'S CORPORATION CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -54,8 +58,8 @@
       "owner": "SP",
       "asset_name": "ALTRIA GROUP, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -65,8 +69,8 @@
       "owner": "SP",
       "asset_name": "ULTRA CLEAN HOLDINGS, INC. CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/12/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -76,8 +80,8 @@
       "owner": "SP",
       "asset_name": "PENN ENTERTAINMENT INC CMN",
       "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/13/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
@@ -85,35 +89,90 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "PUT; @ 560 EXP 05/16/2025",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "05/16/2025",
+      "asset_name": "PUT/XSP @ 560 EXP 08/15/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/19/2025",
       "notification_date": "06/09/2025",
       "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 555 EXP 07/11/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/13/2025",
+      "notification_date": "06/09/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 539 EXP 07/31/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/19/2025",
+      "notification_date": "06/09/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 530 EXP 06/06/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/01/2025",
+      "notification_date": "06/09/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "PUT/XSP @ 570 EXP 06/30/2025",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/28/2025",
+      "notification_date": "06/09/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NESTLE SA SPONSORED ADR (REP 1/20 CHF 10 REGD SHS)",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "05/09/2025",
+      "notification_date": "06/09/2025",
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "DANAHER CORPORATION CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
-      "tx_type": "Exchange",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": true,
       "partial_sale": true,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
@@ -121,42 +180,37 @@
       "asset_name": "TJX COMPANIES INC (NEW) CMN",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "THERMO FISHER SCIENTIFIC INC CMN",
       "tx_type": "Sale",
-      "cap_gain_over_200": true,
-      "partial_sale": true,
+      "cap_gain_over_200": false,
+      "partial_sale": false,
       "date": "05/28/2025",
       "notification_date": "06/09/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     },
     {
       "kind": "tx",
       "owner": "SP",
       "asset_name": "GLOBAL PAYMENTS INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": true,
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
       "partial_sale": true,
       "date": "05/16/2025",
       "notification_date": "06/09/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 8,
-      "field": "asset_name",
-      "read": "PUT; @ 560 EXP 05/16/2025",
-      "note": "Option row is badly degraded; asset root before PUT is not legible in OCR/image."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "high",
+  "transcription_note": "Re-read all 18 transactions and the printed trust heading from the high-resolution scan.",
+  "image": "docs/2025-5/pages/page-019.jpg"
 }

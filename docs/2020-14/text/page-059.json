@@ -6,38 +6,59 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
-    {"kind": "asset", "owner": "SP", "asset_name": "CINEMARK HOLDINGS, INC. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CINTAS CORPORATION CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CINEMARK HOLDINGS, INC. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CINTAS CORPORATION CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CISCO SYSTEMS, INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CIT GROUP INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CITIGROUP INC. CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CITIZENS FINANCIAL GROUP, INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CITIZENS FINANCIAL GROUP, INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CITRIX SYSTEMS INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CLARK CNTY NEV FOR ISSUES DTD DB 5.0000% 11/01/20 MN PRIOR TO 08/20/08 SEE 180847 RFDG-LTD TAX-BEO SR LIEN", "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CLARK CNTY NEV FOR ISSUES DTD DB 5.0000% 11/01/20 MN PRIOR TO 08/20/08 SEE 180847 RFDG-LTD TAX-BEO SR LIEN", "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CLARK CNTY NEV SCH DIST GO 5% 06/15/20 JD GO LTD TAX VAR PURP MEDIUM TERM BDS 2019 C LT INS BEO", "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CLOROX CO (THE) (DELAWARE) CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CME GROUP INC. CMN CLASS A", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CMS ENERGY CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CME GROUP INC. CMN CLASS A", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CMS ENERGY CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CNA FINCL.CORP. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COCA-COLA COMPANY (THE) CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COCA-COLA EUROPEAN PARTNERS PL CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COGNEX CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COCA-COLA COMPANY (THE) CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COCA-COLA EUROPEAN PARTNERS PL CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COGNEX CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COHERENT INC. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COLGATE-PALMOLIVE CO CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COLUMBUS OHIO GO 5% 07/01/20 JT GO BDS 2012-1 UT BEO", "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "COMERICA INCORPORATED CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COLUMBUS OHIO GO 5% 07/01/20 JT GO BDS 2012-1 UT BEO", "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "COMERICA INCORPORATED CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "COMMSCOPE HOLDING COMPANY, INC CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CONAGRA BRANDS INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CONCHO RESOURCES INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
+    {"kind": "asset", "owner": "SP", "asset_name": "CONAGRA BRANDS INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CONCHO RESOURCES INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value", "read": null, "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."},
-    {"row": null, "field": "transaction", "read": null, "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."},
-    {"row": null, "field": "income_types", "read": null, "note": "Block C income-type reads best-effort under stipple. First rows read from TR crop (CINEMARK = NONE, CINTAS/CITIGROUP = CAPITAL GAINS, CISCO/CIT/CITIZENS/CITRIX = DIVIDENDS). Remaining assignments mix DIVIDENDS/NONE/CAPITAL GAINS and are approximate; bond rows (CLARK CNTY x2, COLUMBUS OHIO) assumed INTEREST."}
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "transaction",
+      "read": null,
+      "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."
+    },
+    {
+      "row": null,
+      "field": "income_types",
+      "read": null,
+      "note": "Block C income-type reads best-effort under stipple. First rows read from TR crop (CINEMARK = NONE, CINTAS/CITIGROUP = CAPITAL GAINS, CISCO/CIT/CITIZENS/CITRIX = DIVIDENDS). Remaining assignments mix DIVIDENDS/NONE/CAPITAL GAINS and are approximate; bond rows (CLARK CNTY x2, COLUMBUS OHIO) assumed INTEREST."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 15 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

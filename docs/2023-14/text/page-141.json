@@ -6,30 +6,33 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 1.25% 09/10/20", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 4.108% 06/08/2", "value": "$500,001-$1,000,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S,S(part)"},
-    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 4.108% 06/08/2", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "TOTAL SYSTEM SERVICES IN 4.8% 04/01/2026 USD", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "TRANSCANADA PIPELINES LIMITED 4.25% 05/15/2028 U", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 06/06/", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P"},
-    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 06/06/", "value": "$250,001-$500,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 10/28/", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "P,S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "U S DOLLAR", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "U.S. BANCORP MTN 3.0% 07/30/2029 USD", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "U.S. BANCORP MTN 3.0% 07/30/2029 USD SUB LIEN", "value": "$250,001-$500,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "UBER TECHNOLOGIES, INC. CMN", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "value": "$250,001-$500,000", "income_types": ["RENT", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "US BANCORP HYBRID 02/01/2029", "value": "$500,001-$1,000,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "VANGUARD SPECIALIZED PORTFOLIO VANGUARD DM", "value": "$500,001-$1,000,000", "income_types": ["RENT"], "other_income_spec": null, "amount_of_income": "$50,001-$100,000", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "VERALTO CORPORATION CMN", "value": "$250,001-$500,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "VERISK ANALYTICS, INC. CMN", "value": "$500,001-$1,000,000", "income_types": ["RENT", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$15,001-$50,000", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "VERIZON COMMUNICATIONS, INC. 4.016% 12/03/2029 U", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
-    {"kind": "asset", "owner": "DC", "asset_name": "VISA INC. CMN CLASS A", "value": "$15,001-$50,000", "income_types": ["RENT", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$50,001-$100,000", "transaction": "S"},
-    {"kind": "asset", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": "S"}
+    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 4.108% 06/08/2", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S,S(part)"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TORONTO-DOMINION BANK (THE) MTN 4.108% 06/08/2", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TOTAL SYSTEM SERVICES IN 4.8% 04/01/2026 USD", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRANSCANADA PIPELINES LIMITED 4.25% 05/15/2028 U", "value": "$15,001-$50,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 06/06/", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P"},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 06/06/", "value": "$500,001-$1,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "TRUIST FINANCIAL CORPORATION HYBRID MTN 10/28/", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "P,S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "U S DOLLAR", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "U.S. BANCORP MTN 3.0% 07/30/2029 USD", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "U.S. BANCORP MTN 3.0% 07/30/2029 USD SUB LIEN", "value": "$500,001-$1,000,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "UBER TECHNOLOGIES, INC. CMN", "value": "$50,001-$100,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN", "value": "$250,001-$500,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "US BANCORP HYBRID 02/01/2029", "value": "$1,000,001-$5,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "VANGUARD SPECIALIZED PORTFOLIO VANGUARD DM", "value": "$1,000,001-$5,000,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$15,001-$50,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "VERALTO CORPORATION CMN", "value": "$500,001-$1,000,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "VERISK ANALYTICS, INC. CMN", "value": "$1,000,001-$5,000,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "VERIZON COMMUNICATIONS, INC. 4.016% 12/03/2029 U", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "DC", "asset_name": "VISA INC. CMN CLASS A", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$15,001-$50,000", "transaction": "S"},
+    {"kind": "asset", "owner": "DC", "asset_name": "WELLS FARGO & COMPANY HYBRID PERPETUAL USD", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": "S"}
   ],
   "free_text": null,
   "uncertainties": [
-    {"field": "asset_name", "note": "Several fixed-income descriptions are clipped at the asset-name column edge."},
-    {"field": "checkbox_grid", "note": "Dense grid and scan skew make some Block B/C/D cells lower confidence; visible marks were transcribed conservatively."}
+    {
+      "field": "asset_name",
+      "note": "Several fixed-income descriptions are clipped at the asset-name column edge."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

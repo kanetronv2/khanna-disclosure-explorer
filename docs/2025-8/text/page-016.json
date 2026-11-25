@@ -34,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMPASS INC CMN",
+      "asset_name": "CORPAY INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -67,7 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "WARNER LAMBERT INC CMN",
+      "asset_name": "W W GRAINGER INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -78,7 +78,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTERNATIONAL PRODUCTS & CHEMICALS INC CMN",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "UNITEDHEALTH GROUP INCORPORATED CMN",
+      "asset_name": "UNITEDHEALTH GROUP INCORPORATE CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -100,7 +100,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HAMILTON LANE INC CMN",
+      "asset_name": "LULULEMON ATHLETICA INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TEXTRON, INC CMN",
+      "asset_name": "KENVUE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "HONEYWELL FOODS CORPORATION CMN",
+      "asset_name": "HORMEL FOODS CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "ATHENE INC CMN CLASS A",
+      "asset_name": "AIRBNB INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "DALLAS, INC CMN",
+      "asset_name": "DATADOG INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -177,23 +177,17 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SANCHEZ SPONSORED ADR CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
+      "asset_name": "SANOFI SPONSORED ADR CMN",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
       "partial_sale": false,
-      "date": "11/10/2025",
+      "date": "11/14/2025",
       "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
+      "amount": "$15,001-$50,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "medium",
+  "transcription_note": "Reconstructed 16 printed transactions using the upright PTR scan. Row order, account heading, notification dates and checkbox columns come from the PTR. Asset labels and trade dates were cross-checked against annual Schedule B pages 292, 293."
 }

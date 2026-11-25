@@ -200,12 +200,12 @@
     },
     {
       "actual_holdings_change": "cannot_be_inferred",
-      "answer": "The aggregate reported range's bounds both decreased, from $47K – $180K in 2018 to $15K – $50K in 2019. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "answer": "The aggregate reported range's bounds both decreased, from $47K – $180K in 2018 to $16K – $65K in 2019. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
       "answer_basis": "Each bound is the sum of the statutory value-band bounds for matching Schedule A common-stock entries in that filing year.",
       "calculation": {
         "difference": {
-          "minimum_usd": -32004,
-          "upper_floor_usd": -130000
+          "minimum_usd": -31003,
+          "upper_floor_usd": -115000
         },
         "from": {
           "minimum_usd": 47005,
@@ -213,8 +213,8 @@
           "year": 2018
         },
         "to": {
-          "minimum_usd": 15001,
-          "upper_floor_usd": 50000,
+          "minimum_usd": 16002,
+          "upper_floor_usd": 65000,
           "year": 2019
         }
       },
@@ -278,7 +278,7 @@
         {
           "id": "asset:2019:001899",
           "owner": "SP",
-          "reported_band": null,
+          "reported_band": "$1,001-$15,000",
           "reported_name": "NVIDIA CORPORATION CMN",
           "source_page_url": "https://www.rokhanna.money/2019/#p69",
           "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899",
@@ -316,16 +316,16 @@
     },
     {
       "actual_holdings_change": "cannot_be_inferred",
-      "answer": "The aggregate reported range's bounds both increased, from $15K – $50K in 2019 to $50K – $100K in 2020. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
+      "answer": "The aggregate reported range's bounds both increased, from $16K – $65K in 2019 to $50K – $100K in 2020. The disclosures report ranges rather than exact values, so an exact change cannot be calculated.",
       "answer_basis": "Each bound is the sum of the statutory value-band bounds for matching Schedule A common-stock entries in that filing year.",
       "calculation": {
         "difference": {
-          "minimum_usd": 35000,
-          "upper_floor_usd": 50000
+          "minimum_usd": 33999,
+          "upper_floor_usd": 35000
         },
         "from": {
-          "minimum_usd": 15001,
-          "upper_floor_usd": 50000,
+          "minimum_usd": 16002,
+          "upper_floor_usd": 65000,
           "year": 2019
         },
         "to": {
@@ -334,7 +334,7 @@
           "year": 2020
         }
       },
-      "conservative_range_relation": "higher_non_overlapping_range",
+      "conservative_range_relation": "overlapping_reported_ranges",
       "directly_comparable": true,
       "evidence": [
         {
@@ -349,7 +349,7 @@
         {
           "id": "asset:2019:001899",
           "owner": "SP",
-          "reported_band": null,
+          "reported_band": "$1,001-$15,000",
           "reported_name": "NVIDIA CORPORATION CMN",
           "source_page_url": "https://www.rokhanna.money/2019/#p69",
           "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899",
@@ -1706,9 +1706,9 @@
           "source_page_url": "https://www.rokhanna.money/2019/#p69",
           "tx": null,
           "url": "https://www.rokhanna.money/api/v1/evidence?id=asset:2019:001899",
-          "value": null,
-          "vhi": null,
-          "vlo": null
+          "value": "$1,001-$15,000",
+          "vhi": 15000,
+          "vlo": 1001
         },
         {
           "cls": "Common stock",
@@ -1721,8 +1721,7 @@
           "ilo": null,
           "income_amt": null,
           "income_types": [
-            "Dividends",
-            "Capital gains"
+            "Dividends"
           ],
           "issuer": {
             "aliases": [
@@ -1798,10 +1797,10 @@
         "NVIDIA CORPORATION CMN"
       ],
       "reported_value": {
-        "calculated_upper_floor_usd": 50000,
-        "display": "$15K – $50K",
-        "maximum_usd": 50000,
-        "minimum_usd": 15001,
+        "calculated_upper_floor_usd": 65000,
+        "display": "$16K – $65K",
+        "maximum_usd": 65000,
+        "minimum_usd": 16002,
         "open_ended_entries": 0
       },
       "year": 2019

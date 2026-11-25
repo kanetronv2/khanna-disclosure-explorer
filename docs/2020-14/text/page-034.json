@@ -6,38 +6,53 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
-    {"kind": "asset", "owner": "SP", "asset_name": "JOHNSON & JOHNSON CMN", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JONES LANG LASALLE INCORPORATE CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JPMORGAN CHASE & CO CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JUNIPER NETWORKS, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KANSAS CITY SOUTHERN CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KELLOGG COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KEYCORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KEYSIGHT TECHNOLOGIES, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KIMBERLY-CLARK CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KIMCO REALTY CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KINDER MORGAN INC CMN CLASS P", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KING CNTY WASH GO 5% 07/01/20 JJ LTD TAX GO BDS 2012A LT BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KIRBY CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KKR & CO. INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KLA CORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KOHL'S CORP (WISCONSIN) CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KROGER COMPANY CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KY PPTABLD CMNRV MDT<11/15/11 REV 5.0000% 04/01/20 AO PROJ NO 115 BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "L BRANDS, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "L3HARRIS TECHNOLOGIES INC CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LABORATORY CORPORATION OF AMER. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LAM RESEARCH CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LAMAR ADVERTISING COMPANY CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LAMB WESTON HOLDINGS, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
+    {"kind": "asset", "owner": "SP", "asset_name": "JOHNSON & JOHNSON CMN", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JOHNSON CONTROLS INTERNATIONAL CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JONES LANG LASALLE INCORPORATE CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JPMORGAN CHASE & CO CMN", "value": "$50,001-$100,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JUNIPER NETWORKS, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KANSAS CITY SOUTHERN CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KELLOGG COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KEYCORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KEYSIGHT TECHNOLOGIES, INC. CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KIMBERLY-CLARK CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KIMCO REALTY CORPORATION CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KINDER MORGAN INC CMN CLASS P", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KING CNTY WASH GO 5% 07/01/20 JJ LTD TAX GO BDS 2012A LT BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KIRBY CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KKR & CO. INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KLA CORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KOHL'S CORP (WISCONSIN) CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KROGER COMPANY CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$50,001-$100,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KY PPTABLD CMNRV MDT<11/15/11 REV 5.0000% 04/01/20 AO PROJ NO 115 BBO", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "L BRANDS, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "L3HARRIS TECHNOLOGIES INC CMN", "value": "None", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LABORATORY CORPORATION OF AMER. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LAM RESEARCH CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LAMAR ADVERTISING COMPANY CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": "PTRN", "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LAMB WESTON HOLDINGS, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value,income_types,amount_of_income,transaction", "read": "best-effort", "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort (X's in cols A/None, C/$1,001-$15,000, D/$15,001-$50,000, E/$50,001-$100,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."},
-    {"row": 19, "field": "asset_name", "read": "KY PPTABLD CMNRV MDT<11/15/11 REV 5.0000% 04/01/20 AO PROJ NO 115 BBO", "note": "Kentucky municipal bond, name heavily garbled in scan; likely 'KENTUCKY ST PPTY & BLDG COMMN REV'. Transcribed as legible; low confidence on the abbreviated tokens."},
-    {"row": 24, "field": "other_income_spec", "read": "PTRN", "note": "LAMAR ADVERTISING shows a 'PTRN' write-in in the Block C Other Type of Income column; DIVIDENDS mark also read but uncertain under stipple."},
-    {"row": null, "field": "income_types", "read": "NONE", "note": "Municipal bond rows (KING CNTY WASH, KY PPTABLD) read NONE for income type; would typically pay INTEREST but marks read in NONE column under stipple."}
+    {
+      "row": null,
+      "field": "value,income_types,amount_of_income,transaction",
+      "read": "best-effort",
+      "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort (X's in cols A/None, C/$1,001-$15,000, D/$15,001-$50,000, E/$50,001-$100,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."
+    },
+    {
+      "row": 19,
+      "field": "asset_name",
+      "read": "KY PPTABLD CMNRV MDT<11/15/11 REV 5.0000% 04/01/20 AO PROJ NO 115 BBO",
+      "note": "Kentucky municipal bond, name heavily garbled in scan; likely 'KENTUCKY ST PPTY & BLDG COMMN REV'. Transcribed as legible; low confidence on the abbreviated tokens."
+    },
+    {
+      "row": 24,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "LAMAR ADVERTISING shows a 'PTRN' write-in in the Block C Other Type of Income column; DIVIDENDS mark also read but uncertain under stipple."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Re-read all value, income type and income amount checkboxes from the scan. Some transaction marks remain indistinct in the stipple."
 }

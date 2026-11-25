@@ -28,9 +28,16 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"field": "context", "read": "MAR Trust Partnership / 2020 Trust FBO Khanna Children continuation", "note": "The page continues the private-fund block from page 130."},
-    {"field": "asset_name", "note": "Several long fund names are clipped at the Block A edge; transcribed visible text only."},
-    {"field": "checkbox_grid", "note": "Private-fund Block B and Block D marks are tightly spaced; values and amounts are medium-low confidence."}
+    {
+      "field": "context",
+      "read": "MAR Trust Partnership / 2020 Trust FBO Khanna Children continuation",
+      "note": "The page continues the private-fund block from page 130."
+    },
+    {
+      "field": "asset_name",
+      "note": "Several long fund names are clipped at the Block A edge; transcribed visible text only."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

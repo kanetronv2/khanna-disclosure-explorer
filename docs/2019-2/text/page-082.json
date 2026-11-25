@@ -36,28 +36,28 @@
     {"kind": "asset", "owner": "SP", "asset_name": "NISOURCE INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NOBLE ENERGY INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORDSTROM, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "NORFOLK SOUTHERN CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "NORFOLK SOUTHERN CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORTHERN TRUST CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORTHROP GRUMMAN CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORTONLIFELOCK IN CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORTONLIFELOCK INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NORWEGIAN CRUISE LINE HLDG LTD CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NRG ENERGY, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "NUANCE COMMUNICATIONS, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "NUANCE COMMUNICATIONS, INC. CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NUCOR CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "NVIDIA CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "NVIDIA CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "NY CITY TRANSITIONAL FIN AUTH REV 5.0000% 11/01/19 MN FIRE TAX SECURED SUBORD BNDS BNK QUAL BEO SUB LIEN", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "OCCIDENTAL PETROLEUM CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "OGE ENERGY CORP (HOLDING CO) CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "OHIO ST GO 5% 09/01/20 MS INFRASTRUCTURE IMPT GO BDS 2018A UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "OCCIDENTAL PETROLEUM CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "OGE ENERGY CORP (HOLDING CO) CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "OHIO ST GO 5% 09/01/20 MS INFRASTRUCTURE IMPT GO BDS 2018A UT SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "O-I GLASS, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "OKLAHOMA ST TPK AUTH TPK REV REV 5% 01/01/19 JJ RFDG-SECOND SR-SER A SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "OKLAHOMA ST WTR RES BRD REV 5.0000% 04/01/20 AO REVOLVING FD REV REV BDS MASTER TR 2011-A BEO SR LIEN", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "OLD DOMINION FREIGHT LINE, INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "OKLAHOMA ST WTR RES BRD REV 5.0000% 04/01/20 AO REVOLVING FD REV REV BDS MASTER TR 2011-A BEO SR LIEN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "OLD DOMINION FREIGHT LINE, INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "OLIN CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "OMNICOM GROUP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ON SEMICONDUCTOR CORPORATION CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "ONEOK INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "ONEOK INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "OPKO HEALTH INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ORACLE CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "O'REILLY AUTOMOTIVE, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -67,16 +67,32 @@
     {"kind": "asset", "owner": "SP", "asset_name": "OWENS-ILLINOIS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PACCAR INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "PACKAGING CORP OF AMERICA COMMON STOCK", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "PALM BEACH CNTY FLA SOLID REV 5% 10/01/20 AO WASTE AUTH REV REF REV BDS 2011 BEO SR LIEN S-T X-ORD BDS", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
+    {"kind": "asset", "owner": "SP", "asset_name": "PALM BEACH CNTY FLA SOLID REV 5% 10/01/20 AO WASTE AUTH REV REF REV BDS 2011 BEO SR LIEN S-T X-ORD BDS", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = MSCI through PALM BEACH CNTY (M/N/O/P range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."},
-    {"row": null, "field": "group/trust header", "note": "Italic trust header at top of sheet is faint; read as 'Ritu Ahuja 1993 Trust' to match the continuous alphabetical portfolio carried over from page 079 (which ended at INVESCO under the same trust). The year digits (1993 vs 1995) are not individually legible on this scan; tesseract garbled it."},
-    {"row": null, "field": "income_types (row alignment)", "note": "61 rows; primary types anchored by 13 municipal-bond rows (Interest) and non-dividend-payer rows (None). Rows with a secondary CAPITAL GAINS mark (10 NATIONAL OILWELL VARCO, 13 NETAPP, 18 NEW RESIDENTIAL, 21 NEWFIELD [CG-only], 26 NIKE, 30 NORFOLK SOUTHERN, 39 NVIDIA, 41 OCCIDENTAL, 47 OLD DOMINION) carry real row-assignment risk - 9 CG marks total (5 in the top-right crop, 4 in the bottom-right crop) matched to rows by pixel y-alignment, which can slip by one row."},
-    {"row": 8, "field": "income_types", "read": "NONE", "note": "NASSAU CNTY N Y GO (row 8) is a municipal tax-anticipation note but its mark reads NONE (left column) rather than Interest like the other 12 munis on the sheet - plausible for a note with no coupon received in the period; flagged because None-vs-Interest on a muni is error-prone."},
-    {"row": 23, "field": "income_types", "read": "NONE (NEWS CORP); NONE (NISOURCE row 27)", "note": "NEWS CORPORATION CLASS A (row 23) and NISOURCE (row 27) both read NONE though each pays a small dividend; recorded as visually marked but either could be a one-row alignment slip from an adjacent Dividends mark."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = MSCI through PALM BEACH CNTY (M/N/O/P range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."
+    },
+    {
+      "row": null,
+      "field": "group/trust header",
+      "note": "Italic trust header at top of sheet is faint; read as 'Ritu Ahuja 1993 Trust' to match the continuous alphabetical portfolio carried over from page 079 (which ended at INVESCO under the same trust). The year digits (1993 vs 1995) are not individually legible on this scan; tesseract garbled it."
+    },
+    {
+      "row": null,
+      "field": "income_types (row alignment)",
+      "note": "61 rows; primary types anchored by 13 municipal-bond rows (Interest) and non-dividend-payer rows (None). Rows with a secondary CAPITAL GAINS mark (10 NATIONAL OILWELL VARCO, 13 NETAPP, 18 NEW RESIDENTIAL, 21 NEWFIELD [CG-only], 26 NIKE, 30 NORFOLK SOUTHERN, 39 NVIDIA, 41 OCCIDENTAL, 47 OLD DOMINION) carry real row-assignment risk - 9 CG marks total (5 in the top-right crop, 4 in the bottom-right crop) matched to rows by pixel y-alignment, which can slip by one row."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

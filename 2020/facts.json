@@ -23,7 +23,7 @@
     "annual_filing_pages": 326,
     "latest_readable_transaction_date": "2020-12-31",
     "loaded_pages": 453,
-    "unresolved_transcription_flags": 827
+    "unresolved_transcription_flags": 821
   },
   "dataset_version": "2026-11-25",
   "described_by": "https://www.rokhanna.money/api/v1/openapi.json",
@@ -46,9 +46,9 @@
       "open_ended": false
     },
     "reported_holdings": {
-      "calculated_upper_floor_usd": 89768005,
-      "display": "$40.4M – $89.8M+",
-      "minimum_usd": 40392535,
+      "calculated_upper_floor_usd": 91133005,
+      "display": "$41.1M – $91.1M+",
+      "minimum_usd": 41073539,
       "open_ended_entries": 5
     },
     "reported_transactions": {
@@ -64,9 +64,9 @@
       "dated_count": 6048
     },
     "reported_unearned_income": {
-      "calculated_upper_floor_usd": 22174100,
-      "display": "$3.02M – $22.2M",
-      "minimum_usd": 3015969,
+      "calculated_upper_floor_usd": 23609100,
+      "display": "$3.28M – $23.6M",
+      "minimum_usd": 3278014,
       "open_ended_entries": 0
     },
     "source_linked_asset_entries": 2038,

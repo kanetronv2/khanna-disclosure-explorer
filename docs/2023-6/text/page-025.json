@@ -7,155 +7,204 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "DOUGLAS EMMETT, INC. CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Partial Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": true
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "THE KRAFT HEINZ CO CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "COTY, INC. CMN CLASS A",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
-      "asset_name": "D.R. HORTON, INC. CMN",
-      "tx_type": "Sale",
-      "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "GRAPHIC PACKAGING HLDG CO CMN",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": true,
-      "partial_sale": true,
-      "date": "06/07/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "D.R. HORTON, INC. CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "GRAPHIC PACKAGING HLDGCO CMN",
+      "date": "06/07/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
       "asset_name": "ADVANCE AUTO PARTS, INC. CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "DICKS SPORTING GOODS INC CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "BIO-RAD LABORATORIES, INC CMN CLASS A",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "MARSH & MCLENNAN CO INC CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": true
+    },
+    {
+      "kind": "tx",
+      "asset_name": "TEMPUR SEALY INTERNATIONAL INC CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "WASTE CONNECTIONS, INC. CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "group",
+      "text": "Ritu Ahuja 1995 Trust"
+    },
+    {
+      "kind": "tx",
       "asset_name": "OHIO ST GO 5% 05/01/39 MN",
+      "date": "06/21/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$50,001-$100,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/25/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "MORGAN STANLEY HYBRID 12/10/2026 USD",
+      "date": "06/22/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/22/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "BANK OF AMERICA CORPORATION HYBRID 12/20/2028 USD",
+      "date": "06/26/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/26/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "HYBRID 11/19/2026 USD",
+      "date": "06/22/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/22/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "NEXTERA ENERGY CAPITAL HOLDING 2.75% 11/01/2029 USD",
+      "date": "06/16/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
-      "asset_name": "2.750 12/01/2029 USD",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/22/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "VERIZON COMMUNICATIONS, INC. 4.016% 12/03/2029 USD",
+      "date": "06/16/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
-      "asset_name": "COMMUNICATIONS, INC. 4.016% 12/03/2029 USD",
+      "amount": "$15,001-$50,000",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/16/23",
-      "notification_date": "07/06/23",
-      "amount": "$50,001-$100,000"
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": "page",
+      "row": 15,
       "field": "asset_name",
-      "note": "Top and lower bond names are materially degraded in source/OCR; uncertain names preserved as visible/partial transcriptions."
+      "note": "The fourth bond lists only its hybrid designation and maturity in the printed asset cell."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Re-read the printed rows, dates and checkbox columns from the high-resolution scan."
 }

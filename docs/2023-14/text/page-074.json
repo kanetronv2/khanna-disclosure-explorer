@@ -28,13 +28,37 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja Declaration of Trust", "note": "No group header printed on this page; context inferred from surrounding attachment pages."},
-    {"row": 0, "field": "asset_name", "read": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX B", "note": "Several JPMorgan structured-note names are truncated at the asset-name column edge."},
-    {"row": 6, "field": "transaction", "read": null, "note": "Louisiana St Gas first row's transaction cell is not clearly marked in the scan."},
-    {"row": 10, "field": "income_types/amount_of_income", "read": "NONE / None", "note": "Metropolitan Nashville row has faint Block C/D marks; likely a non-income continuation or transaction row."},
-    {"row": 11, "field": "value/income_types", "read": "None / NONE", "note": "Second Metropolitan Nashville row is difficult to read because marks are faint and the asset name is truncated."},
-    {"row": 16, "field": "asset_name", "read": "MINNEAPOLIS MINN SPL SCH DIST GO 1.1500% 12/15/4", "note": "Printed municipal bond name is truncated at the asset-name column edge."},
-    {"row": 19, "field": "asset_name", "read": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500", "note": "Last row continues onto following page sequence; printed structured-note name is truncated."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja Declaration of Trust",
+      "note": "No group header printed on this page; context inferred from surrounding attachment pages."
+    },
+    {
+      "row": 0,
+      "field": "asset_name",
+      "read": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX B",
+      "note": "Several JPMorgan structured-note names are truncated at the asset-name column edge."
+    },
+    {
+      "row": 6,
+      "field": "transaction",
+      "read": null,
+      "note": "Louisiana St Gas first row's transaction cell is not clearly marked in the scan."
+    },
+    {
+      "row": 16,
+      "field": "asset_name",
+      "read": "MINNEAPOLIS MINN SPL SCH DIST GO 1.1500% 12/15/4",
+      "note": "Printed municipal bond name is truncated at the asset-name column edge."
+    },
+    {
+      "row": 19,
+      "field": "asset_name",
+      "read": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500",
+      "note": "Last row continues onto following page sequence; printed structured-note name is truncated."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

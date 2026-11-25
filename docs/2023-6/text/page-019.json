@@ -7,155 +7,194 @@
   "rows": [
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "NORFOLK SOUTHERN CORP CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "MOTOROLA SOLUTIONS INC CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
-      "asset_name": "MOTOROLA SOLUTIONS INC. CMN",
-      "tx_type": "Sale",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "WATERS CORPORATION COMMON STOCK",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
       "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
       "asset_name": "PHILIP MORRIS INTL INC CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "AT&T INC. CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "W.R. BERKLEY CORPORATION CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "HORMEL FOODS CORPORATION CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "THE BANK OF NY MELLON CORP CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "CORTEVA, INC. CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "INCYTE CORPORATION CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "QUEST DIAGNOSTICS INCORPORATED CMN",
-      "tx_type": "Sale",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "SP",
       "asset_name": "AVANTOR FUNDING, INC. CMN",
-      "tx_type": "Sale",
+      "date": "06/23/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
       "cap_gain_over_200": false,
-      "partial_sale": true,
-      "date": "06/29/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "BAXTER INTERNATIONAL INC CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "MOHAWK INDUSTRIES INC COMMON STOCK",
+      "date": "06/30/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "NATIONAL GRID PLC SPONSORED ADR CMN",
+      "date": "06/29/2023",
+      "notification_date": "07/06/2023",
+      "owner": "SP",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": "page",
-      "field": "asset_name",
-      "note": "OCR/source image is degraded on this page; asset names were transcribed from OCR plus visual inspection and may contain normalized spelling."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "high",
+  "transcription_note": "Re-read the printed rows, dates and checkbox columns from the high-resolution scan."
 }

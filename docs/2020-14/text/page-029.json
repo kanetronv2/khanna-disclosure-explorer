@@ -6,7 +6,7 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
-    {"kind": "asset", "owner": "SP", "asset_name": "EVERSOURCE ENERGY CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "EVERSOURCE ENERGY CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EXELIXIS, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EXELON CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EXPEDIA GROUP INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -19,14 +19,14 @@
     {"kind": "asset", "owner": "SP", "asset_name": "FASTENAL COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FEDERAL RLTY INVT TR SBI CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FEDEX CORPORATION CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FIDELITY NATL INFO SVCS INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FIDELITY NATL INFO SVCS INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIFTH THIRD BANCORP CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIREEYE, INC. CMN", "value": "$100,001-$250,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIRST REPUBLIC BANK CMN SERIES", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIRST SOLAR, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FIRSTENERGY CORP. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FISERV, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FLA ST BRD ED PUB ED GO 5.0000% 06/01/20 JD RFDG-CAP OUTLAY-SER D BEO", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FLA ST BRD ED PUB ED GO 5.0000% 06/01/20 JD RFDG-CAP OUTLAY-SER D BEO", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLEETCOR TECHNOLOGIES, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLIR SYSTEMS INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FLORIDA ST DEPT TRANSN REV 5% 07/01/21 II ALLIGATOR ALLEY REV REV REF BDS 2017 A BEO", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -34,11 +34,37 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 12, "field": "other_income_spec", "read": "PTRN", "note": "'PTRN' write-in visible in Block C Other Type of Income for FEDERAL RLTY INVT TR."},
-    {"row": 19, "field": "other_income_spec", "read": "PTRN", "note": "'PTRN' write-in appears in Block C Other Type of Income near FIRSTENERGY row; alignment uncertain under stipple."},
-    {"row": 16, "field": "value", "read": "$100,001-$250,000", "note": "FIREEYE value X sits well right of None under stipple; column between F and adjacent buckets uncertain."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."},
-    {"row": null, "field": "value", "read": null, "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."}
+    {
+      "row": 12,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "'PTRN' write-in visible in Block C Other Type of Income for FEDERAL RLTY INVT TR."
+    },
+    {
+      "row": 19,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "'PTRN' write-in appears in Block C Other Type of Income near FIRSTENERGY row; alignment uncertain under stipple."
+    },
+    {
+      "row": 16,
+      "field": "value",
+      "read": "$100,001-$250,000",
+      "note": "FIREEYE value X sits well right of None under stipple; column between F and adjacent buckets uncertain."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."
+    },
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 3 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

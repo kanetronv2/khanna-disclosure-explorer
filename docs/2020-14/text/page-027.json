@@ -7,38 +7,59 @@
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
     {"kind": "asset", "owner": "SP", "asset_name": "DEXCOM, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DIAMONDBACK ENERGY INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DIAMONDBACK ENERGY INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DIGITAL REALTY TRUST, INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DISCOVER FINANCIAL SERVICES CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DISCOVERY INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DISH NETWORK CORPORATION CMN CLASS A", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DISCOVERY INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DISH NETWORK CORPORATION CMN CLASS A", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DOLLAR GENERAL CORPORATION CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DOLLAR TREE STORES, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DOMINION ENERGY INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DOMTAR CORPORATION CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DOVER CORPORATION CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DOW INC. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DOMTAR CORPORATION CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DOVER CORPORATION CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DOW INC. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DROPBOX, INC. CMN CLASS A", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DTE ENERGY COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DTE ENERGY COMPANY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DUKE ENERGY CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DUKE REALTY CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DUPONT DE NEMOURS INC CMN", "value": "$100,001-$250,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "DXC TECHNOLOGY COMPANY CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DUPONT DE NEMOURS INC CMN", "value": "$250,001-$500,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$2,501-$5,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "DXC TECHNOLOGY COMPANY CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "DYNATRACE HOLDINGS LLC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "E*TRADE FINANCIAL, LLC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EAGLE MATERIALS INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EASTMAN CHEMICAL COMPANY CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "EATON CORP PLC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "EATON VANCE CORP (NON-VTG) CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "EATON CORP PLC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$5,001-$15,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "EATON VANCE CORP (NON-VTG) CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "EBAY INC. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ECOLAB INC. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 3, "field": "other_income_spec", "read": "PTRN", "note": "'PTRN' write-in visible in Block C Other Type of Income column for DIGITAL REALTY TRUST."},
-    {"row": 17, "field": "value", "read": "$100,001-$250,000", "note": "DUPONT DE NEMOURS X sits well right of None under stipple; could be $250,001-$500,000."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."},
-    {"row": null, "field": "value", "read": null, "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."}
+    {
+      "row": 3,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "'PTRN' write-in visible in Block C Other Type of Income column for DIGITAL REALTY TRUST."
+    },
+    {
+      "row": 17,
+      "field": "value",
+      "read": "$100,001-$250,000",
+      "note": "DUPONT DE NEMOURS X sits well right of None under stipple; could be $250,001-$500,000."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."
+    },
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 12 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

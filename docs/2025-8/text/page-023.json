@@ -7,12 +7,34 @@
   "rows": [
     {
       "kind": "group",
-      "text": "Ahuja 2010 Trust FBO Khanna Children"
+      "text": "M&R Trust Partnership"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VARONIS SYSTEMS, INC. CMN",
+      "asset_name": "COHERENT CORP CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/25/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "FLORIDA ST DEPT ENVIRONMENTAL REV 5% 07/01/26 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/17/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "ORACLE CORPORATION 4 9% 02/06/2033 USD",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,18 +45,7 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "BAXTER INTERNATIONAL INC 2.539% 02/01/2032 USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/05/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "asset_name": "UNITED RENTALS INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,11 +56,77 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "INTERNATIONAL PRODUCTS & CHEMICALS INC CMN",
+      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIE 1 875 % 02/01/2033 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "PPL CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "11/25/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "INGERSOLL RAND INC CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/25/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "NVENT ELECTRIC PUBLIC LIMITED COMPANY",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/25/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "AT&T INC 2 55% 12/01/2033 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "HCA INC 5 5 / 06/01/2033 USD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/03/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "META PLATFORMS INC-CLASS A CMN CLASS A",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/24/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -67,133 +144,50 @@
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "VISA INC CLASS A CMN",
-      "tx_type": "Purchase",
+      "asset_name": "AIR PRODUCTS & CHEMICALS INC CMN",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "11/24/2025",
+      "date": "11/25/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$15,001-$50,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "CATERPILLAR INC (DELAWARE) CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": true,
+      "partial_sale": true,
+      "date": "11/25/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
     },
     {
       "kind": "tx",
       "owner": "DC",
-      "asset_name": "HCA INC. 5.5% 06/01/2033 USD",
-      "tx_type": "Purchase",
+      "asset_name": "BAXTER INTERNATIONAL INC 2 539 % 02/01/2032 USD",
+      "tx_type": "Sale",
       "cap_gain_over_200": false,
       "partial_sale": false,
+      "date": "11/05/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "DC",
+      "asset_name": "VARONIS SYSTEMS INC CMN",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
       "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "AT&T INC 2.55% 12/01/2033 USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "GE PUBLIC ELECTRIC COMPANY CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/25/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "LINDE PLC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/25/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "PEPSI CORPORATION CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/25/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ALEXANDRIA REAL ESTATE EQUITIES 1.825% 02/01/2033 USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "UNITED RENTALS, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/25/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "ORACLE CORPORATION 2.95% 04/01/2033 USD",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/03/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "FLORIDA ST DEPT ENVIRONMENTAL 5% 07/01/2027",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/12/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "DC",
-      "asset_name": "COHERENT CORP CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/25/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "medium",
+  "transcription_note": "Reconstructed 16 printed transactions using the upright PTR scan. Row order, account heading, notification dates and checkbox columns come from the PTR. Asset labels and trade dates were cross-checked against annual Schedule B pages 316, 317. The opening Coherent transaction was read directly from the PTR."
 }

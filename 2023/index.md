@@ -11,7 +11,7 @@ This is an independent, source-linked transcription of U.S. House financial-disc
 | Metric | Value |
 | --- | ---: |
 | Filing type | annual_financial_disclosure |
-| Reported household holdings | $94.7M – $275.1M+ |
+| Reported household holdings | $99.1M – $298.8M+ |
 | Open-ended holdings | 9 |
 | Reported transactions | 4,677 |
 | Active trading days | 238 |

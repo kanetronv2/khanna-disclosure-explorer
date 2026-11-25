@@ -9,7 +9,7 @@
     {"kind": "asset", "owner": "SP", "asset_name": "BURLINGTON STORES INC CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "C.H. ROBINSON WORLDWIDE, INC. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CABOT CORP. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CABOT OIL & GAS CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CABOT OIL & GAS CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CADENCE DESIGN SYSTEMS INC CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CAMDEN PROPERTY TRUST CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CAMPBELL SOUP CO CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -18,26 +18,52 @@
     {"kind": "asset", "owner": "SP", "asset_name": "CAPRI HOLDINGS LIMITED CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CARDINAL HEALTH, INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CARMAX, INC. CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CARNIVAL CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CARNIVAL CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CARRIER GLOBAL CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CARROLLTON TEX GO 5% 08/15/20 FA GO IMPT AND REF BDS 2015 LT BEO", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CATAWBA CNTY N C LTD OBLIG REV 4.0000% 06/01/21 JD SER A BEO", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CATAWBA CNTY N C LTD OBLIG REV 4.0000% 06/01/21 JD SER A BEO", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CBOE GLOBAL MARKETS, INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CBRE GROUP, INC. CMN CLASS A", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CDK GLOBAL INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CDW CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CDW CORPORATION CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CELANESE CORPORATION COMMON STOCK", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "CENTENE CORPORATION CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "CENTENE CORPORATION CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "CENTENNIAL RESOURCE DEVELOPMEN CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value", "read": null, "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."},
-    {"row": null, "field": "transaction", "read": null, "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."},
-    {"row": null, "field": "income_types", "read": null, "note": "Block C income-type reads best-effort under stipple. TR crop shows BURLINGTON/C.H. ROBINSON/CABOT CORP = NONE. Remaining assignments mix DIVIDENDS, NONE, and CAPITAL GAINS and are approximate; bond rows (CAPE CORAL, CARROLLTON, CATAWBA) uncertain between CAPITAL GAINS/INTEREST/NONE."},
-    {"row": 19, "field": "asset_name", "read": "CBRE GROUP, INC. CMN CLASS A", "note": "Printed text degraded, reads like CBRB/CERB; resolved to CBRE GROUP (commercial real estate)."}
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "transaction",
+      "read": null,
+      "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."
+    },
+    {
+      "row": null,
+      "field": "income_types",
+      "read": null,
+      "note": "Block C income-type reads best-effort under stipple. TR crop shows BURLINGTON/C.H. ROBINSON/CABOT CORP = NONE. Remaining assignments mix DIVIDENDS, NONE, and CAPITAL GAINS and are approximate; bond rows (CAPE CORAL, CARROLLTON, CATAWBA) uncertain between CAPITAL GAINS/INTEREST/NONE."
+    },
+    {
+      "row": 19,
+      "field": "asset_name",
+      "read": "CBRE GROUP, INC. CMN CLASS A",
+      "note": "Printed text degraded, reads like CBRB/CERB; resolved to CBRE GROUP (commercial real estate)."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 6 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

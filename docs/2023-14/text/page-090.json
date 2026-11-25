@@ -28,10 +28,13 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja 1994 Trust", "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."},
-    {"row": 3, "field": "amount_of_income", "read": "$50,001-$100,000", "note": "DuPont amount checkbox is far to the right and should be second-reviewed."},
-    {"row": 12, "field": "value", "read": "$100,001-$250,000", "note": "Elanco value checkbox is faint on the scan."},
-    {"row": 13, "field": "income_types", "read": "DIVIDENDS", "note": "Electronic Arts income type mark is faint; no amount mark other than None is visible."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja 1994 Trust",
+      "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }

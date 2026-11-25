@@ -28,12 +28,35 @@ Sale (not the standard P/S). The shared template decoder now renders P→Purchas
 PS→Partial sale, FS→Full sale, S→Sold, S(part)→Partial sale, and E→Exchanged.
 
 ## 3. Re-read low/medium-confidence & flagged pages
-- Wide **value-matrix** Schedule A pages (e.g. 2019-2 pp29-30): single X across 12 far-apart
-  bucket columns — low confidence on exact bucket. Re-read at higher zoom / pixel-column
-  detection.
+- The low-confidence review below resolved the value matrix on 2019-2 pp29–30 and
+  recovered marks on other field-split sheets.
 - Amount-of-income block sheets: recurring "whole block could be one bucket off" calibration
   flag (2018-4 pp87/90 etc.). Standardize the Min/Max header→bucket mapping and re-verify.
 - Any page with page_confidence low/medium or non-empty uncertainties.
+
+### Low-confidence review (2026-11-25)
+
+Screened the 182 low and eight medium-low pages against their scans. The second pass
+used high-resolution crops, checkbox positions, and ordered matches to annual
+filings where the same transactions were reported. It changed 109 page
+transcriptions, raised confidence on 85, and added a net 731 document transaction
+rows. It also recovered or corrected 822 value bands, 917 income amount bands, and
+188 income-type entries.
+
+| Filing and pages | Changes and remaining limitations |
+| --- | --- |
+| 2018-4 pp246, 288 | Re-read the printed purchase, partial sale and full sale columns, amount bands and capital-gain marks. Corrected several issuer names. |
+| 2019-2 pp29–30, 54–55, 57–59, 63–64, 66–69, 73–87, 89, 96, 98, 101, 103, 106 | Corrected 125 value bands on pp29–30, then recovered values, income amounts, or income types where owner lines and printed column positions could be aligned. Pages with conflicting row counts and unresolved summary marks still need review. The low-confidence Schedule B pages resisted grid recovery. |
+| 2020-14, 2020-15 p6 | Re-read two stippled annual pages in full for valuation and income, and recovered individual cells on 19 others using independent matches on printed asset names. Also re-read the amendment. Stipple still obscures some marks. |
+| 2022-2 pp3–12; 2022-9 p22 | Reconstructed 673 January PTR rows and all 19 rows on the August PTR page. The August page leaves the amount boxes blank. |
+| 2023-6 pp19, 23, 25, 27, 29; 2023-14 flagged pages; 2023-15 pp2–4 | Re-read five transaction pages, corrected the annual checkbox columns and recovered visible amendment bands. Clipped bond and fund descriptions remain flagged. |
+| 2025-5 p19, 2025-6 p20, 2025-7 pp10–12 and 14–15, 2025-8 pp7–12, 14–21 and 23 | Reconstructed the printed transaction rows and checked the account headings, dates, transaction types, amount bands and flags. The original 2025-7 and 2025-8 scans were turned upright for the review. |
+
+105 pages still carry low confidence, including 24 with individual fields improved
+in this pass. The outstanding pages are concentrated in the 2019 field-split and
+Schedule B sheets and the 2020 stippled annual and dense PTR sheets. The date cells
+on 2022-12 p2 remain illegible even at high zoom. For edited pages, the page JSON
+records the method and any remaining uncertainty.
 
 ## 4. Cross-year consistency
 - All value/income/amount bucket strings match the SPEC enums (no OCR variants).

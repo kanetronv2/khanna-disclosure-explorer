@@ -12,11 +12,11 @@
     {"kind": "asset", "owner": "SP", "asset_name": "ANNALY CAPITAL MANAGEMENT, INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ANSYS, INC. CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ANTERO MIDSTREAM CORP CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "ANTHEM, INC. CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "ANTHEM, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "AON PLC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "AON PUBLIC LIMITED COMPANY CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": "PTRN", "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "APACHE CORP. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "APPLE INC. CMN", "value": "$50,001-$100,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "APPLE INC. CMN", "value": "$500,001-$1,000,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$100,001-$1,000,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "APPLIED MATERIALS INC CMN", "value": "$1,001-$15,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "APTIV PLC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ARCH CAPITAL GROUP LTD. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -33,13 +33,49 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "grid", "read": "transposed Schedule A grid under heavy grey stipple shading", "note": "Block B (value) and Block C (income type) read from binarized hi-res quads; best-effort. Block D (amount of income) and Block E (transaction) not reliably legible and left null for all rows."},
-    {"row": 3, "field": "income_types", "read": "NONE", "note": "Muni bond (ANCHORAGE); income read as NONE at col1 but could be INTEREST (col4)."},
-    {"row": 9, "field": "other_income_spec", "read": "PTRN", "note": "Write-in in Other Type of Income column reads 'PTRN' (partnership); accompanying CAPITAL GAINS checkbox uncertain."},
-    {"row": 11, "field": "value", "read": "$50,001-$100,000", "note": "APPLE value X in E/F range, approximate."},
-    {"row": 18, "field": "income_types", "read": "NONE", "note": "Muni bond (ARIZONA); income could be INTEREST."},
-    {"row": 19, "field": "income_types", "read": "NONE", "note": "Muni bond (ARLINGTON); income could be INTEREST."},
-    {"row": 23, "field": "value", "read": "$50,001-$100,000", "note": "AT&T value/income approximate; income read CAPITAL GAINS could be DIVIDENDS."}
+    {
+      "row": 0,
+      "field": "grid",
+      "read": "transposed Schedule A grid under heavy grey stipple shading",
+      "note": "Block B (value) and Block C (income type) read from binarized hi-res quads; best-effort. Block D (amount of income) and Block E (transaction) not reliably legible and left null for all rows."
+    },
+    {
+      "row": 3,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "Muni bond (ANCHORAGE); income read as NONE at col1 but could be INTEREST (col4)."
+    },
+    {
+      "row": 9,
+      "field": "other_income_spec",
+      "read": "PTRN",
+      "note": "Write-in in Other Type of Income column reads 'PTRN' (partnership); accompanying CAPITAL GAINS checkbox uncertain."
+    },
+    {
+      "row": 11,
+      "field": "value",
+      "read": "$50,001-$100,000",
+      "note": "APPLE value X in E/F range, approximate."
+    },
+    {
+      "row": 18,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "Muni bond (ARIZONA); income could be INTEREST."
+    },
+    {
+      "row": 19,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "Muni bond (ARLINGTON); income could be INTEREST."
+    },
+    {
+      "row": 23,
+      "field": "value",
+      "read": "$50,001-$100,000",
+      "note": "AT&T value/income approximate; income read CAPITAL GAINS could be DIVIDENDS."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 4 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

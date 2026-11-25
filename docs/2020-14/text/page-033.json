@@ -8,16 +8,16 @@
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
     {"kind": "asset", "owner": "SP", "asset_name": "INTERNATIONAL GAME TECHNOLOGY PLC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INTERNATIONAL PAPER CO. CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "INTERPUBLIC GROUP COS CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "INTERPUBLIC GROUP COS CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INTL. BUSINESS MACHINES CORP CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INTL. FLAVORS & FRAGRANCE CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INTUIT INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "INTUITIVE SURGICAL, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "INTUITIVE SURGICAL, INC. CMN", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INVESCO LTD. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "INVITATION HOMES INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IONIS PHARMACEUTICALS, INC. CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IOWA FIN AUTH REV REV 5.0000% 08/01/20 FA ST REVOLVING FD REV BDS 2013 BBO SR LIEN S-T SPL RDM S-T", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "IPG PHOTONICS CORPORATION CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "IPG PHOTONICS CORPORATION CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IQVIA HOLDINGS INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IRON MOUNTAIN INCORPORATED CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "ITT INC. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -33,9 +33,25 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value,income_types,amount_of_income,transaction", "read": "best-effort", "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort (X's in cols A/None, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."},
-    {"row": 24, "field": "value", "read": "$1,001-$15,000", "note": "JETBLUE X could be col B ($1-$1,000) vs col C ($1,001-$15,000)."},
-    {"row": null, "field": "income_types", "read": "NONE", "note": "Municipal bond rows (IOWA FIN AUTH, JACKSON TENN, JEA FLA x3) read NONE for income type; would typically pay INTEREST but marks read in NONE column under stipple."}
+    {
+      "row": null,
+      "field": "value,income_types,amount_of_income,transaction",
+      "read": "best-effort",
+      "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort (X's in cols A/None, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."
+    },
+    {
+      "row": 24,
+      "field": "value",
+      "read": "$1,001-$15,000",
+      "note": "JETBLUE X could be col B ($1-$1,000) vs col C ($1,001-$15,000)."
+    },
+    {
+      "row": null,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "Municipal bond rows (IOWA FIN AUTH, JACKSON TENN, JEA FLA x3) read NONE for income type; would typically pay INTEREST but marks read in NONE column under stipple."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 3 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

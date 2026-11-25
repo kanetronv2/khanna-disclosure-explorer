@@ -7,100 +7,200 @@
   "rows": [
     {
       "kind": "tx",
+      "asset_name": "MPLX LP 2.65% 08/15/2030 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
-      "asset_name": "SPLX LP 2.65% 08/15/2030 USD",
+      "amount": "$15,001-$50,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "HYBRID 04/23/2029 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
-      "asset_name": "HYBRID 12/02/2028 USD",
+      "amount": "$15,001-$50,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "ENERGY TRANSFER OPERATING LP 5.25% 04/15/2029 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "ORACLE CORPORATION 4.65% 05/06/2030",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "AUTONATION INC 4.75% 06/01/2030 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "REALTY INCOME CORP 3.95% 08/15/2027 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "BANK OF MONTREAL HYBRID MTN 01/22/2027 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "PNC FINANCIAL SERVICES GROUP, HYBRID 12/02/2026",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
       "asset_name": "BAXTER INTERNATIONAL INC 1.915% 02/01/2027 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$15,001-$50,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "FISERV INC 5.45% 03/02/2028",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
-      "asset_name": "AMERICAN TOWER 3%",
+      "amount": "$15,001-$50,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "AMERICAN TOWER CORP 3.95% 03/15/2029 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
-      "asset_name": "TITEL CORPORATION 5.125%",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "INTEL CORPORATION 5.125% 02/10/2030",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
       "asset_name": "SOUTHERN POWER COMPANY 4.15% 12/01/2025 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
-      "owner": "DC",
       "asset_name": "US BANCORP HYBRID 02/01/2029",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
     },
     {
       "kind": "tx",
+      "asset_name": "HYBRID 04/22/2027 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
       "owner": "DC",
-      "asset_name": "EVERGY INC 2.45% 09/15/2024 USD",
+      "amount": "$1,001-$15,000",
       "tx_type": "Sale",
       "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "06/28/23",
-      "notification_date": "07/06/23",
-      "amount": "$1,001-$15,000"
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "NORTHERN TRUST CORPORATION 3.95% 10/30/2025 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
+    },
+    {
+      "kind": "tx",
+      "asset_name": "EVERGY INC 2.45% 09/15/2024 USD",
+      "date": "06/28/2023",
+      "notification_date": "07/06/2023",
+      "owner": "DC",
+      "amount": "$1,001-$15,000",
+      "tx_type": "Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": false
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": "page",
+      "row": null,
       "field": "asset_name",
-      "note": "Page 29 is severely degraded; only rows with enough visible/OCR text were transcribed, and several issuer names are partial."
+      "note": "The issuer cells on the two rows labeled only HYBRID and a maturity are incomplete in the printed filing."
     }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Re-read the printed rows, dates and checkbox columns from the high-resolution scan."
 }

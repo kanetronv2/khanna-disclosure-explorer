@@ -8,14 +8,14 @@
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1993 Trust"},
     {"kind": "asset", "owner": "SP", "asset_name": "IONIS PHARMACEUTICALS, INC. CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "IPG PHOTONICS CORPORATION CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "IQVIA HOLDINGS INC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "IPG PHOTONICS CORPORATION CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "IQVIA HOLDINGS INC CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IREDELL CNTY N C LTD OBLIG REV 5% 08/01/19 JD REF BDS 2015 SEO SR LIEN", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "IRON MOUNTAIN INCORPORATED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS", "PARTNERSHIP INCOME"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "J B HUNT TRANS SVCS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "J B HUNT TRANS SVCS INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "J. M. SMUCKER COMPANY (THE) CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JACK HENRY & ASSOC INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "JACOBS ENGINEERING GRP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JACK HENRY & ASSOC INC CMN", "eif": null, "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "JACOBS ENGINEERING GRP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "JAZZ PHARMACEUTICALS PLC CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "JEFFERIES FINANCIAL GROUP INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "JERSEY CITY N J GO 2% 12/04/20 JD SPL EMERGENCY BO ANTIC NTS 2018 FGH UT SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -41,19 +41,19 @@
     {"kind": "asset", "owner": "SP", "asset_name": "KLA CORP CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "KNIGHT-SWIFT TRANSPORTATION HO CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "KOHL'S CORP (WISCONSIN) CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KONTOOR BRANDS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "KROGER COMPANY CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KONTOOR BRANDS, INC. CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "KROGER COMPANY CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "L BRANDS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "L3 TECHNOLOGIES INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "L3 TECHNOLOGIES INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "L3HARRIS TECHNOLOGIES INC CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LABORATORY CORPORATION OF AMER CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LAM RESEARCH CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LAMB WESTON HOLDINGS, INC. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LAREDO TEX DB 5% 02/15/19 FA COMB TAX AND REV CTFS OF OBLIG 2018 LT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LAS VEGAS SANDS CORP. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LAS VEGAS SANDS CORP. CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEAR CORPORATION CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEAVENWORTH CNTY KANS GO 4% 12/01/20 JD GO TEMP NTS 2019-1 UT BNK QUAL SEC", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LEGGETT & PLATT, INCORPORATED CMN", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LEGGETT & PLATT, INCORPORATED CMN", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LENNAR CORPORATION CMN CLASS A", "eif": null, "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEWISVILLE TEX INDPT SCH DIST GO 5% 08/15/19 FA ULTD TAX SCH BLDG BDS 2017 UT SEC", "eif": null, "value": null, "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS A", "eif": null, "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -71,11 +71,28 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "layout/block", "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = IONIS PHARMACEUTICALS through LIVE NATION (I/J/K/L range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."},
-    {"row": null, "field": "income_types (muni None vs Interest)", "note": "9 municipal bonds: 5 read Interest (IREDELL, KANSAS ST DEPT TRANSN, KING CNTY WASH, LAREDO, LEWISVILLE); 4 read None (both JERSEY CITY emergency/BAN notes, JOHNSON CNTY KANS, LEAVENWORTH CNTY temp notes) - consistent with short-term notes that paid no coupon in the period, but None-vs-Interest on munis is error-prone. Interest-mark count on the page is 5, matching."},
-    {"row": null, "field": "income_types (CAPITAL GAINS / PARTNERSHIP secondary marks)", "note": "Primary types anchored by munis and by the contiguous None block over the seven non-dividend Liberty entities (rows 47-55). Secondary CAPITAL GAINS marks (IRON MOUNTAIN, JB HUNT, SMUCKER, JACOBS, J&J, JUNIPER, KIMCO, KOHL'S, L3, LAM RESEARCH, LAS VEGAS SANDS + CG-only IONIS/IPG) and the two REIT PARTNERSHIP INCOME marks (IRON MOUNTAIN, KILROY) carry some row-assignment risk."},
-    {"row": 1, "field": "income_types", "read": "CAPITAL GAINS (IONIS, IPG)", "note": "IONIS (row 1) and IPG PHOTONICS (row 2) are non-dividend growth stocks reading Capital-Gains-only (top two marks in the Capital Gains column); could instead be None if the marks are a column over."},
-    {"row": null, "field": "owner", "read": "SP (all rows)", "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."}
+    {
+      "row": null,
+      "field": "layout/block",
+      "note": "Block-split sheet: ONLY the 'Type of Income' grid (Block C) is present. Asset slice = IONIS PHARMACEUTICALS through LIVE NATION (I/J/K/L range), trust 'Ritu Ahuja 1993 Trust'. value/amount_of_income/transaction all null (absent blocks); income_types recorded from the present block for downstream name-based merge."
+    },
+    {
+      "row": null,
+      "field": "income_types (muni None vs Interest)",
+      "note": "9 municipal bonds: 5 read Interest (IREDELL, KANSAS ST DEPT TRANSN, KING CNTY WASH, LAREDO, LEWISVILLE); 4 read None (both JERSEY CITY emergency/BAN notes, JOHNSON CNTY KANS, LEAVENWORTH CNTY temp notes) - consistent with short-term notes that paid no coupon in the period, but None-vs-Interest on munis is error-prone. Interest-mark count on the page is 5, matching."
+    },
+    {
+      "row": null,
+      "field": "income_types (CAPITAL GAINS / PARTNERSHIP secondary marks)",
+      "note": "Primary types anchored by munis and by the contiguous None block over the seven non-dividend Liberty entities (rows 47-55). Secondary CAPITAL GAINS marks (IRON MOUNTAIN, JB HUNT, SMUCKER, JACOBS, J&J, JUNIPER, KIMCO, KOHL'S, L3, LAM RESEARCH, LAS VEGAS SANDS + CG-only IONIS/IPG) and the two REIT PARTNERSHIP INCOME marks (IRON MOUNTAIN, KILROY) carry some row-assignment risk."
+    },
+    {
+      "row": null,
+      "field": "owner",
+      "read": "SP (all rows)",
+      "note": "SP/DC/JT column reads SP on every row (spouse family trust); not individually re-verified per row."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "medium",
+  "transcription_note": "Matched visible income-type marks to printed asset lines and the eight income column headings. Name and account flags can still apply."
 }

@@ -6,14 +6,14 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1995 Trust"},
-    {"kind": "asset", "owner": "SP", "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "BERKSHIRE HATHAWAY INC. CLASS B", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BERRY GLOBAL GROUP INC CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BEST BUY CO INC CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BEXAR CNTY TEX DB 4.0000% 06/15/20 JD PASS THROUGH REV AND LTD TAX BDS 1604 BABY PROJ 2015B LT", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BIOGEN INC. CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "BIOMARIN PHARMACEUTICAL INC. CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "BIOMARIN PHARMACEUTICAL INC. CMN", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BLACKROCK, INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "BLUEBIRD BIO INC CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "BLUEBIRD BIO INC CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BOEING COMPANY CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BOOKING HOLDINGS INC. CMN", "value": null, "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BOSTON PROPERTIES, INC. COMMON STOCK", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -23,8 +23,8 @@
     {"kind": "asset", "owner": "SP", "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BRIXMOR PROPERTY GROUP CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BROADCOM INC. CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "BROADRIDGE FINANCIAL SOLUTIONS IN CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "BROOKFIELD RENEWABLE CORP CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "BROADRIDGE FINANCIAL SOLUTIONS IN CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "BROOKFIELD RENEWABLE CORP CMN", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BROWARD CNTY FLA SCH BRD CTFS COPS 5% 07/01/20 CA JT PARTN COPS 2015B CERTS PARTN BEO S-T SPL RDM", "value": null, "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BROWN FORMAN CORP CL A CMN CLASS A", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "BROWN FORMAN CORP CL B CMN CLASS B", "value": null, "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -33,10 +33,31 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value", "read": null, "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."},
-    {"row": null, "field": "transaction", "read": null, "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."},
-    {"row": null, "field": "income_types", "read": null, "note": "Block C income-type reads best-effort under stipple, combining full page and TR crop. Many positions show CAPITAL GAINS (heavy 2020 rebalancing) or NONE for non-dividend payers; DIVIDENDS for the rest. Individual assignments (esp. NONE vs CAPITAL GAINS and bond rows) are approximate."}
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "Block B (Value of Asset) columns under heavy grey stipple; X positions not reliably resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "Block D (Amount of Income) under heavy stipple; not resolvable. Left null for all rows."
+    },
+    {
+      "row": null,
+      "field": "transaction",
+      "read": null,
+      "note": "Block E (Transaction) under heavy stipple; faint P/S marks visible on several rows but column not reliable. Left null."
+    },
+    {
+      "row": null,
+      "field": "income_types",
+      "read": null,
+      "note": "Block C income-type reads best-effort under stipple, combining full page and TR crop. Many positions show CAPITAL GAINS (heavy 2020 rebalancing) or NONE for non-dividend payers; DIVIDENDS for the rest. Individual assignments (esp. NONE vs CAPITAL GAINS and bond rows) are approximate."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 5 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

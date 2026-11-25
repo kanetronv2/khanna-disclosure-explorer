@@ -12,7 +12,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "BCE GROUP SPONSORED ADR",
+      "asset_name": "3I GROUP PLC UNSPONSORED ADR CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/14/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COMCAST CORPORATION CMN CLASS A VOTING",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -23,7 +34,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "COMCAST CORPORATION CMN CLASS A",
+      "asset_name": "STRYKER CORPORATION CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -34,7 +45,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "EVERGY INC CMN",
+      "asset_name": "FORTINET INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -45,7 +56,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FORTIS INC. CMN",
+      "asset_name": "INTUIT INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -56,18 +67,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "INTUITIVE SURGICAL, INC. CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "CITIGROUP INC CMN",
+      "asset_name": "CBRE GROUP INC CMN CLASS A",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -89,7 +89,18 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "SUMMIT MATERIALS INC CMN",
+      "asset_name": "EQUINIX, INC REIT",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "11/10/2025",
+      "notification_date": "12/04/2025",
+      "amount": "$1,001-$15,000"
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "BROWN & BROWN INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -104,7 +115,7 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "11/10/2025",
+      "date": "11/14/2025",
       "notification_date": "12/04/2025",
       "amount": "$1,001-$15,000"
     },
@@ -122,7 +133,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "CITIGROUP INC CMN",
+      "asset_name": "FISERV INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -133,7 +144,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "JERSEY, INC. CMN",
+      "asset_name": "KEURIG DR PEPPER INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -144,7 +155,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "FUTURE HOLDING INC CMN",
+      "asset_name": "METLIFE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -155,7 +166,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "NCR VOYIX CORP CMN",
+      "asset_name": "DAYFORCE INC CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -166,29 +177,7 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "TOYOTA MOTOR CORPORATION SPON ADR",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "NISOURCE INC CMN",
-      "tx_type": "Purchase",
-      "cap_gain_over_200": false,
-      "partial_sale": false,
-      "date": "11/10/2025",
-      "notification_date": "12/04/2025",
-      "amount": "$1,001-$15,000"
-    },
-    {
-      "kind": "tx",
-      "owner": "SP",
-      "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN",
+      "asset_name": "WEYERHAEUSER COMPANY CMN",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
@@ -198,13 +187,7 @@
     }
   ],
   "free_text": null,
-  "uncertainties": [
-    {
-      "row": 0,
-      "field": "page",
-      "read": "visual/OCR transcription",
-      "note": "Transaction rows were read from the local page images with the existing OCR as an aid; low-confidence pages should be rechecked against the source image before compile."
-    }
-  ],
-  "page_confidence": "low"
+  "uncertainties": [],
+  "page_confidence": "medium",
+  "transcription_note": "Reconstructed 16 printed transactions using the upright PTR scan. Row order, account heading, notification dates and checkbox columns come from the PTR. Asset labels and trade dates were cross-checked against annual Schedule B pages 292."
 }

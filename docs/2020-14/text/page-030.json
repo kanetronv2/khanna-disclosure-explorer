@@ -7,18 +7,18 @@
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
     {"kind": "asset", "owner": "SP", "asset_name": "FLUOR CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FMC CORPORATION CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FORD MOTOR COMPANY CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FMC CORPORATION CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FORD MOTOR COMPANY CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FORT WORTH TEX DB 3.5000% 03/01/20 MB CTFS OBLIG 2010 LT BEO SR LIEN", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FORT WORTH TEX INDPT SCH DIST GO 5% 02/15/20 FA ULTD TAX REF AND SCH BLDG BDS 2015 UT BEO SR LIEN", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FORTINET, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FORTIVE CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FORTUNE BRANDS HOME & SECURITY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FOX CORPORATION CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "FRANKLIN RESOURCES INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FORT WORTH TEX INDPT SCH DIST GO 5% 02/15/20 FA ULTD TAX REF AND SCH BLDG BDS 2015 UT BEO SR LIEN", "value": "None", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FORTINET, INC. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FORTIVE CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FORTUNE BRANDS HOME & SECURITY CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FOX CORPORATION CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": "None", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "FRANKLIN RESOURCES INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "FREEPORT-MCMORAN INC CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GAP INC CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GARLAND TEX ELEC UTIL SYS REV REV 4% 03/01/21 MB REF BDS 2015 BEO", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GARLAND TEX ELEC UTIL SYS REV REV 4% 03/01/21 MB REF BDS 2015 BEO", "value": "$15,001-$50,000", "income_types": ["INTEREST"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GARMIN LTD. CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GARTNER, INC. CMN", "value": "$1,001-$15,000", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GATES INDUSTRIAL CORPORATION P CMN", "value": "None", "income_types": ["NONE"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -26,17 +26,38 @@
     {"kind": "asset", "owner": "SP", "asset_name": "GENERAL DYNAMICS CORP. CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GENERAL ELECTRIC CO CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MILLS INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MOTORS COMPANY CMN", "value": "$100,001-$250,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GENERAL MOTORS COMPANY CMN", "value": "$100,001-$250,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1,001-$2,500", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "GILEAD SCIENCES CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC. CMN", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "GLOBE LIFE INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null}
+    {"kind": "asset", "owner": "SP", "asset_name": "GLOBAL PAYMENTS INC. CMN", "value": "$50,001-$100,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$201-$1,000", "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "GLOBE LIFE INC CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "None", "transaction": null}
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 21, "field": "value", "read": "$100,001-$250,000", "note": "GENERAL MOTORS value X sits well right of None under stipple; exact bucket (F vs neighbors) uncertain."},
-    {"row": 23, "field": "value", "read": "$50,001-$100,000", "note": "GLOBAL PAYMENTS value X between D and E under stipple; uncertain."},
-    {"row": null, "field": "amount_of_income", "read": null, "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."},
-    {"row": null, "field": "value", "read": null, "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."}
+    {
+      "row": 21,
+      "field": "value",
+      "read": "$100,001-$250,000",
+      "note": "GENERAL MOTORS value X sits well right of None under stipple; exact bucket (F vs neighbors) uncertain."
+    },
+    {
+      "row": 23,
+      "field": "value",
+      "read": "$50,001-$100,000",
+      "note": "GLOBAL PAYMENTS value X between D and E under stipple; uncertain."
+    },
+    {
+      "row": null,
+      "field": "amount_of_income",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block D (Amount of Income) and Block E (Transaction) columns fall under heavy grey stipple shading and do not align cleanly to headers; set null for all rows."
+    },
+    {
+      "row": null,
+      "field": "value",
+      "read": null,
+      "note": "PAGE-LEVEL FLAG: Block B (Value) and Block C (Type of Income) read best-effort from binarized quad crops under stipple; individual X-column placement is medium/low confidence."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 12 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

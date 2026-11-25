@@ -8,13 +8,112 @@
     {
       "kind": "tx",
       "owner": "SP",
-      "asset_name": "GEORGIA ST GO 5% 07/01/25",
+      "asset_name": "CENTRAL PUGET SOUND WASH REGL REV 5% 11/01/25 MN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/03/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "GEORGIA ST GO 5% 07/01/23 JJ",
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
       "date": "08/15/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "NEW BERLIN WIS SCH DIST GO 2% 03/01/23 MS",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/08/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "JACKSON CNTY MO SPL OBLIG REV 5.0000% 12/01/22 JD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/04/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "MISSOURI ST HWYS & TRANS COMMN REV 4% 05/01/23 MN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/08/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "SARTELL MINN INDPT SCH DIST NO GO 5% 02/01/23 FA",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/03/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "VIRGINIA COMMONWEALTH REV 5.0000% 03/15/23 MS",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/05/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HONOLULU HAWAII CITY & CNTY GO 5% 07/01/23 JJ",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/08/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "HAWAII ST GO 4% 05/01/23 MN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/02/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "ARAPAHOE CNTY COLO SCH DIST NO GO 4% 12/01/22 JD",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/02/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
     },
     {
       "kind": "tx",
@@ -23,27 +122,111 @@
       "tx_type": "Purchase",
       "cap_gain_over_200": false,
       "partial_sale": false,
-      "date": "08/23/2022",
+      "date": "08/11/2022",
       "notification_date": "09/06/2022",
-      "amount": "$1,001-$15,000"
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "STRYKER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/09/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "STRYKER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/12/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "STRYKER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/15/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "STRYKER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/08/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "STRYKER CORPORATION CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/08/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/17/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "WELLS FARGO & CO (NEW) CMN",
+      "tx_type": "Purchase",
+      "cap_gain_over_200": false,
+      "partial_sale": false,
+      "date": "08/16/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
+    },
+    {
+      "kind": "tx",
+      "owner": "SP",
+      "asset_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+      "tx_type": "Partial Sale",
+      "cap_gain_over_200": false,
+      "partial_sale": true,
+      "date": "08/10/2022",
+      "notification_date": "09/06/2022",
+      "amount": null
     }
   ],
   "free_text": null,
   "uncertainties": [
     {
-      "row": 1,
-      "field": "asset_name",
-      "read": "GEORGIA ST GO 5% 07/01/25",
-      "note": "tesseract very sparse; bond suffix/date partly unclear in scan."
-    },
-    {
       "row": null,
-      "field": "rows",
-      "note": "Only two filled rows visible/recognized on this page; page confidence low."
+      "field": "amount",
+      "read": null,
+      "note": "All amount boxes on this PTR page are blank in the source scan."
     }
   ],
-  "page_confidence": "low",
+  "page_confidence": "medium",
   "image": "docs/2022-9/pages/page-022.jpg",
   "doc": "2022-9",
-  "doc_label": "2022 PTR filed 2022-09-08"
+  "doc_label": "2022 PTR filed 2022-09-08",
+  "transcription_note": "Transcribed all 19 printed rows and cross-checked the names and dates against annual Schedule B pages 352 and 354."
 }

@@ -6,12 +6,12 @@
   "filer": "Rohit Khanna",
   "rows": [
     {"kind": "group", "text": "Ritu Ahuja 1994 Trust"},
-    {"kind": "asset", "owner": "SP", "asset_name": "LAS VEGAS SANDS CORP. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LAS VEGAS SANDS CORP. CMN", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEAR CORPORATION CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEGGETT & PLATT, INCORPORATED CMN", "value": "None", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LEIDOS HLDGS INC CMN", "value": "$15,001-$50,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LENNAR CORPORATION CMN CLASS A", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS", "CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
-    {"kind": "asset", "owner": "SP", "asset_name": "LENNAR CORPORATION CMN CLASS B", "value": "$1-$1,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
+    {"kind": "asset", "owner": "SP", "asset_name": "LENNAR CORPORATION CMN CLASS B", "value": "$1-$1,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": "$1-$200", "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LENNOX INTERNATIONAL INC CMN", "value": "$1,001-$15,000", "income_types": ["DIVIDENDS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LIBERTY BROADBAND CORPORATION CMN CLASS C", "value": "$15,001-$50,000", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
     {"kind": "asset", "owner": "SP", "asset_name": "LIBERTY GLOBAL, PLC CMN CLASS A", "value": "None", "income_types": ["CAPITAL GAINS"], "other_income_spec": null, "amount_of_income": null, "transaction": null},
@@ -34,8 +34,19 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": null, "field": "value,income_types,amount_of_income,transaction", "read": "best-effort", "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort with possible +/-1 column ambiguity under stipple (X's read in cols A/None, B/$1-$1,000, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."},
-    {"row": 13, "field": "income_types", "read": "NONE", "note": "LINCOLN NEB municipal solid waste revenue bond; would typically pay INTEREST but mark reads in NONE column under stipple."}
+    {
+      "row": null,
+      "field": "value,income_types,amount_of_income,transaction",
+      "read": "best-effort",
+      "note": "Transposed Ritu Ahuja 1994 Trust grid under heavy grey stipple. Block B (value) best-effort with possible +/-1 column ambiguity under stipple (X's read in cols A/None, B/$1-$1,000, C/$1,001-$15,000, D/$15,001-$50,000). Block C (income type) best-effort/low-confidence. Block D (amount of income) not legibly resolvable -> null all rows. Block E (transaction) shows scattered P/S marks but per-row alignment unreliable -> null all rows."
+    },
+    {
+      "row": 13,
+      "field": "income_types",
+      "read": "NONE",
+      "note": "LINCOLN NEB municipal solid waste revenue bond; would typically pay INTEREST but mark reads in NONE column under stipple."
+    }
   ],
-  "page_confidence": "low"
+  "page_confidence": "low",
+  "transcription_note": "Recovered or corrected 2 checkbox readings using the printed column positions and independently matched asset-name cells. Other readings remain provisional."
 }

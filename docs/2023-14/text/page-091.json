@@ -28,9 +28,19 @@
   ],
   "free_text": null,
   "uncertainties": [
-    {"row": 0, "field": "context", "read": "continuation of Ritu Ahuja 1994 Trust", "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."},
-    {"row": 3, "field": "income_types", "read": "CAPITAL GAINS", "note": "Equinix income type appears to be capital gains; mark is faint and should be second-reviewed."},
-    {"row": 8, "field": "transaction", "read": null, "note": "Exelixis transaction cell appears blank."}
+    {
+      "row": 0,
+      "field": "context",
+      "read": "continuation of Ritu Ahuja 1994 Trust",
+      "note": "No group header printed on this page; context inferred from the surrounding SP asset sequence."
+    },
+    {
+      "row": 8,
+      "field": "transaction",
+      "read": null,
+      "note": "Exelixis transaction cell appears blank."
+    }
   ],
-  "page_confidence": "medium-low"
+  "page_confidence": "medium",
+  "transcription_note": "Rechecked value, income type and income amount against their printed columns. Clipped asset names are retained as printed."
 }
