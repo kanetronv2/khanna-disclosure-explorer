@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W6RJ2LJQN0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W6RJ2LJQN0');
+</script>
+
+<title>Ro Khanna — 2024 Financial Disclosure (OCR)</title>
+<!-- Superseded by the generated explorer. Kept for old links, but it duplicates the 2024
+     filing with none of the surrounding context, so it stays out of the index. -->
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://www.rokhanna.money/2024/">
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --ink: #1a1d21; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #1d4ed8; --accent-soft: #dbeafe;
+    --warn: #b45309; --warn-soft: #fef3c7; --bad: #b91c1c; --bad-soft: #fee2e2;
+    --ok: #047857; --ok-soft: #d1fae5;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); }
+  .app { display: grid; grid-template-columns: 290px 1fr; height: 100vh; }
+
+  /* ---------- sidebar ---------- */
+  .side { border-right: 1px solid var(--line); background: var(--panel); display: flex; flex-direction: column; min-width: 0; }
+  .side h1 { font-size: 15px; margin: 0; padding: 14px 14px 4px; }
+  .side .sub { color: var(--muted); font-size: 12px; padding: 0 14px 10px; }
+  .searchbox { padding: 0 12px 10px; }
+  .searchbox input { width: 100%; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; font-size: 13px; }
+  .toc { overflow-y: auto; flex: 1; padding-bottom: 20px; }
+  .toc .sec { padding: 8px 14px 3px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); position: sticky; top: 0; background: var(--panel); }
+  .toc a { display: flex; justify-content: space-between; gap: 8px; padding: 3px 14px; color: var(--ink); text-decoration: none; font-size: 12.5px; white-space: nowrap; overflow: hidden; }
+  .toc a .lbl { overflow: hidden; text-overflow: ellipsis; }
+  .toc a:hover { background: var(--accent-soft); }
+  .toc a.active { background: var(--accent); color: #fff; }
+  .toc a .conf { flex: none; width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; }
+  .conf.high { background: var(--ok); } .conf.medium { background: var(--warn); } .conf.low { background: var(--bad); }
+
+  /* search results */
+  .results { overflow-y: auto; flex: 1; display: none; }
+  .results .hit { padding: 8px 14px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 12.5px; }
+  .results .hit:hover { background: var(--accent-soft); }
+  .results .hit .where { color: var(--muted); font-size: 11px; }
+  .results mark { background: #fde68a; padding: 0 1px; }
+  .rescount { padding: 6px 14px; font-size: 11px; color: var(--muted); border-bottom: 1px solid var(--line); display: none; }
+
+  /* ---------- main ---------- */
+  .main { display: flex; flex-direction: column; min-width: 0; }
+  .bar { display: flex; align-items: center; gap: 10px; padding: 8px 14px; border-bottom: 1px solid var(--line); background: var(--panel); flex-wrap: wrap; }
+  .bar button { border: 1px solid var(--line); background: #fff; border-radius: 7px; padding: 5px 11px; cursor: pointer; font-size: 13px; }
+  .bar button:hover { border-color: var(--accent); color: var(--accent); }
+  .bar .pageno { font-weight: 600; }
+  .bar .meta { color: var(--muted); font-size: 12.5px; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .badge.high { background: var(--ok-soft); color: var(--ok); }
+  .badge.medium { background: var(--warn-soft); color: var(--warn); }
+  .badge.low { background: var(--bad-soft); color: var(--bad); }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 0; flex: 1; min-height: 0; }
+  .pane { overflow: auto; min-width: 0; }
+  .pane.img { background: #2b2e33; display: flex; align-items: flex-start; justify-content: center; }
+  .pane.img img { max-width: 100%; height: auto; cursor: zoom-in; }
+  .pane.img.zoomed img { max-width: none; width: 190%; cursor: zoom-out; }
+  .pane.txt { background: var(--panel); padding: 14px 18px 60px; }
+
+  table.grid { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+  .grid th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); border-bottom: 2px solid var(--line); padding: 5px 8px; position: sticky; top: -14px; background: var(--panel); }
+  .grid td { border-bottom: 1px solid var(--line); padding: 4px 8px; vertical-align: top; }
+  .grid tr.group td { background: #eef1f5; font-weight: 700; padding: 6px 8px; }
+  .grid td.owner { color: var(--muted); white-space: nowrap; }
+  .grid tr.flagged td { background: var(--warn-soft); }
+  .unc { margin-top: 16px; border: 1px solid var(--warn); background: var(--warn-soft); border-radius: 8px; padding: 10px 12px; font-size: 12.5px; }
+  .unc h3 { margin: 0 0 6px; font-size: 12px; color: var(--warn); text-transform: uppercase; letter-spacing: .05em; }
+  .free { white-space: pre-wrap; font-size: 13px; }
+  .free table { border-collapse: collapse; } .free td, .free th { border: 1px solid var(--line); padding: 3px 8px; }
+  .hl { background: #fde68a; }
+  .statline { padding: 8px 14px; font-size: 11.5px; color: var(--muted); border-top: 1px solid var(--line); background: var(--panel); }
+  kbd { background: #eee; border-radius: 3px; padding: 0 4px; font-size: 11px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="side">
+    <h1>Ro Khanna — 2024 Financial Disclosure</h1>
+    <div class="sub" id="docsub">OCR transcription · 333 pages</div>
+    <div class="searchbox"><input id="q" type="search" placeholder="Search assets, dates, text…  ( / )"></div>
+    <div class="rescount" id="rescount"></div>
+    <div class="results" id="results"></div>
+    <div class="toc" id="toc"></div>
+    <div class="statline" id="stats"></div>
+  </div>
+  <div class="main">
+    <div class="bar">
+      <button id="prev">←</button>
+      <span class="pageno" id="pageno"></span>
+      <button id="next">→</button>
+      <span class="meta" id="pagemeta"></span>
+      <span class="badge" id="confbadge"></span>
+      <span class="meta" style="margin-left:auto">click image to zoom · <kbd>←</kbd><kbd>→</kbd> pages · <kbd>/</kbd> search</span>
+    </div>
+    <div class="split">
+      <div class="pane img" id="imgpane"><img id="pageimg" alt="page scan"></div>
+      <div class="pane txt" id="txtpane"></div>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script>
+(() => {
+  const DATA = window.FD_DATA?.pages || [];
+  if (!DATA.length) { document.getElementById('txtpane').textContent = 'data.js missing or empty'; return; }
+  const byPage = new Map(DATA.map(p => [p.pdf_page, p]));
+  let cur = DATA[0].pdf_page;
+  let query = '';
+
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const hl = s => {
+    s = esc(s);
+    if (!query) return s;
+    const re = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'ig');
+    return s.replace(re, m => `<span class="hl">${m}</span>`);
+  };
+
+  const SECTION_LABELS = {
+    cover: 'Cover & Preliminary', schedule_a: 'Schedule A — Assets & Unearned Income',
+    schedule_b: 'Schedule B — Transactions', schedule_c: 'Schedule C — Earned Income',
+    schedule_d: 'Schedule D — Liabilities', schedule_e: 'Schedule E — Positions',
+    schedule_f: 'Schedule F — Agreements', schedule_g: 'Schedule G — Gifts',
+    schedule_h: 'Schedule H — Travel', schedule_i: 'Schedule I — Charity in Lieu',
+    exclusions: 'Exclusions / IPO / Trusts', letter: 'Letters', other: 'Other' };
+
+  // ---------- TOC ----------
+  function buildToc() {
+    const toc = document.getElementById('toc');
+    let lastType = null, html = '';
+    for (const p of DATA) {
+      const t = p.page_type || 'other';
+      if (t !== lastType) { html += `<div class="sec">${esc(SECTION_LABELS[t] || t)}</div>`; lastType = t; }
+      const label = p.printed_label || `p. ${p.pdf_page}`;
+      const nrows = (p.rows || []).filter(r => r.kind !== 'group').length;
+      html += `<a href="#p${p.pdf_page}" data-p="${p.pdf_page}" id="toc-${p.pdf_page}">
+        <span class="lbl">PDF ${p.pdf_page} · ${esc(label)}${nrows ? ` · ${nrows} rows` : ''}</span>
+        <span class="conf ${esc(p.page_confidence || '')}"></span></a>`;
+    }
+    toc.innerHTML = html;
+    toc.addEventListener('click', e => {
+      const a = e.target.closest('a[data-p]');
+      if (a) { e.preventDefault(); show(+a.dataset.p); }
+    });
+  }
+
+  // ---------- page render ----------
+  const COLS = {
+    asset: ['Owner', 'Asset', 'Value of Asset', 'Income Type(s)', 'Amount of Income', 'Tx'],
+    tx: ['Owner', 'Asset', 'Type', 'Cap gain >$200', 'Date', 'Amount'],
+  };
+  function rowsTable(p) {
+    const rows = p.rows || [];
+    if (!rows.length) return '';
+    const kind = rows.find(r => r.kind === 'tx') ? 'tx' : 'asset';
+    const flagged = new Set((p.uncertainties || []).map(u => u.row));
+    let h = `<table class="grid"><thead><tr>${COLS[kind].map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>`;
+    rows.forEach((r, i) => {
+      if (r.kind === 'group') { h += `<tr class="group"><td colspan="${COLS[kind].length}">${hl(r.text)}</td></tr>`; return; }
+      const fl = flagged.has(i) || flagged.has(i + 1) ? ' flagged' : '';
+      if (r.kind === 'tx') {
+        h += `<tr class="${fl}"><td class="owner">${esc(r.owner || '')}</td><td>${hl(r.asset_name)}</td><td>${esc(r.tx_type || '')}</td><td>${r.cap_gain_over_200 ? '✓' : ''}</td><td>${esc(r.date || '')}</td><td>${esc(r.amount || '')}</td></tr>`;
+      } else {
+        const inc = (r.income_types || []).join(', ') + (r.other_income_spec ? ` (${r.other_income_spec})` : '');
+        h += `<tr class="${fl}"><td class="owner">${esc(r.owner || '')}</td><td>${hl(r.asset_name)}</td><td>${esc(r.value || '')}</td><td>${esc(inc)}</td><td>${esc(r.amount_of_income || '')}</td><td>${esc(r.transaction || '')}</td></tr>`;
+      }
+    });
+    return h + '</tbody></table>';
+  }
+  function mdish(t) { // minimal markdown: tables + bold + line breaks
+    if (!t) return '';
+    return hl(t)
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      .replace(/^### (.+)$/gm, '<h3>$1</h3>').replace(/^## (.+)$/gm, '<h3>$1</h3>').replace(/^# (.+)$/gm, '<h2>$1</h2>');
+  }
+  function show(n, opts = {}) {
+    if (!byPage.has(n)) return;
+    cur = n;
+    const p = byPage.get(n);
+    document.getElementById('pageimg').src = p.image;
+    document.getElementById('pageno').textContent = `PDF ${p.pdf_page}/333`;
+    document.getElementById('pagemeta').textContent = [p.printed_label, p.section].filter(Boolean).join(' — ');
+    const cb = document.getElementById('confbadge');
+    cb.textContent = p.page_confidence ? `OCR confidence: ${p.page_confidence}` : '';
+    cb.className = 'badge ' + (p.page_confidence || '');
+    let h = rowsTable(p);
+    if (p.free_text) h += `<div class="free">${mdish(p.free_text)}</div>`;
+    if ((p.uncertainties || []).length) {
+      h += `<div class="unc"><h3>⚠ Uncertain readings (${p.uncertainties.length})</h3>` +
+        p.uncertainties.map(u => `<div>· row ${esc(u.row)} <b>${esc(u.field || '')}</b>: “${esc(u.read || '')}” — ${esc(u.note || '')}</div>`).join('') + '</div>';
+    }
+    if (!h) h = '<div class="free" style="color:var(--muted)">No content transcribed for this page.</div>';
+    document.getElementById('txtpane').innerHTML = h;
+    document.querySelectorAll('.toc a.active').forEach(a => a.classList.remove('active'));
+    const ta = document.getElementById('toc-' + n);
+    if (ta) { ta.classList.add('active'); if (!opts.noscroll) ta.scrollIntoView({ block: 'nearest' }); }
+    history.replaceState(null, '', '#p' + n);
+  }
+
+  // ---------- search ----------
+  function doSearch() {
+    const res = document.getElementById('results'), toc = document.getElementById('toc'), rc = document.getElementById('rescount');
+    if (!query) { res.style.display = 'none'; rc.style.display = 'none'; toc.style.display = 'block'; show(cur, { noscroll: false }); return; }
+    const q = query.toLowerCase();
+    const hits = [];
+    for (const p of DATA) {
+      for (const r of (p.rows || [])) {
+        const txt = r.kind === 'group' ? r.text :
+          [r.owner, r.asset_name, r.value, (r.income_types || []).join(' '), r.amount_of_income, r.transaction, r.tx_type, r.date, r.amount].filter(Boolean).join(' · ');
+        if (txt && txt.toLowerCase().includes(q)) hits.push({ p, txt });
+        if (hits.length >= 400) break;
+      }
+      if ((p.free_text || '').toLowerCase().includes(q)) {
+        const i = p.free_text.toLowerCase().indexOf(q);
+        hits.push({ p, txt: '…' + p.free_text.slice(Math.max(0, i - 40), i + 60).replace(/\s+/g, ' ') + '…' });
+      }
+      if (hits.length >= 400) break;
+    }
+    rc.style.display = 'block';
+    rc.textContent = hits.length >= 400 ? '400+ matches (refine search)' : `${hits.length} match${hits.length === 1 ? '' : 'es'}`;
+    res.innerHTML = hits.map((h, i) => `<div class="hit" data-p="${h.p.pdf_page}"><div>${hl(h.txt)}</div><div class="where">PDF p.${h.p.pdf_page} · ${esc(h.p.printed_label || '')} · ${esc(SECTION_LABELS[h.p.page_type] || '')}</div></div>`).join('');
+    res.style.display = 'block'; toc.style.display = 'none';
+    res.onclick = e => { const el = e.target.closest('.hit'); if (el) show(+el.dataset.p, { noscroll: true }); };
+    show(cur, { noscroll: true });
+  }
+
+  // ---------- stats ----------
+  (function stats() {
+    let rows = 0, unc = 0; const conf = { high: 0, medium: 0, low: 0 };
+    for (const p of DATA) { rows += (p.rows || []).filter(r => r.kind !== 'group').length; unc += (p.uncertainties || []).length; if (conf[p.page_confidence] != null) conf[p.page_confidence]++; }
+    document.getElementById('stats').innerHTML =
+      `${DATA.length} pages · ${rows.toLocaleString()} rows · confidence: <b style="color:var(--ok)">${conf.high} high</b> / <b style="color:var(--warn)">${conf.medium} med</b> / <b style="color:var(--bad)">${conf.low} low</b> · ${unc} flagged cells`;
+    document.getElementById('docsub').textContent = `OCR transcription · ${DATA.length} pages · dual-pass verified`;
+  })();
+
+  // ---------- wiring ----------
+  buildToc();
+  document.getElementById('prev').onclick = () => show(Math.max(1, cur - 1));
+  document.getElementById('next').onclick = () => show(Math.min(333, cur + 1));
+  document.getElementById('imgpane').onclick = () => document.getElementById('imgpane').classList.toggle('zoomed');
+  const qbox = document.getElementById('q');
+  let deb; qbox.addEventListener('input', () => { clearTimeout(deb); deb = setTimeout(() => { query = qbox.value.trim(); doSearch(); }, 200); });
+  document.addEventListener('keydown', e => {
+    if (e.target === qbox) { if (e.key === 'Escape') { qbox.value = ''; query = ''; doSearch(); qbox.blur(); } return; }
+    if (e.key === 'ArrowLeft') show(Math.max(1, cur - 1));
+    else if (e.key === 'ArrowRight') show(Math.min(333, cur + 1));
+    else if (e.key === '/') { e.preventDefault(); qbox.focus(); }
+  });
+  const m = location.hash.match(/^#p(\d+)$/);
+  show(m && byPage.has(+m[1]) ? +m[1] : DATA[0].pdf_page);
+})();
+</script>
+</body>
+</html>
